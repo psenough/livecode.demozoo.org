@@ -41,3 +41,10 @@ DJ set by lug00ber
 
 ---
 
+Shader Jam @ Assembly 2020 (10 Aug) ([https://www.youtube.com/watch?v=m7b1lIHiZc8](youtube))
+
+* Branch
+* lamogui
+* Exca ([https://www.shadertoy.com/view/3tsBD7](shadertoy))
+
+DJ set by eimink
