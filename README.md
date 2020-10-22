@@ -19,7 +19,7 @@ DJ set by eimink
 
 Final ([https://www.youtube.com/watch?v=MrN4-JC88ME](youtube))
   1.   469 pts   Monsieur Soleil
-  2.   421 pts   Exca
+  2.   421 pts   Exca ([https://www.shadertoy.com/view/WsGyDW](shadertoy))
 
 Dj set by mayor
 
