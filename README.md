@@ -1,4 +1,4 @@
-# shader_live_coding_history
+# shader_summary
 list of events of shader live coding, hopefuly including results and links
 
 ----
