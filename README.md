@@ -23,7 +23,7 @@ DJ set by eimink
 
 ### Final ([youtube](https://www.youtube.com/watch?v=MrN4-JC88ME))
   1.   469 pts   Monsieur Soleil
-  2.   421 pts   Exca ([https://www.shadertoy.com/view/WsGyDW](shadertoy))
+  2.   421 pts   Exca ([shadertoy](https://www.shadertoy.com/view/WsGyDW))
 
 commentators okkie & ps
 
@@ -54,7 +54,7 @@ DJ set by lug00ber
 ### Round 1 ([youtube](https://www.youtube.com/watch?v=m7b1lIHiZc8))
 * Branch
 * lamogui
-* Exca ([youtube](https://www.shadertoy.com/view/3tsBD7))
+* Exca ([shadertoy](https://www.shadertoy.com/view/3tsBD7))
 
 DJ set by eimink
 
