@@ -67,7 +67,7 @@ DJ set by mayor
 
 ---
 
-## Shader Showdown @ Assembly 2020
+## Shader Showdown @ Assembly 2019 (2-3 Aug)
 
 ### Semifinal #1 ([youtube](https://www.youtube.com/watch?v=3q7abaqoc9I))
 1. Exca
