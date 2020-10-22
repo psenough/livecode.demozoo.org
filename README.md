@@ -25,7 +25,7 @@ Dj set by mayor
 
 ---  
 
-Shader Royale @ Inércia 2020  ([https://www.youtube.com/watch?v=08Ll9OkMmOI](youtube))
+Shader Royale @ Inércia 2020 (2-3 Oct) ([https://www.youtube.com/watch?v=08Ll9OkMmOI](youtube))
 
 1.  #04   141 pts    NuSan
 2.  #06   140 pts    FMS_Cat
