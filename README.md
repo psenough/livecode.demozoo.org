@@ -41,10 +41,34 @@ DJ set by lug00ber
 
 ---
 
-Shader Jam @ Assembly 2020 (10 Aug) ([https://www.youtube.com/watch?v=m7b1lIHiZc8](youtube))
+Shader Jam @ Assembly Summer 2020 (8 Aug)
 
+Round 1 ([https://www.youtube.com/watch?v=m7b1lIHiZc8](youtube))
 * Branch
 * lamogui
 * Exca ([https://www.shadertoy.com/view/3tsBD7](shadertoy))
 
 DJ set by eimink
+
+Round 2 ([https://www.youtube.com/watch?v=3-jwyYfI7Q8](youtube))
+* visy
+* Leon Denise
+* evvvvil
+
+DJ set by mayor
+
+---
+
+Shader Showdown @ Assembly 2020
+
+Semifinal #1 ([https://www.youtube.com/watch?v=3q7abaqoc9I](youtube))
+1. Exca
+2. cce
+
+Semifinal #2 ([https://www.youtube.com/watch?v=JAh4HYtHh9M](youtube))
+1. noby
+2. visy
+
+Final ([https://www.youtube.com/watch?v=vv71jDAwTbM](youtube))
+1. noby
+2. Exca
