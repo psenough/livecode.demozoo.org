@@ -67,15 +67,78 @@ DJ set by mayor
 
 ---
 
+## Shader Showdown @ Revision 2020 (15 Apr)
+
+### Quarterfinals ([youtube](https://www.youtube.com/watch?v=4GRD1gCX7fk))
+1. monsieur soleil
+2. wrighter
+
+commentators ps & kusma
+
+DJ set: ronny
+
+1. cosamentale
+2. branch
+
+commentators ps & kusma
+
+DJ set: h0ffman
+
+1. flopine
+2. provod
+
+commentators ps & kusma
+
+DJ set: lug00ber
+
+1. evvvvil
+2. nusan
+
+commentators ps & kusma
+
+DJ set: alkama
+
+### Semifinals ([youtube](https://www.youtube.com/watch?v=xZ5lepZ3LcE))
+1. wrighter
+2. cosamentale
+
+commentators ps & kusma
+
+DJ set: ronny
+
+1. flopine
+2. evvvvil
+
+commentators ps & kusma
+
+DJ set: lug00ber
+
+### Final ([youtube](https://www.youtube.com/watch?v=2-0tpXlJLBM))
+1. flopine
+2. wrighter
+
+commentators ps, kusma & ferris
+
+DJ set: h0ffman
+
+---
 ## Shader Showdown @ Assembly 2019 (2-3 Aug)
 
 ### Semifinal #1 ([youtube](https://www.youtube.com/watch?v=3q7abaqoc9I))
 1. Exca
 2. cce
 
+commentators okkie & waffle
+
+DJ set by eimink
+
 ### Semifinal #2 ([youtube](https://www.youtube.com/watch?v=JAh4HYtHh9M))
 1. noby
 2. visy
+
+commentators okkie & waffle
+
+DJ set by mayor
 
 ### Final ([youtube](https://www.youtube.com/watch?v=vv71jDAwTbM))
 1. noby
