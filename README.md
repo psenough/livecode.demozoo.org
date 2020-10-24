@@ -246,7 +246,7 @@ commentators chaos & ferris
 
 DJ set: lug00ber
 
-### Shader Showdonwn Showmatch ([youtube](https://www.youtube.com/watch?v=6D6nayoqYjs))
+### Shader Showdown Showmatch ([youtube](https://www.youtube.com/watch?v=6D6nayoqYjs))
 1. provod
 2. xernobyl
 
