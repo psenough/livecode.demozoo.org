@@ -52,7 +52,7 @@ DJ set by lug00ber
 ## Shader Jam @ Assembly Summer 2020 (8 Aug)
 
 ### Round 1 ([youtube](https://www.youtube.com/watch?v=m7b1lIHiZc8))
-* Branch
+* branch
 * lamogui
 * Exca ([shadertoy](https://www.shadertoy.com/view/3tsBD7))
 
@@ -69,7 +69,7 @@ DJ set by mayor
 
 ## Shader Showdown @ Revision 2020 (15 Apr)
 
-### Quarterfinals ([youtube](https://www.youtube.com/watch?v=4GRD1gCX7fk))
+### Quarterfinals #1 ([youtube](https://www.youtube.com/watch?v=4GRD1gCX7fk))
 1. monsieur soleil
 2. wrighter
 
@@ -77,6 +77,7 @@ commentators ps & kusma
 
 DJ set: ronny
 
+### Quarterfinals #2 ([youtube](https://www.youtube.com/watch?v=4GRD1gCX7fk))
 1. cosamentale
 2. branch
 
@@ -84,6 +85,7 @@ commentators ps & kusma
 
 DJ set: h0ffman
 
+### Quarterfinals #3 ([youtube](https://www.youtube.com/watch?v=4GRD1gCX7fk))
 1. flopine
 2. provod
 
@@ -91,6 +93,7 @@ commentators ps & kusma
 
 DJ set: lug00ber
 
+### Quarterfinals #4 ([youtube](https://www.youtube.com/watch?v=4GRD1gCX7fk))
 1. evvvvil
 2. nusan
 
@@ -98,7 +101,7 @@ commentators ps & kusma
 
 DJ set: alkama
 
-### Semifinals ([youtube](https://www.youtube.com/watch?v=xZ5lepZ3LcE))
+### Semifinals #1 ([youtube](https://www.youtube.com/watch?v=xZ5lepZ3LcE))
 1. wrighter
 2. cosamentale
 
@@ -106,6 +109,7 @@ commentators ps & kusma
 
 DJ set: ronny
 
+### Semifinals #2 ([youtube](https://www.youtube.com/watch?v=xZ5lepZ3LcE))
 1. flopine
 2. evvvvil
 
@@ -122,10 +126,11 @@ commentators ps, kusma & ferris
 DJ set: h0ffman
 
 ---
+
 ## Shader Showdown @ Assembly 2019 (2-3 Aug)
 
 ### Semifinal #1 ([youtube](https://www.youtube.com/watch?v=3q7abaqoc9I))
-1. Exca
+1. exca
 2. cce
 
 commentators okkie & waffle
@@ -142,11 +147,87 @@ DJ set by mayor
 
 ### Final ([youtube](https://www.youtube.com/watch?v=vv71jDAwTbM))
 1. noby
-2. Exca
+2. exca
 
 commentators okkie & waffle
 
 DJ set by eimink
+
+---
+
+## Shader Showdown @ Revision 2019 (19-22 Apr)
+
+### Opening round #1 ([youtube](https://www.youtube.com/watch?v=YKtvYAn-v2Y))
+1. evvvvil
+2. lj
+
+DJ set by maq?
+
+commentators Chaos & Ferris
+
+### Opening round #2 ([youtube](https://www.youtube.com/watch?v=YKtvYAn-v2Y))
+1. noby
+2. ponk
+
+DJ set by bod
+
+commentators Chaos & Ferris
+
+### Quarterfinals #1 ([youtube](https://www.youtube.com/watch?v=uifMBMt9ASU))
+1. flopine
+2. noby
+
+commentators ps & kusma
+
+DJ set: lug00ber
+
+### Quarterfinals #2 ([youtube](https://www.youtube.com/watch?v=uifMBMt9ASU))
+1. lsdlive
+2. yx
+
+commentators ps & kusma
+
+DJ set: alkama
+
+### Quarterfinals #3 ([youtube](https://www.youtube.com/watch?v=uifMBMt9ASU))
+1. evvvvil
+2. hardy
+
+commentators ps & kusma
+
+DJ set: lug00ber
+
+### Quarterfinals #4 ([youtube](https://www.youtube.com/watch?v=uifMBMt9ASU))
+1. nusan
+2. provod
+
+commentators ps & kusma
+
+DJ set: alkama
+
+### Semifinals #1 ([youtube](https://www.youtube.com/watch?v=jNhQUksZYkY))
+1. flopine
+2. lsdlive
+
+commentators ps & kusma
+
+DJ set: alkama
+
+### Semifinals #2 ([youtube](https://www.youtube.com/watch?v=jNhQUksZYkY))
+1. nusan
+2. evvvvil
+
+commentators ps & kusma
+
+DJ set: dojoe
+
+### Final ([youtube](https://www.youtube.com/watch?v=gmMPvUwyMxA))
+1. flopine
+2. nusan
+
+commentators ps & kusma
+
+DJ set: lug00ber
 
 ---
 
