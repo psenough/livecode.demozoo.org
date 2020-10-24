@@ -3,7 +3,7 @@ list of events of shader live coding, hopefuly including results and links
 
 ----
 
-## Shader Showdown @ Assembly 2020 (14-18 Oct)
+## Shader Showdown @ Assembly Autumn 2020 (14-18 Oct)
 
 ### Semifinal 1 ([youtube](https://www.youtube.com/watch?v=UV7JBHUckiY))
   1.   196 pts   Exca
