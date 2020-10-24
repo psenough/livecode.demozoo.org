@@ -254,6 +254,9 @@ commentators kusma & ps
 
 DJ set: lug00ber
 
+### Shader coding seminar ([youtube](https://www.youtube.com/watch?v=uFFR31t1WMM))
+flopine & evvvvil
+
 ---
 
 TODO: add missing events, list organizers, link shadertoys/shader download
