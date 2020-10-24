@@ -229,6 +229,31 @@ commentators ps & kusma
 
 DJ set: lug00ber
 
+
+### Qualification for 2020 semifinals #1 ([youtube](https://www.youtube.com/watch?v=tYU2DrI1sGM))
+1. ferris
+2. branch
+
+commentators chaos & ???
+
+DJ set: lug00ber
+
+### Qualification for 2020 semifinals #2 ([youtube](https://www.youtube.com/watch?v=tYU2DrI1sGM))
+1. fizzer
+2. rohtie
+
+commentators chaos & ferris
+
+DJ set: lug00ber
+
+### Shader Showdonwn Showmatch ([youtube](https://www.youtube.com/watch?v=6D6nayoqYjs))
+1. provod
+2. xernobyl
+
+commentators kusma & ps
+
+DJ set: lug00ber
+
 ---
 
 TODO: add missing events, list organizers, link shadertoys/shader download
