@@ -67,6 +67,34 @@ DJ set by mayor
 
 ---
 
+## Shader Showdown @ NOVA 2020 Online (21 Jun)
+
+## Round 1 ([youtube](https://www.youtube.com/watch?v=k_SSkZjlUgE))
+1. evvvvil
+2. wrighter
+
+commentators: h0ffman d0pefish polynomial rc55
+
+DJ set: rc55
+
+## Round 2 ([youtube](https://www.youtube.com/watch?v=PF8yuOTqX4k))
+1. Insomniac
+2. LovelyHanibal
+
+commentators: h0ffman d0pefish polynomial rc55
+
+DJ set: d0pefish
+
+## Final ([youtube](https://www.youtube.com/watch?v=-n_TnBn01Ew))
+1. evvvvil
+2. Insomniac
+
+commentators: h0ffman d0pefish polynomial rc55
+
+DJ set: lug00ber
+
+---
+
 ## Shader Showdown @ Revision 2020 (15 Apr)
 
 ### Quarterfinals #1 ([youtube](https://www.youtube.com/watch?v=4GRD1gCX7fk))
