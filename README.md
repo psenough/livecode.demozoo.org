@@ -287,4 +287,64 @@ flopine & evvvvil
 
 ---
 
+## Shader Showdown @ Revision 2018 (30 Mar - 2 Apr)
+
+### Qualifiers #1 ([youtube](https://www.youtube.com/watch?v=KG_2q4OEhKc))
+1. fizzer
+2. musk
+
+commentators Chaos & urs
+
+DJ set by lug00ber
+
+### Qualifiers #2 ([youtube](https://www.youtube.com/watch?v=KG_2q4OEhKc))
+1. flopine
+2. ken
+
+commentators Chaos & urs
+
+DJ set by ronny
+
+### Qualifiers #3 ([youtube](https://www.youtube.com/watch?v=KG_2q4OEhKc))
+1. provod
+2. ferris
+
+commentators Chaos & urs
+
+DJ set by alkama
+
+### Qualifiers #4 ([youtube](https://www.youtube.com/watch?v=KG_2q4OEhKc))
+1. cupe
+2. lj
+
+commentators Chaos & urs
+
+DJ set by lug00ber & ronny
+
+### Semifinals #1 ([youtube](https://www.youtube.com/watch?v=KTduo6rsTpY))
+1. provod
+2. fizzer
+
+commentators Chaos & urs
+
+DJ set by alkama
+
+### Semifinals #2 ([youtube](https://www.youtube.com/watch?v=KTduo6rsTpY))
+1. flopine
+2. cupe
+
+commentators Chaos & urs
+
+DJ set by lug00ber & ronny
+
+### Final ([youtube](https://www.youtube.com/watch?v=ZwR0zFe57Y4))
+1. provod
+2. flopine
+
+commentators urs & ferris
+
+DJ set by ronny
+
+---
+
 TODO: add missing events, list organizers, link shadertoys/shader download
