@@ -341,7 +341,7 @@ DJ set by lug00ber & ronny
 1. provod
 2. flopine
 
-commentators urs & ferris
+commentators chaos, urs & ferris
 
 DJ set by ronny
 
