@@ -3,7 +3,9 @@ list of events of shader live coding, hopefuly including results and links
 
 ----
 
-## Shader Showdown @ Assembly Autumn 2020 (14-18 Oct)
+# 2020
+
+## Shader Showdown @ Assembly Autumn Online 2020 (14-18 Oct)
 
 ### Semifinal 1 ([youtube](https://www.youtube.com/watch?v=UV7JBHUckiY))
   1.   196 pts   Exca
@@ -49,7 +51,7 @@ DJ set by lug00ber
 
 ---
 
-## Shader Jam @ Assembly Summer 2020 (8 Aug)
+## Shader Jam @ Assembly Summer Online 2020 (8 Aug)
 
 ### Round 1 ([youtube](https://www.youtube.com/watch?v=m7b1lIHiZc8))
 * branch
@@ -95,7 +97,35 @@ DJ set: lug00ber
 
 ---
 
-## Shader Showdown @ Revision 2020 (15 Apr)
+## Shader Showdown @ Outline Online 2020 (22-23 May)
+
+## Round 1 ([youtube](https://www.youtube.com/watch?v=XPUS4x6jopY))
+1. lovely hannibal
+2. monsieur soleil
+
+commentators: okkie & superrogue
+
+DJ set: alkama
+
+## Round 2 ([youtube](https://www.youtube.com/watch?v=WhY2G7cdfSw))
+1. evvvvil
+2. wrighter
+
+commentators: okkie & superogue
+
+DJ set: alkama
+
+## Final ([youtube](https://www.youtube.com/watch?v=55CdkqgCTgk))
+1. evvvvil
+2. lovely hannibal
+
+commentators: okkie & superogue
+
+DJ set: bossman
+
+---
+
+## Shader Showdown @ Revision Online 2020 (15 Apr)
 
 ### Quarterfinals #1 ([youtube](https://www.youtube.com/watch?v=4GRD1gCX7fk))
 1. monsieur soleil
@@ -152,6 +182,10 @@ DJ set: lug00ber
 commentators ps, kusma & ferris
 
 DJ set: h0ffman
+
+---
+
+# 2019
 
 ---
 
