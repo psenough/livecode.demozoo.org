@@ -284,13 +284,12 @@ commentators ps & kusma
 DJ set: dojoe
 
 ### Final ([youtube](https://www.youtube.com/watch?v=gmMPvUwyMxA))
-1. flopine
-2. nusan
+1. nusan
+2. flopine
 
 commentators ps & kusma
 
 DJ set: lug00ber
-
 
 ### Qualification for 2020 semifinals #1 ([youtube](https://www.youtube.com/watch?v=tYU2DrI1sGM))
 1. ferris
@@ -318,6 +317,10 @@ DJ set: lug00ber
 
 ### Shader coding seminar ([youtube](https://www.youtube.com/watch?v=uFFR31t1WMM))
 flopine & evvvvil
+
+---
+
+# 2018
 
 ---
 
