@@ -385,3 +385,9 @@ DJ set by ronny
 ---
 
 TODO: add missing events, list organizers, link shadertoys/shader download
+
+https://github.com/CookieCollective/Live-Coding-Sources
+
+evoke 2020
+
+solskogen 2020
