@@ -391,3 +391,9 @@ https://github.com/CookieCollective/Live-Coding-Sources
 evoke 2020
 
 solskogen 2020
+
+revision 2014, 2015, 2016, 2017, outline 2018 & 2019, cookie 2018 & 2019, nova 2018 & 2019, nordlicht 2018, deadline 2018, evoke 2018 & 2019, uitfeest utrecht 2019, vip 2019
+solskogen live coding history goes back a few more years as well afaik but used slightly different rules, 2019 was the first time the solskogen winner (rohtie) was invited for the finale at revision.
+demosplash did their own showdown in 2019 iirc
+also, what nusan said, the cookie archive is the best source for the (quite many) french events
+ah, fieldfx 2020 is also missing
