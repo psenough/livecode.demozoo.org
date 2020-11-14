@@ -11,25 +11,25 @@ list of events of shader live coding, hopefuly including results and links
   1.   196 pts   Exca
   2.   178 pts   Provod ([youtube](https://www.youtube.com/watch?v=MH7NuNXrxt0))
 
-commentators okkie & ps
+commentators: okkie ps
 
-DJ set by eimink
+DJ set: eimink
 
 ### Semifinal 2 ([youtube](https://youtu.be/UV7JBHUckiY?t=2040))
   1.   336 pts   Monsieur Soleil
   2.   323 pts   evvvvil
 
-commentators okkie & ps
+commentators: okkie ps
 
-DJ set by eimink
+DJ set: eimink
 
 ### Final ([youtube](https://www.youtube.com/watch?v=MrN4-JC88ME))
   1.   469 pts   Monsieur Soleil
   2.   421 pts   Exca ([shadertoy](https://www.shadertoy.com/view/WsGyDW))
 
-commentators okkie & ps
+commentators: okkie ps
 
-Dj set by mayor
+Dj set: mayor
 
 ---  
 
@@ -45,9 +45,9 @@ Dj set by mayor
 8.  #03    56 pts    provod
 9.  #09    11 pts    blackle
 
-commentators ps
+commentators: ps
 
-DJ set by lug00ber
+DJ set: lug00ber
 
 ---
 
@@ -58,14 +58,74 @@ DJ set by lug00ber
 * lamogui
 * Exca ([shadertoy](https://www.shadertoy.com/view/3tsBD7))
 
-DJ set by eimink
+DJ set: eimink
 
 ### Round 2 ([youtube](https://www.youtube.com/watch?v=3-jwyYfI7Q8))
 * visy
 * Leon Denise
 * evvvvil
 
-DJ set by mayor
+DJ set: mayor
+
+---
+
+## Shader Showdown @ Solskogen 2020 (11 Jul)
+
+## Qualifier 1 ([youtube](https://www.youtube.com/watch?v=g9saEPw5Fg))
+1. evvvvil
+2. tapped
+
+commentators: ferris
+
+DJ set: phobium
+
+## Qualifier 2 ([youtube](https://www.youtube.com/watch?v=UWFVrHXz8UI))
+1. alkama
+2. blueberry
+
+commentators: ferris Christian
+
+DJ set: phobium
+
+## Qualifier 3 ([youtube](https://www.youtube.com/watch?v=5rjNcG7ioaU))
+1. blackle
+2. wrighter
+
+commentators: ferris Christian
+
+DJ set: phobium
+
+## Qualifier 4 ([youtube](https://www.youtube.com/watch?v=7NtxP62lAhE))
+1. provod
+2. rohtie
+
+commentators: ferris Christian
+
+DJ set: phobium
+
+## Semifinal 1 ([youtube](https://www.youtube.com/watch?v=gO1V2mCKqOk))
+1. evvvvil
+2. alkama
+
+commentators: ferris gloom
+
+DJ set: phobium
+
+## Semifinal 2 ([youtube](https://www.youtube.com/watch?v=LasL3OGKR_I))
+1. blackle
+2. provod
+
+commentators: ferris gloom
+
+DJ set: phobium
+
+## Final ([youtube](https://www.youtube.com/watch?v=9Nk-cvlonwE))
+1. evvvvil
+2. blackle
+
+commentators: ferris gloom
+
+DJ set: phobium
 
 ---
 
@@ -103,7 +163,7 @@ DJ set: lug00ber
 1. lovely hannibal
 2. monsieur soleil
 
-commentators: okkie & superrogue
+commentators: okkie superogue
 
 DJ set: alkama
 
@@ -111,7 +171,7 @@ DJ set: alkama
 1. evvvvil
 2. wrighter
 
-commentators: okkie & superogue
+commentators: okkie superogue
 
 DJ set: alkama
 
@@ -119,7 +179,7 @@ DJ set: alkama
 1. evvvvil
 2. lovely hannibal
 
-commentators: okkie & superogue
+commentators: okkie superogue
 
 DJ set: bossman
 
@@ -131,7 +191,7 @@ DJ set: bossman
 1. monsieur soleil
 2. wrighter
 
-commentators ps & kusma
+commentators: ps kusma
 
 DJ set: ronny
 
@@ -139,7 +199,7 @@ DJ set: ronny
 1. cosamentale
 2. branch
 
-commentators ps & kusma
+commentators: ps kusma
 
 DJ set: h0ffman
 
@@ -155,7 +215,7 @@ DJ set: lug00ber
 1. evvvvil
 2. nusan
 
-commentators ps & kusma
+commentators: ps kusma
 
 DJ set: alkama
 
@@ -163,7 +223,7 @@ DJ set: alkama
 1. wrighter
 2. cosamentale
 
-commentators ps & kusma
+commentators: ps kusma
 
 DJ set: ronny
 
@@ -171,7 +231,7 @@ DJ set: ronny
 1. flopine
 2. evvvvil
 
-commentators ps & kusma
+commentators: ps kusma
 
 DJ set: lug00ber
 
@@ -179,7 +239,7 @@ DJ set: lug00ber
 1. flopine
 2. wrighter
 
-commentators ps, kusma & ferris
+commentators: ps kusma ferris
 
 DJ set: h0ffman
 
@@ -195,25 +255,25 @@ DJ set: h0ffman
 1. exca
 2. cce
 
-commentators okkie & waffle
+commentators: okkie waffle
 
-DJ set by eimink
+DJ set: eimink
 
 ### Semifinal #2 ([youtube](https://www.youtube.com/watch?v=JAh4HYtHh9M))
 1. noby
 2. visy
 
-commentators okkie & waffle
+commentators: okkie waffle
 
-DJ set by mayor
+DJ set: mayor
 
 ### Final ([youtube](https://www.youtube.com/watch?v=vv71jDAwTbM))
 1. noby
 2. exca
 
-commentators okkie & waffle
+commentators: okkie waffle
 
-DJ set by eimink
+DJ set: eimink
 
 ---
 
@@ -223,23 +283,23 @@ DJ set by eimink
 1. evvvvil
 2. lj
 
-DJ set by maq?
+commentators: chaos ferris
 
-commentators Chaos & Ferris
+DJ set: maq?
 
 ### Opening round #2 ([youtube](https://www.youtube.com/watch?v=YKtvYAn-v2Y))
 1. noby
 2. ponk
 
-DJ set by bod
+commentators: chaos ferris
 
-commentators Chaos & Ferris
+DJ set: bod
 
 ### Quarterfinals #1 ([youtube](https://www.youtube.com/watch?v=uifMBMt9ASU))
 1. flopine
 2. noby
 
-commentators ps & kusma
+commentators: ps kusma
 
 DJ set: lug00ber
 
@@ -247,7 +307,7 @@ DJ set: lug00ber
 1. lsdlive
 2. yx
 
-commentators ps & kusma
+commentators: ps kusma
 
 DJ set: alkama
 
@@ -255,7 +315,7 @@ DJ set: alkama
 1. evvvvil
 2. hardy
 
-commentators ps & kusma
+commentators: ps kusma
 
 DJ set: lug00ber
 
@@ -263,7 +323,7 @@ DJ set: lug00ber
 1. nusan
 2. provod
 
-commentators ps & kusma
+commentators: ps kusma
 
 DJ set: alkama
 
@@ -271,7 +331,7 @@ DJ set: alkama
 1. flopine
 2. lsdlive
 
-commentators ps & kusma
+commentators: ps kusma
 
 DJ set: alkama
 
@@ -279,7 +339,7 @@ DJ set: alkama
 1. nusan
 2. evvvvil
 
-commentators ps & kusma
+commentators: ps kusma
 
 DJ set: dojoe
 
@@ -287,7 +347,7 @@ DJ set: dojoe
 1. nusan
 2. flopine
 
-commentators ps & kusma
+commentators: ps kusma
 
 DJ set: lug00ber
 
@@ -295,7 +355,7 @@ DJ set: lug00ber
 1. ferris
 2. branch
 
-commentators chaos & ???
+commentators: chaos ???
 
 DJ set: lug00ber
 
@@ -303,7 +363,7 @@ DJ set: lug00ber
 1. fizzer
 2. rohtie
 
-commentators chaos & ferris
+commentators: chaos ferris
 
 DJ set: lug00ber
 
@@ -311,7 +371,7 @@ DJ set: lug00ber
 1. provod
 2. xernobyl
 
-commentators kusma & ps
+commentators: kusma ps
 
 DJ set: lug00ber
 
@@ -330,67 +390,63 @@ flopine & evvvvil
 1. fizzer
 2. musk
 
-commentators Chaos & urs
+commentators: chaos urs
 
-DJ set by lug00ber
+DJ set: lug00ber
 
 ### Qualifiers #2 ([youtube](https://www.youtube.com/watch?v=KG_2q4OEhKc))
 1. flopine
 2. ken
 
-commentators Chaos & urs
+commentators: chaos urs
 
-DJ set by ronny
+DJ set: ronny
 
 ### Qualifiers #3 ([youtube](https://www.youtube.com/watch?v=KG_2q4OEhKc))
 1. provod
 2. ferris
 
-commentators Chaos & urs
+commentators: chaos urs
 
-DJ set by alkama
+DJ set: alkama
 
 ### Qualifiers #4 ([youtube](https://www.youtube.com/watch?v=KG_2q4OEhKc))
 1. cupe
 2. lj
 
-commentators Chaos & urs
+commentators: chaos urs
 
-DJ set by lug00ber & ronny
+DJ set: lug00ber ronny
 
 ### Semifinals #1 ([youtube](https://www.youtube.com/watch?v=KTduo6rsTpY))
 1. provod
 2. fizzer
 
-commentators Chaos & urs
+commentators: chaos urs
 
-DJ set by alkama
+DJ set: alkama
 
 ### Semifinals #2 ([youtube](https://www.youtube.com/watch?v=KTduo6rsTpY))
 1. flopine
 2. cupe
 
-commentators Chaos & urs
+commentators: chaos urs
 
-DJ set by lug00ber & ronny
+DJ set: lug00ber ronny
 
 ### Final ([youtube](https://www.youtube.com/watch?v=ZwR0zFe57Y4))
 1. provod
 2. flopine
 
-commentators chaos, urs & ferris
+commentators: chaos urs ferris
 
-DJ set by ronny
+DJ set: ronny
 
 ---
 
 TODO: add missing events, list organizers, link shadertoys/shader download
 
 https://github.com/CookieCollective/Live-Coding-Sources
-
-evoke 2020
-
-solskogen 2020
 
 revision 2014, 2015, 2016, 2017, outline 2018 & 2019, cookie 2018 & 2019, nova 2018 & 2019, nordlicht 2018, deadline 2018, evoke 2018 & 2019, uitfeest utrecht 2019, vip 2019
 solskogen live coding history goes back a few more years as well afaik but used slightly different rules, 2019 was the first time the solskogen winner (rohtie) was invited for the finale at revision.
