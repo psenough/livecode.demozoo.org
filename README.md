@@ -7,8 +7,8 @@ list of events of shader live coding, hopefuly including results and links
 
 ## Shader Royale #2 (4 Dec) ([youtube](https://www.youtube.com/watch?v=wwN5vRXKAl8))
 
-01. cosamentale 326
-02. FMS_Cat 333
+01. FMS_Cat 333
+02. cosamentale 326
 03. nusan 279
 04. monsieursoleil 221
 05. anticore 208
