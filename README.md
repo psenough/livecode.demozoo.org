@@ -5,6 +5,28 @@ list of events of shader live coding, hopefuly including results and links
 
 # 2020
 
+## Shader Royale #2 (4 Dec) ([youtube](https://www.youtube.com/watch?v=wwN5vRXKAl8))
+
+01. cosamentale 326
+02. FMS_Cat 333
+03. nusan 279
+04. monsieursoleil 221
+05. anticore 208
+06. LechugaFeliz 154
+07. branch 151
+08. dok 150
+09. visy 150
+10. wrighter 149
+11. provod 131
+12. Exca 130
+13. NR4 103
+
+commentators: ps
+
+DJ set: lug00ber
+
+---
+
 ## Shader Showdown @ Assembly Autumn Online 2020 (14-18 Oct)
 
 ### Semifinal 1 ([youtube](https://www.youtube.com/watch?v=UV7JBHUckiY))
