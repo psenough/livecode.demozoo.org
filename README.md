@@ -5,6 +5,36 @@ list of events of shader live coding, hopefuly including results and links
 
 # 2020
 
+## Shader Royale @ Hogmanay Party (31 Dec) ([youtube](https://www.youtube.com/watch?v=jxU8s4kukw8))
+
+01. FMS_Cat 317
+02. LechugaFeliz 298
+03. sp4ghet 279
+04. evvvvil 242
+05. provod 228
+06. hArDy 215
+07. wrighter 199
+08. alkama 192
+09. monsieursoleil 170
+10. visy 167
+11. NR4 141
+
+commentators: ps
+
+DJ set: LynnDrum
+
+---
+
+Shader Showcase @ SickhouseTV (6 Dec)
+
+flopine
+nusan
+monsieursoleil
+evvvvil
+
+DJ Set: LynnDrum
+
+---
 ## Shader Royale #2 (4 Dec) ([youtube](https://www.youtube.com/watch?v=wwN5vRXKAl8))
 
 01. FMS_Cat 333
