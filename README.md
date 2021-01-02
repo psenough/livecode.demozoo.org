@@ -25,7 +25,7 @@ DJ set: LynnDrum
 
 ---
 
-Shader Showcase @ SickhouseTV (6 Dec)
+Shader Showdown jam session @ The Overkill Festival / SickhouseTV (6 Dec) ([youtube](https://www.youtube.com/watch?v=ZYBsQBqViG4)) 
 
 * flopine
 * nusan
