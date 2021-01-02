@@ -27,10 +27,10 @@ DJ set: LynnDrum
 
 Shader Showcase @ SickhouseTV (6 Dec)
 
-flopine
-nusan
-monsieursoleil
-evvvvil
+* flopine
+* nusan
+* monsieursoleil
+* evvvvil
 
 DJ Set: LynnDrum
 
