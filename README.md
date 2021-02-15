@@ -3,6 +3,32 @@ list of events of shader live coding, hopefuly including results and links
 
 ----
 
+# 2021
+
+## Shader Royale @ OMZG (12 Feb) ([youtube](https://www.youtube.com/watch?v=Dc5laRa09WY&t=4460s))
+
+    1.  #15   144 pts    NuSan
+    2.  #11   117 pts    cosamentale
+    3.  #05   113 pts    hArDy
+    4.  #07   103 pts    provod
+    5.  #12    98 pts    Flopine
+    6.  #14    89 pts    rimina
+    7.  #06    88 pts    anticore
+    8.  #13    86 pts    totetmatt
+    9.  #03    80 pts    Exca
+   10.  #04    77 pts    monsieursoleil
+   11.  #02    64 pts    wrighter
+   12.  #08    59 pts    LechugaFeliz
+   13.  #01    44 pts    visy
+   14.  #09     8 pts    branch
+        #10     8 pts    NR4
+
+commentators: ps
+
+DJ set: djh0ffman
+
+----
+
 # 2020
 
 ## Shader Royale @ Hogmanay Party (31 Dec) ([youtube](https://www.youtube.com/watch?v=jxU8s4kukw8))
