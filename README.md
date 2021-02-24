@@ -5,6 +5,18 @@ list of events of shader live coding, hopefuly including results and links
 
 # 2021
 
+## Shader Jam @ Chaos Constructions Winter (21 Feb)
+
+cosamentale
+wrighter
+monsieursoleil
+provod
+
+DJ set: dipswitch
+
+organizers: random, havoc
+
+----
 ## Shader Royale @ OMZG (12 Feb) ([youtube](https://www.youtube.com/watch?v=Dc5laRa09WY&t=4460s))
 
 01. NuSan 144
@@ -26,6 +38,8 @@ list of events of shader live coding, hopefuly including results and links
 commentators: ps
 
 DJ set: djh0ffman
+
+organizers: ps, alien01
 
 ----
 
@@ -49,6 +63,8 @@ commentators: ps
 
 DJ set: LynnDrum
 
+organizers: ps, alien01
+
 ---
 
 Shader Showdown jam session @ The Overkill Festival / SickhouseTV (6 Dec) ([youtube](https://www.youtube.com/watch?v=ZYBsQBqViG4)) 
@@ -59,6 +75,8 @@ Shader Showdown jam session @ The Overkill Festival / SickhouseTV (6 Dec) ([yout
 * evvvvil
 
 DJ Set: LynnDrum
+
+organizers: havoc
 
 ---
 ## Shader Royale #2 (4 Dec) ([youtube](https://www.youtube.com/watch?v=wwN5vRXKAl8))
@@ -80,6 +98,8 @@ DJ Set: LynnDrum
 commentators: ps
 
 DJ set: lug00ber
+
+organizers: ps, alien01
 
 ---
 
@@ -126,6 +146,8 @@ Dj set: mayor
 commentators: ps
 
 DJ set: lug00ber
+
+organizers: ps, alien01
 
 ---
 
