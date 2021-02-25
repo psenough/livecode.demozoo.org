@@ -5,12 +5,11 @@ list of events of shader live coding, hopefuly including results and links
 
 # 2021
 
-## Shader Jam @ Chaos Constructions Winter (21 Feb)
-
-cosamentale
-wrighter
-monsieursoleil
-provod
+## Shader Jam @ Chaos Constructions Winter (21 Feb) ([youtube](https://www.youtube.com/watch?v=vWWlE5sc-WY))
+* cosamentale
+* wrighter
+* monsieursoleil
+* provod
 
 DJ set: dipswitch
 
