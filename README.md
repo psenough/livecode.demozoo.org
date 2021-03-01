@@ -1,9 +1,20 @@
 # shader_summary
-list of events of shader live coding, hopefuly including results and links
+list of shader livecoding events, hopefuly including results and links to stuff and eventually in json format so people can make a website about it
 
 ----
 
 # 2021
+
+## Shader Chaλλenge (27 Feb) ([youtube](https://www.youtube.com/watch?v=2NJrpOFxSSo))
+* FMS_Cat
+* butadiene
+* sp4ghet
+
+Live Music: lactoice
+
+organizer: phi16
+
+----
 
 ## Shader Jam @ Chaos Constructions Winter (21 Feb) ([youtube](https://www.youtube.com/watch?v=vWWlE5sc-WY))
 * cosamentale
@@ -16,6 +27,7 @@ DJ set: dipswitch
 organizers: random, havoc
 
 ----
+
 ## Shader Royale @ OMZG (12 Feb) ([youtube](https://www.youtube.com/watch?v=Dc5laRa09WY&t=4460s))
 
 01. NuSan 144
