@@ -555,7 +555,11 @@ DJ set: ronny
 
 ---
 
-## Shader Showdown @ Revision 2017 ()
+# 2017
+
+---
+
+## Shader Showdown @ Revision 2017 (14-17 Apr)
 
 ### Qualifiers #1 ([youtube](https://www.youtube.com/watch?v=Oa_zCThLXRw))
 1. fizzer
