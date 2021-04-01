@@ -555,6 +555,67 @@ DJ set: ronny
 
 ---
 
+## Shader Showdown @ Revision 2017 ()
+
+### Qualifiers #1 ([youtube](https://www.youtube.com/watch?v=Oa_zCThLXRw))
+1. fizzer
+2. lovely hannibal
+
+commentators: chaos gopher
+
+DJ set: alkama
+
+### Qualifiers #2 ([youtube](https://www.youtube.com/watch?v=Oa_zCThLXRw))
+1. cupe
+2. blueberry
+
+commentators: chaos gopher
+
+DJ set: lug00ber
+
+### Qualifiers #3 ([youtube](https://www.youtube.com/watch?v=Oa_zCThLXRw))
+1. eybor
+2. ren hoëk
+
+commentators: chaos gopher
+
+DJ set: ronny
+
+### Qualifiers #4 ([youtube](https://www.youtube.com/watch?v=Oa_zCThLXRw))
+1. lj
+2. branch
+
+commentators: chaos gopher
+
+DJ set: lug00ber ronny
+
+### Semifinals #1 ([youtube](https://www.youtube.com/watch?v=m6xWreYb3zM))
+1. cupe
+2. fizze
+
+commentators: chaos gopher
+
+DJ set: lug00ber
+
+### Semifinals #2 ([youtube](https://www.youtube.com/watch?v=m6xWreYb3zM))
+1. lj
+2. eybor
+
+commentators: chaos urs
+
+DJ set: ronny
+
+### Final ([youtube](https://www.youtube.com/watch?v=O-1zEo7DD8w))
+1. lj
+2. cupe
+
+commentators: chaos gopher
+
+DJ set: alkama
+
+---
+
+
 TODO: add missing events, list organizers, link shadertoys/shader download
 
 https://github.com/CookieCollective/Live-Coding-Sources
