@@ -66,14 +66,14 @@ Commentators: Diffty, ps, okkie, wrighter, flopine
 ### Shaderjam 1
 * nusan
 * lechugafeliz
-* eimink
+* eimink ([shadertoy](https://www.shadertoy.com/view/fsjGDD))
 
 DJ set: LynnDrum
 
 ### Shaderjam 2
 * plek
 * evvvvil
-* sp4ghet
+* sp4ghet ([shadertoy](https://www.shadertoy.com/view/Ndj3Wm))
 
 DJ set: messy
 
