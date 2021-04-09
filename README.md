@@ -5,6 +5,85 @@ list of shader livecoding events, hopefuly including results and links to stuff 
 
 # 2021
 
+## Shader Showdown @ Revision Online 2021 (2-5 April)
+
+### Quarterfinal 1
+1. anticore
+2. LechugaFelix
+
+DJ set: ronny
+
+Commentators: Diffty, ps, okkie, blackle
+
+### Quarterfinal 2
+1. blackle
+2. cosamentale
+
+DJ set: h0ffman
+
+Commentators: Diffty, ps, okkie, flopine
+
+### Quarterfinal 3
+1. evvvvil
+2. monsieursoleil
+
+DJ set: ronny
+
+Commentators: Diffty, ps, okkie, blackle
+
+### Quarterfinal 4
+1. flopine
+2. wrighter
+
+DJ set: ronny
+
+Commentators: Diffty, ps, okkie, blackle
+
+### Semifinal 1
+1. blackle
+2. anticore
+
+DJ set: h0ffman
+
+Commentators: Diffty, ps, okkie, flopine
+
+### Semifinal 2
+1. evvvvil
+2. flopine
+ 
+DJ set: ronny
+
+Commentators: Diffty, ps, okkie, blackle
+
+### Final
+1. blackle
+2. evvvvil
+
+DJ set: alkama
+
+Commentators: Diffty, ps, okkie, wrighter, flopine
+
+### Shaderjam 1
+* nusan
+* lechugafeliz
+* eimink
+
+DJ set: LynnDrum
+
+### Shaderjam 2
+* plek
+* evvvvil
+* sp4ghet
+
+DJ set: messy
+
+### Shaderjam 3
+* exca
+* rimina
+* visy
+
+DJ set: ghost
+
 ## Shader Chaλλenge (27 Feb) ([youtube](https://www.youtube.com/watch?v=2NJrpOFxSSo))
 * FMS_Cat
 * butadiene
