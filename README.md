@@ -78,7 +78,7 @@ DJ set: LynnDrum
 DJ set: messy
 
 ### Shaderjam 3
-* exca
+* exca ([shadertoy](https://www.shadertoy.com/view/NdjGzG))
 * rimina
 * visy
 
