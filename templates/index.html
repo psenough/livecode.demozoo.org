@@ -14,6 +14,13 @@
         font-family: "B612";
         src: url("assets/font/B612-Regular.ttf") format("truetype");
       }
+      html > * {
+        font-family: "B612";
+        padding: 0px;
+        margin: 0px;
+        background-color: #050505;
+        color: white;
+      }
       h1,
       h2,
       h3,
@@ -34,38 +41,30 @@
       div {
         text-align: center;
       }
-      html > * {
-        font-family: "B612";
-        padding: 0px;
-        margin: 0px;
-      }
-      .phase {
+
+      .phase,
+      .staff {
+        display: flex;
         font-family: "B612Mono";
-        margin-left: auto;
-        margin-right: auto;
-        width: 50vw;
-      }
-      .entry.table {
-        margin: auto;
-      }
-      .entry.table td {
-        padding: 5px;
-        margin: auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
       }
 
-      .entry_handle,
-      .entry_rank {
-        font-weight: bolder;
+      .phase td {
+        padding: 5px;
+      }
+      .phase > .entry div {
+        padding: 15px;
+      }
+
+      .staff td {
+        padding: 5px;
+        justify-content: left;
         text-align: left;
       }
-      .entry_point,
-      .entry_id,
-      .entry_rank {
+      .staff .entry_job {
         text-align: right;
-      }
-      .jam {
-        display: flex;
-        flex-direction: row;
       }
     </style>
   </head>

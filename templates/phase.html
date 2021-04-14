@@ -1,38 +1,54 @@
 {% macro entryFormatRanked(entries) -%}
-<table class="phase table">
+<table class="phase">
   {% for entry in entries %}
-  <tr class="entry table">
+  <tr class="entry">
     {% if entry['rank'] %}
-    <td class="entry_rank table">{{entry['rank']}}</td>
+    <td class="entry_rank">{{entry['rank']}}</td>
     {% endif %}
-    <td class="entry_handle table">{{entry['handle']}}</td>
+    <td class="entry_handle">{{entry['handle']}}</td>
     {% if entry['id'] %}
-    <td class="entry_id table">#{{entry['id']}}</td>
+    <td class="entry_id">#{{entry['id']}}</td>
     {% endif %} {% if entry['points'] %}
-    <td class="entry_point table">{{entry['points'] or ""}}pts</td>
+    <td class="entry_point">{{entry['points'] or ""}}pts</td>
     {% endif %}
   </tr>
   {% endfor %}
 </table>
 
-{%- endmacro %} {% macro entryFormatJam(entries) -%}
-<div class="phase jam">
+{%- endmacro %}
+
+{% macro entryFormatJam(entries) -%}
+<div class="phase">
   {% for entry in entries %}
-  <div class="entry jam">
+  <div class="entry">
+
     {% if entry['id'] %}
-    <div class="entry_id jam">#{{entry['id']}}</div>
-    {% endif %} {% if entry['rank'] %}
-    <div class="entry_rank jam">{{entry['rank']}}</div>
-    {% endif %} {% if entry['points'] %}
-    <div class="entry_point jam">{{entry['points'] or ""}}pts</div>
+    <div class="entry_id">#{{entry['id']}}</div>
     {% endif %}
-    <div class="entry_handle jam">{{entry['handle']}}</div>
+    
+    {% if entry['rank'] %}
+    <div class="entry_rank">{{entry['rank']}}</div>
+    {% endif %} 
+    
+    {% if entry['points'] %}
+    <div class="entry_point">{{entry['points'] or ""}}pts</div>
+    {% endif %}
+
+    <div class="entry_handle">{{entry['handle']}}</div>
   </div>
   {% endfor %}
 </div>
 
 {%- endmacro %} {% if phase['title'] %}
-<h3>{{phase['title']}}</h3>
-{% endif %} {% if phase['entries'][0]['rank'] %}
-{{entryFormatRanked(phase['entries'])}} {% else %}
-{{entryFormatJam(phase['entries'])}} {% endif %}
+    <h3>{{phase['title']}}</h3>
+{% endif %} 
+
+{% if phase['entries'][0]['rank'] %}
+    {{entryFormatRanked(phase['entries'])}} 
+{% else %}
+    {{entryFormatJam(phase['entries'])}}
+{% endif %} 
+
+{% set staffs = phase['staffs']%}
+
+<div>{% include 'staff.html' %}</div>

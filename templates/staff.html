@@ -1,0 +1,8 @@
+<table class="staff">
+  {% for job, staff in staffs|groupby('job') %}
+  <tr class="entry">
+    <td class="entry_job">{{job}} :</td>
+    <td class="entry_handles">{{staff|join(', ', attribute='handle') }}</td>
+  </tr>
+  {% endfor %}
+</table>
