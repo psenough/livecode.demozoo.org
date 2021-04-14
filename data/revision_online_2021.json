@@ -1,0 +1,419 @@
+{
+  "title": "Revision Online 2021",
+  "date": "2-5 April 2021",
+  "type": "Shader Showdown",
+  "vod": null,
+  "phases": [
+    {
+      "title": "Quarter Final 1",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "anticore",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "LechugaFelix",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "ronny",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "Diffty",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "blackle",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Quarter Final 2",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "blackle",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "cosamentale",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "h0ffman",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "Diffty",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "flopine",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Quarter Final 3",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "monsieursoleil",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "ronny",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "Diffty",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "blackle",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Quarter Final 4",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "flopine",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "wrighter",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "ronny",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "Diffty",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "blackle",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Semi Final 1",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "blackle",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "anticore",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "ronny",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "Diffty",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "flopine",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Semi Final 2",
+      "entries": [
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "flopine",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "ronny",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "Diffty",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "blackle",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Final",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "blackle",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "alkama",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "Diffty",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "wrighter",
+          "job": "Commentators"
+        },
+        {
+          "handle": "flopine",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Shaderjam 1",
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "nusan",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "lechugafeliz",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "eimink",
+          "shader_file": null,
+          "shadertoy_url": "https://www.shadertoy.com/view/fsjGDD"
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "LynnDrum",
+          "job": "Dj Set"
+        }
+      ]
+    },
+    {
+      "title": "Shaderjam 2",
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "plek",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "sp4ghet",
+          "shader_file": null,
+          "shadertoy_url": "https://www.shadertoy.com/view/Ndj3Wm"
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "messy",
+          "job": "Dj Set"
+        }
+      ]
+    },
+    {
+      "title": "Shaderjam 3",
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "exca",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "rimina",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "visy",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "ghost",
+          "job": "Dj Set"
+        }
+      ]
+    }
+  ],
+  "staffs": []
+}
