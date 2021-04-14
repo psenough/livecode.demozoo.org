@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shader Royale</title>
+    <style>
+      @font-face {
+        font-family: "B612Mono";
+        src: url("assets/font/B612Mono-Regular.ttf") format("truetype");
+      }
+      @font-face {
+        font-family: "B612";
+        src: url("assets/font/B612-Regular.ttf") format("truetype");
+      }
+      html > * {
+        font-family: "B612";
+        padding: 0px;
+        margin: 0px;
+      }
+      .phase {
+        font-family: "B612Mono";
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .entry {
+        display: flex;
+
+        margin: auto;
+      }
+      .entry > td {
+        padding: 5px;
+        width: 100px;
+        margin: auto;
+      }
+
+      .entry_handle,
+      .entry_rank {
+        font-weight: bolder;
+      }
+
+      .jam {
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Shader Summary</h1>
+    {% for event in events %}
+    <div>{% include 'event.html' %}</div>
+    {% endfor %}
+  </body>
+</html>

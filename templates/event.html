@@ -1,0 +1,4 @@
+<h2>{{event['title']}}</h2>
+{% for phase in event['phases'] %}
+<div>{% include 'phase.html' %}</div>
+{% endfor %}

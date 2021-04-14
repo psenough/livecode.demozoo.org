@@ -3,6 +3,7 @@
   "date": "2-5 April 2021",
   "type": "Shader Showdown",
   "vod": null,
+  "software_used": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
   "phases": [
     {
       "title": "Quarter Final 1",
@@ -224,7 +225,7 @@
       "entries": [
         {
           "id": null,
-          "rank": 2,
+          "rank": 1,
           "points": null,
           "handle": "evvvvil",
           "shader_file": null,
