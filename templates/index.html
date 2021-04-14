@@ -14,6 +14,26 @@
         font-family: "B612";
         src: url("assets/font/B612-Regular.ttf") format("truetype");
       }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        text-align: center;
+      }
+      h1 {
+        font-size: 4em;
+      }
+      h2 {
+        font-size: 3em;
+      }
+      h3 {
+        font-size: 2em;
+      }
+      div {
+        text-align: center;
+      }
       html > * {
         font-family: "B612";
         padding: 0px;
@@ -23,23 +43,26 @@
         font-family: "B612Mono";
         margin-left: auto;
         margin-right: auto;
+        width: 50vw;
       }
-      .entry {
-        display: flex;
-
+      .entry.table {
         margin: auto;
       }
-      .entry > td {
+      .entry.table td {
         padding: 5px;
-        width: 100px;
         margin: auto;
       }
 
       .entry_handle,
       .entry_rank {
         font-weight: bolder;
+        text-align: left;
       }
-
+      .entry_point,
+      .entry_id,
+      .entry_rank {
+        text-align: right;
+      }
       .jam {
         display: flex;
         flex-direction: row;
@@ -50,6 +73,8 @@
     <h1>Shader Summary</h1>
     {% for event in events %}
     <div>{% include 'event.html' %}</div>
+
+    <hr />
     {% endfor %}
   </body>
 </html>

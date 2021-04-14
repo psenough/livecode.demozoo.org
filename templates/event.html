@@ -1,4 +1,9 @@
-<h2>{{event['title']}}</h2>
-{% for phase in event['phases'] %}
+<h2>{{event['type']}} @ {{event['title']}} - {{event['date']}}</h2>
+
+{% if event['vod'] %}
+<div><a href="{{event['vod']}}">VOD</a></div>
+{% endif %} {% if event['software_used'] %}
+<div><a href="{{event['software_used']}}">Software Used</a></div>
+{% endif %} {% for phase in event['phases'] %}
 <div>{% include 'phase.html' %}</div>
 {% endfor %}

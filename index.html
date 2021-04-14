@@ -14,6 +14,26 @@
         font-family: "B612";
         src: url("assets/font/B612-Regular.ttf") format("truetype");
       }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        text-align: center;
+      }
+      h1 {
+        font-size: 4em;
+      }
+      h2 {
+        font-size: 3em;
+      }
+      h3 {
+        font-size: 2em;
+      }
+      div {
+        text-align: center;
+      }
       html > * {
         font-family: "B612";
         padding: 0px;
@@ -23,23 +43,26 @@
         font-family: "B612Mono";
         margin-left: auto;
         margin-right: auto;
+        width: 50vw;
       }
-      .entry {
-        display: flex;
-
+      .entry.table {
         margin: auto;
       }
-      .entry > td {
+      .entry.table td {
         padding: 5px;
-        width: 100px;
         margin: auto;
       }
 
       .entry_handle,
       .entry_rank {
         font-weight: bolder;
+        text-align: left;
       }
-
+      .entry_point,
+      .entry_id,
+      .entry_rank {
+        text-align: right;
+      }
       .jam {
         display: flex;
         flex-direction: row;
@@ -49,132 +72,30 @@
   <body>
     <h1>Shader Summary</h1>
     
-    <div><h2>Inércia 2020</h2>
+    <div><h2>Shader Showdown @ Revision Online 2021 - 2-5 April 2021</h2>
 
-<div>   
-<table class="phase">
-  
-  <tr class="entry">
-    
-    <td class="entry_id">#04</td>
-     
-    <td class="entry_rank">1</td>
-     
-    <td class="entry_point">141pts</td>
-    
-    <td class="entry_handle">NuSan</td>
-  </tr>
-  
-  <tr class="entry">
-    
-    <td class="entry_id">#06</td>
-     
-    <td class="entry_rank">2</td>
-     
-    <td class="entry_point">140pts</td>
-    
-    <td class="entry_handle">FMS_Cat</td>
-  </tr>
-  
-  <tr class="entry">
-    
-    <td class="entry_id">#01</td>
-     
-    <td class="entry_rank">3</td>
-     
-    <td class="entry_point">99pts</td>
-    
-    <td class="entry_handle">wrighter</td>
-  </tr>
-  
-  <tr class="entry">
-    
-    <td class="entry_id">#08</td>
-     
-    <td class="entry_rank">4</td>
-     
-    <td class="entry_point">94pts</td>
-    
-    <td class="entry_handle">evvvvil</td>
-  </tr>
-  
-  <tr class="entry">
-    
-    <td class="entry_id">#05</td>
-     
-    <td class="entry_rank">5</td>
-     
-    <td class="entry_point">73pts</td>
-    
-    <td class="entry_handle">LechugaFeliz</td>
-  </tr>
-  
-  <tr class="entry">
-    
-    <td class="entry_id">#07</td>
-     
-    <td class="entry_rank">6</td>
-     
-    <td class="entry_point">71pts</td>
-    
-    <td class="entry_handle">fizzer</td>
-  </tr>
-  
-  <tr class="entry">
-    
-    <td class="entry_id">#02</td>
-     
-    <td class="entry_rank">7</td>
-     
-    <td class="entry_point">70pts</td>
-    
-    <td class="entry_handle">rimina</td>
-  </tr>
-  
-  <tr class="entry">
-    
-    <td class="entry_id">#03</td>
-     
-    <td class="entry_rank">8</td>
-     
-    <td class="entry_point">56pts</td>
-    
-    <td class="entry_handle">provod</td>
-  </tr>
-  
-  <tr class="entry">
-    
-    <td class="entry_id">#09</td>
-     
-    <td class="entry_rank">9</td>
-     
-    <td class="entry_point">11pts</td>
-    
-    <td class="entry_handle">blackle</td>
-  </tr>
-  
-</table> </div>
-</div>
-    
-    <div><h2>Revision Online 2021</h2>
-
+ 
+<div><a href="https://github.com/TheNuSan/Bonzomatic/releases/tag/v11">Software Used</a></div>
+ 
 <div>  
 <h3>Quarter Final 1</h3>
  
-<table class="phase">
+<table class="phase table">
   
-  <tr class="entry">
+  <tr class="entry table">
+    
+    <td class="entry_rank table">1</td>
+    
+    <td class="entry_handle table">anticore</td>
      
-    <td class="entry_rank">1</td>
-     
-    <td class="entry_handle">anticore</td>
   </tr>
   
-  <tr class="entry">
+  <tr class="entry table">
+    
+    <td class="entry_rank table">2</td>
+    
+    <td class="entry_handle table">LechugaFelix</td>
      
-    <td class="entry_rank">2</td>
-     
-    <td class="entry_handle">LechugaFelix</td>
   </tr>
   
 </table> </div>
@@ -182,20 +103,22 @@
 <div>  
 <h3>Quarter Final 2</h3>
  
-<table class="phase">
+<table class="phase table">
   
-  <tr class="entry">
+  <tr class="entry table">
+    
+    <td class="entry_rank table">1</td>
+    
+    <td class="entry_handle table">blackle</td>
      
-    <td class="entry_rank">1</td>
-     
-    <td class="entry_handle">blackle</td>
   </tr>
   
-  <tr class="entry">
+  <tr class="entry table">
+    
+    <td class="entry_rank table">2</td>
+    
+    <td class="entry_handle table">cosamentale</td>
      
-    <td class="entry_rank">2</td>
-     
-    <td class="entry_handle">cosamentale</td>
   </tr>
   
 </table> </div>
@@ -203,20 +126,22 @@
 <div>  
 <h3>Quarter Final 3</h3>
  
-<table class="phase">
+<table class="phase table">
   
-  <tr class="entry">
+  <tr class="entry table">
+    
+    <td class="entry_rank table">1</td>
+    
+    <td class="entry_handle table">evvvvil</td>
      
-    <td class="entry_rank">1</td>
-     
-    <td class="entry_handle">evvvvil</td>
   </tr>
   
-  <tr class="entry">
+  <tr class="entry table">
+    
+    <td class="entry_rank table">2</td>
+    
+    <td class="entry_handle table">monsieursoleil</td>
      
-    <td class="entry_rank">2</td>
-     
-    <td class="entry_handle">monsieursoleil</td>
   </tr>
   
 </table> </div>
@@ -224,20 +149,22 @@
 <div>  
 <h3>Quarter Final 4</h3>
  
-<table class="phase">
+<table class="phase table">
   
-  <tr class="entry">
+  <tr class="entry table">
+    
+    <td class="entry_rank table">1</td>
+    
+    <td class="entry_handle table">flopine</td>
      
-    <td class="entry_rank">1</td>
-     
-    <td class="entry_handle">flopine</td>
   </tr>
   
-  <tr class="entry">
+  <tr class="entry table">
+    
+    <td class="entry_rank table">2</td>
+    
+    <td class="entry_handle table">wrighter</td>
      
-    <td class="entry_rank">2</td>
-     
-    <td class="entry_handle">wrighter</td>
   </tr>
   
 </table> </div>
@@ -245,20 +172,22 @@
 <div>  
 <h3>Semi Final 1</h3>
  
-<table class="phase">
+<table class="phase table">
   
-  <tr class="entry">
+  <tr class="entry table">
+    
+    <td class="entry_rank table">1</td>
+    
+    <td class="entry_handle table">blackle</td>
      
-    <td class="entry_rank">1</td>
-     
-    <td class="entry_handle">blackle</td>
   </tr>
   
-  <tr class="entry">
+  <tr class="entry table">
+    
+    <td class="entry_rank table">2</td>
+    
+    <td class="entry_handle table">anticore</td>
      
-    <td class="entry_rank">2</td>
-     
-    <td class="entry_handle">anticore</td>
   </tr>
   
 </table> </div>
@@ -266,20 +195,22 @@
 <div>  
 <h3>Semi Final 2</h3>
  
-<table class="phase">
+<table class="phase table">
   
-  <tr class="entry">
+  <tr class="entry table">
+    
+    <td class="entry_rank table">1</td>
+    
+    <td class="entry_handle table">evvvvil</td>
      
-    <td class="entry_rank">1</td>
-     
-    <td class="entry_handle">evvvvil</td>
   </tr>
   
-  <tr class="entry">
+  <tr class="entry table">
+    
+    <td class="entry_rank table">2</td>
+    
+    <td class="entry_handle table">flopine</td>
      
-    <td class="entry_rank">2</td>
-     
-    <td class="entry_handle">flopine</td>
   </tr>
   
 </table> </div>
@@ -287,20 +218,22 @@
 <div>  
 <h3>Final</h3>
  
-<table class="phase">
+<table class="phase table">
   
-  <tr class="entry">
+  <tr class="entry table">
+    
+    <td class="entry_rank table">1</td>
+    
+    <td class="entry_handle table">blackle</td>
      
-    <td class="entry_rank">1</td>
-     
-    <td class="entry_handle">blackle</td>
   </tr>
   
-  <tr class="entry">
+  <tr class="entry table">
+    
+    <td class="entry_rank table">2</td>
+    
+    <td class="entry_handle table">evvvvil</td>
      
-    <td class="entry_rank">2</td>
-     
-    <td class="entry_handle">evvvvil</td>
   </tr>
   
 </table> </div>
@@ -310,19 +243,19 @@
  
 <div class="phase jam">
   
-  <div class="entry">
+  <div class="entry jam">
       
-    <div class="entry_handle">nusan</div>
+    <div class="entry_handle jam">nusan</div>
   </div>
   
-  <div class="entry">
+  <div class="entry jam">
       
-    <div class="entry_handle">lechugafeliz</div>
+    <div class="entry_handle jam">lechugafeliz</div>
   </div>
   
-  <div class="entry">
+  <div class="entry jam">
       
-    <div class="entry_handle">eimink</div>
+    <div class="entry_handle jam">eimink</div>
   </div>
   
 </div> </div>
@@ -332,19 +265,19 @@
  
 <div class="phase jam">
   
-  <div class="entry">
+  <div class="entry jam">
       
-    <div class="entry_handle">plek</div>
+    <div class="entry_handle jam">plek</div>
   </div>
   
-  <div class="entry">
+  <div class="entry jam">
       
-    <div class="entry_handle">evvvvil</div>
+    <div class="entry_handle jam">evvvvil</div>
   </div>
   
-  <div class="entry">
+  <div class="entry jam">
       
-    <div class="entry_handle">sp4ghet</div>
+    <div class="entry_handle jam">sp4ghet</div>
   </div>
   
 </div> </div>
@@ -354,46 +287,174 @@
  
 <div class="phase jam">
   
-  <div class="entry">
+  <div class="entry jam">
       
-    <div class="entry_handle">exca</div>
+    <div class="entry_handle jam">exca</div>
   </div>
   
-  <div class="entry">
+  <div class="entry jam">
       
-    <div class="entry_handle">rimina</div>
+    <div class="entry_handle jam">rimina</div>
   </div>
   
-  <div class="entry">
+  <div class="entry jam">
       
-    <div class="entry_handle">visy</div>
+    <div class="entry_handle jam">visy</div>
   </div>
   
 </div> </div>
 </div>
-    
-    <div><h2>Shader Chaλλenge 2021</h2>
 
+    <hr />
+    
+    <div><h2>Shader Challenge @ Shader Chaλλenge 2021 - 27 Feb 2021</h2>
+
+
+<div><a href="https://www.youtube.com/watch?v=2NJrpOFxSSo">VOD</a></div>
+  
 <div>   
 <div class="phase jam">
   
-  <div class="entry">
+  <div class="entry jam">
       
-    <div class="entry_handle">FMS_Cat</div>
+    <div class="entry_handle jam">FMS_Cat</div>
   </div>
   
-  <div class="entry">
+  <div class="entry jam">
       
-    <div class="entry_handle">butadiene</div>
+    <div class="entry_handle jam">butadiene</div>
   </div>
   
-  <div class="entry">
+  <div class="entry jam">
       
-    <div class="entry_handle">wrighter</div>
+    <div class="entry_handle jam">wrighter</div>
   </div>
   
 </div> </div>
 </div>
+
+    <hr />
+    
+    <div><h2>Shader Royale @ Inércia 2020 - 2-3 Oct 2020</h2>
+
+
+<div><a href="https://www.youtube.com/watch?v=08Ll9OkMmOI">VOD</a></div>
+  
+<div>   
+<table class="phase table">
+  
+  <tr class="entry table">
+    
+    <td class="entry_rank table">1</td>
+    
+    <td class="entry_handle table">NuSan</td>
+    
+    <td class="entry_id table">#04</td>
+     
+    <td class="entry_point table">141pts</td>
+    
+  </tr>
+  
+  <tr class="entry table">
+    
+    <td class="entry_rank table">2</td>
+    
+    <td class="entry_handle table">FMS_Cat</td>
+    
+    <td class="entry_id table">#06</td>
+     
+    <td class="entry_point table">140pts</td>
+    
+  </tr>
+  
+  <tr class="entry table">
+    
+    <td class="entry_rank table">3</td>
+    
+    <td class="entry_handle table">wrighter</td>
+    
+    <td class="entry_id table">#01</td>
+     
+    <td class="entry_point table">99pts</td>
+    
+  </tr>
+  
+  <tr class="entry table">
+    
+    <td class="entry_rank table">4</td>
+    
+    <td class="entry_handle table">evvvvil</td>
+    
+    <td class="entry_id table">#08</td>
+     
+    <td class="entry_point table">94pts</td>
+    
+  </tr>
+  
+  <tr class="entry table">
+    
+    <td class="entry_rank table">5</td>
+    
+    <td class="entry_handle table">LechugaFeliz</td>
+    
+    <td class="entry_id table">#05</td>
+     
+    <td class="entry_point table">73pts</td>
+    
+  </tr>
+  
+  <tr class="entry table">
+    
+    <td class="entry_rank table">6</td>
+    
+    <td class="entry_handle table">fizzer</td>
+    
+    <td class="entry_id table">#07</td>
+     
+    <td class="entry_point table">71pts</td>
+    
+  </tr>
+  
+  <tr class="entry table">
+    
+    <td class="entry_rank table">7</td>
+    
+    <td class="entry_handle table">rimina</td>
+    
+    <td class="entry_id table">#02</td>
+     
+    <td class="entry_point table">70pts</td>
+    
+  </tr>
+  
+  <tr class="entry table">
+    
+    <td class="entry_rank table">8</td>
+    
+    <td class="entry_handle table">provod</td>
+    
+    <td class="entry_id table">#03</td>
+     
+    <td class="entry_point table">56pts</td>
+    
+  </tr>
+  
+  <tr class="entry table">
+    
+    <td class="entry_rank table">9</td>
+    
+    <td class="entry_handle table">blackle</td>
+    
+    <td class="entry_id table">#09</td>
+     
+    <td class="entry_point table">11pts</td>
+    
+  </tr>
+  
+</table> </div>
+</div>
+
+    <hr />
     
   </body>
 </html>
