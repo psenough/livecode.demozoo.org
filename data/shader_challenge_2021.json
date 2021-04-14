@@ -1,0 +1,53 @@
+{
+  "title": "Shader Chaλλenge 2021",
+  "date": "27 Feb 2021",
+  "type": "Shader Challenge",
+  "vod": "https://www.youtube.com/watch?v=2NJrpOFxSSo",
+  "phases": [
+    {
+      "title": null,
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "FMS_Cat",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "butadiene",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "wrighter",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "lactoice",
+          "job": "Live Music"
+        }
+      ]
+    }
+  ],
+  "staffs": [
+    {
+      "handle": "random",
+      "job": "Organizers"
+    },
+    {
+      "handle": "havoc",
+      "job": "Organizers"
+    }
+  ]
+}

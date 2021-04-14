@@ -1,0 +1,105 @@
+{
+  "title": "Inércia 2020",
+  "date": "2-3 Oct 2020",
+  "type": "Shader Royale",
+  "vod": "https://www.youtube.com/watch?v=08Ll9OkMmOI",
+  "phases": [
+    {
+      "title": null,
+      "entries": [
+        {
+          "id": "04",
+          "rank": 1,
+          "points": 141,
+          "handle": "NuSan",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": "06",
+          "rank": 2,
+          "points": 140,
+          "handle": "FMS_Cat",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": "01",
+          "rank": 3,
+          "points": 99,
+          "handle": "wrighter",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": "08",
+          "rank": 4,
+          "points": 94,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": "05",
+          "rank": 5,
+          "points": 73,
+          "handle": "LechugaFeliz",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": "07",
+          "rank": 6,
+          "points": 71,
+          "handle": "fizzer",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": "02",
+          "rank": 7,
+          "points": 70,
+          "handle": "rimina",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": "03",
+          "rank": 8,
+          "points": 56,
+          "handle": "provod",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": "09",
+          "rank": 9,
+          "points": 11,
+          "handle": "blackle",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "lug00ber",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        }
+      ]
+    }
+  ],
+  "staffs": [
+    {
+      "handle": "ps",
+      "job": "Organizers"
+    },
+    {
+      "handle": "alien01",
+      "job": "Organizers"
+    }
+  ]
+}
