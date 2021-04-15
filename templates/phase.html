@@ -1,0 +1,76 @@
+{% macro entryFormatRanked(entries) -%}
+<table class="phase">
+  {% for entry in entries %}
+  <td class="entry">
+    
+    {% if entry['rank'] %}
+    <td class="entry_rank">{{entry['rank']}}</td>
+    {% endif %}
+
+    <td class="entry_handle">{{entry['handle']}}</td>
+    {% if entry['id'] %}
+    <td class="entry_id">#{{entry['id']}}</td>
+    {% endif %} 
+    
+    {% if entry['points'] %}
+    <td class="entry_point">{{entry['points'] or ""}}pts</td>
+    {% endif %}
+  <td class="entry_shadertoy">{%if entry['shadertoy_url']%}
+    <a href="{{entry['shadertoy_url']}}"><img class="shadertoy_logo" src="./assets/img/shadertoy.png"> </a>
+    </td>
+    <td class="entry_shadertoy">
+    {% set stid = entry['shadertoy_url'].split('/') %}
+    <img class="overview" src="./media/{{stid[-1]}}.jpg"/>
+    {%endif%}
+  </td>
+ <td class="entry_vod">{%if entry['vod']%}<a href="{{entry['vod']}}">🎦</a>{%endif%}</td>
+     <div class="entry_shader_file">{%if entry['shader_file']%}<a href="{{entry['shader_file']}}">📜{%endif%} </a></div>
+    
+</tr>
+  {% endfor %}
+</table>
+
+{%- endmacro %}
+
+{% macro entryFormatJam(entries) -%}
+<div class="phase">
+  {% for entry in entries %}
+  <div class="entry">
+
+    {% if entry['id'] %}
+    <div class="entry_id">#{{entry['id']}}</div>
+    {% endif %}
+    
+    {% if entry['rank'] %}
+    <div class="entry_rank">{{entry['rank']}}</div>
+    {% endif %} 
+    
+    {% if entry['points'] %}
+    <div class="entry_point">{{entry['points'] or ""}}pts</div>
+    {% endif %}
+
+    <div class="entry_handle">{{entry['handle']}}</div>
+    <div class="entry_shadertoy"> {%if entry['shadertoy_url']%} {% set stid = entry['shadertoy_url'].split('/') %}
+    <img class="overview" src="./media/{{stid[-1]}}.jpg"/>
+    {%endif%}</div>
+    <div class="entry_shadertoy">{%if entry['shadertoy_url']%}<a href="{{entry['shadertoy_url']}}"><img class="shadertoy_logo" src="./assets/img/shadertoy.png">{%endif%} </a></div>
+    <div class="entry_shader_file">{%if entry['shader_file']%}<a href="{{entry['shader_file']}}">📜{%endif%} </a></div>
+   
+  </div>
+  {% endfor %}
+</div>
+
+{%- endmacro %} {% if phase['title'] %}
+    <h3>{{phase['title']}} {%if phase['vod']%}<a href="{{phase['vod']}}">🎦</a>{%endif%}</h3>
+
+{% endif %} 
+
+{% if phase['entries'][0]['rank'] %}
+    {{entryFormatRanked(phase['entries'])}} 
+{% else %}
+    {{entryFormatJam(phase['entries'])}}
+{% endif %} 
+
+{% set staffs = phase['staffs']%}
+
+<div>{% include 'staff.html' %}</div>

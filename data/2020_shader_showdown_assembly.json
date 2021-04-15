@@ -1,0 +1,120 @@
+{
+  "title": "Assembly Autumn Online",
+  "started": "2020-10-14",
+  "date": "14-18 Oct 2020",
+  "type": "Shader Showdown",
+  "vod": null,
+  "software_used": null,
+  "phases": [
+    {
+      "title": "Semifinal 1",
+      "vod": "https://www.youtube.com/watch?v=UV7JBHUckiY",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": 196,
+          "handle": "Exca",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": 178,
+          "handle": "Provod",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": "https://www.youtube.com/watch?v=MH7NuNXrxt0"
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "eimink",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Semifinal 2",
+      "vod": "https://youtu.be/UV7JBHUckiY?t=2040",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": 336,
+          "handle": "monsieursoleil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": 323,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "eimink",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Final",
+      "vod": "https://www.youtube.com/watch?v=MrN4-JC88ME",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": 469,
+          "handle": "monsieursoleil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": 421,
+          "handle": "Exca",
+          "shader_file": null,
+          "shadertoy_url": "https://www.shadertoy.com/view/WsGyDW"
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "mayor",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        }
+      ]
+    }
+  ],
+  "staffs": []
+}

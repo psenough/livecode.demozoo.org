@@ -1,0 +1,16 @@
+<h2>{{event['type']}} @ {{event['title']}} - {{event['date']}}</h2>
+
+{% set staffs = event['staffs']%}
+<div>{% include 'staff.html' %}</div>
+
+{% if event['vod'] %}
+<div><a href="{{event['vod']}}">🎦</a></div>
+{% endif %} 
+
+{% if event['software_used'] %}
+<div><a href="{{event['software_used']}}">Software Used</a></div>
+{% endif %} 
+
+{% for phase in event['phases'] %}
+<div>{% include 'phase.html' %}</div>
+{% endfor %}

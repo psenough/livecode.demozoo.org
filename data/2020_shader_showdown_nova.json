@@ -1,0 +1,146 @@
+{
+  "title": "NOVA Online",
+  "started": "2020-06-21",
+  "date": "21 Jun 2020",
+  "type": "Shader Showdown",
+  "vod": null,
+  "software_used": null,
+  "phases": [
+    {
+      "title": "Round 1",
+      "vod": "https://www.youtube.com/watch?v=k_SSkZjlUgE",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "wrighter",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "rc55",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "h0ffman",
+          "job": "Commentators"
+        },
+        {
+          "handle": "d0pefish",
+          "job": "Commentators"
+        },
+        {
+          "handle": "polynomial",
+          "job": "Commentators"
+        },
+        {
+          "handle": "rc55",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Round 2",
+      "vod": "https://www.youtube.com/watch?v=PF8yuOTqX4k",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "Insomniac",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "LovelyHanibal",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "d0pefish",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "h0ffman",
+          "job": "Commentators"
+        },
+        {
+          "handle": "d0pefish",
+          "job": "Commentators"
+        },
+        {
+          "handle": "polynomial",
+          "job": "Commentators"
+        },
+        {
+          "handle": "rc55",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Final",
+      "vod": "https://www.youtube.com/watch?v=-n_TnBn01Ew",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "Insomniac",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "lug00ber",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "h0ffman",
+          "job": "Commentators"
+        },
+        {
+          "handle": "d0pefish",
+          "job": "Commentators"
+        },
+        {
+          "handle": "polynomial",
+          "job": "Commentators"
+        },
+        {
+          "handle": "rc55",
+          "job": "Commentators"
+        }
+      ]
+    }
+  ],
+  "staffs": []
+}

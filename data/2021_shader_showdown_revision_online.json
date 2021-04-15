@@ -1,8 +1,10 @@
 {
   "title": "Revision Online 2021",
+  "started": "2021-04-02",
   "date": "2-5 April 2021",
   "type": "Shader Showdown",
   "vod": null,
+  "software_used": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
   "phases": [
     {
       "title": "Quarter Final 1",
@@ -13,13 +15,13 @@
           "points": null,
           "handle": "anticore",
           "shader_file": null,
-          "shadertoy_url": null
+          "shadertoy_url": "https://www.shadertoy.com/view/sdjGWm"
         },
         {
           "id": null,
           "rank": 2,
           "points": null,
-          "handle": "LechugaFelix",
+          "handle": "LechugaFeliz",
           "shader_file": null,
           "shadertoy_url": null
         }
@@ -56,7 +58,7 @@
           "points": null,
           "handle": "blackle",
           "shader_file": null,
-          "shadertoy_url": null
+          "shadertoy_url": "https://www.shadertoy.com/view/7sS3WD"
         },
         {
           "id": null,
@@ -64,7 +66,7 @@
           "points": null,
           "handle": "cosamentale",
           "shader_file": null,
-          "shadertoy_url": null
+          "shadertoy_url": "https://www.shadertoy.com/view/ss2GDw"
         }
       ],
       "staffs": [
@@ -99,7 +101,7 @@
           "points": null,
           "handle": "evvvvil",
           "shader_file": null,
-          "shadertoy_url": null
+          "shadertoy_url": "https://www.shadertoy.com/view/7dBGRc"
         },
         {
           "id": null,
@@ -185,7 +187,7 @@
           "points": null,
           "handle": "blackle",
           "shader_file": null,
-          "shadertoy_url": null
+          "shadertoy_url": "https://www.shadertoy.com/view/NdjGDm"
         },
         {
           "id": null,
@@ -224,11 +226,11 @@
       "entries": [
         {
           "id": null,
-          "rank": 2,
+          "rank": 1,
           "points": null,
           "handle": "evvvvil",
           "shader_file": null,
-          "shadertoy_url": null
+          "shadertoy_url": "https://www.shadertoy.com/view/fdSGWw"
         },
         {
           "id": null,
@@ -271,7 +273,7 @@
           "points": null,
           "handle": "blackle",
           "shader_file": null,
-          "shadertoy_url": null
+          "shadertoy_url": "https://www.shadertoy.com/view/7s23DD"
         },
         {
           "id": null,

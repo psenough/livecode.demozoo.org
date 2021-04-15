@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shader Royale</title>
+    <style>
+      @font-face {
+        font-family: "B612Mono";
+        src: url("assets/font/B612Mono-Regular.ttf") format("truetype");
+      }
+      @font-face {
+        font-family: "B612";
+        src: url("assets/font/B612-Regular.ttf") format("truetype");
+      }
+
+      html > * {
+        font-family: "B612";
+        padding: 0px;
+        margin: 0px;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        text-align: center;
+      }
+      h1 {
+        font-size: 4em;
+      }
+      h2 {
+        font-size: 3em;
+      }
+      h3 {
+        font-size: 2em;
+      }
+      div {
+        text-align: center;
+      }
+      a {
+        font-weight: bold;
+        text-decoration: none;
+        color: #06c;
+      }
+
+      .phase,
+      .staff {
+        display: flex;
+        font-family: "B612Mono";
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .phase img.overview {
+        width: 50px;
+      }
+      .phase td {
+        padding: 5px;
+      }
+      .phase > .entry div {
+        padding: 15px;
+      }
+
+      .staff td {
+        padding: 5px;
+        justify-content: left;
+        text-align: left;
+      }
+      .staff .entry_job {
+        text-align: right;
+      }
+
+      .shadertoy_logo {
+        background-color: black;
+        width: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Shader Summary</h1>
+    {% for event in events %}
+    <div>{% include 'event.html' %}</div>
+
+    <hr />
+    {% endfor %}
+  </body>
+</html>

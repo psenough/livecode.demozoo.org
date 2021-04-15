@@ -1,0 +1,83 @@
+{
+  "title": "Assembly Summer Online",
+  "started": "2020-08-08",
+  "date": "6 Dec 2020",
+  "type": "Shader Jam",
+  "vod": null,
+  "software_used": null,
+  "phases": [
+    {
+      "title": "Round 1",
+      "vod": "https://www.youtube.com/watch?v=m7b1lIHiZc8",
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "branch",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "lamogui",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "Exca",
+          "shader_file": null,
+          "shadertoy_url": "https://www.shadertoy.com/view/3tsBD7"
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "eimink",
+          "job": "Dj Set"
+        }
+      ]
+    },
+    {
+      "title": "Round 2",
+      "vod": "https://www.youtube.com/watch?v=3-jwyYfI7Q8",
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "visy",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "Leon Denise",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "mayor",
+          "job": "Dj Set"
+        }
+      ]
+    }
+  ],
+  "staffs": []
+}

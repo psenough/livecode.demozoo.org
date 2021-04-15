@@ -1,0 +1,139 @@
+{
+  "title": "Shader Royale #2",
+  "started": "2020-12-04",
+  "date": "4 Dec 2020",
+  "type": "Shader Royale",
+  "vod": "https://www.youtube.com/watch?v=wwN5vRXKAl8",
+  "software_used": null,
+  "phases": [
+    {
+      "title": null,
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": 333,
+          "handle": "FMS_Cat",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": 326,
+          "handle": "cosamentale",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 3,
+          "points": 279,
+          "handle": "NuSan",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 4,
+          "points": 221,
+          "handle": "monsieursoleil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 5,
+          "points": 208,
+          "handle": "anticore",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 6,
+          "points": 154,
+          "handle": "LechugaFeliz",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 7,
+          "points": 151,
+          "handle": "branch",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 8,
+          "points": 150,
+          "handle": "dok",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 9,
+          "points": 150,
+          "handle": "visy",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 10,
+          "points": 149,
+          "handle": "wrighter",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 11,
+          "points": 131,
+          "handle": "provod",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 12,
+          "points": 130,
+          "handle": "Exca",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 13,
+          "points": 103,
+          "handle": "NR4",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "lug00ber",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        }
+      ]
+    }
+  ],
+  "staffs": [
+    {
+      "handle": "ps",
+      "job": "Organizers"
+    },
+    {
+      "handle": "alien01",
+      "job": "Organizers"
+    }
+  ]
+}

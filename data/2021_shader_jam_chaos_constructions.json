@@ -1,0 +1,63 @@
+{
+  "title": "Chaos Constructions Winter",
+  "started": "2021-02-21",
+  "date": "21 Feb 2021",
+  "type": "Shader Jam",
+  "vod": "https://www.youtube.com/watch?v=vWWlE5sc-WY",
+  "software_used": null,
+  "phases": [
+    {
+      "title": null,
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "cosamental",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "wrighter",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "monsieursoleil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "provod",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "dipswitch",
+          "job": "Dj Set"
+        }
+      ]
+    }
+  ],
+  "staffs": [
+    {
+      "handle": "random",
+      "job": "Organizers"
+    },
+    {
+      "handle": "havoc",
+      "job": "Organizers"
+    }
+  ]
+}
