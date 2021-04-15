@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "file://./meta/event.schema.json",
+  "title": "Event",
+  "description": "An event which consist of a set of phases",
+  "type": "object",
+  "properties": {
+    "title": {
+      "description": "Name of the Event",
+      "type": "string"
+    },
+    "started": {
+      "description": "First day of the event, ISO-8601 format",
+      "type": "string"
+    },
+    "date": {
+      "description": "Human readable date",
+      "type": "string"
+    },
+    "type": {
+      "description": "Type of event",
+      "type": "string"
+    },
+    "vod": {
+      "description": "Link if VOD",
+      "type": ["string", "null"]
+    },
+    "software_used": {
+      "description": "Sofware used",
+      "type": ["string", "null"]
+    },
+    "phases": {
+      "title": "Phases",
+      "description": "All the phases of the event",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "title": "Phase",
+        "description": "A phase of the event. Consists of multiple entries",
+        "properties": {
+          "title": {
+            "description": "Phase title. Can be null if the event is one phase e.g",
+            "type": ["string", "null"]
+          },
+          "entries": {
+            "title": "Entries",
+            "description": "All the entry of the phase",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "title": "Entry",
+              "description": "An entry. Which here consists of a shader creation",
+              "properties": {
+                "id": {
+                  "description": "User Id for the phase (usually for Shader Royale)",
+                  "type": ["string", "null"]
+                },
+                "rank": {
+                  "description": "Rank of the entry",
+                  "type": ["integer", "null"]
+                },
+                "points": {
+                  "description": "Points of the entry",
+                  "type": ["integer", "null"]
+                },
+                "handle": {
+                  "description": "Handle / Username",
+                  "type": ["string"]
+                },
+                "shader_file": {
+                  "description": "File of the entry",
+                  "type": ["string", "null"]
+                },
+                "shadertoy_url": {
+                  "description": "Shadertoy url",
+                  "type": ["string", "null"]
+                }
+              },
+              "required": ["handle"]
+            }
+          },
+          "staffs": {
+            "description": "Staff info for the phase",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "title": "Staff",
+              "description": "Staff information. What people were doing",
+              "properties": {
+                "job": {
+                  "description": "Job",
+                  "type": "string"
+                },
+                "handle": {
+                  "description": "Handle / Username",
+                  "type": "string"
+                }
+              },
+              "required": ["job", "handle"]
+            }
+          }
+        }
+      }
+    },
+    "staffs": {
+      "description": "Staff info for the whole Event",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "title": "Staff",
+        "description": "Staff information. What people were doing",
+        "properties": {
+          "job": {
+            "description": "Job",
+            "type": "string"
+          },
+          "handle": {
+            "description": "Handle / Username",
+            "type": "string"
+          }
+        },
+        "required": ["job", "handle"]
+      }
+    }
+  },
+  "required": ["title", "started", "date", "type"]
+}
