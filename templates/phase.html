@@ -20,7 +20,7 @@
     </td>
     <td class="entry_shadertoy">
     {% set stid = entry['shadertoy_url'].split('/') %}
-    <img class="overview" src="https://www.shadertoy.com/media/shaders/{{stid[-1]}}.jpg"/>
+    <img class="overview" src="./media/{{stid[-1]}}.jpg"/>
     {%endif%}
   </td>
  <td class="entry_vod">{%if entry['vod']%}<a href="{{entry['vod']}}">🎦</a>{%endif%}</td>
