@@ -24,6 +24,7 @@
     {%endif%}
   </td>
  <td class="entry_vod">{%if entry['vod']%}<a href="{{entry['vod']}}">🎦</a>{%endif%}</td>
+     <div class="entry_shader_file">{%if entry['shader_file']%}<a href="{{entry['shader_file']}}">📜{%endif%} </a></div>
     
 </tr>
   {% endfor %}
@@ -50,6 +51,8 @@
 
     <div class="entry_handle">{{entry['handle']}}</div>
     <div class="entry_shadertoy">{%if entry['shadertoy_url']%}<a href="{{entry['shadertoy_url']}}"><img class="shadertoy_logo" src="./assets/img/shadertoy.png">{%endif%} </a></div>
+    <div class="entry_shader_file">{%if entry['shader_file']%}<a href="{{entry['shader_file']}}">📜{%endif%} </a></div>
+   
   </div>
   {% endfor %}
 </div>
