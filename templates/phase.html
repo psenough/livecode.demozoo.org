@@ -50,6 +50,9 @@
     {% endif %}
 
     <div class="entry_handle">{{entry['handle']}}</div>
+    <div class="entry_shadertoy"> {%if entry['shadertoy_url']%} {% set stid = entry['shadertoy_url'].split('/') %}
+    <img class="overview" src="./media/{{stid[-1]}}.jpg"/>
+    {%endif%}</div>
     <div class="entry_shadertoy">{%if entry['shadertoy_url']%}<a href="{{entry['shadertoy_url']}}"><img class="shadertoy_logo" src="./assets/img/shadertoy.png">{%endif%} </a></div>
     <div class="entry_shader_file">{%if entry['shader_file']%}<a href="{{entry['shader_file']}}">📜{%endif%} </a></div>
    
