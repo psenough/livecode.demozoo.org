@@ -7,6 +7,7 @@ import json
 import glob
 
 import jinja2
+from htmlmin.minify import html_minify
 
 # Jinja2 Template system
 templateEnv = jinja2.Environment(
@@ -21,6 +22,10 @@ data = sorted(
     reverse=True,
 )
 
-# No more code, only template from jinja2
+# No more code, only template from jinja2 + minifier
 with codecs.open("index.html", "w", "utf-8") as outFile:
-    outFile.write(template.render(events=data))
+    outFile.write(
+        html_minify(
+            template.render(events=data)
+        )
+    )

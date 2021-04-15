@@ -1,16 +1,21 @@
 {% macro entryFormatRanked(entries) -%}
 <table class="phase">
   {% for entry in entries %}
-  <tr class="entry">
+  <td class="entry">
+    
     {% if entry['rank'] %}
     <td class="entry_rank">{{entry['rank']}}</td>
     {% endif %}
+
     <td class="entry_handle">{{entry['handle']}}</td>
     {% if entry['id'] %}
     <td class="entry_id">#{{entry['id']}}</td>
-    {% endif %} {% if entry['points'] %}
+    {% endif %} 
+    
+    {% if entry['points'] %}
     <td class="entry_point">{{entry['points'] or ""}}pts</td>
     {% endif %}
+  <td class="entry_shadertoy">{%if entry['shadertoy_url']%}<a href="{{entry['shadertoy_url']}}"><img class="shadertoy_logo" src="./assets/img/shadertoy.png">{%endif%} </a></td>
   </tr>
   {% endfor %}
 </table>
@@ -35,6 +40,7 @@
     {% endif %}
 
     <div class="entry_handle">{{entry['handle']}}</div>
+    <div class="entry_shadertoy">{%if entry['shadertoy_url']%}<a href="{{entry['shadertoy_url']}}"><img class="shadertoy_logo" src="./assets/img/shadertoy.png">{%endif%} </a></div>
   </div>
   {% endfor %}
 </div>
