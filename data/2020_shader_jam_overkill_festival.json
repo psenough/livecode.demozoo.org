@@ -1,0 +1,59 @@
+{
+  "title": "The Overkill Festival / SickhouseTV ",
+  "started": "2020-12-06",
+  "date": "6 Dec 2020",
+  "type": "Shader Jam",
+  "vod": "https://www.youtube.com/watch?v=ZYBsQBqViG4",
+  "software_used": null,
+  "phases": [
+    {
+      "title": null,
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "Flopine",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "NuSan",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "monsieursoleil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "LynnDrum",
+          "job": "Dj Set"
+        }
+      ]
+    }
+  ],
+  "staffs": [
+    {
+      "handle": "havoc",
+      "job": "Organizers"
+    }
+  ]
+}

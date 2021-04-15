@@ -42,6 +42,10 @@
             "description": "Phase title. Can be null if the event is one phase e.g",
             "type": ["string", "null"]
           },
+          "vod": {
+            "description": "Link if VOD",
+            "type": ["string", "null"]
+          },
           "entries": {
             "title": "Entries",
             "description": "All the entry of the phase",
@@ -74,6 +78,10 @@
                 "shadertoy_url": {
                   "description": "Shadertoy url",
                   "type": ["string", "null"]
+                },
+                "vod": {
+                  "description": "Link if VOD",
+                  "type": ["string", "null"]
                 }
               },
               "required": ["handle"]
@@ -89,7 +97,8 @@
               "properties": {
                 "job": {
                   "description": "Job",
-                  "type": "string"
+                  "type": "string",
+                  "enum": ["Live Music", "Dj Set", "Commentators"]
                 },
                 "handle": {
                   "description": "Handle / Username",
@@ -112,7 +121,8 @@
         "properties": {
           "job": {
             "description": "Job",
-            "type": "string"
+            "type": "string",
+            "enum": ["Organizers"]
           },
           "handle": {
             "description": "Handle / Username",
