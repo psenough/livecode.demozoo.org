@@ -1,0 +1,151 @@
+{
+  "title": "OMZG",
+  "started": "2021-02-12",
+  "date": "12 Feb 2021",
+  "type": "Shader Royale",
+  "vod": "https://www.youtube.com/watch?v=Dc5laRa09WY&t=4460s",
+  "software_used": null,
+  "phases": [
+    {
+      "title": null,
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": 144,
+          "handle": "NuSan",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": 117,
+          "handle": "cosamentale",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 3,
+          "points": 113,
+          "handle": "hArDy",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 4,
+          "points": 103,
+          "handle": "provod",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 5,
+          "points": 98,
+          "handle": "Flopine",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 6,
+          "points": 89,
+          "handle": "rimina",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 7,
+          "points": 88,
+          "handle": "anticore",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 8,
+          "points": 86,
+          "handle": "totetmatt",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 9,
+          "points": 80,
+          "handle": "Exca",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 10,
+          "points": 77,
+          "handle": "monsieursoleil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 11,
+          "points": 64,
+          "handle": "wrighter",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 12,
+          "points": 59,
+          "handle": "LechugaFeliz",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 13,
+          "points": 44,
+          "handle": "visy",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 14,
+          "points": 8,
+          "handle": "branch",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 15,
+          "points": 8,
+          "handle": "NR4",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "djh0ffman",
+          "job": "Dj Set"
+        }
+      ]
+    }
+  ],
+  "staffs": [
+    {
+      "handle": "ps",
+      "job": "Organizers"
+    },
+    {
+      "handle": "alien01",
+      "job": "Organizers"
+    }
+  ]
+}
