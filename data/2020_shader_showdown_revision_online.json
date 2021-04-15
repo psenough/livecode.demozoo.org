@@ -1,0 +1,303 @@
+{
+  "title": "Revision Online 2020",
+  "started": "2020-04-15",
+  "date": "15 April 2021",
+  "type": "Shader Showdown",
+  "vod": null,
+  "software_used": null,
+  "phases": [
+    {
+      "title": "Quarter Final 1",
+      "vod": "https://www.youtube.com/watch?v=4GRD1gCX7fk",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "monsieursoleil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "wrighter",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "ronny",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "kusma",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Quarter Final 2",
+      "vod": "https://www.youtube.com/watch?v=4GRD1gCX7fk",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "cosamentale",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "branch",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "h0ffman",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "kusma",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Quarter Final 3",
+      "vod": "https://www.youtube.com/watch?v=4GRD1gCX7fk",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "flopine",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "provod",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "lug00ber",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "kusma",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Quarter Final 4",
+      "vod": "https://www.youtube.com/watch?v=4GRD1gCX7fk",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "NuSan",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "alkama",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "kusma",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Semi Final 1",
+      "vod": "https://www.youtube.com/watch?v=xZ5lepZ3LcE",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "wrighter",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "cosamentale",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "ronny",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "kusma",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Semi Final 2",
+      "vod": "https://www.youtube.com/watch?v=xZ5lepZ3LcE",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "flopine",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "lug00ber",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "kusma",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Final",
+      "vod": "https://www.youtube.com/watch?v=2-0tpXlJLBM",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "flopine",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "wrighter",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "h0ffman",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "kusma",
+          "job": "Commentators"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        },
+        {
+          "handle": "feris",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Shader jam",
+      "vod": "https://www.youtube.com/watch?v=rhH__Ge4s6Q",
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "iq",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "flopine",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "Gargaj",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "Bullet",
+          "job": "Dj Set"
+        }
+      ]
+    }
+  ],
+  "staffs": []
+}
