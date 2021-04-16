@@ -340,7 +340,7 @@
       "entries": [
         {
           "id": null,
-          "rank": null,
+          "rank": 1,
           "points": null,
           "handle": "ferris",
           "shader_file": null,
@@ -348,17 +348,9 @@
         },
         {
           "id": null,
-          "rank": null,
+          "rank": 2,
           "points": null,
           "handle": "branch",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "Gargaj",
           "shader_file": null,
           "shadertoy_url": null
         }
