@@ -1,0 +1,119 @@
+{
+  "title": "Assembly",
+  "started": "2019-08-02",
+  "date": "2-3 Aug 2019",
+  "type": "Shader Showdown",
+  "vod": null,
+  "software_used": null,
+  "phases": [
+    {
+      "title": "Semifinal 1",
+      "vod": "https://www.youtube.com/watch?v=3q7abaqoc9I",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "Exca",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "cce",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "eimink",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "waffle",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Semifinal 2",
+      "vod": "https://www.youtube.com/watch?v=JAh4HYtHh9M",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "noby",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "visy",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "mayor",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "waffle",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Final",
+      "vod": "https://www.youtube.com/watch?v=vv71jDAwTbM",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "noby",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "Exca",
+          "shader_file": null,
+          "shadertoy_url": "https://www.shadertoy.com/view/WsGyDW"
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "eimink",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "waffle",
+          "job": "Commentators"
+        }
+      ]
+    }
+  ],
+  "staffs": []
+}
