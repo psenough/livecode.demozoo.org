@@ -2,11 +2,11 @@
 
 name: CI
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on pull request events but only for the main branch
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -31,4 +31,4 @@ jobs:
           if [ -f req.txt ]; then pip install -r req.txt; fi
       - name: Lint with flake8
         run: |
-          ls data/* | xargs -I % python jsonschema -i % meta/event.schema.json
+          ls data/* | xargs -I % jsonschema -i % meta/event.schema.json
