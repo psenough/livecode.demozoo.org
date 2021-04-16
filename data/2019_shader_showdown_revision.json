@@ -456,7 +456,7 @@
       "entries": [
         {
           "id": null,
-          "rank": 1,
+          "rank": null,
           "points": null,
           "handle": "flopine",
           "shader_file": null,
@@ -464,7 +464,7 @@
         },
         {
           "id": null,
-          "rank": 2,
+          "rank": null,
           "points": null,
           "handle": "evvvvil",
           "shader_file": null,
