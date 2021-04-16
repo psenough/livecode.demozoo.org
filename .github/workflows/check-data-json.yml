@@ -31,4 +31,4 @@ jobs:
           if [ -f req.txt ]; then pip install -r req.txt; fi
       - name: Lint with flake8
         run: |
-          ls data/* | xargs -I % jsonschema -i % meta/event.schema.json
+          ls data/* | xargs -I % jsonschema -i % bin/workflows/validate.sh %
