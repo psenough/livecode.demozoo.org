@@ -18,7 +18,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      
+
       - uses: actions/checkout@v2
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
@@ -31,14 +31,18 @@ jobs:
 
       - name: Download Images
         run: python bin/download_shadertoy_overviews.py
-        
+
       - name: Generate HTML
         run: python bin/generate_html.py
-        
+
+      - name: Generate Doc
+        run: |
+          mkdir -p doc
+          generate-schema-doc .\meta\event.schema.json doc\schema.html
+
       - uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
         with:
           # The arguments for the `git add` command (see the paragraph below for more info)
           # Default: '.'
-          add: '.'
+          add: "."
           branch: main
-          
