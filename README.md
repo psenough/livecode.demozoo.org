@@ -1,6 +1,12 @@
 # shader_summary
 
-list of shader livecoding events, hopefuly including results and links to stuff and eventually in json format so people can make a website about it
+List of shader livecoding events.
+
+# How to Contribute.
+
+Anybody can add an event by simply doing a Pull Request of the .json file of your event in the `/data` .
+
+The json schema is available here : [./meta/event.schema.json](./meta/event.schema.json) , but you can also take any other file in [./data](./data) as a base example.
 
 ---
 
