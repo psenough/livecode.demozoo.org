@@ -14,7 +14,7 @@
           "rank": 1,
           "points": 317,
           "handle": "FMS_Cat",
-          "shader_file": null,
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_FMS_Cat.glsl",
           "shadertoy_url": null
         },
         {
@@ -22,7 +22,7 @@
           "rank": 2,
           "points": 298,
           "handle": "LechugaFeliz",
-          "shader_file": null,
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_LechugaFeliz.glsl",
           "shadertoy_url": null
         },
         {
@@ -30,7 +30,7 @@
           "rank": 3,
           "points": 279,
           "handle": "sp4ghet",
-          "shader_file": null,
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_sp4ghet.glsl",
           "shadertoy_url": null
         },
         {
@@ -38,7 +38,7 @@
           "rank": 4,
           "points": 242,
           "handle": "evvvvil",
-          "shader_file": null,
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_evvvvil.glsl",
           "shadertoy_url": null
         },
         {
@@ -46,7 +46,7 @@
           "rank": 5,
           "points": 228,
           "handle": "provod",
-          "shader_file": null,
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_provod.glsl",
           "shadertoy_url": null
         },
         {
@@ -54,7 +54,7 @@
           "rank": 6,
           "points": 215,
           "handle": "hArDy",
-          "shader_file": null,
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_hArDy.glsl",
           "shadertoy_url": null
         },
         {
@@ -62,7 +62,7 @@
           "rank": 7,
           "points": 199,
           "handle": "wrighter",
-          "shader_file": null,
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_wrighter.glsl",
           "shadertoy_url": null
         },
         {
@@ -70,7 +70,7 @@
           "rank": 8,
           "points": 192,
           "handle": "alkama",
-          "shader_file": null,
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_alkama.glsl",
           "shadertoy_url": null
         },
         {
@@ -78,7 +78,7 @@
           "rank": 9,
           "points": 170,
           "handle": "monsieursoleil",
-          "shader_file": null,
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_monsieursoleil.glsl",
           "shadertoy_url": null
         },
         {
@@ -86,7 +86,7 @@
           "rank": 10,
           "points": 167,
           "handle": "visy",
-          "shader_file": null,
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_visy.glsl",
           "shadertoy_url": null
         },
         {
@@ -94,7 +94,7 @@
           "rank": 11,
           "points": 141,
           "handle": "NR4",
-          "shader_file": null,
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_NR4.glsl",
           "shadertoy_url": null
         }
       ],
