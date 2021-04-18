@@ -311,7 +311,16 @@
     color: rgba(88, 88, 254, 1);
   }
 }
-
+@media screen and (orientation: portrait) {
+  h1,
+  .event h2,
+  .event h3 {
+    font-size: 0.9em;
+  }
+  .event div {
+    font-size: 0.8em;
+  }
+}
 body {
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -391,7 +400,7 @@ a {
 }
 .event {
   background-color: rgba(25, 25, 25, 0.95);
-  width: 50vw;
+  width: 75vw;
   margin: auto;
   color: white;
 }
