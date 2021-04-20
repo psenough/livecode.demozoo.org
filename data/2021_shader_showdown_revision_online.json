@@ -15,6 +15,7 @@
   "phases": [
     {
       "title": "Quarter Final 1",
+      "vod": "https://www.youtube.com/watch?v=gKmHg5Y9arM",
       "entries": [
         {
           "id": null,
@@ -58,6 +59,7 @@
     },
     {
       "title": "Quarter Final 2",
+      "vod": "https://www.youtube.com/watch?v=gKmHg5Y9arM",
       "entries": [
         {
           "id": null,
@@ -101,6 +103,7 @@
     },
     {
       "title": "Quarter Final 3",
+      "vod": "https://www.youtube.com/watch?v=gKmHg5Y9arM",
       "entries": [
         {
           "id": null,
@@ -144,6 +147,7 @@
     },
     {
       "title": "Quarter Final 4",
+      "vod": "https://www.youtube.com/watch?v=gKmHg5Y9arM",
       "entries": [
         {
           "id": null,
@@ -187,6 +191,7 @@
     },
     {
       "title": "Semi Final 1",
+      "vod": "https://www.youtube.com/watch?v=NBdRfFwuP40",
       "entries": [
         {
           "id": null,
@@ -230,6 +235,7 @@
     },
     {
       "title": "Semi Final 2",
+      "vod": "https://www.youtube.com/watch?v=NBdRfFwuP40",
       "entries": [
         {
           "id": null,
@@ -273,6 +279,7 @@
     },
     {
       "title": "Final",
+      "vod": "https://www.youtube.com/watch?v=6dZDmlciEas",
       "entries": [
         {
           "id": null,
