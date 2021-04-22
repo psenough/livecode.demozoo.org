@@ -7,10 +7,15 @@
 <div><a href="{{event['vod']}}">🎦</a></div>
 {% endif %} 
 
-{% if event['software_used'] %}
-<div><a href="{{event['software_used']}}">Software Used</a></div>
-{% endif %} 
-
 {% for phase in event['phases'] %}
 <div>{% include 'phase.html' %}</div>
 {% endfor %}
+
+{% if event['software_used'] %}
+<div class="software">
+    <h3>Software used</h3>
+{% for software in event['software_used'] %}
+<div><a href="{{software['url']}}">{{software['name']}}</a></div>
+{% endfor %} 
+</div>
+{% endif %}

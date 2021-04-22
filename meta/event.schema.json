@@ -26,8 +26,32 @@
       "type": ["string", "null"]
     },
     "software_used": {
-      "description": "Sofware used",
-      "type": ["string", "null"]
+      "description": "Software used",
+      "type": ["array", "null"],
+      "items": {
+        "type": "object",
+        "title": "software",
+        "properties": {
+          "name": {
+            "desctiption": "Name of the software",
+            "type": "string"
+          },
+          "url": {
+            "desctiption": "Software url / git",
+            "type": "string"
+          },
+          "version": {
+            "desctiption": "Version used",
+            "type": "string"
+          },
+          "purpose": {
+            "desctiption": "Purpose of the software",
+            "type": "string",
+            "enum": ["Graphic", "Music", "Stream", "Organisation"]
+          }
+        },
+        "required": ["name", "purpose"]
+      }
     },
     "phases": {
       "title": "Phases",

@@ -7,7 +7,7 @@ import json
 import glob
 
 import jinja2
-from htmlmin.minify import html_minify
+from htmlmin import minify
 
 import download_shadertoy_overviews as download_shadertoy_overview
 # Jinja2 Template system
@@ -28,7 +28,7 @@ for d in data:
 # No more code, only template from jinja2 + minifier
 with codecs.open("index.html", "w", "utf-8") as outFile:
     outFile.write(
-        html_minify(
+        minify(
             template.render(events=data)
         )
     )
