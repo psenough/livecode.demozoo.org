@@ -15,7 +15,7 @@
           "rank": 1,
           "points": 185,
           "handle": "CharStiles",
-          "shader_file": null,
+          "shader_file": "https://files.scene.org/view/parties/2018/demosplash18/live_shader/charstiles.glsl",
           "shadertoy_url": null
         },
         {
@@ -23,9 +23,8 @@
           "rank": 2,
           "points": 159,
           "handle": "lsh",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
+          "shader_file": "https://files.scene.org/view/parties/2018/demosplash18/live_shader/lsh.glsl",
+          "shadertoy_url": null
         }
       ],
       "staffs": []
