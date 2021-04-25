@@ -1,0 +1,35 @@
+{
+  "title": "Demosplash",
+  "started": "2019-11-08",
+  "date": "8 Nov 2019",
+  "type": "Shader Showdown",
+  "vod": "https://www.youtube.com/watch?v=ik3T37fCydo",
+  "software_used": null,
+  "phases": [
+    {
+      "title": "Live Shader",
+      "vod": "https://www.youtube.com/watch?v=ik3T37fCydo",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": 144,
+          "handle": "blackle",
+          "shader_file": null,
+          "shadertoy_url": "https://www.shadertoy.com/view/3dGXRW"
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": 123,
+          "handle": "CharStiles",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        }
+      ],
+      "staffs": []
+    }
+  ],
+  "staffs": []
+}
