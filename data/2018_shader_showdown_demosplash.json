@@ -1,0 +1,35 @@
+{
+  "title": "Demosplash",
+  "started": "2018-11-02",
+  "date": "2 Nov 2018",
+  "type": "Shader Showdown",
+  "vod": null,
+  "software_used": null,
+  "phases": [
+    {
+      "title": "Live Shader",
+      "vod": null,
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": 185,
+          "handle": "CharStiles",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": 159,
+          "handle": "lsh",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        }
+      ],
+      "staffs": []
+    }
+  ],
+  "staffs": []
+}
