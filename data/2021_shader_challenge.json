@@ -43,13 +43,5 @@
     }
   ],
   "staffs": [
-    {
-      "handle": "random",
-      "job": "Organizers"
-    },
-    {
-      "handle": "havoc",
-      "job": "Organizers"
-    }
   ]
 }
