@@ -30,12 +30,8 @@ nova 2018 & 2019
 
 nordlicht 2018
 
-deadline 2018
-
 evoke 2018 & 2019
 
 uitfeest utrecht 2019
-
-vip 2019
 
 solskogen live coding history goes back a few more years as well afaik but used slightly different rules, 2019 was the first time the solskogen winner (rohtie) was invited for the finale at revision.
