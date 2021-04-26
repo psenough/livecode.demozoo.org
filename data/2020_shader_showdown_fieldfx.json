@@ -65,7 +65,7 @@
         {
           "id": 2,
           "rank": 2,
-          "points": null,
+          "points": 66,
           "handle": "blackle",
           "shader_file": null,
           "shadertoy_url": null
@@ -93,7 +93,7 @@
         {
           "id": 2,
           "rank": 1,
-          "points": null,
+          "points": 90,
           "handle": "monsieursoleil",
           "shader_file": null,
           "shadertoy_url": null
@@ -101,7 +101,7 @@
         {
           "id": 1,
           "rank": 2,
-          "points": null,
+          "points": 71,
           "handle": "Flopine",
           "shader_file": null,
           "shadertoy_url": null
