@@ -1,6 +1,6 @@
 # Shader Summary
 
-List of shader livecoding events.
+List of demoscene shader livecoding events. (Shader Showdown, Shader Jam, Shader Royale)
 
 ## How to Contribute
 
