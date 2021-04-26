@@ -1,0 +1,51 @@
+{
+  "title": "Very Important Party",
+  "started": "2018-06-01",
+  "date": "1 Jun - 3 Jun 2018",
+  "type": "Shader Showdown",
+  "vod": null,
+  "software_used": null,
+  "phases": [
+    {
+      "title": null,
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "Flopine",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "lsdlive",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 3,
+          "points": null,
+          "handle": "Ponk",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 4,
+          "points": null,
+          "handle": "CoyHot",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+      ]
+    }
+  ],
+  "staffs": [
+  ]
+}
