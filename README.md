@@ -10,7 +10,7 @@ Same way to update, enrich data from an existing file, just create a Pull Reques
 
 The json schema is available here : [./meta/event.schema.json](./meta/event.schema.json) , but you can also take any other file in [./data](./data) as a base example.
 
-A more readable version of the schema is avaialble here [./doc/schema.html](./doc/schema.html)
+A more readable version of the schema is available here [./doc/schema.html](./doc/schema.html)
 
 ---
 
