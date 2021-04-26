@@ -1,0 +1,130 @@
+{
+  "title": "FieldFX Online 2020",
+  "started": "2020-06-24",
+  "date": "24 July - 25 July 2018",
+  "type": "Shader Showdown",
+  "vod": null,
+  "software_used": null,
+  "phases": [
+    {
+      "title": "Semifinals #1",
+      "vod": "https://www.youtube.com/watch?v=Jt0cvOIoHWQ",
+      "entries": [
+        {
+          "id": 2,
+          "rank": 1,
+          "points": 59,
+          "handle": "monsieursoleil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 1,
+          "rank": 2,
+          "points": 55,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "lug00ber",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "blackle",
+          "job": "Commentators"
+        },
+        {
+          "handle": "wrighter",
+          "job": "Commentators"
+        },
+        {
+          "handle": "Flopine",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Semifinals #2",
+      "vod": "https://www.youtube.com/watch?v=Jt0cvOIoHWQ",
+      "entries": [
+        {
+          "id": 1,
+          "rank": 1,
+          "points": 67,
+          "handle": "Flopine",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 2,
+          "rank": 2,
+          "points": null,
+          "handle": "blackle",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "lug00ber",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "wrighter",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Final",
+      "vod": "https://www.youtube.com/watch?v=f3JGkVQcuX0",
+      "entries": [
+        {
+          "id": 2,
+          "rank": 1,
+          "points": null,
+          "handle": "monsieursoleil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 1,
+          "rank": 2,
+          "points": null,
+          "handle": "Flopine",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "lug00ber",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "blackle",
+          "job": "Commentators"
+        }
+      ]
+    }
+    
+  ],
+  "staffs": [
+    "organizer": "havoc"
+  ]
+}
