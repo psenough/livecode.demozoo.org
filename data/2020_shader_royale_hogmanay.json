@@ -1,9 +1,9 @@
 {
   "title": "Hogmanay Party",
-  "started": "2018-06-01",
-  "date": "1 Jun - 3 Jun 2018",
-  "type": "Shader Showdown",
-  "vod": null,
+  "started": "2020-12-31",
+  "date": "31 Dec 2020",
+  "type": "Shader Royale",
+  "vod": "https://www.youtube.com/watch?v=jxU8s4kukw8",
   "software_used": null,
   "phases": [
     {
@@ -12,40 +12,112 @@
         {
           "id": null,
           "rank": 1,
-          "points": null,
-          "handle": "Flopine",
-          "shader_file": null,
+          "points": 317,
+          "handle": "FMS_Cat",
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_FMS_Cat.glsl",
           "shadertoy_url": null
         },
         {
           "id": null,
           "rank": 2,
-          "points": null,
-          "handle": "lsdlive",
-          "shader_file": null,
+          "points": 298,
+          "handle": "LechugaFeliz",
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_LechugaFeliz.glsl",
           "shadertoy_url": null
         },
         {
           "id": null,
           "rank": 3,
-          "points": null,
-          "handle": "Ponk",
-          "shader_file": null,
+          "points": 279,
+          "handle": "sp4ghet",
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_sp4ghet.glsl",
           "shadertoy_url": null
         },
         {
           "id": null,
           "rank": 4,
-          "points": null,
-          "handle": "CoyHot",
-          "shader_file": null,
+          "points": 242,
+          "handle": "evvvvil",
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_evvvvil.glsl",
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 5,
+          "points": 228,
+          "handle": "provod",
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_provod.glsl",
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 6,
+          "points": 215,
+          "handle": "hArDy",
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_hArDy.glsl",
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 7,
+          "points": 199,
+          "handle": "wrighter",
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_wrighter.glsl",
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 8,
+          "points": 192,
+          "handle": "alkama",
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_alkama.glsl",
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 9,
+          "points": 170,
+          "handle": "monsieursoleil",
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_monsieursoleil.glsl",
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 10,
+          "points": 167,
+          "handle": "visy",
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_visy.glsl",
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 11,
+          "points": 141,
+          "handle": "NR4",
+          "shader_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_NR4.glsl",
           "shadertoy_url": null
         }
       ],
       "staffs": [
+        {
+          "handle": "LynnDrum",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "ps",
+          "job": "Commentators"
+        }
       ]
     }
   ],
   "staffs": [
+    {
+      "handle": "ps",
+      "job": "Organizers"
+    },
+    {
+      "handle": "alien01",
+      "job": "Organizers"
+    }
   ]
 }
