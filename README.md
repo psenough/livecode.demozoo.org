@@ -20,7 +20,7 @@ some references of stuff missing:
 
 https://github.com/CookieCollective/Live-Coding-Sources
 
-revision 2014, 2015, 2016
+revision 2014, 2015
 
 outline 2018 & 2019
 
