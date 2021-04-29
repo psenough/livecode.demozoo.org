@@ -1,0 +1,127 @@
+{
+  "title": "Outline",
+  "started": "2018-05-10",
+  "date": "10 - 13 May 2020",
+  "type": "Shader Showdown",
+  "vod": null,
+  "software_used": null,
+  "phases": [
+    {
+      "title": "Semifinal #1",
+      "vod": "https://www.youtube.com/watch?v=q8iFI1-v5n8",
+      "entries": [
+        {
+          "id": 1,
+          "rank": 1,
+          "points": null,
+          "handle": "lsdlive",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 2,
+          "rank": 2,
+          "points": null,
+          "handle": "TropicalTrevor",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "dojoe",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "andro",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Semifinals #2",
+      "vod": "https://youtu.be/q8iFI1-v5n8?t=1618",
+      "entries": [
+        {
+          "id": 1,
+          "rank": 2,
+          "points": null,
+          "handle": "lj",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 2,
+          "rank": 1,
+          "points": null,
+          "handle": "Flopine",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "dojoe",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        },
+        {
+          "handle": "andro",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Final",
+      "vod": "https://youtu.be/q8iFI1-v5n8?t=3344",
+      "entries": [
+        {
+          "id": 1,
+          "rank": 1,
+          "points": null,
+          "handle": "lsdlive",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 2,
+          "rank": 2,
+          "points": null,
+          "handle": "Flopine",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "dojoe",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "klandox",
+          "job": "Commentators"
+        },
+        {
+          "handle": "andro",
+          "job": "Commentators"
+        }
+      ]
+    }
+  ],
+  "staffs": [
+        {
+          "handle": "havoc",
+          "job": "Organizers"
+        }
+  ]
+}
