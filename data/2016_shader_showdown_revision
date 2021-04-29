@@ -1,0 +1,272 @@
+{
+  "title": "Revision 2016",
+  "started": "2016-03-25",
+  "date": "25 - 28 March 2016",
+  "type": "Shader Showdown",
+  "vod": null,
+  "software_used": null,
+  "phases": [
+    {
+      "title": "Qualifiers #1",
+      "vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
+      "entries": [
+        {
+          "id": 1,
+          "rank": 2,
+          "points": null,
+          "handle": "visy",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 2,
+          "rank": 1,
+          "points": null,
+          "handle": "archee",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "alkama",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "moqui",
+          "job": "Commentators"
+        },
+        {
+          "handle": "chaos",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Qualifiers #2",
+      "vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
+      "entries": [
+        {
+          "id": 1,
+          "rank": 2,
+          "points": null,
+          "handle": "mankeli",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 2,
+          "rank": 1,
+          "points": null,
+          "handle": "blueberry",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "ronny",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "chaos",
+          "job": "Commentators"
+        },
+        {
+          "handle": "moqui",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Qualifiers #3",
+      "vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
+      "entries": [
+        {
+          "id": 1,
+          "rank": 1,
+          "points": null,
+          "handle": "musk",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 2,
+          "rank": 2,
+          "points": null,
+          "handle": "medo",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "lug00ber",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "chaos",
+          "job": "Commentators"
+        },
+        {
+          "handle": "moqui",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Qualifiers #4",
+      "vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
+      "entries": [
+        {
+          "id": 1,
+          "rank": 1,
+          "points": null,
+          "handle": "lj",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 2,
+          "rank": 2,
+          "points": null,
+          "handle": "kabuto",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "alkama",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "chaos",
+          "job": "Commentators"
+        },
+        {
+          "handle": "moqui",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Semifinals #1",
+      "vod": "https://www.youtube.com/watch?v=Oa0BlHkYynU",
+      "entries": [
+        {
+          "id": 1,
+          "rank": 1,
+          "points": null,
+          "handle": "archee",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 2,
+          "rank": 2,
+          "points": null,
+          "handle": "blueberry",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "alkama",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "chaos",
+          "job": "Commentators"
+        },
+        {
+          "handle": "moqui",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Semifinals #2",
+      "vod": "https://www.youtube.com/watch?v=Oa0BlHkYynU",
+      "entries": [
+        {
+          "id": 1,
+          "rank": 2,
+          "points": null,
+          "handle": "musk",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 2,
+          "rank": 1,
+          "points": null,
+          "handle": "lj",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "ronny",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "chaos",
+          "job": "Commentators"
+        },
+        {
+          "handle": "moqui",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Final",
+      "vod": "https://www.youtube.com/watch?v=slSmOqdL-rw",
+      "entries": [
+        {
+          "id": 1,
+          "rank": 2,
+          "points": null,
+          "handle": "archee",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 2,
+          "rank": 1,
+          "points": null,
+          "handle": "lj",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "lug00ber",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "chaos",
+          "job": "Commentators"
+        },
+        {
+          "handle": "moqui",
+          "job": "Commentators"
+        }
+      ]
+    }
+    
+  ],
+  "staffs": [{
+    "handle": "havoc",
+    "job": "Organizers"
+    },
+    {
+    "handle": "random",
+    "job": "Organizers"
+    }
+  ]
+}
