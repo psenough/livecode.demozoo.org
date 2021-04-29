@@ -1,0 +1,115 @@
+{
+  "title": "Uitfeest",
+  "started": "2019-09-14",
+  "date": "14 Sep 2010",
+  "type": "Shader Showdown",
+  "vod": "https://www.pouet.net/topic.php?which=11779",
+  "software_used": null,
+  "phases": [
+    {
+      "title": "Semifinal #1",
+      "vod": null,
+      "entries": [
+        {
+          "id": 1,
+          "rank": null,
+          "points": null,
+          "handle": "Sasj",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 2,
+          "rank": null,
+          "points": null,
+          "handle": "lucidlien",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "LynnDrum",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Semifinal #2",
+      "vod": null,
+      "entries": [
+        {
+          "id": 1,
+          "rank": 1,
+          "points": null,
+          "handle": "Flopine",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 2,
+          "rank": 2,
+          "points": null,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "LynnDrum",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        }
+      ]
+    },
+    {
+      "title": "Final",
+      "vod": null,
+      "entries": [
+        {
+          "id": 1,
+          "rank": null,
+          "points": null,
+          "handle": "Sasj",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": 2,
+          "rank": 1,
+          "points": null,
+          "handle": "Flopine",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "LynnDrum",
+          "job": "Dj Set"
+        },
+        {
+          "handle": "okkie",
+          "job": "Commentators"
+        }
+      ]
+    }
+  ],
+  "staffs": [
+      {
+          "handle": "havoc",
+          "job": "Organizers"
+      }
+  ]
+}
