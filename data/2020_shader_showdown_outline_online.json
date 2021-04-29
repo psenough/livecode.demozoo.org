@@ -116,6 +116,44 @@
           "job": "Commentators"
         }
       ]
+    },
+    {
+      "title": "Shader Jam",
+      "vod": "https://www.youtube.com/watch?v=vKbmQFKiWYQ",
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "evvvvil",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "cosamentale",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "monsieursoleil",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "ronny",
+          "job": "Dj Set"
+        }
+      ]
     }
   ],
   "staffs": []
