@@ -118,7 +118,7 @@
       ]
     },
     {
-      "title": "Shader Jam",
+      "title": "Shader Jam #1",
       "vod": "https://www.youtube.com/watch?v=vKbmQFKiWYQ",
       "entries": [
         {
@@ -154,7 +154,51 @@
           "job": "Dj Set"
         }
       ]
+    },
+    {
+      "title": "Shader Jam #2",
+      "vod": "https://www.youtube.com/watch?v=dTTMgjRgoyg",
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "visy",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "Flopine",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": "wrighter",
+          "shader_file": null,
+          "shadertoy_url": null,
+          "vod": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": "LynnDrum",
+          "job": "Dj Set"
+        }
+      ]
     }
+    
   ],
-  "staffs": []
+  "staffs": [
+        {
+          "handle": "havoc",
+          "job": "Organizers"
+        }
+  ]
 }
