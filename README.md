@@ -22,7 +22,7 @@ https://github.com/CookieCollective/Live-Coding-Sources
 
 revision 2014, 2015
 
-outline 2018 & 2019
+outline 2019
 
 cookie 2018 & 2019
 
