@@ -24,8 +24,6 @@ revision 2014, 2015
 
 outline 2019
 
-cookie 2018 & 2019
-
 nova 2018 & 2019
 
 nordlicht 2018
