@@ -54,7 +54,7 @@
 			"vod": "https://www.youtube.com/watch?v=m4dznEOk6pw",
 			"entries": [{
 					"id": 1,
-					"rank": 1,
+					"rank": 2,
 					"points": null,
 					"handle": "lsdlive",
 					"shader_file": null,
@@ -62,7 +62,7 @@
 				},
 				{
 					"id": 2,
-					"rank": 2,
+					"rank": 1,
 					"points": null,
 					"handle": "Flopine",
 					"shader_file": null,
@@ -122,7 +122,7 @@
 					"id": 1,
 					"rank": 2,
 					"points": null,
-					"handle": "lsdlive",
+					"handle": "Flopine",
 					"shader_file": null,
 					"shadertoy_url": null
 				},
