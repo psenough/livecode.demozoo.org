@@ -1,0 +1,169 @@
+{
+	"title": "Cookie",
+	"started": "2018-11-30",
+	"date": "30 Nov - 1 Dec 2018",
+	"type": "Shader Showdown",
+	"vod": null,
+	"software_used": null,
+	"phases": [{
+			"title": "Qualifiers #1",
+			"vod": "https://www.youtube.com/watch?v=p4MakgvYtGg",
+			"entries": [{
+					"id": 1,
+					"rank": null,
+					"points": null,
+					"handle": "Elie",
+					"shader_file": null,
+					"shadertoy_url": null
+				},
+				{
+					"id": 2,
+					"rank": null,
+					"points": null,
+					"handle": "wsmind",
+					"shader_file": null,
+					"shadertoy_url": null
+				}
+			],
+			"staffs": []
+		},
+		{
+			"title": "Qualifiers #2",
+			"vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
+			"entries": [{
+					"id": 1,
+					"rank": 2,
+					"points": null,
+					"handle": "evvvvil",
+					"shader_file": null,
+					"shadertoy_url": null
+				},
+				{
+					"id": 2,
+					"rank": 1,
+					"points": null,
+					"handle": "ponk",
+					"shader_file": null,
+					"shadertoy_url": null
+				}
+			],
+			"staffs": []
+		},
+		{
+			"title": "Qualifiers #3",
+			"vod": "https://www.youtube.com/watch?v=m4dznEOk6pw",
+			"entries": [{
+					"id": 1,
+					"rank": 1,
+					"points": null,
+					"handle": "lsdlive",
+					"shader_file": null,
+					"shadertoy_url": null
+				},
+				{
+					"id": 2,
+					"rank": 2,
+					"points": null,
+					"handle": "Flopine",
+					"shader_file": null,
+					"shadertoy_url": null
+				}
+			],
+			"staffs": []
+		},
+		{
+			"title": "Qualifiers #4",
+			"vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
+			"entries": [{
+					"id": 1,
+					"rank": 2,
+					"points": null,
+					"handle": "eybor",
+					"shader_file": null,
+					"shadertoy_url": null
+				},
+				{
+					"id": 2,
+					"rank": 1,
+					"points": null,
+					"handle": "NuSan",
+					"shader_file": null,
+					"shadertoy_url": null
+				}
+			],
+			"staffs": []
+		},
+		{
+			"title": "Semifinals #1",
+			"vod": null,
+			"entries": [{
+					"id": 1,
+					"rank": 2,
+					"points": null,
+					"handle": "Elie",
+					"shader_file": null,
+					"shadertoy_url": null
+				},
+				{
+					"id": 2,
+					"rank": 1,
+					"points": null,
+					"handle": "ponk",
+					"shader_file": null,
+					"shadertoy_url": null
+				}
+			],
+			"staffs": []
+		},
+		{
+			"title": "Semifinals #2",
+			"vod": null,
+			"entries": [{
+					"id": 1,
+					"rank": 2,
+					"points": null,
+					"handle": "lsdlive",
+					"shader_file": null,
+					"shadertoy_url": null
+				},
+				{
+					"id": 2,
+					"rank": 1,
+					"points": null,
+					"handle": "NuSan",
+					"shader_file": null,
+					"shadertoy_url": null
+				}
+			],
+			"staffs": []
+		},
+		{
+			"title": "Final",
+			"vod": null,
+			"entries": [{
+					"id": 2,
+					"rank": 1,
+					"points": null,
+					"handle": "NuSan",
+					"shader_file": null,
+					"shadertoy_url": null
+				},
+				{
+					"id": 1,
+					"rank": 1,
+					"points": null,
+					"handle": "ponk",
+					"shader_file": null,
+					"shadertoy_url": null
+				}
+			],
+			"staffs": []
+		}
+
+	],
+	"staffs": [{
+			"handle": "havoc",
+			"job": "Organizers"
+		}
+	]
+}
