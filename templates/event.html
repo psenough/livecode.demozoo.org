@@ -1,21 +1,55 @@
-<h2>{{event['type']}} @ {{event['title']}} - {{event['date']}}</h2>
+<div class="accordion-item border-secondary">
+    <h2 class="accordion-header" id="heading{{ post_loop.index }}">
+        <button class="bg-dark text-secondary accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ post_loop.index }}"
+            aria-expanded="true" aria-controls="collapse{{ post_loop.index }}">
 
-{% set staffs = event['staffs']%}
-<div>{% include 'staff.html' %}</div>
+            <div class="row w-100">
+                <div class="col-12 col-md-6 col-xl-4">
+                    <span class="text-info text-nowrap">{{event['type']}}</span>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4">
+                    <span class="text-light text-nowrap">{{event['title']}}</span>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4">
+                    {{event['date']}}
+                </div>
+            </div>
 
-{% if event['vod'] %}
-<div><a href="{{event['vod']}}">🎦</a></div>
-{% endif %} 
+        </button>
+    </h2>
+    <div id="collapse{{ post_loop.index }}" class="accordion-collapse collapse" aria-labelledby="heading{{ post_loop.index }}" data-bs-parent="#accordionExample">
+        <div class="accordion-body bg-dark text-light">
 
-{% for phase in event['phases'] %}
-<div>{% include 'phase.html' %}</div>
-{% endfor %}
+            {% set staffs = event['staffs']%}
+            {% include 'staff.html' %}
 
-{% if event['software_used'] %}
-<div class="software">
-    <h3>Software used</h3>
-{% for software in event['software_used'] %}
-<div><a href="{{software['url']}}">{{software['name']}}</a></div>
-{% endfor %} 
+            {% if event['vod'] %}
+            <div class="text-secondary">
+                Video <a class="link-info" target="_blank" href="{{event['vod']}}">
+                    <i class="fas fa-video"></i>
+                </a>
+            </div>
+            {% endif %}
+
+            {% if event['software_used'] %}
+            <div class="text-secondary">
+                Software used
+                {% for software in event['software_used'] %}
+                <a class="link-info" target="_blank" href="{{software['url']}}">{{software['name']}}</a>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            <div class="mt-5">
+                <div class="row">
+                    {% for phase in event['phases'] %}
+                    <div class="col-12 mb-5">
+                        {% include 'phase.html' %}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>           
+
+        </div>
+    </div>
 </div>
-{% endif %}
