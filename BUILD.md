@@ -1,19 +1,24 @@
 # Build
 
-Note : Based on windows, adapt for linux / mac, should be easy
+Note: Based on Windows. Adapt for Linux/Mac, should be easy.
 
-## Requierments
+## Requirements
 
-Requierments : Python 3
+- [Python](https://www.python.org/) 3
+- Dependencies:
 
-```python
-pip install -r requirements.txt
-```
+  ```sh
+  pip install -r requirements.txt
+  ```
 
 ## Build Website
 
-`python .\bin\generate_html.py`
+```sh
+python .\bin\generate_html.py
+```
 
-## Check json data
+## Check JSON data
 
-`jsonschema -i .\data\2020_shader_royale_shader_royale2.json .\meta\event.schema.json`
+```sh
+jsonschema -i .\data\2020_shader_royale_shader_royale2.json .\meta\event.schema.json
+```
