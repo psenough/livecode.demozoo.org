@@ -6,7 +6,7 @@ Note : Based on windows, adapt for linux / mac, should be easy
 
 Requierments : Python 3
 
-```
+```python
 pip install -r req.txt
 ```
 

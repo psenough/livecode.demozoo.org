@@ -1,8 +1,10 @@
-<table class="staff">
+
   {% for job, staff in staffs|groupby('job') %}
-  <tr class="entry">
-    <td class="entry_job">{{job}} :</td>
-    <td class="entry_handles">{{staff|join(', ', attribute='handle') }}</td>
-  </tr>
+  <div class="text-secondary">
+    <span class="">{{job}}</span>
+    {% for item in staff %}
+      <span class="badge bg-light text-dark">{{ item.handle }}</span>
+    {% endfor %}
+  </div>
   {% endfor %}
-</table>
+
