@@ -11,7 +11,7 @@
       "vod": "https://www.youtube.com/watch?v=gnOBOoyAouQ",
       "entries": [
         {
-          "id": 2,
+          "id": "2",
           "rank": 1,
           "points": null,
           "handle": "rimina",
@@ -19,7 +19,7 @@
           "shadertoy_url": null
         },
         {
-          "id": 1,
+          "id": "1",
           "rank": 2,
           "points": null,
           "handle": "KeyJ",
@@ -43,7 +43,7 @@
       "vod": "https://www.youtube.com/watch?v=gnOBOoyAouQ",
       "entries": [
         {
-          "id": 1,
+          "id": "1",
           "rank": 2,
           "points": null,
           "handle": "lj",
@@ -51,7 +51,7 @@
           "shadertoy_url": null
         },
         {
-          "id": 2,
+          "id": "2",
           "rank": 1,
           "points": null,
           "handle": "cupe",
@@ -75,7 +75,7 @@
       "vod": "https://www.youtube.com/watch?v=84DlrXXFNhc",
       "entries": [
         {
-          "id": 1,
+          "id": "1",
           "rank": 2,
           "points": null,
           "handle": "rimina",
@@ -83,7 +83,7 @@
           "shadertoy_url": null
         },
         {
-          "id": 2,
+          "id": "2",
           "rank": 1,
           "points": null,
           "handle": "cupe",

@@ -11,7 +11,7 @@
       "vod": "https://scenesat.com/videoarchive/250b96a5-b90e-11ea-b68e-00505685775e?t=10770",
       "entries": [
         {
-          "id": 2,
+          "id": "2",
           "rank": 1,
           "points": 185,
           "handle": "CharStiles",
@@ -19,7 +19,7 @@
           "shadertoy_url": null
         },
         {
-          "id": 1,
+          "id": "1",
           "rank": 2,
           "points": 159,
           "handle": "lsh",
