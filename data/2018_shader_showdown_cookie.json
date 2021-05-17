@@ -9,7 +9,7 @@
 			"title": "Qualifiers #1",
 			"vod": "https://www.youtube.com/watch?v=p4MakgvYtGg",
 			"entries": [{
-					"id": 1,
+					"id": "1",
 					"rank": null,
 					"points": null,
 					"handle": "Elie",
@@ -17,7 +17,7 @@
 					"shadertoy_url": null
 				},
 				{
-					"id": 2,
+					"id": "2",
 					"rank": null,
 					"points": null,
 					"handle": "wsmind",
@@ -31,7 +31,7 @@
 			"title": "Qualifiers #2",
 			"vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
 			"entries": [{
-					"id": 1,
+					"id": "1",
 					"rank": 2,
 					"points": null,
 					"handle": "evvvvil",
@@ -39,7 +39,7 @@
 					"shadertoy_url": null
 				},
 				{
-					"id": 2,
+					"id": "2",
 					"rank": 1,
 					"points": null,
 					"handle": "ponk",
@@ -53,7 +53,7 @@
 			"title": "Qualifiers #3",
 			"vod": "https://www.youtube.com/watch?v=m4dznEOk6pw",
 			"entries": [{
-					"id": 1,
+					"id": "1",
 					"rank": 2,
 					"points": null,
 					"handle": "lsdlive",
@@ -61,7 +61,7 @@
 					"shadertoy_url": null
 				},
 				{
-					"id": 2,
+					"id": "2",
 					"rank": 1,
 					"points": null,
 					"handle": "Flopine",
@@ -75,7 +75,7 @@
 			"title": "Qualifiers #4",
 			"vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
 			"entries": [{
-					"id": 1,
+					"id": "1",
 					"rank": 2,
 					"points": null,
 					"handle": "eybor",
@@ -83,7 +83,7 @@
 					"shadertoy_url": null
 				},
 				{
-					"id": 2,
+					"id": "2",
 					"rank": 1,
 					"points": null,
 					"handle": "NuSan",
@@ -97,7 +97,7 @@
 			"title": "Semifinals #1",
 			"vod": null,
 			"entries": [{
-					"id": 1,
+					"id": "1",
 					"rank": 2,
 					"points": null,
 					"handle": "Elie",
@@ -105,7 +105,7 @@
 					"shadertoy_url": null
 				},
 				{
-					"id": 2,
+					"id": "2",
 					"rank": 1,
 					"points": null,
 					"handle": "ponk",
@@ -119,7 +119,7 @@
 			"title": "Semifinals #2",
 			"vod": null,
 			"entries": [{
-					"id": 1,
+					"id": "1",
 					"rank": 2,
 					"points": null,
 					"handle": "Flopine",
@@ -127,7 +127,7 @@
 					"shadertoy_url": null
 				},
 				{
-					"id": 2,
+					"id": "2",
 					"rank": 1,
 					"points": null,
 					"handle": "NuSan",
@@ -141,7 +141,7 @@
 			"title": "Final",
 			"vod": null,
 			"entries": [{
-					"id": 2,
+					"id": "2",
 					"rank": 1,
 					"points": null,
 					"handle": "NuSan",
@@ -149,7 +149,7 @@
 					"shadertoy_url": null
 				},
 				{
-					"id": 1,
+					"id": "1",
 					"rank": 1,
 					"points": null,
 					"handle": "ponk",

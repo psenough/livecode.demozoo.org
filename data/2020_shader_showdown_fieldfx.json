@@ -11,7 +11,7 @@
       "vod": "https://www.youtube.com/watch?v=Jt0cvOIoHWQ",
       "entries": [
         {
-          "id": 2,
+          "id": "2",
           "rank": 1,
           "points": 59,
           "handle": "monsieursoleil",
@@ -19,7 +19,7 @@
           "shadertoy_url": null
         },
         {
-          "id": 1,
+          "id": "1",
           "rank": 2,
           "points": 55,
           "handle": "evvvvil",
@@ -55,7 +55,7 @@
       "vod": "https://www.youtube.com/watch?v=Jt0cvOIoHWQ",
       "entries": [
         {
-          "id": 1,
+          "id": "1",
           "rank": 1,
           "points": 67,
           "handle": "Flopine",
@@ -63,7 +63,7 @@
           "shadertoy_url": null
         },
         {
-          "id": 2,
+          "id": "2",
           "rank": 2,
           "points": 66,
           "handle": "blackle",
@@ -91,7 +91,7 @@
       "vod": "https://www.youtube.com/watch?v=f3JGkVQcuX0",
       "entries": [
         {
-          "id": 2,
+          "id": "2",
           "rank": 1,
           "points": 90,
           "handle": "monsieursoleil",
@@ -99,7 +99,7 @@
           "shadertoy_url": null
         },
         {
-          "id": 1,
+          "id": "1",
           "rank": 2,
           "points": 71,
           "handle": "Flopine",

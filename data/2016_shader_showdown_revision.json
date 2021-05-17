@@ -9,7 +9,7 @@
 			"title": "Qualifiers #1",
 			"vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
 			"entries": [{
-					"id": 1,
+					"id": "1",
 					"rank": 2,
 					"points": null,
 					"handle": "visy",
@@ -17,7 +17,7 @@
 					"shadertoy_url": null
 				},
 				{
-					"id": 2,
+					"id": "2",
 					"rank": 1,
 					"points": null,
 					"handle": "archee",
@@ -47,7 +47,7 @@
 			"title": "Qualifiers #2",
 			"vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
 			"entries": [{
-					"id": 1,
+					"id": "1",
 					"rank": 2,
 					"points": null,
 					"handle": "mankeli",
@@ -55,7 +55,7 @@
 					"shadertoy_url": null
 				},
 				{
-					"id": 2,
+					"id": "2",
 					"rank": 1,
 					"points": null,
 					"handle": "blueberry",
@@ -85,7 +85,7 @@
 			"title": "Qualifiers #3",
 			"vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
 			"entries": [{
-					"id": 1,
+					"id": "1",
 					"rank": 1,
 					"points": null,
 					"handle": "musk",
@@ -93,7 +93,7 @@
 					"shadertoy_url": null
 				},
 				{
-					"id": 2,
+					"id": "2",
 					"rank": 2,
 					"points": null,
 					"handle": "medo",
@@ -123,7 +123,7 @@
 			"title": "Qualifiers #4",
 			"vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
 			"entries": [{
-					"id": 1,
+					"id": "1",
 					"rank": 1,
 					"points": null,
 					"handle": "lj",
@@ -131,7 +131,7 @@
 					"shadertoy_url": null
 				},
 				{
-					"id": 2,
+					"id": "2",
 					"rank": 2,
 					"points": null,
 					"handle": "kabuto",
@@ -161,7 +161,7 @@
 			"title": "Semifinals #1",
 			"vod": "https://www.youtube.com/watch?v=Oa0BlHkYynU",
 			"entries": [{
-					"id": 1,
+					"id": "1",
 					"rank": 1,
 					"points": null,
 					"handle": "archee",
@@ -169,7 +169,7 @@
 					"shadertoy_url": null
 				},
 				{
-					"id": 2,
+					"id": "2",
 					"rank": 2,
 					"points": null,
 					"handle": "blueberry",
@@ -199,7 +199,7 @@
 			"title": "Semifinals #2",
 			"vod": "https://www.youtube.com/watch?v=Oa0BlHkYynU",
 			"entries": [{
-					"id": 1,
+					"id": "1",
 					"rank": 2,
 					"points": null,
 					"handle": "musk",
@@ -207,7 +207,7 @@
 					"shadertoy_url": null
 				},
 				{
-					"id": 2,
+					"id": "2",
 					"rank": 1,
 					"points": null,
 					"handle": "lj",
@@ -237,7 +237,7 @@
 			"title": "Final",
 			"vod": "https://www.youtube.com/watch?v=slSmOqdL-rw",
 			"entries": [{
-					"id": 1,
+					"id": "1",
 					"rank": 2,
 					"points": null,
 					"handle": "archee",
@@ -245,7 +245,7 @@
 					"shadertoy_url": null
 				},
 				{
-					"id": 2,
+					"id": "2",
 					"rank": 1,
 					"points": null,
 					"handle": "lj",

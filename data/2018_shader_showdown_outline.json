@@ -11,7 +11,7 @@
       "vod": "https://www.youtube.com/watch?v=q8iFI1-v5n8",
       "entries": [
         {
-          "id": 1,
+          "id": "1",
           "rank": 1,
           "points": null,
           "handle": "lsdlive",
@@ -19,7 +19,7 @@
           "shadertoy_url": null
         },
         {
-          "id": 2,
+          "id": "2",
           "rank": 2,
           "points": null,
           "handle": "TropicalTrevor",
@@ -48,7 +48,7 @@
       "vod": "https://youtu.be/q8iFI1-v5n8?t=1618",
       "entries": [
         {
-          "id": 1,
+          "id": "1",
           "rank": 2,
           "points": null,
           "handle": "lj",
@@ -56,7 +56,7 @@
           "shadertoy_url": null
         },
         {
-          "id": 2,
+          "id": "2",
           "rank": 1,
           "points": null,
           "handle": "Flopine",
@@ -85,7 +85,7 @@
       "vod": "https://youtu.be/q8iFI1-v5n8?t=3344",
       "entries": [
         {
-          "id": 1,
+          "id": "1",
           "rank": 1,
           "points": null,
           "handle": "lsdlive",
@@ -93,7 +93,7 @@
           "shadertoy_url": null
         },
         {
-          "id": 2,
+          "id": "2",
           "rank": 2,
           "points": null,
           "handle": "Flopine",
