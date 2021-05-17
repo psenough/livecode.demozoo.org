@@ -12,6 +12,7 @@ A more readable version of the schema is available in [./doc/schema.html](./doc/
 
 ## TODO
 
+- figure out better project name (to get a logo and buy a domain)
 - better dataviz
 - add list of organizers to the events already listed
 - link shadertoys/shader download where available (did not search properly when adding the events)
