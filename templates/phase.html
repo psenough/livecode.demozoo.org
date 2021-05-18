@@ -15,11 +15,16 @@
   <div class="col-12 col-md-6 col-xl-3">
 
     <div class="card border-secondary mb-4">
-      {% if entry['shadertoy_url']%}
+      {%if entry['preview_image'] %} 
+      {# We check if there is a preview image provided. Works only if image is part of the project under ./media #}
+      <img src="./media/{{entry['preview_image']}}" class="card-img-top"/>
+      {% elif entry['shadertoy_url']%}
+      {# Backup plan if shadertoy is available, there is a change a preview has been generated #}
       {% set stid = entry['shadertoy_url'].split('/') %}
-      <img src="./media/{{stid[-1]}}.jpg" class="card-img-top">
+      <img src="./media/{{stid[-1]}}.jpg" class="card-img-top"/>
       {% else %}
-      <img src="./assets/img/image-not-found.png" class="card-img-top">
+      {# No preview available so default image #}
+      <img src="./assets/img/image-not-found.png" class="card-img-top"/>
       {% endif %}
       <div class="card-body bg-dark text-light">
         <h5 class="card-title">
