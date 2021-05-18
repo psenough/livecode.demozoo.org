@@ -57,6 +57,6 @@ jsonschema -i .\data\2020_shader_royale_shader_royale2.json .\meta\event.schema.
 
 So far no automatic way, just put preview images under `./media`. 
 
-Make sure image is 1090x1080 (or any ratio of it).
+Make sure image is 1920x1080 (or any ratio of it).
 
 Use some `optipng -o7 -preserve` just to optimize the size of files.
