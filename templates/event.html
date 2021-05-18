@@ -35,7 +35,7 @@
             <div class="text-secondary">
                 Software used
                 {% for software in event['software_used'] %}
-                <a class="link-info" target="_blank" href="{{software['url']}}">{{software['name']}}</a>
+                <a class="link-info" target="_blank" href="{{software['url']}}">{{software['name']}} {% if software['version'] %}({{ software['version'] }}){% endif %}</a>
                 {% endfor %}
             </div>
             {% endif %}
