@@ -95,7 +95,8 @@
           "points": 64,
           "handle": "wrighter",
           "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_wrighter.glsl",
-          "shadertoy_url": null
+          "shadertoy_url": null,
+          "preview_image": "shader_royale_4/grabber_inerciaroyale_wrighter.png"
         },
         {
           "id": null,
