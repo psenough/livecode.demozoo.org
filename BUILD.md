@@ -59,4 +59,4 @@ So far no automatic way, just put preview images under `./media`.
 
 Make sure image is 1920x1080 (or any ratio of it).
 
-Use some `optipng -o7 -preserve` just to optimize the size of files.
+Try to focus on jpg image (smaller) with some optimisation jpegoptim -m75 --strip-all %
