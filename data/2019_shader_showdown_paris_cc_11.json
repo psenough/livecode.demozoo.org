@@ -1,0 +1,136 @@
+{
+	"title": "Unnamed Cookie Shadershowdown #11",
+	"started": "2019-01-30",
+	"date": "30 Jan 2019",
+	"type": "Shader Showdown",
+	"vod": null,
+	"software_used": [
+        {
+          "name": "Bonzomatic",
+          "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+          "version": "NuSan - v11",
+          "purpose": "Graphic"
+        }
+      ],
+	"phases": [{
+			"title": "",
+			"vod": null,
+			"entries": [{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "NuSan",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/Nusan_300119.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2019-01-30/Nusan_300119.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Anatole",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/anatole 1.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2019-01-30/anatole 1.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Anatole",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/anatole 2.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2019-01-30/anatole 2.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Antoine",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/antoine1.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2019-01-30/antoine1.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Anton",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/anton1.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2019-01-30/anton1.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Anton",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/anton2.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2019-01-30/anton2.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Gregory",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/gregory 1.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2019-01-30/gregory 1.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Lamogui",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/lamogui 1.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2019-01-30/lamogui 1.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Lamogui",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/lamogui3.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2019-01-30/lamogui3.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Leon",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/leon2.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2019-01-30/leon2.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Momo",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/momo1.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2019-01-30/momo1.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Volumetric light scattering",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/shader - volumetric light scattering.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2019-01-30/shader - volumetric light scattering.jpg"
+				}
+			],
+			"staffs": [
+			]
+		}
+	],
+	"staffs": [{
+			"handle": "Cookie Collective",
+			"job": "Organizers"
+		}
+	]
+}

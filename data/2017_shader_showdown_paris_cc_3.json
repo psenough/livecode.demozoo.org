@@ -1,0 +1,155 @@
+{
+	"title": "Cookie Showdown #3 @ Nogozon",
+	"started": "2017-11-25",
+	"date": "25 November 2017",
+	"type": "Shader Showdown",
+	"vod": "https://youtu.be/55ayUl_07-E",
+	"software_used": [
+        {
+          "name": "Bonzomatic",
+          "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+          "version": "NuSan - v11",
+          "purpose": "Graphic"
+        }
+      ],
+	"phases": [{
+			"title": "Round #1",
+			"vod": null,
+			"entries": [{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Lamogui",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/01-lamogui.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2017-11-25/01-lamogui.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Ponk",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/01-ponk.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2017-11-25/01-ponk.jpg"
+				}
+			],
+			"staffs": [
+			]
+		},
+        {
+			"title": "Round #2",
+			"vod": null,
+			"entries": [{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Anton",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/02-anton.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2017-11-25/02-anton.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Koltes",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/02-koltes.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2017-11-25/02-koltes.jpg"
+				}
+			],
+			"staffs": [
+			]
+		},
+        {
+			"title": "Round #3",
+			"vod": null,
+			"entries": [{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Ponk",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/03-ponk.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2017-11-25/03-ponk.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Remi",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/03-remi.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2017-11-25/03-remi.jpg"
+				}
+			],
+			"staffs": [
+			]
+		},
+        {
+			"title": "Round #4",
+			"vod": null,
+			"entries": [{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Anton",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/04-anton.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2017-11-25/04-anton.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Lamogui",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/04-lamogui.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2017-11-25/04-lamogui.jpg"
+				}
+			],
+			"staffs": [
+			]
+		},
+        {
+			"title": "Extra",
+			"vod": null,
+			"entries": [{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Flopine",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/extra-flopine.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2017-11-25/extra-flopine.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Shader exquis",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/extra-shex-1.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2017-11-25/extra-shex-1.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Shader exquis",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/extra-shex-2.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2017-11-25/extra-shex-2.jpg"
+				}
+			],
+			"staffs": [
+			]
+		}
+	],
+	"staffs": [{
+			"handle": "Cookie Collective",
+			"job": "Organizers"
+		}
+	]
+}
