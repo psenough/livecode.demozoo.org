@@ -15,7 +15,7 @@
   "phases": [
     {
       "title": "Group 1 - Match 1",
-      "vod": null,
+      "vod": "https://youtu.be/WNxlDgTitZE",
       "entries": [
         {
           "id": null,
@@ -39,7 +39,7 @@
     },
     {
       "title": "Group 2 - Match 1",
-      "vod": null,
+      "vod": "https://youtu.be/WNxlDgTitZE?t=1692",
       "entries": [
         {
           "id": null,
@@ -63,7 +63,7 @@
     },
     {
       "title": "Group 1 - Match 2",
-      "vod": null,
+      "vod": "https://youtu.be/WNxlDgTitZE?t=3787",
       "entries": [
         {
           "id": null,
@@ -77,7 +77,7 @@
           "id": null,
           "rank": null,
           "points": null,
-          "handle": "MonsieurSoleil",
+          "handle": "Anticore",
           "shader_file": null,
           "shadertoy_url": null
         }
@@ -87,7 +87,7 @@
     },
     {
       "title": "Group 2 - Match 2",
-      "vod": null,
+      "vod": "https://youtu.be/WNxlDgTitZE?t=5652",
       "entries": [
         {
           "id": null,
@@ -125,7 +125,7 @@
           "id": null,
           "rank": null,
           "points": null,
-          "handle": "anticore",
+          "handle": "MonsieurSoleil",
           "shader_file": null,
           "shadertoy_url": null
         }
@@ -184,12 +184,13 @@
     },
     {
       "title": "Shaderjam 1",
+      "vod": "https://www.youtube.com/watch?v=148rAO3sods",
       "entries": [
         {
           "id": null,
           "rank": null,
           "points": null,
-          "handle": "exca",
+          "handle": "evvvvil",
           "shader_file": null,
           "shadertoy_url": null
         },
@@ -205,14 +206,14 @@
           "id": null,
           "rank": null,
           "points": null,
-          "handle": "rimina",
+          "handle": "exca",
           "shader_file": null,
           "shadertoy_url": null
         }
       ],
       "staffs": [
         {
-          "handle": "LynnDrum",
+          "handle": "TurboAnalIsis",
           "job": "Dj Set"
         }
       ]
