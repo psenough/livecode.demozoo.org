@@ -22,7 +22,7 @@
           "rank": 1,
           "points": null,
           "handle": "aldroid",
-          "shader_file": null,
+          "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_aldroid.lua",
           "shadertoy_url": null
         },
         {
@@ -54,7 +54,7 @@
           "rank": 1,
           "points": null,
           "handle": "exoticorn",
-          "shader_file": null,
+          "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_exoticorn.lua",
           "shadertoy_url": null,
           "tic80_cart_id": "1873"
         }
@@ -71,7 +71,7 @@
           "rank": 1,
           "points": null,
           "handle": "gopher",
-          "shader_file": null,
+          "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_gopher.lua",
           "shadertoy_url": null
         },
         {
@@ -79,7 +79,7 @@
           "rank": 2,
           "points": null,
           "handle": "tomcat",
-          "shader_file": null,
+          "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_tomcat.lua",
           "shadertoy_url": null
         }
       ],
@@ -95,7 +95,7 @@
           "rank": 2,
           "points": null,
           "handle": "popolon",
-          "shader_file": null,
+          "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_popolon.lua",
           "shadertoy_url": null,
           "tic80_cart_id": "1874"
         },
@@ -104,7 +104,7 @@
           "rank": 1,
           "points": null,
           "handle": "FMS_cat",
-          "shader_file": null,
+          "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_fmscat.lua",
           "shadertoy_url": null,
           "tic80_cart_id": "1868"
         }
@@ -121,7 +121,7 @@
           "rank": 2,
           "points": null,
           "handle": "aldroid",
-          "shader_file": null,
+          "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_aldroid.lua",
           "shadertoy_url": null
         },
         {
@@ -129,7 +129,7 @@
           "rank": 1,
           "points": null,
           "handle": "exoticorn",
-          "shader_file": null,
+          "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_exoticorn.lua",
           "shadertoy_url": null,
           "tic80_cart_id": "1872"
         }
@@ -146,7 +146,7 @@
           "rank": 1,
           "points": null,
           "handle": "gopher",
-          "shader_file": null,
+          "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_gopher.lua",
           "shadertoy_url": null
         },
         {
@@ -154,7 +154,7 @@
           "rank": 2,
           "points": null,
           "handle": "FMS_cat",
-          "shader_file": null,
+          "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_fmscat.lua",
           "shadertoy_url": null,
           "tic80_cart_id": "1869"
         }
@@ -171,7 +171,7 @@
           "rank": 1,
           "points": null,
           "handle": "gopher",
-          "shader_file": null,
+          "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_final_gopher.lua",
           "shadertoy_url": null
         },
         {
@@ -179,7 +179,7 @@
           "rank": 2,
           "points": null,
           "handle": "exoticorn",
-          "shader_file": null,
+          "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_final_exoticorn.lua",
           "shadertoy_url": null,
           "tic80_cart_id" : "1871"
         }
