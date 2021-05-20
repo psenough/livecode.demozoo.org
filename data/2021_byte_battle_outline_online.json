@@ -1,0 +1,187 @@
+{
+  "title": "Outline Online 2021",
+  "started": "2021-05-13",
+  "date": "13 - 16 May 2021",
+  "type": "Byte Battle",
+  "vod": null,
+  "software_used": [
+    {
+      "name": "TIC-80",
+      "url": "https://tic80.com/",
+      "version": "0.80",
+      "purpose": "Graphic"
+    }
+  ],
+  "phases": [
+    {
+      "title": "Quarter #1",
+      "vod": "https://www.youtube.com/watch?v=uYBZ8pRWwgo",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "aldroid",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "ps",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+      ]
+    },
+    {
+      "title": "Quarter #2",
+      "vod": "https://youtu.be/uYBZ8pRWwgo?t=1930",
+      "entries": [
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "killedbyapixel",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "exoticorn",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+      ]
+    },
+    {
+      "title": "Quart #3",
+      "vod": "https://youtu.be/uYBZ8pRWwgo?t=3798",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "gopher",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "tomcat",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+      ]
+    },
+    {
+      "title": "Quart #4",
+      "vod": "https://youtu.be/uYBZ8pRWwgo?t=5699",
+      "entries": [
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "popolon",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "FMS_cat",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+      ]
+    },
+    {
+      "title": "Semi #1",
+      "vod": "https://www.youtube.com/watch?v=KIv5N-nV_vQ",
+      "entries": [
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "aldroid",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "exoticorn",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+      ]
+    },
+    {
+      "title": "Semi #2",
+      "vod": "https://youtu.be/KIv5N-nV_vQ?t=1915",
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "gopher",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "FMS_cat",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+      ]
+    },
+    {
+      "title": "Final",
+      "vod": null,
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": "gopher",
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": "exoticorn",
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+       
+      ]
+    }
+  ],
+  "staffs": []
+}
