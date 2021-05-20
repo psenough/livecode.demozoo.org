@@ -2,7 +2,7 @@
 	"title": "Recondu Stream",
 	"started": "2019-12-19",
 	"date": "19 Dec 2019",
-	"type": "Online Performance",
+	"type": "Live Performance",
 	"vod": null,
 	"software_used": [
         {
@@ -41,7 +41,7 @@
 			"staffs": [
 				{
 					"handle": "Psych Out",
-					"job": "Music"
+					"job": "Live Music"
 				}
 			]
 		},
@@ -61,7 +61,7 @@
 			"staffs": [
 				{
 					"handle": "Koltes",
-					"job": "Music"
+					"job": "Live Music"
 				}
 			]
 		},
@@ -80,7 +80,7 @@
 			"staffs": [
 				{
 					"handle": "Cyanide Dansen",
-					"job": "Music"
+					"job": "Live Music"
 				}
 			]
 		}

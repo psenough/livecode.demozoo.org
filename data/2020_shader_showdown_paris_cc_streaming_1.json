@@ -61,8 +61,8 @@
 				{
 					"id": null,
 					"rank": null,
-					"points": "evvvvil",
-					"handle": "anton",
+					"points": null,
+					"handle": "evvvvil",
 					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/evvvvil.glsl",
 					"shadertoy_url": null,
                     "preview_image": "cc_live_coding_2020-03-19/evvvvil.jpg"
