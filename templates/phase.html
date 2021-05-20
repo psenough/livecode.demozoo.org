@@ -31,14 +31,9 @@
           {% if entry['rank'] %}
             <span class="badge bg-light text-dark">
             {% if phase['entries']|length > 2 %} 
-              {% if   entry['rank'] == 1 %} 🥇 
-              {% elif entry['rank'] == 2 %} 🥈
-              {% elif entry['rank'] == 3 %} 🥉
-              {% endif %}
+              {% if entry['rank'] in [1,2,3] %} <i class="fas fa-medal"></i>{% endif %}
             {% else %}
-              {% if   entry['rank'] == 1 %} 🟢
-              {% elif entry['rank'] == 2 %} 🔴
-              {% endif %}
+              {% if entry['rank'] == 1 %}  <i class="fas fa-medal"></i>{% endif %}
             {% endif %}
             {{entry['rank']}}
             
