@@ -4,6 +4,16 @@
             <h1 class="display-4" id="pageTitle">
                 LIVE CODING EVENTS
             </h1>
+            <div>
+                {% for href,year in menu_year_navigation %}
+                    {% if current_filename == href %}
+                        {% set nav_style = "bg-dark text-light" %}
+                    {% else %}
+                        {% set nav_style = "bg-light text-dark" %}
+                    {% endif %}
+                    <a href="{{href}}" class="badge {{nav_style}}" style="font-size: 1.1em;">{{year}}</a>
+                {% endfor %}
+            </div>
         </span>
         {# <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
