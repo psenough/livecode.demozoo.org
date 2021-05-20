@@ -52,3 +52,11 @@ python .\bin\generate_html.py
 ```sh
 jsonschema -i .\data\2020_shader_royale_shader_royale2.json .\meta\event.schema.json
 ```
+
+## Add preview image
+
+So far no automatic way, just put preview images under `./media`. 
+
+Make sure image is 1920x1080 (or any ratio of it).
+
+Try to focus on jpg image (smaller) with some optimisation jpegoptim -m75 --strip-all %

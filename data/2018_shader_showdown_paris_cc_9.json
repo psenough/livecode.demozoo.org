@@ -1,0 +1,52 @@
+{
+	"title": "Blue /x80 @ Bar Galia",
+	"started": "2018-10-20",
+	"date": "10 Oct 2018",
+	"type": "Shader Showdown",
+	"vod": null,
+	"software_used": [
+		{
+		"name": "Veda",
+		"url": "https://veda.gl/",
+		"version": "",
+		"purpose": "Graphic"
+		}
+      ],
+	"phases": [{
+			"title": "",
+			"vod": null,
+			"entries": [{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Anatol",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-10-20/anatol.frag",
+					"shadertoy_url": null
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Leon",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-10-20/leon.frag",
+					"shadertoy_url": null
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Theo",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-10-20/theo.frag",
+					"shadertoy_url": null
+				}
+			],
+			"staffs": [
+			]
+		}
+	],
+	"staffs": [{
+			"handle": "Cookie Collective",
+			"job": "Organizers"
+		}
+	]
+}

@@ -47,7 +47,7 @@
           "purpose": {
             "desctiption": "Purpose of the software",
             "type": "string",
-            "enum": ["Graphic", "Music", "Stream", "Organisation"]
+            "enum": ["Graphic", "Music", "Stream", "Organisation", "Jury"]
           }
         },
         "required": ["name", "purpose"]
@@ -146,7 +146,7 @@
           "job": {
             "description": "Job",
             "type": "string",
-            "enum": ["Organizers"]
+            "enum": ["Organizers", "Jury"]
           },
           "handle": {
             "description": "Handle / Username",
