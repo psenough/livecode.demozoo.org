@@ -11,6 +11,7 @@ import jinja2
 from htmlmin import minify
 
 import download_shadertoy_overviews as download_shadertoy_overview
+import download_tic80_cart_overview as download_tic80_cart_overview
 # Jinja2 Template system
 templateEnv = jinja2.Environment(
     loader=jinja2.FileSystemLoader(searchpath="./templates/")
@@ -27,7 +28,7 @@ data = sorted(
 # Generate cache for shadertoy overview
 for d in data:
     download_shadertoy_overview.create_cache(d)
-
+    download_tic80_cart_overview.create_cache(d)
 # For keeping page not overloaded, we divide per year, which mean 1 year = 1 page to generate 
 # As it's sorted reverse, it's should go from current year to previous year
 grouped_per_year = grouped(data,key=lambda a :a["started"][0:4])
