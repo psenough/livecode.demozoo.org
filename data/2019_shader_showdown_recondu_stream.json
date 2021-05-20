@@ -1,0 +1,93 @@
+{
+	"title": "Recondu Stream",
+	"started": "2019-12-19",
+	"date": "19 Dec 2019",
+	"type": "Live Performance",
+	"vod": null,
+	"software_used": [
+        {
+          "name": "Bonzomatic",
+          "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+          "version": "NuSan - v11",
+          "purpose": "Graphic"
+        },
+		{
+			"name": "Veda",
+			"url": "https://veda.gl/",
+			"version": "",
+			"purpose": "Graphic"
+		},
+		{
+			"name": "TidalCycles",
+			"url": "https://tidalcycles.org/",
+			"version": "",
+			"purpose": "Music"
+		}
+      ],
+	"phases": [
+		{
+			"title": "Slot #1",
+			"vod": null,
+			"entries": [{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Flopine",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-12-19/Flopine.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2019-12-19/Flopine.jpg"
+				}
+			],
+			"staffs": [
+				{
+					"handle": "Psych Out",
+					"job": "Live Music"
+				}
+			]
+		},
+		{
+			"title": "Slot #2",
+			"vod": null,
+			"entries": [{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "NuSan",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-12-19/Nusan.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2019-12-19/Nusan.jpg"
+				}
+			],
+			"staffs": [
+				{
+					"handle": "Koltes",
+					"job": "Live Music"
+				}
+			]
+		},
+		{
+			"title": "Slot #3",
+			"vod": null,
+			"entries": [{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Koltes",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-12-19/Koltes.frag",
+					"shadertoy_url": null
+				}
+			],
+			"staffs": [
+				{
+					"handle": "Cyanide Dansen",
+					"job": "Live Music"
+				}
+			]
+		}
+	],
+	"staffs": [{
+			"handle": "Cookie Collective",
+			"job": "Organizers"
+		}
+	]
+}

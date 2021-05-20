@@ -1,0 +1,117 @@
+{
+	"title": "Cookie Collective Twitch Stream #1",
+	"started": "2020-03-19",
+	"date": "19 Mar 2020",
+	"type": "Online Performance",
+	"vod": "https://www.twitch.tv/videos/570598632",
+	"software_used": [
+        {
+          "name": "Bonzomatic",
+          "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+          "version": "NuSan - v11",
+          "purpose": "Graphic"
+        },
+		{
+			"name": "TidalCycles",
+			"url": "https://tidalcycles.org/",
+			"version": "",
+			"purpose": "Music"
+		}
+      ],
+	"phases": [
+		{
+			"title": "",
+			"vod": null,
+			"entries": [{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "alkama",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/alkama.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2020-03-19/alkama.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "anton",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/anton.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2020-03-19/anton.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "bruce",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/bruce.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2020-03-19/bruce.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "cookie",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/cookie.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2020-03-19/cookie.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "evvvvil",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/evvvvil.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2020-03-19/evvvvil.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "Flopine",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/Flopine.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2020-03-19/Flopine.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "lamogui",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/lamogui.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2020-03-19/lamogui.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "NuSan",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/nusan.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2020-03-19/nusan.jpg"
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "ponk",
+					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/ponk.glsl",
+					"shadertoy_url": null,
+                    "preview_image": "cc_live_coding_2020-03-19/ponk.jpg"
+				}
+			],
+			"staffs": [
+				
+			]
+		}
+	],
+	"staffs": [{
+			"handle": "Cookie Collective",
+			"job": "Organizers"
+		}
+	]
+}
