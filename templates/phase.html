@@ -14,7 +14,7 @@
   {% for entry in phase['entries'] %}
   <div class="col-12 col-md-6 col-xl-3">
 
-    <div class="card border-secondary mb-4">
+    <div class="card border-secondary mb-4 entry">
       {%if entry['preview_image'] %} 
       {# We check if there is a preview image provided. Works only if image is part of the project under ./media #}
       <img src="./media/{{entry['preview_image']}}" class="card-img-top"/>
