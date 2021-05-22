@@ -1,0 +1,96 @@
+{
+	"title": "Shadow Demoparty",
+	"started": "2021-05-21",
+	"date": "21 - 23 May 2021",
+	"type": "Shader Jam",
+	"vod": null,
+	"software_used": [
+        {
+          "name": "Bonzomatic",
+          "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+          "version": "NuSan - v11",
+          "purpose": "Graphic"
+        }
+      ],
+	"phases": [
+		{
+			"title": "Jam #1",
+			"vod": "https://www.twitch.tv/videos/1030277790?t=3h8m42s",
+			"entries": [{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "NuSan",
+					"shader_file": null,
+					"shadertoy_url": null
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "lamogui",
+					"shader_file": null,
+					"shadertoy_url": null,
+                    "preview_image": null
+				},
+				{
+					"id": null,
+					"rank": null,
+					"points": null,
+					"handle": "ponk",
+					"shader_file": null,
+					"shadertoy_url": "https://www.shadertoy.com/view/7ll3R4",
+                    "preview_image": null
+				}
+			],
+			"staffs": [
+				{
+					"handle":"Lime",
+					"job": "Dj Set"
+				}
+			]
+		},{
+			"title": "Jam #2",
+			"vod": "https://www.twitch.tv/videos/1030277790?t=4h11m19s",
+			"entries": [{
+				"id": null,
+				"rank": null,
+				"points": null,
+				"handle": "evvvvil",
+				"shader_file": "./shader_file_sources/shadow_demoparty_2021/shadow-evvvvil-shaderjam.glsl",
+				"shadertoy_url": null,
+				"preview_image": "shadow_demoparty_2021/shadow-evvvvil-shaderjam.jpg"
+			},
+			{
+				"id": null,
+				"rank": null,
+				"points": null,
+				"handle": "z0rg",
+				"shader_file": "./shader_file_sources/shadow_demoparty_2021/z0rg.glsl",
+				"shadertoy_url": null,
+				"preview_image": "shadow_demoparty_2021/z0rg.jpg"
+			},
+			{
+				"id": null,
+				"rank": null,
+				"points": null,
+				"handle": "Totetmatt",
+				"shader_file": "./shader_file_sources/shadow_demoparty_2021/sender_shadow_totetmatt.glsl",
+				"shadertoy_url": "https://www.shadertoy.com/view/stl3z4",
+				"preview_image": "shadow_demoparty_2021/sender_shadow_totetmatt.jpg"
+			}
+			],
+			"staffs": [
+				{
+					"handle":"Koltes",
+					"job": "Live Music"
+				}
+			]
+		}
+	],
+	"staffs": [{
+			"handle": "Cookie Collective",
+			"job": "Organizers"
+		}
+	]
+}
