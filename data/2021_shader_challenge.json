@@ -15,7 +15,7 @@
           "points": null,
           "handle": "FMS_Cat",
           "shader_file": null,
-          "shadertoy_url": null
+          "shadertoy_url": "https://www.shadertoy.com/view/tlyBWw"
         },
         {
           "id": null,
@@ -23,13 +23,13 @@
           "points": null,
           "handle": "butadiene",
           "shader_file": null,
-          "shadertoy_url": null
+          "shadertoy_url": "https://www.shadertoy.com/view/wtGfWw"
         },
         {
           "id": null,
           "rank": null,
           "points": null,
-          "handle": "wrighter",
+          "handle": "sp4ghet",
           "shader_file": null,
           "shadertoy_url": null
         }
@@ -48,8 +48,8 @@
   ],
   "staffs": [
     {
-			"handle": "わたし (phi16)",
-			"job": "Organizers"
-		}
+	"handle": "わたし (phi16)",
+	"job": "Organizers"
+    }
   ]
 }
