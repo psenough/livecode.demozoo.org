@@ -22,6 +22,9 @@
       {# Backup plan if shadertoy is available, there is a change a preview has been generated #}
       {% set stid = entry['shadertoy_url'].split('/') %}
       <img src="./media/{{stid[-1]}}.jpg" class="card-img-top"/>
+      {% elif entry['tic80_cart_id'] %}
+      {# Could be a Bytebattle entry (only TIC80) #}
+      <img src="./media/cart_{{entry['tic80_cart_id'] }}.gif" class="card-img-top"/>
       {% else %}
       {# No preview available so default image #}
       <img src="./assets/img/image-not-found.png" class="card-img-top"/>
@@ -69,6 +72,13 @@
           <br>
           {% endif %}
 
+          {% if entry['tic80_cart_id']%}
+          TIC80.com
+          <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="https://tic80.com/play?cart={{entry['tic80_cart_id']}}">
+            <i class="fas fa-link"></i>
+          </a>
+          <br>
+          {% endif %}
           
           {% if entry['shader_file'] %}
           shader file
