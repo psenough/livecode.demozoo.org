@@ -1,160 +1,216 @@
 {
-	"title": "Recto VRso Exhibition",
-	"started": "2021-04-16",
-	"date": "16 Apr 2021",
-	"type": "Shader Showdown",
-	"vod": "https://youtu.be/UIGlDjnuUIY",
-	"software_used": [
+    "title": "Recto VRso Exhibition",
+    "started": "2021-04-16",
+    "date": "16 Apr 2021",
+    "type": "Shader Showdown",
+    "vod": "https://youtu.be/UIGlDjnuUIY",
+    "software_used": [
         {
-          "name": "Bonzomatic",
-          "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
-          "version": "NuSan - v11",
-          "purpose": "Graphic"
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
         },
-		{
-			"name": "TidalCycles",
-			"url": "https://tidalcycles.org/",
-			"version": "",
-			"purpose": "Music"
-		}
-      ],
-	"phases": [
-		{
-			"title": "Round #1",
-			"vod": null,
-			"entries": [{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "NuSan",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/01-nusan.glsl",
-					"shadertoy_url": null,
+        {
+            "name": "TidalCycles",
+            "url": "https://tidalcycles.org/",
+            "version": "",
+            "purpose": "Music"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Round #1",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": "88839"
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/01-nusan.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2021-04-16/01-nusan.jpg"
-				},
-				{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "z0rg",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/01-z0rg.glsl",
-					"shadertoy_url": null,
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "z0rg",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/01-z0rg.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2021-04-16/01-z0rg.jpg"
-				}
-			],
-			"staffs": [
-				{
-					"handle":"Joseph",
-					"job": "Live Music"
-				},
-				{
-					"handle":"Koltes",
-					"job": "Live Music"
-				}
-			]
-		},
-		{
-			"title": "Round #2",
-			"vod": null,
-			"entries": [{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "LechugaFeliz",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/02-lechugafeliz.glsl",
-					"shadertoy_url": null,
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Joseph",
+                        "demozoo_id": null
+                    },
+                    "job": "Live Music"
+                },
+                {
+                    "handle": {
+                        "name": "Koltes",
+                        "demozoo_id": "52423"
+                    },
+                    "job": "Live Music"
+                }
+            ]
+        },
+        {
+            "title": "Round #2",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "LechugaFeliz",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/02-lechugafeliz.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2021-04-16/02-lechugafeliz.jpg"
-				},
-				{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "wrighter",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/02-wrighter.glsl",
-					"shadertoy_url": null,
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": "113559"
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/02-wrighter.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2021-04-16/02-wrighter.jpg"
-				}
-			],
-			"staffs": [
-				{
-					"handle":"Joseph",
-					"job": "Live Music"
-				},
-				{
-					"handle":"Koltes",
-					"job": "Live Music"
-				}
-			]
-		},
-		{
-			"title": "Round #3",
-			"vod": null,
-			"entries": [{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "Tater",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/03-tater.glsl",
-					"shadertoy_url": null,
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Joseph",
+                        "demozoo_id": null
+                    },
+                    "job": "Live Music"
+                },
+                {
+                    "handle": {
+                        "name": "Koltes",
+                        "demozoo_id": "52423"
+                    },
+                    "job": "Live Music"
+                }
+            ]
+        },
+        {
+            "title": "Round #3",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Tater",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/03-tater.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2021-04-16/03-tater.jpg"
-				},
-				{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "z0rg",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/03-z0rg.glsl",
-					"shadertoy_url": null,
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "z0rg",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/03-z0rg.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2021-04-16/03-z0rg.jpg"
-				}
-			],
-			"staffs": [
-				{
-					"handle":"Joseph",
-					"job": "Live Music"
-				},
-				{
-					"handle":"Koltes",
-					"job": "Live Music"
-				}
-			]
-		},
-		{
-			"title": "Round #4",
-			"vod": null,
-			"entries": [{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "Lamogui",
-					"shader_file": null,
-					"shadertoy_url": null,
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Joseph",
+                        "demozoo_id": null
+                    },
+                    "job": "Live Music"
+                },
+                {
+                    "handle": {
+                        "name": "Koltes",
+                        "demozoo_id": "52423"
+                    },
+                    "job": "Live Music"
+                }
+            ]
+        },
+        {
+            "title": "Round #4",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Lamogui",
+                        "demozoo_id": "71129"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
                     "preview_image": null
-				},
-				{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "LechugaFeliz",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/04-lechugafeliz.glsl",
-					"shadertoy_url": null,
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "LechugaFeliz",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/04-lechugafeliz.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2021-04-16/04-lechugafeliz.jpg"
-				}
-			],
-			"staffs": [
-				{
-					"handle":"Joseph",
-					"job": "Live Music"
-				},
-				{
-					"handle":"Koltes",
-					"job": "Live Music"
-				}
-			]
-		}
-	],
-	"staffs": [{
-			"handle": "Cookie Collective",
-			"job": "Organizers"
-		}
-	]
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Joseph",
+                        "demozoo_id": null
+                    },
+                    "job": "Live Music"
+                },
+                {
+                    "handle": {
+                        "name": "Koltes",
+                        "demozoo_id": "52423"
+                    },
+                    "job": "Live Music"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Cookie Collective",
+                "demozoo_id": "78435"
+            },
+            "job": "Organizers"
+        }
+    ]
 }

@@ -45,7 +45,11 @@
 
           <span>
             {% if entry['handle'] %}
-            {{entry['handle']}}
+              {% if entry['handle'].demozoo_id %} 
+                {{ handles_demozoo(entry['handle'].demozoo_id) }}
+              {% else %}
+                {{entry['handle'].name}}
+              {% endif %}
             {% endif %}
           </span>
 
@@ -99,5 +103,6 @@
   </div>
 
   {% endfor %}
-
+  {% set staffs = phase['staffs']%}
+  {% include 'staff.html' %}
 </div>

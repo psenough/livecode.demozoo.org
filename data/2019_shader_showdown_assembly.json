@@ -1,119 +1,164 @@
 {
-  "title": "Assembly",
-  "started": "2019-08-02",
-  "date": "2 - 3 Aug 2019",
-  "type": "Shader Showdown",
-  "vod": null,
-  "software_used": null,
-  "phases": [
-    {
-      "title": "Semifinal 1",
-      "vod": "https://www.youtube.com/watch?v=3q7abaqoc9I",
-      "entries": [
+    "title": "Assembly",
+    "started": "2019-08-02",
+    "date": "2 - 3 Aug 2019",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": null,
+    "phases": [
         {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "Exca",
-          "shader_file": null,
-          "shadertoy_url": null
+            "title": "Semifinal 1",
+            "vod": "https://www.youtube.com/watch?v=3q7abaqoc9I",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Exca",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "cce",
+                        "demozoo_id": "6293"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "eimink",
+                        "demozoo_id": "32692"
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": "3049"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "waffle",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
         },
         {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "cce",
-          "shader_file": null,
-          "shadertoy_url": null
+            "title": "Semifinal 2",
+            "vod": "https://www.youtube.com/watch?v=JAh4HYtHh9M",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "noby",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": "1301"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "mayor",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": "3049"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "waffle",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=vv71jDAwTbM",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "noby",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Exca",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/WsGyDW"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "eimink",
+                        "demozoo_id": "32692"
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": "3049"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "waffle",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
         }
-      ],
-      "staffs": [
-        {
-          "handle": "eimink",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "okkie",
-          "job": "Commentators"
-        },
-        {
-          "handle": "waffle",
-          "job": "Commentators"
-        }
-      ]
-    },
-    {
-      "title": "Semifinal 2",
-      "vod": "https://www.youtube.com/watch?v=JAh4HYtHh9M",
-      "entries": [
-        {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "noby",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "visy",
-          "shader_file": null,
-          "shadertoy_url": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "mayor",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "okkie",
-          "job": "Commentators"
-        },
-        {
-          "handle": "waffle",
-          "job": "Commentators"
-        }
-      ]
-    },
-    {
-      "title": "Final",
-      "vod": "https://www.youtube.com/watch?v=vv71jDAwTbM",
-      "entries": [
-        {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "noby",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "Exca",
-          "shader_file": null,
-          "shadertoy_url": "https://www.shadertoy.com/view/WsGyDW"
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "eimink",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "okkie",
-          "job": "Commentators"
-        },
-        {
-          "handle": "waffle",
-          "job": "Commentators"
-        }
-      ]
-    }
-  ],
-  "staffs": []
+    ],
+    "staffs": []
 }

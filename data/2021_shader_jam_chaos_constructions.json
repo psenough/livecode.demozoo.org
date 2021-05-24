@@ -1,63 +1,84 @@
 {
-  "title": "Chaos Constructions Winter",
-  "started": "2021-02-21",
-  "date": "21 Feb 2021",
-  "type": "Shader Jam",
-  "vod": "https://www.youtube.com/watch?v=vWWlE5sc-WY",
-  "software_used": null,
-  "phases": [
-    {
-      "title": null,
-      "entries": [
+    "title": "Chaos Constructions Winter",
+    "started": "2021-02-21",
+    "date": "21 Feb 2021",
+    "type": "Shader Jam",
+    "vod": "https://www.youtube.com/watch?v=vWWlE5sc-WY",
+    "software_used": null,
+    "phases": [
         {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "cosamental",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "wrighter",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "monsieursoleil",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "provod",
-          "shader_file": null,
-          "shadertoy_url": null
+            "title": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "cosamental",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": "113559"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "monsieursoleil",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "provod",
+                        "demozoo_id": "24024"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dipswitch",
+                        "demozoo_id": "5806"
+                    },
+                    "job": "Dj Set"
+                }
+            ]
         }
-      ],
-      "staffs": [
+    ],
+    "staffs": [
         {
-          "handle": "dipswitch",
-          "job": "Dj Set"
+            "handle": {
+                "name": "random",
+                "demozoo_id": null
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": null
+            },
+            "job": "Organizers"
         }
-      ]
-    }
-  ],
-  "staffs": [
-    {
-      "handle": "random",
-      "job": "Organizers"
-    },
-    {
-      "handle": "havoc",
-      "job": "Organizers"
-    }
-  ]
+    ]
 }

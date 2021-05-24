@@ -1,146 +1,209 @@
 {
-  "title": "NOVA Online",
-  "started": "2020-06-21",
-  "date": "21 Jun 2020",
-  "type": "Shader Showdown",
-  "vod": null,
-  "software_used": null,
-  "phases": [
-    {
-      "title": "Round 1",
-      "vod": "https://www.youtube.com/watch?v=k_SSkZjlUgE",
-      "entries": [
+    "title": "NOVA Online",
+    "started": "2020-06-21",
+    "date": "21 Jun 2020",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": null,
+    "phases": [
         {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "evvvvil",
-          "shader_file": null,
-          "shadertoy_url": null
+            "title": "Round 1",
+            "vod": "https://www.youtube.com/watch?v=k_SSkZjlUgE",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": "71087"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": "113559"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "rc55",
+                        "demozoo_id": "6412"
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": "1525"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "d0pefish",
+                        "demozoo_id": "29929"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "polynomial",
+                        "demozoo_id": "60607"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "rc55",
+                        "demozoo_id": "6412"
+                    },
+                    "job": "Commentators"
+                }
+            ]
         },
         {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "wrighter",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
+            "title": "Round 2",
+            "vod": "https://www.youtube.com/watch?v=PF8yuOTqX4k",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Insomniac",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "LovelyHanibal",
+                        "demozoo_id": "26514"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "d0pefish",
+                        "demozoo_id": "29929"
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": "1525"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "d0pefish",
+                        "demozoo_id": "29929"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "polynomial",
+                        "demozoo_id": "60607"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "rc55",
+                        "demozoo_id": "6412"
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=-n_TnBn01Ew",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": "71087"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Insomniac",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": "90"
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": "1525"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "d0pefish",
+                        "demozoo_id": "29929"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "polynomial",
+                        "demozoo_id": "60607"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "rc55",
+                        "demozoo_id": "6412"
+                    },
+                    "job": "Commentators"
+                }
+            ]
         }
-      ],
-      "staffs": [
-        {
-          "handle": "rc55",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "h0ffman",
-          "job": "Commentators"
-        },
-        {
-          "handle": "d0pefish",
-          "job": "Commentators"
-        },
-        {
-          "handle": "polynomial",
-          "job": "Commentators"
-        },
-        {
-          "handle": "rc55",
-          "job": "Commentators"
-        }
-      ]
-    },
-    {
-      "title": "Round 2",
-      "vod": "https://www.youtube.com/watch?v=PF8yuOTqX4k",
-      "entries": [
-        {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "Insomniac",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "LovelyHanibal",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "d0pefish",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "h0ffman",
-          "job": "Commentators"
-        },
-        {
-          "handle": "d0pefish",
-          "job": "Commentators"
-        },
-        {
-          "handle": "polynomial",
-          "job": "Commentators"
-        },
-        {
-          "handle": "rc55",
-          "job": "Commentators"
-        }
-      ]
-    },
-    {
-      "title": "Final",
-      "vod": "https://www.youtube.com/watch?v=-n_TnBn01Ew",
-      "entries": [
-        {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "evvvvil",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "Insomniac",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "lug00ber",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "h0ffman",
-          "job": "Commentators"
-        },
-        {
-          "handle": "d0pefish",
-          "job": "Commentators"
-        },
-        {
-          "handle": "polynomial",
-          "job": "Commentators"
-        },
-        {
-          "handle": "rc55",
-          "job": "Commentators"
-        }
-      ]
-    }
-  ],
-  "staffs": []
+    ],
+    "staffs": []
 }

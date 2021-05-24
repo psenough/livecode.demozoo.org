@@ -93,7 +93,16 @@
                 },
                 "handle": {
                   "description": "Handle / Username",
-                  "type": ["string"]
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "demozoo_id": {
+                      "type": ["string", "null"]
+                    }
+                  },
+                  "required": ["name"]
                 },
                 "shader_file": {
                   "description": "File of the entry",
@@ -126,7 +135,16 @@
                 },
                 "handle": {
                   "description": "Handle / Username",
-                  "type": "string"
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "demozoo_id": {
+                      "type": ["string", "null"]
+                    }
+                  },
+                  "required": ["name"]
                 }
               },
               "required": ["job", "handle"]
@@ -150,7 +168,16 @@
           },
           "handle": {
             "description": "Handle / Username",
-            "type": "string"
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "demozoo_id": {
+                "type": ["string", "null"]
+              }
+            },
+            "required": ["name"]
           }
         },
         "required": ["job", "handle"]
