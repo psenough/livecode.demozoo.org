@@ -1,20 +1,20 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="w-100 text-center">
         <span class="navbar-brand">
-            <h1 class="display-4" id="pageTitle">
+            <h1 class="display-4 mb-0 text-wrap" id="pageTitle">
                 LIVE CODING EVENTS
-            </h1>
-            <div>
-                {% for href,year in menu_year_navigation %}
-                    {% if current_filename == href %}
-                        {% set nav_style = "bg-dark text-light" %}
-                    {% else %}
-                        {% set nav_style = "bg-light text-dark" %}
-                    {% endif %}
-                    <a href="{{href}}" class="badge {{nav_style}}" style="font-size: 1.1em;">{{year}}</a>
-                {% endfor %}
-            </div>
+            </h1>            
         </span>
+        <div>
+            {% for href,year in menu_year_navigation %}
+                {% if current_filename == href %}
+                    {% set nav_style = "btn-outline-info" %}
+                {% else %}
+                    {% set nav_style = "btn-outline-secondary text-light" %}
+                {% endif %}
+                <a href="{{href}}" class="p-2 pb-1 btn btn-lg {{nav_style}}">{{year}}</a>
+            {% endfor %}
+        </div>
         {# <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
