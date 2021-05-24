@@ -36,12 +36,20 @@
       ],
       "staffs": [
         {
-          "handle": "lactoice",
+          "handle": "らくとあいす (lactoice)",
           "job": "Live Music"
+        },
+        {
+          "handle": "わたし (phi16)",
+          "job": "Commentators"
         }
       ]
     }
   ],
   "staffs": [
+    {
+			"handle": "わたし (phi16)",
+			"job": "Organizers"
+		}
   ]
 }
