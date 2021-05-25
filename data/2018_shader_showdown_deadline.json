@@ -1,113 +1,151 @@
 {
-  "title": "Deadline 2018",
-  "started": "2018-10-05",
-  "date": "5 - 7 Oct 2018",
-  "type": "Shader Showdown",
-  "vod": null,
-  "software_used": null,
-  "phases": [
-    {
-      "title": "Semifinals #1",
-      "vod": "https://www.youtube.com/watch?v=gnOBOoyAouQ",
-      "entries": [
+    "title": "Deadline 2018",
+    "started": "2018-10-05",
+    "date": "5 - 7 Oct 2018",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": null,
+    "phases": [
         {
-          "id": "2",
-          "rank": 1,
-          "points": null,
-          "handle": "rimina",
-          "shader_file": null,
-          "shadertoy_url": null
+            "title": "Semifinals #1",
+            "vod": "https://www.youtube.com/watch?v=gnOBOoyAouQ",
+            "entries": [
+                {
+                    "id": "2",
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "rimina",
+                        "demozoo_id": "56489"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": "1",
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "KeyJ",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "messy",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kebby",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
         },
         {
-          "id": "1",
-          "rank": 2,
-          "points": null,
-          "handle": "KeyJ",
-          "shader_file": null,
-          "shadertoy_url": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "messy",
-          "job": "Dj Set"
+            "title": "Semifinals #2",
+            "vod": "https://www.youtube.com/watch?v=gnOBOoyAouQ",
+            "entries": [
+                {
+                    "id": "1",
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "lj",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": "2",
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "cupe",
+                        "demozoo_id": "15276"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "messy",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kebby",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
         },
         {
-          "handle": "kebby",
-          "job": "Commentators"
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=84DlrXXFNhc",
+            "entries": [
+                {
+                    "id": "1",
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "rimina",
+                        "demozoo_id": "56489"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": "2",
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "cupe",
+                        "demozoo_id": "15276"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "messy",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kebby",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "title": "Semifinals #2",
-      "vod": "https://www.youtube.com/watch?v=gnOBOoyAouQ",
-      "entries": [
+    ],
+    "staffs": [
         {
-          "id": "1",
-          "rank": 2,
-          "points": null,
-          "handle": "lj",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": "2",
-          "rank": 1,
-          "points": null,
-          "handle": "cupe",
-          "shader_file": null,
-          "shadertoy_url": null
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": null
+            },
+            "job": "Organizers"
         }
-      ],
-      "staffs": [
-        {
-          "handle": "messy",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "kebby",
-          "job": "Commentators"
-        }
-      ]
-    },
-    {
-      "title": "Final",
-      "vod": "https://www.youtube.com/watch?v=84DlrXXFNhc",
-      "entries": [
-        {
-          "id": "1",
-          "rank": 2,
-          "points": null,
-          "handle": "rimina",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": "2",
-          "rank": 1,
-          "points": null,
-          "handle": "cupe",
-          "shader_file": null,
-          "shadertoy_url": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "messy",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "kebby",
-          "job": "Commentators"
-        }
-      ]
-    }
-    
-  ],
-  "staffs": [
-    {
-          "handle": "havoc",
-          "job": "Organizers"
-        }
-  ]
+    ]
 }

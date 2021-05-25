@@ -1,196 +1,243 @@
 {
-	"title": "Cookie Showdown #1 @ Kawaii Café",
-	"started": "2017-06-22",
-	"date": "22 June 2017",
-	"type": "Shader Showdown",
-	"vod": "https://youtu.be/TZeZ3Mmi4VY",
-	"software_used": [
+    "title": "Cookie Showdown #1 @ Kawaii Caf\u00e9",
+    "started": "2017-06-22",
+    "date": "22 June 2017",
+    "type": "Shader Showdown",
+    "vod": "https://youtu.be/TZeZ3Mmi4VY",
+    "software_used": [
         {
-          "name": "Bonzomatic",
-          "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
-          "version": "NuSan - v11",
-          "purpose": "Graphic"
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
         }
-      ],
-	"phases": [{
-			"title": "Round #1",
-			"vod": null,
-			"entries": [{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "Anton",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/01-anton.glsl",
-					"shadertoy_url": null,
+    ],
+    "phases": [
+        {
+            "title": "Round #1",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Anton",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/01-anton.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2017-06-22/01-anton.jpg"
-				},
-				{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "Eybor",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/01-eybor.glsl",
-					"shadertoy_url": null,
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Eybor",
+                        "demozoo_id": "27241"
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/01-eybor.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2017-06-22/01-eybor.jpg"
-				}
-			],
-			"staffs": [
-			]
-		},
+                }
+            ],
+            "staffs": []
+        },
         {
-			"title": "Round #2",
-			"vod": null,
-			"entries": [{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "Flopine",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/02-flopine.glsl",
-					"shadertoy_url": null,
+            "title": "Round #2",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": "65988"
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/02-flopine.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2017-06-22/02-flopine.jpg"
-				},
-				{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "wsmind",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/02-wsmind.glsl",
-					"shadertoy_url": null,
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wsmind",
+                        "demozoo_id": "34845"
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/02-wsmind.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2017-06-22/02-wsmind.jpg"
-				}
-			],
-			"staffs": [
-			]
-		},
+                }
+            ],
+            "staffs": []
+        },
         {
-			"title": "Round #3",
-			"vod": null,
-			"entries": [{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "Lamogui",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/03-lamogui.glsl",
-					"shadertoy_url": null,
+            "title": "Round #3",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Lamogui",
+                        "demozoo_id": "71129"
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/03-lamogui.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2017-06-22/03-lamogui.jpg"
-				},
-				{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "Sicarde",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/03-sicarde.glsl",
-					"shadertoy_url": null,
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Sicarde",
+                        "demozoo_id": "75328"
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/03-sicarde.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2017-06-22/03-sicarde.jpg"
-				}
-			],
-			"staffs": [
-			]
-		},
+                }
+            ],
+            "staffs": []
+        },
         {
-			"title": "Round #4",
-			"vod": null,
-			"entries": [{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "ponk",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/04-ponk.glsl",
-					"shadertoy_url": null,
+            "title": "Round #4",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "ponk",
+                        "demozoo_id": "61858"
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/04-ponk.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2017-06-22/04-ponk.jpg"
-				},
-				{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "Semtoraap",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/04-semtoraap.glsl",
-					"shadertoy_url": null,
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Semtoraap",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/04-semtoraap.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2017-06-22/04-semtoraap.jpg"
-				}
-			],
-			"staffs": [
-			]
-		},
+                }
+            ],
+            "staffs": []
+        },
         {
-			"title": "Round #5",
-			"vod": null,
-			"entries": [{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "Anton",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/05-Anton.glsl",
-					"shadertoy_url": null,
+            "title": "Round #5",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Anton",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/05-Anton.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2017-06-22/05-Anton.jpg"
-				},
-				{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "Pasta",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/05-pasta.glsl",
-					"shadertoy_url": null,
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Pasta",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/05-pasta.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2017-06-22/05-pasta.jpg"
-				}
-			],
-			"staffs": [
-			]
-		},
+                }
+            ],
+            "staffs": []
+        },
         {
-			"title": "Round #6",
-			"vod": null,
-			"entries": [{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "Koltes",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/06-koltes.glsl",
-					"shadertoy_url": null,
+            "title": "Round #6",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Koltes",
+                        "demozoo_id": "52423"
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/06-koltes.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2017-06-22/06-koltes.jpg"
-				},
-				{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "Poulet Vert",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/06-pouletvert.glsl",
-					"shadertoy_url": null,
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Poulet Vert",
+                        "demozoo_id": "78480"
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/06-pouletvert.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2017-06-22/06-pouletvert.jpg"
-				}
-			],
-			"staffs": [
-			]
-		},
+                }
+            ],
+            "staffs": []
+        },
         {
-			"title": "Round #7",
-			"vod": null,
-			"entries": [{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "Flopine",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/07-flopine.glsl",
-					"shadertoy_url": null,
+            "title": "Round #7",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": "65988"
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/07-flopine.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2017-06-22/07-flopine.jpg"
-				},
-				{
-					"id": null,
-					"rank": null,
-					"points": null,
-					"handle": "wsmind",
-					"shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/07-wsmind.glsl",
-					"shadertoy_url": null,
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wsmind",
+                        "demozoo_id": "34845"
+                    },
+                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/07-wsmind.glsl",
+                    "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2017-06-22/07-wsmind.jpg"
-				}
-			],
-			"staffs": [
-			]
-		}
-	],
-	"staffs": [{
-			"handle": "Cookie Collective",
-			"job": "Organizers"
-		}
-	]
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Cookie Collective",
+                "demozoo_id": "78435"
+            },
+            "job": "Organizers"
+        }
+    ]
 }

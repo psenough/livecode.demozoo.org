@@ -1,55 +1,73 @@
 {
-  "title": "Shader Chaλλenge 2021",
-  "started": "2021-02-27",
-  "date": "27 Feb 2021",
-  "type": "Shader Challenge",
-  "vod": "https://www.youtube.com/watch?v=2NJrpOFxSSo",
-  "software_used": null,
-  "phases": [
-    {
-      "title": null,
-      "entries": [
+    "title": "Shader Cha\u03bb\u03bbenge 2021",
+    "started": "2021-02-27",
+    "date": "27 Feb 2021",
+    "type": "Shader Challenge",
+    "vod": "https://www.youtube.com/watch?v=2NJrpOFxSSo",
+    "software_used": null,
+    "phases": [
         {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "FMS_Cat",
-          "shader_file": null,
-          "shadertoy_url": "https://www.shadertoy.com/view/tlyBWw"
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "butadiene",
-          "shader_file": null,
-          "shadertoy_url": "https://www.shadertoy.com/view/wtGfWw"
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "sp4ghet",
-          "shader_file": null,
-          "shadertoy_url": null
+            "title": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "FMS_Cat",
+                        "demozoo_id": "57112"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/tlyBWw"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "butadiene",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/wtGfWw"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "sp4ghet",
+                        "demozoo_id": "119897"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "\u3089\u304f\u3068\u3042\u3044\u3059 (lactoice)",
+                        "demozoo_id": null
+                    },
+                    "job": "Live Music"
+                },
+                {
+                    "handle": {
+                        "name": "\u308f\u305f\u3057 (phi16)",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
         }
-      ],
-      "staffs": [
+    ],
+    "staffs": [
         {
-          "handle": "らくとあいす (lactoice)",
-          "job": "Live Music"
-        },
-        {
-          "handle": "わたし (phi16)",
-          "job": "Commentators"
+            "handle": {
+                "name": "\u308f\u305f\u3057 (phi16)",
+                "demozoo_id": null
+            },
+            "job": "Organizers"
         }
-      ]
-    }
-  ],
-  "staffs": [
-    {
-	"handle": "わたし (phi16)",
-	"job": "Organizers"
-    }
-  ]
+    ]
 }

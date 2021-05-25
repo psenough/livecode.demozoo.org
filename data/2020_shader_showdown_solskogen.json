@@ -1,270 +1,375 @@
 {
-  "title": "Solskogen",
-  "started": "2020-07-11",
-  "date": "11 Jul 2020",
-  "type": "Shader Showdown",
-  "vod": null,
-  "software_used": null,
-  "phases": [
-    {
-      "title": "Qualifier 1",
-      "vod": "https://www.youtube.com/watch?v=g9saEPw5Fg",
-      "entries": [
+    "title": "Solskogen",
+    "started": "2020-07-11",
+    "date": "11 Jul 2020",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": null,
+    "phases": [
         {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "evvvvil",
-          "shader_file": null,
-          "shadertoy_url": null
+            "title": "Qualifier 1",
+            "vod": "https://www.youtube.com/watch?v=g9saEPw5Fg",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": "71087"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "tapped",
+                        "demozoo_id": "21271"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "phobium",
+                        "demozoo_id": "4220"
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Christian",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
         },
         {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "tapped",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
+            "title": "Qualifier 2",
+            "vod": "https://www.youtube.com/watch?v=UWFVrHXz8UI",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": "1382"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "blueberry",
+                        "demozoo_id": "116"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "phobium",
+                        "demozoo_id": "4220"
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Christian",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Qualifier 3",
+            "vod": "https://www.youtube.com/watch?v=5rjNcG7ioaU",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": "79215"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": "113559"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "phobium",
+                        "demozoo_id": "4220"
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Christian",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Qualifier 4",
+            "vod": "https://www.youtube.com/watch?v=7NtxP62lAhE",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "provod",
+                        "demozoo_id": "24024"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "rohtie",
+                        "demozoo_id": "4456"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "phobium",
+                        "demozoo_id": "4220"
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Christian",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semifinal 1",
+            "vod": "https://www.youtube.com/watch?v=gO1V2mCKqOk",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": "71087"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": "1382"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "phobium",
+                        "demozoo_id": "4220"
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Christian",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semifinal 2",
+            "vod": "https://www.youtube.com/watch?v=LasL3OGKR_I",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": "79215"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "provod",
+                        "demozoo_id": "24024"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "phobium",
+                        "demozoo_id": "4220"
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Christian",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=9Nk-cvlonwE",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": "71087"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": "79215"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "phobium",
+                        "demozoo_id": "4220"
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Christian",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
         }
-      ],
-      "staffs": [
-        {
-          "handle": "phobium",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "ferris",
-          "job": "Commentators"
-        },
-        {
-          "handle": "Christian",
-          "job": "Commentators"
-        }
-      ]
-    },
-    {
-      "title": "Qualifier 2",
-      "vod": "https://www.youtube.com/watch?v=UWFVrHXz8UI",
-      "entries": [
-        {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "alkama",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "blueberry",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "phobium",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "ferris",
-          "job": "Commentators"
-        },
-        {
-          "handle": "Christian",
-          "job": "Commentators"
-        }
-      ]
-    },
-    {
-      "title": "Qualifier 3",
-      "vod": "https://www.youtube.com/watch?v=5rjNcG7ioaU",
-      "entries": [
-        {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "blackle",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "wrighter",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "phobium",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "ferris",
-          "job": "Commentators"
-        },
-        {
-          "handle": "Christian",
-          "job": "Commentators"
-        }
-      ]
-    },
-    {
-      "title": "Qualifier 4",
-      "vod": "https://www.youtube.com/watch?v=7NtxP62lAhE",
-      "entries": [
-        {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "provod",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "rohtie",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "phobium",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "ferris",
-          "job": "Commentators"
-        },
-        {
-          "handle": "Christian",
-          "job": "Commentators"
-        }
-      ]
-    },
-    {
-      "title": "Semifinal 1",
-      "vod": "https://www.youtube.com/watch?v=gO1V2mCKqOk",
-      "entries": [
-        {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "evvvvil",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "alkama",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "phobium",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "ferris",
-          "job": "Commentators"
-        },
-        {
-          "handle": "Christian",
-          "job": "Commentators"
-        }
-      ]
-    },
-    {
-      "title": "Semifinal 2",
-      "vod": "https://www.youtube.com/watch?v=LasL3OGKR_I",
-      "entries": [
-        {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "blackle",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "provod",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "phobium",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "ferris",
-          "job": "Commentators"
-        },
-        {
-          "handle": "Christian",
-          "job": "Commentators"
-        }
-      ]
-    },
-    {
-      "title": "Final",
-      "vod": "https://www.youtube.com/watch?v=9Nk-cvlonwE",
-      "entries": [
-        {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "evvvvil",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "blackle",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "phobium",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "ferris",
-          "job": "Commentators"
-        },
-        {
-          "handle": "Christian",
-          "job": "Commentators"
-        }
-      ]
-    }
-  ],
-  "staffs": []
+    ],
+    "staffs": []
 }

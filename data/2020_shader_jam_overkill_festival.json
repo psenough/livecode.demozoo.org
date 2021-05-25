@@ -1,59 +1,77 @@
 {
-  "title": "The Overkill Festival / SickhouseTV ",
-  "started": "2020-12-06",
-  "date": "6 Dec 2020",
-  "type": "Shader Jam",
-  "vod": "https://www.youtube.com/watch?v=ZYBsQBqViG4",
-  "software_used": null,
-  "phases": [
-    {
-      "title": null,
-      "entries": [
+    "title": "The Overkill Festival / SickhouseTV ",
+    "started": "2020-12-06",
+    "date": "6 Dec 2020",
+    "type": "Shader Jam",
+    "vod": "https://www.youtube.com/watch?v=ZYBsQBqViG4",
+    "software_used": null,
+    "phases": [
         {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "Flopine",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "NuSan",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "monsieursoleil",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "evvvvil",
-          "shader_file": null,
-          "shadertoy_url": null
+            "title": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": "65988"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": "88839"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "monsieursoleil",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": "71087"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "LynnDrum",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                }
+            ]
         }
-      ],
-      "staffs": [
+    ],
+    "staffs": [
         {
-          "handle": "LynnDrum",
-          "job": "Dj Set"
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": null
+            },
+            "job": "Organizers"
         }
-      ]
-    }
-  ],
-  "staffs": [
-    {
-      "handle": "havoc",
-      "job": "Organizers"
-    }
-  ]
+    ]
 }

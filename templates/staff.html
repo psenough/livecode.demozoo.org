@@ -3,7 +3,11 @@
   <div class="text-secondary">
     <span class="">{{job}}</span>
     {% for item in staff %}
-      <span class="badge bg-light text-dark">{{ item.handle }}</span>
+      {% if item.handle.demozoo_id %} 
+        <span class="badge bg-light text-dark">{{ handles_demozoo(item.handle.demozoo_id) }}</span>
+      {% else %}
+        <span class="badge bg-light text-dark">{{ item.handle.name }}</span>
+      {% endif %}
     {% endfor %}
   </div>
   {% endfor %}

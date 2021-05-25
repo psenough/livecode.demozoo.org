@@ -1,83 +1,107 @@
 {
-  "title": "Assembly Summer Online",
-  "started": "2020-08-08",
-  "date": "6 Dec 2020",
-  "type": "Shader Jam",
-  "vod": null,
-  "software_used": null,
-  "phases": [
-    {
-      "title": "Round 1",
-      "vod": "https://www.youtube.com/watch?v=m7b1lIHiZc8",
-      "entries": [
+    "title": "Assembly Summer Online",
+    "started": "2020-08-08",
+    "date": "6 Dec 2020",
+    "type": "Shader Jam",
+    "vod": null,
+    "software_used": null,
+    "phases": [
         {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "branch",
-          "shader_file": null,
-          "shadertoy_url": null
+            "title": "Round 1",
+            "vod": "https://www.youtube.com/watch?v=m7b1lIHiZc8",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "branch",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "lamogui",
+                        "demozoo_id": "71129"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Exca",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/3tsBD7"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "eimink",
+                        "demozoo_id": "32692"
+                    },
+                    "job": "Dj Set"
+                }
+            ]
         },
         {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "lamogui",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "Exca",
-          "shader_file": null,
-          "shadertoy_url": "https://www.shadertoy.com/view/3tsBD7"
+            "title": "Round 2",
+            "vod": "https://www.youtube.com/watch?v=3-jwyYfI7Q8",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": "1301"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Leon Denise",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": "71087"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "mayor",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                }
+            ]
         }
-      ],
-      "staffs": [
-        {
-          "handle": "eimink",
-          "job": "Dj Set"
-        }
-      ]
-    },
-    {
-      "title": "Round 2",
-      "vod": "https://www.youtube.com/watch?v=3-jwyYfI7Q8",
-      "entries": [
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "visy",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "Leon Denise",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "evvvvil",
-          "shader_file": null,
-          "shadertoy_url": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "mayor",
-          "job": "Dj Set"
-        }
-      ]
-    }
-  ],
-  "staffs": []
+    ],
+    "staffs": []
 }

@@ -1,204 +1,275 @@
 {
-  "title": "Outline Online",
-  "started": "2020-05-22",
-  "date": "22 - 23 May 2020",
-  "type": "Shader Showdown",
-  "vod": null,
-  "software_used": null,
-  "phases": [
-    {
-      "title": "Round 1",
-      "vod": "https://www.youtube.com/watch?v=XPUS4x6jopY",
-      "entries": [
+    "title": "Outline Online",
+    "started": "2020-05-22",
+    "date": "22 - 23 May 2020",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": null,
+    "phases": [
         {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "LovelyHaniball",
-          "shader_file": null,
-          "shadertoy_url": null
+            "title": "Round 1",
+            "vod": "https://www.youtube.com/watch?v=XPUS4x6jopY",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "LovelyHaniball",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "monsieursoleil",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": "1382"
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": "3049"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": "617"
+                    },
+                    "job": "Commentators"
+                }
+            ]
         },
         {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "monsieursoleil",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
+            "title": "Round 2",
+            "vod": "https://www.youtube.com/watch?v=WhY2G7cdfSw",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": "71087"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": "113559"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": "1382"
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": "3049"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": "617"
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=55CdkqgCTgk",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": "71087"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "LovelyHaniball",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "bossman",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": "3049"
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": "617"
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Shader Jam #1",
+            "vod": "https://www.youtube.com/watch?v=vKbmQFKiWYQ",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": "71087"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "cosamentale",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "monsieursoleil",
+                        "demozoo_id": null
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ronny",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Shader Jam #2",
+            "vod": "https://www.youtube.com/watch?v=dTTMgjRgoyg",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": "1301"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": "65988"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": "113559"
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "LynnDrum",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                }
+            ]
         }
-      ],
-      "staffs": [
+    ],
+    "staffs": [
         {
-          "handle": "alkama",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "okkie",
-          "job": "Commentators"
-        },
-        {
-          "handle": "superogue",
-          "job": "Commentators"
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": null
+            },
+            "job": "Organizers"
         }
-      ]
-    },
-    {
-      "title": "Round 2",
-      "vod": "https://www.youtube.com/watch?v=WhY2G7cdfSw",
-      "entries": [
-        {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "evvvvil",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "wrighter",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "alkama",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "okkie",
-          "job": "Commentators"
-        },
-        {
-          "handle": "superogue",
-          "job": "Commentators"
-        }
-      ]
-    },
-    {
-      "title": "Final",
-      "vod": "https://www.youtube.com/watch?v=55CdkqgCTgk",
-      "entries": [
-        {
-          "id": null,
-          "rank": 1,
-          "points": null,
-          "handle": "evvvvil",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": 2,
-          "points": null,
-          "handle": "LovelyHaniball",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "bossman",
-          "job": "Dj Set"
-        },
-        {
-          "handle": "okkie",
-          "job": "Commentators"
-        },
-        {
-          "handle": "superogue",
-          "job": "Commentators"
-        }
-      ]
-    },
-    {
-      "title": "Shader Jam #1",
-      "vod": "https://www.youtube.com/watch?v=vKbmQFKiWYQ",
-      "entries": [
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "evvvvil",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "cosamentale",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "monsieursoleil",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "ronny",
-          "job": "Dj Set"
-        }
-      ]
-    },
-    {
-      "title": "Shader Jam #2",
-      "vod": "https://www.youtube.com/watch?v=dTTMgjRgoyg",
-      "entries": [
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "visy",
-          "shader_file": null,
-          "shadertoy_url": null
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "Flopine",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
-        },
-        {
-          "id": null,
-          "rank": null,
-          "points": null,
-          "handle": "wrighter",
-          "shader_file": null,
-          "shadertoy_url": null,
-          "vod": null
-        }
-      ],
-      "staffs": [
-        {
-          "handle": "LynnDrum",
-          "job": "Dj Set"
-        }
-      ]
-    }
-    
-  ],
-  "staffs": [
-        {
-          "handle": "havoc",
-          "job": "Organizers"
-        }
-  ]
+    ]
 }
