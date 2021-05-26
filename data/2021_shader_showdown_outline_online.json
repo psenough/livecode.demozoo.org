@@ -1,269 +1,269 @@
 {
-    "title": "Outline Online 2021",
-    "started": "2021-05-13",
-    "date": "13 - 16 May 2021",
-    "type": "Shader Showdown",
-    "vod": null,
-    "software_used": [
+  "title": "Outline Online 2021",
+  "started": "2021-05-13",
+  "date": "13 - 16 May 2021",
+  "type": "Shader Showdown",
+  "vod": null,
+  "software_used": [
+    {
+      "name": "Bonzomatic",
+      "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+      "version": "NuSan - v11",
+      "purpose": "Graphic"
+    }
+  ],
+  "phases": [
+    {
+      "title": "Group 1 - Match 1",
+      "vod": "https://youtu.be/WNxlDgTitZE",
+      "entries": [
         {
-            "name": "Bonzomatic",
-            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
-            "version": "NuSan - v11",
-            "purpose": "Graphic"
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "anticore",
+            "demozoo_id": "117325"
+          },
+          "shader_file": null,
+          "shadertoy_url": "https://www.shadertoy.com/view/ssjSDV"
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "MonsieurSoleil",
+            "demozoo_id": null
+          },
+          "shader_file": null,
+          "shadertoy_url": null
         }
-    ],
-    "phases": [
+      ],
+      "staffs": []
+    },
+    {
+      "title": "Group 2 - Match 1",
+      "vod": "https://youtu.be/WNxlDgTitZE?t=1692",
+      "entries": [
         {
-            "title": "Group 1 - Match 1",
-            "vod": "https://youtu.be/WNxlDgTitZE",
-            "entries": [
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "anticore",
-                        "demozoo_id": "117325"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/ssjSDV"
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "MonsieurSoleil",
-                        "demozoo_id": null
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                }
-            ],
-            "staffs": []
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "totetmatt",
+            "demozoo_id": "121811"
+          },
+          "shader_file": "./shader_file_sources/outline_shader_showdown_2021/outline_2021_totetmatt_1.glsl",
+          "shadertoy_url": "https://www.shadertoy.com/view/NlXGDH"
         },
         {
-            "title": "Group 2 - Match 1",
-            "vod": "https://youtu.be/WNxlDgTitZE?t=1692",
-            "entries": [
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "totetmatt",
-                        "demozoo_id": "121811"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "blackle",
-                        "demozoo_id": "79215"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                }
-            ],
-            "staffs": []
-        },
-        {
-            "title": "Group 1 - Match 2",
-            "vod": "https://youtu.be/WNxlDgTitZE?t=3787",
-            "entries": [
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "evvvvil",
-                        "demozoo_id": "71087"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "Anticore",
-                        "demozoo_id": "117325"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                }
-            ],
-            "staffs": []
-        },
-        {
-            "title": "Group 2 - Match 2",
-            "vod": "https://youtu.be/WNxlDgTitZE?t=5652",
-            "entries": [
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "cosamentale",
-                        "demozoo_id": null
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/fs2XWc"
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "totetmatt",
-                        "demozoo_id": "121811"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                }
-            ],
-            "staffs": []
-        },
-        {
-            "title": "Group 1 - Match 3",
-            "vod": null,
-            "entries": [
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "evvvvil",
-                        "demozoo_id": "71087"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "MonsieurSoleil",
-                        "demozoo_id": null
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                }
-            ],
-            "staffs": []
-        },
-        {
-            "title": "Group 2 - Match 3",
-            "vod": null,
-            "entries": [
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "blackle",
-                        "demozoo_id": "79215"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "cosamentale",
-                        "demozoo_id": null
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/NsSXWd"
-                }
-            ],
-            "staffs": []
-        },
-        {
-            "title": "Final",
-            "vod": null,
-            "entries": [
-                {
-                    "id": null,
-                    "rank": 1,
-                    "points": null,
-                    "handle": {
-                        "name": "evvvvil",
-                        "demozoo_id": "71087"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/sdBSDt"
-                },
-                {
-                    "id": null,
-                    "rank": 2,
-                    "points": null,
-                    "handle": {
-                        "name": "cosamentale",
-                        "demozoo_id": null
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/7tf3Rr"
-                }
-            ],
-            "staffs": []
-        },
-        {
-            "title": "Shaderjam 1",
-            "vod": "https://www.youtube.com/watch?v=148rAO3sods",
-            "entries": [
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "evvvvil",
-                        "demozoo_id": "71087"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "LechugaFeliz",
-                        "demozoo_id": null
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "exca",
-                        "demozoo_id": null
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                }
-            ],
-            "staffs": [
-                {
-                    "handle": {
-                        "name": "TurboAnalIsis",
-                        "demozoo_id": "73843"
-                    },
-                    "job": "Dj Set"
-                }
-            ]
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "blackle",
+            "demozoo_id": "79215"
+          },
+          "shader_file": null,
+          "shadertoy_url": null
         }
-    ],
-    "staffs": []
+      ],
+      "staffs": []
+    },
+    {
+      "title": "Group 1 - Match 2",
+      "vod": "https://youtu.be/WNxlDgTitZE?t=3787",
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "evvvvil",
+            "demozoo_id": "71087"
+          },
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "Anticore",
+            "demozoo_id": "117325"
+          },
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": []
+    },
+    {
+      "title": "Group 2 - Match 2",
+      "vod": "https://youtu.be/WNxlDgTitZE?t=5652",
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "cosamentale",
+            "demozoo_id": null
+          },
+          "shader_file": null,
+          "shadertoy_url": "https://www.shadertoy.com/view/fs2XWc"
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "totetmatt",
+            "demozoo_id": "121811"
+          },
+          "shader_file": "./shader_file_sources/outline_shader_showdown_2021/outline_2021_totetmatt_2.glsl",
+          "shadertoy_url": "https://www.shadertoy.com/view/ftfGWH"
+        }
+      ],
+      "staffs": []
+    },
+    {
+      "title": "Group 1 - Match 3",
+      "vod": null,
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "evvvvil",
+            "demozoo_id": "71087"
+          },
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "MonsieurSoleil",
+            "demozoo_id": null
+          },
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": []
+    },
+    {
+      "title": "Group 2 - Match 3",
+      "vod": null,
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "blackle",
+            "demozoo_id": "79215"
+          },
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "cosamentale",
+            "demozoo_id": null
+          },
+          "shader_file": null,
+          "shadertoy_url": "https://www.shadertoy.com/view/NsSXWd"
+        }
+      ],
+      "staffs": []
+    },
+    {
+      "title": "Final",
+      "vod": null,
+      "entries": [
+        {
+          "id": null,
+          "rank": 1,
+          "points": null,
+          "handle": {
+            "name": "evvvvil",
+            "demozoo_id": "71087"
+          },
+          "shader_file": null,
+          "shadertoy_url": "https://www.shadertoy.com/view/sdBSDt"
+        },
+        {
+          "id": null,
+          "rank": 2,
+          "points": null,
+          "handle": {
+            "name": "cosamentale",
+            "demozoo_id": null
+          },
+          "shader_file": null,
+          "shadertoy_url": "https://www.shadertoy.com/view/7tf3Rr"
+        }
+      ],
+      "staffs": []
+    },
+    {
+      "title": "Shaderjam 1",
+      "vod": "https://www.youtube.com/watch?v=148rAO3sods",
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "evvvvil",
+            "demozoo_id": "71087"
+          },
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "LechugaFeliz",
+            "demozoo_id": null
+          },
+          "shader_file": null,
+          "shadertoy_url": null
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "exca",
+            "demozoo_id": null
+          },
+          "shader_file": null,
+          "shadertoy_url": null
+        }
+      ],
+      "staffs": [
+        {
+          "handle": {
+            "name": "TurboAnalIsis",
+            "demozoo_id": "73843"
+          },
+          "job": "Dj Set"
+        }
+      ]
+    }
+  ],
+  "staffs": []
 }
