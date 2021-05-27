@@ -28,7 +28,7 @@
                         "name": "butadiene",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
+                    "shader_file": "./shader_file_sources/shader_challenge_2021/shaderchallenge_butadiene.glsl",
                     "shadertoy_url": "https://www.shadertoy.com/view/wtGfWw"
                 },
                 {
