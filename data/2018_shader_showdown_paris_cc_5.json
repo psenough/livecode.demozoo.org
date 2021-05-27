@@ -96,7 +96,7 @@
                     "points": null,
                     "handle": {
                         "name": "Ponk",
-                        "demozoo_id": "61858"
+                        "demozoo_id": 61858
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-02-07/04-ponk.frag",
                     "shadertoy_url": null
@@ -142,7 +142,7 @@
                     "points": null,
                     "handle": {
                         "name": "wsmind",
-                        "demozoo_id": "34845"
+                        "demozoo_id": 34845
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-02-07/09-wsmind.glsl",
                     "shadertoy_url": null,
@@ -156,7 +156,7 @@
         {
             "handle": {
                 "name": "Cookie Collective",
-                "demozoo_id": "78435"
+                "demozoo_id": 78435
             },
             "job": "Organizers"
         }

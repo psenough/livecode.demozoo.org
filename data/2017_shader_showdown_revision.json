@@ -16,7 +16,7 @@
                     "points": null,
                     "handle": {
                         "name": "fizzer",
-                        "demozoo_id": "27471"
+                        "demozoo_id": 27471
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -37,7 +37,7 @@
                 {
                     "handle": {
                         "name": "alkama",
-                        "demozoo_id": "1382"
+                        "demozoo_id": 1382
                     },
                     "job": "Dj Set"
                 },
@@ -67,7 +67,7 @@
                     "points": null,
                     "handle": {
                         "name": "cupe",
-                        "demozoo_id": "15276"
+                        "demozoo_id": 15276
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -78,7 +78,7 @@
                     "points": null,
                     "handle": {
                         "name": "blueberry",
-                        "demozoo_id": "116"
+                        "demozoo_id": 116
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -88,7 +88,7 @@
                 {
                     "handle": {
                         "name": "lug00ber",
-                        "demozoo_id": "90"
+                        "demozoo_id": 90
                     },
                     "job": "Dj Set"
                 },
@@ -118,7 +118,7 @@
                     "points": null,
                     "handle": {
                         "name": "eybor",
-                        "demozoo_id": "27241"
+                        "demozoo_id": 27241
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/XdByzy"
@@ -190,7 +190,7 @@
                 {
                     "handle": {
                         "name": "lug00ber",
-                        "demozoo_id": "90"
+                        "demozoo_id": 90
                     },
                     "job": "Dj Set"
                 },
@@ -234,7 +234,7 @@
                     "points": null,
                     "handle": {
                         "name": "cupe",
-                        "demozoo_id": "15276"
+                        "demozoo_id": 15276
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -245,7 +245,7 @@
                     "points": null,
                     "handle": {
                         "name": "fizzer",
-                        "demozoo_id": "27471"
+                        "demozoo_id": 27471
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -255,7 +255,7 @@
                 {
                     "handle": {
                         "name": "lug00ber",
-                        "demozoo_id": "90"
+                        "demozoo_id": 90
                     },
                     "job": "Dj Set"
                 },
@@ -296,7 +296,7 @@
                     "points": null,
                     "handle": {
                         "name": "eybor",
-                        "demozoo_id": "27241"
+                        "demozoo_id": 27241
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/MdScRy"
@@ -347,7 +347,7 @@
                     "points": null,
                     "handle": {
                         "name": "cupe",
-                        "demozoo_id": "15276"
+                        "demozoo_id": 15276
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -357,7 +357,7 @@
                 {
                     "handle": {
                         "name": "alkama",
-                        "demozoo_id": "1382"
+                        "demozoo_id": 1382
                     },
                     "job": "Dj Set"
                 },

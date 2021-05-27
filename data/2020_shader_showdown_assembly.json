@@ -27,7 +27,7 @@
                     "points": 178,
                     "handle": {
                         "name": "Provod",
-                        "demozoo_id": "24024"
+                        "demozoo_id": 24024
                     },
                     "shader_file": null,
                     "shadertoy_url": null,
@@ -38,21 +38,21 @@
                 {
                     "handle": {
                         "name": "eimink",
-                        "demozoo_id": "32692"
+                        "demozoo_id": 32692
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 }
@@ -79,7 +79,7 @@
                     "points": 323,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -89,21 +89,21 @@
                 {
                     "handle": {
                         "name": "eimink",
-                        "demozoo_id": "32692"
+                        "demozoo_id": 32692
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 }
@@ -147,14 +147,14 @@
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 }

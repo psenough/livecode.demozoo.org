@@ -11,7 +11,7 @@
             "vod": null,
             "entries": [
                 {
-                    "id": "1",
+                    "id": 1,
                     "rank": null,
                     "points": null,
                     "handle": {
@@ -22,7 +22,7 @@
                     "shadertoy_url": null
                 },
                 {
-                    "id": "2",
+                    "id": 2,
                     "rank": null,
                     "points": null,
                     "handle": {
@@ -45,7 +45,7 @@
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 }
@@ -56,23 +56,23 @@
             "vod": null,
             "entries": [
                 {
-                    "id": "1",
+                    "id": 1,
                     "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": null,
                     "shadertoy_url": null
                 },
                 {
-                    "id": "2",
+                    "id": 2,
                     "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": null,
                     "shadertoy_url": null,
@@ -90,7 +90,7 @@
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 }
@@ -101,7 +101,7 @@
             "vod": null,
             "entries": [
                 {
-                    "id": "1",
+                    "id": 1,
                     "rank": null,
                     "points": null,
                     "handle": {
@@ -112,12 +112,12 @@
                     "shadertoy_url": null
                 },
                 {
-                    "id": "2",
+                    "id": 2,
                     "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": null,
                     "shadertoy_url": null,
@@ -135,7 +135,7 @@
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 }

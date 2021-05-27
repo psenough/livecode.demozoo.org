@@ -27,7 +27,7 @@
                     "points": null,
                     "handle": {
                         "name": "lamogui",
-                        "demozoo_id": "71129"
+                        "demozoo_id": 71129
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -48,7 +48,7 @@
                 {
                     "handle": {
                         "name": "eimink",
-                        "demozoo_id": "32692"
+                        "demozoo_id": 32692
                     },
                     "job": "Dj Set"
                 }
@@ -64,7 +64,7 @@
                     "points": null,
                     "handle": {
                         "name": "visy",
-                        "demozoo_id": "1301"
+                        "demozoo_id": 1301
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -86,7 +86,7 @@
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": null,
                     "shadertoy_url": null

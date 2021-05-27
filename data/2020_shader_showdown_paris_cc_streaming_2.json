@@ -29,7 +29,7 @@
                     "points": null,
                     "handle": {
                         "name": "alkama",
-                        "demozoo_id": "1382"
+                        "demozoo_id": 1382
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-26/alkama.glsl",
                     "shadertoy_url": null,
@@ -77,7 +77,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-26/flopine.glsl",
                     "shadertoy_url": null,
@@ -89,7 +89,7 @@
                     "points": null,
                     "handle": {
                         "name": "lamogui",
-                        "demozoo_id": "71129"
+                        "demozoo_id": 71129
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-26/lamogui.glsl",
                     "shadertoy_url": null,
@@ -101,7 +101,7 @@
                     "points": null,
                     "handle": {
                         "name": "NuSan",
-                        "demozoo_id": "88839"
+                        "demozoo_id": 88839
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-26/nusan.glsl",
                     "shadertoy_url": null,
@@ -113,7 +113,7 @@
                     "points": null,
                     "handle": {
                         "name": "ponk",
-                        "demozoo_id": "61858"
+                        "demozoo_id": 61858
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-26/ponk.glsl",
                     "shadertoy_url": null,
@@ -125,7 +125,7 @@
                     "points": null,
                     "handle": {
                         "name": "wrighter",
-                        "demozoo_id": "113559"
+                        "demozoo_id": 113559
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-26/Wrighter.glsl",
                     "shadertoy_url": null,
@@ -139,7 +139,7 @@
         {
             "handle": {
                 "name": "Cookie Collective",
-                "demozoo_id": "78435"
+                "demozoo_id": 78435
             },
             "job": "Organizers"
         }

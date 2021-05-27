@@ -16,7 +16,7 @@
                     "points": 144,
                     "handle": {
                         "name": "blackle",
-                        "demozoo_id": "79215"
+                        "demozoo_id": 79215
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/3dGXRW"
@@ -27,7 +27,7 @@
                     "points": 123,
                     "handle": {
                         "name": "CharStiles",
-                        "demozoo_id": "82875"
+                        "demozoo_id": 82875
                     },
                     "shader_file": null,
                     "shadertoy_url": null,

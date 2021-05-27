@@ -11,23 +11,23 @@
             "vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
             "entries": [
                 {
-                    "id": "1",
+                    "id": 1,
                     "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "visy",
-                        "demozoo_id": "1301"
+                        "demozoo_id": 1301
                     },
                     "shader_file": null,
                     "shadertoy_url": null
                 },
                 {
-                    "id": "2",
+                    "id": 2,
                     "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "archee",
-                        "demozoo_id": "3718"
+                        "demozoo_id": 3718
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -37,14 +37,14 @@
                 {
                     "handle": {
                         "name": "alkama",
-                        "demozoo_id": "1382"
+                        "demozoo_id": 1382
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "moqui",
-                        "demozoo_id": "11347"
+                        "demozoo_id": 11347
                     },
                     "job": "Commentators"
                 },
@@ -58,7 +58,7 @@
                 {
                     "handle": {
                         "name": "abductee",
-                        "demozoo_id": "10657"
+                        "demozoo_id": 10657
                     },
                     "job": "Commentators"
                 }
@@ -69,23 +69,23 @@
             "vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
             "entries": [
                 {
-                    "id": "1",
+                    "id": 1,
                     "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "mankeli",
-                        "demozoo_id": "14296"
+                        "demozoo_id": 14296
                     },
                     "shader_file": null,
                     "shadertoy_url": null
                 },
                 {
-                    "id": "2",
+                    "id": 2,
                     "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "blueberry",
-                        "demozoo_id": "116"
+                        "demozoo_id": 116
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -109,14 +109,14 @@
                 {
                     "handle": {
                         "name": "moqui",
-                        "demozoo_id": "11347"
+                        "demozoo_id": 11347
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "abductee",
-                        "demozoo_id": "10657"
+                        "demozoo_id": 10657
                     },
                     "job": "Commentators"
                 }
@@ -127,7 +127,7 @@
             "vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
             "entries": [
                 {
-                    "id": "1",
+                    "id": 1,
                     "rank": 1,
                     "points": null,
                     "handle": {
@@ -138,7 +138,7 @@
                     "shadertoy_url": null
                 },
                 {
-                    "id": "2",
+                    "id": 2,
                     "rank": 2,
                     "points": null,
                     "handle": {
@@ -153,7 +153,7 @@
                 {
                     "handle": {
                         "name": "lug00ber",
-                        "demozoo_id": "90"
+                        "demozoo_id": 90
                     },
                     "job": "Dj Set"
                 },
@@ -167,14 +167,14 @@
                 {
                     "handle": {
                         "name": "moqui",
-                        "demozoo_id": "11347"
+                        "demozoo_id": 11347
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "abductee",
-                        "demozoo_id": "10657"
+                        "demozoo_id": 10657
                     },
                     "job": "Commentators"
                 }
@@ -185,7 +185,7 @@
             "vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
             "entries": [
                 {
-                    "id": "1",
+                    "id": 1,
                     "rank": 1,
                     "points": null,
                     "handle": {
@@ -196,12 +196,12 @@
                     "shadertoy_url": null
                 },
                 {
-                    "id": "2",
+                    "id": 2,
                     "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "kabuto",
-                        "demozoo_id": "6492"
+                        "demozoo_id": 6492
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -211,7 +211,7 @@
                 {
                     "handle": {
                         "name": "alkama",
-                        "demozoo_id": "1382"
+                        "demozoo_id": 1382
                     },
                     "job": "Dj Set"
                 },
@@ -225,14 +225,14 @@
                 {
                     "handle": {
                         "name": "moqui",
-                        "demozoo_id": "11347"
+                        "demozoo_id": 11347
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "abductee",
-                        "demozoo_id": "10657"
+                        "demozoo_id": 10657
                     },
                     "job": "Commentators"
                 }
@@ -243,23 +243,23 @@
             "vod": "https://www.youtube.com/watch?v=Oa0BlHkYynU",
             "entries": [
                 {
-                    "id": "1",
+                    "id": 1,
                     "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "archee",
-                        "demozoo_id": "3718"
+                        "demozoo_id": 3718
                     },
                     "shader_file": null,
                     "shadertoy_url": null
                 },
                 {
-                    "id": "2",
+                    "id": 2,
                     "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "blueberry",
-                        "demozoo_id": "116"
+                        "demozoo_id": 116
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -269,7 +269,7 @@
                 {
                     "handle": {
                         "name": "alkama",
-                        "demozoo_id": "1382"
+                        "demozoo_id": 1382
                     },
                     "job": "Dj Set"
                 },
@@ -283,14 +283,14 @@
                 {
                     "handle": {
                         "name": "moqui",
-                        "demozoo_id": "11347"
+                        "demozoo_id": 11347
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "abductee",
-                        "demozoo_id": "10657"
+                        "demozoo_id": 10657
                     },
                     "job": "Commentators"
                 }
@@ -301,7 +301,7 @@
             "vod": "https://www.youtube.com/watch?v=Oa0BlHkYynU",
             "entries": [
                 {
-                    "id": "1",
+                    "id": 1,
                     "rank": 2,
                     "points": null,
                     "handle": {
@@ -312,7 +312,7 @@
                     "shadertoy_url": null
                 },
                 {
-                    "id": "2",
+                    "id": 2,
                     "rank": 1,
                     "points": null,
                     "handle": {
@@ -341,14 +341,14 @@
                 {
                     "handle": {
                         "name": "moqui",
-                        "demozoo_id": "11347"
+                        "demozoo_id": 11347
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "abductee",
-                        "demozoo_id": "10657"
+                        "demozoo_id": 10657
                     },
                     "job": "Commentators"
                 }
@@ -359,18 +359,18 @@
             "vod": "https://www.youtube.com/watch?v=slSmOqdL-rw",
             "entries": [
                 {
-                    "id": "1",
+                    "id": 1,
                     "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "archee",
-                        "demozoo_id": "3718"
+                        "demozoo_id": 3718
                     },
                     "shader_file": null,
                     "shadertoy_url": null
                 },
                 {
-                    "id": "2",
+                    "id": 2,
                     "rank": 1,
                     "points": null,
                     "handle": {
@@ -385,7 +385,7 @@
                 {
                     "handle": {
                         "name": "lug00ber",
-                        "demozoo_id": "90"
+                        "demozoo_id": 90
                     },
                     "job": "Dj Set"
                 },
@@ -399,14 +399,14 @@
                 {
                     "handle": {
                         "name": "moqui",
-                        "demozoo_id": "11347"
+                        "demozoo_id": 11347
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "abductee",
-                        "demozoo_id": "10657"
+                        "demozoo_id": 10657
                     },
                     "job": "Commentators"
                 }

@@ -23,7 +23,7 @@
                     "points": null,
                     "handle": {
                         "name": "NuSan",
-                        "demozoo_id": "88839"
+                        "demozoo_id": 88839
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -34,7 +34,7 @@
                     "points": null,
                     "handle": {
                         "name": "lamogui",
-                        "demozoo_id": "71129"
+                        "demozoo_id": 71129
                     },
                     "shader_file": null,
                     "shadertoy_url": null,
@@ -46,7 +46,7 @@
                     "points": null,
                     "handle": {
                         "name": "ponk",
-                        "demozoo_id": "61858"
+                        "demozoo_id": 61858
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/7ll3R4",
@@ -73,7 +73,7 @@
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": "./shader_file_sources/shadow_demoparty_2021/shadow-evvvvil-shaderjam.glsl",
                     "shadertoy_url": null,
@@ -97,7 +97,7 @@
                     "points": null,
                     "handle": {
                         "name": "Totetmatt",
-                        "demozoo_id": "121811"
+                        "demozoo_id": 121811
                     },
                     "shader_file": "./shader_file_sources/shadow_demoparty_2021/sender_shadow_totetmatt.glsl",
                     "shadertoy_url": "https://www.shadertoy.com/view/stl3z4",
@@ -119,7 +119,7 @@
         {
             "handle": {
                 "name": "Cookie Collective",
-                "demozoo_id": "78435"
+                "demozoo_id": 78435
             },
             "job": "Organizers"
         }

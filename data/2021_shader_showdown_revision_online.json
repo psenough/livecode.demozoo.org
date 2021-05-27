@@ -23,7 +23,7 @@
                     "points": null,
                     "handle": {
                         "name": "anticore",
-                        "demozoo_id": "117325"
+                        "demozoo_id": 117325
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/sdjGWm"
@@ -44,35 +44,35 @@
                 {
                     "handle": {
                         "name": "ronny",
-                        "demozoo_id": "355"
+                        "demozoo_id": 355
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "Diffty",
-                        "demozoo_id": "88962"
+                        "demozoo_id": 88962
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "blackle",
-                        "demozoo_id": "79215"
+                        "demozoo_id": 79215
                     },
                     "job": "Commentators"
                 }
@@ -88,7 +88,7 @@
                     "points": null,
                     "handle": {
                         "name": "blackle",
-                        "demozoo_id": "79215"
+                        "demozoo_id": 79215
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/7sS3WD"
@@ -109,35 +109,35 @@
                 {
                     "handle": {
                         "name": "h0ffman",
-                        "demozoo_id": "1525"
+                        "demozoo_id": 1525
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "Diffty",
-                        "demozoo_id": "88962"
+                        "demozoo_id": 88962
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "job": "Commentators"
                 }
@@ -153,7 +153,7 @@
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/7dBGRc"
@@ -174,35 +174,35 @@
                 {
                     "handle": {
                         "name": "ronny",
-                        "demozoo_id": "355"
+                        "demozoo_id": 355
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "Diffty",
-                        "demozoo_id": "88962"
+                        "demozoo_id": 88962
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "blackle",
-                        "demozoo_id": "79215"
+                        "demozoo_id": 79215
                     },
                     "job": "Commentators"
                 }
@@ -218,7 +218,7 @@
                     "points": null,
                     "handle": {
                         "name": "flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -229,7 +229,7 @@
                     "points": null,
                     "handle": {
                         "name": "wrighter",
-                        "demozoo_id": "113559"
+                        "demozoo_id": 113559
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -239,35 +239,35 @@
                 {
                     "handle": {
                         "name": "ronny",
-                        "demozoo_id": "355"
+                        "demozoo_id": 355
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "Diffty",
-                        "demozoo_id": "88962"
+                        "demozoo_id": 88962
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "blackle",
-                        "demozoo_id": "79215"
+                        "demozoo_id": 79215
                     },
                     "job": "Commentators"
                 }
@@ -283,7 +283,7 @@
                     "points": null,
                     "handle": {
                         "name": "blackle",
-                        "demozoo_id": "79215"
+                        "demozoo_id": 79215
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/NdjGDm"
@@ -294,7 +294,7 @@
                     "points": null,
                     "handle": {
                         "name": "anticore",
-                        "demozoo_id": "117325"
+                        "demozoo_id": 117325
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -304,35 +304,35 @@
                 {
                     "handle": {
                         "name": "ronny",
-                        "demozoo_id": "355"
+                        "demozoo_id": 355
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "Diffty",
-                        "demozoo_id": "88962"
+                        "demozoo_id": 88962
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "job": "Commentators"
                 }
@@ -348,7 +348,7 @@
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/fdSGWw"
@@ -359,7 +359,7 @@
                     "points": null,
                     "handle": {
                         "name": "flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -369,35 +369,35 @@
                 {
                     "handle": {
                         "name": "ronny",
-                        "demozoo_id": "355"
+                        "demozoo_id": 355
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "Diffty",
-                        "demozoo_id": "88962"
+                        "demozoo_id": 88962
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "blackle",
-                        "demozoo_id": "79215"
+                        "demozoo_id": 79215
                     },
                     "job": "Commentators"
                 }
@@ -413,7 +413,7 @@
                     "points": null,
                     "handle": {
                         "name": "blackle",
-                        "demozoo_id": "79215"
+                        "demozoo_id": 79215
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/7s23DD"
@@ -424,7 +424,7 @@
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -434,42 +434,42 @@
                 {
                     "handle": {
                         "name": "alkama",
-                        "demozoo_id": "1382"
+                        "demozoo_id": 1382
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "Diffty",
-                        "demozoo_id": "88962"
+                        "demozoo_id": 88962
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "wrighter",
-                        "demozoo_id": "113559"
+                        "demozoo_id": 113559
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "job": "Commentators"
                 }

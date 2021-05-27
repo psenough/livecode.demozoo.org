@@ -35,7 +35,7 @@
                     "points": null,
                     "handle": {
                         "name": "Eybor",
-                        "demozoo_id": "27241"
+                        "demozoo_id": 27241
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/01-eybor.glsl",
                     "shadertoy_url": null,
@@ -54,7 +54,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/02-flopine.glsl",
                     "shadertoy_url": null,
@@ -66,7 +66,7 @@
                     "points": null,
                     "handle": {
                         "name": "wsmind",
-                        "demozoo_id": "34845"
+                        "demozoo_id": 34845
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/02-wsmind.glsl",
                     "shadertoy_url": null,
@@ -85,7 +85,7 @@
                     "points": null,
                     "handle": {
                         "name": "Lamogui",
-                        "demozoo_id": "71129"
+                        "demozoo_id": 71129
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/03-lamogui.glsl",
                     "shadertoy_url": null,
@@ -97,7 +97,7 @@
                     "points": null,
                     "handle": {
                         "name": "Sicarde",
-                        "demozoo_id": "75328"
+                        "demozoo_id": 75328
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/03-sicarde.glsl",
                     "shadertoy_url": null,
@@ -116,7 +116,7 @@
                     "points": null,
                     "handle": {
                         "name": "ponk",
-                        "demozoo_id": "61858"
+                        "demozoo_id": 61858
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/04-ponk.glsl",
                     "shadertoy_url": null,
@@ -178,7 +178,7 @@
                     "points": null,
                     "handle": {
                         "name": "Koltes",
-                        "demozoo_id": "52423"
+                        "demozoo_id": 52423
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/06-koltes.glsl",
                     "shadertoy_url": null,
@@ -190,7 +190,7 @@
                     "points": null,
                     "handle": {
                         "name": "Poulet Vert",
-                        "demozoo_id": "78480"
+                        "demozoo_id": 78480
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/06-pouletvert.glsl",
                     "shadertoy_url": null,
@@ -209,7 +209,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/07-flopine.glsl",
                     "shadertoy_url": null,
@@ -221,7 +221,7 @@
                     "points": null,
                     "handle": {
                         "name": "wsmind",
-                        "demozoo_id": "34845"
+                        "demozoo_id": 34845
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-06-22/07-wsmind.glsl",
                     "shadertoy_url": null,
@@ -235,7 +235,7 @@
         {
             "handle": {
                 "name": "Cookie Collective",
-                "demozoo_id": "78435"
+                "demozoo_id": 78435
             },
             "job": "Organizers"
         }

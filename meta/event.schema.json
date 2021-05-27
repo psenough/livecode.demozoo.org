@@ -81,7 +81,7 @@
               "properties": {
                 "id": {
                   "description": "User Id for the phase (usually for Shader Royale)",
-                  "type": ["string", "null"]
+                  "type": ["integer", "null"]
                 },
                 "rank": {
                   "description": "Rank of the entry",
@@ -99,7 +99,7 @@
                       "type": "string"
                     },
                     "demozoo_id": {
-                      "type": ["string", "null"]
+                      "type": ["integer", "null"]
                     }
                   },
                   "required": ["name"]
@@ -141,7 +141,7 @@
                       "type": "string"
                     },
                     "demozoo_id": {
-                      "type": ["string", "null"]
+                      "type": ["integer", "null"]
                     }
                   },
                   "required": ["name"]
@@ -174,7 +174,7 @@
                 "type": "string"
               },
               "demozoo_id": {
-                "type": ["string", "null"]
+                "type": ["integer", "null"]
               }
             },
             "required": ["name"]

@@ -22,7 +22,7 @@
                     "points": null,
                     "handle": {
                         "name": "ponk",
-                        "demozoo_id": "61858"
+                        "demozoo_id": 61858
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/01-ponk.glsl",
                     "shadertoy_url": null,
@@ -34,7 +34,7 @@
                     "points": null,
                     "handle": {
                         "name": "xtrium",
-                        "demozoo_id": "3695"
+                        "demozoo_id": 3695
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/01-xtrium.glsl",
                     "shadertoy_url": null,
@@ -52,7 +52,7 @@
                     "points": null,
                     "handle": {
                         "name": "CoyHot",
-                        "demozoo_id": "43553"
+                        "demozoo_id": 43553
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/02-coyhot.glsl",
                     "shadertoy_url": null,
@@ -64,7 +64,7 @@
                     "points": null,
                     "handle": {
                         "name": "lamogui",
-                        "demozoo_id": "71129"
+                        "demozoo_id": 71129
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/02-lamogui.glsl",
                     "shadertoy_url": null,
@@ -82,7 +82,7 @@
                     "points": null,
                     "handle": {
                         "name": "ponk",
-                        "demozoo_id": "61858"
+                        "demozoo_id": 61858
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/03-ponk.glsl",
                     "shadertoy_url": null,
@@ -94,7 +94,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/03-flopine.glsl",
                     "shadertoy_url": null,
@@ -112,7 +112,7 @@
                     "points": null,
                     "handle": {
                         "name": "lsdlive",
-                        "demozoo_id": "83579"
+                        "demozoo_id": 83579
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/04-lsdlive.glsl",
                     "shadertoy_url": null,
@@ -124,7 +124,7 @@
                     "points": null,
                     "handle": {
                         "name": "CoyHot",
-                        "demozoo_id": "43553"
+                        "demozoo_id": 43553
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/04-coyhot.glsl",
                     "shadertoy_url": null,
@@ -142,7 +142,7 @@
                     "points": null,
                     "handle": {
                         "name": "CoyHot",
-                        "demozoo_id": "43553"
+                        "demozoo_id": 43553
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/05-coyhot.glsl",
                     "shadertoy_url": null,
@@ -154,7 +154,7 @@
                     "points": null,
                     "handle": {
                         "name": "ponk",
-                        "demozoo_id": "61858"
+                        "demozoo_id": 61858
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/05-ponk.glsl",
                     "shadertoy_url": null,
@@ -172,7 +172,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/06_flopine.glsl",
                     "shadertoy_url": null,
@@ -184,7 +184,7 @@
                     "points": null,
                     "handle": {
                         "name": "lsdlive",
-                        "demozoo_id": "83579"
+                        "demozoo_id": 83579
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/06-lsdlive.glsl",
                     "shadertoy_url": null,
@@ -198,7 +198,7 @@
         {
             "handle": {
                 "name": "Cookie Collective",
-                "demozoo_id": "78435"
+                "demozoo_id": 78435
             },
             "job": "Organizers"
         }
