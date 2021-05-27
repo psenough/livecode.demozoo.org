@@ -27,7 +27,7 @@
                     "points": null,
                     "handle": {
                         "name": "cce",
-                        "demozoo_id": "6293"
+                        "demozoo_id": 6293
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -37,14 +37,14 @@
                 {
                     "handle": {
                         "name": "eimink",
-                        "demozoo_id": "32692"
+                        "demozoo_id": 32692
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
@@ -78,7 +78,7 @@
                     "points": null,
                     "handle": {
                         "name": "visy",
-                        "demozoo_id": "1301"
+                        "demozoo_id": 1301
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -95,7 +95,7 @@
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
@@ -139,14 +139,14 @@
                 {
                     "handle": {
                         "name": "eimink",
-                        "demozoo_id": "32692"
+                        "demozoo_id": 32692
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },

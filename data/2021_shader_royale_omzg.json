@@ -15,7 +15,7 @@
                     "points": 144,
                     "handle": {
                         "name": "NuSan",
-                        "demozoo_id": "88839"
+                        "demozoo_id": 88839
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_NuSan.glsl",
                     "shadertoy_url": null,
@@ -39,7 +39,7 @@
                     "points": 113,
                     "handle": {
                         "name": "hArDy",
-                        "demozoo_id": "913"
+                        "demozoo_id": 913
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_hArDy.glsl",
                     "shadertoy_url": null,
@@ -51,7 +51,7 @@
                     "points": 103,
                     "handle": {
                         "name": "provod",
-                        "demozoo_id": "24024"
+                        "demozoo_id": 24024
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_provod.glsl",
                     "shadertoy_url": null,
@@ -63,7 +63,7 @@
                     "points": 98,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_Flopine.glsl",
                     "shadertoy_url": null,
@@ -75,7 +75,7 @@
                     "points": 89,
                     "handle": {
                         "name": "rimina",
-                        "demozoo_id": "56489"
+                        "demozoo_id": 56489
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_rimina.glsl",
                     "shadertoy_url": null,
@@ -87,7 +87,7 @@
                     "points": 88,
                     "handle": {
                         "name": "anticore",
-                        "demozoo_id": "117325"
+                        "demozoo_id": 117325
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_anticore.glsl",
                     "shadertoy_url": null,
@@ -99,7 +99,7 @@
                     "points": 86,
                     "handle": {
                         "name": "totetmatt",
-                        "demozoo_id": "121811"
+                        "demozoo_id": 121811
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_totetmatt.glsl",
                     "shadertoy_url": null,
@@ -111,7 +111,7 @@
                     "points": 80,
                     "handle": {
                         "name": "Exca",
-                        "demozoo_id": "35897"
+                        "demozoo_id": 35897
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_Exca.glsl",
                     "shadertoy_url": null,
@@ -135,7 +135,7 @@
                     "points": 64,
                     "handle": {
                         "name": "wrighter",
-                        "demozoo_id": "113559"
+                        "demozoo_id": 113559
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_wrighter.glsl",
                     "shadertoy_url": null,
@@ -159,7 +159,7 @@
                     "points": 44,
                     "handle": {
                         "name": "visy",
-                        "demozoo_id": "1301"
+                        "demozoo_id": 1301
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_visy.glsl",
                     "shadertoy_url": null,
@@ -171,7 +171,7 @@
                     "points": 8,
                     "handle": {
                         "name": "branch",
-                        "demozoo_id": "44254"
+                        "demozoo_id": 44254
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_branch.glsl",
                     "shadertoy_url": null
@@ -182,7 +182,7 @@
                     "points": 8,
                     "handle": {
                         "name": "NR4",
-                        "demozoo_id": "76970"
+                        "demozoo_id": 76970
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_NR4.glsl",
                     "shadertoy_url": null
@@ -192,7 +192,7 @@
                 {
                     "handle": {
                         "name": "djh0ffman",
-                        "demozoo_id": "1525"
+                        "demozoo_id": 1525
                     },
                     "job": "Dj Set"
                 }
@@ -203,14 +203,14 @@
         {
             "handle": {
                 "name": "ps",
-                "demozoo_id": "313"
+                "demozoo_id": 313
             },
             "job": "Organizers"
         },
         {
             "handle": {
                 "name": "alien01",
-                "demozoo_id": "108887"
+                "demozoo_id": 108887
             },
             "job": "Organizers"
         }

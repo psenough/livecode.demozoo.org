@@ -23,7 +23,7 @@
                     "points": null,
                     "handle": {
                         "name": "Lamogui",
-                        "demozoo_id": "71129"
+                        "demozoo_id": 71129
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/01-lamogui.glsl",
                     "shadertoy_url": null,
@@ -35,7 +35,7 @@
                     "points": null,
                     "handle": {
                         "name": "Ponk",
-                        "demozoo_id": "61858"
+                        "demozoo_id": 61858
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/01-ponk.glsl",
                     "shadertoy_url": null,
@@ -66,7 +66,7 @@
                     "points": null,
                     "handle": {
                         "name": "Koltes",
-                        "demozoo_id": "52423"
+                        "demozoo_id": 52423
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/02-koltes.glsl",
                     "shadertoy_url": null,
@@ -85,7 +85,7 @@
                     "points": null,
                     "handle": {
                         "name": "Ponk",
-                        "demozoo_id": "61858"
+                        "demozoo_id": 61858
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/03-ponk.glsl",
                     "shadertoy_url": null,
@@ -128,7 +128,7 @@
                     "points": null,
                     "handle": {
                         "name": "Lamogui",
-                        "demozoo_id": "71129"
+                        "demozoo_id": 71129
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/04-lamogui.glsl",
                     "shadertoy_url": null,
@@ -147,7 +147,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/extra-flopine.glsl",
                     "shadertoy_url": null,
@@ -185,7 +185,7 @@
         {
             "handle": {
                 "name": "Cookie Collective",
-                "demozoo_id": "78435"
+                "demozoo_id": 78435
             },
             "job": "Organizers"
         }

@@ -35,7 +35,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-12-19/Flopine.glsl",
                     "shadertoy_url": null,
@@ -62,7 +62,7 @@
                     "points": null,
                     "handle": {
                         "name": "NuSan",
-                        "demozoo_id": "88839"
+                        "demozoo_id": 88839
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-12-19/Nusan.glsl",
                     "shadertoy_url": null,
@@ -73,7 +73,7 @@
                 {
                     "handle": {
                         "name": "Koltes",
-                        "demozoo_id": "52423"
+                        "demozoo_id": 52423
                     },
                     "job": "Live Music"
                 }
@@ -89,7 +89,7 @@
                     "points": null,
                     "handle": {
                         "name": "Koltes",
-                        "demozoo_id": "52423"
+                        "demozoo_id": 52423
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-12-19/Koltes.frag",
                     "shadertoy_url": null
@@ -110,7 +110,7 @@
         {
             "handle": {
                 "name": "Cookie Collective",
-                "demozoo_id": "78435"
+                "demozoo_id": 78435
             },
             "job": "Organizers"
         }

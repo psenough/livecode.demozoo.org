@@ -22,7 +22,7 @@
                     "points": null,
                     "handle": {
                         "name": "NuSan",
-                        "demozoo_id": "88839"
+                        "demozoo_id": 88839
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -44,7 +44,7 @@
                     "points": null,
                     "handle": {
                         "name": "eimink",
-                        "demozoo_id": "32692"
+                        "demozoo_id": 32692
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/fsjGDD"
@@ -80,7 +80,7 @@
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -91,7 +91,7 @@
                     "points": null,
                     "handle": {
                         "name": "sp4ghet",
-                        "demozoo_id": "119897"
+                        "demozoo_id": 119897
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/Ndj3Wm"
@@ -127,7 +127,7 @@
                     "points": null,
                     "handle": {
                         "name": "rimina",
-                        "demozoo_id": "56489"
+                        "demozoo_id": 56489
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -138,7 +138,7 @@
                     "points": null,
                     "handle": {
                         "name": "visy",
-                        "demozoo_id": "1301"
+                        "demozoo_id": 1301
                     },
                     "shader_file": null,
                     "shadertoy_url": null

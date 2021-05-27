@@ -29,7 +29,7 @@
                     "points": null,
                     "handle": {
                         "name": "NuSan",
-                        "demozoo_id": "88839"
+                        "demozoo_id": 88839
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/01-nusan.glsl",
                     "shadertoy_url": null,
@@ -59,7 +59,7 @@
                 {
                     "handle": {
                         "name": "Koltes",
-                        "demozoo_id": "52423"
+                        "demozoo_id": 52423
                     },
                     "job": "Live Music"
                 }
@@ -87,7 +87,7 @@
                     "points": null,
                     "handle": {
                         "name": "wrighter",
-                        "demozoo_id": "113559"
+                        "demozoo_id": 113559
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/02-wrighter.glsl",
                     "shadertoy_url": null,
@@ -105,7 +105,7 @@
                 {
                     "handle": {
                         "name": "Koltes",
-                        "demozoo_id": "52423"
+                        "demozoo_id": 52423
                     },
                     "job": "Live Music"
                 }
@@ -151,7 +151,7 @@
                 {
                     "handle": {
                         "name": "Koltes",
-                        "demozoo_id": "52423"
+                        "demozoo_id": 52423
                     },
                     "job": "Live Music"
                 }
@@ -167,7 +167,7 @@
                     "points": null,
                     "handle": {
                         "name": "Lamogui",
-                        "demozoo_id": "71129"
+                        "demozoo_id": 71129
                     },
                     "shader_file": null,
                     "shadertoy_url": null,
@@ -197,7 +197,7 @@
                 {
                     "handle": {
                         "name": "Koltes",
-                        "demozoo_id": "52423"
+                        "demozoo_id": 52423
                     },
                     "job": "Live Music"
                 }
@@ -208,7 +208,7 @@
         {
             "handle": {
                 "name": "Cookie Collective",
-                "demozoo_id": "78435"
+                "demozoo_id": 78435
             },
             "job": "Organizers"
         }

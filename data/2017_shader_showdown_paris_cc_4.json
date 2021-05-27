@@ -23,7 +23,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-12-08/01-flopine.glsl",
                     "shadertoy_url": null,
@@ -35,7 +35,7 @@
                     "points": null,
                     "handle": {
                         "name": "Eybor",
-                        "demozoo_id": "27241"
+                        "demozoo_id": 27241
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-12-08/01-eybor.glsl",
                     "shadertoy_url": null,
@@ -97,7 +97,7 @@
                     "points": null,
                     "handle": {
                         "name": "Lamogui",
-                        "demozoo_id": "71129"
+                        "demozoo_id": 71129
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-12-08/03-lamogui.glsl",
                     "shadertoy_url": null,
@@ -116,7 +116,7 @@
                     "points": null,
                     "handle": {
                         "name": "CoyHot",
-                        "demozoo_id": "43553"
+                        "demozoo_id": 43553
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-12-08/04-coyhot.glsl",
                     "shadertoy_url": null,
@@ -128,7 +128,7 @@
                     "points": null,
                     "handle": {
                         "name": "Xtrium",
-                        "demozoo_id": "3695"
+                        "demozoo_id": 3695
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-12-08/04-xtrium.glsl",
                     "shadertoy_url": null,
@@ -147,7 +147,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-12-08/05-flopine.glsl",
                     "shadertoy_url": null,
@@ -190,7 +190,7 @@
                     "points": null,
                     "handle": {
                         "name": "CoyHot",
-                        "demozoo_id": "43553"
+                        "demozoo_id": 43553
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-12-08/06-coyhot.glsl",
                     "shadertoy_url": null,
@@ -221,7 +221,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-12-08/07-flopine.glsl",
                     "shadertoy_url": null,
@@ -301,7 +301,7 @@
         {
             "handle": {
                 "name": "Cookie Collective",
-                "demozoo_id": "78435"
+                "demozoo_id": 78435
             },
             "job": "Organizers"
         }

@@ -16,7 +16,7 @@
                     "points": null,
                     "handle": {
                         "name": "flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -27,7 +27,7 @@
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": null,
                     "shadertoy_url": null

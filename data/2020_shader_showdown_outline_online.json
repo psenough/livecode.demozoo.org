@@ -38,21 +38,21 @@
                 {
                     "handle": {
                         "name": "alkama",
-                        "demozoo_id": "1382"
+                        "demozoo_id": 1382
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "superogue",
-                        "demozoo_id": "617"
+                        "demozoo_id": 617
                     },
                     "job": "Commentators"
                 }
@@ -68,7 +68,7 @@
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -79,7 +79,7 @@
                     "points": null,
                     "handle": {
                         "name": "wrighter",
-                        "demozoo_id": "113559"
+                        "demozoo_id": 113559
                     },
                     "shader_file": null,
                     "shadertoy_url": null,
@@ -90,21 +90,21 @@
                 {
                     "handle": {
                         "name": "alkama",
-                        "demozoo_id": "1382"
+                        "demozoo_id": 1382
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "superogue",
-                        "demozoo_id": "617"
+                        "demozoo_id": 617
                     },
                     "job": "Commentators"
                 }
@@ -120,7 +120,7 @@
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -149,14 +149,14 @@
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "superogue",
-                        "demozoo_id": "617"
+                        "demozoo_id": 617
                     },
                     "job": "Commentators"
                 }

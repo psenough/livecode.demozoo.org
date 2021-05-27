@@ -16,7 +16,7 @@
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -66,7 +66,7 @@
                     "points": null,
                     "handle": {
                         "name": "visy",
-                        "demozoo_id": "1301"
+                        "demozoo_id": 1301
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -77,7 +77,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": null,
                     "shadertoy_url": null,
@@ -89,7 +89,7 @@
                     "points": null,
                     "handle": {
                         "name": "wrighter",
-                        "demozoo_id": "113559"
+                        "demozoo_id": 113559
                     },
                     "shader_file": null,
                     "shadertoy_url": null,

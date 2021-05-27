@@ -9,7 +9,6 @@ def get_db():
     return json.load(codecs.open(HANDLE_DB_FILE,'r','utf-8'))
 
 def get_demozoo_data(id):
-    print('query')
     req = requests.get(f'https://demozoo.org/api/v1/releasers/{id}/').json()
     return req
 

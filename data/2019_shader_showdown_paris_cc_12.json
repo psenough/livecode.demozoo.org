@@ -23,7 +23,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/01-flopine.glsl",
                     "shadertoy_url": null,
@@ -35,7 +35,7 @@
                     "points": null,
                     "handle": {
                         "name": "Anat",
-                        "demozoo_id": "3848"
+                        "demozoo_id": 3848
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/01-anat.glsl",
                     "shadertoy_url": null,
@@ -54,7 +54,7 @@
                     "points": null,
                     "handle": {
                         "name": "Evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/02-evvvvil.glsl",
                     "shadertoy_url": null,
@@ -97,7 +97,7 @@
                     "points": null,
                     "handle": {
                         "name": "Anat",
-                        "demozoo_id": "3848"
+                        "demozoo_id": 3848
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/03-anat.glsl",
                     "shadertoy_url": null,
@@ -116,7 +116,7 @@
                     "points": null,
                     "handle": {
                         "name": "Evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/04-evvvvil.glsl",
                     "shadertoy_url": null,
@@ -128,7 +128,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/04-flopine.glsl",
                     "shadertoy_url": null,
@@ -142,7 +142,7 @@
         {
             "handle": {
                 "name": "Cookie Collective",
-                "demozoo_id": "78435"
+                "demozoo_id": 78435
             },
             "job": "Organizers"
         },

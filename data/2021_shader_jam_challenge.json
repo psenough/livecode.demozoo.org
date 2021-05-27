@@ -15,7 +15,7 @@
                     "points": null,
                     "handle": {
                         "name": "FMS_Cat",
-                        "demozoo_id": "57112"
+                        "demozoo_id": 57112
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/tlyBWw"
@@ -37,7 +37,7 @@
                     "points": null,
                     "handle": {
                         "name": "sp4ghet",
-                        "demozoo_id": "119897"
+                        "demozoo_id": 119897
                     },
                     "shader_file": null,
                     "shadertoy_url": null

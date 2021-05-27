@@ -16,7 +16,7 @@
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/WtsSWN"
@@ -78,7 +78,7 @@
                     "points": null,
                     "handle": {
                         "name": "ponk",
-                        "demozoo_id": "61858"
+                        "demozoo_id": 61858
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -118,7 +118,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -139,21 +139,21 @@
                 {
                     "handle": {
                         "name": "lug00ber",
-                        "demozoo_id": "90"
+                        "demozoo_id": 90
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "kusma",
-                        "demozoo_id": "1998"
+                        "demozoo_id": 1998
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 }
@@ -169,7 +169,7 @@
                     "points": null,
                     "handle": {
                         "name": "lsdlive",
-                        "demozoo_id": "83579"
+                        "demozoo_id": 83579
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/wtsGzl"
@@ -180,7 +180,7 @@
                     "points": null,
                     "handle": {
                         "name": "yx",
-                        "demozoo_id": "77056"
+                        "demozoo_id": 77056
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -190,21 +190,21 @@
                 {
                     "handle": {
                         "name": "alkama",
-                        "demozoo_id": "1382"
+                        "demozoo_id": 1382
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "kusma",
-                        "demozoo_id": "1998"
+                        "demozoo_id": 1998
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 }
@@ -220,7 +220,7 @@
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/3stGRH"
@@ -241,21 +241,21 @@
                 {
                     "handle": {
                         "name": "lug00ber",
-                        "demozoo_id": "90"
+                        "demozoo_id": 90
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "kusma",
-                        "demozoo_id": "1998"
+                        "demozoo_id": 1998
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 }
@@ -271,7 +271,7 @@
                     "points": null,
                     "handle": {
                         "name": "NuSan",
-                        "demozoo_id": "88839"
+                        "demozoo_id": 88839
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -282,7 +282,7 @@
                     "points": null,
                     "handle": {
                         "name": "provod",
-                        "demozoo_id": "24024"
+                        "demozoo_id": 24024
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -292,21 +292,21 @@
                 {
                     "handle": {
                         "name": "alkama",
-                        "demozoo_id": "1382"
+                        "demozoo_id": 1382
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "kusma",
-                        "demozoo_id": "1998"
+                        "demozoo_id": 1998
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 }
@@ -322,7 +322,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -333,7 +333,7 @@
                     "points": null,
                     "handle": {
                         "name": "lsdlive",
-                        "demozoo_id": "83579"
+                        "demozoo_id": 83579
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -343,21 +343,21 @@
                 {
                     "handle": {
                         "name": "alkama",
-                        "demozoo_id": "1382"
+                        "demozoo_id": 1382
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "kusma",
-                        "demozoo_id": "1998"
+                        "demozoo_id": 1998
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 }
@@ -373,7 +373,7 @@
                     "points": null,
                     "handle": {
                         "name": "NuSan",
-                        "demozoo_id": "88839"
+                        "demozoo_id": 88839
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -384,7 +384,7 @@
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
-                        "demozoo_id": "71087"
+                        "demozoo_id": 71087
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -394,21 +394,21 @@
                 {
                     "handle": {
                         "name": "dojoe",
-                        "demozoo_id": "24894"
+                        "demozoo_id": 24894
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "kusma",
-                        "demozoo_id": "1998"
+                        "demozoo_id": 1998
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 }
@@ -424,7 +424,7 @@
                     "points": null,
                     "handle": {
                         "name": "NuSan",
-                        "demozoo_id": "88839"
+                        "demozoo_id": 88839
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -435,7 +435,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -445,21 +445,21 @@
                 {
                     "handle": {
                         "name": "lug00ber",
-                        "demozoo_id": "90"
+                        "demozoo_id": 90
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "kusma",
-                        "demozoo_id": "1998"
+                        "demozoo_id": 1998
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 },
@@ -503,7 +503,7 @@
                 {
                     "handle": {
                         "name": "lug00ber",
-                        "demozoo_id": "90"
+                        "demozoo_id": 90
                     },
                     "job": "Dj Set"
                 },
@@ -533,7 +533,7 @@
                     "points": null,
                     "handle": {
                         "name": "fizzer",
-                        "demozoo_id": "27471"
+                        "demozoo_id": 27471
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -544,7 +544,7 @@
                     "points": null,
                     "handle": {
                         "name": "rohtie",
-                        "demozoo_id": "4456"
+                        "demozoo_id": 4456
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -554,7 +554,7 @@
                 {
                     "handle": {
                         "name": "lug00ber",
-                        "demozoo_id": "90"
+                        "demozoo_id": 90
                     },
                     "job": "Dj Set"
                 },
@@ -584,7 +584,7 @@
                     "points": null,
                     "handle": {
                         "name": "provod",
-                        "demozoo_id": "24024"
+                        "demozoo_id": 24024
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -595,7 +595,7 @@
                     "points": null,
                     "handle": {
                         "name": "xernobyl",
-                        "demozoo_id": "6394"
+                        "demozoo_id": 6394
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -605,21 +605,21 @@
                 {
                     "handle": {
                         "name": "lug00ber",
-                        "demozoo_id": "90"
+                        "demozoo_id": 90
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "kusma",
-                        "demozoo_id": "1998"
+                        "demozoo_id": 1998
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ps",
-                        "demozoo_id": "313"
+                        "demozoo_id": 313
                     },
                     "job": "Commentators"
                 }

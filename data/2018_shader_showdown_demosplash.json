@@ -11,24 +11,24 @@
             "vod": "https://scenesat.com/videoarchive/250b96a5-b90e-11ea-b68e-00505685775e?t=10770",
             "entries": [
                 {
-                    "id": "2",
+                    "id": 2,
                     "rank": 1,
                     "points": 185,
                     "handle": {
                         "name": "CharStiles",
-                        "demozoo_id": "82875"
+                        "demozoo_id": 82875
                     },
                     "shader_file": "https://files.scene.org/view/parties/2018/demosplash18/live_shader/charstiles.glsl",
                     "shadertoy_url": null,
                     "preview_image": "demosplash_2018/charstiles.jpg"
                 },
                 {
-                    "id": "1",
+                    "id": 1,
                     "rank": 2,
                     "points": 159,
                     "handle": {
                         "name": "lsh",
-                        "demozoo_id": "82874"
+                        "demozoo_id": 82874
                     },
                     "shader_file": "https://files.scene.org/view/parties/2018/demosplash18/live_shader/lsh.glsl",
                     "shadertoy_url": null,

@@ -26,7 +26,7 @@
                     "points": null,
                     "handle": {
                         "name": "wrighter",
-                        "demozoo_id": "113559"
+                        "demozoo_id": 113559
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -48,7 +48,7 @@
                     "points": null,
                     "handle": {
                         "name": "provod",
-                        "demozoo_id": "24024"
+                        "demozoo_id": 24024
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -58,7 +58,7 @@
                 {
                     "handle": {
                         "name": "dipswitch",
-                        "demozoo_id": "5806"
+                        "demozoo_id": 5806
                     },
                     "job": "Dj Set"
                 }

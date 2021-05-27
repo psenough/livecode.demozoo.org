@@ -11,18 +11,18 @@
             "vod": "https://www.youtube.com/watch?v=q8iFI1-v5n8",
             "entries": [
                 {
-                    "id": "1",
+                    "id": 1,
                     "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "lsdlive",
-                        "demozoo_id": "83579"
+                        "demozoo_id": 83579
                     },
                     "shader_file": null,
                     "shadertoy_url": null
                 },
                 {
-                    "id": "2",
+                    "id": 2,
                     "rank": 2,
                     "points": null,
                     "handle": {
@@ -38,14 +38,14 @@
                 {
                     "handle": {
                         "name": "dojoe",
-                        "demozoo_id": "24894"
+                        "demozoo_id": 24894
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
@@ -63,7 +63,7 @@
             "vod": "https://youtu.be/q8iFI1-v5n8?t=1618",
             "entries": [
                 {
-                    "id": "1",
+                    "id": 1,
                     "rank": 2,
                     "points": null,
                     "handle": {
@@ -74,12 +74,12 @@
                     "shadertoy_url": null
                 },
                 {
-                    "id": "2",
+                    "id": 2,
                     "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/MdcBzf",
@@ -90,14 +90,14 @@
                 {
                     "handle": {
                         "name": "dojoe",
-                        "demozoo_id": "24894"
+                        "demozoo_id": 24894
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "okkie",
-                        "demozoo_id": "3049"
+                        "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
@@ -115,23 +115,23 @@
             "vod": "https://youtu.be/q8iFI1-v5n8?t=3344",
             "entries": [
                 {
-                    "id": "1",
+                    "id": 1,
                     "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "lsdlive",
-                        "demozoo_id": "83579"
+                        "demozoo_id": 83579
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/MscBzs"
                 },
                 {
-                    "id": "2",
+                    "id": 2,
                     "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": null,
                     "shadertoy_url": null,
@@ -142,14 +142,14 @@
                 {
                     "handle": {
                         "name": "dojoe",
-                        "demozoo_id": "24894"
+                        "demozoo_id": 24894
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "klandox",
-                        "demozoo_id": "77179"
+                        "demozoo_id": 77179
                     },
                     "job": "Commentators"
                 },

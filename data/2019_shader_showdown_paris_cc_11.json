@@ -23,7 +23,7 @@
                     "points": null,
                     "handle": {
                         "name": "NuSan",
-                        "demozoo_id": "88839"
+                        "demozoo_id": 88839
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/Nusan_300119.glsl",
                     "shadertoy_url": null,
@@ -35,7 +35,7 @@
                     "points": null,
                     "handle": {
                         "name": "Anatole",
-                        "demozoo_id": "101702"
+                        "demozoo_id": 101702
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/anatole 1.glsl",
                     "shadertoy_url": null,
@@ -47,7 +47,7 @@
                     "points": null,
                     "handle": {
                         "name": "Anatole",
-                        "demozoo_id": "101702"
+                        "demozoo_id": 101702
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/anatole 2.glsl",
                     "shadertoy_url": null,
@@ -107,7 +107,7 @@
                     "points": null,
                     "handle": {
                         "name": "Lamogui",
-                        "demozoo_id": "71129"
+                        "demozoo_id": 71129
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/lamogui 1.glsl",
                     "shadertoy_url": null,
@@ -119,7 +119,7 @@
                     "points": null,
                     "handle": {
                         "name": "Lamogui",
-                        "demozoo_id": "71129"
+                        "demozoo_id": 71129
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-01-30/lamogui3.glsl",
                     "shadertoy_url": null,
@@ -169,7 +169,7 @@
         {
             "handle": {
                 "name": "Cookie Collective",
-                "demozoo_id": "78435"
+                "demozoo_id": 78435
             },
             "job": "Organizers"
         }

@@ -34,7 +34,7 @@
                     "points": null,
                     "handle": {
                         "name": "Lamogui",
-                        "demozoo_id": "71129"
+                        "demozoo_id": 71129
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/01-lamogui.frag",
                     "shadertoy_url": null
@@ -52,7 +52,7 @@
                     "points": null,
                     "handle": {
                         "name": "Eybor",
-                        "demozoo_id": "27241"
+                        "demozoo_id": 27241
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/02-eybor.frag",
                     "shadertoy_url": null
@@ -63,7 +63,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/02-flopine.frag",
                     "shadertoy_url": null
@@ -139,7 +139,7 @@
                     "points": null,
                     "handle": {
                         "name": "Flopine",
-                        "demozoo_id": "65988"
+                        "demozoo_id": 65988
                     },
                     "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/05-flopine.frag",
                     "shadertoy_url": null
@@ -163,7 +163,7 @@
         {
             "handle": {
                 "name": "Cookie Collective",
-                "demozoo_id": "78435"
+                "demozoo_id": 78435
             },
             "job": "Organizers"
         }
