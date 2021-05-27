@@ -17,7 +17,7 @@
                         "name": "FMS_Cat",
                         "demozoo_id": 57112
                     },
-                    "shader_file": null,
+                    "shader_file": "./shader_file_sources/shader_challenge_2021/shaderchallenge_fms_cat.glsl",
                     "shadertoy_url": "https://www.shadertoy.com/view/tlyBWw"
                 },
                 {
