@@ -1,5 +1,5 @@
 {
-    "title": "Outline Online 2021",
+    "title": "Outline",
     "started": "2021-05-13",
     "date": "13 - 16 May 2021",
     "type": "Byte Battle",
@@ -8,13 +8,13 @@
         {
             "name": "TIC-80",
             "url": "https://tic80.com/",
-            "version": "0.80",
+            "version": "tic80showdown v062b",
             "purpose": "Graphic"
         }
     ],
     "phases": [
         {
-            "title": "Quarter #1",
+            "title": "Quarter Final #1",
             "vod": "https://www.youtube.com/watch?v=uYBZ8pRWwgo",
             "entries": [
                 {
@@ -40,10 +40,32 @@
                     "shadertoy_url": null
                 }
             ],
-            "staffs": []
+            "staffs": [
+				{
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": "65988"
+                    },
+                    "job": "Commentators"
+                },
+				{
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": "53612"
+                    },
+                    "job": "Commentators"
+                },
+				{
+                    "handle": {
+                        "name": "Numtek",
+                        "demozoo_id": "6428"
+                    },
+                    "job": "DJ Set"
+                }
+			]
         },
         {
-            "title": "Quarter #2",
+            "title": "Quarter Final #2",
             "vod": "https://youtu.be/uYBZ8pRWwgo?t=1930",
             "entries": [
                 {
@@ -70,10 +92,32 @@
                     "tic80_cart_id": "1873"
                 }
             ],
-            "staffs": []
+            "staffs": [
+				{
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": "65988"
+                    },
+                    "job": "Commentators"
+                },
+				{
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": "53612"
+                    },
+                    "job": "Commentators"
+                },
+				{
+                    "handle": {
+                        "name": "Numtek",
+                        "demozoo_id": "6428"
+                    },
+                    "job": "DJ Set"
+                }
+			]
         },
         {
-            "title": "Quart #3",
+            "title": "Quarter Final #3",
             "vod": "https://youtu.be/uYBZ8pRWwgo?t=3798",
             "entries": [
                 {
@@ -99,10 +143,32 @@
                     "shadertoy_url": null
                 }
             ],
-            "staffs": []
+            "staffs": [
+				{
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": "65988"
+                    },
+                    "job": "Commentators"
+                },
+				{
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": "53612"
+                    },
+                    "job": "Commentators"
+                },
+				{
+                    "handle": {
+                        "name": "Numtek",
+                        "demozoo_id": "6428"
+                    },
+                    "job": "DJ Set"
+                }
+			]
         },
         {
-            "title": "Quart #4",
+            "title": "Quarter Final #4",
             "vod": "https://youtu.be/uYBZ8pRWwgo?t=5699",
             "entries": [
                 {
@@ -130,10 +196,32 @@
                     "tic80_cart_id": "1868"
                 }
             ],
-            "staffs": []
+            "staffs": [
+				{
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": "65988"
+                    },
+                    "job": "Commentators"
+                },
+				{
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": "53612"
+                    },
+                    "job": "Commentators"
+                },
+				{
+                    "handle": {
+                        "name": "Numtek",
+                        "demozoo_id": "6428"
+                    },
+                    "job": "DJ Set"
+                }
+			]
         },
         {
-            "title": "Semi #1",
+            "title": "Semi Final #1",
             "vod": "https://www.youtube.com/watch?v=KIv5N-nV_vQ",
             "entries": [
                 {
@@ -160,10 +248,32 @@
                     "tic80_cart_id": "1872"
                 }
             ],
-            "staffs": []
+            "staffs": [
+				{
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": "3049"
+                    },
+                    "job": "Commentators"
+                },
+				{
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": "617"
+                    },
+                    "job": "Commentators"
+                },
+				{
+                    "handle": {
+                        "name": "Numtek",
+                        "demozoo_id": "6428"
+                    },
+                    "job": "DJ Set"
+                }
+			]
         },
         {
-            "title": "Semi #2",
+            "title": "Semi Final #2",
             "vod": "https://youtu.be/KIv5N-nV_vQ?t=1915",
             "entries": [
                 {
@@ -190,7 +300,29 @@
                     "tic80_cart_id": "1869"
                 }
             ],
-            "staffs": []
+            "staffs": [
+				{
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": "3049"
+                    },
+                    "job": "Commentators"
+                },
+				{
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": "617"
+                    },
+                    "job": "Commentators"
+                },
+				{
+                    "handle": {
+                        "name": "Numtek",
+                        "demozoo_id": "6428"
+                    },
+                    "job": "DJ Set"
+                }
+			]
         },
         {
             "title": "Final",
@@ -220,8 +352,52 @@
                     "tic80_cart_id": "1871"
                 }
             ],
-            "staffs": []
+            "staffs": [
+				{
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": "3049"
+                    },
+                    "job": "Commentators"
+                },
+				{
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": "617"
+                    },
+                    "job": "Commentators"
+                },
+				{
+                    "handle": {
+                        "name": "Numtek",
+                        "demozoo_id": "6428"
+                    },
+                    "job": "DJ Set"
+                }
+			]
         }
     ],
-    "staffs": []
+    "staffs": [
+		{
+				"handle": {
+					"name": "havoc",
+					"demozoo_id": "2419"
+				},
+				"job": "Organizers"
+		},
+		{
+				"handle": {
+					"name": "jeenio",
+					"demozoo_id": "3048"
+				},
+				"job": "Organizers"
+		},
+		{
+				"handle": {
+					"name": "superogue",
+					"demozoo_id": "617"
+				},
+				"job": "Organizers"
+		}
+	]
 }

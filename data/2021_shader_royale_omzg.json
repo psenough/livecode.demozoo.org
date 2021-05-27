@@ -39,7 +39,7 @@
                     "points": 113,
                     "handle": {
                         "name": "hArDy",
-                        "demozoo_id": null
+                        "demozoo_id": "913"
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_hArDy.glsl",
                     "shadertoy_url": null,
@@ -111,7 +111,7 @@
                     "points": 80,
                     "handle": {
                         "name": "Exca",
-                        "demozoo_id": null
+                        "demozoo_id": "35897"
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_Exca.glsl",
                     "shadertoy_url": null,
@@ -171,7 +171,7 @@
                     "points": 8,
                     "handle": {
                         "name": "branch",
-                        "demozoo_id": null
+                        "demozoo_id": "44254"
                     },
                     "shader_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_branch.glsl",
                     "shadertoy_url": null

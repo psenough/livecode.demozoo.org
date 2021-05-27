@@ -44,14 +44,14 @@
                 {
                     "handle": {
                         "name": "ronny",
-                        "demozoo_id": null
+                        "demozoo_id": "355"
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "Diffty",
-                        "demozoo_id": null
+                        "demozoo_id": "88962"
                     },
                     "job": "Commentators"
                 },
@@ -116,7 +116,7 @@
                 {
                     "handle": {
                         "name": "Diffty",
-                        "demozoo_id": null
+                        "demozoo_id": "88962"
                     },
                     "job": "Commentators"
                 },
@@ -174,14 +174,14 @@
                 {
                     "handle": {
                         "name": "ronny",
-                        "demozoo_id": null
+                        "demozoo_id": "355"
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "Diffty",
-                        "demozoo_id": null
+                        "demozoo_id": "88962"
                     },
                     "job": "Commentators"
                 },
@@ -239,14 +239,14 @@
                 {
                     "handle": {
                         "name": "ronny",
-                        "demozoo_id": null
+                        "demozoo_id": "355"
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "Diffty",
-                        "demozoo_id": null
+                        "demozoo_id": "88962"
                     },
                     "job": "Commentators"
                 },
@@ -304,14 +304,14 @@
                 {
                     "handle": {
                         "name": "ronny",
-                        "demozoo_id": null
+                        "demozoo_id": "355"
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "Diffty",
-                        "demozoo_id": null
+                        "demozoo_id": "88962"
                     },
                     "job": "Commentators"
                 },
@@ -369,14 +369,14 @@
                 {
                     "handle": {
                         "name": "ronny",
-                        "demozoo_id": null
+                        "demozoo_id": "355"
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "Diffty",
-                        "demozoo_id": null
+                        "demozoo_id": "88962"
                     },
                     "job": "Commentators"
                 },
@@ -441,7 +441,7 @@
                 {
                     "handle": {
                         "name": "Diffty",
-                        "demozoo_id": null
+                        "demozoo_id": "88962"
                     },
                     "job": "Commentators"
                 },
@@ -472,147 +472,6 @@
                         "demozoo_id": "65988"
                     },
                     "job": "Commentators"
-                }
-            ]
-        },
-        {
-            "title": "Shaderjam 1",
-            "entries": [
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "NuSan",
-                        "demozoo_id": "88839"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "lechugafeliz",
-                        "demozoo_id": null
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "eimink",
-                        "demozoo_id": "32692"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/fsjGDD"
-                }
-            ],
-            "staffs": [
-                {
-                    "handle": {
-                        "name": "LynnDrum",
-                        "demozoo_id": null
-                    },
-                    "job": "Dj Set"
-                }
-            ]
-        },
-        {
-            "title": "Shaderjam 2",
-            "entries": [
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "plek",
-                        "demozoo_id": null
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "evvvvil",
-                        "demozoo_id": "71087"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "sp4ghet",
-                        "demozoo_id": "119897"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/Ndj3Wm"
-                }
-            ],
-            "staffs": [
-                {
-                    "handle": {
-                        "name": "messy",
-                        "demozoo_id": null
-                    },
-                    "job": "Dj Set"
-                }
-            ]
-        },
-        {
-            "title": "Shaderjam 3",
-            "entries": [
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "exca",
-                        "demozoo_id": null
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "rimina",
-                        "demozoo_id": "56489"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "visy",
-                        "demozoo_id": "1301"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                }
-            ],
-            "staffs": [
-                {
-                    "handle": {
-                        "name": "ghost",
-                        "demozoo_id": null
-                    },
-                    "job": "Dj Set"
                 }
             ]
         }
