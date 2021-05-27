@@ -19,7 +19,7 @@
                         "demozoo_id": "71087"
                     },
                     "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": "https://www.shadertoy.com/view/WtsSWN"
                 },
                 {
                     "id": null,
@@ -172,7 +172,7 @@
                         "demozoo_id": "83579"
                     },
                     "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": "https://www.shadertoy.com/view/wtsGzl"
                 },
                 {
                     "id": null,
@@ -223,7 +223,7 @@
                         "demozoo_id": "71087"
                     },
                     "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": "https://www.shadertoy.com/view/3stGRH"
                 },
                 {
                     "id": null,
@@ -624,35 +624,6 @@
                     "job": "Commentators"
                 }
             ]
-        },
-        {
-            "title": "Shader coding seminar",
-            "vod": "https://www.youtube.com/watch?v=uFFR31t1WMM",
-            "entries": [
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "flopine",
-                        "demozoo_id": "65988"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "evvvvil",
-                        "demozoo_id": "71087"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                }
-            ],
-            "staffs": []
         }
     ],
     "staffs": []

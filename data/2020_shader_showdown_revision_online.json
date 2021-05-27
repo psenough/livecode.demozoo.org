@@ -369,55 +369,6 @@
                     "job": "Commentators"
                 }
             ]
-        },
-        {
-            "title": "Shader jam",
-            "vod": "https://www.youtube.com/watch?v=rhH__Ge4s6Q",
-            "entries": [
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "iq",
-                        "demozoo_id": null
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "flopine",
-                        "demozoo_id": "65988"
-                    },
-                    "shader_file": null,
-                    "shadertoy_url": null
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "Gargaj",
-                        "demozoo_id": null
-                    },
-                    "shader_file": "https://gist.github.com/Gargaj/03dd4f559129943dbc13950d8060780b",
-                    "shadertoy_url": null,
-                    "preview_image": "revision_2020/revision2020_threewayshowdown_gargaj.jpg"
-                }
-            ],
-            "staffs": [
-                {
-                    "handle": {
-                        "name": "Bullet",
-                        "demozoo_id": null
-                    },
-                    "job": "Dj Set"
-                }
-            ]
         }
     ],
     "staffs": []
