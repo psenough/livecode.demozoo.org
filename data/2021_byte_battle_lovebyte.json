@@ -106,7 +106,7 @@
             "vod": "https://www.youtube.com/watch?v=BEepOI7EWMo",
             "entries": [
                 {
-                    "id": 1,
+                    "id": "1",
                     "rank": 2,
                     "points": null,
                     "handle": {
@@ -194,7 +194,7 @@
             "vod": "https://www.youtube.com/watch?v=zAy6VR8gPc4&t=5s",
             "entries": [
                 {
-                    "id": 1,
+                    "id": "1",
                     "rank": 2,
                     "points": null,
                     "handle": {
@@ -205,7 +205,7 @@
                     "shadertoy_url": null
                 },
                 {
-                    "id": 2,
+                    "id": "2",
                     "rank": 1,
                     "points": null,
                     "handle": {
@@ -239,7 +239,7 @@
             "vod": "https://www.youtube.com/watch?v=sjQ5vr05-yQ&t=3s",
             "entries": [
                 {
-                    "id": 1,
+                    "id": "1",
                     "rank": 2,
                     "points": null,
                     "handle": {
@@ -250,7 +250,7 @@
                     "shadertoy_url": null
                 },
                 {
-                    "id": 2,
+                    "id": "2",
                     "rank": 1,
                     "points": null,
                     "handle": {
@@ -283,7 +283,7 @@
             "vod": null,
             "entries": [
                 {
-                    "id": 1,
+                    "id": "1",
                     "rank": 1,
                     "points": null,
                     "handle": {
@@ -294,7 +294,7 @@
                     "shadertoy_url": null
                 },
                 {
-                    "id": 2,
+                    "id": "2",
                     "rank": 2,
                     "points": null,
                     "handle": {
