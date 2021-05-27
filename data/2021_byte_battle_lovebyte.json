@@ -213,8 +213,7 @@
                         "demozoo_id": "53612"
                     },
                     "shader_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_semifinal_orbitaldecay.lua",
-                    "shadertoy_url": null,
-                    "tic80_cart_id": "1872"
+                    "shadertoy_url": null
                 }
             ],
             "staffs": [
@@ -280,7 +279,7 @@
         },
         {
             "title": "Final",
-            "vod": null,
+            "vod": "https://www.youtube.com/watch?v=kZaOC2T6kXs",
             "entries": [
                 {
                     "id": "1",
