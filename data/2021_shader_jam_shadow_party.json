@@ -25,8 +25,9 @@
                         "name": "NuSan",
                         "demozoo_id": 88839
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shader_file": "./shader_file_sources/shadow_demoparty_2021/sender_shadow_nusan.glsl",
+                    "shadertoy_url": null,
+                    "preview_image": "shadow_demoparty_2021/sender_shadow_nusan.jpg"
                 },
                 {
                     "id": null,
