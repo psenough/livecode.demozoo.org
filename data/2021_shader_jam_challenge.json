@@ -39,8 +39,9 @@
                         "name": "sp4ghet",
                         "demozoo_id": 119897
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shader_file": "./shader_file_sources/shader_challenge_2021/shaderchallenge_sp4ghet.glsl",
+                    "shadertoy_url": null,
+                    "preview_image": "shader_challenge_2021/shaderchallenge_sp4ghet.jpg"
                 }
             ],
             "staffs": [
