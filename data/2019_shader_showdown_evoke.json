@@ -1,0 +1,180 @@
+{
+    "title": "Revision",
+    "started": "2019-08-16",
+    "date": "16 - 18 Aug 2019",
+    "type": "Shader Showdown",
+    "vod": "https://www.twitch.tv/videos/468044887",
+    "software_used": null,
+    "phases": [
+        {
+            "title": "Semi Final 1",
+            "vod": "https://www.twitch.tv/videos/468044887?t=1h5m38s",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dojoe",
+                        "demozoo_id": 24894
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "androo",
+                        "demozoo_id": 67079
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+		{
+            "title": "Semi Final 2",
+            "vod": "https://www.twitch.tv/videos/468044887?t=01h57m03s",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Nusan",
+                        "demozoo_id": 88839
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dojoe",
+                        "demozoo_id": 24894
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "androo",
+                        "demozoo_id": 67079
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+		{
+            "title": "Final",
+            "vod": "https://www.twitch.tv/videos/468044887?t=01h57m03s",
+            "entries": [
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                },
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shader_file": null,
+                    "shadertoy_url": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dojoe",
+                        "demozoo_id": 24894
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "androo",
+                        "demozoo_id": 67079
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+				
+            ]
+        }
+    ],
+    "staffs": [
+		{
+			"handle": {
+				"name": "havoc",
+				"demozoo_id": null
+			},
+			"job": "Organizers"
+		}
+	]
+}
