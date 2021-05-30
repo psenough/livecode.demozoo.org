@@ -19,6 +19,6 @@ A more readable version of the schema is available in [./doc/schema.html](./doc/
 - add events still missing
     - Revision 2014, 2015
     - Outline 2019
-    - Nova 2018, 2019
     - Evoke 2018, 2019
+	- wecan
     - Solskogen live coding history goes back a few more years as well afaik but used slightly different rules. 2019 was the first time the Solskogen winner (rohtie) was invited for the finale at Revision.
