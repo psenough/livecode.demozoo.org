@@ -24,8 +24,9 @@
                         "name": "NuSan",
                         "demozoo_id": 88839
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shader_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shaderjam_with_lynn.zip",
+                    "shadertoy_url": null,
+                    "preview_image": "revision_jam_2021/nusan.jpg"
                 },
                 {
                     "id": null,
@@ -35,8 +36,9 @@
                         "name": "lechugafeliz",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shader_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shaderjam_with_lynn.zip",
+                    "shadertoy_url": null,
+                    "preview_image": "revision_jam_2021/lechugafeliz.jpg"
                 },
                 {
                     "id": null,
@@ -46,8 +48,9 @@
                         "name": "eimink",
                         "demozoo_id": 32692
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/fsjGDD"
+                    "shader_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shaderjam_with_lynn.zip",
+                    "shadertoy_url": "https://www.shadertoy.com/view/fsjGDD",
+                    "preview_image": "revision_jam_2021/eimink.jpg"
                 }
             ],
             "staffs": [
