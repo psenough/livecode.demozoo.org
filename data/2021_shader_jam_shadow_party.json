@@ -49,9 +49,9 @@
                         "name": "ponk",
                         "demozoo_id": 61858
                     },
-                    "shader_file": null,
+                    "shader_file": "./shader_file_sources/shadow_demoparty_2021/sender_shadow_ponk.glsl",
                     "shadertoy_url": "https://www.shadertoy.com/view/7ll3R4",
-                    "preview_image": null
+                    "preview_image": "shadow_demoparty_2021/sender_shadow_ponk.jpg"
                 }
             ],
             "staffs": [
