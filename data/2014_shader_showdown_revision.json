@@ -1,0 +1,204 @@
+{
+    "title": "Revision",
+    "started": "2014-04-18",
+    "date": "18 - 21 April 2015",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "ScintillaGL",
+            "url": "https://files.scene.org/view/parties/2014/revision14/livecoding/livecodingtool.zip",
+            "version": null,
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Quarter #1",
+            "vod": "https://youtu.be/T6JH5j1-TQg?t=206",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "crypt",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/01_crypt.fs",
+                    "shadertoy_url": null,
+                    "preview_image": "revision_2014/01_quarterfinals/01_crypt.jpg"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "skomp",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/01_skomp.fs",
+                    "shadertoy_url": null,
+                    "preview_image": "revision_2014/01_quarterfinals/01_skomp.jpg"
+                }
+            ],
+            "staffs": [ ]
+        },
+        {
+            "title": "Quarter #2",
+            "vod": "https://youtu.be/T6JH5j1-TQg?t=1821",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "blueberry",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/02_blueberry.fs",
+                    "shadertoy_url": null,
+                    "preview_image": "revision_2014/01_quarterfinals/02_blueberry.jpg"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "kabuto",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/02_kabuto.fs",
+                    "shadertoy_url": null,
+                    "preview_image": "revision_2014/01_quarterfinals/02_kabuto.jpg"
+                }
+            ],
+            "staffs": [ ]
+        },
+        {
+            "title": "Quarter #3",
+            "vod": "https://youtu.be/T6JH5j1-TQg?t=4098",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "miku",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/03_miku.fs",
+                    "shadertoy_url": null,
+                    "preview_image": "revision_2014/01_quarterfinals/03_miku.jpg"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "musk",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/03_musk.fs",
+                    "shadertoy_url": null,
+                    "preview_image": "revision_2014/01_quarterfinals/03_musk.jpg"
+                }
+            ],
+            "staffs": [ ]
+        },
+        {
+            "title": "Semi #1",
+            "vod": "https://youtu.be/aYlMjIVm1F4?t=105",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "kabuto",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/01_kabuto.fs",
+                    "shadertoy_url": null,
+                    "preview_image": "revision_2014/02_semifinals/01_kabuto.jpg"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "musk",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/01_musk.fs",
+                    "shadertoy_url": null,
+                    "preview_image": "revision_2014/02_semifinals/01_musk.jpg"
+                }
+            ],
+            "staffs": [ ]
+        },
+        {
+            "title": "Semi #2",
+            "vod": "https://youtu.be/aYlMjIVm1F4?t=1927",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "skomp",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/02_skomp.fs",
+                    "shadertoy_url": null,
+                    "preview_image": "revision_2014/02_semifinals/02_skomp.jpg"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "xtrium",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/02_xtrium.fs",
+                    "shadertoy_url": null,
+                    "preview_image": "revision_2014/02_semifinals/02_xtrium.jpg"
+                }
+            ],
+            "staffs": [ ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://youtu.be/aYlMjIVm1F4?t=3813",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "musk",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/03_final/musk.fs",
+                    "shadertoy_url": null,
+                    "preview_image": "revision_2014/03_final/musk.jpg"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "skomp",
+                        "demozoo_id": null
+                    },
+                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/03_final/skomp.fs",
+                    "shadertoy_url": null,
+                    "preview_image": "revision_2014/03_final/skomp.jpg"
+                }
+            ],
+            "staffs": [ ]
+        }
+    ],
+    "staffs": []
+}
