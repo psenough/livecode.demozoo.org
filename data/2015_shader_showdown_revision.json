@@ -16,7 +16,7 @@
                     "points": null,
                     "handle": {
                         "name": "hardy",
-                        "demozoo_id": 35897
+                        "demozoo_id": 913
                     },
                     "shader_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01a-hardy.hlsl",
                     "shadertoy_url": null
@@ -27,7 +27,7 @@
                     "points": null,
                     "handle": {
                         "name": "mu6k",
-                        "demozoo_id": 348
+                        "demozoo_id": 14411
                     },
                     "shader_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01a-musk.glsl",
                     "shadertoy_url": null
@@ -45,7 +45,7 @@
                     "points": null,
                     "handle": {
                         "name": "Eybor",
-                        "demozoo_id": 4456
+                        "demozoo_id": 27241
                     },
                     "shader_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01b-eybor.glsl",
                     "shadertoy_url": null
@@ -56,7 +56,7 @@
                     "points": null,
                     "handle": {
                         "name": "Ren Hoek",
-                        "demozoo_id": 73843
+                        "demozoo_id": 25277
                     },
                     "shader_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01b-renhoek.glsl",
                     "shadertoy_url": null
@@ -74,7 +74,7 @@
                     "points": null,
                     "handle": {
                         "name": "lj",
-                        "demozoo_id": 9807
+                        "demozoo_id": 57948
                     },
                     "shader_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01c-lj.glsl",
                     "shadertoy_url": null
@@ -103,7 +103,7 @@
                     "points": null,
                     "handle": {
                         "name": "Kabuto",
-                        "demozoo_id": 22917
+                        "demozoo_id": 6492
                     },
                     "shader_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01d-kabuto.glsl",
                     "shadertoy_url": null
@@ -114,7 +114,7 @@
                     "points": null,
                     "handle": {
                         "name": "wsmind",
-                        "demozoo_id": 52423
+                        "demozoo_id": 34845
                     },
                     "shader_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01d-wsmind.glsl",
                     "shadertoy_url": null
@@ -132,7 +132,7 @@
                     "points": null,
                     "handle": {
                         "name": "mu6k",
-                        "demozoo_id": 348
+                        "demozoo_id": 14411
                     },
                     "shader_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/02a-musk.glsl",
                     "shadertoy_url": null
@@ -143,7 +143,7 @@
                     "points": null,
                     "handle": {
                         "name": "Eybor",
-                        "demozoo_id": 4456
+                        "demozoo_id": 27241
                     },
                     "shader_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/02a-eybor.glsl",
                     "shadertoy_url": null
@@ -172,7 +172,7 @@
                     "points": null,
                     "handle": {
                         "name": "Kabuto",
-                        "demozoo_id": 22917
+                        "demozoo_id": 6492
                     },
                     "shader_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/02b-kabuto.glsl",
                     "shadertoy_url": null
@@ -190,7 +190,7 @@
                     "points": null,
                     "handle": {
                         "name": "mu6k",
-                        "demozoo_id": 348
+                        "demozoo_id": 14411
                     },
                     "shader_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/03-musk.glsl",
                     "shadertoy_url": null
@@ -201,7 +201,7 @@
                     "points": null,
                     "handle": {
                         "name": "Kabuto",
-                        "demozoo_id": 22917
+                        "demozoo_id": 6492
                     },
                     "shader_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/03-kabuto.glsl",
                     "shadertoy_url": null
