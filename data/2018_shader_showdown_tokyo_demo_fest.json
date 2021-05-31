@@ -23,10 +23,11 @@
                     "points": null,
                     "handle": {
                         "name": "notargs",
-                        "demozoo_id": null
+                        "demozoo_id": 63871
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shader_file": "http://glslsandbox.com/e#50670.0",
+                    "shadertoy_url": null,
+                    "preview_image": "tokyo_demo_fest_2018/notargs.jpg"
                 },
                 {
                     "id": null,
@@ -34,10 +35,11 @@
                     "points": null,
                     "handle": {
                         "name": "gyabo",
-                        "demozoo_id": null
+                        "demozoo_id": 17562
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shader_file": "https://scrapbox.io/sayachang/TDF2018_Shader_Coding_Battle",
+                    "shadertoy_url": null,
+                    "preview_image": "tokyo_demo_fest_2018/gyabo.jpg"
                 },
                 {
                     "id": null,
@@ -45,10 +47,11 @@
                     "points": null,
                     "handle": {
                         "name": "FMS_Cat",
-                        "demozoo_id": null
+                        "demozoo_id": 57112
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shader_file": "https://scrapbox.io/sayachang/TDF2018_Shader_Coding_Battle",
+                    "shadertoy_url": null,
+                    "preview_image": "tokyo_demo_fest_2018/FMS_Cat.jpg"
                 },
                 {
                     "id": null,
@@ -56,7 +59,7 @@
                     "points": null,
                     "handle": {
                         "name": "gam0022",
-                        "demozoo_id": null
+                        "demozoo_id": 63869
                     },
                     "shader_file": "https://glslfan.com/?channel=-LScZ1gHbc02G7PgZnus&viewer=true",
                     "shadertoy_url": null,
