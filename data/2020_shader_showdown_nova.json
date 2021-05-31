@@ -29,9 +29,10 @@
                         "name": "wrighter",
                         "demozoo_id": 113559
                     },
-                    "shader_file": null,
+                    "shader_file": "./shader_file_sources/nova_2020/sender_nova_wrighter.glsl",
                     "shadertoy_url": null,
-                    "vod": null
+                    "vod": null,
+                    "preview_image": "nova_2020/sender_nova_wrighter.jpg"
                 }
             ],
             "staffs": [
