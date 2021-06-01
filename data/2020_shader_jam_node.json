@@ -58,13 +58,5 @@
             ]
         }
     ],
-    "staffs": [
-        {
-            "handle": {
-                "name": "havoc",
-                "demozoo_id": null
-            },
-            "job": "Organizers"
-        }
-    ]
+    "staffs": []
 }
