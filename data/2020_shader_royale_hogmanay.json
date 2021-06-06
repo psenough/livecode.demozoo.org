@@ -4,7 +4,12 @@
     "date": "31 Dec 2020",
     "type": "Shader Royale",
     "vod": "https://www.youtube.com/watch?v=jxU8s4kukw8",
-    "software_used": null,
+    "software_used": [ {
+        "name": "Bonzomatic",
+        "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v10",
+        "version": "NuSan - v10",
+        "purpose": "Graphic"
+    }],
     "phases": [
         {
             "title": null,

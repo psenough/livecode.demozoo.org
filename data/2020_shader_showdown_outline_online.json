@@ -4,7 +4,12 @@
     "date": "22 - 23 May 2020",
     "type": "Shader Showdown",
     "vod": null,
-    "software_used": null,
+    "software_used": [ {
+        "name": "Bonzomatic",
+        "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v09",
+        "version": "NuSan - v09",
+        "purpose": "Graphic"
+    }],
     "phases": [
         {
             "title": "Round 1",

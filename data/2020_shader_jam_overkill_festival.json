@@ -4,7 +4,12 @@
     "date": "6 Dec 2020",
     "type": "Shader Jam",
     "vod": "https://www.youtube.com/watch?v=ZYBsQBqViG4",
-    "software_used": null,
+    "software_used": [ {
+        "name": "Bonzomatic",
+        "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v09",
+        "version": "NuSan - v09",
+        "purpose": "Graphic"
+    }],
     "phases": [
         {
             "title": null,
