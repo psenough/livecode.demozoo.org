@@ -51,7 +51,7 @@ for html_filename,events in pages_year:
         outFile.write(
             minify(
                 template.render(events=events, 
-                                menu_year_navigation=list(reversed(menu_year_navigation)),
+                                menu_year_navigation=menu_year_navigation,
                                 current_filename=html_filename,
                                 handles_demozoo=handle_manager.get_handle_from_id # Resolution will be done at render time
                 )
