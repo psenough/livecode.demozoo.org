@@ -27,7 +27,6 @@ data = sorted(
     reverse=True,
 )
 
-
 # Generate cache for shadertoy overview and tic80 overview
 for d in data:
     download_shadertoy_overview.create_cache(d)
@@ -35,7 +34,6 @@ for d in data:
 # For keeping page not overloaded, we divide per year, which mean 1 year = 1 page to generate 
 # As it's sorted reverse, it's should go from current year to previous year
 grouped_per_year = grouped(data,key=lambda a :a["started"][0:4])
-
 
 # The current year will be index.html, others will be %Y.html
 menu_year_navigation = []
@@ -47,15 +45,13 @@ for is_first,(year,events) in with_is_first(grouped_per_year.items()):
     menu_year_navigation.append((html_filename,year))
     pages_year.append((html_filename,events))
     
-reversed_menu_year_navigation = list(reversed(menu_year_navigation))
-
 # Compiling files
 for html_filename,events in pages_year:
     with codecs.open(html_filename, "w", "utf-8") as outFile:
         outFile.write(
             minify(
                 template.render(events=events, 
-                                menu_year_navigation=reversed_menu_year_navigation,
+                                menu_year_navigation=list(reversed(menu_year_navigation)),
                                 current_filename=html_filename,
                                 handles_demozoo=handle_manager.get_handle_from_id # Resolution will be done at render time
                 )
