@@ -20,9 +20,6 @@
     <div id="collapse{{ post_loop.index }}" class="accordion-collapse collapse" aria-labelledby="heading{{ post_loop.index }}" data-bs-parent="#accordionExample">
         <div class="accordion-body bg-dark text-light">
 
-            {% set staffs = event['staffs']%}
-            {% include 'staff.html' %}
-
             {% if event['vod'] %}
             <div class="text-secondary">
                 Video <a class="link-info" target="_blank" href="{{event['vod']}}">
@@ -49,6 +46,9 @@
                     {% endfor %}
                 </div>
             </div>           
+
+            {% set staffs = event['staffs']%}
+            {% include 'staff.html' %}
 
         </div>
     </div>

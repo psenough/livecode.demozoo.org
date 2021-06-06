@@ -24,7 +24,7 @@ template = templateEnv.get_template("index.html")
 data = sorted(
     [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/**")],
     key=lambda a: a["started"],
-    reverse=True,
+    reverse=False,
 )
 
 # Generate cache for shadertoy overview and tic80 overview
