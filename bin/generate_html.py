@@ -21,11 +21,17 @@ templateEnv = jinja2.Environment(
 template = templateEnv.get_template("index.html")
 
 # Use 'started' date to sort from latest to oldest
+datar = sorted(
+    [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/**")],
+    key=lambda a: a["started"],
+    reverse=True,
+)
 data = sorted(
     [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/**")],
     key=lambda a: a["started"],
     reverse=False,
 )
+
 
 # Generate cache for shadertoy overview and tic80 overview
 for d in data:
@@ -33,7 +39,7 @@ for d in data:
     download_tic80_cart_overview.create_cache(d)
 # For keeping page not overloaded, we divide per year, which mean 1 year = 1 page to generate 
 # As it's sorted reverse, it's should go from current year to previous year
-grouped_per_year = grouped(data,key=lambda a :a["started"][0:4])
+grouped_per_year = grouped(datar,key=lambda a :a["started"][0:4])
 
 
 # The current year will be index.html, others will be %Y.html
