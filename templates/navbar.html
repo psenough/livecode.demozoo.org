@@ -2,11 +2,11 @@
     <div class="w-100 text-center">
         <span class="navbar-brand">
             <h1 class="display-4 mb-0 text-wrap" id="pageTitle">
-                DEMOSCENE LIVECODING EVENTS
+                DEMOSCENE LIVECODE EVENTS
             </h1>            
         </span>
         <div>
-            {% for href,year in menu_year_navigation %}
+            {% for href,year in list(reversed(menu_year_navigation)) %}
                 {% if current_filename == href %}
                     {% set nav_style = "btn-outline-info" %}
                 {% else %}
