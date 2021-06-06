@@ -6,7 +6,7 @@
             </h1>            
         </span>
         <div>
-            {% for href,year in list(reversed(menu_year_navigation)) %}
+            {% for href,year in reversed_menu_year_navigation %}
                 {% if current_filename == href %}
                     {% set nav_style = "btn-outline-info" %}
                 {% else %}

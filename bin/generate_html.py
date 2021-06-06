@@ -46,6 +46,8 @@ for is_first,(year,events) in with_is_first(grouped_per_year.items()):
         html_filename = "index.html"
     menu_year_navigation.append((html_filename,year))
     pages_year.append((html_filename,events))
+    
+reversed_menu_year_navigation = list(reversed(menu_year_navigation))
 
 # Compiling files
 for html_filename,events in pages_year:
