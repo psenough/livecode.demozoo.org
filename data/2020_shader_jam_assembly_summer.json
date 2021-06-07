@@ -21,7 +21,7 @@
                     "points": null,
                     "handle": {
                         "name": "branch",
-                        "demozoo_id": null
+                        "demozoo_id": 44254
                     },
                     "shader_file": null,
                     "shadertoy_url": null
@@ -43,7 +43,7 @@
                     "points": null,
                     "handle": {
                         "name": "Exca",
-                        "demozoo_id": null
+                        "demozoo_id": 35897
                     },
                     "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/3tsBD7"
@@ -101,7 +101,7 @@
                 {
                     "handle": {
                         "name": "mayor",
-                        "demozoo_id": null
+                        "demozoo_id": 12895
                     },
                     "job": "Dj Set"
                 }
