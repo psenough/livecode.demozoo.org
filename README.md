@@ -1,4 +1,4 @@
-# Shader Summary
+# Shader Summary / Demoscene Livecode Events (livecode.demozoo.org)
 
 List of demoscene livecoding events (Shader Showdown, Shader Jam, Shader Royale, Byte Battle, etc).
 
