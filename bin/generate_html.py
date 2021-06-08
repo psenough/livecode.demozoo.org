@@ -44,14 +44,14 @@ for is_first,(year,events) in with_is_first(grouped_per_year.items()):
         html_filename = "index.html"
     menu_year_navigation.append((html_filename,year))
     pages_year.append((html_filename,events))
-    
+
 # Compiling files
 for html_filename,events in pages_year:
     with codecs.open(html_filename, "w", "utf-8") as outFile:
         outFile.write(
             minify(
                 template.render(events=events, 
-                                menu_year_navigation=list(reversed(menu_year_navigation)),
+                                menu_year_navigation=menu_year_navigation,
                                 current_filename=html_filename,
                                 handles_demozoo=handle_manager.get_handle_from_id # Resolution will be done at render time
                 )
