@@ -18,7 +18,7 @@
             "vod": "https://www.youtube.com/watch?v=uYBZ8pRWwgo",
             "entries": [
                 {
-                    "id": null,
+                    "id": 1,
                     "rank": 1,
                     "points": null,
                     "handle": {
@@ -29,15 +29,16 @@
                     "shadertoy_url": null
                 },
                 {
-                    "id": null,
+                    "id": 2,
                     "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "ps",
                         "demozoo_id": 313
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_ps.lua",
+                    "shadertoy_url": null,
+					"tic80_cart_id": "1913"
                 }
             ],
             "staffs": [
@@ -76,7 +77,7 @@
                         "name": "killedbyapixel",
                         "demozoo_id": 89333
                     },
-                    "shader_file": null,
+                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_killedbyapixel.lua",
                     "shadertoy_url": null
                 },
                 {
@@ -126,7 +127,7 @@
                     "points": null,
                     "handle": {
                         "name": "gopher",
-                        "demozoo_id": null
+                        "demozoo_id": 929
                     },
                     "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_gopher.lua",
                     "shadertoy_url": null
@@ -137,7 +138,7 @@
                     "points": null,
                     "handle": {
                         "name": "tomcat",
-                        "demozoo_id": null
+                        "demozoo_id": 8556
                     },
                     "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_tomcat.lua",
                     "shadertoy_url": null
@@ -282,7 +283,7 @@
                     "points": null,
                     "handle": {
                         "name": "gopher",
-                        "demozoo_id": null
+                        "demozoo_id": 929
                     },
                     "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_gopher.lua",
                     "shadertoy_url": null
@@ -334,7 +335,7 @@
                     "points": null,
                     "handle": {
                         "name": "gopher",
-                        "demozoo_id": null
+                        "demozoo_id": 929
                     },
                     "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_final_gopher.lua",
                     "shadertoy_url": null
