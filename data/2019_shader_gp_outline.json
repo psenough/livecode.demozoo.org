@@ -15,7 +15,7 @@
     "phases": [
         {
             "title": "Match 1",
-            "vod": "https://www.youtube.com/watch?v=xegAFqulK8I",
+            "vod": null,
             "entries": [
                 {
                     "id": 1,
