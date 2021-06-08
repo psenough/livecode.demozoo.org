@@ -25,9 +25,9 @@
                         "name": "anticore",
                         "demozoo_id": 117325
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip",
                     "shadertoy_url": "https://www.shadertoy.com/view/sdjGWm",
-                    "preview_image": "revision_shadershowdown_2021/qf_anticore.jpg"
+                    "preview_image": "revision_shadershowdown_2021/qf_anticore.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
                 },
                 {
                     "id": null,
@@ -37,9 +37,9 @@
                         "name": "LechugaFeliz",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip",
                     "shadertoy_url": null,
-                    "preview_image": "revision_shadershowdown_2021/qf_lechugafeliz.jpg"
+                    "preview_image": "revision_shadershowdown_2021/qf_lechugafeliz.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
                 }
             ],
             "staffs": [
@@ -92,9 +92,9 @@
                         "name": "blackle",
                         "demozoo_id": 79215
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip",
                     "shadertoy_url": "https://www.shadertoy.com/view/7sS3WD",
-                    "preview_image": "revision_shadershowdown_2021/qf_blackle.jpg"
+                    "preview_image": "revision_shadershowdown_2021/qf_blackle.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
                 },
                 {
                     "id": null,
@@ -104,9 +104,9 @@
                         "name": "cosamentale",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip",
                     "shadertoy_url": "https://www.shadertoy.com/view/ss2GDw",
-                    "preview_image": "revision_shadershowdown_2021/qf_cosamentale.jpg"
+                    "preview_image": "revision_shadershowdown_2021/qf_cosamentale.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
                 }
             ],
             "staffs": [
@@ -159,9 +159,9 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip",
                     "shadertoy_url": "https://www.shadertoy.com/view/7dBGRc",
-                    "preview_image": "revision_shadershowdown_2021/qf_evvvvil.jpg"
+                    "preview_image": "revision_shadershowdown_2021/qf_evvvvil.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
                 },
                 {
                     "id": null,
@@ -171,9 +171,9 @@
                         "name": "monsieursoleil",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip",
                     "shadertoy_url": null,
-                    "preview_image": "revision_shadershowdown_2021/qf_monsieursoleil.jpg"
+                    "preview_image": "revision_shadershowdown_2021/qf_monsieursoleil.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
                 }
             ],
             "staffs": [
@@ -226,9 +226,9 @@
                         "name": "flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip",
                     "shadertoy_url": null,
-                    "preview_image": "revision_shadershowdown_2021/qf_flopine.jpg"
+                    "preview_image": "revision_shadershowdown_2021/qf_flopine.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
                 },
                 {
                     "id": null,
@@ -238,9 +238,9 @@
                         "name": "wrighter",
                         "demozoo_id": 113559
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip",
                     "shadertoy_url": null,
-                    "preview_image": "revision_shadershowdown_2021/qf_wrighter.jpg"
+                    "preview_image": "revision_shadershowdown_2021/qf_wrighter.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
                 }
             ],
             "staffs": [
@@ -293,8 +293,8 @@
                         "name": "blackle",
                         "demozoo_id": 79215
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/NdjGDm"
+                    "shadertoy_url": "https://www.shadertoy.com/view/NdjGDm",
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -304,8 +304,8 @@
                         "name": "anticore",
                         "demozoo_id": 117325
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -358,8 +358,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/fdSGWw"
+                    "shadertoy_url": "https://www.shadertoy.com/view/fdSGWw",
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -369,8 +369,8 @@
                         "name": "flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -423,8 +423,8 @@
                         "name": "blackle",
                         "demozoo_id": 79215
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/7s23DD"
+                    "shadertoy_url": "https://www.shadertoy.com/view/7s23DD",
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -434,8 +434,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [

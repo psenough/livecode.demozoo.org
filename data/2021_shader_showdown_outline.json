@@ -25,8 +25,8 @@
                         "name": "anticore",
                         "demozoo_id": 117325
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/ssjSDV"
+                    "shadertoy_url": "https://www.shadertoy.com/view/ssjSDV",
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -36,8 +36,8 @@
                         "name": "MonsieurSoleil",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": []
@@ -54,8 +54,8 @@
                         "name": "totetmatt",
                         "demozoo_id": 121811
                     },
-                    "shader_file": "./shader_file_sources/outline_shader_showdown_2021/outline_2021_totetmatt_1.glsl",
-                    "shadertoy_url": "https://www.shadertoy.com/view/NlXGDH"
+                    "shadertoy_url": "https://www.shadertoy.com/view/NlXGDH",
+                    "source_file": "./shader_file_sources/outline_shader_showdown_2021/outline_2021_totetmatt_1.glsl"
                 },
                 {
                     "id": null,
@@ -65,8 +65,8 @@
                         "name": "blackle",
                         "demozoo_id": 79215
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": []
@@ -83,8 +83,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -94,8 +94,8 @@
                         "name": "Anticore",
                         "demozoo_id": 117325
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/ssjXWV"
+                    "shadertoy_url": "https://www.shadertoy.com/view/ssjXWV",
+                    "source_file": null
                 }
             ],
             "staffs": []
@@ -112,8 +112,8 @@
                         "name": "cosamentale",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/fs2XWc"
+                    "shadertoy_url": "https://www.shadertoy.com/view/fs2XWc",
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -123,8 +123,8 @@
                         "name": "totetmatt",
                         "demozoo_id": 121811
                     },
-                    "shader_file": "./shader_file_sources/outline_shader_showdown_2021/outline_2021_totetmatt_2.glsl",
-                    "shadertoy_url": "https://www.shadertoy.com/view/ftfGWH"
+                    "shadertoy_url": "https://www.shadertoy.com/view/ftfGWH",
+                    "source_file": "./shader_file_sources/outline_shader_showdown_2021/outline_2021_totetmatt_2.glsl"
                 }
             ],
             "staffs": []
@@ -141,8 +141,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -152,8 +152,8 @@
                         "name": "MonsieurSoleil",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": []
@@ -170,8 +170,8 @@
                         "name": "blackle",
                         "demozoo_id": 79215
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -181,8 +181,8 @@
                         "name": "cosamentale",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/NsSXWd"
+                    "shadertoy_url": "https://www.shadertoy.com/view/NsSXWd",
+                    "source_file": null
                 }
             ],
             "staffs": []
@@ -199,8 +199,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/sdBSDt"
+                    "shadertoy_url": "https://www.shadertoy.com/view/sdBSDt",
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -210,8 +210,8 @@
                         "name": "cosamentale",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/7tf3Rr"
+                    "shadertoy_url": "https://www.shadertoy.com/view/7tf3Rr",
+                    "source_file": null
                 }
             ],
             "staffs": []

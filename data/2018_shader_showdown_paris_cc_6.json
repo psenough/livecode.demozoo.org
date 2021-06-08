@@ -25,8 +25,8 @@
                         "name": "Anton",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/01-anton.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/01-anton.frag"
                 },
                 {
                     "id": null,
@@ -36,8 +36,8 @@
                         "name": "Lamogui",
                         "demozoo_id": 71129
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/01-lamogui.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/01-lamogui.frag"
                 }
             ],
             "staffs": []
@@ -54,8 +54,8 @@
                         "name": "Eybor",
                         "demozoo_id": 27241
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/02-eybor.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/02-eybor.frag"
                 },
                 {
                     "id": null,
@@ -65,8 +65,8 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/02-flopine.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/02-flopine.frag"
                 }
             ],
             "staffs": []
@@ -83,8 +83,8 @@
                         "name": "Elie",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/03-elie.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/03-elie.frag"
                 },
                 {
                     "id": null,
@@ -94,8 +94,8 @@
                         "name": "Nicoptere",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/03-nicoptere.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/03-nicoptere.frag"
                 }
             ],
             "staffs": []
@@ -112,8 +112,8 @@
                         "name": "Anton",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/04-anton.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/04-anton.frag"
                 },
                 {
                     "id": null,
@@ -123,8 +123,8 @@
                         "name": "Leon",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/04-leon.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/04-leon.frag"
                 }
             ],
             "staffs": []
@@ -141,8 +141,8 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/05-flopine.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/05-flopine.frag"
                 },
                 {
                     "id": null,
@@ -152,8 +152,8 @@
                         "name": "Mon Blaz",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/05-monblaz.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-03-07/05-monblaz.frag"
                 }
             ],
             "staffs": []

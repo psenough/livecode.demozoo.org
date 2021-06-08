@@ -25,8 +25,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -36,8 +36,8 @@
                         "name": "LechugaFeliz",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/ss2XDd"
+                    "shadertoy_url": "https://www.shadertoy.com/view/ss2XDd",
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -47,8 +47,8 @@
                         "name": "exca",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [

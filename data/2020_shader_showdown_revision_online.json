@@ -4,12 +4,14 @@
     "date": "15 April 2020",
     "type": "Shader Showdown",
     "vod": null,
-    "software_used": [ {
-        "name": "Bonzomatic",
-        "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v09",
-        "version": "NuSan - v09",
-        "purpose": "Graphic"
-    }],
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v09",
+            "version": "NuSan - v09",
+            "purpose": "Graphic"
+        }
+    ],
     "phases": [
         {
             "title": "Quarter Final 1",
@@ -23,8 +25,8 @@
                         "name": "monsieursoleil",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -34,8 +36,8 @@
                         "name": "wrighter",
                         "demozoo_id": 113559
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -74,8 +76,8 @@
                         "name": "cosamentale",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -85,8 +87,8 @@
                         "name": "branch",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -125,8 +127,8 @@
                         "name": "flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -136,8 +138,8 @@
                         "name": "provod",
                         "demozoo_id": 24024
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -176,8 +178,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -187,8 +189,8 @@
                         "name": "NuSan",
                         "demozoo_id": 88839
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -227,8 +229,8 @@
                         "name": "wrighter",
                         "demozoo_id": 113559
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -238,8 +240,8 @@
                         "name": "cosamentale",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -278,8 +280,8 @@
                         "name": "flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -289,8 +291,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -329,8 +331,8 @@
                         "name": "flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -340,8 +342,8 @@
                         "name": "wrighter",
                         "demozoo_id": 113559
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [

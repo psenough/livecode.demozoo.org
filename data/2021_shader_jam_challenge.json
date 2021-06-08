@@ -17,8 +17,8 @@
                         "name": "FMS_Cat",
                         "demozoo_id": 57112
                     },
-                    "shader_file": "./shader_file_sources/shader_challenge_2021/shaderchallenge_fms_cat.glsl",
-                    "shadertoy_url": "https://www.shadertoy.com/view/tlyBWw"
+                    "shadertoy_url": "https://www.shadertoy.com/view/tlyBWw",
+                    "source_file": "./shader_file_sources/shader_challenge_2021/shaderchallenge_fms_cat.glsl"
                 },
                 {
                     "id": null,
@@ -28,8 +28,8 @@
                         "name": "butadiene",
                         "demozoo_id": null
                     },
-                    "shader_file": "./shader_file_sources/shader_challenge_2021/shaderchallenge_butadiene.glsl",
-                    "shadertoy_url": "https://www.shadertoy.com/view/wtGfWw"
+                    "shadertoy_url": "https://www.shadertoy.com/view/wtGfWw",
+                    "source_file": "./shader_file_sources/shader_challenge_2021/shaderchallenge_butadiene.glsl"
                 },
                 {
                     "id": null,
@@ -39,9 +39,9 @@
                         "name": "sp4ghet",
                         "demozoo_id": 119897
                     },
-                    "shader_file": "./shader_file_sources/shader_challenge_2021/shaderchallenge_sp4ghet.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "shader_challenge_2021/shaderchallenge_sp4ghet.jpg"
+                    "preview_image": "shader_challenge_2021/shaderchallenge_sp4ghet.jpg",
+                    "source_file": "./shader_file_sources/shader_challenge_2021/shaderchallenge_sp4ghet.glsl"
                 }
             ],
             "staffs": [

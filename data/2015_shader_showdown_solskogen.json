@@ -25,9 +25,9 @@
                         "name": "musk",
                         "demozoo_id": 14411
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/01a-musk.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "solskogen_2015/01a-musk.jpg"
+                    "preview_image": "solskogen_2015/01a-musk.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/01a-musk.glsl"
                 },
                 {
                     "id": null,
@@ -37,9 +37,9 @@
                         "name": "ferris",
                         "demozoo_id": 18
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/01a-ferris.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "solskogen_2015/01a-ferris.jpg"
+                    "preview_image": "solskogen_2015/01a-ferris.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/01a-ferris.glsl"
                 }
             ],
             "staffs": []
@@ -56,9 +56,9 @@
                         "name": "Emil",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/01b-emil.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "solskogen_2015/01b-emil.jpg"
+                    "preview_image": "solskogen_2015/01b-emil.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/01b-emil.glsl"
                 },
                 {
                     "id": null,
@@ -68,9 +68,9 @@
                         "name": "urs",
                         "demozoo_id": 3960
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/01b-urs.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "solskogen_2015/01b-urs.jpg"
+                    "preview_image": "solskogen_2015/01b-urs.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/01b-urs.glsl"
                 }
             ],
             "staffs": []
@@ -87,9 +87,9 @@
                         "name": "ferris",
                         "demozoo_id": 18
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/02-ferris.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "solskogen_2015/02-ferris.jpg"
+                    "preview_image": "solskogen_2015/02-ferris.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/02-ferris.glsl"
                 },
                 {
                     "id": null,
@@ -99,9 +99,9 @@
                         "name": "urs",
                         "demozoo_id": 3960
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/02-urs.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "solskogen_2015/02-urs.jpg"
+                    "preview_image": "solskogen_2015/02-urs.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/02-urs.glsl"
                 }
             ],
             "staffs": []

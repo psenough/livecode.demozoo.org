@@ -17,8 +17,8 @@
                         "name": "cosamental",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/wlGczK"
+                    "shadertoy_url": "https://www.shadertoy.com/view/wlGczK",
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -28,8 +28,8 @@
                         "name": "wrighter",
                         "demozoo_id": 113559
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -39,8 +39,8 @@
                         "name": "monsieursoleil",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -50,8 +50,8 @@
                         "name": "provod",
                         "demozoo_id": 24024
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [

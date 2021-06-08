@@ -4,12 +4,14 @@
     "date": "24 Jun 2020",
     "type": "Shader Live",
     "vod": "https://youtu.be/g0Jymrc1XqM?t=2819",
-    "software_used": [ {
-        "name": "Bonzomatic",
-        "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v09",
-        "version": "NuSan - v09",
-        "purpose": "Graphic"
-    }],
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v09",
+            "version": "NuSan - v09",
+            "purpose": "Graphic"
+        }
+    ],
     "phases": [
         {
             "title": null,
@@ -22,9 +24,9 @@
                         "name": "Alkama",
                         "demozoo_id": 1382
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2020/pancake_conference20/livecoding/grabber_pancakeftw_alkama.glsl",
                     "shadertoy_url": "https://www.shadertoy.com/view/wtXcW2",
-                    "preview_image": "pancake_conference_2020/grabber_pancakeftw_alkama.jpg"
+                    "preview_image": "pancake_conference_2020/grabber_pancakeftw_alkama.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2020/pancake_conference20/livecoding/grabber_pancakeftw_alkama.glsl"
                 }
             ],
             "staffs": [

@@ -18,8 +18,8 @@
                         "name": "blackle",
                         "demozoo_id": 79215
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/3dGXRW"
+                    "shadertoy_url": "https://www.shadertoy.com/view/3dGXRW",
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -29,9 +29,9 @@
                         "name": "CharStiles",
                         "demozoo_id": 82875
                     },
-                    "shader_file": null,
                     "shadertoy_url": null,
-                    "vod": null
+                    "vod": null,
+                    "source_file": null
                 }
             ],
             "staffs": []

@@ -18,8 +18,8 @@
                         "name": "flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -29,8 +29,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": []

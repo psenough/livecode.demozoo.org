@@ -25,9 +25,9 @@
                         "name": "NuSan",
                         "demozoo_id": 88839
                     },
-                    "shader_file": "./shader_file_sources/shadow_demoparty_2021/sender_shadow_nusan.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "shadow_demoparty_2021/sender_shadow_nusan.jpg"
+                    "preview_image": "shadow_demoparty_2021/sender_shadow_nusan.jpg",
+                    "source_file": "./shader_file_sources/shadow_demoparty_2021/sender_shadow_nusan.glsl"
                 },
                 {
                     "id": null,
@@ -37,9 +37,9 @@
                         "name": "lamogui",
                         "demozoo_id": 71129
                     },
-                    "shader_file": null,
                     "shadertoy_url": null,
-                    "preview_image": null
+                    "preview_image": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -49,9 +49,9 @@
                         "name": "ponk",
                         "demozoo_id": 61858
                     },
-                    "shader_file": "./shader_file_sources/shadow_demoparty_2021/sender_shadow_ponk.glsl",
                     "shadertoy_url": "https://www.shadertoy.com/view/7ll3R4",
-                    "preview_image": "shadow_demoparty_2021/sender_shadow_ponk.jpg"
+                    "preview_image": "shadow_demoparty_2021/sender_shadow_ponk.jpg",
+                    "source_file": "./shader_file_sources/shadow_demoparty_2021/sender_shadow_ponk.glsl"
                 }
             ],
             "staffs": [
@@ -76,9 +76,9 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": "./shader_file_sources/shadow_demoparty_2021/shadow-evvvvil-shaderjam.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "shadow_demoparty_2021/shadow-evvvvil-shaderjam.jpg"
+                    "preview_image": "shadow_demoparty_2021/shadow-evvvvil-shaderjam.jpg",
+                    "source_file": "./shader_file_sources/shadow_demoparty_2021/shadow-evvvvil-shaderjam.glsl"
                 },
                 {
                     "id": null,
@@ -88,9 +88,9 @@
                         "name": "z0rg",
                         "demozoo_id": null
                     },
-                    "shader_file": "./shader_file_sources/shadow_demoparty_2021/z0rg.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "shadow_demoparty_2021/z0rg.jpg"
+                    "preview_image": "shadow_demoparty_2021/z0rg.jpg",
+                    "source_file": "./shader_file_sources/shadow_demoparty_2021/z0rg.glsl"
                 },
                 {
                     "id": null,
@@ -100,9 +100,9 @@
                         "name": "Totetmatt",
                         "demozoo_id": 121811
                     },
-                    "shader_file": "./shader_file_sources/shadow_demoparty_2021/sender_shadow_totetmatt.glsl",
                     "shadertoy_url": "https://www.shadertoy.com/view/stl3z4",
-                    "preview_image": "shadow_demoparty_2021/sender_shadow_totetmatt.jpg"
+                    "preview_image": "shadow_demoparty_2021/sender_shadow_totetmatt.jpg",
+                    "source_file": "./shader_file_sources/shadow_demoparty_2021/sender_shadow_totetmatt.glsl"
                 }
             ],
             "staffs": [

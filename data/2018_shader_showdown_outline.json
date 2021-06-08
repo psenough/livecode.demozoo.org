@@ -18,8 +18,8 @@
                         "name": "lsdlive",
                         "demozoo_id": 83579
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -29,9 +29,9 @@
                         "name": "TropicalTrevor",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
                     "shadertoy_url": null,
-                    "vod": null
+                    "vod": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -70,8 +70,8 @@
                         "name": "lj",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -81,9 +81,9 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": null,
                     "shadertoy_url": "https://www.shadertoy.com/view/MdcBzf",
-                    "vod": null
+                    "vod": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -122,8 +122,8 @@
                         "name": "lsdlive",
                         "demozoo_id": 83579
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/MscBzs"
+                    "shadertoy_url": "https://www.shadertoy.com/view/MscBzs",
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -133,9 +133,9 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": null,
                     "shadertoy_url": null,
-                    "vod": null
+                    "vod": null,
+                    "source_file": null
                 }
             ],
             "staffs": [

@@ -25,8 +25,8 @@
                         "name": "Anatol",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-10-20/anatol.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-10-20/anatol.frag"
                 },
                 {
                     "id": null,
@@ -36,8 +36,8 @@
                         "name": "Leon",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-10-20/leon.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-10-20/leon.frag"
                 },
                 {
                     "id": null,
@@ -47,8 +47,8 @@
                         "name": "Theo",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-10-20/theo.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-10-20/theo.frag"
                 }
             ],
             "staffs": []

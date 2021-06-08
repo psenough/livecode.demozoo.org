@@ -31,9 +31,9 @@
                         "name": "NuSan",
                         "demozoo_id": 88839
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/01-nusan.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2021-04-16/01-nusan.jpg"
+                    "preview_image": "cc_live_coding_2021-04-16/01-nusan.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/01-nusan.glsl"
                 },
                 {
                     "id": null,
@@ -43,9 +43,9 @@
                         "name": "z0rg",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/01-z0rg.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2021-04-16/01-z0rg.jpg"
+                    "preview_image": "cc_live_coding_2021-04-16/01-z0rg.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/01-z0rg.glsl"
                 }
             ],
             "staffs": [
@@ -77,9 +77,9 @@
                         "name": "LechugaFeliz",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/02-lechugafeliz.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2021-04-16/02-lechugafeliz.jpg"
+                    "preview_image": "cc_live_coding_2021-04-16/02-lechugafeliz.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/02-lechugafeliz.glsl"
                 },
                 {
                     "id": null,
@@ -89,9 +89,9 @@
                         "name": "wrighter",
                         "demozoo_id": 113559
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/02-wrighter.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2021-04-16/02-wrighter.jpg"
+                    "preview_image": "cc_live_coding_2021-04-16/02-wrighter.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/02-wrighter.glsl"
                 }
             ],
             "staffs": [
@@ -123,9 +123,9 @@
                         "name": "Tater",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/03-tater.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2021-04-16/03-tater.jpg"
+                    "preview_image": "cc_live_coding_2021-04-16/03-tater.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/03-tater.glsl"
                 },
                 {
                     "id": null,
@@ -135,9 +135,9 @@
                         "name": "z0rg",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/03-z0rg.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2021-04-16/03-z0rg.jpg"
+                    "preview_image": "cc_live_coding_2021-04-16/03-z0rg.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/03-z0rg.glsl"
                 }
             ],
             "staffs": [
@@ -169,9 +169,9 @@
                         "name": "Lamogui",
                         "demozoo_id": 71129
                     },
-                    "shader_file": null,
                     "shadertoy_url": null,
-                    "preview_image": null
+                    "preview_image": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -181,9 +181,9 @@
                         "name": "LechugaFeliz",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/04-lechugafeliz.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2021-04-16/04-lechugafeliz.jpg"
+                    "preview_image": "cc_live_coding_2021-04-16/04-lechugafeliz.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/04-lechugafeliz.glsl"
                 }
             ],
             "staffs": [

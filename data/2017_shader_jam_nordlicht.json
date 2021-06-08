@@ -18,11 +18,11 @@
                         "name": "??",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
-             "staffs": [
+            "staffs": [
                 {
                     "handle": {
                         "name": "??",
@@ -33,6 +33,5 @@
             ]
         }
     ],
-    "staffs": [
-    ]
+    "staffs": []
 }

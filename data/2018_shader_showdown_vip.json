@@ -24,9 +24,9 @@
                         "name": "ponk",
                         "demozoo_id": 61858
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/01-ponk.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "vip_2018-06-02/01-ponk.jpg"
+                    "preview_image": "vip_2018-06-02/01-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/01-ponk.glsl"
                 },
                 {
                     "id": null,
@@ -36,9 +36,9 @@
                         "name": "xtrium",
                         "demozoo_id": 3695
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/01-xtrium.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "vip_2018-06-02/01-xtrium.jpg"
+                    "preview_image": "vip_2018-06-02/01-xtrium.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/01-xtrium.glsl"
                 }
             ],
             "staffs": []
@@ -54,9 +54,9 @@
                         "name": "CoyHot",
                         "demozoo_id": 43553
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/02-coyhot.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "vip_2018-06-02/02-coyhot.jpg"
+                    "preview_image": "vip_2018-06-02/02-coyhot.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/02-coyhot.glsl"
                 },
                 {
                     "id": null,
@@ -66,9 +66,9 @@
                         "name": "lamogui",
                         "demozoo_id": 71129
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/02-lamogui.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "vip_2018-06-02/02-lamogui.jpg"
+                    "preview_image": "vip_2018-06-02/02-lamogui.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/02-lamogui.glsl"
                 }
             ],
             "staffs": []
@@ -84,9 +84,9 @@
                         "name": "ponk",
                         "demozoo_id": 61858
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/03-ponk.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "vip_2018-06-02/03-ponk.jpg"
+                    "preview_image": "vip_2018-06-02/03-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/03-ponk.glsl"
                 },
                 {
                     "id": null,
@@ -96,9 +96,9 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/03-flopine.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "vip_2018-06-02/03-flopine.jpg"
+                    "preview_image": "vip_2018-06-02/03-flopine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/03-flopine.glsl"
                 }
             ],
             "staffs": []
@@ -114,9 +114,9 @@
                         "name": "lsdlive",
                         "demozoo_id": 83579
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/04-lsdlive.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "vip_2018-06-02/04-lsdlive.jpg"
+                    "preview_image": "vip_2018-06-02/04-lsdlive.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/04-lsdlive.glsl"
                 },
                 {
                     "id": null,
@@ -126,9 +126,9 @@
                         "name": "CoyHot",
                         "demozoo_id": 43553
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/04-coyhot.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "vip_2018-06-02/04-coyhot.jpg"
+                    "preview_image": "vip_2018-06-02/04-coyhot.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/04-coyhot.glsl"
                 }
             ],
             "staffs": []
@@ -144,9 +144,9 @@
                         "name": "CoyHot",
                         "demozoo_id": 43553
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/05-coyhot.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "vip_2018-06-02/05-coyhot.jpg"
+                    "preview_image": "vip_2018-06-02/05-coyhot.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/05-coyhot.glsl"
                 },
                 {
                     "id": null,
@@ -156,9 +156,9 @@
                         "name": "ponk",
                         "demozoo_id": 61858
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/05-ponk.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "vip_2018-06-02/05-ponk.jpg"
+                    "preview_image": "vip_2018-06-02/05-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/05-ponk.glsl"
                 }
             ],
             "staffs": []
@@ -174,9 +174,9 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/06_flopine.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "vip_2018-06-02/06_flopine.jpg"
+                    "preview_image": "vip_2018-06-02/06_flopine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/06_flopine.glsl"
                 },
                 {
                     "id": null,
@@ -186,9 +186,9 @@
                         "name": "lsdlive",
                         "demozoo_id": 83579
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/06-lsdlive.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "vip_2018-06-02/06-lsdlive.jpg"
+                    "preview_image": "vip_2018-06-02/06-lsdlive.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/06-lsdlive.glsl"
                 }
             ],
             "staffs": []

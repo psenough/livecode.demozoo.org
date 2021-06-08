@@ -25,9 +25,9 @@
                         "name": "Lamogui",
                         "demozoo_id": 71129
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/01-lamogui.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-11-25/01-lamogui.jpg"
+                    "preview_image": "cc_live_coding_2017-11-25/01-lamogui.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/01-lamogui.glsl"
                 },
                 {
                     "id": null,
@@ -37,9 +37,9 @@
                         "name": "Ponk",
                         "demozoo_id": 61858
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/01-ponk.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-11-25/01-ponk.jpg"
+                    "preview_image": "cc_live_coding_2017-11-25/01-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/01-ponk.glsl"
                 }
             ],
             "staffs": []
@@ -56,9 +56,9 @@
                         "name": "Anton",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/02-anton.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-11-25/02-anton.jpg"
+                    "preview_image": "cc_live_coding_2017-11-25/02-anton.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/02-anton.glsl"
                 },
                 {
                     "id": null,
@@ -68,9 +68,9 @@
                         "name": "Koltes",
                         "demozoo_id": 52423
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/02-koltes.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-11-25/02-koltes.jpg"
+                    "preview_image": "cc_live_coding_2017-11-25/02-koltes.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/02-koltes.glsl"
                 }
             ],
             "staffs": []
@@ -87,9 +87,9 @@
                         "name": "Ponk",
                         "demozoo_id": 61858
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/03-ponk.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-11-25/03-ponk.jpg"
+                    "preview_image": "cc_live_coding_2017-11-25/03-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/03-ponk.glsl"
                 },
                 {
                     "id": null,
@@ -99,9 +99,9 @@
                         "name": "Remi",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/03-remi.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-11-25/03-remi.jpg"
+                    "preview_image": "cc_live_coding_2017-11-25/03-remi.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/03-remi.glsl"
                 }
             ],
             "staffs": []
@@ -118,9 +118,9 @@
                         "name": "Anton",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/04-anton.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-11-25/04-anton.jpg"
+                    "preview_image": "cc_live_coding_2017-11-25/04-anton.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/04-anton.glsl"
                 },
                 {
                     "id": null,
@@ -130,9 +130,9 @@
                         "name": "Lamogui",
                         "demozoo_id": 71129
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/04-lamogui.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-11-25/04-lamogui.jpg"
+                    "preview_image": "cc_live_coding_2017-11-25/04-lamogui.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/04-lamogui.glsl"
                 }
             ],
             "staffs": []
@@ -149,9 +149,9 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/extra-flopine.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-11-25/extra-flopine.jpg"
+                    "preview_image": "cc_live_coding_2017-11-25/extra-flopine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/extra-flopine.glsl"
                 },
                 {
                     "id": null,
@@ -161,9 +161,9 @@
                         "name": "Shader exquis",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/extra-shex-1.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-11-25/extra-shex-1.jpg"
+                    "preview_image": "cc_live_coding_2017-11-25/extra-shex-1.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/extra-shex-1.glsl"
                 },
                 {
                     "id": null,
@@ -173,9 +173,9 @@
                         "name": "Shader exquis",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/extra-shex-2.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-11-25/extra-shex-2.jpg"
+                    "preview_image": "cc_live_coding_2017-11-25/extra-shex-2.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/extra-shex-2.glsl"
                 }
             ],
             "staffs": []

@@ -6,7 +6,7 @@
     "vod": null,
     "software_used": null,
     "phases": [
-		{
+        {
             "title": "Quarter Final ?",
             "vod": "https://www.youtube.com/watch?v=njec22FHkpA",
             "entries": [
@@ -18,8 +18,8 @@
                         "name": "Maq",
                         "demozoo_id": 3833
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -29,8 +29,8 @@
                         "name": "w23",
                         "demozoo_id": 24024
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": []
@@ -47,8 +47,8 @@
                         "name": "KK",
                         "demozoo_id": 1027
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -58,8 +58,8 @@
                         "name": "w23",
                         "demozoo_id": 24024
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/ldl3W2"
+                    "shadertoy_url": "https://www.shadertoy.com/view/ldl3W2",
+                    "source_file": null
                 }
             ],
             "staffs": []
