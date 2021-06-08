@@ -104,7 +104,7 @@
                   },
                   "required": ["name"]
                 },
-                "shader_file": {
+                "source_file": {
                   "description": "File of the entry",
                   "type": ["string", "null"]
                 },

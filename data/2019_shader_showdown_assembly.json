@@ -18,8 +18,8 @@
                         "name": "Exca",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -29,8 +29,8 @@
                         "name": "cce",
                         "demozoo_id": 6293
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -69,8 +69,8 @@
                         "name": "noby",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -80,8 +80,8 @@
                         "name": "visy",
                         "demozoo_id": 1301
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -120,8 +120,8 @@
                         "name": "noby",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -131,8 +131,8 @@
                         "name": "Exca",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/WsGyDW"
+                    "shadertoy_url": "https://www.shadertoy.com/view/WsGyDW",
+                    "source_file": null
                 }
             ],
             "staffs": [

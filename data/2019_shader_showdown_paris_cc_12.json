@@ -25,9 +25,9 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/01-flopine.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2019-10-26/01-flopine.jpg"
+                    "preview_image": "cc_live_coding_2019-10-26/01-flopine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/01-flopine.glsl"
                 },
                 {
                     "id": null,
@@ -37,9 +37,9 @@
                         "name": "Anat",
                         "demozoo_id": 3848
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/01-anat.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2019-10-26/01-anat.jpg"
+                    "preview_image": "cc_live_coding_2019-10-26/01-anat.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/01-anat.glsl"
                 }
             ],
             "staffs": []
@@ -56,9 +56,9 @@
                         "name": "Evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/02-evvvvil.glsl",
                     "shadertoy_url": "https://www.shadertoy.com/view/3sdXWB",
-                    "preview_image": "cc_live_coding_2019-10-26/02-evvvvil.jpg"
+                    "preview_image": "cc_live_coding_2019-10-26/02-evvvvil.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/02-evvvvil.glsl"
                 },
                 {
                     "id": null,
@@ -68,9 +68,9 @@
                         "name": "LJ",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/02-LJ.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2019-10-26/02-LJ.jpg"
+                    "preview_image": "cc_live_coding_2019-10-26/02-LJ.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/02-LJ.glsl"
                 }
             ],
             "staffs": []
@@ -87,9 +87,9 @@
                         "name": "LJ",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/03-LJ.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2019-10-26/03-LJ.jpg"
+                    "preview_image": "cc_live_coding_2019-10-26/03-LJ.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/03-LJ.glsl"
                 },
                 {
                     "id": null,
@@ -99,9 +99,9 @@
                         "name": "Anat",
                         "demozoo_id": 3848
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/03-anat.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2019-10-26/03-anat.jpg"
+                    "preview_image": "cc_live_coding_2019-10-26/03-anat.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/03-anat.glsl"
                 }
             ],
             "staffs": []
@@ -118,9 +118,9 @@
                         "name": "Evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/04-evvvvil.glsl",
                     "shadertoy_url": "https://www.shadertoy.com/view/3sGSR3",
-                    "preview_image": "cc_live_coding_2019-10-26/04-evvvvil.jpg"
+                    "preview_image": "cc_live_coding_2019-10-26/04-evvvvil.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/04-evvvvil.glsl"
                 },
                 {
                     "id": null,
@@ -130,9 +130,9 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/04-flopine.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2019-10-26/04-flopine.jpg"
+                    "preview_image": "cc_live_coding_2019-10-26/04-flopine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-10-26/04-flopine.glsl"
                 }
             ],
             "staffs": []

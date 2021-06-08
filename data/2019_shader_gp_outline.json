@@ -25,8 +25,8 @@
                         "name": "flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 1,
@@ -36,28 +36,27 @@
                         "name": "superplek",
                         "demozoo_id": 10577
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
-            "staffs": [
-            ]
+            "staffs": []
         }
     ],
     "staffs": [
-		{
-			"handle": {
-				"name": "superplek",
-				"demozoo_id": 10577
-			},
-			"job": "Organizers"
-		},
-		{
-			"handle": {
-				"name": "havoc",
-				"demozoo_id": 2419
-			},
-			"job": "Organizers"
-		}
-	]
+        {
+            "handle": {
+                "name": "superplek",
+                "demozoo_id": 10577
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ]
 }

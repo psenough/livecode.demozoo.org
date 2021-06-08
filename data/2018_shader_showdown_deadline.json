@@ -18,8 +18,8 @@
                         "name": "rimina",
                         "demozoo_id": 56489
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 1,
@@ -29,8 +29,8 @@
                         "name": "KeyJ",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -62,8 +62,8 @@
                         "name": "lj",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -73,8 +73,8 @@
                         "name": "cupe",
                         "demozoo_id": 15276
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -106,8 +106,8 @@
                         "name": "rimina",
                         "demozoo_id": 56489
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -117,8 +117,8 @@
                         "name": "cupe",
                         "demozoo_id": 15276
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [

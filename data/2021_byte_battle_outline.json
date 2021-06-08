@@ -25,8 +25,8 @@
                         "name": "aldroid",
                         "demozoo_id": 63755
                     },
-                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_aldroid.lua",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_aldroid.lua"
                 },
                 {
                     "id": 2,
@@ -36,9 +36,9 @@
                         "name": "ps",
                         "demozoo_id": 313
                     },
-                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_ps.lua",
                     "shadertoy_url": null,
-					"tic80_cart_id": "1913"
+                    "tic80_cart_id": 1913,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_ps.lua"
                 }
             ],
             "staffs": [
@@ -77,8 +77,8 @@
                         "name": "killedbyapixel",
                         "demozoo_id": 89333
                     },
-                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_killedbyapixel.lua",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_killedbyapixel.lua"
                 },
                 {
                     "id": null,
@@ -88,9 +88,9 @@
                         "name": "exoticorn",
                         "demozoo_id": 5849
                     },
-                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_exoticorn.lua",
                     "shadertoy_url": null,
-                    "tic80_cart_id": "1873"
+                    "tic80_cart_id": 1873,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_exoticorn.lua"
                 }
             ],
             "staffs": [
@@ -129,8 +129,8 @@
                         "name": "gopher",
                         "demozoo_id": 929
                     },
-                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_gopher.lua",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_gopher.lua"
                 },
                 {
                     "id": null,
@@ -140,8 +140,8 @@
                         "name": "tomcat",
                         "demozoo_id": 8556
                     },
-                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_tomcat.lua",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_tomcat.lua"
                 }
             ],
             "staffs": [
@@ -180,9 +180,9 @@
                         "name": "popolon",
                         "demozoo_id": null
                     },
-                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_popolon.lua",
                     "shadertoy_url": null,
-                    "tic80_cart_id": "1874"
+                    "tic80_cart_id": 1874,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_popolon.lua"
                 },
                 {
                     "id": null,
@@ -192,9 +192,9 @@
                         "name": "FMS_cat",
                         "demozoo_id": 57112
                     },
-                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_fmscat.lua",
                     "shadertoy_url": null,
-                    "tic80_cart_id": "1868"
+                    "tic80_cart_id": 1868,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_fmscat.lua"
                 }
             ],
             "staffs": [
@@ -233,8 +233,8 @@
                         "name": "aldroid",
                         "demozoo_id": 63755
                     },
-                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_aldroid.lua",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_aldroid.lua"
                 },
                 {
                     "id": null,
@@ -244,9 +244,9 @@
                         "name": "exoticorn",
                         "demozoo_id": 5849
                     },
-                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_exoticorn.lua",
                     "shadertoy_url": null,
-                    "tic80_cart_id": "1872"
+                    "tic80_cart_id": 1872,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_exoticorn.lua"
                 }
             ],
             "staffs": [
@@ -285,8 +285,8 @@
                         "name": "gopher",
                         "demozoo_id": 929
                     },
-                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_gopher.lua",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_gopher.lua"
                 },
                 {
                     "id": null,
@@ -296,9 +296,9 @@
                         "name": "FMS_cat",
                         "demozoo_id": 57112
                     },
-                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_fmscat.lua",
                     "shadertoy_url": null,
-                    "tic80_cart_id": "1869"
+                    "tic80_cart_id": 1869,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_fmscat.lua"
                 }
             ],
             "staffs": [
@@ -337,8 +337,8 @@
                         "name": "gopher",
                         "demozoo_id": 929
                     },
-                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_final_gopher.lua",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_final_gopher.lua"
                 },
                 {
                     "id": null,
@@ -348,9 +348,9 @@
                         "name": "exoticorn",
                         "demozoo_id": 5849
                     },
-                    "shader_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_final_exoticorn.lua",
                     "shadertoy_url": null,
-                    "tic80_cart_id": "1871"
+                    "tic80_cart_id": 1871,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_final_exoticorn.lua"
                 }
             ],
             "staffs": [

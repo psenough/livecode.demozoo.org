@@ -25,9 +25,9 @@
                         "name": "crypt",
                         "demozoo_id": 63756
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/01_crypt.fs",
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/01_quarterfinals/01_crypt.jpg"
+                    "preview_image": "revision_2014/01_quarterfinals/01_crypt.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/01_crypt.fs"
                 },
                 {
                     "id": 1,
@@ -37,13 +37,13 @@
                         "name": "skomp",
                         "demozoo_id": 21373
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/01_skomp.fs",
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/01_quarterfinals/01_skomp.jpg"
+                    "preview_image": "revision_2014/01_quarterfinals/01_skomp.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/01_skomp.fs"
                 }
             ],
             "staffs": [
-				{
+                {
                     "handle": {
                         "name": "rp",
                         "demozoo_id": 355
@@ -57,21 +57,21 @@
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "okkie",
                         "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "moqui",
                         "demozoo_id": 11347
                     },
                     "job": "Commentators"
                 }
-			]
+            ]
         },
         {
             "title": "Quarter #2",
@@ -85,9 +85,9 @@
                         "name": "blueberry",
                         "demozoo_id": 116
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/02_blueberry.fs",
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/01_quarterfinals/02_blueberry.jpg"
+                    "preview_image": "revision_2014/01_quarterfinals/02_blueberry.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/02_blueberry.fs"
                 },
                 {
                     "id": 2,
@@ -97,13 +97,13 @@
                         "name": "kabuto",
                         "demozoo_id": 6492
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/02_kabuto.fs",
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/01_quarterfinals/02_kabuto.jpg"
+                    "preview_image": "revision_2014/01_quarterfinals/02_kabuto.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/02_kabuto.fs"
                 }
             ],
             "staffs": [
-				{
+                {
                     "handle": {
                         "name": "lug00ber",
                         "demozoo_id": 90
@@ -117,21 +117,21 @@
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "okkie",
                         "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "moqui",
                         "demozoo_id": 11347
                     },
                     "job": "Commentators"
                 }
-			]
+            ]
         },
         {
             "title": "Quarter #3",
@@ -145,9 +145,9 @@
                         "name": "miku",
                         "demozoo_id": 67567
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/03_miku.fs",
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/01_quarterfinals/03_miku.jpg"
+                    "preview_image": "revision_2014/01_quarterfinals/03_miku.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/03_miku.fs"
                 },
                 {
                     "id": 2,
@@ -157,13 +157,13 @@
                         "name": "musk",
                         "demozoo_id": 14411
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/03_musk.fs",
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/01_quarterfinals/03_musk.jpg"
+                    "preview_image": "revision_2014/01_quarterfinals/03_musk.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/03_musk.fs"
                 }
             ],
             "staffs": [
-				{
+                {
                     "handle": {
                         "name": "alkama",
                         "demozoo_id": 1382
@@ -177,21 +177,21 @@
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "okkie",
                         "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "moqui",
                         "demozoo_id": 11347
                     },
                     "job": "Commentators"
                 }
-			]
+            ]
         },
         {
             "title": "Semi #1",
@@ -205,9 +205,9 @@
                         "name": "kabuto",
                         "demozoo_id": 6492
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/01_kabuto.fs",
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/02_semifinals/01_kabuto.jpg"
+                    "preview_image": "revision_2014/02_semifinals/01_kabuto.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/01_kabuto.fs"
                 },
                 {
                     "id": 2,
@@ -217,13 +217,13 @@
                         "name": "musk",
                         "demozoo_id": 14411
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/01_musk.fs",
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/02_semifinals/01_musk.jpg"
+                    "preview_image": "revision_2014/02_semifinals/01_musk.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/01_musk.fs"
                 }
             ],
             "staffs": [
-				{
+                {
                     "handle": {
                         "name": "rp",
                         "demozoo_id": 355
@@ -237,28 +237,28 @@
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "okkie",
                         "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "moqui",
                         "demozoo_id": 11347
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "chaos",
                         "demozoo_id": 348
                     },
                     "job": "Commentators"
                 }
-			]
+            ]
         },
         {
             "title": "Semi #2",
@@ -272,9 +272,9 @@
                         "name": "skomp",
                         "demozoo_id": 21373
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/02_skomp.fs",
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/02_semifinals/02_skomp.jpg"
+                    "preview_image": "revision_2014/02_semifinals/02_skomp.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/02_skomp.fs"
                 },
                 {
                     "id": 1,
@@ -284,13 +284,13 @@
                         "name": "xtrium",
                         "demozoo_id": 3695
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/02_xtrium.fs",
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/02_semifinals/02_xtrium.jpg"
+                    "preview_image": "revision_2014/02_semifinals/02_xtrium.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/02_xtrium.fs"
                 }
             ],
-           "staffs": [
-				{
+            "staffs": [
+                {
                     "handle": {
                         "name": "lug00ber",
                         "demozoo_id": 90
@@ -304,28 +304,28 @@
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "okkie",
                         "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "moqui",
                         "demozoo_id": 11347
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "chaos",
                         "demozoo_id": 348
                     },
                     "job": "Commentators"
                 }
-			]
+            ]
         },
         {
             "title": "Final",
@@ -339,9 +339,9 @@
                         "name": "musk",
                         "demozoo_id": 14411
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/03_final/musk.fs",
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/03_final/musk.jpg"
+                    "preview_image": "revision_2014/03_final/musk.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/03_final/musk.fs"
                 },
                 {
                     "id": 2,
@@ -351,13 +351,13 @@
                         "name": "skomp",
                         "demozoo_id": 21373
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/03_final/skomp.fs",
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/03_final/skomp.jpg"
+                    "preview_image": "revision_2014/03_final/skomp.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/03_final/skomp.fs"
                 }
             ],
             "staffs": [
-				{
+                {
                     "handle": {
                         "name": "alkama",
                         "demozoo_id": 1382
@@ -371,44 +371,44 @@
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "okkie",
                         "demozoo_id": 3049
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "moqui",
                         "demozoo_id": 11347
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "chaos",
                         "demozoo_id": 348
                     },
                     "job": "Commentators"
                 },
-				{
+                {
                     "handle": {
                         "name": "D.Fox",
                         "demozoo_id": 903
                     },
                     "job": "Commentators"
                 }
-			]
+            ]
         }
     ],
     "staffs": [
-		{
-			"handle": {
-				"name": "gargaj",
-				"demozoo_id": 306
-			},
-			"job": "Organizers"
-		}
-	]
+        {
+            "handle": {
+                "name": "gargaj",
+                "demozoo_id": 306
+            },
+            "job": "Organizers"
+        }
+    ]
 }

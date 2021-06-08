@@ -27,4 +27,4 @@ def find_cart_id(event):
 def create_cache(event):
     tic80_carts = [ cart_id for cart_id in find_cart_id(event) if cart_id]
     for cart_id in tic80_carts:
-        download(cart_id.split('/')[-1])
+        download(cart_id)

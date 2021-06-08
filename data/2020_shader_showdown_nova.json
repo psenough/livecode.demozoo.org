@@ -18,8 +18,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -29,10 +29,10 @@
                         "name": "wrighter",
                         "demozoo_id": 113559
                     },
-                    "shader_file": "./shader_file_sources/nova_2020/sender_nova_wrighter.glsl",
                     "shadertoy_url": null,
                     "vod": null,
-                    "preview_image": "nova_2020/sender_nova_wrighter.jpg"
+                    "preview_image": "nova_2020/sender_nova_wrighter.jpg",
+                    "source_file": "./shader_file_sources/nova_2020/sender_nova_wrighter.glsl"
                 }
             ],
             "staffs": [
@@ -85,8 +85,8 @@
                         "name": "Insomniac",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -96,9 +96,9 @@
                         "name": "LovelyHanibal",
                         "demozoo_id": 26514
                     },
-                    "shader_file": null,
                     "shadertoy_url": null,
-                    "vod": null
+                    "vod": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -151,8 +151,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -162,9 +162,9 @@
                         "name": "Insomniac",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
                     "shadertoy_url": null,
-                    "vod": null
+                    "vod": null,
+                    "source_file": null
                 }
             ],
             "staffs": [

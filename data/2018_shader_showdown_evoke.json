@@ -6,7 +6,7 @@
     "vod": "https://www.twitch.tv/videos/298540965",
     "software_used": null,
     "phases": [
-		{
+        {
             "title": "Semi Final 1",
             "vod": null,
             "entries": [
@@ -18,8 +18,8 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/llKyRz"
+                    "shadertoy_url": "https://www.shadertoy.com/view/llKyRz",
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -29,8 +29,8 @@
                         "name": "??",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -64,7 +64,7 @@
                 }
             ]
         },
-		{
+        {
             "title": "Semi Final 2",
             "vod": null,
             "entries": [
@@ -76,8 +76,8 @@
                         "name": "??",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -87,8 +87,8 @@
                         "name": "hardy",
                         "demozoo_id": 913
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -134,8 +134,8 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -145,8 +145,8 @@
                         "name": "hardy",
                         "demozoo_id": 913
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -182,19 +182,19 @@
         }
     ],
     "staffs": [
-		{
-			"handle": {
-				"name": "havoc",
-				"demozoo_id": null
-			},
-			"job": "Organizers"
-		},{
-			"handle": {
-				"name": "random",
-				"demozoo_id": null
-			},
-			"job": "Organizers"
-		}
-		
-	]
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": null
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "random",
+                "demozoo_id": null
+            },
+            "job": "Organizers"
+        }
+    ]
 }

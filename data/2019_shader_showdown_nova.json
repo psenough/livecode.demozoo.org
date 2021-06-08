@@ -25,8 +25,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/WscGzf"
+                    "shadertoy_url": "https://www.shadertoy.com/view/WscGzf",
+                    "source_file": null
                 },
                 {
                     "id": 1,
@@ -36,8 +36,8 @@
                         "name": "lovely hannibal",
                         "demozoo_id": 26514
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/3l2GDK"
+                    "shadertoy_url": "https://www.shadertoy.com/view/3l2GDK",
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -83,8 +83,8 @@
                         "name": "lovely hannibal",
                         "demozoo_id": 26514
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -94,8 +94,8 @@
                         "name": "psonice",
                         "demozoo_id": 9807
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -134,8 +134,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/3d33zs"
+                    "shadertoy_url": "https://www.shadertoy.com/view/3d33zs",
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -145,8 +145,8 @@
                         "name": "psonice",
                         "demozoo_id": 9807
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -172,7 +172,6 @@
                     "job": "Commentators"
                 }
             ]
-            
         }
     ],
     "staffs": []

@@ -4,12 +4,14 @@
     "date": "24 - 25 July 2020",
     "type": "Shader Showdown",
     "vod": null,
-    "software_used": [ {
-        "name": "Bonzomatic",
-        "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v09",
-        "version": "NuSan - v09",
-        "purpose": "Graphic"
-    }],
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v09",
+            "version": "NuSan - v09",
+            "purpose": "Graphic"
+        }
+    ],
     "phases": [
         {
             "title": "Semifinals #1",
@@ -23,8 +25,8 @@
                         "name": "monsieursoleil",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 1,
@@ -34,8 +36,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -88,8 +90,8 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/WtsfWr"
+                    "shadertoy_url": "https://www.shadertoy.com/view/WtsfWr",
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -99,8 +101,8 @@
                         "name": "blackle",
                         "demozoo_id": 79215
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -139,8 +141,8 @@
                         "name": "monsieursoleil",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 1,
@@ -150,8 +152,8 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [

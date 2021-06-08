@@ -25,9 +25,9 @@
                         "name": "urs",
                         "demozoo_id": 3960
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/semifinal1-urs.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "solskogen_2016/semifinal1-urs.jpg"
+                    "preview_image": "solskogen_2016/semifinal1-urs.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/semifinal1-urs.glsl"
                 },
                 {
                     "id": null,
@@ -37,9 +37,9 @@
                         "name": "ferris",
                         "demozoo_id": 18
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/semifinal1-ferris.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "solskogen_2016/semifinal1-ferris.jpg"
+                    "preview_image": "solskogen_2016/semifinal1-ferris.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/semifinal1-ferris.glsl"
                 }
             ],
             "staffs": []
@@ -56,9 +56,9 @@
                         "name": "Tapped",
                         "demozoo_id": 21271
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/semifinal2-tapped.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "solskogen_2016/semifinal2-tapped.jpg"
+                    "preview_image": "solskogen_2016/semifinal2-tapped.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/semifinal2-tapped.glsl"
                 },
                 {
                     "id": null,
@@ -68,9 +68,9 @@
                         "name": "Blueberry",
                         "demozoo_id": 116
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/semifinal2-blueberry.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "solskogen_2016/semifinal2-blueberry.jpg"
+                    "preview_image": "solskogen_2016/semifinal2-blueberry.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/semifinal2-blueberry.glsl"
                 }
             ],
             "staffs": []
@@ -87,9 +87,9 @@
                         "name": "ferris",
                         "demozoo_id": 18
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/final-ferris.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "solskogen_2016/final-ferris.jpg"
+                    "preview_image": "solskogen_2016/final-ferris.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/final-ferris.glsl"
                 },
                 {
                     "id": null,
@@ -99,9 +99,9 @@
                         "name": "Tapped",
                         "demozoo_id": 21271
                     },
-                    "shader_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/final-tapped.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "solskogen_2016/final-tapped.jpg"
+                    "preview_image": "solskogen_2016/final-tapped.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/final-tapped.glsl"
                 }
             ],
             "staffs": []

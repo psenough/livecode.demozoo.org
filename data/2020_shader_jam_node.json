@@ -1,15 +1,17 @@
 {
-    "title": "NODE20 – Second Nature ",
+    "title": "NODE20 \u2013 Second Nature ",
     "started": "2020-10-07",
     "date": "7 Oct 2020",
     "type": "Shader Jam",
     "vod": null,
-    "software_used": [ {
-        "name": "Bonzomatic",
-        "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v09",
-        "version": "NuSan - v09",
-        "purpose": "Graphic"
-    }],
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v09",
+            "version": "NuSan - v09",
+            "purpose": "Graphic"
+        }
+    ],
     "phases": [
         {
             "title": "Live Coding Session Part I",
@@ -23,13 +25,11 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
-            "staffs": [
-             
-            ]
+            "staffs": []
         },
         {
             "title": "Live Coding Session Part II",
@@ -43,8 +43,8 @@
                         "name": "Cai Shashracai",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [

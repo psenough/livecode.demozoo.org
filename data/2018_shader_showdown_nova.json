@@ -25,8 +25,8 @@
                         "name": "yx",
                         "demozoo_id": 77056
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/ldyfzc"
+                    "shadertoy_url": "https://www.shadertoy.com/view/ldyfzc",
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -36,8 +36,8 @@
                         "name": "Insomniac",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -76,8 +76,8 @@
                         "name": "psonice",
                         "demozoo_id": 9807
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -87,8 +87,8 @@
                         "name": "ferris",
                         "demozoo_id": 18
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -127,8 +127,8 @@
                         "name": "yx",
                         "demozoo_id": 77056
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/Mdyfzc"
+                    "shadertoy_url": "https://www.shadertoy.com/view/Mdyfzc",
+                    "source_file": null
                 },
                 {
                     "id": 1,
@@ -138,8 +138,8 @@
                         "name": "psonice",
                         "demozoo_id": 9807
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -172,7 +172,6 @@
                     "job": "Commentators"
                 }
             ]
-            
         }
     ],
     "staffs": []

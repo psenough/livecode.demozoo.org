@@ -25,8 +25,8 @@
                         "name": "Ferris",
                         "demozoo_id": 18
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -36,12 +36,12 @@
                         "name": "tapped",
                         "demozoo_id": 21271
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
-				{
+                {
                     "handle": {
                         "name": "gloom",
                         "demozoo_id": 227
@@ -62,9 +62,9 @@
                     },
                     "job": "Dj Set"
                 }
-			]
+            ]
         },
-		{
+        {
             "title": "Semi #2",
             "vod": "https://www.youtube.com/watch?v=C9aQmfTqkdE",
             "entries": [
@@ -76,8 +76,8 @@
                         "name": "Julien",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -87,12 +87,12 @@
                         "name": "Sebbert",
                         "demozoo_id": 58198
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
-				{
+                {
                     "handle": {
                         "name": "gloom",
                         "demozoo_id": 227
@@ -113,7 +113,7 @@
                     },
                     "job": "Dj Set"
                 }
-			]
+            ]
         },
         {
             "title": "Final",
@@ -127,8 +127,8 @@
                         "name": "Julien",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -138,12 +138,12 @@
                         "name": "tapped",
                         "demozoo_id": 21271
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
-				{
+                {
                     "handle": {
                         "name": "gloom",
                         "demozoo_id": 227
@@ -164,7 +164,7 @@
                     },
                     "job": "Dj Set"
                 }
-			]
+            ]
         }
     ],
     "staffs": []

@@ -18,8 +18,8 @@
                         "name": "fizzer",
                         "demozoo_id": 27471
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -29,8 +29,8 @@
                         "name": "lovely hannibal",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -69,8 +69,8 @@
                         "name": "cupe",
                         "demozoo_id": 15276
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -80,8 +80,8 @@
                         "name": "blueberry",
                         "demozoo_id": 116
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -120,8 +120,8 @@
                         "name": "eybor",
                         "demozoo_id": 27241
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/XdByzy"
+                    "shadertoy_url": "https://www.shadertoy.com/view/XdByzy",
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -131,8 +131,8 @@
                         "name": "ren ho\u00ebk",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -171,8 +171,8 @@
                         "name": "lj",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -182,8 +182,8 @@
                         "name": "branch",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -236,8 +236,8 @@
                         "name": "cupe",
                         "demozoo_id": 15276
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -247,8 +247,8 @@
                         "name": "fizzer",
                         "demozoo_id": 27471
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -287,8 +287,8 @@
                         "name": "lj",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -298,8 +298,8 @@
                         "name": "eybor",
                         "demozoo_id": 27241
                     },
-                    "shader_file": null,
-                    "shadertoy_url": "https://www.shadertoy.com/view/MdScRy"
+                    "shadertoy_url": "https://www.shadertoy.com/view/MdScRy",
+                    "source_file": null
                 }
             ],
             "staffs": [
@@ -338,8 +338,8 @@
                         "name": "lj",
                         "demozoo_id": null
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": null,
@@ -349,8 +349,8 @@
                         "name": "cupe",
                         "demozoo_id": 15276
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
             "staffs": [

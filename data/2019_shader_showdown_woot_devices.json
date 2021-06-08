@@ -25,8 +25,8 @@
                         "name": "Elie",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-05-04/elie1.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-05-04/elie1.frag"
                 },
                 {
                     "id": null,
@@ -36,8 +36,8 @@
                         "name": "Elie",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-05-04/elie2.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-05-04/elie2.frag"
                 },
                 {
                     "id": null,
@@ -47,8 +47,8 @@
                         "name": "Elie",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-05-04/elie3.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-05-04/elie3.frag"
                 },
                 {
                     "id": null,
@@ -58,8 +58,8 @@
                         "name": "Elie",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-05-04/elie4.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-05-04/elie4.frag"
                 },
                 {
                     "id": null,
@@ -69,8 +69,8 @@
                         "name": "Elie",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-05-04/elie5.frag",
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-05-04/elie5.frag"
                 }
             ],
             "staffs": []

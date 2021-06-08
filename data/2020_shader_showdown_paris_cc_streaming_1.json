@@ -31,9 +31,9 @@
                         "name": "alkama",
                         "demozoo_id": 1382
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/alkama.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2020-03-19/alkama.jpg"
+                    "preview_image": "cc_live_coding_2020-03-19/alkama.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/alkama.glsl"
                 },
                 {
                     "id": null,
@@ -43,9 +43,9 @@
                         "name": "anton",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/anton.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2020-03-19/anton.jpg"
+                    "preview_image": "cc_live_coding_2020-03-19/anton.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/anton.glsl"
                 },
                 {
                     "id": null,
@@ -55,9 +55,9 @@
                         "name": "bruce",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/bruce.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2020-03-19/bruce.jpg"
+                    "preview_image": "cc_live_coding_2020-03-19/bruce.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/bruce.glsl"
                 },
                 {
                     "id": null,
@@ -67,9 +67,9 @@
                         "name": "cookie",
                         "demozoo_id": null
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/cookie.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2020-03-19/cookie.jpg"
+                    "preview_image": "cc_live_coding_2020-03-19/cookie.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/cookie.glsl"
                 },
                 {
                     "id": null,
@@ -79,9 +79,9 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/evvvvil.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2020-03-19/evvvvil.jpg"
+                    "preview_image": "cc_live_coding_2020-03-19/evvvvil.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/evvvvil.glsl"
                 },
                 {
                     "id": null,
@@ -91,9 +91,9 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/Flopine.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2020-03-19/Flopine.jpg"
+                    "preview_image": "cc_live_coding_2020-03-19/Flopine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/Flopine.glsl"
                 },
                 {
                     "id": null,
@@ -103,9 +103,9 @@
                         "name": "lamogui",
                         "demozoo_id": 71129
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/lamogui.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2020-03-19/lamogui.jpg"
+                    "preview_image": "cc_live_coding_2020-03-19/lamogui.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/lamogui.glsl"
                 },
                 {
                     "id": null,
@@ -115,9 +115,9 @@
                         "name": "NuSan",
                         "demozoo_id": 88839
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/nusan.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2020-03-19/nusan.jpg"
+                    "preview_image": "cc_live_coding_2020-03-19/nusan.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/nusan.glsl"
                 },
                 {
                     "id": null,
@@ -127,9 +127,9 @@
                         "name": "ponk",
                         "demozoo_id": 61858
                     },
-                    "shader_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/ponk.glsl",
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2020-03-19/ponk.jpg"
+                    "preview_image": "cc_live_coding_2020-03-19/ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/ponk.glsl"
                 }
             ],
             "staffs": []

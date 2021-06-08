@@ -18,8 +18,8 @@
                         "name": "fizzer",
                         "demozoo_id": 27471
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 },
                 {
                     "id": 2,
@@ -29,11 +29,11 @@
                         "name": "hardy",
                         "demozoo_id": 913
                     },
-                    "shader_file": null,
-                    "shadertoy_url": null
+                    "shadertoy_url": null,
+                    "source_file": null
                 }
             ],
-             "staffs": [
+            "staffs": [
                 {
                     "handle": {
                         "name": "dojoe",
@@ -45,12 +45,12 @@
         }
     ],
     "staffs": [
-		{
-			"handle": {
-				"name": "havoc",
-				"demozoo_id": 2419
-			},
-			"job": "Organizers"
-		}
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
     ]
 }
