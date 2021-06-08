@@ -6,6 +6,7 @@
             </h1>            
         </span>
         <div>
+            <a href="about.html" class="p-2 pb-1 btn btn-lg btn-outline-info">About</a>
             {% for href,year in menu_year_navigation|sort(attribute='1') %}
                 {% if current_filename == href %}
                     {% set nav_style = "btn-outline-info" %}

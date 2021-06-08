@@ -19,7 +19,7 @@ templateEnv = jinja2.Environment(
     loader=jinja2.FileSystemLoader(searchpath="./templates/")
 )
 template = templateEnv.get_template("index.html")
-
+template_about = templateEnv.get_template("about.html")
 # Use 'started' date to sort from latest to oldest
 data = sorted(
     [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/**")],
@@ -57,3 +57,9 @@ for html_filename,events in pages_year:
                 )
             )
         )
+with codecs.open("about.html", "w", "utf-8") as outFile:
+    outFile.write(
+        minify(
+            template_about.render(menu_year_navigation=menu_year_navigation)
+        )
+    )
