@@ -36,7 +36,7 @@
       <div class="col-lg-12">
 
         <div class="accordion" id="accordionExample">
-          {% for event in events %}
+          {% for event in events|sort(attribute=("started","type")) %}
           {% set post_loop = loop %}
           {% include 'event.html' %}
           {% endfor %}
