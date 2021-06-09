@@ -69,7 +69,7 @@
       {%for entry in entry_d  %}
    
       <div class="card border-secondary col-3 entry bg-dark">
-      <h5>{{entry['phase_name']}}</h5>
+      <h5>{%if entry['phase_name'] %} {{entry['phase_name']}} {% endif %}</h5>
         {%if entry['preview_image'] %} 
         {# We check if there is a preview image provided. Works only if image is part of the project under ./media #}
         <img src="../media/{{entry['preview_image']}}" class="card-img-top"/>
