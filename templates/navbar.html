@@ -6,7 +6,7 @@
             </h1>            
         </span>
         <div>
-            <a href="{{SITE_ROOT}}/about.html" class="p-2 pb-1 btn btn-lg btn-outline-info">About</a>
+            <a href="{{SITE_ROOT}}/about.html" class="p-2 pb-1 btn btn-lg btn-info">About</a>
             {% for href,year in menu_year_navigation|sort(attribute='1') %}
                 {% if current_filename == href %}
                     {% set nav_style = "btn-outline-info" %}
@@ -15,6 +15,7 @@
                 {% endif %}
                 <a href="{{SITE_ROOT}}/{{href}}" class="p-2 pb-1 btn btn-lg {{nav_style}}">{{year}}</a>
             {% endfor %}
+            <a href="{{SITE_ROOT}}/about.html" class="p-2 pb-1 btn btn-lg btn-success">Future Events !</a>
         </div>
         {# <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
