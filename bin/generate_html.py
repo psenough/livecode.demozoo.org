@@ -24,7 +24,7 @@ template_about = templateEnv.get_template("about.html")
 template_performer = templateEnv.get_template("performer.html")
 # Use 'started' date to sort from latest to oldest
 data = sorted(
-    [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/**")],
+    [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/*.json")],
     key=lambda a: a["started"],
     reverse=True,
 )
