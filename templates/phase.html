@@ -45,7 +45,7 @@
 
           <span>
             {% if entry['handle'] %}
-            <a class="link-light" href="/performers/{{hash_handle(entry['handle'])}}.html">
+            <a class="link-light" href="./performers/{{hash_handle(entry['handle'])}}.html">
               {% if entry['handle'].demozoo_id %} 
                 {{ handles_demozoo(entry['handle'].demozoo_id) }}
               {% else %}
