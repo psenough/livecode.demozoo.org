@@ -22,8 +22,8 @@
                     "rank": 1,
                     "points": null,
                     "handle": {
-                        "name": "LovelyHaniball",
-                        "demozoo_id": null
+                        "name": "LovelyHanibal",
+                        "demozoo_id": 26514
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/3djfzG",
                     "source_file": null
@@ -137,8 +137,8 @@
                     "rank": 2,
                     "points": null,
                     "handle": {
-                        "name": "LovelyHaniball",
-                        "demozoo_id": null
+                        "name": "LovelyHanibal",
+                        "demozoo_id": 26514
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/WsjBzG",
                     "vod": null,
@@ -149,7 +149,7 @@
                 {
                     "handle": {
                         "name": "bossman",
-                        "demozoo_id": null
+                        "demozoo_id": 32053
                     },
                     "job": "Dj Set"
                 },
@@ -174,7 +174,7 @@
         {
             "handle": {
                 "name": "havoc",
-                "demozoo_id": null
+                "demozoo_id": 2419
             },
             "job": "Organizers"
         }
