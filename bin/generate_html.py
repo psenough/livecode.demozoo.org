@@ -80,7 +80,13 @@ for id,d in enumerate(data):
             s['event_started'] = d['started']
             performer_data[handle_id] = s['handle']
             staff_page[handle_id][id].append(s)
-print(staff_page)
+    for s in d['staffs']:
+        handle_id = hash_handle(s['handle'])
+        s['event_name'] = d['title']
+        s['phase_name'] = None
+        s['event_started'] = d['started']
+        performer_data[handle_id] = s['handle']
+        staff_page[handle_id][id].append(s)
 
 # Generate all performer html
 for pid in performer_data.keys():
