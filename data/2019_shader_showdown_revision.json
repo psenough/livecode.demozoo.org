@@ -27,7 +27,7 @@
                     "points": null,
                     "handle": {
                         "name": "lj",
-                        "demozoo_id": null
+                        "demozoo_id": 57948
                     },
                     "shadertoy_url": null,
                     "source_file": null
@@ -44,14 +44,14 @@
                 {
                     "handle": {
                         "name": "chaos",
-                        "demozoo_id": null
+                        "demozoo_id": 348
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ferris",
-                        "demozoo_id": null
+                        "demozoo_id": 18
                     },
                     "job": "Commentators"
                 }
@@ -67,7 +67,7 @@
                     "points": null,
                     "handle": {
                         "name": "noby",
-                        "demozoo_id": null
+                        "demozoo_id": 6849
                     },
                     "shadertoy_url": null,
                     "source_file": null
@@ -95,14 +95,14 @@
                 {
                     "handle": {
                         "name": "chaos",
-                        "demozoo_id": null
+                        "demozoo_id": 348
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ferris",
-                        "demozoo_id": null
+                        "demozoo_id": 18
                     },
                     "job": "Commentators"
                 }
@@ -129,7 +129,7 @@
                     "points": null,
                     "handle": {
                         "name": "noby",
-                        "demozoo_id": null
+                        "demozoo_id": 6849
                     },
                     "shadertoy_url": null,
                     "source_file": null
@@ -231,7 +231,7 @@
                     "points": null,
                     "handle": {
                         "name": "hardy",
-                        "demozoo_id": null
+                        "demozoo_id": 913
                     },
                     "shadertoy_url": null,
                     "source_file": null
@@ -465,8 +465,8 @@
                 },
                 {
                     "handle": {
-                        "name": "feris",
-                        "demozoo_id": null
+                        "name": "ferris",
+                        "demozoo_id": 18
                     },
                     "job": "Commentators"
                 }
@@ -482,7 +482,7 @@
                     "points": null,
                     "handle": {
                         "name": "ferris",
-                        "demozoo_id": null
+                        "demozoo_id": 18
                     },
                     "shadertoy_url": null,
                     "source_file": null
@@ -493,7 +493,7 @@
                     "points": null,
                     "handle": {
                         "name": "branch",
-                        "demozoo_id": null
+                        "demozoo_id": 44254
                     },
                     "shadertoy_url": null,
                     "source_file": null
@@ -510,14 +510,14 @@
                 {
                     "handle": {
                         "name": "chaos",
-                        "demozoo_id": null
+                        "demozoo_id": 348
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "lj",
-                        "demozoo_id": null
+                        "demozoo_id": 57948
                     },
                     "job": "Commentators"
                 }
@@ -561,14 +561,14 @@
                 {
                     "handle": {
                         "name": "chaos",
-                        "demozoo_id": null
+                        "demozoo_id": 348
                     },
                     "job": "Commentators"
                 },
                 {
                     "handle": {
                         "name": "ferris",
-                        "demozoo_id": null
+                        "demozoo_id": 18
                     },
                     "job": "Commentators"
                 }

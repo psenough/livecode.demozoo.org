@@ -44,7 +44,7 @@
                 {
                     "handle": {
                         "name": "ronny",
-                        "demozoo_id": null
+                        "demozoo_id": 355
                     },
                     "job": "Dj Set"
                 },
@@ -85,7 +85,7 @@
                     "points": null,
                     "handle": {
                         "name": "branch",
-                        "demozoo_id": null
+                        "demozoo_id": 44254
                     },
                     "shadertoy_url": null,
                     "source_file": null
@@ -248,7 +248,7 @@
                 {
                     "handle": {
                         "name": "ronny",
-                        "demozoo_id": null
+                        "demozoo_id": 355
                     },
                     "job": "Dj Set"
                 },
@@ -370,8 +370,8 @@
                 },
                 {
                     "handle": {
-                        "name": "feris",
-                        "demozoo_id": null
+                        "name": "ferris",
+                        "demozoo_id": 18
                     },
                     "job": "Commentators"
                 }

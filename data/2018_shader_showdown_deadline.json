@@ -27,7 +27,7 @@
                     "points": null,
                     "handle": {
                         "name": "KeyJ",
-                        "demozoo_id": null
+                        "demozoo_id": 5896
                     },
                     "shadertoy_url": null,
                     "source_file": null
@@ -37,14 +37,14 @@
                 {
                     "handle": {
                         "name": "messy",
-                        "demozoo_id": null
+                        "demozoo_id": 11924
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "kebby",
-                        "demozoo_id": null
+                        "demozoo_id": 557
                     },
                     "job": "Commentators"
                 }
@@ -60,7 +60,7 @@
                     "points": null,
                     "handle": {
                         "name": "lj",
-                        "demozoo_id": null
+                        "demozoo_id": 57948
                     },
                     "shadertoy_url": null,
                     "source_file": null
@@ -81,14 +81,14 @@
                 {
                     "handle": {
                         "name": "messy",
-                        "demozoo_id": null
+                        "demozoo_id": 11924
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "kebby",
-                        "demozoo_id": null
+                        "demozoo_id": 557
                     },
                     "job": "Commentators"
                 }
@@ -125,14 +125,14 @@
                 {
                     "handle": {
                         "name": "messy",
-                        "demozoo_id": null
+                        "demozoo_id": 11924
                     },
                     "job": "Dj Set"
                 },
                 {
                     "handle": {
                         "name": "kebby",
-                        "demozoo_id": null
+                        "demozoo_id": 557
                     },
                     "job": "Commentators"
                 }
@@ -143,7 +143,7 @@
         {
             "handle": {
                 "name": "havoc",
-                "demozoo_id": null
+                "demozoo_id": 2419
             },
             "job": "Organizers"
         }

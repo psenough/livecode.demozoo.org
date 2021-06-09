@@ -14,7 +14,7 @@
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "cosamental",
+                        "name": "cosamentale",
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/wlGczK",
@@ -69,14 +69,14 @@
         {
             "handle": {
                 "name": "random",
-                "demozoo_id": null
+                "demozoo_id": 15652
             },
             "job": "Organizers"
         },
         {
             "handle": {
                 "name": "havoc",
-                "demozoo_id": null
+                "demozoo_id": 2419
             },
             "job": "Organizers"
         }

@@ -23,7 +23,7 @@
                     "points": 196,
                     "handle": {
                         "name": "Exca",
-                        "demozoo_id": null
+                        "demozoo_id": 35897
                     },
                     "shadertoy_url": null,
                     "source_file": null
@@ -137,7 +137,7 @@
                     "points": 421,
                     "handle": {
                         "name": "Exca",
-                        "demozoo_id": null
+                        "demozoo_id": 35897
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/WsGyDW",
                     "source_file": null
@@ -147,7 +147,7 @@
                 {
                     "handle": {
                         "name": "mayor",
-                        "demozoo_id": null
+                        "demozoo_id": 12895
                     },
                     "job": "Dj Set"
                 },

@@ -23,7 +23,7 @@
                     "points": null,
                     "handle": {
                         "name": "Anatol",
-                        "demozoo_id": null
+                        "demozoo_id": 3848
                     },
                     "shadertoy_url": null,
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-10-20/anatol.frag"

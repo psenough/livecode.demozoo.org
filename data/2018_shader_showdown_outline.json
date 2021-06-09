@@ -27,7 +27,7 @@
                     "points": null,
                     "handle": {
                         "name": "TropicalTrevor",
-                        "demozoo_id": null
+                        "demozoo_id": 44283
                     },
                     "shadertoy_url": null,
                     "vod": null,
@@ -52,7 +52,7 @@
                 {
                     "handle": {
                         "name": "andro",
-                        "demozoo_id": null
+                        "demozoo_id": 67079
                     },
                     "job": "Commentators"
                 }
@@ -68,7 +68,7 @@
                     "points": null,
                     "handle": {
                         "name": "lj",
-                        "demozoo_id": null
+                        "demozoo_id": 57948
                     },
                     "shadertoy_url": null,
                     "source_file": null
@@ -104,7 +104,7 @@
                 {
                     "handle": {
                         "name": "andro",
-                        "demozoo_id": null
+                        "demozoo_id": 67079
                     },
                     "job": "Commentators"
                 }
@@ -156,7 +156,7 @@
                 {
                     "handle": {
                         "name": "andro",
-                        "demozoo_id": null
+                        "demozoo_id": 67079
                     },
                     "job": "Commentators"
                 }
@@ -167,7 +167,7 @@
         {
             "handle": {
                 "name": "havoc",
-                "demozoo_id": null
+                "demozoo_id": 2419
             },
             "job": "Organizers"
         }

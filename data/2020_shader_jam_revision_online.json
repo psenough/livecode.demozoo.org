@@ -23,7 +23,7 @@
                     "points": null,
                     "handle": {
                         "name": "iq",
-                        "demozoo_id": null
+                        "demozoo_id": 644
                     },
                     "shadertoy_url": null,
                     "source_file": null
@@ -45,7 +45,7 @@
                     "points": null,
                     "handle": {
                         "name": "Gargaj",
-                        "demozoo_id": null
+                        "demozoo_id": 306
                     },
                     "shadertoy_url": null,
                     "preview_image": "revision_2020/revision2020_threewayshowdown_gargaj.jpg",
@@ -56,7 +56,7 @@
                 {
                     "handle": {
                         "name": "Bullet",
-                        "demozoo_id": null
+                        "demozoo_id": 633
                     },
                     "job": "Dj Set"
                 }

@@ -29,7 +29,7 @@
                     "points": null,
                     "handle": {
                         "name": "XT95",
-                        "demozoo_id": null
+                        "demozoo_id": 3848
                     },
                     "shadertoy_url": null,
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-02-07/01-xt95.frag"
@@ -130,7 +130,7 @@
                     "points": null,
                     "handle": {
                         "name": "XT95",
-                        "demozoo_id": null
+                        "demozoo_id": 3848
                     },
                     "shadertoy_url": null,
                     "preview_image": "cc_live_coding_2018-02-07/08-xt95.jpg",

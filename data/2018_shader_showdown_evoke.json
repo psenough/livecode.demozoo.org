@@ -185,14 +185,14 @@
         {
             "handle": {
                 "name": "havoc",
-                "demozoo_id": null
+                "demozoo_id": 2419
             },
             "job": "Organizers"
         },
         {
             "handle": {
                 "name": "random",
-                "demozoo_id": null
+                "demozoo_id": 15652
             },
             "job": "Organizers"
         }
