@@ -1,12 +1,15 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# https://www.shadertoy.com/media/shaders/tlBcD1.jpg
 
 import codecs
-import json
+import collections
 import glob
 import hashlib 
-import collections
+import json
+
+
+
+
 
 from ebbe import grouped, with_is_first
 import jinja2

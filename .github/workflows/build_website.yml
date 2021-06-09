@@ -37,7 +37,9 @@ jobs:
         run: python bin/download_shadertoy_overviews.py
 
       - name: Generate HTML
-        run: python bin/generate_html.py
+        run: |
+          mkdir -p performers
+          python bin/generate_html.py
 
       - name: Generate Doc
         run: |
