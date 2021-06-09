@@ -1,0 +1,154 @@
+{# For the contributor that will have a look to the design. Sorry by advance and thanks a lot. #}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demoscene Livecode Events</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+      integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
+      crossorigin="anonymous"
+    ></script>
+    <meta
+      name="description"
+      content="Live coding performance past event list"
+    />
+    <meta
+      name="keywords"
+      content="GLSL, Shader, Showdown, Shadertoy, TIC80, Byte"
+    />
+    <meta name="author" content="psenough, totetmatt, rascy, y0gi" />
+  </head>
+
+  <body class="bg-dark text-light">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 pt-4 gradient-top">
+          {% include 'navbar.html' %}
+        </div>
+      </div>
+    </div>
+    
+    <div class="container justify-content-center col-12 col-md-6  bg-dark">
+      <div class="row justify-content-center">
+      <div  class="col-3 mb-5">
+        <h1> 
+          {% if performer_data.demozoo_id %} 
+          <a target="_blank" href="https://demozoo.org/sceners/{{performer_data.demozoo_id}}/">{{ handles_demozoo(performer_data.demozoo_id) }} </a> 
+          {% else %}
+            {{performer_data.name}}
+        {% endif %}</h1>
+      </div></div>
+     {%for _,entry_d in entries.items()%}
+           
+     <div class="row"> <h3>{{entry_d[0]['event_name']}} - {{entry_d[0]['event_started']}}</h3></div>
+     <div class="row mb-5">
+    
+    
+      {%for entry in entry_d  %}
+   
+      <div class="card border-secondary col-3 entry bg-dark">
+      <h5>{{entry['phase_name']}}</h5>
+        {%if entry['preview_image'] %} 
+        {# We check if there is a preview image provided. Works only if image is part of the project under ./media #}
+        <img src="/media/{{entry['preview_image']}}" class="card-img-top"/>
+        {% elif entry['shadertoy_url']%}
+        {# Backup plan if shadertoy is available, there is a change a preview has been generated #}
+        {% set stid = entry['shadertoy_url'].split('/') %}
+        <img src="/media/{{stid[-1]}}.jpg" class="card-img-top"/>
+        {% elif entry['tic80_cart_id'] %}
+        {# Could be a Bytebattle entry (only TIC80) #}
+        <img src="/media/cart_{{entry['tic80_cart_id'] }}.gif" class="card-img-top"/>
+        {% else %}
+        {# No preview available so default image #}
+        <img src="/assets/img/image-not-found.png" class="card-img-top"/>
+        {% endif %}
+        <div class="card-body bg-dark text-light">
+          <h5 class="card-title">
+            {% if entry['rank'] %}
+              <span class="badge bg-light text-dark">
+            
+                {% if entry['rank'] == 1 %}  <i class="fas fa-medal"></i>{% endif %}
+        
+              {{entry['rank']}}
+              
+              </span>
+            {% endif %}
+  
+          </h5>
+          <p class="card-text text-secondary">
+            {% if entry['points'] %}
+              points <span class="badge bg-dark text-warning">
+                {{entry['points']}}
+              </span>
+              <br>
+            {% endif %}
+  
+            {% if entry['vod'] %}
+            <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{entry['vod']}}">
+              <i class="fas fa-video"></i>
+            </a>
+            {% endif %}
+  
+            {% if entry['shadertoy_url']%}
+            Shader toy
+            <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{entry['shadertoy_url']}}">
+              <img height="12" width="auto" class="shadertoy_logo" src="/assets/img/shadertoy.png">
+            </a>
+            <br>
+            {% endif %}
+  
+            {% if entry['tic80_cart_id']%}
+            TIC80.com
+            <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="https://tic80.com/play?cart={{entry['tic80_cart_id']}}">
+              <i class="fas fa-link"></i>
+            </a>
+            <br>
+            {% endif %}
+            
+            {% if entry['source_file'] %}
+            Source Code
+            <a class="ps-2 bg-dark text-info" target="_blank" href="{{entry['source_file']}}">
+              <i class="fas fa-download"></i>
+            </a>
+            {% endif %}
+  
+            {% if entry['id'] %}
+            <br>
+            id <span class="badge bg-dark text-warning">{{entry['id']}}</span>
+            {% endif %}
+  
+          </p>
+  
+        </div>     
+      </div>
+        {%endfor%}
+   
+
+   
+    </div>
+     {%endfor%}
+
+    </div>
+  </body>
+</html>

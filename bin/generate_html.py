@@ -5,6 +5,8 @@
 import codecs
 import json
 import glob
+import hashlib 
+import collections
 
 from ebbe import grouped, with_is_first
 import jinja2
@@ -20,6 +22,7 @@ templateEnv = jinja2.Environment(
 )
 template = templateEnv.get_template("index.html")
 template_about = templateEnv.get_template("about.html")
+template_performer = templateEnv.get_template("performer.html")
 # Use 'started' date to sort from latest to oldest
 data = sorted(
     [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/**")],
@@ -45,6 +48,33 @@ for is_first,(year,events) in with_is_first(grouped_per_year.items()):
     menu_year_navigation.append((html_filename,year))
     pages_year.append((html_filename,events))
 
+def hash_handle(handle_obj):
+    return handle_obj.get('demozoo_id') or hashlib.md5(handle_obj.get('name').lower().encode('UTF-8')).hexdigest()[:6] 
+
+
+performer_pages = collections.defaultdict(lambda: collections.defaultdict(list))
+performer_data = collections.defaultdict(dict)
+for id,d in enumerate(data):
+    for p in d['phases']:
+        for e in p["entries"]:
+            e['event_name'] = d['title']
+            e['phase_name'] = p['title']
+            e['event_started'] = d['started']
+            handle_id= hash_handle(e['handle'])
+            performer_pages[handle_id][id].append(e)
+            performer_data[handle_id] = e['handle']
+
+for pid in performer_data.keys():
+    with codecs.open(f"performers/{pid}.html", "w", "utf-8") as outFile:
+        outFile.write(
+            minify(
+                template_performer.render(entries=performer_pages[pid],
+                performer_data=performer_data[pid],
+                menu_year_navigation=menu_year_navigation,
+                handles_demozoo=handle_manager.get_handle_from_id)
+            )
+        )
+
 # Compiling files
 for html_filename,events in pages_year:
     with codecs.open(html_filename, "w", "utf-8") as outFile:
@@ -53,6 +83,7 @@ for html_filename,events in pages_year:
                 template.render(events=events, 
                                 menu_year_navigation=menu_year_navigation,
                                 current_filename=html_filename,
+                                hash_handle=hash_handle,
                                 handles_demozoo=handle_manager.get_handle_from_id # Resolution will be done at render time
                 )
             )
