@@ -7,10 +7,6 @@ import glob
 import hashlib 
 import json
 
-
-
-
-
 from ebbe import grouped, with_is_first
 import jinja2
 from htmlmin import minify
@@ -51,32 +47,55 @@ for is_first,(year,events) in with_is_first(grouped_per_year.items()):
     menu_year_navigation.append((html_filename,year))
     pages_year.append((html_filename,events))
 
+##################### Profile #####################
+# This is used to either get demozoo_id or generate a hash from the if no demozoo
 def hash_handle(handle_obj):
     return handle_obj.get('demozoo_id') or hashlib.md5(handle_obj.get('name').lower().encode('UTF-8')).hexdigest()[:6] 
 
-
+# List of all profile with their entries
 performer_pages = collections.defaultdict(lambda: collections.defaultdict(list))
+
+# 
+staff_page = collections.defaultdict(lambda: collections.defaultdict(list))
+
+# Performer data, handle name and demozoo_id
 performer_data = collections.defaultdict(dict)
+
+# Iteration over all the event, id is used to group entries per event per performer
 for id,d in enumerate(data):
     for p in d['phases']:
         for e in p["entries"]:
             e['event_name'] = d['title']
             e['phase_name'] = p['title']
             e['event_started'] = d['started']
-            handle_id= hash_handle(e['handle'])
+            # Get the id for the filename
+            handle_id = hash_handle(e['handle'])
+
             performer_pages[handle_id][id].append(e)
             performer_data[handle_id] = e['handle']
+        for s in p['staffs']:
+            handle_id = hash_handle(s['handle'])
+            s['event_name'] = d['title']
+            s['phase_name'] = p['title']
+            s['event_started'] = d['started']
+            performer_data[handle_id] = s['handle']
+            staff_page[handle_id][id].append(s)
+print(staff_page)
 
+# Generate all performer html
 for pid in performer_data.keys():
     with codecs.open(f"performers/{pid}.html", "w", "utf-8") as outFile:
         outFile.write(
             minify(
                 template_performer.render(entries=performer_pages[pid],
                 performer_data=performer_data[pid],
+                staff_data=staff_page[pid],
                 menu_year_navigation=menu_year_navigation,
                 handles_demozoo=handle_manager.get_handle_from_id)
             )
         )
+##################### End Profile #####################
+
 
 # Compiling files
 for html_filename,events in pages_year:

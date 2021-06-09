@@ -60,13 +60,13 @@
             {{performer_data.name}}
         {% endif %}</h1>
       </div></div>
-     {%for _,entry_d in entries.items()%}
+     {%for _,entry_list in entries.items()%}
            
-     <div class="row"> <h3>{{entry_d[0]['event_name']}} - {{entry_d[0]['event_started']}}</h3></div>
+     <div class="row"> <h3>{{entry_list[0]['event_name']}} - {{entry_list[0]['event_started'][:4]}}</h3></div>
      <div class="row mb-5">
     
     
-      {%for entry in entry_d  %}
+      {%for entry in entry_list  %}
    
       <div class="card border-secondary col-3 entry bg-dark">
       <h5>{%if entry['phase_name'] %} {{entry['phase_name']}} {% endif %}</h5>
@@ -144,12 +144,29 @@
         </div>     
       </div>
         {%endfor%}
-   
-
-   
+  
     </div>
      {%endfor%}
 
     </div>
+      {% if staff_data %} 
+      <div class="container justify-content-center col-12 col-md-6  bg-dark">
+      {% for _,staff_list in staff_data.items() %}
+      <div class="row">
+        <div class="col-3 mb-5">
+          {{staff_list[0]['event_name']}} {{staff_list[0]['event_started'][:4]}}
+        </div>
+        <div class="col-9 mb-5">
+          <ul>
+          {% for staff in staff_list %}
+            <li> {% if staff['phase_name'] %} {{staff['phase_name']}} - {% endif %} {{staff['job']}}</li>
+        
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {%endfor%}
+    </div>
+    {% endif %}
   </body>
 </html>
