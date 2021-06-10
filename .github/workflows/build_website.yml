@@ -31,13 +31,15 @@ jobs:
           
       - name: Checking Data Json
         run: |
-          ls data/* | xargs -I % bin/workflows/validate.sh %
+          data/*.json | xargs -I % bin/workflows/validate.sh %
           
       - name: Download Images
         run: python bin/download_shadertoy_overviews.py
 
       - name: Generate HTML
-        run: python bin/generate_html.py
+        run: |
+          mkdir -p performers
+          python bin/generate_html.py
 
       - name: Generate Doc
         run: |

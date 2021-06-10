@@ -1,0 +1,27 @@
+{
+    "title": "Shader [Royale] Jam",
+    "started": "2021-06-26",
+    "type": "Shader Jam",
+    
+    "informations": {
+        "official_website": null,
+        "chat_system": "https://discord.com/channels/389486510656847885/753009722696925296",
+        "online_stream":"https://www.twitch.tv/psenough",
+        "flyer": ""
+    },
+    "software_used":   {
+        "name": "Bonzomatic",
+        "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+        "version": "NuSan - v11",
+        "purpose": "Graphic"
+    },
+    "staffs": [ 
+        {
+            "handle": {
+                "name": "ps",
+                "demozoo_id": 313
+            },
+            "job": "Organizers"
+        }
+    ]
+}

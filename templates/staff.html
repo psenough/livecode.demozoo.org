@@ -3,11 +3,13 @@
   <div class="text-secondary">
     <span class="">{{job}}</span>
     {% for item in staff %}
+    <a class="link-light" href="./performers/{{hash_handle(item.handle)}}.html">
       {% if item.handle.demozoo_id %} 
         <span class="badge bg-light text-dark">{{ handles_demozoo(item.handle.demozoo_id) }}</span>
       {% else %}
         <span class="badge bg-light text-dark">{{ item.handle.name }}</span>
       {% endif %}
+    </a>
     {% endfor %}
   </div>
   {% endfor %}
