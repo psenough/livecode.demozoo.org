@@ -63,7 +63,7 @@
     </div>
      {%for _,entry_list in entries.items()%}
            
-     <div class="row"><div  class="col-12 my-5">
+     <div class="row"><div  class="col-12 mb-2">
         <h3>{{entry_list[0]['event_name']}} - {{entry_list[0]['event_started'][:4]}}</h3>
       </div>
       </div>
@@ -72,7 +72,7 @@
     
       {%for entry in entry_list  %}
    
-      <div class="card border-secondary col-4 entry bg-dark my-5">
+      <div class="card border-secondary col-4 entry bg-dark mb-5">
           <h5 class="py-2">{%if entry['phase_name'] %} {{entry['phase_name']}} {% endif %}</h5>
             {%if entry['preview_image'] %} 
             {# We check if there is a preview image provided. Works only if image is part of the project under ./media #}
