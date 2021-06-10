@@ -305,7 +305,7 @@
                         "demozoo_id": 117325
                     },
                     "shadertoy_url": null,
-                    "source_file": null
+                    "source_file": "data/revision_2021/anticore_semifinal.glsl"
                 }
             ],
             "staffs": [
@@ -370,7 +370,7 @@
                         "demozoo_id": 65988
                     },
                     "shadertoy_url": null,
-                    "source_file": null
+                    "source_file": "data/revision_2021/flopine_semifinal.glsl"
                 }
             ],
             "staffs": [
@@ -424,7 +424,7 @@
                         "demozoo_id": 79215
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7s23DD",
-                    "source_file": null
+                    "source_file": "data/revision_2021/blackle_final.glsl"
                 },
                 {
                     "id": null,
@@ -435,7 +435,7 @@
                         "demozoo_id": 71087
                     },
                     "shadertoy_url": null,
-                    "source_file": null
+                    "source_file": "data/revision_2021/evvvvil_final.glsl"
                 }
             ],
             "staffs": [
