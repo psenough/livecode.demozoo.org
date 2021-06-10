@@ -22,11 +22,18 @@ templateEnv = jinja2.Environment(
 template = templateEnv.get_template("index.html")
 template_about = templateEnv.get_template("about.html")
 template_performer = templateEnv.get_template("performer.html")
+template_future = templateEnv.get_template("future.html")
 # Use 'started' date to sort from latest to oldest
 data = sorted(
     [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/*.json")],
     key=lambda a: a["started"],
     reverse=True,
+)
+
+data_future = sorted(
+    [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/future/*.json")],
+    key=lambda a: a["started"],
+    reverse=False,
 )
 
 # Generate cache for shadertoy overview and tic80 overview
@@ -120,5 +127,12 @@ with codecs.open("about.html", "w", "utf-8") as outFile:
     outFile.write(
         minify(
             template_about.render(menu_year_navigation=menu_year_navigation)
+        )
+    )
+
+with codecs.open("future.html", "w", "utf-8") as outFile:
+    outFile.write(
+        minify(
+            template_future.render(menu_year_navigation=menu_year_navigation,data=data_future)
         )
     )
