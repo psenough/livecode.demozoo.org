@@ -3,12 +3,12 @@
 Official repository is here : https://github.com/psenough/livecode.demozoo.org
 
 
-## As a participant 
+## As an event participant 
 If you have backup of your productions that are not listed (source file, shadertoy link, tic80.com cart, etc... ) you can either contact an admin of this repo with the data/file or create a Pull Request submitting the changes.
 
 Just providing a missing source code should be sufficient to help us generate the preview image and your creation will be better archived on the repo.
 
-## As an organizer
+## As an event organizer
 We are aware that organizing an event takes time and you won't always keep full records of the live coding event, no worries, with a little bit of preparation, we can integrate your data in the repo.
 
 To help the task be as smooth as possible here is what you should ideally have:
