@@ -25,8 +25,8 @@
                         "demozoo_id": 88839
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_jam_2021/nusan.jpg",
-                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shaderjam_with_lynn.zip"
+                    "preview_image": "revision_jam_2021/jam_with_lynn/nusan.jpg",
+                    "source_file":  "shader_file_sources/revision_2021/jam_with_lynn/nusan.glsl"
                 },
                 {
                     "id": null,
@@ -37,8 +37,8 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_jam_2021/lechugafeliz.jpg",
-                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shaderjam_with_lynn.zip"
+                    "preview_image": "revision_jam_2021/jam_with_lynn/lechugafeliz.jpg",
+                    "source_file": "shader_file_sources/revision_2021/jam_with_lynn/lechugafeliz.glsl"
                 },
                 {
                     "id": null,
@@ -49,8 +49,8 @@
                         "demozoo_id": 32692
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/fsjGDD",
-                    "preview_image": "revision_jam_2021/eimink.jpg",
-                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shaderjam_with_lynn.zip"
+                    "preview_image": "revision_jam_2021/jam_with_lynn/eimink.jpg",
+                    "source_file": "shader_file_sources/revision_2021/jam_with_lynn/eimink.glsl"
                 }
             ],
             "staffs": [
@@ -75,7 +75,8 @@
                         "demozoo_id": 10577
                     },
                     "shadertoy_url": null,
-                    "source_file": null
+                    "source_file": "shader_file_sources/revision_2021/jam_with_messy/superplek/superplek.glsl",
+                    "preview_image": "revision_jam_2021/jam_with_messy/superplek.jpg"
                 },
                 {
                     "id": null,
@@ -86,7 +87,8 @@
                         "demozoo_id": 71087
                     },
                     "shadertoy_url": null,
-                    "source_file": null
+                    "source_file": "shader_file_sources/revision_2021/jam_with_messy/evvvvil.glsl",
+                    "preview_image": "revision_jam_2021/jam_with_messy/evvvvil.jpg"
                 },
                 {
                     "id": null,
@@ -97,7 +99,8 @@
                         "demozoo_id": 119897
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/Ndj3Wm",
-                    "source_file": null
+                    "source_file": "shader_file_sources/revision_2021/jam_with_messy/sp4ghet.glsl",
+                    "preview_image": "revision_jam_2021/jam_with_messy/sp4ghet.jpg"
                 }
             ],
             "staffs": [
@@ -122,7 +125,8 @@
                         "demozoo_id": 35897
                     },
                     "shadertoy_url": null,
-                    "source_file": null
+                    "source_file": "shader_file_sources/revision_2021/jam_with_ghost/exca.glsl",
+                    "preview_image": "revision_jam_2021/jam_with_ghost/exca.jpg"
                 },
                 {
                     "id": null,
@@ -133,7 +137,8 @@
                         "demozoo_id": 56489
                     },
                     "shadertoy_url": null,
-                    "source_file": null
+                    "source_file": "shader_file_sources/revision_2021/jam_with_ghost/rimina.glsl",
+                    "preview_image": "revision_jam_2021/jam_with_ghost/rimina.jpg"
                 },
                 {
                     "id": null,
@@ -144,7 +149,8 @@
                         "demozoo_id": 1301
                     },
                     "shadertoy_url": null,
-                    "source_file": null
+                    "source_file": "shader_file_sources/revision_2021/jam_with_ghost/visy.glsl",
+                    "preview_image": "revision_jam_2021/jam_with_ghost/visy.jpg"
                 }
             ],
             "staffs": [
