@@ -24,7 +24,7 @@
                         "name": "FMS_Cat",
                         "demozoo_id": 57112
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/tl3yRj",
                     "preview_image": "shader_royale_3/grabber_inerciaroyale_FMS_Cat.jpg",
                     "source_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_FMS_Cat.glsl"
                 },
@@ -36,7 +36,7 @@
                         "name": "LechugaFeliz",
                         "demozoo_id": null
                     },
-                    "shadertoy_url": "https://www.shadertoy.com/view/WlScWy",
+                    "shadertoy_url": "https://www.shadertoy.com/view/ttcyzl",
                     "preview_image": "shader_royale_3/grabber_inerciaroyale_LechugaFeliz.jpg",
                     "source_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_LechugaFeliz.glsl"
                 },
@@ -48,7 +48,7 @@
                         "name": "sp4ghet",
                         "demozoo_id": 119897
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/tt3yRj",
                     "preview_image": "shader_royale_3/grabber_inerciaroyale_sp4ghet.jpg",
                     "source_file": "./shader_file_sources/shader_royale_3/grabber_inerciaroyale_sp4ghet.glsl"
                 },

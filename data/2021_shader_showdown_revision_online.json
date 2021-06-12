@@ -27,7 +27,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/sdjGWm",
                     "preview_image": "revision_shadershowdown_2021/qf_anticore.jpg",
-                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
+                    "source_file": "shader_file_sources/revision_2021/showdown_quarters/anticore.glsl"
                 },
                 {
                     "id": null,
@@ -39,7 +39,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "revision_shadershowdown_2021/qf_lechugafeliz.jpg",
-                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
+                    "source_file": "shader_file_sources/revision_2021/showdown_quarters/lechugafeliz.glsl"
                 }
             ],
             "staffs": [
@@ -94,7 +94,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7sS3WD",
                     "preview_image": "revision_shadershowdown_2021/qf_blackle.jpg",
-                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
+                    "source_file": "shader_file_sources/revision_2021/showdown_quarters/blackle.glsl"
                 },
                 {
                     "id": null,
@@ -106,7 +106,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/ss2GDw",
                     "preview_image": "revision_shadershowdown_2021/qf_cosamentale.jpg",
-                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
+                    "source_file": "shader_file_sources/revision_2021/showdown_quarters/cosamentale.glsl"
                 }
             ],
             "staffs": [
@@ -161,7 +161,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7dBGRc",
                     "preview_image": "revision_shadershowdown_2021/qf_evvvvil.jpg",
-                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
+                    "source_file": "shader_file_sources/revision_2021/showdown_quarters/evvvvil.glsl"
                 },
                 {
                     "id": null,
@@ -173,7 +173,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "revision_shadershowdown_2021/qf_monsieursoleil.jpg",
-                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
+                    "source_file": "shader_file_sources/revision_2021/showdown_quarters/monsieursoleil.glsl"
                 }
             ],
             "staffs": [
@@ -228,7 +228,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "revision_shadershowdown_2021/qf_flopine.jpg",
-                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
+                    "source_file": "shader_file_sources/revision_2021/showdown_quarters/flopine.glsl"
                 },
                 {
                     "id": null,
@@ -240,7 +240,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "revision_shadershowdown_2021/qf_wrighter.jpg",
-                    "source_file": "https://files.scene.org/view/parties/2021/revision21/misc/revision2021_shadershowdown_quarterfinals.zip"
+                    "source_file": "shader_file_sources/revision_2021/showdown_quarters/wrighter.glsl"
                 }
             ],
             "staffs": [
@@ -294,7 +294,7 @@
                         "demozoo_id": 79215
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/NdjGDm",
-                    "source_file": null
+                    "source_file": "shader_file_sources/revision_2021/showdown_semis/blackle.glsl"
                 },
                 {
                     "id": null,
@@ -305,7 +305,7 @@
                         "demozoo_id": 117325
                     },
                     "shadertoy_url": null,
-                    "source_file": null
+                    "source_file": "shader_file_sources/revision_2021/showdown_semis/anticore.glsl"
                 }
             ],
             "staffs": [
@@ -359,7 +359,7 @@
                         "demozoo_id": 71087
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/fdSGWw",
-                    "source_file": null
+                    "source_file": "shader_file_sources/revision_2021/showdown_semis/evvvvil.glsl"
                 },
                 {
                     "id": null,
@@ -370,7 +370,7 @@
                         "demozoo_id": 65988
                     },
                     "shadertoy_url": null,
-                    "source_file": null
+                    "source_file": "shader_file_sources/revision_2021/showdown_semis/flopine.glsl"
                 }
             ],
             "staffs": [
@@ -424,7 +424,7 @@
                         "demozoo_id": 79215
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7s23DD",
-                    "source_file": null
+                    "source_file": "shader_file_sources/revision_2021/showdown_final/blackle.glsl"
                 },
                 {
                     "id": null,
@@ -435,7 +435,7 @@
                         "demozoo_id": 71087
                     },
                     "shadertoy_url": null,
-                    "source_file": null
+                    "source_file": "shader_file_sources/revision_2021/showdown_final/evvvvil.glsl"
                 }
             ],
             "staffs": [
@@ -484,5 +484,20 @@
             ]
         }
     ],
-    "staffs": []
+    "staffs": [
+		{
+			"handle": {
+				"name": "Diffty",
+				"demozoo_id": 88962
+			},
+			"job": "Organizers"
+		},
+		{
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+	]
 }
