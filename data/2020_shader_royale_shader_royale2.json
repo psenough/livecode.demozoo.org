@@ -72,7 +72,7 @@
                         "name": "anticore",
                         "demozoo_id": 117325
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/WdKBWD",
                     "preview_image": "shader_royale_2/grabber_inerciaroyale_anticore.jpg",
                     "source_file": "./shader_file_sources/shader_royale_2/grabber_inerciaroyale_anticore.glsl"
                 },
