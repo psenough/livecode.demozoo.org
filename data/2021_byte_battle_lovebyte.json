@@ -26,7 +26,8 @@
                         "demozoo_id": 617
                     },
                     "shadertoy_url": null,
-                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_superogue.lua"
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_superogue.lua",
+                    "preview_image": "lovebyte_2021/qf_superogue.gif"
                 },
                 {
                     "id": null,
@@ -37,7 +38,8 @@
                         "demozoo_id": 116
                     },
                     "shadertoy_url": null,
-                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_blueberry.lua"
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_blueberry.lua",
+                    "preview_image": "lovebyte_2021/qf_blueberry.gif"
                 }
             ],
             "staffs": [
@@ -70,7 +72,8 @@
                         "demozoo_id": 65988
                     },
                     "shadertoy_url": null,
-                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_flopine.lua"
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_flopine.lua",
+                    "preview_image": "lovebyte_2021/qf_flopine.gif"
                 },
                 {
                     "id": null,
@@ -81,7 +84,8 @@
                         "demozoo_id": 5879
                     },
                     "shadertoy_url": null,
-                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_gasman.lua"
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_gasman.lua",
+                    "preview_image": "lovebyte_2021/qf_gasman.gif"
                 }
             ],
             "staffs": [
@@ -114,7 +118,8 @@
                         "demozoo_id": 20215
                     },
                     "shadertoy_url": null,
-                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_mantratronic.lua"
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_mantratronic.lua",
+                    "preview_image": "lovebyte_2021/qf_mantratronic.gif"
                 },
                 {
                     "id": 2,
@@ -125,7 +130,8 @@
                         "demozoo_id": 88839
                     },
                     "shadertoy_url": null,
-                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_nusan.lua"
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_nusan.lua",
+                    "preview_image": "lovebyte_2021/qf_nusan.gif"
                 }
             ],
             "staffs": [
@@ -158,7 +164,8 @@
                         "demozoo_id": 113559
                     },
                     "shadertoy_url": null,
-                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_wrighter.lua"
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_wrighter.lua",
+                    "preview_image": "lovebyte_2021/qf_wrighter.gif"
                 },
                 {
                     "id": null,
@@ -169,7 +176,8 @@
                         "demozoo_id": 53612
                     },
                     "shadertoy_url": null,
-                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_orbitaldecay.lua"
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_orbitaldecay.lua",
+                    "preview_image": "lovebyte_2021/qf_orbitaldecay.gif"
                 }
             ],
             "staffs": [
@@ -202,7 +210,8 @@
                         "demozoo_id": 617
                     },
                     "shadertoy_url": null,
-                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_semifinal_superogue.lua"
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_semifinal_superogue.lua",
+                    "preview_image": "lovebyte_2021/semifinal_superogue.gif"
                 },
                 {
                     "id": 2,
@@ -213,7 +222,8 @@
                         "demozoo_id": 53612
                     },
                     "shadertoy_url": null,
-                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_semifinal_orbitaldecay.lua"
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_semifinal_orbitaldecay.lua",
+                    "preview_image": "lovebyte_2021/semifinal_orbitaldecay.gif"
                 }
             ],
             "staffs": [
@@ -246,7 +256,8 @@
                         "demozoo_id": 65988
                     },
                     "shadertoy_url": null,
-                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_gopher.lua"
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_semifinal_flopine.lua",
+                    "preview_image": "lovebyte_2021/semifinal_flopine.gif"
                 },
                 {
                     "id": 2,
@@ -257,7 +268,8 @@
                         "demozoo_id": 88839
                     },
                     "shadertoy_url": null,
-                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_fmscat.lua"
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_semifinal_nusan.lua",
+                    "preview_image": "lovebyte_2021/semifinal_nusan.gif"
                 }
             ],
             "staffs": [
@@ -290,7 +302,8 @@
                         "demozoo_id": 88839
                     },
                     "shadertoy_url": null,
-                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_final_nusan.lua"
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_final_nusan.lua",
+                    "preview_image": "lovebyte_2021/final_nusan.gif"
                 },
                 {
                     "id": 2,
@@ -301,7 +314,8 @@
                         "demozoo_id": 53612
                     },
                     "shadertoy_url": null,
-                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_final_orbitaldecay.lua"
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_final_orbitaldecay.lua",
+                    "preview_image": "lovebyte_2021/final_orbitaldecay.gif"
                 }
             ],
             "staffs": [
