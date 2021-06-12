@@ -4,3 +4,5 @@ venv/
 **/__pycache__/**
 doc/schema.html
 CNAME
+/performers/*.html
+/*.html
