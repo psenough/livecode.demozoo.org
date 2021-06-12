@@ -53,9 +53,10 @@
                         "name": "provod",
                         "demozoo_id": 24024
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/WltBRs",
                     "preview_image": "shader_royale_4/grabber_inerciaroyale_provod.jpg",
-                    "source_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_provod.glsl"
+                    "source_file": "./shader_file_sources/shader_royale_4/grabber_inerciaroyale_provod.glsl",
+                    "vod": "https://www.youtube.com/watch?v=F_gKGohc9WA"
                 },
                 {
                     "id": null,
