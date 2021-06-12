@@ -24,7 +24,7 @@
                         "name": "NuSan",
                         "demozoo_id": 88839
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/3syyzm",
                     "preview_image": "shader_royale_1/grabber_inerciaroyale_nusan.jpg",
                     "source_file": "./shader_file_sources/shader_royale_1/grabber_inerciaroyale_nusan.glsl"
                 },
