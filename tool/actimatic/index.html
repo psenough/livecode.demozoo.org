@@ -6,34 +6,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actimatic</title>
 </head>
+<script src="FileSaver.min.js"></script>
+<script src="jszip.min.js"></script>
 <script lang="javascript">
-    class BonzoSender {
+      localStorage.setItem("__hello", "world");
+      let users = {};
+
+     function keyShader(username){
+         return "shader:"+username;
+     }
+      class BonzoSender {
+        
         constructor(handle) {
             this.handle=handle;
+            this.div = this.createColumn(handle);
+            this.prepend('activity-void');
+            this.ws= new WebSocket("ws://drone.alkama.com:9000/roomtest/"+handle);
+            this.ws.onmessage = this.onmessage(this);
+            this.ws.onopen = this.onopen;
+            this.anchor = 0;
         }
 
         print(){
             console.log(`${this.handle}`);
         }
-    }
-    let handles = Array("_h_1","_h_2");
-    function prepend(el, style){
-        let div = document.createElement("div");
-        div.className=style;
-        el.prepend(div);
-    }
-    function add(handle) {
-        queueMicrotask(() => {handles
-        .forEach(h=> {
-            let el = document.getElementById(h);
-            if(h===handle) {
-                prepend(el,'activity-compile');
-            } else {
-                prepend(el,'activity-void');
+
+        createColumn(handle){
+            let activityColumn = document.createElement("div");
+            activityColumn.className = "activityColumn";
+
+            let activityColumnHeader = document.createElement("div");
+            activityColumnHeader.className = "activityColumnHeader";
+            activityColumnHeader.innerHTML = handle;
+
+            let activityHandle = document.createElement("div");
+            activityHandle.className = "activityHandle"
+            activityHandle.id = "_h_"+handle;
+
+            activityColumn.appendChild(activityColumnHeader)
+            activityColumn.appendChild(activityHandle)
+
+            let main = document.getElementById('activityContainer');
+            main.appendChild(activityColumn);
+            return activityHandle;
+        }
+        prepend(style){
+            let newActivty = document.createElement("div");
+            newActivty.className=style;
+            this.div.prepend(newActivty);
+        }
+        onmessage(obj){
+            let fct = (event) => {
+                var msg = JSON.parse(event.data.slice(0, -1));
+                if(msg.Data.Compile) {
+                    console.log(msg)
+                    queueMicrotask(() =>  addActivity(msg.Data.NickName,'activity-compile'));
+                
+                } else {
+               
+                    if(msg.Data.Anchor !== obj.anchor) {
+                        obj.anchor = msg.Data.Anchor;
+                        queueMicrotask(() =>  addActivity(msg.Data.NickName,'activity-move'));
+                    }
+                }
+                localStorage.setItem(keyShader(msg.Data.NickName), msg.Data.Code);
+                updateStorageDisplay();
             }
-        }) });
+            
+            return fct
+          
+        }
+        onopen(event){
+        }
+    }
+  
+  
+    function addActivity(handle, type) {
+        console.log("addActivity",handle);
+        Object.entries(users).forEach( ([username,obj]) =>  {
+                console.log(handle,username);
+                if(handle === username) {
+                    obj.prepend(type);
+                } else {
+                    obj.prepend('activity-void');
+                }
+        })
 
     }
+
+    
+    function addColumn(handle) {
+        if(Object.keys(users).findIndex(x=>x===keyShader(handle))===-1) {
+            users[handle]=new BonzoSender(handle);
+           
+        }
+    }
+
+    function update(){
+        let usernames = document.getElementById("usernames").value;
+        console.log(
+            queueMicrotask(() =>  usernames.split('\n')
+            .map(x=>x.trim())
+            .forEach(x=> addColumn(x)))
+        );
+        
+    }
+    function download(){
+         var zip = new JSZip();
+         Object.keys(localStorage)
+        .filter(x=>x.startsWith('shader:'))
+        .forEach(username => {
+            zip.file(username.replace("shader:","")+".glsl", localStorage.getItem(username));
+         })
+ 
+         zip.generateAsync({type:"blob"})
+        .then(function(content) {
+            saveAs(content, "shaders.zip");
+        });
+    }
+
+    function clearStorage(){
+        localStorage.clear();
+        updateStorageDisplay();
+    }
+    function updateStorageDisplay(){
+        document.getElementById("currentStorage").innerHTML= Object.keys(localStorage)
+        .filter(x=>x.startsWith('shader:'))
+    }
+window.onload = function(){
+    updateStorageDisplay();
+}
 </script>
 <style>
 
@@ -428,7 +530,7 @@ textarea {
         height: 25px;
     }
     .activity-void {
-        background-color: #aaaaaa;
+        background-color: #222222;
     }
 
     .activity-compile  {
@@ -438,24 +540,31 @@ textarea {
     .activity-error  {
         background-color: #AA3333;
     }
+    .activity-move  {
+        background-color: #1177BB;
+    }
+    textarea {
+        width: 100%;
+        margin: auto;
+        
+    }
 </style>
 <body>
+    <div>
+        <details>
+            <summary>Informations</summary>
+            <button onclick="clearStorage();">Clear Storage</button>
+            Currently have in localStorage : 
+            <div id="currentStorage"></div>
+        </details>
+    </div>
+    List of participants : <textarea id="usernames" name="usernames" >guest
+        guest2
+        guest3</textarea>
+        <button onclick="update();">Update list</button>
+        <button onclick="download();">Export all shaders</button>
   <div id="activityContainer" class="container">
-    <div class="activityColumn">
-        <div class="activityColumnHeader">A</div>
-
-        <div id="_h_1" class="activityHandle">
-              <div class="activity-void"></div>
-        </div>
-    </div>
-    <div class="activityColumn">
-        <div class="activityColumnHeader">B</div>
-
-        <div id="_h_2" class="activityHandle">
-              <div class="activity-void"></div>
-              <div class="activity-void"></div>
-        </div>
-    </div>
+   
 
   </div> 
 </body>
