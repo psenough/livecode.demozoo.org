@@ -21,7 +21,7 @@
             this.handle=handle;
             this.div = this.createColumn(handle);
             this.prepend('activity-void');
-            this.ws= new WebSocket("ws://drone.alkama.com:9000/roomtest/"+handle);
+            this.ws= new WebSocket(document.getElementById("host").value.trim()+handle);
             this.ws.onmessage = this.onmessage(this);
             this.ws.onopen = this.onopen;
             this.anchor = 0;
@@ -553,6 +553,9 @@ textarea {
     <div>
         <details>
             <summary>Informations</summary>
+            host  + room (ws://host.tld/room) : 
+            <input type="text" id="host" value="ws://drone.alkama.com:9000/roomtest/" />
+            <br/>
             <button onclick="clearStorage();">Clear Storage</button>
             Currently have in localStorage : 
             <div id="currentStorage"></div>
