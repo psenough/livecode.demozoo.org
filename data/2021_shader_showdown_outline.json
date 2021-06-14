@@ -98,7 +98,15 @@
                     "source_file": null
                 }
             ],
-            "staffs": []
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Subi",
+                        "demozoo_id": 21306
+                    },
+                    "job": "Dj Set"
+                }
+            ]
         },
         {
             "title": "Group 2 - Match 2",
