@@ -22,7 +22,7 @@ templateEnv = jinja2.Environment(
 template = templateEnv.get_template("index.html")
 template_about = templateEnv.get_template("about.html")
 template_performer = templateEnv.get_template("performer.html")
-template_future = templateEnv.get_template("future.html")
+template_future = templateEnv.get_template("upcoming.html")
 # Use 'started' date to sort from latest to oldest
 data = sorted(
     [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/*.json")],
@@ -130,7 +130,7 @@ with codecs.open("about.html", "w", "utf-8") as outFile:
         )
     )
 
-with codecs.open("future.html", "w", "utf-8") as outFile:
+with codecs.open("upcoming.html", "w", "utf-8") as outFile:
     outFile.write(
         minify(
             template_future.render(menu_year_navigation=menu_year_navigation,data=data_future)
