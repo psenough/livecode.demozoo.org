@@ -71,7 +71,7 @@
           {% endif %}
 
           {% if entry['shadertoy_url']%}
-          Shader toy
+          Shadertoy
           <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{entry['shadertoy_url']}}">
             <img height="12" width="auto" class="shadertoy_logo" src="./assets/img/shadertoy.png">
           </a>
@@ -91,11 +91,6 @@
           <a class="ps-2 bg-dark text-info" target="_blank" href="{{entry['source_file']}}">
             <i class="fas fa-download"></i>
           </a>
-          {% endif %}
-
-          {% if entry['id'] %}
-          <br>
-          id <span class="badge bg-dark text-warning">{{entry['id']}}</span>
           {% endif %}
 
         </p>
