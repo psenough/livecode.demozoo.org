@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>..:: Timeline ::..</title>
     <script
     type="text/javascript"
     src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"
@@ -513,7 +513,11 @@
     editable: false,
     groupEditable: true,
     start: new Date(2013, 1, 1),
-    end: new Date(2022, 1, 1)
+    end: new Date(2022, 1, 1),
+    min:new Date(2013, 1, 1),
+    max:new Date(2022, 1, 1),
+    zoomFriction: 20,
+    zoomMin: 1000*60*60*24*14
   };
 
   var timeline = new vis.Timeline(container);
