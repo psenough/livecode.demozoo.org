@@ -1,24 +1,12 @@
-{# For the contributor that will have a look to the design. Sorry by advance and thanks a lot. #}
+{% extends '_base.html' %}
+{% set page_title = performer_data.name %}
 {% set SITE_ROOT=".." %}
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <title>{{performer_data.name}} | Demoscene Livecode Events</title>
-  <meta name="description" content="Live coding performances by {{performer_data.name}}" />
-  {% include '_head_common.html' %}
-</head>
+{% block head %}
+    <meta name="description" content="Live coding performances by {{ performer_data.name }}">
+{%- endblock %}
 
-<body class="bg-dark text-light">
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-12 pt-4 gradient-top">
-        {% include '_navbar.html' %}
-      </div>
-    </div>
-  </div>
-
+{% block body %}
   <div class="container bg-dark">
 
     <h1 class="mt-5 mb-5 text-center">      
@@ -133,10 +121,4 @@
     {% endif %}
 
   </div>
-  
-  <video autoplay muted loop id="myVideo">
-    <source src="./assets/video/bg.mp4" type="video/mp4" />
-  </video>
-</body>
-
-</html>
+{%- endblock %}
