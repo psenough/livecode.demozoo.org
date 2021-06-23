@@ -318,6 +318,10 @@ body {
 	font-family: "B612";
 }
 
+body {
+    overflow-y: scroll;
+}
+
 #pageTitle {
 	animation: colorMagic 6s linear infinite;
 }
