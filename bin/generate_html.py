@@ -12,13 +12,8 @@ from htmlmin import minify
 import download_shadertoy_overviews as download_shadertoy_overview
 import download_tic80_cart_overview as download_tic80_cart_overview
 import handle_manager as handle_manager
-from templating import get_template
+from templating import render_template
 
-
-template = get_template("index.html")
-template_about = get_template("about.html")
-template_performer = get_template("performer.html")
-template_future = get_template("upcoming.html")
 
 # Use 'started' date to sort from latest to oldest
 data = sorted(
@@ -92,44 +87,53 @@ for id,d in enumerate(data):
         performer_data[handle_id] = s['handle']
         staff_page[handle_id][id].append(s)
 
-# Generate all performer html
+# Generate all performer HTML files
 for pid in performer_data.keys():
     with codecs.open(f"performers/{pid}.html", "w", "utf-8") as outFile:
-        outFile.write(
-            minify(
-                template_performer.render(entries=performer_pages[pid],
-                performer_data=performer_data[pid],
-                staff_data=staff_page[pid],
-                menu_year_navigation=menu_year_navigation,
-                handles_demozoo=handle_manager.get_handle_from_id)
-            )
+        html = render_template(
+            'performer.html',
+            entries=performer_pages[pid],
+            performer_data=performer_data[pid],
+            staff_data=staff_page[pid],
+            menu_year_navigation=menu_year_navigation,
+            handles_demozoo=handle_manager.get_handle_from_id,
         )
+
+        outFile.write(minify(html))
+
 ##################### End Profile #####################
 
 
-# Compiling files
+# Render HTML files
+
 for html_filename,events in pages_year:
-    with codecs.open(html_filename, "w", "utf-8") as outFile:
-        outFile.write(
-            minify(
-                template.render(events=events, 
-                                menu_year_navigation=menu_year_navigation,
-                                current_filename=html_filename,
-                                hash_handle=hash_handle,
-                                handles_demozoo=handle_manager.get_handle_from_id # Resolution will be done at render time
-                )
-            )
-        )
-with codecs.open("about.html", "w", "utf-8") as outFile:
-    outFile.write(
-        minify(
-            template_about.render(menu_year_navigation=menu_year_navigation)
-        )
+    html = render_template(
+        'index.html',
+        events=events, 
+        menu_year_navigation=menu_year_navigation,
+        current_filename=html_filename,
+        hash_handle=hash_handle,
+        handles_demozoo=handle_manager.get_handle_from_id,  # Resolution will be done at render time
     )
 
-with codecs.open("upcoming.html", "w", "utf-8") as outFile:
-    outFile.write(
-        minify(
-            template_future.render(menu_year_navigation=menu_year_navigation,data=data_future)
-        )
+    with codecs.open(html_filename, "w", "utf-8") as outFile:
+        outFile.write(minify(html))
+
+
+with codecs.open("about.html", "w", "utf-8") as outFile:
+    html = render_template(
+        'about.html',
+        menu_year_navigation=menu_year_navigation,
     )
+
+    outFile.write(minify(html))
+
+
+with codecs.open("upcoming.html", "w", "utf-8") as outFile:
+    html = render_template(
+        'upcoming.html',
+        menu_year_navigation=menu_year_navigation,
+        data=data_future,
+    )
+
+    outFile.write(minify(html))
