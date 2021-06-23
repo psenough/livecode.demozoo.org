@@ -5,13 +5,12 @@ import hashlib
 from pathlib import Path
 
 from ebbe import grouped, with_is_first
-from htmlmin import minify
 
 import download_shadertoy_overviews as download_shadertoy_overview
 import download_tic80_cart_overview as download_tic80_cart_overview
-from files import load_json_files, write_text_file
+from files import load_json_files
 import handle_manager as handle_manager
-from templating import render_template
+from html_rendering import render_html_file
 
 
 # Use 'started' date to sort from latest to oldest
@@ -88,15 +87,17 @@ for id,d in enumerate(data):
 
 # Generate all performer HTML files
 for pid in performer_data.keys():
-    performer_html = render_template(
+    render_html_file(
         'performer.html',
-        entries=performer_pages[pid],
-        performer_data=performer_data[pid],
-        staff_data=staff_page[pid],
-        menu_year_navigation=menu_year_navigation,
-        handles_demozoo=handle_manager.get_handle_from_id,
+        {
+            'entries': performer_pages[pid],
+            'performer_data': performer_data[pid],
+            'staff_data': staff_page[pid],
+            'menu_year_navigation': menu_year_navigation,
+            'handles_demozoo': handle_manager.get_handle_from_id,
+        },
+        Path(f'performers/{pid}.html'),
     )
-    write_text_file(Path(f"performers/{pid}.html"), minify(performer_html))
 
 
 ##################### End Profile #####################
@@ -105,25 +106,31 @@ for pid in performer_data.keys():
 # Render HTML files
 
 for html_filename,events in pages_year:
-    html = render_template(
+    render_html_file(
         'index.html',
-        events=events, 
-        menu_year_navigation=menu_year_navigation,
-        current_filename=html_filename,
-        hash_handle=hash_handle,
-        handles_demozoo=handle_manager.get_handle_from_id,  # Resolution will be done at render time
+        {
+            'events': events,
+            'menu_year_navigation': menu_year_navigation,
+            'current_filename': html_filename,
+            'hash_handle': hash_handle,
+            'handles_demozoo': handle_manager.get_handle_from_id,  # Resolution will be done at render time
+        },
+        Path(html_filename),
     )
-    write_text_file(Path(html_filename), minify(html))
 
-about_html = render_template(
+render_html_file(
     'about.html',
-    menu_year_navigation=menu_year_navigation,
+    {
+        'menu_year_navigation': menu_year_navigation,
+    },
+    Path('about.html'),
 )
-write_text_file(Path('about.html'), minify(about_html))
 
-upcoming_html = render_template(
+render_html_file(
     'upcoming.html',
-    menu_year_navigation=menu_year_navigation,
-    data=data_future,
+    {
+        'menu_year_navigation': menu_year_navigation,
+        'data': data_future,
+    },
+    Path('upcoming.html'),
 )
-write_text_file(Path('upcoming.html'), minify(upcoming_html))
