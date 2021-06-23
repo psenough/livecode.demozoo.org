@@ -21,13 +21,13 @@ HTML_PATH = Path('.')
 # Use 'started' date to sort from latest to oldest
 data = sorted(
     load_json_files(DATA_PATH),
-    key=lambda a: a["started"],
+    key=lambda a: a['started'],
     reverse=True,
 )
 
 data_future = sorted(
     load_json_files(DATA_PATH / 'future'),
-    key=lambda a: a["started"],
+    key=lambda a: a['started'],
     reverse=False,
 )
 
@@ -35,19 +35,21 @@ data_future = sorted(
 for d in data:
     download_shadertoy_overview.create_cache(d)
     download_tic80_cart_overview.create_cache(d)
-# For keeping page not overloaded, we divide per year, which mean 1 year = 1 page to generate 
+
+# For keeping page not overloaded, we divide per year, which mean 1 year = 1 page to generate
 # As it's sorted reverse, it's should go from current year to previous year
-grouped_per_year = grouped(data,key=lambda a :a["started"][0:4])
+grouped_per_year = grouped(data, key=lambda a: a['started'][0:4])
 
 # The current year will be index.html, others will be %Y.html
 menu_year_navigation = []
 pages_year = []
-for is_first,(year,events) in with_is_first(grouped_per_year.items()):
-    html_filename = f"{year}.html"
+for is_first, (year, events) in with_is_first(grouped_per_year.items()):
+    html_filename = f'{year}.html'
     if is_first:
-        html_filename = "index.html"
-    menu_year_navigation.append((html_filename,year))
-    pages_year.append((html_filename,events))
+        html_filename = 'index.html'
+    menu_year_navigation.append((html_filename, year))
+    pages_year.append((html_filename, events))
+
 
 ##################### Profile #####################
 
@@ -59,20 +61,23 @@ def generate_md5_hash(s: str) -> str:
 
 # This is used to either get demozoo_id or generate a hash from the if no demozoo
 def hash_handle(handle_obj: dict[str, Any]) -> str:
-    return handle_obj.get('demozoo_id') or generate_md5_hash(handle_obj.get('name').lower())[:6]
+    return (
+        handle_obj.get('demozoo_id')
+        or generate_md5_hash(handle_obj.get('name').lower())[:6]
+    )
 
 
 # List of all profile with their entries
 performer_pages = defaultdict(lambda: defaultdict(list))
 
-# 
+#
 staff_page = defaultdict(lambda: defaultdict(list))
 
 # Performer data, handle name and demozoo_id
 performer_data = defaultdict(dict)
 
 # Iteration over all the event, id is used to group entries per event per performer
-for id,d in enumerate(data):
+for id, d in enumerate(data):
     for p in d['phases']:
         for e in p["entries"]:
             e['event_name'] = d['title']
@@ -83,6 +88,7 @@ for id,d in enumerate(data):
 
             performer_pages[handle_id][id].append(e)
             performer_data[handle_id] = e['handle']
+
         for s in p['staffs']:
             handle_id = hash_handle(s['handle'])
             s['event_name'] = d['title']
@@ -90,6 +96,7 @@ for id,d in enumerate(data):
             s['event_started'] = d['started']
             performer_data[handle_id] = s['handle']
             staff_page[handle_id][id].append(s)
+
     for s in d['staffs']:
         handle_id = hash_handle(s['handle'])
         s['event_name'] = d['title']
@@ -118,7 +125,7 @@ for pid in performer_data.keys():
 
 # Render HTML files
 
-for html_filename,events in pages_year:
+for html_filename, events in pages_year:
     render_html_file(
         'index.html',
         {
