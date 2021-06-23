@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import collections
-import glob
 import hashlib 
 from pathlib import Path
 
@@ -10,20 +9,20 @@ from htmlmin import minify
 
 import download_shadertoy_overviews as download_shadertoy_overview
 import download_tic80_cart_overview as download_tic80_cart_overview
-from files import load_json, write_text_file
+from files import load_json_files, write_text_file
 import handle_manager as handle_manager
 from templating import render_template
 
 
 # Use 'started' date to sort from latest to oldest
 data = sorted(
-    [load_json(Path(d)) for d in glob.glob("./data/*.json")],
+    load_json_files(Path('./data')),
     key=lambda a: a["started"],
     reverse=True,
 )
 
 data_future = sorted(
-    [load_json(Path(d)) for d in glob.glob("./data/future/*.json")],
+    load_json_files(Path('./data/future')),
     key=lambda a: a["started"],
     reverse=False,
 )
