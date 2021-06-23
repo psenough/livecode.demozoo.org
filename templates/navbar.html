@@ -6,16 +6,16 @@
             </h1>            
         </span>
         <div>
-            <a href="{{SITE_ROOT}}/about.html" class="p-2 pb-1 mb-2 btn btn-lg btn-info">About</a>
+            <a href="{{SITE_ROOT}}/about.html" class="px-2 py-1 mb-2 btn btn-lg btn-info">About</a>
             {% for href,year in menu_year_navigation|sort(attribute='1') %}
                 {% if current_filename == href %}
                     {% set nav_style = "btn-outline-info" %}
                 {% else %}
                     {% set nav_style = "btn-outline-secondary text-light" %}
                 {% endif %}
-                <a href="{{SITE_ROOT}}/{{href}}" class="p-2 pb-1  mb-2 btn btn-lg {{nav_style}}">{{year}}</a>
+                <a href="{{SITE_ROOT}}/{{href}}" class="px-2 py-1 mb-2 btn btn-lg {{nav_style}}">{{year}}</a>
             {% endfor %}
-            <a href="{{SITE_ROOT}}/upcoming.html" class="p-2 pb-1  mb-2 btn btn-lg btn-success">Upcoming</a>
+            <a href="{{SITE_ROOT}}/upcoming.html" class="px-2 py-1 mb-2 btn btn-lg btn-success">Upcoming</a>
         </div>
         {# <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
