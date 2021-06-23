@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-import collections
-import hashlib 
+from collections import defaultdict
+import hashlib
 from pathlib import Path
 
 from ebbe import grouped, with_is_first
@@ -51,13 +51,13 @@ def hash_handle(handle_obj):
     return handle_obj.get('demozoo_id') or hashlib.md5(handle_obj.get('name').lower().encode('UTF-8')).hexdigest()[:6] 
 
 # List of all profile with their entries
-performer_pages = collections.defaultdict(lambda: collections.defaultdict(list))
+performer_pages = defaultdict(lambda: defaultdict(list))
 
 # 
-staff_page = collections.defaultdict(lambda: collections.defaultdict(list))
+staff_page = defaultdict(lambda: defaultdict(list))
 
 # Performer data, handle name and demozoo_id
-performer_data = collections.defaultdict(dict)
+performer_data = defaultdict(dict)
 
 # Iteration over all the event, id is used to group entries per event per performer
 for id,d in enumerate(data):
