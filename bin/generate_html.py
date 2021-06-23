@@ -5,12 +5,14 @@ import collections
 import glob
 import hashlib 
 import json
+from pathlib import Path
 
 from ebbe import grouped, with_is_first
 from htmlmin import minify
 
 import download_shadertoy_overviews as download_shadertoy_overview
 import download_tic80_cart_overview as download_tic80_cart_overview
+from files import write_text_file
 import handle_manager as handle_manager
 from templating import render_template
 
@@ -89,17 +91,16 @@ for id,d in enumerate(data):
 
 # Generate all performer HTML files
 for pid in performer_data.keys():
-    with codecs.open(f"performers/{pid}.html", "w", "utf-8") as outFile:
-        html = render_template(
-            'performer.html',
-            entries=performer_pages[pid],
-            performer_data=performer_data[pid],
-            staff_data=staff_page[pid],
-            menu_year_navigation=menu_year_navigation,
-            handles_demozoo=handle_manager.get_handle_from_id,
-        )
+    performer_html = render_template(
+        'performer.html',
+        entries=performer_pages[pid],
+        performer_data=performer_data[pid],
+        staff_data=staff_page[pid],
+        menu_year_navigation=menu_year_navigation,
+        handles_demozoo=handle_manager.get_handle_from_id,
+    )
+    write_text_file(Path(f"performers/{pid}.html"), minify(performer_html))
 
-        outFile.write(minify(html))
 
 ##################### End Profile #####################
 
@@ -115,25 +116,17 @@ for html_filename,events in pages_year:
         hash_handle=hash_handle,
         handles_demozoo=handle_manager.get_handle_from_id,  # Resolution will be done at render time
     )
+    write_text_file(Path(html_filename), minify(html))
 
-    with codecs.open(html_filename, "w", "utf-8") as outFile:
-        outFile.write(minify(html))
+about_html = render_template(
+    'about.html',
+    menu_year_navigation=menu_year_navigation,
+)
+write_text_file(Path('about.html'), minify(about_html))
 
-
-with codecs.open("about.html", "w", "utf-8") as outFile:
-    html = render_template(
-        'about.html',
-        menu_year_navigation=menu_year_navigation,
-    )
-
-    outFile.write(minify(html))
-
-
-with codecs.open("upcoming.html", "w", "utf-8") as outFile:
-    html = render_template(
-        'upcoming.html',
-        menu_year_navigation=menu_year_navigation,
-        data=data_future,
-    )
-
-    outFile.write(minify(html))
+upcoming_html = render_template(
+    'upcoming.html',
+    menu_year_navigation=menu_year_navigation,
+    data=data_future,
+)
+write_text_file(Path('upcoming.html'), minify(upcoming_html))
