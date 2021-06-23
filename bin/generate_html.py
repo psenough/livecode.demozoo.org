@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 
-import codecs
 import collections
 import glob
 import hashlib 
-import json
 from pathlib import Path
 
 from ebbe import grouped, with_is_first
@@ -12,20 +10,20 @@ from htmlmin import minify
 
 import download_shadertoy_overviews as download_shadertoy_overview
 import download_tic80_cart_overview as download_tic80_cart_overview
-from files import write_text_file
+from files import load_json, write_text_file
 import handle_manager as handle_manager
 from templating import render_template
 
 
 # Use 'started' date to sort from latest to oldest
 data = sorted(
-    [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/*.json")],
+    [load_json(Path(d)) for d in glob.glob("./data/*.json")],
     key=lambda a: a["started"],
     reverse=True,
 )
 
 data_future = sorted(
-    [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/future/*.json")],
+    [load_json(Path(d)) for d in glob.glob("./data/future/*.json")],
     key=lambda a: a["started"],
     reverse=False,
 )
