@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+from __future__ import annotations
 from collections import defaultdict
 import hashlib
 from pathlib import Path
@@ -57,7 +58,7 @@ def generate_md5_hash(s: str) -> str:
 
 
 # This is used to either get demozoo_id or generate a hash from the if no demozoo
-def hash_handle(handle_obj):
+def hash_handle(handle_obj: dict[str, Any]) -> str:
     return handle_obj.get('demozoo_id') or generate_md5_hash(handle_obj.get('name').lower())[:6]
 
 
