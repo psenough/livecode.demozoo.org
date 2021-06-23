@@ -49,9 +49,17 @@ for is_first,(year,events) in with_is_first(grouped_per_year.items()):
     pages_year.append((html_filename,events))
 
 ##################### Profile #####################
+
+
+def generate_md5_hash(s: str) -> str:
+    """Generate MD5 hex digest."""
+    return hashlib.md5(s.encode('utf-8')).hexdigest()
+
+
 # This is used to either get demozoo_id or generate a hash from the if no demozoo
 def hash_handle(handle_obj):
-    return handle_obj.get('demozoo_id') or hashlib.md5(handle_obj.get('name').lower().encode('UTF-8')).hexdigest()[:6] 
+    return handle_obj.get('demozoo_id') or generate_md5_hash(handle_obj.get('name').lower())[:6]
+
 
 # List of all profile with their entries
 performer_pages = defaultdict(lambda: defaultdict(list))
