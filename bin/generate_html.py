@@ -1,38 +1,35 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python
 
-import codecs
-import collections
-import glob
-import hashlib 
-import json
+from __future__ import annotations
+from collections import defaultdict
+import hashlib
+from pathlib import Path
 
 from ebbe import grouped, with_is_first
-import jinja2
-from htmlmin import minify
+
+import sys; sys.path.append('.')
+from generator.files import load_json_files
+from generator.html import render_html_file
 
 import download_shadertoy_overviews as download_shadertoy_overview
 import download_tic80_cart_overview as download_tic80_cart_overview
 import handle_manager as handle_manager
 
-# Jinja2 Template system
-templateEnv = jinja2.Environment(
-    loader=jinja2.FileSystemLoader(searchpath="./templates/")
-)
-template = templateEnv.get_template("index.html")
-template_about = templateEnv.get_template("about.html")
-template_performer = templateEnv.get_template("performer.html")
-template_future = templateEnv.get_template("upcoming.html")
+
+DATA_PATH = Path('data')
+HTML_PATH = Path('.')
+
+
 # Use 'started' date to sort from latest to oldest
 data = sorted(
-    [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/*.json")],
-    key=lambda a: a["started"],
+    load_json_files(DATA_PATH),
+    key=lambda a: a['started'],
     reverse=True,
 )
 
 data_future = sorted(
-    [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/future/*.json")],
-    key=lambda a: a["started"],
+    load_json_files(DATA_PATH / 'future'),
+    key=lambda a: a['started'],
     reverse=False,
 )
 
@@ -40,36 +37,49 @@ data_future = sorted(
 for d in data:
     download_shadertoy_overview.create_cache(d)
     download_tic80_cart_overview.create_cache(d)
-# For keeping page not overloaded, we divide per year, which mean 1 year = 1 page to generate 
+
+# For keeping page not overloaded, we divide per year, which mean 1 year = 1 page to generate
 # As it's sorted reverse, it's should go from current year to previous year
-grouped_per_year = grouped(data,key=lambda a :a["started"][0:4])
+grouped_per_year = grouped(data, key=lambda a: a['started'][0:4])
 
 # The current year will be index.html, others will be %Y.html
 menu_year_navigation = []
 pages_year = []
-for is_first,(year,events) in with_is_first(grouped_per_year.items()):
-    html_filename = f"{year}.html"
+for is_first, (year, events) in with_is_first(grouped_per_year.items()):
+    html_filename = f'{year}.html'
     if is_first:
-        html_filename = "index.html"
-    menu_year_navigation.append((html_filename,year))
-    pages_year.append((html_filename,events))
+        html_filename = 'index.html'
+    menu_year_navigation.append((html_filename, year))
+    pages_year.append((html_filename, events))
+
 
 ##################### Profile #####################
+
+
+def generate_md5_hash(s: str) -> str:
+    """Generate MD5 hex digest."""
+    return hashlib.md5(s.encode('utf-8')).hexdigest()
+
+
 # This is used to either get demozoo_id or generate a hash from the if no demozoo
-def hash_handle(handle_obj):
-    return handle_obj.get('demozoo_id') or hashlib.md5(handle_obj.get('name').lower().encode('UTF-8')).hexdigest()[:6] 
+def hash_handle(handle_obj: dict[str, Any]) -> str:
+    return (
+        handle_obj.get('demozoo_id')
+        or generate_md5_hash(handle_obj.get('name').lower())[:6]
+    )
+
 
 # List of all profile with their entries
-performer_pages = collections.defaultdict(lambda: collections.defaultdict(list))
+performer_pages = defaultdict(lambda: defaultdict(list))
 
-# 
-staff_page = collections.defaultdict(lambda: collections.defaultdict(list))
+#
+staff_page = defaultdict(lambda: defaultdict(list))
 
 # Performer data, handle name and demozoo_id
-performer_data = collections.defaultdict(dict)
+performer_data = defaultdict(dict)
 
 # Iteration over all the event, id is used to group entries per event per performer
-for id,d in enumerate(data):
+for id, d in enumerate(data):
     for p in d['phases']:
         for e in p["entries"]:
             e['event_name'] = d['title']
@@ -80,6 +90,7 @@ for id,d in enumerate(data):
 
             performer_pages[handle_id][id].append(e)
             performer_data[handle_id] = e['handle']
+
         for s in p['staffs']:
             handle_id = hash_handle(s['handle'])
             s['event_name'] = d['title']
@@ -87,6 +98,7 @@ for id,d in enumerate(data):
             s['event_started'] = d['started']
             performer_data[handle_id] = s['handle']
             staff_page[handle_id][id].append(s)
+
     for s in d['staffs']:
         handle_id = hash_handle(s['handle'])
         s['event_name'] = d['title']
@@ -95,44 +107,52 @@ for id,d in enumerate(data):
         performer_data[handle_id] = s['handle']
         staff_page[handle_id][id].append(s)
 
-# Generate all performer html
+# Generate all performer HTML files
 for pid in performer_data.keys():
-    with codecs.open(f"performers/{pid}.html", "w", "utf-8") as outFile:
-        outFile.write(
-            minify(
-                template_performer.render(entries=performer_pages[pid],
-                performer_data=performer_data[pid],
-                staff_data=staff_page[pid],
-                menu_year_navigation=menu_year_navigation,
-                handles_demozoo=handle_manager.get_handle_from_id)
-            )
-        )
+    render_html_file(
+        'performer.html',
+        {
+            'entries': performer_pages[pid],
+            'performer_data': performer_data[pid],
+            'staff_data': staff_page[pid],
+            'menu_year_navigation': menu_year_navigation,
+            'handles_demozoo': handle_manager.get_handle_from_id,
+        },
+        HTML_PATH / 'performers' / f'{pid}.html',
+    )
+
+
 ##################### End Profile #####################
 
 
-# Compiling files
-for html_filename,events in pages_year:
-    with codecs.open(html_filename, "w", "utf-8") as outFile:
-        outFile.write(
-            minify(
-                template.render(events=events, 
-                                menu_year_navigation=menu_year_navigation,
-                                current_filename=html_filename,
-                                hash_handle=hash_handle,
-                                handles_demozoo=handle_manager.get_handle_from_id # Resolution will be done at render time
-                )
-            )
-        )
-with codecs.open("about.html", "w", "utf-8") as outFile:
-    outFile.write(
-        minify(
-            template_about.render(menu_year_navigation=menu_year_navigation)
-        )
+# Render HTML files
+
+for html_filename, events in pages_year:
+    render_html_file(
+        'index.html',
+        {
+            'events': events,
+            'menu_year_navigation': menu_year_navigation,
+            'current_filename': html_filename,
+            'hash_handle': hash_handle,
+            'handles_demozoo': handle_manager.get_handle_from_id,  # Resolution will be done at render time
+        },
+        HTML_PATH / html_filename,
     )
 
-with codecs.open("upcoming.html", "w", "utf-8") as outFile:
-    outFile.write(
-        minify(
-            template_future.render(menu_year_navigation=menu_year_navigation,data=data_future)
-        )
-    )
+render_html_file(
+    'about.html',
+    {
+        'menu_year_navigation': menu_year_navigation,
+    },
+    HTML_PATH / 'about.html',
+)
+
+render_html_file(
+    'upcoming.html',
+    {
+        'menu_year_navigation': menu_year_navigation,
+        'data': data_future,
+    },
+    HTML_PATH / 'upcoming.html',
+)
