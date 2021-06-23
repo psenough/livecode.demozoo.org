@@ -13,15 +13,19 @@ import handle_manager as handle_manager
 from html_rendering import render_html_file
 
 
+DATA_PATH = Path('data')
+HTML_PATH = Path('.')
+
+
 # Use 'started' date to sort from latest to oldest
 data = sorted(
-    load_json_files(Path('./data')),
+    load_json_files(DATA_PATH),
     key=lambda a: a["started"],
     reverse=True,
 )
 
 data_future = sorted(
-    load_json_files(Path('./data/future')),
+    load_json_files(DATA_PATH / 'future'),
     key=lambda a: a["started"],
     reverse=False,
 )
@@ -96,7 +100,7 @@ for pid in performer_data.keys():
             'menu_year_navigation': menu_year_navigation,
             'handles_demozoo': handle_manager.get_handle_from_id,
         },
-        Path(f'performers/{pid}.html'),
+        HTML_PATH / 'performers' / f'{pid}.html',
     )
 
 
@@ -115,7 +119,7 @@ for html_filename,events in pages_year:
             'hash_handle': hash_handle,
             'handles_demozoo': handle_manager.get_handle_from_id,  # Resolution will be done at render time
         },
-        Path(html_filename),
+        HTML_PATH / html_filename,
     )
 
 render_html_file(
@@ -123,7 +127,7 @@ render_html_file(
     {
         'menu_year_navigation': menu_year_navigation,
     },
-    Path('about.html'),
+    HTML_PATH / 'about.html',
 )
 
 render_html_file(
@@ -132,5 +136,5 @@ render_html_file(
         'menu_year_navigation': menu_year_navigation,
         'data': data_future,
     },
-    Path('upcoming.html'),
+    HTML_PATH / 'upcoming.html',
 )
