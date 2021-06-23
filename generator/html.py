@@ -4,8 +4,8 @@ from typing import Any
 
 from htmlmin import minify
 
-from files import write_text_file
-from templating import render_template
+from .files import write_text_file
+from .templating import render_template
 
 
 def render_html_file(

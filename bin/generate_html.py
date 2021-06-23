@@ -7,11 +7,13 @@ from pathlib import Path
 
 from ebbe import grouped, with_is_first
 
+import sys; sys.path.append('.')
+from generator.files import load_json_files
+from generator.html import render_html_file
+
 import download_shadertoy_overviews as download_shadertoy_overview
 import download_tic80_cart_overview as download_tic80_cart_overview
-from files import load_json_files
 import handle_manager as handle_manager
-from html_rendering import render_html_file
 
 
 DATA_PATH = Path('data')
