@@ -7,21 +7,19 @@ import hashlib
 import json
 
 from ebbe import grouped, with_is_first
-import jinja2
 from htmlmin import minify
 
 import download_shadertoy_overviews as download_shadertoy_overview
 import download_tic80_cart_overview as download_tic80_cart_overview
 import handle_manager as handle_manager
+from templating import get_template
 
-# Jinja2 Template system
-templateEnv = jinja2.Environment(
-    loader=jinja2.FileSystemLoader(searchpath="./templates/")
-)
-template = templateEnv.get_template("index.html")
-template_about = templateEnv.get_template("about.html")
-template_performer = templateEnv.get_template("performer.html")
-template_future = templateEnv.get_template("upcoming.html")
+
+template = get_template("index.html")
+template_about = get_template("about.html")
+template_performer = get_template("performer.html")
+template_future = get_template("upcoming.html")
+
 # Use 'started' date to sort from latest to oldest
 data = sorted(
     [json.load(codecs.open(d, encoding="utf-8")) for d in glob.glob("./data/*.json")],
