@@ -23,6 +23,6 @@ for data in load_json_files(Path('data')):
                     if f_handle:
                         f_handle = get_handle_from_id(f_handle).lower()
                     else :
-                        f_handle = e['handle']['name'].lower()
+                        f_handle = f['handle']['name'].lower()
                     if f_handle != e_handle:
                         print(f"{e_handle},{f_handle}")
