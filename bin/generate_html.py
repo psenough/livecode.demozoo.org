@@ -19,8 +19,8 @@ import download_shadertoy_overviews as download_shadertoy_overview
 import download_tic80_cart_overview as download_tic80_cart_overview
 
 
-DATA_PATH = Path('data')
-HTML_PATH = Path('.')
+DATA_PATH = Path('public/data')
+HTML_PATH = Path('public')
 
 
 def load_past_events():

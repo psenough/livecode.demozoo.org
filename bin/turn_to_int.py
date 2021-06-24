@@ -5,7 +5,7 @@ sys.path.append('.')
 from generator.files import load_json, save_json
 
 
-for path in Path('data').glob('*.json'):
+for path in Path('public/data').glob('*.json'):
     data = load_json(path)
 
     for p in data['phases']:

@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import requests
 
 
-MEDIA_PATH = Path('media')
+MEDIA_PATH = Path('public/media')
 
 
 def download(cart_id) -> None:

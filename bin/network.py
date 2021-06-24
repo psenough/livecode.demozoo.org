@@ -30,7 +30,7 @@ def get_handle(handle_dict: dict) -> str:
 
 
 if __name__ == '__main__':
-    path = Path('data')
+    path = Path('public/data')
 
     print('source,target')
     for opponent1, opponent2 in get_opponent_pairs(path):

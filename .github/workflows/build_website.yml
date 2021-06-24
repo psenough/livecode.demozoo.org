@@ -61,7 +61,7 @@ jobs:
           git config user.email "pages.publisher@users.noreply.github.com"
           git add -A
           git commit -m "Publish"
-          git push -f origin `git subtree split -P generator`:refs/heads/github-pages-test
+          git push -f origin `git subtree split -P public`:refs/heads/github-pages-test
 
       #- uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
       #   with:

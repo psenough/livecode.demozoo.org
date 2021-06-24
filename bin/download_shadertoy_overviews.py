@@ -3,7 +3,7 @@ from typing import Iterator
 import urllib.request
 
 
-MEDIA_PATH = Path('media')
+MEDIA_PATH = Path('public/media')
 
 
 def download(shadertoy_id: str) -> None:

@@ -10,7 +10,7 @@ from collections import defaultdict
 if len(sys.argv) == 2:
     filenames = [sys.argv[1]]
 else:
-    filenames = glob.glob("data/*")
+    filenames = glob.glob("public/data/*")
 
 for filename in filenames:
     data = json.load(open(filename))
