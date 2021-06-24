@@ -51,4 +51,4 @@ jobs:
           # The arguments for the `git add` command (see the paragraph below for more info)
           # Default: '.'
           add: "."
-          branch: main
+          branch: gh-pages
