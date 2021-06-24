@@ -4,4 +4,15 @@ venv/
 **/__pycache__/**
 doc/schema.html
 CNAME
+.github/workflows/
+bin/
+cache/
+doc/
+generator/
+meta/
+.editorconfig
+.gitattributes
 .gitignore
+*.md
+pyproject.toml
+setup.cfg
