@@ -322,8 +322,13 @@ body {
     overflow-y: scroll;
 }
 
-#pageTitle {
+.colorcycle {
 	animation: colorMagic 6s linear infinite;
+}
+
+.logo {
+  height: auto;
+  width: 100%;
 }
 
 .accordion-button::after {
@@ -369,25 +374,4 @@ body {
 	overflow: hidden;
 	transform: scale(1.05);
 	box-shadow: 0px 0px 10px #101010;
-}
-
-/* IE6/7/8 */
-@font-face {
-   font-family:Topaz;
-   src: url("../font/TopazPlus_a1200_v1.0.eot");
-}
-/* FF3.5+/Safari/Opera10 */
-@font-face {
-   font-family:Topaz;
-   src: url("../font/TopazPlus_a1200_v1.0.ttf") format("truetype");
-}
-
-PRE {
-	font-family: Topaz;
-	font-size: 12pt;
-	font-weight: normal;
-	line-height: 16px;
-	margin: 0px;
-	padding: 0px;
-	background-color: transparent;
 }
