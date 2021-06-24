@@ -9,11 +9,11 @@ from ebbe import grouped, with_is_first
 
 import sys; sys.path.append('.')
 from generator.files import load_json_files
+from generator.handles import get_handle_from_id
 from generator.html import render_html_file
 
 import download_shadertoy_overviews as download_shadertoy_overview
 import download_tic80_cart_overview as download_tic80_cart_overview
-import handle_manager as handle_manager
 
 
 DATA_PATH = Path('data')
@@ -123,7 +123,7 @@ for pid in performer_data.keys():
             'performer_data': performer_data[pid],
             'staff_data': staff_page[pid],
             'menu_year_navigation': menu_year_navigation,
-            'handles_demozoo': handle_manager.get_handle_from_id,
+            'handles_demozoo': get_handle_from_id,
         },
         HTML_PATH / 'performers' / f'{pid}.html',
     )
@@ -142,7 +142,7 @@ for html_filename, events in pages_year:
             'menu_year_navigation': menu_year_navigation,
             'current_filename': html_filename,
             'hash_handle': hash_handle,
-            'handles_demozoo': handle_manager.get_handle_from_id,  # Resolution will be done at render time
+            'handles_demozoo': get_handle_from_id,  # Resolution will be done at render time
         },
         HTML_PATH / html_filename,
     )
