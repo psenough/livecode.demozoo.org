@@ -4,7 +4,9 @@ name: Build website
 
 # Controls when the action will run.
 on:
-  page_build:
+  push:
+    branches:
+      - main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
