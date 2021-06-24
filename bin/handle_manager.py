@@ -1,16 +1,23 @@
-import codecs
-import json 
+from pathlib import Path
+import sys
 
 import requests
 
-HANDLE_DB_FILE = "./cache/handles.json"
+sys.path.append('.')
+from generator.files import load_json, save_json
+
+
+HANDLES_DB_FILE = Path('./cache/handles.json')
+
 
 def get_db():
-    return json.load(codecs.open(HANDLE_DB_FILE,'r','utf-8'))
+    return load_json(HANDLES_DB_FILE)
+
 
 def get_demozoo_data(id):
     req = requests.get(f'https://demozoo.org/api/v1/releasers/{id}/').json()
     return req
+
 
 def get_handle_from_id(id):
     id = str(id) # Make sure the id is interpreted as a str.
@@ -20,7 +27,7 @@ def get_handle_from_id(id):
         name = data.get('name')
         if name:
             db[id] = data.get('name')
-            json.dump(db, codecs.open(HANDLE_DB_FILE,'w','utf-8'))
+            save_json(db, HANDLES_DB_FILE)
         else :
             raise Exception(f"Can't find name for demozoo id : {id}")
     return db.get(id)
