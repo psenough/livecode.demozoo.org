@@ -1,4 +1,4 @@
-import os.path
+from pathlib import Path
 import shutil
 from typing import Iterator, Optional
 import urllib.request
@@ -7,11 +7,14 @@ from bs4 import BeautifulSoup
 import requests
 
 
+MEDIA_PATH = Path('media')
+
+
 def download(cart_id) -> None:
-    output_filename = os.path.join('media', f'cart_{cart_id}.gif')
+    output_filename = MEDIA_PATH / f'cart_{cart_id}.gif'
 
     # No need to redownload. Save resources on tic80.com.
-    if os.path.exists(output_filename):
+    if output_filename.exists():
         return
 
     url = f'https://tic80.com/play?cart={cart_id}'
@@ -24,7 +27,7 @@ def download(cart_id) -> None:
     if img_resp.status_code != 200:
         return
 
-    with open(output_filename, 'wb') as f:
+    with output_filename.open('wb') as f:
         img_resp.raw.decode_content = True
         shutil.copyfileobj(img_resp.raw, f)
 

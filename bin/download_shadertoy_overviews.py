@@ -1,13 +1,16 @@
-import os.path
+from pathlib import Path
 from typing import Iterator
 import urllib.request
 
 
+MEDIA_PATH = Path('media')
+
+
 def download(shadertoy_id: str) -> None:
-    output_filename = os.path.join('media', f'{shadertoy_id}.jpg')
+    output_filename = MEDIA_PATH / f'{shadertoy_id}.jpg'
 
     # No need to redownload. Save resources on Shadertoy.
-    if os.path.exists(output_filename):
+    if output_filename.exists():
         return
 
     url = f'https://www.shadertoy.com/media/shaders/{shadertoy_id}.jpg'
