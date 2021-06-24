@@ -41,14 +41,14 @@
                 <div class="row">
                     {% for phase in event['phases'] %}
                     <div class="col-12 mb-5">
-                        {% include 'phase.html' %}
+                        {% include '_phase.html' %}
                     </div>
                     {% endfor %}
                 </div>
             </div>           
 
             {% set staffs = event['staffs']%}
-            {% include 'staff.html' %}
+            {% include '_staff.html' %}
 
         </div>
     </div>
