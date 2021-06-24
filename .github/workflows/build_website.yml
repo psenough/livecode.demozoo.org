@@ -41,10 +41,10 @@ jobs:
           mkdir -p performers
           python bin/generate_html.py
 
-      - name: Generate Doc
-        run: |
-          mkdir -p doc
-          generate-schema-doc meta/event.schema.json doc/schema.html
+      #- name: Generate Doc
+      #  run: |
+      #    mkdir -p doc
+      #    generate-schema-doc meta/event.schema.json doc/schema.html
 
       - uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
         with:
