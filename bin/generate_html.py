@@ -4,6 +4,7 @@ from __future__ import annotations
 from collections import defaultdict
 import hashlib
 from pathlib import Path
+from typing import Any
 
 from ebbe import grouped, with_is_first
 
@@ -54,7 +55,7 @@ def hash_handle(handle_obj: dict[str, Any]) -> str:
     """Get either Demozoo id or, if not found, generate hash from name."""
     return (
         handle_obj.get('demozoo_id')
-        or generate_md5_hash(handle_obj.get('name').lower())[:6]
+        or generate_md5_hash(handle_obj['name'].lower())[:6]
     )
 
 
