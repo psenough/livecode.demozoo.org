@@ -1,9 +1,8 @@
-import json
 from pathlib import Path
 import sys
 
 sys.path.append('.')
-from generator.files import load_json
+from generator.files import load_json, save_json
 
 
 for path in Path('data').glob('*.json'):
@@ -16,5 +15,4 @@ for path in Path('data').glob('*.json'):
             e['source_file'] = e.get('shader_file')
             del e['shader_file']
 
-    with path.open(encoding='utf-8') as f:
-        json.dump(data, indent=4)
+    save_json(data, path, indent=4)
