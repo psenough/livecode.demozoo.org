@@ -38,8 +38,8 @@ jobs:
           data/*.json | xargs -I % bin/workflows/validate.sh %
 
       - name: Save commit hash to file
-        # Provide something to commit so the push to the `gh-pages` is done.
-        run: git rev-parse --short HEAD
+        # Provide a change to add so upcoming the commit to the `gh-pages` succeeds.
+        run: git rev-parse --short HEAD > commithash.txt
 
       - name: Download Images
         run: python bin/download_shadertoy_overviews.py
