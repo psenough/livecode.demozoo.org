@@ -1,30 +1,48 @@
-import urllib.request
 import os.path
 import shutil
+from typing import Iterator, Optional
+import urllib.request
 
 from bs4 import BeautifulSoup
 import requests
 
-def download(id):
-    output_filename = os.path.join("media",f"cart_{id}.gif")
-    # Don't need to redownload. Save resources on Tic80
-    if not os.path.exists(output_filename):
-        url = f'https://tic80.com/play?cart={id}'
-        req = requests.get(url)
-        soup = BeautifulSoup(req.content,'html5lib')
-        img = soup.find("meta",{'property':"og:image"})
-        img = img.attrs.get('content')
-        r = requests.get(img, stream=True)
-        if r.status_code == 200:
-            with open(output_filename, 'wb') as f:
-                r.raw.decode_content = True
-                shutil.copyfileobj(r.raw, f)   
-def find_cart_id(event):
+
+def download(cart_id) -> None:
+    output_filename = os.path.join('media', f'cart_{cart_id}.gif')
+
+    # No need to redownload. Save resources on tic80.com.
+    if os.path.exists(output_filename):
+        return
+
+    url = f'https://tic80.com/play?cart={cart_id}'
+    req = requests.get(url)
+    html = req.content
+
+    cover_image_url = find_cover_image_url(html)
+
+    img_resp = requests.get(cover_image_url, stream=True)
+    if img_resp.status_code != 200:
+        return
+
+    with open(output_filename, 'wb') as f:
+        img_resp.raw.decode_content = True
+        shutil.copyfileobj(img_resp.raw, f)
+
+
+def find_cover_image_url(html) -> Optional[str]:
+    soup = BeautifulSoup(html, 'html5lib')
+    img = soup.find('meta', {'property': 'og:image'})
+    return img.attrs.get('content')
+
+
+def find_cart_ids(event) -> Iterator[str]:
     for phase in event['phases']:
         for entry in phase['entries']:
-            yield entry.get('tic80_cart_id', None)
+            cart_id = entry.get('tic80_cart_id')
+            if cart_id:
+                yield cart_id
+
 
 def create_cache(event):
-    tic80_carts = [ cart_id for cart_id in find_cart_id(event) if cart_id]
-    for cart_id in tic80_carts:
+    for cart_id in find_cart_ids(event):
         download(cart_id)
