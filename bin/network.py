@@ -1,28 +1,37 @@
+from __future__ import annotations
 from pathlib import Path
 import sys
+from typing import Iterator
 
 sys.path.append('.')
 from generator.files import load_json_files
 from generator.handles import get_handle_from_id
 
 
-print("source,target")
+def get_opponent_pairs(path: Path) -> Iterator[tuple[str, str]]:
+    for data in load_json_files(path):
+        for phase in data['phases']:
+            entries = phase['entries']
+            for a in entries:
+                for b in entries:
+                    if a != b:
+                        handle_a = get_handle(a['handle'])
+                        handle_b = get_handle(b['handle'])
+                        if handle_a != handle_b:
+                            yield handle_a, handle_b
 
-for data in load_json_files(Path('data')):
-    for p in data['phases']:
-        for e in p['entries']:
-            for f in p['entries']:
-                if e != f:
-                    e_handle = e['handle'].get('demozoo_id')
-                    if e_handle:
-                        e_handle = get_handle_from_id(e_handle).lower()
-                    else :
-                        e_handle = e['handle']['name'].lower()
 
-                    f_handle = f['handle'].get('demozoo_id')
-                    if f_handle:
-                        f_handle = get_handle_from_id(f_handle).lower()
-                    else :
-                        f_handle = f['handle']['name'].lower()
-                    if f_handle != e_handle:
-                        print(f"{e_handle},{f_handle}")
+def get_handle(handle_dict: dict) -> str:
+    demozoo_id = handle_dict.get('demozoo_id')
+    if demozoo_id:
+        return get_handle_from_id(demozoo_id).lower()
+    else:
+        return handle_dict['name'].lower()
+
+
+if __name__ == '__main__':
+    path = Path('data')
+
+    print('source,target')
+    for opponent1, opponent2 in get_opponent_pairs(path):
+        print(f'{opponent1},{opponent2}')
