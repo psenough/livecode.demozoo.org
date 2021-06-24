@@ -22,11 +22,13 @@ HTML_PATH = Path('.')
 
 def load_past_events():
     events = load_json_files(DATA_PATH)
+    events = sorted(events, key=lambda a: a['title'])
     return sorted(events, key=lambda a: a['started'], reverse=True)
 
 
 def load_future_events():
     events = load_json_files(DATA_PATH / 'future')
+    events = sorted(events, key=lambda a: a['title'])
     return sorted(events, key=lambda a: a['started'], reverse=False)
 
 
