@@ -1,11 +1,15 @@
-import json
-import glob
-import codecs
+from pathlib import Path
+import sys
+
+sys.path.append('.')
+from generator.files import load_json_files
+
 import handle_manager as handle_manager
+
+
 print("source,target")
-files = glob.glob('data/*.json')
-for f in files :
-    data = json.load(codecs.open(f,'r','utf-8'))
+
+for data in load_json_files(Path('data')):
     for p in data['phases']:
         for e in p['entries']:
             for f in p['entries']:
@@ -15,7 +19,7 @@ for f in files :
                         e_handle = handle_manager.get_handle_from_id(e_handle).lower()
                     else :
                         e_handle = e['handle']['name'].lower()
-                    
+
                     f_handle = f['handle'].get('demozoo_id')
                     if f_handle:
                         f_handle = handle_manager.get_handle_from_id(f_handle).lower()
