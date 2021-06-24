@@ -20,27 +20,28 @@ DATA_PATH = Path('data')
 HTML_PATH = Path('.')
 
 
-# Use 'started' date to sort from latest to oldest
-data = sorted(
-    load_json_files(DATA_PATH),
-    key=lambda a: a['started'],
-    reverse=True,
-)
+def load_past_events():
+    events = load_json_files(DATA_PATH)
+    return sorted(events, key=lambda a: a['started'], reverse=True)
 
-data_future = sorted(
-    load_json_files(DATA_PATH / 'future'),
-    key=lambda a: a['started'],
-    reverse=False,
-)
+
+def load_future_events():
+    events = load_json_files(DATA_PATH / 'future')
+    return sorted(events, key=lambda a: a['started'], reverse=False)
+
+
+past_events = load_past_events()
+future_events = load_future_events()
+
 
 # Generate cache for shadertoy overview and tic80 overview
-for d in data:
+for d in past_events:
     download_shadertoy_overview.create_cache(d)
     download_tic80_cart_overview.create_cache(d)
 
 # For keeping page not overloaded, we divide per year, which mean 1 year = 1 page to generate
 # As it's sorted reverse, it's should go from current year to previous year
-grouped_per_year = grouped(data, key=lambda a: a['started'][0:4])
+grouped_per_year = grouped(past_events, key=lambda a: a['started'][0:4])
 
 # The current year will be index.html, others will be %Y.html
 menu_year_navigation = []
@@ -79,7 +80,7 @@ staff_page = defaultdict(lambda: defaultdict(list))
 performer_data = defaultdict(dict)
 
 # Iteration over all the event, id is used to group entries per event per performer
-for id, d in enumerate(data):
+for id, d in enumerate(past_events):
     for p in d['phases']:
         for e in p["entries"]:
             e['event_name'] = d['title']
@@ -152,7 +153,7 @@ render_html_file(
     'upcoming.html',
     {
         'menu_year_navigation': menu_year_navigation,
-        'data': data_future,
+        'data': future_events,
     },
     HTML_PATH / 'upcoming.html',
 )
