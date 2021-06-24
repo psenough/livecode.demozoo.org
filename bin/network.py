@@ -3,7 +3,7 @@ import glob
 import codecs
 import handle_manager as handle_manager
 print("source,target")
-files = glob.glob('data/*')
+files = glob.glob('data/*.json')
 for f in files :
     data = json.load(codecs.open(f,'r','utf-8'))
     for p in data['phases']:

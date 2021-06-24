@@ -2,7 +2,7 @@ import json
 import glob
 import codecs
 
-files = glob.glob('data/*')
+files = glob.glob('data/*.json')
 for f in files :
     data = json.load(codecs.open(f,'r','utf-8'))
     for p in data['phases']:
