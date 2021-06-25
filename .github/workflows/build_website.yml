@@ -48,14 +48,17 @@ jobs:
       #    mkdir -p doc
       #    generate-schema-doc meta/event.schema.json doc/schema.html
 
-      - run: git branch -f gh-pages-test HEAD
-      - run: git checkout gh-pages-test
+      - run: |
+          git branch -f gh-pages-test HEAD
+          git checkout gh-pages-test
 
       - name: Save commit hash to file
         # Provide a change so upcoming Git commands `add` and `commit` succeed.
         run: git rev-parse --short HEAD > commithash.txt
 
       - run: |
+          git config user.name "Pages Publisher"
+          git config user.email "pages.publisher@users.noreply.github.com"
           git add -A
           git commit -m "Publish"
           git push -f origin `git subtree split -P generator`:refs/heads/github-pages-test
