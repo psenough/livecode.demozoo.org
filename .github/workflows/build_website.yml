@@ -58,8 +58,8 @@ jobs:
         run: git rev-parse --short HEAD > public/commithash.txt
 
       - run: |
-          git config user.name "Pages Publisher"
-          git config user.email "pages.publisher@users.noreply.github.com"
+          git config user.name "Publisher"
+          git config user.email "publisher@users.noreply.github.com"
           git add -A
           git commit -m "Publish"
           git push -f origin `git subtree split -P public`:refs/heads/gh-pages
