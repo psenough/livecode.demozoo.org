@@ -53,8 +53,9 @@ jobs:
           git checkout gh-pages
 
       - name: Save commit hash to file
-        # Provide a change so upcoming Git commands `add` and `commit` succeed.
-        run: git rev-parse --short HEAD > commithash.txt
+        # Provide a change in case regeneration didn't change any files
+        # so upcoming Git commands `add` and `commit` succeed.
+        run: git rev-parse --short HEAD > public/commithash.txt
 
       - run: |
           git config user.name "Pages Publisher"
