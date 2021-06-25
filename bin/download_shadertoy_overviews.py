@@ -3,11 +3,8 @@ from typing import Iterator
 import urllib.request
 
 
-MEDIA_PATH = Path('public/media')
-
-
-def download(shadertoy_id: str) -> None:
-    output_filename = MEDIA_PATH / f'{shadertoy_id}.jpg'
+def download(shadertoy_id: str, target_path: Path) -> None:
+    output_filename = target_path / f'{shadertoy_id}.jpg'
 
     # No need to redownload. Save resources on Shadertoy.
     if output_filename.exists():
@@ -25,7 +22,7 @@ def find_shadertoy_urls(event) -> Iterator[str]:
                 yield url
 
 
-def create_cache(event) -> None:
+def create_cache(event, target_path: Path) -> None:
     for url in find_shadertoy_urls(event):
         shadertoy_id = url.split('/')[-1]
-        download(shadertoy_id)
+        download(shadertoy_id, target_path)

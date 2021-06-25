@@ -19,8 +19,9 @@ import download_shadertoy_overviews as download_shadertoy_overview
 import download_tic80_cart_overview as download_tic80_cart_overview
 
 
-DATA_PATH = Path('public/data')
-HTML_PATH = Path('public')
+PUBLIC_PATH = Path('public')
+DATA_PATH = PUBLIC_PATH / 'data'
+HTML_PATH = PUBLIC_PATH
 
 
 def load_past_events():
@@ -39,11 +40,11 @@ def presort_events(events):
     return sorted(events, key=lambda e: (e['title'], e['type']))
 
 
-def cache_past_events(past_events) -> None:
+def cache_past_events(past_events, target_path: Path) -> None:
     """Generate cache for Shadertoy and TIC-80 overviews."""
     for event in past_events:
-        download_shadertoy_overview.create_cache(event)
-        download_tic80_cart_overview.create_cache(event)
+        download_shadertoy_overview.create_cache(event, target_path)
+        download_tic80_cart_overview.create_cache(event, target_path)
 
 
 def generate_md5_hash(s: str) -> str:
@@ -180,7 +181,7 @@ if __name__ == '__main__':
     past_events = load_past_events()
     future_events = load_future_events()
 
-    cache_past_events(past_events)
+    cache_past_events(past_events, PUBLIC_PATH / 'media')
 
     menu_year_navigation, pages_year = collect_years(past_events)
 

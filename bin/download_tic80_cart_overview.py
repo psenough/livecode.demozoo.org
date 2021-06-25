@@ -7,11 +7,8 @@ from bs4 import BeautifulSoup
 import requests
 
 
-MEDIA_PATH = Path('public/media')
-
-
-def download(cart_id) -> None:
-    output_filename = MEDIA_PATH / f'cart_{cart_id}.gif'
+def download(cart_id: str, target_path: Path) -> None:
+    output_filename = target_path / f'cart_{cart_id}.gif'
 
     # No need to redownload. Save resources on tic80.com.
     if output_filename.exists():
@@ -46,6 +43,6 @@ def find_cart_ids(event) -> Iterator[str]:
                 yield cart_id
 
 
-def create_cache(event):
+def create_cache(event, target_path: Path):
     for cart_id in find_cart_ids(event):
-        download(cart_id)
+        download(cart_id, target_path)
