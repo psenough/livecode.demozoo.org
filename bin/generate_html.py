@@ -4,13 +4,14 @@ from __future__ import annotations
 from collections import defaultdict
 import hashlib
 from pathlib import Path
+import sys
 from typing import Any
 
 from ebbe import grouped, with_is_first
 
-import sys
+ROOT_PATH = (Path(__file__).parent / '..').absolute()
+sys.path.append(str(ROOT_PATH))
 
-sys.path.append('.')
 from generator.files import load_json_files
 from generator.handles import get_handle_from_id
 from generator.html import render_html_file
@@ -19,7 +20,7 @@ import download_shadertoy_overviews as download_shadertoy_overview
 import download_tic80_cart_overview as download_tic80_cart_overview
 
 
-PUBLIC_PATH = Path('public')
+PUBLIC_PATH = ROOT_PATH / Path('public')
 DATA_PATH = PUBLIC_PATH / 'data'
 HTML_PATH = PUBLIC_PATH
 
