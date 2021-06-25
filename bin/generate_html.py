@@ -126,7 +126,9 @@ def collect_performers_data(
     return performer_pages, staff_page, performer_data
 
 
-def render_event_html_page(events, menu_year_navigation, html_filename) -> None:
+def render_event_html_page(
+    filename: Path, events, menu_year_navigation
+) -> None:
     render_html_file(
         'index.html',
         {
@@ -136,33 +138,35 @@ def render_event_html_page(events, menu_year_navigation, html_filename) -> None:
             'hash_handle': hash_handle,
             'handles_demozoo': get_handle_from_id,  # Resolution will be done at render time
         },
-        HTML_PATH / html_filename,
+        filename,
     )
 
 
-def render_about_html_page(menu_year_navigation) -> None:
+def render_about_html_page(filename: Path, menu_year_navigation) -> None:
     render_html_file(
         'about.html',
         {
             'menu_year_navigation': menu_year_navigation,
         },
-        HTML_PATH / 'about.html',
+        filename,
     )
 
 
-def render_upcoming_html_page(menu_year_navigation, future_events) -> None:
+def render_upcoming_html_page(
+    filename: Path, menu_year_navigation, future_events
+) -> None:
     render_html_file(
         'upcoming.html',
         {
             'menu_year_navigation': menu_year_navigation,
             'data': future_events,
         },
-        HTML_PATH / 'upcoming.html',
+        filename,
     )
 
 
 def render_performer_html_page(
-    html_path: Path, entries, performer_data, staff_data, menu_year_navigation
+    filename: Path, entries, performer_data, staff_data, menu_year_navigation
 ) -> None:
     render_html_file(
         'performer.html',
@@ -173,7 +177,7 @@ def render_performer_html_page(
             'menu_year_navigation': menu_year_navigation,
             'handles_demozoo': get_handle_from_id,
         },
-        html_path / f'{pid}.html',
+        filename,
     )
 
 
@@ -190,17 +194,21 @@ if __name__ == '__main__':
     )
 
     for html_filename, events in pages_year:
-        render_event_html_page(events, menu_year_navigation, html_filename)
+        render_event_html_page(
+            HTML_PATH / html_filename, events, menu_year_navigation
+        )
 
-    render_about_html_page(menu_year_navigation)
-    render_upcoming_html_page(menu_year_navigation, future_events)
+    render_about_html_page(HTML_PATH / 'about.html', menu_year_navigation)
+    render_upcoming_html_page(
+        HTML_PATH / 'upcoming.html', menu_year_navigation, future_events
+    )
 
     performers_path = HTML_PATH / 'performers'
     performers_path.mkdir(exist_ok=True)
 
     for pid in performer_data.keys():
         render_performer_html_page(
-            performers_path,
+            performers_path / f'{pid}.html',
             performer_pages[pid],
             performer_data[pid],
             staff_page[pid],
