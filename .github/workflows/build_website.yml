@@ -48,8 +48,8 @@ jobs:
       #    mkdir -p doc
       #    generate-schema-doc meta/event.schema.json doc/schema.html
 
-      - name: Switch to branch to publish to
-        run: git checkout gh-pages
+      - run: git branch -f gh-pages-test HEAD
+      - run: git checkout gh-pages-test
 
       - name: Save commit hash to file
         # Provide a change so upcoming Git commands `add` and `commit` succeed.
@@ -60,4 +60,4 @@ jobs:
           # The arguments for the `git add` command (see the paragraph below for more info)
           # Default: '.'
           add: "."
-          branch: gh-pages
+          branch: gh-pages-test
