@@ -36,10 +36,6 @@ jobs:
         run: |
           data/*.json | xargs -I % bin/workflows/validate.sh %
 
-      - name: Save commit hash to file
-        # Provide a change to add so upcoming the commit to the `gh-pages` succeeds.
-        run: git rev-parse --short HEAD > commithash.txt
-
       - name: Download Images
         run: python bin/download_shadertoy_overviews.py
 
@@ -51,6 +47,13 @@ jobs:
       #  run: |
       #    mkdir -p doc
       #    generate-schema-doc meta/event.schema.json doc/schema.html
+
+      - name: Switch to branch to publish to
+        run: git checkout gh-pages
+
+      - name: Save commit hash to file
+        # Provide a change so upcoming Git commands `add` and `commit` succeed.
+        run: git rev-parse --short HEAD > commithash.txt
 
       - uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
         with:
