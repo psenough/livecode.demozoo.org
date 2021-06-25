@@ -20,19 +20,14 @@ import download_shadertoy_overviews as download_shadertoy_overview
 import download_tic80_cart_overview as download_tic80_cart_overview
 
 
-PUBLIC_PATH = ROOT_PATH / Path('public')
-DATA_PATH = PUBLIC_PATH / 'data'
-HTML_PATH = PUBLIC_PATH
-
-
-def load_past_events():
-    events = load_json_files(DATA_PATH)
+def load_past_events(data_path: Path):
+    events = load_json_files(data_path)
     events = presort_events(events)
     return sorted(events, key=lambda e: e['started'], reverse=True)
 
 
-def load_future_events():
-    events = load_json_files(DATA_PATH / 'future')
+def load_future_events(data_path: Path):
+    events = load_json_files(data_path / 'future')
     events = presort_events(events)
     return sorted(events, key=lambda e: e['started'], reverse=False)
 
@@ -183,10 +178,14 @@ def render_performer_html_page(
 
 
 if __name__ == '__main__':
-    past_events = load_past_events()
-    future_events = load_future_events()
+    public_path = ROOT_PATH / Path('public')
+    data_path = public_path / 'data'
+    html_path = public_path
 
-    cache_past_events(past_events, PUBLIC_PATH / 'media')
+    past_events = load_past_events(data_path)
+    future_events = load_future_events(data_path)
+
+    cache_past_events(past_events, public_path / 'media')
 
     menu_year_navigation, pages_year = collect_years(past_events)
 
@@ -196,15 +195,15 @@ if __name__ == '__main__':
 
     for html_filename, events in pages_year:
         render_event_html_page(
-            HTML_PATH / html_filename, events, menu_year_navigation
+            html_path / html_filename, events, menu_year_navigation
         )
 
-    render_about_html_page(HTML_PATH / 'about.html', menu_year_navigation)
+    render_about_html_page(html_path / 'about.html', menu_year_navigation)
     render_upcoming_html_page(
-        HTML_PATH / 'upcoming.html', menu_year_navigation, future_events
+        html_path / 'upcoming.html', menu_year_navigation, future_events
     )
 
-    performers_path = HTML_PATH / 'performers'
+    performers_path = html_path / 'performers'
     performers_path.mkdir(exist_ok=True)
 
     for pid in performer_data.keys():
