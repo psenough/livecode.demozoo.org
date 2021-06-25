@@ -161,7 +161,7 @@ def render_upcoming_html_page(menu_year_navigation, future_events) -> None:
 
 
 def render_performer_html_page(
-    entries, performer_data, staff_data, menu_year_navigation
+    html_path: Path, entries, performer_data, staff_data, menu_year_navigation
 ) -> None:
     render_html_file(
         'performer.html',
@@ -172,7 +172,7 @@ def render_performer_html_page(
             'menu_year_navigation': menu_year_navigation,
             'handles_demozoo': get_handle_from_id,
         },
-        HTML_PATH / 'performers' / f'{pid}.html',
+        html_path / f'{pid}.html',
     )
 
 
@@ -194,8 +194,12 @@ if __name__ == '__main__':
     render_about_html_page(menu_year_navigation)
     render_upcoming_html_page(menu_year_navigation, future_events)
 
+    performers_path = HTML_PATH / 'performers'
+    performers_path.mkdir(exist_ok=True)
+
     for pid in performer_data.keys():
         render_performer_html_page(
+            performers_path,
             performer_pages[pid],
             performer_data[pid],
             staff_page[pid],

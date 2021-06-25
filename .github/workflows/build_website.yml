@@ -20,7 +20,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-
       - uses: actions/checkout@v2
 
       - name: Set up Python 3.8
@@ -46,7 +45,6 @@ jobs:
 
       - name: Generate HTML
         run: |
-          mkdir -p performers
           python bin/generate_html.py
 
       #- name: Generate Doc
