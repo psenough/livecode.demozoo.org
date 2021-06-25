@@ -55,9 +55,14 @@ jobs:
         # Provide a change so upcoming Git commands `add` and `commit` succeed.
         run: git rev-parse --short HEAD > commithash.txt
 
-      - uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
-        with:
-          # The arguments for the `git add` command (see the paragraph below for more info)
-          # Default: '.'
-          add: "."
-          branch: gh-pages-test
+      - run: |
+          git add -A
+          git commit -m "Publish"
+          git push -f origin `git subtree split -P generator`:refs/heads/github-pages-test
+
+      #- uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
+      #   with:
+      #     # The arguments for the `git add` command (see the paragraph below for more info)
+      #     # Default: '.'
+      #     add: "."
+      #     branch: gh-pages-test
