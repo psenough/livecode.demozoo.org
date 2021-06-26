@@ -3,7 +3,7 @@
     "started": "2021-06-26",
     "date": "26 Jun 2021",
     "type": "Shader Jam",
-    "vod": "",
+    "vod": "https://www.youtube.com/watch?v=-1XC1ikDLgI",
     "software_used":   [
         {
             "name": "Bonzomatic",
@@ -84,7 +84,7 @@
                         "name": "Exca",
                         "demozoo_id": 35897
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/flj3DK",
 					"preview_image": null,
                     "source_file": null
                 },
