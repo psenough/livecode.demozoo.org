@@ -105,7 +105,7 @@
     function update(){
         let usernames = document.getElementById("usernames").value;
         console.log(
-            queueMicrotask(() =>  usernames.split('\n')
+            queueMicrotask(() =>  usernames.split(',')
             .map(x=>x.trim())
             .forEach(x=> addColumn(x)))
         );
@@ -554,7 +554,7 @@ textarea {
         <details>
             <summary>Informations</summary>
             host  + room (ws://host.tld/room) : 
-            <input type="text" id="host" value="ws://drone.alkama.com:9000/roomtest/" />
+            <input type="text" id="host" value="ws://drone.alkama.com:9000/inerciaroyale/" />
             <br/>
             <button onclick="clearStorage();">Clear Storage</button>
             Currently have in localStorage : 
