@@ -12,7 +12,7 @@ def write_text_file(path: Path, data: str) -> None:
 def save_json(data: Any, path: Path, **kwargs) -> None:
     """Save data as JSON to file."""
     with path.open(encoding='utf-8') as f:
-        json.dump(data, **kwargs)
+        json.dump(data, f, **kwargs)
 
 
 def load_json(path: Path) -> Any:
