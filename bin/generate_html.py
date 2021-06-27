@@ -23,6 +23,7 @@ import download_tic80_cart_overview as download_tic80_cart_overview
 class NavItem:
     href: str
     label: str
+    item_id: str
 
 
 def load_past_events(data_path: Path):
@@ -61,8 +62,10 @@ def collect_years(events, nav_items: list[NavItem]) -> list[tuple[str, list]]:
         html_filename = f'{year}.html'
         if is_first:
             html_filename = 'index.html'
-        nav_items.append(NavItem(href=html_filename, label=year))
-        pages_year.append((html_filename, events))
+        nav_items.append(
+            NavItem(href=html_filename, label=year, item_id=f'events-{year}')
+        )
+        pages_year.append((html_filename, year, events))
 
     return pages_year
 
@@ -112,13 +115,14 @@ def collect_performers_data(
 
 
 def render_event_html_page(
-    filename: Path, events, nav_items: list[NavItem]
+    filename: Path, year: str, events, nav_items: list[NavItem]
 ) -> None:
     render_html_file(
         'index.html',
         {
-            'events': events,
             'nav_items': nav_items,
+            'current_nav_item_id': f'events-{year}',
+            'events': events,
             'current_filename': filename.name,
             'hash_handle': hash_handle,
             'handles_demozoo': get_handle_from_id,  # Resolution will be done at render time
@@ -132,6 +136,7 @@ def render_about_html_page(filename: Path, nav_items: list[NavItem]) -> None:
         'about.html',
         {
             'nav_items': nav_items,
+            'current_nav_item_id': 'about',
         },
         filename,
     )
@@ -144,6 +149,7 @@ def render_upcoming_html_page(
         'upcoming.html',
         {
             'nav_items': nav_items,
+            'current_nav_item_id': 'upcoming',
             'data': future_events,
         },
         filename,
@@ -185,15 +191,19 @@ def main() -> None:
     pages_year = collect_years(past_events, nav_items)
     nav_items.sort(key=lambda item: item.label)
 
-    nav_items.insert(0, NavItem(href='about.html', label='About'))
-    nav_items.append(NavItem(href='upcoming.html', label='Upcoming'))
+    nav_items.insert(
+        0, NavItem(href='about.html', label='About', item_id='about')
+    )
+    nav_items.append(
+        NavItem(href='upcoming.html', label='Upcoming', item_id='upcoming')
+    )
 
     performer_pages, staff_page, performer_data = collect_performers_data(
         past_events
     )
 
-    for html_filename, events in pages_year:
-        render_event_html_page(html_path / html_filename, events, nav_items)
+    for html_filename, year, events in pages_year:
+        render_event_html_page(html_path / html_filename, year, events, nav_items)
 
     render_about_html_page(html_path / 'about.html', nav_items)
     render_upcoming_html_page(

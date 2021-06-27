@@ -1,14 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="w-100 text-center">
-        <div>
-            {% for item in nav_items %}
-                {% if current_filename == item.href %}
-                    {% set nav_style = "btn-info" %}
-                {% else %}
-                    {% set nav_style = "btn-outline-secondary text-light" %}
-                {% endif %}
-                <a href="{{ SITE_ROOT }}/{{ item.href }}" class="px-2 py-1 mb-2 btn btn-lg {{ nav_style }}">{{ item.label }}</a>
-            {% endfor %}
-        </div>
-    </div>
+  <div class="w-100 text-center">
+    {% for item in nav_items %}
+    <a href="{{ SITE_ROOT }}/{{ item.href }}" class="px-2 py-1 mb-2 btn btn-lg {% if current_nav_item_id == item.item_id %}btn-info{% else %}btn-outline-secondary text-light{% endif %}">{{ item.label }}</a>
+    {% endfor %}
+  </div>
 </nav>
