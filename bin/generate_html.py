@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from pathlib import Path
 import sys
 
-from ebbe import grouped, with_is_first
+from ebbe import grouped
 
 ROOT_PATH = (Path(__file__).parent / '..').absolute()
 sys.path.append(str(ROOT_PATH))
@@ -52,16 +52,16 @@ def update_image_cache(events, target_path: Path) -> None:
 def collect_years(events, nav_items: list[NavItem]) -> list[tuple[str, list]]:
     # For keeping page not overloaded, we divide per year, which means
     # 1 year = 1 page to generate.
-    # As it's sorted in reverse order, it should go from current year to
-    # previous year.
-    grouped_per_year = grouped(events, key=lambda a: a['started'][0:4])
+    # As it's sorted in reverse order, it should go from latest to oldest year.
+    grouped_per_year = grouped(events, key=lambda a: int(a['started'][0:4]))
 
-    # The current year will be `index.html`, others will be `%Y.html`.
+    years = set(grouped_per_year.keys())
+    latest_year = max(years)
+
+    # The latest year will be `index.html`, others will be `%Y.html`.
     pages_year = []
-    for is_first, (year, events) in with_is_first(grouped_per_year.items()):
-        html_filename = f'{year}.html'
-        if is_first:
-            html_filename = 'index.html'
+    for year, events in grouped_per_year.items():
+        html_filename = 'index.html' if year == latest_year else f'{year}.html'
         nav_items.append(
             NavItem(href=html_filename, label=year, item_id=f'events-{year}')
         )
