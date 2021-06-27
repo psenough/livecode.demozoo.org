@@ -183,6 +183,10 @@ def main() -> None:
     nav_items = []
 
     pages_year = collect_years(past_events, nav_items)
+    nav_items.sort(key=lambda item: item.label)
+
+    nav_items.insert(0, NavItem(href='about.html', label='About'))
+    nav_items.append(NavItem(href='upcoming.html', label='Upcoming'))
 
     performer_pages, staff_page, performer_data = collect_performers_data(
         past_events
