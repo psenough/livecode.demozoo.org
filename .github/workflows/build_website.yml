@@ -36,18 +36,26 @@ jobs:
         run: |
           public/data/*.json | xargs -I % bin/workflows/validate.sh %
 
-      - name: Download Images
-        run: python bin/download_shadertoy_overviews.py
+      - name: Configure Git
+        run: |
+          git config user.name "Publisher"
+          git config user.email "publisher@users.noreply.github.com"
+
+      - name: Update image cache
+        run: |
+          python bin/update_image_cache.py
+          git add public/images
+          git commit -m "Update image cache"
 
       - name: Generate HTML
-        run: |
-          python bin/generate_html.py
+        run: python bin/generate_html.py
 
       #- name: Generate Doc
       #  run: |
       #    mkdir -p doc
       #    generate-schema-doc meta/event.schema.json doc/schema.html
 
+      - name: Switch to branch 'gh-pages'
       - run: |
           git branch -f gh-pages HEAD
           git checkout gh-pages
@@ -58,8 +66,6 @@ jobs:
         run: git rev-parse --short HEAD > public/commithash.txt
 
       - run: |
-          git config user.name "Publisher"
-          git config user.email "publisher@users.noreply.github.com"
           git add -A
           git commit -m "Publish"
           git push -f origin `git subtree split -P public`:refs/heads/gh-pages
