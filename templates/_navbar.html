@@ -1,16 +1,16 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="w-100 text-center">
         <div>
-            <a href="{{SITE_ROOT}}/about.html" class="px-2 py-1 mb-2 btn btn-lg btn-outline-secondary text-light">About</a>
-            {% for href,year in menu_year_navigation|sort(attribute='1') %}
-                {% if current_filename == href %}
+            <a href="{{ SITE_ROOT }}/about.html" class="px-2 py-1 mb-2 btn btn-lg btn-outline-secondary text-light">About</a>
+            {% for item in nav_items|sort(attribute='label') %}
+                {% if current_filename == item.href %}
                     {% set nav_style = "btn-info" %}
                 {% else %}
                     {% set nav_style = "btn-outline-secondary text-light" %}
                 {% endif %}
-                <a href="{{SITE_ROOT}}/{{href}}" class="px-2 py-1 mb-2 btn btn-lg {{nav_style}}">{{year}}</a>
+                <a href="{{ SITE_ROOT }}/{{ item.href }}" class="px-2 py-1 mb-2 btn btn-lg {{ nav_style }}">{{ item.label }}</a>
             {% endfor %}
-            <a href="{{SITE_ROOT}}/upcoming.html" class="px-2 py-1 mb-2 btn btn-lg btn-success">Upcoming</a>
+            <a href="{{ SITE_ROOT }}/upcoming.html" class="px-2 py-1 mb-2 btn btn-lg btn-success">Upcoming</a>
         </div>
     </div>
 </nav>

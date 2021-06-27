@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 from collections import defaultdict
+from dataclasses import dataclass
 from pathlib import Path
 import sys
 
@@ -16,6 +17,12 @@ from generator.html import render_html_file
 
 import download_shadertoy_overviews as download_shadertoy_overview
 import download_tic80_cart_overview as download_tic80_cart_overview
+
+
+@dataclass(frozen=True)
+class NavItem:
+    href: str
+    label: str
 
 
 def load_past_events(data_path: Path):
@@ -41,26 +48,23 @@ def update_image_cache(events, target_path: Path) -> None:
         download_tic80_cart_overview.create_cache(event, target_path)
 
 
-def collect_years(
-    past_events,
-) -> tuple[list[tuple[str, str]], list[tuple[str, list]]]:
+def collect_years(events, nav_items: list[NavItem]) -> list[tuple[str, list]]:
     # For keeping page not overloaded, we divide per year, which means
     # 1 year = 1 page to generate.
     # As it's sorted in reverse order, it should go from current year to
     # previous year.
-    grouped_per_year = grouped(past_events, key=lambda a: a['started'][0:4])
+    grouped_per_year = grouped(events, key=lambda a: a['started'][0:4])
 
     # The current year will be `index.html`, others will be `%Y.html`.
-    menu_year_navigation = []
     pages_year = []
     for is_first, (year, events) in with_is_first(grouped_per_year.items()):
         html_filename = f'{year}.html'
         if is_first:
             html_filename = 'index.html'
-        menu_year_navigation.append((html_filename, year))
+        nav_items.append(NavItem(href=html_filename, label=year))
         pages_year.append((html_filename, events))
 
-    return menu_year_navigation, pages_year
+    return pages_year
 
 
 def collect_performers_data(
@@ -108,13 +112,13 @@ def collect_performers_data(
 
 
 def render_event_html_page(
-    filename: Path, events, menu_year_navigation
+    filename: Path, events, nav_items: list[NavItem]
 ) -> None:
     render_html_file(
         'index.html',
         {
             'events': events,
-            'menu_year_navigation': menu_year_navigation,
+            'nav_items': nav_items,
             'current_filename': filename.name,
             'hash_handle': hash_handle,
             'handles_demozoo': get_handle_from_id,  # Resolution will be done at render time
@@ -123,23 +127,23 @@ def render_event_html_page(
     )
 
 
-def render_about_html_page(filename: Path, menu_year_navigation) -> None:
+def render_about_html_page(filename: Path, nav_items: list[NavItem]) -> None:
     render_html_file(
         'about.html',
         {
-            'menu_year_navigation': menu_year_navigation,
+            'nav_items': nav_items,
         },
         filename,
     )
 
 
 def render_upcoming_html_page(
-    filename: Path, menu_year_navigation, future_events
+    filename: Path, nav_items: list[NavItem], future_events
 ) -> None:
     render_html_file(
         'upcoming.html',
         {
-            'menu_year_navigation': menu_year_navigation,
+            'nav_items': nav_items,
             'data': future_events,
         },
         filename,
@@ -147,7 +151,11 @@ def render_upcoming_html_page(
 
 
 def render_performer_html_page(
-    filename: Path, entries, performer_data, staff_data, menu_year_navigation
+    filename: Path,
+    entries,
+    performer_data,
+    staff_data,
+    nav_items: list[NavItem],
 ) -> None:
     render_html_file(
         'performer.html',
@@ -155,7 +163,7 @@ def render_performer_html_page(
             'entries': entries,
             'performer_data': performer_data,
             'staff_data': staff_data,
-            'menu_year_navigation': menu_year_navigation,
+            'nav_items': nav_items,
             'handles_demozoo': get_handle_from_id,
         },
         filename,
@@ -172,20 +180,20 @@ def main() -> None:
 
     update_image_cache(past_events, public_path / 'media')
 
-    menu_year_navigation, pages_year = collect_years(past_events)
+    nav_items = []
+
+    pages_year = collect_years(past_events, nav_items)
 
     performer_pages, staff_page, performer_data = collect_performers_data(
         past_events
     )
 
     for html_filename, events in pages_year:
-        render_event_html_page(
-            html_path / html_filename, events, menu_year_navigation
-        )
+        render_event_html_page(html_path / html_filename, events, nav_items)
 
-    render_about_html_page(html_path / 'about.html', menu_year_navigation)
+    render_about_html_page(html_path / 'about.html', nav_items)
     render_upcoming_html_page(
-        html_path / 'upcoming.html', menu_year_navigation, future_events
+        html_path / 'upcoming.html', nav_items, future_events
     )
 
     performers_path = html_path / 'performers'
@@ -197,7 +205,7 @@ def main() -> None:
             performer_pages[pid],
             performer_data[pid],
             staff_page[pid],
-            menu_year_navigation,
+            nav_items,
         )
 
 
