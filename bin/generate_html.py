@@ -79,6 +79,59 @@ def assemble_nav_items(years: set[int], latest_year: int) -> list[NavItem]:
     )
 
 
+def generate_html_pages(
+    html_path: Path,
+    past_events: list[dict],
+    future_events: list[dict],
+    events_by_year: dict[int, list[dict]],
+    latest_year: int,
+    nav_items: list[NavItem],
+) -> None:
+    generate_events_html_pages(
+        html_path, events_by_year, latest_year, nav_items
+    )
+
+    render_about_html_page(html_path / 'about.html', nav_items)
+    render_upcoming_html_page(
+        html_path / 'upcoming.html', nav_items, future_events
+    )
+
+    generate_performers_html_pages(html_path, past_events, nav_items)
+
+
+def generate_events_html_pages(
+    html_path: Path,
+    events_by_year: dict[int, list[dict]],
+    latest_year,
+    nav_items: list[NavItem],
+) -> None:
+    for year, events in events_by_year.items():
+        html_filename = get_events_html_filename(year, latest_year)
+        render_event_html_page(
+            html_path / html_filename, year, events, nav_items
+        )
+
+
+def generate_performers_html_pages(
+    html_path: Path, past_events: list[dict], nav_items: list[NavItem]
+) -> None:
+    performer_pages, staff_page, performer_data = collect_performers_data(
+        past_events
+    )
+
+    performers_path = html_path / 'performers'
+    performers_path.mkdir(exist_ok=True)
+
+    for pid in performer_data.keys():
+        render_performer_html_page(
+            performers_path / f'{pid}.html',
+            performer_pages[pid],
+            performer_data[pid],
+            staff_page[pid],
+            nav_items,
+        )
+
+
 def collect_performers_data(
     events,
 ) -> tuple[defaultdict, defaultdict, defaultdict]:
@@ -202,32 +255,14 @@ def main() -> None:
 
     nav_items = assemble_nav_items(years, latest_year)
 
-    for year, events in events_by_year.items():
-        html_filename = get_events_html_filename(year, latest_year)
-        render_event_html_page(
-            html_path / html_filename, year, events, nav_items
-        )
-
-    render_about_html_page(html_path / 'about.html', nav_items)
-    render_upcoming_html_page(
-        html_path / 'upcoming.html', nav_items, future_events
+    generate_html_pages(
+        html_path,
+        past_events,
+        future_events,
+        events_by_year,
+        latest_year,
+        nav_items,
     )
-
-    performer_pages, staff_page, performer_data = collect_performers_data(
-        past_events
-    )
-
-    performers_path = html_path / 'performers'
-    performers_path.mkdir(exist_ok=True)
-
-    for pid in performer_data.keys():
-        render_performer_html_page(
-            performers_path / f'{pid}.html',
-            performer_pages[pid],
-            performer_data[pid],
-            staff_page[pid],
-            nav_items,
-        )
 
 
 if __name__ == '__main__':
