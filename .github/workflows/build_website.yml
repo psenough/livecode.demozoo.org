@@ -56,7 +56,7 @@ jobs:
       #    generate-schema-doc meta/event.schema.json doc/schema.html
 
       - name: Switch to branch 'gh-pages'
-      - run: |
+        run: |
           git branch -f gh-pages HEAD
           git checkout gh-pages
 
