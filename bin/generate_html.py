@@ -180,7 +180,7 @@ def render_event_html_page(
     filename: Path, year: str, events, nav_items: list[NavItem]
 ) -> None:
     render_html_file(
-        'index.html',
+        'events.html',
         {
             'nav_items': nav_items,
             'current_nav_item_id': f'events-{year}',
