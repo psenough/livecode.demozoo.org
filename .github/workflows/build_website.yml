@@ -46,6 +46,7 @@ jobs:
           python bin/update_image_cache.py
           git add public/media
           git commit -m "Update image cache"
+          git push origin main
 
       - name: Generate HTML
         run: python bin/generate_html.py
