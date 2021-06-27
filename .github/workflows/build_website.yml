@@ -44,7 +44,7 @@ jobs:
       - name: Update image cache
         run: |
           python bin/update_image_cache.py
-          git add public/images
+          git add public/media
           git commit -m "Update image cache"
 
       - name: Generate HTML
