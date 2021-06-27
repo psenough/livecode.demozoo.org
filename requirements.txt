@@ -6,7 +6,6 @@ certifi==2020.12.5
 chardet==4.0.0
 click==7.1.2
 dataclasses-json==0.5.2
-ebbe==1.6.0
 html5lib==1.1
 htmlmin==0.1.12
 idna==2.10

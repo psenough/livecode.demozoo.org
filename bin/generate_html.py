@@ -6,8 +6,6 @@ from dataclasses import dataclass
 from pathlib import Path
 import sys
 
-from ebbe import grouped
-
 ROOT_PATH = (Path(__file__).parent / '..').absolute()
 sys.path.append(str(ROOT_PATH))
 
@@ -52,7 +50,11 @@ def update_image_cache(events, target_path: Path) -> None:
 def group_events_by_year(events) -> dict[int, list[dict]]:
     # For keeping page not overloaded, we divide per year, which means
     # 1 year = 1 page to generate.
-    return grouped(events, key=lambda a: int(a['started'][0:4]))
+    events_by_year = defaultdict(list)
+    for event in events:
+        year = int(event['started'][0:4])
+        events_by_year[year].append(event)
+    return events_by_year
 
 
 def get_events_html_filename(year: int, latest_year: int) -> str:
