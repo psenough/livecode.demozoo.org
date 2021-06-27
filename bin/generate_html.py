@@ -34,9 +34,9 @@ def presort_events(events):
     return sorted(events, key=lambda e: (e['title'], e['type']))
 
 
-def cache_past_events(past_events, target_path: Path) -> None:
-    """Generate cache for Shadertoy and TIC-80 overviews."""
-    for event in past_events:
+def update_image_cache(events, target_path: Path) -> None:
+    """Update cache of Shadertoy and TIC-80 overview images."""
+    for event in events:
         download_shadertoy_overview.create_cache(event, target_path)
         download_tic80_cart_overview.create_cache(event, target_path)
 
@@ -64,7 +64,7 @@ def collect_years(
 
 
 def collect_performers_data(
-    past_events,
+    events,
 ) -> tuple[defaultdict, defaultdict, defaultdict]:
     # List of all profile with their entries
     performer_pages: defaultdict = defaultdict(lambda: defaultdict(list))
@@ -76,9 +76,9 @@ def collect_performers_data(
     performer_data: defaultdict = defaultdict(dict)
 
     # Iteration over all the event, id is used to group entries per event per performer
-    for id, d in enumerate(past_events):
+    for id, d in enumerate(events):
         for p in d['phases']:
-            for e in p["entries"]:
+            for e in p['entries']:
                 e['event_name'] = d['title']
                 e['phase_name'] = p['title']
                 e['event_started'] = d['started']
@@ -115,7 +115,7 @@ def render_event_html_page(
         {
             'events': events,
             'menu_year_navigation': menu_year_navigation,
-            'current_filename': html_filename,
+            'current_filename': filename.name,
             'hash_handle': hash_handle,
             'handles_demozoo': get_handle_from_id,  # Resolution will be done at render time
         },
@@ -162,7 +162,7 @@ def render_performer_html_page(
     )
 
 
-if __name__ == '__main__':
+def main() -> None:
     public_path = ROOT_PATH / Path('public')
     data_path = public_path / 'data'
     html_path = public_path
@@ -170,7 +170,7 @@ if __name__ == '__main__':
     past_events = load_past_events(data_path)
     future_events = load_future_events(data_path)
 
-    cache_past_events(past_events, public_path / 'media')
+    update_image_cache(past_events, public_path / 'media')
 
     menu_year_navigation, pages_year = collect_years(past_events)
 
@@ -199,3 +199,7 @@ if __name__ == '__main__':
             staff_page[pid],
             menu_year_navigation,
         )
+
+
+if __name__ == '__main__':
+    main()
