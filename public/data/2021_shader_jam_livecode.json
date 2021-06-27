@@ -72,7 +72,7 @@
                         "name": "VjPyree",
                         "demozoo_id": null
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/stjGDV",
 					"preview_image": "livecode_demozoo_org_release_party_2021/grabber_inerciaroyale_VjPyree.jpg",
                     "source_file": "shader_file_sources/livecode_demozoo_org_release_party_2021/grabber_inerciaroyale_VjPyree.glsl"
                 },
@@ -228,7 +228,7 @@
                         "name": "butadiene",
                         "demozoo_id": null
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/fl23DK",
 					"preview_image": "livecode_demozoo_org_release_party_2021/grabber_inerciaroyale_butadiene.jpg",
                     "source_file": "shader_file_sources/livecode_demozoo_org_release_party_2021/grabber_inerciaroyale_butadiene.glsl"
                 },
