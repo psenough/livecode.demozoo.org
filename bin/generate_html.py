@@ -2,10 +2,8 @@
 
 from __future__ import annotations
 from collections import defaultdict
-import hashlib
 from pathlib import Path
 import sys
-from typing import Any
 
 from ebbe import grouped, with_is_first
 
@@ -13,7 +11,7 @@ ROOT_PATH = (Path(__file__).parent / '..').absolute()
 sys.path.append(str(ROOT_PATH))
 
 from generator.files import load_json_files
-from generator.handles import get_handle_from_id
+from generator.handles import get_handle_from_id, hash_handle
 from generator.html import render_html_file
 
 import download_shadertoy_overviews as download_shadertoy_overview
@@ -41,19 +39,6 @@ def cache_past_events(past_events, target_path: Path) -> None:
     for event in past_events:
         download_shadertoy_overview.create_cache(event, target_path)
         download_tic80_cart_overview.create_cache(event, target_path)
-
-
-def generate_md5_hash(s: str) -> str:
-    """Generate MD5 hex digest."""
-    return hashlib.md5(s.encode('utf-8')).hexdigest()
-
-
-def hash_handle(handle_obj: dict[str, Any]) -> str:
-    """Get either Demozoo id or, if not found, generate hash from name."""
-    return (
-        handle_obj.get('demozoo_id')
-        or generate_md5_hash(handle_obj['name'].lower())[:6]
-    )
 
 
 def collect_years(
