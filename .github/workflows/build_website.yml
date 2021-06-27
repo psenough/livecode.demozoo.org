@@ -48,6 +48,11 @@ jobs:
           # Only commit and push if there are staged changes.
           git diff --staged --quiet || git commit -m "Update image cache" && git push origin main
 
+      - name: Switch to branch 'gh-pages'
+        run: |
+          git branch -f gh-pages HEAD
+          git checkout gh-pages
+
       - name: Generate HTML
         run: python bin/generate_html.py
 
@@ -55,11 +60,6 @@ jobs:
       #  run: |
       #    mkdir -p doc
       #    generate-schema-doc meta/event.schema.json doc/schema.html
-
-      - name: Switch to branch 'gh-pages'
-        run: |
-          git branch -f gh-pages HEAD
-          git checkout gh-pages
 
       - name: Save commit hash to file
         # Provide a change in case regeneration didn't change any files
