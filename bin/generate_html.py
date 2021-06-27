@@ -49,25 +49,32 @@ def update_image_cache(events, target_path: Path) -> None:
         download_tic80_cart_overview.create_cache(event, target_path)
 
 
-def collect_years(events, nav_items: list[NavItem]) -> list[tuple[str, list]]:
+def group_events_by_year(events) -> dict[int, list[dict]]:
     # For keeping page not overloaded, we divide per year, which means
     # 1 year = 1 page to generate.
-    # As it's sorted in reverse order, it should go from latest to oldest year.
-    grouped_per_year = grouped(events, key=lambda a: int(a['started'][0:4]))
+    return grouped(events, key=lambda a: int(a['started'][0:4]))
 
-    years = set(grouped_per_year.keys())
-    latest_year = max(years)
 
+def get_events_html_filename(year: int, latest_year: int) -> str:
     # The latest year will be `index.html`, others will be `%Y.html`.
-    pages_year = []
-    for year, events in grouped_per_year.items():
-        html_filename = 'index.html' if year == latest_year else f'{year}.html'
-        nav_items.append(
-            NavItem(href=html_filename, label=year, item_id=f'events-{year}')
-        )
-        pages_year.append((html_filename, year, events))
+    return 'index.html' if year == latest_year else f'{year}.html'
 
-    return pages_year
+
+def assemble_nav_items(years: set[int], latest_year: int) -> list[NavItem]:
+    nav_items_events = [
+        NavItem(
+            href=get_events_html_filename(year, latest_year),
+            label=str(year),
+            item_id=f'events-{year}',
+        )
+        for year in sorted(years)
+    ]
+
+    return (
+        [NavItem(href='about.html', label='About', item_id='about')]
+        + nav_items_events
+        + [NavItem(href='upcoming.html', label='Upcoming', item_id='upcoming')]
+    )
 
 
 def collect_performers_data(
@@ -186,28 +193,26 @@ def main() -> None:
 
     update_image_cache(past_events, public_path / 'media')
 
-    nav_items = []
+    events_by_year = group_events_by_year(past_events)
 
-    pages_year = collect_years(past_events, nav_items)
-    nav_items.sort(key=lambda item: item.label)
+    years = set(events_by_year.keys())
+    latest_year = max(years)
 
-    nav_items.insert(
-        0, NavItem(href='about.html', label='About', item_id='about')
-    )
-    nav_items.append(
-        NavItem(href='upcoming.html', label='Upcoming', item_id='upcoming')
-    )
+    nav_items = assemble_nav_items(years, latest_year)
 
-    performer_pages, staff_page, performer_data = collect_performers_data(
-        past_events
-    )
-
-    for html_filename, year, events in pages_year:
-        render_event_html_page(html_path / html_filename, year, events, nav_items)
+    for year, events in events_by_year.items():
+        html_filename = get_events_html_filename(year, latest_year)
+        render_event_html_page(
+            html_path / html_filename, year, events, nav_items
+        )
 
     render_about_html_page(html_path / 'about.html', nav_items)
     render_upcoming_html_page(
         html_path / 'upcoming.html', nav_items, future_events
+    )
+
+    performer_pages, staff_page, performer_data = collect_performers_data(
+        past_events
     )
 
     performers_path = html_path / 'performers'
