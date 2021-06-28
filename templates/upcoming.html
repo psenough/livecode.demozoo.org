@@ -7,7 +7,7 @@
 {%- endblock %}
 
 {% block body %}
-{#
+
   <div class="container mt-4 mb-4">
     <div class="row">
       <div class="col-md-12 mt-5 mb-5">
@@ -30,7 +30,7 @@
       <div class="col-lg-7 overflow-hidden">
         <ul>
           {% for key,value in event['informations'].items()|sort()%}
-          {%if value %}
+          {% if value %}
           <li><small class="text-muted">{{ key }} - {{ value }}</small></li>
           {% endif %}
           {% endfor %}
@@ -41,13 +41,5 @@
     {% endfor %}
 
   </div>
-#}
 
-  <div class="container mt-4 mb-4">
-    <div class="row">
-      <div class="col-md-12 mt-5 mb-5">
-        <div style="margin: auto; text-align: center; width: 100%;"><img style="height: auto; max-width: 100%;" src="./media/flyer_210626.png"></div>
-      </div>
-    </div>
-  </div>
 {%- endblock %}
