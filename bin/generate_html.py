@@ -10,7 +10,7 @@ ROOT_PATH = (Path(__file__).parent / '..').absolute()
 sys.path.append(str(ROOT_PATH))
 
 from generator.files import load_json_files
-from generator.handles import _get_demozoo_id, get_handle_from_id, hash_handle
+from generator.handles import _get_demozoo_id, hash_handle
 from generator.handles import load_db as load_demozoo_handles_db
 from generator.handles import update_db as update_demozoo_handles_db
 from generator.html import render_html_file
@@ -210,7 +210,6 @@ def render_event_html_page(
             'events': events,
             'current_filename': filename.name,
             'hash_handle': hash_handle,
-            'handles_demozoo': get_handle_from_id,  # Resolution will be done at render time
         },
         filename,
     )
@@ -256,7 +255,6 @@ def render_performer_html_page(
             'staff_data': staff_data,
             'nav_items': nav_items,
             'current_nav_item_id': None,
-            'handles_demozoo': get_handle_from_id,
         },
         filename,
     )
