@@ -41,6 +41,13 @@ jobs:
           git config user.name "Publisher"
           git config user.email "publisher@users.noreply.github.com"
 
+      - name: Update Demozoo handles database
+        run: |
+          python bin/update_demozoo_handles_db.py
+          git add cache/handles.json
+          # Only commit and push if there are staged changes.
+          git diff --staged --quiet || git commit -m "Update Demozoo handles" && git push origin main
+
       - name: Update image cache
         run: |
           python bin/update_image_cache.py
