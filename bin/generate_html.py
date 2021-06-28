@@ -11,6 +11,7 @@ sys.path.append(str(ROOT_PATH))
 
 from generator.files import load_json_files
 from generator.handles import get_handle_from_id, hash_handle
+from generator.handles import update_db as update_demozoo_handles_db
 from generator.html import render_html_file
 
 import download_shadertoy_overviews as download_shadertoy_overview
@@ -246,6 +247,8 @@ def main() -> None:
 
     past_events = load_past_events(data_path)
     future_events = load_future_events(data_path)
+
+    update_demozoo_handles_db(past_events + future_events)
 
     update_image_cache(past_events, public_path / 'media')
 
