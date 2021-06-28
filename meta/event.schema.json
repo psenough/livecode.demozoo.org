@@ -21,6 +21,14 @@
       "description": "Type of event",
       "type": "string"
     },
+	"website": {
+      "description": "Website of the event",
+      "type": "string"
+    },
+	"flyer": {
+      "description": "Flyer link of the event",
+      "type": "string"
+    },
     "vod": {
       "description": "Link if VOD",
       "type": ["string", "null"]

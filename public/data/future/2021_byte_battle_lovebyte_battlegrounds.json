@@ -2,12 +2,8 @@
     "title": "Lovebyte Battlegrounds",
     "started": "2021-09-25",
     "type": "Byte Battle",
-    "informations": [ {
-        "official_website": "http://battle.lovebyte.party/",
-        "chat_system": "",
-        "online_stream":"",
-        "flyer": ""
-    } ],
+    "website": "http://battle.lovebyte.party/",
+    "flyer": "",
     "software_used": [ {
 		"name": "TIC-80",
 		"url": "https://tic80.com/",

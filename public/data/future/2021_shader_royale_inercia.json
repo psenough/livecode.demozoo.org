@@ -2,12 +2,8 @@
     "title": "Inércia",
     "started": "2021-10-30",
     "type": "Shader Royale",
-    "informations": {
-        "official_website": "http://inercia.pt",
-        "chat_system": "",
-        "online_stream":"",
-        "flyer": ""
-    },
+    "website": "http://inercia.pt",
+    "flyer": "",
     "software_used": [ {
         "name": "Bonzomatic",
         "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",

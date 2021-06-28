@@ -7,17 +7,13 @@
 {%- endblock %}
 
 {% block body %}
-
-  <div class="container mt-4 mb-4">
+  <div class="container mt-4 mb-4 bg-dark">
     <div class="row">
       <div class="col-md-12 mt-5 mb-5">
         <h1>Upcoming Events</h1>
       </div>
     </div>
-  </div>
-
-  <div class="container">
-
+ 
     {% for event in data %}
     <div class="row">
       <hr>
@@ -25,15 +21,18 @@
         {{ event['started'] }}
       </div>
       <div class="col-lg-3">
-        <span class="text-info">{{ event['title'] }}</span>
+			{% if event['title'] %}
+				<span class="text-info">{{ event['title'] }}</span>
+			{% endif %}
       </div>
       <div class="col-lg-7 overflow-hidden">
         <ul>
-          {% for key,value in event['informations'].items()|sort()%}
-          {% if value %}
-          <li><small class="text-muted">{{ key }} - {{ value }}</small></li>
+          {% if event['type'] %}
+          <li><small class="text-muted">Type: {{ event['type'] }}</small></li>
           {% endif %}
-          {% endfor %}
+		  {% if event['website'] %}
+          <li><small class="text-muted">Website: <a href="{{ event['website'] }}">{{ event['title'] }}</a></small></li>
+          {% endif %}
         </ul>
       </div>
 
