@@ -2,13 +2,13 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from jinja2 import Environment, FileSystemLoader, Template
+from jinja2 import Environment, FileSystemLoader, StrictUndefined, Template
 
 
 def create_env(searchpath: Path) -> Environment:
     """Create template environment that loads from file system."""
     loader = FileSystemLoader(searchpath=searchpath)
-    return Environment(loader=loader)
+    return Environment(loader=loader, undefined=StrictUndefined)
 
 
 ENV = create_env(Path('templates'))
