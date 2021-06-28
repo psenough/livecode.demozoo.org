@@ -27,14 +27,14 @@
       <div class="col-md-4">
         <div class="card border-secondary entry bg-dark mb-5">
           <h5 class="p-2">{% if entry['phase_name'] %} {{entry['phase_name']}} {% endif %}</h5>
-          {%if entry['preview_image'] %}
+          {% if entry.get('preview_image') %}
           {# We check if there is a preview image provided. Works only if image is part of the project under ./media #}
           <img src="../media/{{entry['preview_image']}}" class="card-img-top" />
-          {% elif entry['shadertoy_url']%}
+          {% elif entry.get('shadertoy_url') %}
           {# Backup plan if shadertoy is available, there is a change a preview has been generated #}
           {% set stid = entry['shadertoy_url'].split('/') %}
           <img src="../media/{{stid[-1]}}.jpg" class="card-img-top" />
-          {% elif entry['tic80_cart_id'] %}
+          {% elif entry.get('tic80_cart_id') %}
           {# Could be a Bytebattle entry (only TIC80) #}
           <img src="../media/cart_{{entry['tic80_cart_id'] }}.gif" class="card-img-top" />
           {% else %}
@@ -43,7 +43,7 @@
           {% endif %}
           <div class="card-body bg-dark text-light">
             <h5 class="card-title">
-              {% if entry['rank'] %}
+              {% if entry.get('rank') %}
               <span class="badge bg-light text-dark">
 
                 {% if entry['rank'] == 1 %} <i class="fas fa-medal"></i>{% endif %}
@@ -55,20 +55,20 @@
 
             </h5>
             <p class="card-text text-secondary">
-              {% if entry['points'] %}
+              {% if entry.get('points') %}
               points <span class="badge bg-dark text-warning">
                 {{entry['points']}}
               </span>
               <br>
               {% endif %}
 
-              {% if entry['vod'] %}
+              {% if entry.get('vod') %}
               <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{entry['vod']}}">
                 <i class="fas fa-video"></i>
               </a>
               {% endif %}
 
-              {% if entry['shadertoy_url']%}
+              {% if entry.get('shadertoy_url') %}
               Shader toy
               <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{entry['shadertoy_url']}}">
                 <img height="12" width="auto" class="shadertoy_logo" src="../assets/img/shadertoy.png">
@@ -76,7 +76,7 @@
               <br>
               {% endif %}
 
-              {% if entry['tic80_cart_id']%}
+              {% if entry.get('tic80_cart_id') %}
               TIC80.com
               <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="https://tic80.com/play?cart={{entry['tic80_cart_id']}}">
                 <i class="fas fa-link"></i>
@@ -84,7 +84,7 @@
               <br>
               {% endif %}
 
-              {% if entry['source_file'] %}
+              {% if entry.get('source_file') %}
               Source Code
               <a class="ps-2 bg-dark text-info" target="_blank" href="{{entry['source_file']}}">
                 <i class="fas fa-download"></i>
