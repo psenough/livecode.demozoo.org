@@ -24,15 +24,6 @@ def _generate_md5_hash(s: str) -> str:
     return hashlib.md5(s.encode('utf-8')).hexdigest()
 
 
-def get_handle_from_id(demozoo_id) -> str:
-    """Return name for id as found on Demozoo."""
-    demozoo_id = str(demozoo_id)  # Make sure the id is interpreted as a string.
-
-    db = load_json(HANDLES_DB_FILE)
-
-    return db[demozoo_id]
-
-
 def load_db() -> dict[str, str]:
     return load_json(HANDLES_DB_FILE)
 
