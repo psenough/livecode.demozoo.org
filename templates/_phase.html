@@ -44,13 +44,11 @@
             </span>
           {% endif %}
 
-          <span>
-            {% if entry['handle'] %}
-            <a class="link-light" href="./performers/{{ hash_handle(entry['handle']) }}.html">
-              {{ entry['handle'].get('demozoo_name') or entry['handle'].name }}
-            </a>
-            {% endif %}
-          </span>
+          {% if entry['handle'] %}
+          <a class="link-light ms-1" href="./performers/{{ hash_handle(entry['handle']) }}.html">
+            {{ entry['handle'].get('demozoo_name') or entry['handle'].name }}
+          </a>
+          {% endif %}
 
         </h5>
 
