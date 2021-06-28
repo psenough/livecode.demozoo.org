@@ -1,6 +1,6 @@
 {% extends '_base.html' %}
 {% set page_title = 'Upcoming events' %}
-{% set SITE_ROOT="." %}
+{% set SITE_ROOT = '.' %}
 
 {% block head %}
     <meta name="description" content="Live coding performance future events">
@@ -15,28 +15,28 @@
       </div>
     </div>
   </div>
-  
+
   <div class="container">
 
     {% for event in data %}
     <div class="row">
       <hr>
       <div class="col-lg-2">
-        {{event['started']}}
+        {{ event['started'] }}
       </div>
       <div class="col-lg-3">
-        <span class="text-info">{{event['title']}}</span>
+        <span class="text-info">{{ event['title'] }}</span>
       </div>
       <div class="col-lg-7 overflow-hidden">
         <ul>
           {% for key,value in event['informations'].items()|sort()%}
           {%if value %}
-          <li><small class="text-muted">{{key}} - {{value}}</small></li>
+          <li><small class="text-muted">{{ key }} - {{ value }}</small></li>
           {% endif %}
           {% endfor %}
         </ul>
       </div>
-      
+
     </div>
     {% endfor %}
 
@@ -46,7 +46,7 @@
   <div class="container mt-4 mb-4">
     <div class="row">
       <div class="col-md-12 mt-5 mb-5">
-        <div style="width: 100%; margin: auto; text-align: center;"><img style="max-width: 100%; height: auto" src="./media/flyer_210626.png" /></div>
+        <div style="margin: auto; text-align: center; width: 100%;"><img style="height: auto; max-width: 100%;" src="./media/flyer_210626.png"></div>
       </div>
     </div>
   </div>

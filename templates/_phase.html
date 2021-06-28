@@ -2,77 +2,78 @@
 <h3>
   {{ phase['title'] }}
   {% if phase.get('vod') %}
-  <a class="btn btn-sm btn-info" target="_blank" href="{{phase['vod']}}">
-    <i class="fas fa-video"></i>
-  </a>
+  <a class="btn btn-sm btn-info" target="_blank" href="{{ phase['vod'] }}"><i class="fas fa-video"></i></a>
   {% endif %}
 </h3>
-
 {% endif %}
 
 <div class="row">
+
   {% for entry in phase['entries'] %}
   <div class="col-12 col-md-6 col-xl-3">
 
     <div class="card border-secondary mb-4 entry">
-      {% if entry.get('preview_image') %}
+
+    {% if entry.get('preview_image') %}
       {# We check if there is a preview image provided. Works only if image is part of the project under ./media #}
-      <img src="./media/{{entry['preview_image']}}" class="card-img-top"/>
-      {% elif entry.get('shadertoy_url') %}
+      <img src="./media/{{ entry['preview_image'] }}" class="card-img-top">
+    {% elif entry.get('shadertoy_url') %}
       {# Backup plan if shadertoy is available, there is a change a preview has been generated #}
       {% set stid = entry['shadertoy_url'].split('/') %}
-      <img src="./media/{{stid[-1]}}.jpg" class="card-img-top"/>
-      {% elif entry.get('tic80_cart_id') %}
+      <img src="./media/{{ stid[-1] }}.jpg" class="card-img-top">
+    {% elif entry.get('tic80_cart_id') %}
       {# Could be a Bytebattle entry (only TIC80) #}
-      <img src="./media/cart_{{entry['tic80_cart_id'] }}.gif" class="card-img-top"/>
-      {% else %}
+      <img src="./media/cart_{{ entry['tic80_cart_id'] }}.gif" class="card-img-top">
+    {% else %}
       {# No preview available so default image #}
-      <img src="./assets/img/image-not-found.png" class="card-img-top"/>
-      {% endif %}
+      <img src="./assets/img/image-not-found.png" class="card-img-top">
+    {% endif %}
+
       <div class="card-body bg-dark text-light">
+
         <h5 class="card-title">
+
           {% if entry.get('rank') %}
             <span class="badge bg-light text-dark">
-            {% if phase['entries']|length > 2 %} 
-              {% if entry['rank'] in [1,2,3] %} <i class="fas fa-medal"></i>{% endif %}
+            {% if phase['entries']|length > 2 %}
+              {% if entry['rank'] in [1, 2, 3] %} <i class="fas fa-medal"></i>{% endif %}
             {% else %}
-              {% if entry['rank'] == 1 %}  <i class="fas fa-medal"></i>{% endif %}
+              {% if entry['rank'] == 1 %} <i class="fas fa-medal"></i>{% endif %}
             {% endif %}
-            {{entry['rank']}}
-            
+            {{ entry['rank'] }}
             </span>
           {% endif %}
 
           <span>
             {% if entry['handle'] %}
-            <a class="link-light" href="./performers/{{hash_handle(entry['handle'])}}.html">
-              {% if entry['handle'].demozoo_id %} 
+            <a class="link-light" href="./performers/{{ hash_handle(entry['handle']) }}.html">
+              {% if entry['handle'].demozoo_id %}
                 {{ handles_demozoo(entry['handle'].demozoo_id) }}
               {% else %}
-                {{entry['handle'].name}}
+                {{ entry['handle'].name }}
               {% endif %}
             </a>
             {% endif %}
           </span>
 
         </h5>
+
         <p class="card-text text-secondary">
+
           {% if entry.get('points') %}
-            points <span class="badge bg-dark text-warning">
-              {{entry['points']}}
-            </span>
-            <br>
+          points <span class="badge bg-dark text-warning">{{ entry['points'] }}</span>
+          <br>
           {% endif %}
 
           {% if entry.get('vod') %}
-          <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{entry['vod']}}">
+          <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{ entry['vod'] }}">
             <i class="fas fa-video"></i>
           </a>
           {% endif %}
 
           {% if entry.get('shadertoy_url') %}
           Shadertoy
-          <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{entry['shadertoy_url']}}">
+          <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{ entry['shadertoy_url'] }}">
             <img height="12" width="auto" class="shadertoy_logo" src="./assets/img/shadertoy.png">
           </a>
           <br>
@@ -80,7 +81,7 @@
 
           {% if entry.get('tic80_cart_id') %}
           TIC80.com
-          <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="https://tic80.com/play?cart={{entry['tic80_cart_id']}}">
+          <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="https://tic80.com/play?cart={{ entry['tic80_cart_id'] }}">
             <i class="fas fa-link"></i>
           </a>
           <br>
@@ -88,7 +89,7 @@
 
           {% if entry.get('source_file') %}
           Source Code
-          <a class="ps-2 bg-dark text-info" target="_blank" href="{{entry['source_file']}}">
+          <a class="ps-2 bg-dark text-info" target="_blank" href="{{ entry['source_file'] }}">
             <i class="fas fa-download"></i>
           </a>
           {% endif %}
@@ -98,8 +99,8 @@
       </div>
     </div>
   </div>
-
   {% endfor %}
+
   {% set staffs = phase['staffs']%}
   {% include '_staff.html' %}
 </div>
