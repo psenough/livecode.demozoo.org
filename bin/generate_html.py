@@ -232,6 +232,7 @@ def render_performer_html_page(
             'performer_data': performer_data,
             'staff_data': staff_data,
             'nav_items': nav_items,
+            'current_nav_item_id': None,
             'handles_demozoo': get_handle_from_id,
         },
         filename,
