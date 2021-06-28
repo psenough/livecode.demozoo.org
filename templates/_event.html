@@ -24,7 +24,7 @@
 
       {% if event['vod'] %}
       <div class="text-secondary">
-        Video <a class="link-info" target="_blank" href="{{ event['vod'] }}"><i class="fas fa-video"></i></a>
+        Video <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{ event['vod'] }}"><i class="fas fa-video"></i></a>
       </div>
       {% endif %}
 
@@ -32,7 +32,7 @@
       <div class="text-secondary">
         Software used
         {% for software in event['software_used'] %}
-        <a class="link-info" target="_blank" href="{{ software['url'] }}">{{ software['name'] }}{% if software['version'] %} ({{ software['version'] }}){% endif %}</a>
+        <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{ software['url'] }}">{{ software['name'] }}{% if software['version'] %} ({{ software['version'] }}){% endif %}</a>
         {% endfor %}
       </div>
       {% endif %}
