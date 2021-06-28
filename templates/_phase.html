@@ -57,14 +57,17 @@
         <p class="card-text text-secondary">
 
           {% if entry.get('points') %}
-          points <span class="badge bg-dark text-warning">{{ entry['points'] }}</span>
+          Points
+          <span class="badge bg-dark text-warning">{{ entry['points'] }}</span>
           <br>
           {% endif %}
 
           {% if entry.get('vod') %}
+          Video
           <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{ entry['vod'] }}">
             <i class="fas fa-video"></i>
           </a>
+          <br>
           {% endif %}
 
           {% if entry.get('shadertoy_url') %}
