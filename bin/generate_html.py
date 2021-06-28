@@ -10,7 +10,8 @@ ROOT_PATH = (Path(__file__).parent / '..').absolute()
 sys.path.append(str(ROOT_PATH))
 
 from generator.files import load_json_files
-from generator.handles import get_handle_from_id, hash_handle
+from generator.handles import _get_demozoo_id, get_handle_from_id, hash_handle
+from generator.handles import load_db as load_demozoo_handles_db
 from generator.handles import update_db as update_demozoo_handles_db
 from generator.html import render_html_file
 
@@ -46,6 +47,27 @@ def update_image_cache(events, target_path: Path) -> None:
     for event in events:
         download_shadertoy_overview.create_cache(event, target_path)
         download_tic80_cart_overview.create_cache(event, target_path)
+
+
+def add_demozoo_names(events: list[dict]) -> None:
+    handles_db = load_demozoo_handles_db()
+
+    for event in events:
+        for phase in event.get('phases', []):
+            for entry in phase['entries']:
+                demozoo_id = _get_demozoo_id(entry)
+                if demozoo_id:
+                    entry['handle']['demozoo_name'] = handles_db[demozoo_id]
+
+            for staff in phase['staffs']:
+                demozoo_id = _get_demozoo_id(staff)
+                if demozoo_id:
+                    staff['handle']['demozoo_name'] = handles_db[demozoo_id]
+
+        for staff in event['staffs']:
+            demozoo_id = _get_demozoo_id(staff)
+            if demozoo_id:
+                staff['handle']['demozoo_name'] = handles_db[demozoo_id]
 
 
 def group_events_by_year(events) -> dict[int, list[dict]]:
@@ -251,6 +273,8 @@ def main() -> None:
     update_demozoo_handles_db(past_events + future_events)
 
     update_image_cache(past_events, public_path / 'media')
+
+    add_demozoo_names(past_events + future_events)
 
     events_by_year = group_events_by_year(past_events)
 

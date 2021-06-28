@@ -33,6 +33,10 @@ def get_handle_from_id(demozoo_id) -> str:
     return db[demozoo_id]
 
 
+def load_db() -> dict[str, str]:
+    return load_json(HANDLES_DB_FILE)
+
+
 def update_db(events: list) -> None:
     db = load_json(HANDLES_DB_FILE)
 
