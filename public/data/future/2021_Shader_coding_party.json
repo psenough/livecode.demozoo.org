@@ -1,0 +1,24 @@
+{
+    "title": "Free DJ-Shader codding party",
+    "started": "2021-07-23",
+    "type": "Shader Jam",
+    "website": "https://www.facebook.com/events/1407624289621640/",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Monsieur Soleil",
+                "demozoo_id": null
+            },
+            "job": "Organizers"
+        }
+    ]
+}
