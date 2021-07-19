@@ -1,0 +1,24 @@
+{
+    "title": "Chaos Constructions",
+    "started": "2021-08-28",
+    "type": "Shader Jam",
+    "website": "https://chaosconstructions.ru/en/start",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v12",
+            "version": "NuSan - v12",
+            "purpose": "Graphic"
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Random",
+                "demozoo_id": 15652
+            },
+            "job": "Organizers"
+        }
+    ]
+}
