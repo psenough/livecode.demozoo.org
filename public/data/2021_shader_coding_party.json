@@ -50,7 +50,7 @@
                         "name": "Exca",
                         "demozoo_id": 35897
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/NljXzh",
 					"preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_Exca.jpg",
                     "source_file": "shader_file_sources/shader_coding_party_2021/grabber_monsieursoleilHouse_Exca.glsl"
                 },
@@ -86,7 +86,7 @@
                         "name": "Tater",
                         "demozoo_id": null
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/NtjXzh",
 					"preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_Tater.jpg",
                     "source_file": "shader_file_sources/shader_coding_party_2021/grabber_monsieursoleilHouse_Tater.glsl"
                 },
