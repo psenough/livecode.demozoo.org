@@ -21,7 +21,7 @@
         <h5 class="card-title">
 
           {% if entry.get('rank') %}
-            <span class="badge bg-light text-dark">
+            <span class="badge bg-light text-dark me-1">
             {% if phase['entries']|length > 2 %}
               {% if entry['rank'] in [1, 2, 3] %} <i class="fas fa-medal"></i>{% endif %}
             {% else %}
@@ -32,7 +32,7 @@
           {% endif %}
 
           {% if entry['handle'] %}
-          <a class="link-light ms-1" href="./performers/{{ hash_handle(entry['handle']) }}.html">
+          <a class="link-light" href="./performers/{{ hash_handle(entry['handle']) }}.html">
             {{ entry['handle'].get('demozoo_name') or entry['handle'].name }}
           </a>
           {% endif %}
