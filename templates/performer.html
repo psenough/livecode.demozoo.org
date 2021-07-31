@@ -33,14 +33,14 @@
 
           <div class="card-body bg-dark text-light">
 
+            {% if entry.get('rank') %}
             <h5 class="card-title">
-              {% if entry.get('rank') %}
               <span class="badge bg-light text-dark">
                 {% if entry['rank'] == 1 %} <i class="fas fa-medal"></i>{% endif %}
                 {{ entry['rank'] }}
               </span>
-              {% endif %}
             </h5>
+            {% endif %}
 
             <div class="card-text text-secondary">
 {% include '_entry_attributes.html' %}
