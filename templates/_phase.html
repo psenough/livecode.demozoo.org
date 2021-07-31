@@ -1,5 +1,5 @@
 {% if phase['title'] %}
-<h3>
+<h3 class="mt-1 mb-3">
   {{ phase['title'] }}
   {% if phase.get('vod') %}
   <a class="btn btn-sm btn-info" target="_blank" href="{{ phase['vod'] }}"><i class="fas fa-video me-1"></i> Watch</a>
@@ -10,7 +10,7 @@
 <div class="row">
 
   {% for entry in phase['entries'] %}
-  <div class="col-12 col-md-6 col-xl-3 pb-4">
+  <div class="col-12 col-md-6 col-xl-3 mb-4">
 
     <div class="card border-secondary h-100 entry">
 
