@@ -39,61 +39,8 @@
 
         </h5>
 
-        <div class="card-text text-secondary">
-          <table class="mt-3">
-
-            {% if entry.get('points') %}
-            <tr>
-              <th>Points</th>
-              <td><span class="badge bg-dark text-warning">{{ entry['points'] }}</span></td>
-            </tr>
-            {% endif %}
-
-            {% if entry.get('vod') %}
-            <tr>
-              <th>Video</th>
-              <td>
-                <a class="ps-2 btn btn-sm btn-dark color-primary" target="_blank" href="{{ entry['vod'] }}">
-                  <i class="fas fa-video me-1"></i> Watch
-                </a>
-              </td>
-            </tr>
-            {% endif %}
-
-            {% if entry.get('shadertoy_url') %}
-            <tr>
-              <th>Shadertoy</th>
-              <td>
-                <a class="ps-2 btn btn-sm btn-dark color-primary" target="_blank" href="{{ entry['shadertoy_url'] }}">
-                  <img height="12" width="auto" class="shadertoy_logo me-1" src="./assets/img/shadertoy.png"> View
-                </a>
-              </td>
-            </tr>
-            {% endif %}
-
-            {% if entry.get('tic80_cart_id') %}
-            <tr>
-              <th>TIC80.com</th>
-              <td>
-                <a class="ps-2 btn btn-sm btn-dark color-primary" target="_blank" href="https://tic80.com/play?cart={{ entry['tic80_cart_id'] }}">
-                  <i class="fas fa-link me-1"></i> View
-                </a>
-              </td>
-            </tr>
-            {% endif %}
-
-            {% if entry.get('source_file') %}
-            <tr>
-              <th>Source Code</th>
-              <td>
-                <a class="ps-2 btn btn-sm btn-dark color-primary" target="_blank" href="{{ entry['source_file'] }}">
-                  <i class="fas fa-download me-1"></i> Download
-                </a>
-              </td>
-            </tr>
-            {% endif %}
-
-          </table>
+        <div class="card-text text-secondary mt-3">
+{% include '_entry_attributes.html' %}
         </div>
 
       </div>

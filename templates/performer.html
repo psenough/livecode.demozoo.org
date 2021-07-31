@@ -42,45 +42,9 @@
               {% endif %}
             </h5>
 
-            <p class="card-text text-secondary">
-
-              {% if entry.get('points') %}
-              points <span class="badge bg-dark text-warning">
-                {{ entry['points'] }}
-              </span>
-              <br>
-              {% endif %}
-
-              {% if entry.get('vod') %}
-              <a class="ps-2 btn btn-sm btn-dark color-primary" target="_blank" href="{{ entry['vod'] }}">
-                <i class="fas fa-video"></i>
-              </a>
-              {% endif %}
-
-              {% if entry.get('shadertoy_url') %}
-              Shader toy
-              <a class="ps-2 btn btn-sm btn-dark color-primary" target="_blank" href="{{ entry['shadertoy_url'] }}">
-                <img height="12" width="auto" class="shadertoy_logo" src="../assets/img/shadertoy.png">
-              </a>
-              <br>
-              {% endif %}
-
-              {% if entry.get('tic80_cart_id') %}
-              TIC80.com
-              <a class="ps-2 btn btn-sm btn-dark color-primary" target="_blank" href="https://tic80.com/play?cart={{ entry['tic80_cart_id'] }}">
-                <i class="fas fa-link"></i>
-              </a>
-              <br>
-              {% endif %}
-
-              {% if entry.get('source_file') %}
-              Source Code
-              <a class="ps-2 bg-dark color-primary" target="_blank" href="{{ entry['source_file'] }}">
-                <i class="fas fa-download"></i>
-              </a>
-              {% endif %}
-
-            </p>
+            <div class="card-text text-secondary">
+{% include '_entry_attributes.html' %}
+            </div>
 
           </div>
         </div>
