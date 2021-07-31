@@ -11,7 +11,7 @@
 
     <h1 class="mt-5 mb-5 text-center">
     {% if performer_data.get('demozoo_name') %}
-      {{ performer_data.demozoo_name }} <a class="link-info" target="_blank" href="https://demozoo.org/sceners/{{ performer_data.demozoo_id }}/"><img height="22" width="auto" src="../assets/img/demozoo.png"></a>
+      {{ performer_data.demozoo_name }} <a target="_blank" href="https://demozoo.org/sceners/{{ performer_data.demozoo_id }}/"><img height="22" width="auto" src="../assets/img/demozoo.png"></a>
     {% else %}
       {{ performer_data.name }}
     {% endif %}
@@ -19,7 +19,7 @@
 
     {% for _, entry_list in entries.items() %}
 
-    <h3 class="text-center text-info mb-2">{{ entry_list[0]['event_name'] }} - {{ entry_list[0]['event_started'][:4] }}</h3>
+    <h3 class="color-primary text-center mb-2">{{ entry_list[0]['event_name'] }} - {{ entry_list[0]['event_started'][:4] }}</h3>
 
     <div class="row d-flex justify-content-center">
 
@@ -65,14 +65,14 @@
               {% endif %}
 
               {% if entry.get('vod') %}
-              <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{ entry['vod'] }}">
+              <a class="ps-2 btn btn-sm btn-dark color-primary" target="_blank" href="{{ entry['vod'] }}">
                 <i class="fas fa-video"></i>
               </a>
               {% endif %}
 
               {% if entry.get('shadertoy_url') %}
               Shader toy
-              <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{ entry['shadertoy_url'] }}">
+              <a class="ps-2 btn btn-sm btn-dark color-primary" target="_blank" href="{{ entry['shadertoy_url'] }}">
                 <img height="12" width="auto" class="shadertoy_logo" src="../assets/img/shadertoy.png">
               </a>
               <br>
@@ -80,7 +80,7 @@
 
               {% if entry.get('tic80_cart_id') %}
               TIC80.com
-              <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="https://tic80.com/play?cart={{ entry['tic80_cart_id'] }}">
+              <a class="ps-2 btn btn-sm btn-dark color-primary" target="_blank" href="https://tic80.com/play?cart={{ entry['tic80_cart_id'] }}">
                 <i class="fas fa-link"></i>
               </a>
               <br>
@@ -88,7 +88,7 @@
 
               {% if entry.get('source_file') %}
               Source Code
-              <a class="ps-2 bg-dark text-info" target="_blank" href="{{ entry['source_file'] }}">
+              <a class="ps-2 bg-dark color-primary" target="_blank" href="{{ entry['source_file'] }}">
                 <i class="fas fa-download"></i>
               </a>
               {% endif %}
@@ -107,7 +107,7 @@
     {% for _, staff_list in staff_data.items() %}
     <div class="row mt-5">
       <div class="col-md-6">
-        <h5 class="text-info text-md-end">{{ staff_list[0]['event_name'] }} {{ staff_list[0]['event_started'][:4] }}</h5>
+        <h5 class="color-primary text-md-end">{{ staff_list[0]['event_name'] }} {{ staff_list[0]['event_started'][:4] }}</h5>
       </div>
       <div class="col-md-6">
         <ul>

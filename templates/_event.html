@@ -6,7 +6,7 @@
 
       <div class="row w-100">
         <div class="col-12 col-md-6 col-xl-4">
-          <span class="text-info text-nowrap">{{ event['type'] }}</span>
+          <span class="color-primary text-nowrap">{{ event['type'] }}</span>
         </div>
         <div class="col-12 col-md-6 col-xl-4">
           <span class="text-light">{{ event['title'] }}</span>
@@ -24,7 +24,7 @@
 
       {% if event['vod'] %}
       <div class="text-secondary">
-        Video <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{ event['vod'] }}"><i class="fas fa-video me-1"></i> Watch</a>
+        Video <a class="ps-2 btn btn-sm btn-dark color-primary" target="_blank" href="{{ event['vod'] }}"><i class="fas fa-video me-1"></i> Watch</a>
       </div>
       {% endif %}
 
@@ -32,7 +32,7 @@
       <div class="text-secondary">
         Software used
         {% for software in event['software_used'] %}
-        <a class="ps-2 btn btn-sm btn-dark text-info" target="_blank" href="{{ software['url'] }}">{{ software['name'] }}{% if software['version'] %} ({{ software['version'] }}){% endif %}</a>
+        <a class="ps-2 btn btn-sm btn-dark color-primary" target="_blank" href="{{ software['url'] }}">{{ software['name'] }}{% if software['version'] %} ({{ software['version'] }}){% endif %}</a>
         {% endfor %}
       </div>
       {% endif %}

@@ -313,6 +313,10 @@
 	}
 }
 
+:root {
+  --color-primary: #0dcaf0;
+}
+
 html,
 body {
 	font-family: "B612";
@@ -320,6 +324,19 @@ body {
 
 body {
     overflow-y: scroll;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-primary);
+  opacity: 0.8;
+}
+
+.color-primary {
+  color: var(--color-primary);
 }
 
 .colorcycle {
