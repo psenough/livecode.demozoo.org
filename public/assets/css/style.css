@@ -63,6 +63,7 @@ a:hover {
 }
 
 .card.entry {
+  overflow: hidden;
   transition: all 0.2s linear;
 }
 
