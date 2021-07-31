@@ -27,7 +27,7 @@
       <div class="col-md-4">
         <div class="card border-secondary entry bg-dark mb-5">
 
-          <h5 class="p-2">{% if entry['phase_name'] %} {{ entry['phase_name'] }} {% endif %}</h5>
+          {% if entry['phase_name'] %}<h5 class="p-2"> {{ entry['phase_name'] }}</h5>{% endif %}
 
 {% include '_entry_preview_image.html' %}
 
