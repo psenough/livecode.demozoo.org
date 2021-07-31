@@ -14,20 +14,7 @@
 
     <div class="card border-secondary h-100 entry">
 
-    {% if entry.get('preview_image') %}
-      {# We check if there is a preview image provided. Works only if image is part of the project under ./media #}
-      <img src="./media/{{ entry['preview_image'] }}" class="card-img-top">
-    {% elif entry.get('shadertoy_url') %}
-      {# Backup plan if shadertoy is available, there is a change a preview has been generated #}
-      {% set stid = entry['shadertoy_url'].split('/') %}
-      <img src="./media/{{ stid[-1] }}.jpg" class="card-img-top">
-    {% elif entry.get('tic80_cart_id') %}
-      {# Could be a Bytebattle entry (only TIC80) #}
-      <img src="./media/cart_{{ entry['tic80_cart_id'] }}.gif" class="card-img-top">
-    {% else %}
-      {# No preview available so default image #}
-      <img src="./assets/img/image-not-found.png" class="card-img-top">
-    {% endif %}
+{% include '_entry_preview_image.html' %}
 
       <div class="card-body bg-dark text-light">
 

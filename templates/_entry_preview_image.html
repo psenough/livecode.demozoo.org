@@ -1,0 +1,13 @@
+    {% if entry.get('preview_image') %}
+      {# We check if there is a preview image provided. Works only if image is part of the project under `/media`. #}
+      <img src="/media/{{ entry['preview_image'] }}" class="card-img-top">
+    {% elif entry.get('shadertoy_url') %}
+      {# Backup plan: If Shadertoy URL is available, expect that a preview image is available. #}
+      <img src="/media/{{ entry['shadertoy_url'].split('/')[-1] }}.jpg" class="card-img-top">
+    {% elif entry.get('tic80_cart_id') %}
+      {# Could be a Bytebattle entry (TIC-80 only). #}
+      <img src="/media/cart_{{ entry['tic80_cart_id'] }}.gif" class="card-img-top">
+    {% else %}
+      {# No preview available, use default image. #}
+      <img src="/assets/img/image-not-found.png" class="card-img-top">
+    {% endif %}
