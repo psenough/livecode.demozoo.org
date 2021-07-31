@@ -27,7 +27,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-					"preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_cosamentale.jpg",
+                    "preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_cosamentale.jpg",
                     "source_file": "shader_file_sources/shader_coding_party_2021/grabber_monsieursoleilHouse_cosamentale.glsl"
                 },
                 {
@@ -39,7 +39,7 @@
                         "demozoo_id": 121827
                     },
                     "shadertoy_url": null,
-					"preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_EmmazingGoose.jpg",
+                    "preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_EmmazingGoose.jpg",
                     "source_file": "shader_file_sources/shader_coding_party_2021/grabber_monsieursoleilHouse_EmmazingGoose.glsl"
                 },
                 {
@@ -51,7 +51,7 @@
                         "demozoo_id": 35897
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/NljXzh",
-					"preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_Exca.jpg",
+                    "preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_Exca.jpg",
                     "source_file": "shader_file_sources/shader_coding_party_2021/grabber_monsieursoleilHouse_Exca.glsl"
                 },
                 {
@@ -63,7 +63,7 @@
                         "demozoo_id": 56489
                     },
                     "shadertoy_url": null,
-					"preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_rimina.jpg",
+                    "preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_rimina.jpg",
                     "source_file": "shader_file_sources/shader_coding_party_2021/grabber_monsieursoleilHouse_rimina.glsl"
                 },
                 {
@@ -75,7 +75,7 @@
                         "demozoo_id": 119897
                     },
                     "shadertoy_url": null,
-					"preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_sp4ghet.jpg",
+                    "preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_sp4ghet.jpg",
                     "source_file": "shader_file_sources/shader_coding_party_2021/grabber_monsieursoleilHouse_sp4ghet.glsl"
                 },
                 {
@@ -87,7 +87,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/NtjXzh",
-					"preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_Tater.jpg",
+                    "preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_Tater.jpg",
                     "source_file": "shader_file_sources/shader_coding_party_2021/grabber_monsieursoleilHouse_Tater.glsl"
                 },
                 {
@@ -99,7 +99,7 @@
                         "demozoo_id": 121811
                     },
                     "shadertoy_url": null,
-					"preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_totetmatt.jpg",
+                    "preview_image": "shader_coding_party_2021/grabber_monsieursoleilHouse_totetmatt.jpg",
                     "source_file": "shader_file_sources/shader_coding_party_2021/grabber_monsieursoleilHouse_totetmatt.glsl"
                 }
             ],

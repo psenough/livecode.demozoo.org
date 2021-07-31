@@ -21,11 +21,11 @@
       "description": "Type of event",
       "type": "string"
     },
-	"website": {
+      "website": {
       "description": "Website of the event",
       "type": "string"
     },
-	"flyer": {
+      "flyer": {
       "description": "Flyer link of the event",
       "type": "string"
     },

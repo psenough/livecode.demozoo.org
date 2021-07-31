@@ -488,19 +488,19 @@
         }
     ],
     "staffs": [
-		{
-			"handle": {
-				"name": "Diffty",
-				"demozoo_id": 88962
-			},
-			"job": "Organizers"
-		},
-		{
+        {
+            "handle": {
+                "name": "Diffty",
+                "demozoo_id": 88962
+            },
+            "job": "Organizers"
+        },
+        {
             "handle": {
                 "name": "havoc",
                 "demozoo_id": 2419
             },
             "job": "Organizers"
         }
-	]
+    ]
 }

@@ -61,7 +61,7 @@ body {
 
 .badge {
     font-size: 100%;
-	margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
     margin-top: 0.5rem;
 }
 
@@ -92,7 +92,7 @@ body {
 }
 
 .examples {
-	padding: 1rem !important;
+    padding: 1rem !important;
 }
 
 .examples pre {
