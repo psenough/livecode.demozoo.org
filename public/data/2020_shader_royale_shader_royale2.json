@@ -106,7 +106,7 @@
                     "points": 150,
                     "handle": {
                         "name": "dok",
-                        "demozoo_id": 2485
+                        "demozoo_id": null
                     },
                     "shadertoy_url": null,
                     "preview_image": "shader_royale_2/grabber_inerciaroyale_dok.jpg",
