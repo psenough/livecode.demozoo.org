@@ -1,5 +1,5 @@
 {
-    "title": "Prevoke",
+    "title": "Pre Nevoke",
     "started": "2021-08-13",
     "date": "13 September 2021",
     "type": "Shader Jam",
@@ -16,7 +16,7 @@
     ],
     "phases": [
         {
-            "title": "Shaderjam 1",
+            "title": "Shader Jam",
             "vod": null,
             "entries": [
                 {
@@ -164,7 +164,15 @@
                     "source_file": "shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_wrighter.glsl"
                 }
             ],
-            "staffs": []
+            "staffs": [
+                 {
+                "handle": {
+                    "name": "Ronny Pries",
+                    "demozoo_id": 355
+                },
+                "job": "Dj Set"
+                }
+            ]
         }
     ],
     "staffs": [
