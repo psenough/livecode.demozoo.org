@@ -1,11 +1,11 @@
 {
-    "title": "Pre Nevoke",
+    "title": "Pre Névoke",
     "started": "2021-08-13",
-    "date": "13 September 2021",
+    "date": "13 August 2021",
     "type": "Shader Jam",
     "website": "",
-    "flyer": "",
-    "vod": "https://www.twitch.tv/videos/1117335222",
+    "flyer": "./media/pre_nevoke_jam_2021/prevoke_ps_1.png",
+    "vod": "https://youtu.be/rwmfyGrDZyw?t=991",
     "software_used": [
         {
             "name": "Bonzomatic",
