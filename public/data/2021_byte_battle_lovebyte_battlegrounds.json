@@ -667,8 +667,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/mantratronic_semi.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/mantratronic_semi.gif"
                 },
                 {
                     "id": 2,
@@ -680,8 +680,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/superogue_semi.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/superogue_semi.gif"
                 }
             ],
             "staffs": [
