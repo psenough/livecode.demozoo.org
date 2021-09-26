@@ -422,8 +422,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/mantratronic_quarter.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/mantratronic_quarter.gif"
                 },
                 {
                     "id": 2,
@@ -471,8 +471,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/pestis_quarter.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/pestis_quarter.gif"
                 },
                 {
                     "id": 2,
@@ -481,6 +481,55 @@
                     "handle": {
                         "name": "tomcat",
                         "demozoo_id": 8556
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": null,
+                    "preview_image": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter #3",
+            "vod": "",
+            "keyword": "Rainbow",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": null,
+                    "preview_image": null
+                },
+                {
+                    "id": 2,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jobe",
+                        "demozoo_id": null
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
