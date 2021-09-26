@@ -414,7 +414,7 @@
             "entries": [
                 {
                     "id": 1,
-                    "rank": null,
+                    "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "mantratronic",
@@ -427,7 +427,7 @@
                 },
                 {
                     "id": 2,
-                    "rank": null,
+                    "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "aldroid",
@@ -463,7 +463,7 @@
             "entries": [
                 {
                     "id": 1,
-                    "rank": null,
+                    "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "pestis",
@@ -476,7 +476,7 @@
                 },
                 {
                     "id": 2,
-                    "rank": null,
+                    "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "tomcat",
@@ -512,7 +512,7 @@
             "entries": [
                 {
                     "id": 1,
-                    "rank": null,
+                    "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "Gasman",
@@ -525,7 +525,7 @@
                 },
                 {
                     "id": 2,
-                    "rank": null,
+                    "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "jobe",
@@ -561,7 +561,7 @@
             "entries": [
                 {
                     "id": 1,
-                    "rank": null,
+                    "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "NuSan",
@@ -574,7 +574,7 @@
                 },
                 {
                     "id": 2,
-                    "rank": null,
+                    "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "superogue",
