@@ -30,8 +30,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/gasman_first_round.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/gasman_first_round.gif"
                 },
                 {
                     "id": 2,
@@ -128,8 +128,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/jobe_first_round.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/jobe_first_round.gif"
                 },
                 {
                     "id": 2,
@@ -177,8 +177,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/pestis_first_round.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/pestis_first_round.gif"
                 },
                 {
                     "id": 2,
@@ -275,8 +275,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/superogue_first_round.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/superogue_first_round.gif"
                 },
                 {
                     "id": 2,
@@ -383,6 +383,104 @@
                     "handle": {
                         "name": "gopher",
                         "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": null,
+                    "preview_image": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter #1",
+            "vod": "",
+            "keyword": "Cubes",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": null,
+                    "preview_image": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": null,
+                    "preview_image": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter #2",
+            "vod": "",
+            "keyword": "Stars",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "pestis",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": null,
+                    "preview_image": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "tomcat",
+                        "demozoo_id": 8556
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
