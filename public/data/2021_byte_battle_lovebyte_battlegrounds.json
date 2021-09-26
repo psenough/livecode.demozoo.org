@@ -610,7 +610,7 @@
             "entries": [
                 {
                     "id": 1,
-                    "rank": null,
+                    "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "Gasman",
@@ -623,7 +623,7 @@
                 },
                 {
                     "id": 2,
-                    "rank": null,
+                    "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "pestis",
@@ -659,7 +659,7 @@
             "entries": [
                 {
                     "id": 1,
-                    "rank": null,
+                    "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "mantratronic",
@@ -672,7 +672,7 @@
                 },
                 {
                     "id": 2,
-                    "rank": null,
+                    "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "superogue",
