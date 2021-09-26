@@ -520,8 +520,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/gasman_quarter.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/gasman_quarter.gif"
                 },
                 {
                     "id": 2,
@@ -530,6 +530,55 @@
                     "handle": {
                         "name": "jobe",
                         "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/jobe_quarter.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/jobe_quarter.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter #4",
+            "vod": "",
+            "keyword": "Stairs",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": null,
+                    "preview_image": null
+                },
+                {
+                    "id": 2,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
