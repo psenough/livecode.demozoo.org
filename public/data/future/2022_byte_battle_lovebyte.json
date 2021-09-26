@@ -1,0 +1,16 @@
+{
+    "title": "Lovebyte",
+    "started": "2022-02-11",
+    "type": "Byte Battle",
+    "website": "http://battle.lovebyte.party/",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v07",
+            "purpose": "Graphic"
+        }
+    ],
+    "staffs": []
+}
