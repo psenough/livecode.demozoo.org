@@ -143,7 +143,7 @@
                     "shadertoy_url": null,
                     "vod": null,
                     "preview_image": "solskogen_2020/sender_solskogen2020_wrighter.jpg",
-                    "source_file": "./shader_file_sources/solskogen_2020/sender_solskogen2020_wrighter.glsl"
+                    "source_file": "/shader_file_sources/solskogen_2020/sender_solskogen2020_wrighter.glsl"
                 }
             ],
             "staffs": [

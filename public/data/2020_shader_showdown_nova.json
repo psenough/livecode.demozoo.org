@@ -32,7 +32,7 @@
                     "shadertoy_url": null,
                     "vod": null,
                     "preview_image": "nova_2020/sender_nova_wrighter.jpg",
-                    "source_file": "./shader_file_sources/nova_2020/sender_nova_wrighter.glsl"
+                    "source_file": "/shader_file_sources/nova_2020/sender_nova_wrighter.glsl"
                 }
             ],
             "staffs": [

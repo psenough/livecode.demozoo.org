@@ -55,7 +55,7 @@
                         "demozoo_id": 121811
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/NlXGDH",
-                    "source_file": "./shader_file_sources/outline_shader_showdown_2021/outline_2021_totetmatt_1.glsl"
+                    "source_file": "/shader_file_sources/outline_shader_showdown_2021/outline_2021_totetmatt_1.glsl"
                 },
                 {
                     "id": null,
@@ -132,7 +132,7 @@
                         "demozoo_id": 121811
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/ftfGWH",
-                    "source_file": "./shader_file_sources/outline_shader_showdown_2021/outline_2021_totetmatt_2.glsl"
+                    "source_file": "/shader_file_sources/outline_shader_showdown_2021/outline_2021_totetmatt_2.glsl"
                 }
             ],
             "staffs": []

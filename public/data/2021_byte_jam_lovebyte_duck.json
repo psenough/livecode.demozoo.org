@@ -30,7 +30,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_bytejam_duck/jobe.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_bytejam_duck/jobe.lua",
                     "preview_image": "2021_09_lovebyte_byte_bytejam_duck/jobe.gif"
                 },
                 {
@@ -43,7 +43,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_bytejam_duck/nusan.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_bytejam_duck/nusan.lua",
                     "preview_image": "2021_09_lovebyte_byte_bytejam_duck/nusan.gif"
                 },
                 {
@@ -56,7 +56,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_bytejam_duck/superogue.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_bytejam_duck/superogue.lua",
                     "preview_image": "2021_09_lovebyte_byte_bytejam_duck/superogue.gif"
                 },
                 {
@@ -69,7 +69,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_bytejam_duck/gopher.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_bytejam_duck/gopher.lua",
                     "preview_image": "2021_09_lovebyte_byte_bytejam_duck/gopher.gif"
                 }
             ],

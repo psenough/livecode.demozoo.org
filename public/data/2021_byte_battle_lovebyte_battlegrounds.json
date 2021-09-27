@@ -30,7 +30,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/gasman_first_round.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/gasman_first_round.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/gasman_first_round.gif"
                 },
                 {
@@ -128,7 +128,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/jobe_first_round.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/jobe_first_round.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/jobe_first_round.gif"
                 },
                 {
@@ -177,7 +177,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/pestis_first_round.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/pestis_first_round.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/pestis_first_round.gif"
                 },
                 {
@@ -226,7 +226,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/mantratronic_first_round.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/mantratronic_first_round.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/mantratronic_first_round.gif"
                 },
                 {
@@ -275,7 +275,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/superogue_first_round.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/superogue_first_round.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/superogue_first_round.gif"
                 },
                 {
@@ -422,7 +422,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/mantratronic_quarter.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/mantratronic_quarter.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/mantratronic_quarter.gif"
                 },
                 {
@@ -471,7 +471,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/pestis_quarter.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/pestis_quarter.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/pestis_quarter.gif"
                 },
                 {
@@ -520,7 +520,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/gasman_quarter.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/gasman_quarter.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/gasman_quarter.gif"
                 },
                 {
@@ -533,7 +533,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/jobe_quarter.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/jobe_quarter.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/jobe_quarter.gif"
                 }
             ],
@@ -582,7 +582,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/superogue_quarter.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/superogue_quarter.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/superogue_quarter.gif"
                 }
             ],
@@ -618,7 +618,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/gasman_semi.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/gasman_semi.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/gasman_semi.gif"
                 },
                 {
@@ -631,7 +631,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/pestis_semi.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/pestis_semi.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/pestis_semi.gif"
                 }
             ],
@@ -667,7 +667,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/mantratronic_semi.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/mantratronic_semi.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/mantratronic_semi.gif"
                 },
                 {
@@ -680,7 +680,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/superogue_semi.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/superogue_semi.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/superogue_semi.gif"
                 }
             ],
@@ -716,7 +716,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/superogue_final.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/superogue_final.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/superogue_final.gif"
                 },
                 {
@@ -729,7 +729,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_battle/pestis_final.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/pestis_final.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/pestis_final.gif"
                 }
             ],

@@ -27,7 +27,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "shadow_demoparty_2021/sender_shadow_nusan.jpg",
-                    "source_file": "./shader_file_sources/shadow_demoparty_2021/sender_shadow_nusan.glsl"
+                    "source_file": "/shader_file_sources/shadow_demoparty_2021/sender_shadow_nusan.glsl"
                 },
                 {
                     "id": null,
@@ -51,7 +51,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7ll3R4",
                     "preview_image": "shadow_demoparty_2021/sender_shadow_ponk.jpg",
-                    "source_file": "./shader_file_sources/shadow_demoparty_2021/sender_shadow_ponk.glsl"
+                    "source_file": "/shader_file_sources/shadow_demoparty_2021/sender_shadow_ponk.glsl"
                 }
             ],
             "staffs": [
@@ -78,7 +78,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "shadow_demoparty_2021/shadow-evvvvil-shaderjam.jpg",
-                    "source_file": "./shader_file_sources/shadow_demoparty_2021/shadow-evvvvil-shaderjam.glsl"
+                    "source_file": "/shader_file_sources/shadow_demoparty_2021/shadow-evvvvil-shaderjam.glsl"
                 },
                 {
                     "id": null,
@@ -90,7 +90,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "shadow_demoparty_2021/z0rg.jpg",
-                    "source_file": "./shader_file_sources/shadow_demoparty_2021/z0rg.glsl"
+                    "source_file": "/shader_file_sources/shadow_demoparty_2021/z0rg.glsl"
                 },
                 {
                     "id": null,
@@ -102,7 +102,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/stl3z4",
                     "preview_image": "shadow_demoparty_2021/sender_shadow_totetmatt.jpg",
-                    "source_file": "./shader_file_sources/shadow_demoparty_2021/sender_shadow_totetmatt.glsl"
+                    "source_file": "/shader_file_sources/shadow_demoparty_2021/sender_shadow_totetmatt.glsl"
                 }
             ],
             "staffs": [

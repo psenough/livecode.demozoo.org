@@ -26,7 +26,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/3syyzm",
                     "preview_image": "shader_royale_1/grabber_inerciaroyale_nusan.jpg",
-                    "source_file": "./shader_file_sources/shader_royale_1/grabber_inerciaroyale_nusan.glsl"
+                    "source_file": "/shader_file_sources/shader_royale_1/grabber_inerciaroyale_nusan.glsl"
                 },
                 {
                     "id": 6,
@@ -38,7 +38,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/wsccWj",
                     "preview_image": "shader_royale_1/grabber_inerciaroyale_FMS_Cat.jpg",
-                    "source_file": "./shader_file_sources/shader_royale_1/grabber_inerciaroyale_FMS_Cat.glsl"
+                    "source_file": "/shader_file_sources/shader_royale_1/grabber_inerciaroyale_FMS_Cat.glsl"
                 },
                 {
                     "id": 1,
@@ -50,7 +50,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "shader_royale_1/grabber_inerciaroyale_wrighter.jpg",
-                    "source_file": "./shader_file_sources/shader_royale_1/grabber_inerciaroyale_wrighter.glsl"
+                    "source_file": "/shader_file_sources/shader_royale_1/grabber_inerciaroyale_wrighter.glsl"
                 },
                 {
                     "id": 8,
@@ -62,7 +62,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "shader_royale_1/grabber_inerciaroyale_evvvvil.jpg",
-                    "source_file": "./shader_file_sources/shader_royale_1/grabber_inerciaroyale_evvvvil.glsl"
+                    "source_file": "/shader_file_sources/shader_royale_1/grabber_inerciaroyale_evvvvil.glsl"
                 },
                 {
                     "id": 5,
@@ -74,7 +74,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "shader_royale_1/grabber_inerciaroyale_LechugaFeliz.jpg",
-                    "source_file": "./shader_file_sources/shader_royale_1/grabber_inerciaroyale_LechugaFeliz.glsl"
+                    "source_file": "/shader_file_sources/shader_royale_1/grabber_inerciaroyale_LechugaFeliz.glsl"
                 },
                 {
                     "id": 7,
@@ -86,7 +86,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "shader_royale_1/grabber_inerciaroyale_fizzer.jpg",
-                    "source_file": "./shader_file_sources/shader_royale_1/grabber_inerciaroyale_fizzer.glsl"
+                    "source_file": "/shader_file_sources/shader_royale_1/grabber_inerciaroyale_fizzer.glsl"
                 },
                 {
                     "id": 2,
@@ -98,7 +98,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "shader_royale_1/grabber_inerciaroyale_rimina.jpg",
-                    "source_file": "./shader_file_sources/shader_royale_1/grabber_inerciaroyale_rimina.glsl"
+                    "source_file": "/shader_file_sources/shader_royale_1/grabber_inerciaroyale_rimina.glsl"
                 },
                 {
                     "id": 3,
@@ -110,7 +110,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "shader_royale_1/grabber_inerciaroyale_provod.jpg",
-                    "source_file": "./shader_file_sources/shader_royale_1/grabber_inerciaroyale_provod.glsl"
+                    "source_file": "/shader_file_sources/shader_royale_1/grabber_inerciaroyale_provod.glsl"
                 },
                 {
                     "id": 9,

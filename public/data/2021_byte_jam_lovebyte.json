@@ -29,7 +29,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_bytejam/gasman.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_bytejam/gasman.lua",
                     "preview_image": "2021_09_lovebyte_byte_bytejam/gasman.gif"
                 },
                 {
@@ -42,7 +42,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_bytejam/pestis_1.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_bytejam/pestis_1.lua",
                     "preview_image": "2021_09_lovebyte_byte_bytejam/pestis_1.gif"
                 },
                 {
@@ -55,7 +55,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_bytejam/pestis_2.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_bytejam/pestis_2.lua",
                     "preview_image": "2021_09_lovebyte_byte_bytejam/pestis_2.gif"
                 },
                 {
@@ -68,7 +68,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_bytejam/sir_garbagetruck.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_bytejam/sir_garbagetruck.lua",
                     "preview_image": "2021_09_lovebyte_byte_bytejam/sir_garbagetruck.gif"
                 },
                 {
@@ -81,7 +81,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_bytejam/mantratronic.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_bytejam/mantratronic.lua",
                     "preview_image": "2021_09_lovebyte_byte_bytejam/mantratronic.gif"
                 },
                 {
@@ -94,7 +94,7 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "./shader_file_sources/2021_09_lovebyte_byte_bytejam/pancelor.lua",
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_bytejam/pancelor.lua",
                     "preview_image": "2021_09_lovebyte_byte_bytejam/pancelor.gif"
                 }
             ],
