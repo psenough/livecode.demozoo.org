@@ -23,7 +23,7 @@
                 {
                     "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 154,
                     "handle": {
                         "name": "Gasman",
                         "demozoo_id": 5879
@@ -36,7 +36,7 @@
                 {
                     "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 123,
                     "handle": {
                         "name": "0b5vr",
                         "demozoo_id": 57112
@@ -72,7 +72,7 @@
                 {
                     "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 188,
                     "handle": {
                         "name": "tomcat",
                         "demozoo_id": 8556
@@ -85,12 +85,12 @@
                 {
                     "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 142,
                     "handle": {
                         "name": "ps",
                         "demozoo_id": 313
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "/shader_file_sources/2021_09_lovebyte_byte_battle/psenough_first_round.lua",
                     "tic80_cart_id": null,
                     "source_file": null,
                     "preview_image": null
@@ -121,7 +121,7 @@
                 {
                     "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 152,
                     "handle": {
                         "name": "jobe",
                         "demozoo_id": null
@@ -134,7 +134,7 @@
                 {
                     "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 145,
                     "handle": {
                         "name": "dresdenboy",
                         "demozoo_id": null
@@ -170,7 +170,7 @@
                 {
                     "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 188,
                     "handle": {
                         "name": "pestis",
                         "demozoo_id": null
@@ -183,7 +183,7 @@
                 {
                     "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 140,
                     "handle": {
                         "name": "blackle",
                         "demozoo_id": 79215
@@ -219,7 +219,7 @@
                 {
                     "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 176,
                     "handle": {
                         "name": "mantratronic",
                         "demozoo_id": 20215
@@ -232,7 +232,7 @@
                 {
                     "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 143,
                     "handle": {
                         "name": "popolon",
                         "demozoo_id": null
@@ -268,7 +268,7 @@
                 {
                     "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 200,
                     "handle": {
                         "name": "superogue",
                         "demozoo_id": 617
@@ -281,7 +281,7 @@
                 {
                     "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 164,
                     "handle": {
                         "name": "exoticorn",
                         "demozoo_id": null
@@ -317,7 +317,7 @@
                 {
                     "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 156,
                     "handle": {
                         "name": "aldroid",
                         "demozoo_id": null
@@ -330,7 +330,7 @@
                 {
                     "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 111,
                     "handle": {
                         "name": "visy",
                         "demozoo_id": 1301
@@ -366,7 +366,7 @@
                 {
                     "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 202,
                     "handle": {
                         "name": "NuSan",
                         "demozoo_id": 88839
@@ -379,7 +379,7 @@
                 {
                     "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 177,
                     "handle": {
                         "name": "gopher",
                         "demozoo_id": null
@@ -415,7 +415,7 @@
                 {
                     "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 97,
                     "handle": {
                         "name": "mantratronic",
                         "demozoo_id": 20215
@@ -428,7 +428,7 @@
                 {
                     "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 71,
                     "handle": {
                         "name": "aldroid",
                         "demozoo_id": null
@@ -464,7 +464,7 @@
                 {
                     "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 114,
                     "handle": {
                         "name": "pestis",
                         "demozoo_id": null
@@ -477,7 +477,7 @@
                 {
                     "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 111,
                     "handle": {
                         "name": "tomcat",
                         "demozoo_id": 8556
@@ -513,7 +513,7 @@
                 {
                     "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 114,
                     "handle": {
                         "name": "Gasman",
                         "demozoo_id": 5879
@@ -526,7 +526,7 @@
                 {
                     "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 97,
                     "handle": {
                         "name": "jobe",
                         "demozoo_id": null
@@ -562,7 +562,7 @@
                 {
                     "id": 1,
                     "rank": 2,
-                    "points": null,
+                    "points": 97,
                     "handle": {
                         "name": "NuSan",
                         "demozoo_id": 88839
@@ -575,7 +575,7 @@
                 {
                     "id": 2,
                     "rank": 1,
-                    "points": null,
+                    "points": 118,
                     "handle": {
                         "name": "superogue",
                         "demozoo_id": 617
@@ -611,7 +611,7 @@
                 {
                     "id": 1,
                     "rank": 2,
-                    "points": null,
+                    "points": 78,
                     "handle": {
                         "name": "Gasman",
                         "demozoo_id": 5879
@@ -624,7 +624,7 @@
                 {
                     "id": 2,
                     "rank": 1,
-                    "points": null,
+                    "points": 126,
                     "handle": {
                         "name": "pestis",
                         "demozoo_id": null
@@ -660,7 +660,7 @@
                 {
                     "id": 1,
                     "rank": 2,
-                    "points": null,
+                    "points": 107,
                     "handle": {
                         "name": "mantratronic",
                         "demozoo_id": 20215
@@ -673,7 +673,7 @@
                 {
                     "id": 2,
                     "rank": 1,
-                    "points": null,
+                    "points": 176,
                     "handle": {
                         "name": "superogue",
                         "demozoo_id": 617
