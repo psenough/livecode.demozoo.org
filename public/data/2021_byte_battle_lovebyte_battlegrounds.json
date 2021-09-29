@@ -90,9 +90,9 @@
                         "name": "ps",
                         "demozoo_id": 313
                     },
-                    "shadertoy_url": "/shader_file_sources/2021_09_lovebyte_byte_battle/psenough_first_round.lua",
+                    "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/psenough_first_round.lua",
                     "preview_image": null
                 }
             ],
