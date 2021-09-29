@@ -22,9 +22,11 @@ def main() -> None:
     events = load_json_files(data_path)
 
     for event in events:
-        download_shadertoy_overview.create_cache(event, media_path)
-        download_tic80_cart_overview.create_cache(event, media_path)
-
+        try:
+            download_shadertoy_overview.create_cache(event, media_path)
+            download_tic80_cart_overview.create_cache(event, media_path)
+        except Exception as err:
+            print("Unexpected error: {0} processing {1}".format(err, event['title']))
 
 if __name__ == '__main__':
     main()
