@@ -758,6 +758,20 @@
                 "demozoo_id": 617
             },
             "job": "Organizers"
+        },
+		{
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        },
+		{
+            "handle": {
+                "name": "jeenio",
+                "demozoo_id": 3048
+            },
+            "job": "Organizers"
         }
     ]
 }
