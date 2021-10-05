@@ -274,7 +274,7 @@
                         "demozoo_id": 617
                     },
                     "shadertoy_url": null,
-                    "tic80_cart_id": null,
+                    "tic80_cart_id": 2267,
                     "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/superogue_first_round.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/superogue_first_round.gif"
                 },
@@ -581,7 +581,7 @@
                         "demozoo_id": 617
                     },
                     "shadertoy_url": null,
-                    "tic80_cart_id": null,
+                    "tic80_cart_id": 2268,
                     "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/superogue_quarter.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/superogue_quarter.gif"
                 }
@@ -679,7 +679,7 @@
                         "demozoo_id": 617
                     },
                     "shadertoy_url": null,
-                    "tic80_cart_id": null,
+                    "tic80_cart_id": 2270,
                     "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/superogue_semi.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/superogue_semi.gif"
                 }
@@ -715,7 +715,7 @@
                         "demozoo_id": 617
                     },
                     "shadertoy_url": null,
-                    "tic80_cart_id": null,
+                    "tic80_cart_id": 2271,
                     "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/superogue_final.lua",
                     "preview_image": "2021_09_lovebyte_byte_battle/superogue_final.gif"
                 },
