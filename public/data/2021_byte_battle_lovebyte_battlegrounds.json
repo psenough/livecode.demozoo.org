@@ -79,8 +79,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/tomcat_first_round.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/tomcat_first_round.gif"
                 },
                 {
                     "id": 2,
@@ -324,8 +324,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/aldroid_first_round.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/aldroid_first_round.gif"
                 },
                 {
                     "id": 2,
@@ -435,8 +435,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/aldroid_quarter.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/aldroid_quarter.gif"
                 }
             ],
             "staffs": [
@@ -484,8 +484,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/tomcat_quarter.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/tomcat_quarter.gif"
                 }
             ],
             "staffs": [
