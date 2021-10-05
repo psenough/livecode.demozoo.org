@@ -93,7 +93,7 @@
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
                     "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/psenough_first_round.lua",
-                    "preview_image": null
+                    "preview_image": "2021_09_lovebyte_byte_battle/psenough_first_round.gif"
                 }
             ],
             "staffs": [
@@ -190,8 +190,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/blackle_first_round.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/blackle_first_round.gif"
                 }
             ],
             "staffs": [
@@ -373,8 +373,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/nusan_first_round.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/nusan_first_round.gif"
                 },
                 {
                     "id": 2,
@@ -386,8 +386,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/gopher_first_round.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/gopher_first_round.gif"
                 }
             ],
             "staffs": [
@@ -569,8 +569,8 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file": "/shader_file_sources/2021_09_lovebyte_byte_battle/nusan_quarter.lua",
+                    "preview_image": "2021_09_lovebyte_byte_battle/nusan_quarter.gif"
                 },
                 {
                     "id": 2,
