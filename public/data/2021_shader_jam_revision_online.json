@@ -4,6 +4,7 @@
     "date": "2 - 5 April 2021",
     "type": "Shader Jam",
     "vod": null,
+    "demozoo_serie_id": 10,
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -26,7 +27,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "revision_jam_2021/jam_with_lynn/nusan.jpg",
-                    "source_file":  "shader_file_sources/revision_2021/jam_with_lynn/nusan.glsl"
+                    "source_file": "shader_file_sources/revision_2021/jam_with_lynn/nusan.glsl"
                 },
                 {
                     "id": null,

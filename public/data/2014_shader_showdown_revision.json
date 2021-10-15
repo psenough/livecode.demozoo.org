@@ -4,6 +4,7 @@
     "date": "18 - 21 April 2014",
     "type": "The Incredible Live-Coder-Mayhem 5000",
     "vod": null,
+    "demozoo_serie_id": 10,
     "software_used": [
         {
             "name": "ScintillaGL",

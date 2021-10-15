@@ -5,6 +5,7 @@
     "type": "Shader Showdown",
     "vod": "https://www.youtube.com/watch?v=ik3T37fCydo",
     "software_used": null,
+    "demozoo_serie_id": 606,
     "phases": [
         {
             "title": "Live Shader",

@@ -4,6 +4,7 @@
     "date": "13 August 2021",
     "type": "Shader Jam",
     "website": "",
+    "demozoo_serie_id": 1347,
     "flyer": "./media/pre_nevoke_jam_2021/prevoke_ps_1.png",
     "vod": "https://youtu.be/rwmfyGrDZyw?t=991",
     "software_used": [
@@ -165,12 +166,12 @@
                 }
             ],
             "staffs": [
-                 {
-                "handle": {
-                    "name": "Ronny Pries",
-                    "demozoo_id": 355
-                },
-                "job": "Dj Set"
+                {
+                    "handle": {
+                        "name": "Ronny Pries",
+                        "demozoo_id": 355
+                    },
+                    "job": "Dj Set"
                 }
             ]
         }

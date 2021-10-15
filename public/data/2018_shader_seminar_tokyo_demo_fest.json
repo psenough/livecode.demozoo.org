@@ -4,6 +4,7 @@
     "date": "01 - 02 Dec 2018",
     "type": "Shader Code Seminar",
     "vod": "https://www.youtube.com/watch?v=UEMk4kDcpGQ",
+    "demozoo_serie_id": 174,
     "software_used": [
         {
             "name": "GLSLFan",
