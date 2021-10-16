@@ -13,6 +13,8 @@ from generator.files import load_json_files
 from generator.handles import _get_demozoo_id, hash_handle
 from generator.handles import load_db as load_demozoo_handles_db
 from generator.handles import update_db as update_demozoo_handles_db
+from generator.party_series import update_db as update_demozoo_party_series_db
+from generator.party_series import load_db as load_demozoo_party_series_db
 from generator.html import render_html_file
 
 import download_shadertoy_overviews as download_shadertoy_overview
@@ -109,17 +111,22 @@ def generate_html_pages(
     events_by_year: dict[int, list[dict]],
     latest_year: int,
     nav_items: list[NavItem],
+    party_series: list[dict],
 ) -> None:
     generate_events_html_pages(
-        html_path, events_by_year, latest_year, nav_items
+        html_path, events_by_year, latest_year, nav_items, party_series
     )
 
-    render_about_html_page(html_path / 'about.html', nav_items)
+    render_about_html_page(html_path / 'about.html', nav_items, party_series)
     render_upcoming_html_page(
-        html_path / 'upcoming.html', nav_items, future_events
+        html_path / 'upcoming.html', nav_items, future_events, party_series
     )
-
-    generate_performers_html_pages(html_path, past_events, nav_items)
+    generate_party_series_html_pages(
+        html_path, past_events, nav_items, party_series
+    )
+    generate_performers_html_pages(
+        html_path, past_events, nav_items, party_series
+    )
 
 
 def generate_events_html_pages(
@@ -127,16 +134,41 @@ def generate_events_html_pages(
     events_by_year: dict[int, list[dict]],
     latest_year,
     nav_items: list[NavItem],
+    party_series: list[dict],
 ) -> None:
     for year, events in events_by_year.items():
         html_filename = get_events_html_filename(year, latest_year)
         render_event_html_page(
-            html_path / html_filename, year, events, nav_items
+            html_path / html_filename, year, events, nav_items, party_series
+        )
+
+
+def generate_party_series_html_pages(
+    html_path: Path,
+    past_events: list[dict],
+    nav_items: list[NavItem],
+    party_series,
+) -> None:
+    party_series_data = collect_party_series_data(past_events)
+    party_series_info_data = load_demozoo_party_series_db()
+    party_series_path = html_path / 'party_series'
+    party_series_path.mkdir(exist_ok=True)
+    for id, entries in party_series_data.items():
+        render_party_series_html_page(
+        party_series_path / f'{id}.html',
+        id,
+        entries,
+        party_series_info_data.get(id),
+        nav_items,
+        party_series
         )
 
 
 def generate_performers_html_pages(
-    html_path: Path, past_events: list[dict], nav_items: list[NavItem]
+    html_path: Path,
+    past_events: list[dict],
+    nav_items: list[NavItem],
+    party_series,
 ) -> None:
     performer_pages, staff_page, performer_data = collect_performers_data(
         past_events
@@ -152,7 +184,19 @@ def generate_performers_html_pages(
             performer_data[pid],
             staff_page[pid],
             nav_items,
+            party_series,
         )
+
+
+def collect_party_series_data(
+    events,
+) -> tuple[defaultdict, defaultdict, defaultdict]:
+    party_series = defaultdict(lambda: [])
+    for event in events:
+        if event.get('demozoo_serie_id'):
+            party_series[event.get('demozoo_serie_id')]
+            party_series[event.get('demozoo_serie_id')].append(event)
+    return party_series
 
 
 def collect_performers_data(
@@ -200,7 +244,11 @@ def collect_performers_data(
 
 
 def render_event_html_page(
-    filename: Path, year: str, events, nav_items: list[NavItem]
+    filename: Path,
+    year: str,
+    events,
+    nav_items: list[NavItem],
+    party_series: list[dict],
 ) -> None:
     render_html_file(
         'events.html',
@@ -210,24 +258,28 @@ def render_event_html_page(
             'events': events,
             'current_filename': filename.name,
             'hash_handle': hash_handle,
+            'party_series': party_series,
         },
         filename,
     )
 
 
-def render_about_html_page(filename: Path, nav_items: list[NavItem]) -> None:
+def render_about_html_page(
+    filename: Path, nav_items: list[NavItem], party_series
+) -> None:
     render_html_file(
         'about.html',
         {
             'nav_items': nav_items,
             'current_nav_item_id': 'about',
+            'party_series': party_series,
         },
         filename,
     )
 
 
 def render_upcoming_html_page(
-    filename: Path, nav_items: list[NavItem], future_events
+    filename: Path, nav_items: list[NavItem], future_events, party_series
 ) -> None:
     render_html_file(
         'upcoming.html',
@@ -235,6 +287,30 @@ def render_upcoming_html_page(
             'nav_items': nav_items,
             'current_nav_item_id': 'upcoming',
             'data': future_events,
+            'party_series': party_series,
+        },
+        filename,
+    )
+
+
+def render_party_series_html_page(
+    filename: Path,
+    id,
+    entries,
+    metadata,
+    nav_items: list[NavItem],
+    party_series,
+) -> None:
+    render_html_file(
+        'party_series.html',
+        {
+            'id':id,
+            'entries': entries,
+            'metadata': metadata,
+            'nav_items': nav_items,
+            'current_nav_item_id': f'party_series-{id}',
+            'party_series': party_series,
+            'hash_handle': hash_handle,
         },
         filename,
     )
@@ -246,6 +322,7 @@ def render_performer_html_page(
     performer_data,
     staff_data,
     nav_items: list[NavItem],
+    party_series,
 ) -> None:
     render_html_file(
         'performer.html',
@@ -255,6 +332,7 @@ def render_performer_html_page(
             'staff_data': staff_data,
             'nav_items': nav_items,
             'current_nav_item_id': None,
+            'party_series': party_series,
         },
         filename,
     )
@@ -269,6 +347,7 @@ def main() -> None:
     future_events = load_future_events(data_path)
 
     update_demozoo_handles_db(past_events + future_events)
+    update_demozoo_party_series_db(past_events)
 
     update_image_cache(past_events, public_path / 'media')
 
@@ -281,6 +360,7 @@ def main() -> None:
 
     nav_items = assemble_nav_items(years, latest_year)
 
+    party_series = load_demozoo_party_series_db()
     generate_html_pages(
         html_path,
         past_events,
@@ -288,6 +368,7 @@ def main() -> None:
         events_by_year,
         latest_year,
         nav_items,
+        party_series,
     )
 
 

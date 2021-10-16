@@ -5,3 +5,14 @@
     {% endfor %}
   </div>
 </nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark"></nav>
+
+<div class="w-100 text-center">
+
+  {% for party_series_id, party_series_metadata in party_series.items()|sort(attribute='1.name')%}
+  <a href="{{ SITE_ROOT }}/party_series/{{ party_series_id }}.html" class="px-2 py-1 mb-2 btn btn-lg  {% if id is defined and current_nav_item_id == 'party_series-'+party_series_id|string %}btn-info{% else %}btn-outline-secondary text-light{% endif %}">{{party_series_metadata.name }}</a>
+  {% endfor %}
+  </div>
+
+</nav>

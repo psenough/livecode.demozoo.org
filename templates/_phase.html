@@ -30,7 +30,7 @@
           {% endif %} {% if entry['handle'] %}
           <a
             class="link-light"
-            href="./performers/{{ hash_handle(entry['handle']) }}.html"
+            href="/performers/{{ hash_handle(entry['handle']) }}.html"
           >
             {{ entry['handle'].get('demozoo_name') or entry['handle'].name }}
           </a>
