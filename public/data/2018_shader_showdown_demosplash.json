@@ -5,7 +5,6 @@
     "type": "Shader Showdown",
     "vod": "https://scenesat.com/videoarchive/250b96a5-b90e-11ea-b68e-00505685775e?t=10770",
     "software_used": null,
-    "demozoo_serie_id": 606,
     "phases": [
         {
             "title": "Live Shader",
@@ -39,5 +38,6 @@
             "staffs": []
         }
     ],
-    "staffs": []
+    "staffs": [],
+    "demozoo_party_id": 3716
 }

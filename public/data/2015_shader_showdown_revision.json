@@ -5,7 +5,6 @@
     "type": "Shader Showdown",
     "vod": null,
     "software_used": null,
-    "demozoo_serie_id": 10,
     "phases": [
         {
             "title": "Quarter #1",
@@ -224,5 +223,6 @@
             "staffs": []
         }
     ],
-    "staffs": []
+    "staffs": [],
+    "demozoo_party_id": 2444
 }

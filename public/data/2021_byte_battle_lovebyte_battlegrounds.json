@@ -6,7 +6,6 @@
     "type": "Byte Battle",
     "website": "http://battle.lovebyte.party/",
     "flyer": "",
-    "demozoo_serie_id": 1579,
     "software_used": [
         {
             "name": "TIC-80",
@@ -774,5 +773,6 @@
             },
             "job": "Organizers"
         }
-    ]
+    ],
+    "demozoo_party_id": 4353
 }

@@ -4,7 +4,6 @@
     "date": "14 - 16 Jul 2017",
     "type": "Shader Showdown",
     "vod": null,
-    "demozoo_serie_id": 8,
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -189,5 +188,6 @@
             ]
         }
     ],
-    "staffs": []
+    "staffs": [],
+    "demozoo_party_id": 3172
 }

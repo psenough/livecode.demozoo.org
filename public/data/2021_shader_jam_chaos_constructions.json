@@ -5,7 +5,6 @@
     "type": "Shader Jam",
     "vod": "https://www.youtube.com/watch?v=vWWlE5sc-WY",
     "software_used": null,
-    "demozoo_serie_id": 85,
     "phases": [
         {
             "title": null,
@@ -82,5 +81,6 @@
             },
             "job": "Organizers"
         }
-    ]
+    ],
+    "demozoo_party_id": 4239
 }

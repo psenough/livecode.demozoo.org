@@ -4,7 +4,6 @@
     "date": "2 - 5 April 2021",
     "type": "Shader Showdown",
     "vod": null,
-    "demozoo_serie_id": 10,
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -503,5 +502,6 @@
             },
             "job": "Organizers"
         }
-    ]
+    ],
+    "demozoo_party_id": 4191
 }

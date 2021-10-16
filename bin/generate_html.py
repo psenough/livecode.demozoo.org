@@ -151,6 +151,7 @@ def generate_party_series_html_pages(
 ) -> None:
     party_series_data = collect_party_series_data(past_events)
     party_series_info_data = load_demozoo_party_series_db()
+    party_series_info_data  = {v['id']:v for v in party_series_info_data.values()}
     party_series_path = html_path / 'party_series'
     party_series_path.mkdir(exist_ok=True)
     for id, entries in party_series_data.items():
@@ -190,12 +191,13 @@ def generate_performers_html_pages(
 
 def collect_party_series_data(
     events,
-) -> tuple[defaultdict, defaultdict, defaultdict]:
+):
+    party_series_info_data = load_demozoo_party_series_db()
     party_series = defaultdict(lambda: [])
     for event in events:
-        if event.get('demozoo_serie_id'):
-            party_series[event.get('demozoo_serie_id')]
-            party_series[event.get('demozoo_serie_id')].append(event)
+        if event.get('demozoo_party_id'):
+            party_serie_id = party_series_info_data[event.get('demozoo_party_id')]['id']
+            party_series[party_serie_id].append(event)
     return party_series
 
 
@@ -361,6 +363,7 @@ def main() -> None:
     nav_items = assemble_nav_items(years, latest_year)
 
     party_series = load_demozoo_party_series_db()
+    party_series  = {v['id']:v for v in party_series.values()}
     generate_html_pages(
         html_path,
         past_events,

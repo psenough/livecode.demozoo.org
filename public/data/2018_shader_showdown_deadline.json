@@ -5,7 +5,6 @@
     "type": "Shader Showdown",
     "vod": null,
     "software_used": null,
-    "demozoo_serie_id": 893,
     "phases": [
         {
             "title": "Semifinals #1",
@@ -148,5 +147,6 @@
             },
             "job": "Organizers"
         }
-    ]
+    ],
+    "demozoo_party_id": 3554
 }

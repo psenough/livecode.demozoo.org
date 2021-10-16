@@ -4,7 +4,6 @@
     "date": "13 - 15 Jul 2018",
     "type": "Shader Showdown",
     "vod": null,
-    "demozoo_serie_id": 8,
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -102,5 +101,6 @@
             "staffs": []
         }
     ],
-    "staffs": []
+    "staffs": [],
+    "demozoo_party_id": 3453
 }

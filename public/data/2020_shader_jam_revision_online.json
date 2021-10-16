@@ -4,7 +4,6 @@
     "date": "10 - 13 April 2020",
     "type": "Shader Jam",
     "vod": "https://www.youtube.com/watch?v=rhH__Ge4s6Q",
-    "demozoo_serie_id": 10,
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -64,5 +63,6 @@
             ]
         }
     ],
-    "staffs": []
+    "staffs": [],
+    "demozoo_party_id": 3862
 }

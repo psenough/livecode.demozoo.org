@@ -5,7 +5,6 @@
     "type": "Shader Code Seminar",
     "vod": "https://www.youtube.com/watch?v=uFFR31t1WMM",
     "software_used": null,
-    "demozoo_serie_id": 10,
     "phases": [
         {
             "title": null,
@@ -37,5 +36,6 @@
             "staffs": []
         }
     ],
-    "staffs": []
+    "staffs": [],
+    "demozoo_party_id": null
 }

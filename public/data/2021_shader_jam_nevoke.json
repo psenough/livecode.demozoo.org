@@ -1,10 +1,9 @@
 {
-    "title": "Névoke",
+    "title": "N\u00c3\u00a9voke",
     "started": "2021-08-14",
     "date": "14 August 2021",
     "type": "Shader Jam",
     "website": "https://www.xn--nvoke-bsa.eu/",
-    "demozoo_serie_id": 111,
     "flyer": "",
     "vod": "https://streaming.media.ccc.de/nevoke2021/relive/110",
     "software_used": [
@@ -96,7 +95,7 @@
         },
         {
             "handle": {
-                "name": "Pünzli",
+                "name": "P\u00c3\u00bcnzli",
                 "demozoo_id": 11753
             },
             "job": "Organizers"
@@ -129,5 +128,6 @@
             },
             "job": "Organizers"
         }
-    ]
+    ],
+    "demozoo_party_id": 4324
 }

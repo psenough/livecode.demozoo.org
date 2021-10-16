@@ -1,10 +1,9 @@
 {
-    "title": "Pre Névoke",
+    "title": "Pre N\u00c3\u00a9voke",
     "started": "2021-08-13",
     "date": "13 August 2021",
     "type": "Shader Jam",
     "website": "",
-    "demozoo_serie_id": 1347,
     "flyer": "./media/pre_nevoke_jam_2021/prevoke_ps_1.png",
     "vod": "https://youtu.be/rwmfyGrDZyw?t=991",
     "software_used": [
@@ -184,5 +183,6 @@
             },
             "job": "Organizers"
         }
-    ]
+    ],
+    "demozoo_party_id": null
 }

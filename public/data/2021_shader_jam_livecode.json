@@ -4,7 +4,7 @@
     "date": "26 Jun 2021",
     "type": "Shader Jam",
     "vod": "https://www.youtube.com/watch?v=-1XC1ikDLgI",
-    "software_used":   [
+    "software_used": [
         {
             "name": "Bonzomatic",
             "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
@@ -372,5 +372,6 @@
             },
             "job": "Organizers"
         }
-    ]
+    ],
+    "demozoo_party_id": null
 }

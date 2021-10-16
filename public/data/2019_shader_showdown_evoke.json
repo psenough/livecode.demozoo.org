@@ -5,7 +5,6 @@
     "type": "Shader Showdown",
     "vod": "https://www.twitch.tv/videos/468044887",
     "software_used": null,
-    "demozoo_serie_id": 111,
     "phases": [
         {
             "title": "Semi Final 1",
@@ -176,5 +175,6 @@
             },
             "job": "Organizers"
         }
-    ]
+    ],
+    "demozoo_party_id": 3680
 }

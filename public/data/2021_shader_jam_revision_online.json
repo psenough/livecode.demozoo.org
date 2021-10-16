@@ -4,7 +4,6 @@
     "date": "2 - 5 April 2021",
     "type": "Shader Jam",
     "vod": null,
-    "demozoo_serie_id": 10,
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -165,5 +164,6 @@
             ]
         }
     ],
-    "staffs": []
+    "staffs": [],
+    "demozoo_party_id": 4191
 }

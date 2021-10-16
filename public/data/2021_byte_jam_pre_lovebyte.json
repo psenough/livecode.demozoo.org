@@ -71,7 +71,6 @@
                     "source_file": "/shader_file_sources/2021_09_pre_lovebyte_byte_bytejam/superogue.lua",
                     "preview_image": "2021_09_pre_lovebyte_byte_bytejam/superogue.gif"
                 }
-               
             ],
             "staffs": []
         }
@@ -84,5 +83,6 @@
             },
             "job": "Organizers"
         }
-    ]
+    ],
+    "demozoo_party_id": null
 }

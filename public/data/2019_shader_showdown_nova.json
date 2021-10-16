@@ -4,7 +4,6 @@
     "date": "21 - 23 Jun 2019",
     "type": "Shader Showdown",
     "vod": null,
-    "demozoo_serie_id": 1252,
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -175,5 +174,6 @@
             ]
         }
     ],
-    "staffs": []
+    "staffs": [],
+    "demozoo_party_id": 3657
 }

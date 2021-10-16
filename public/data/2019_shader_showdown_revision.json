@@ -5,7 +5,6 @@
     "type": "Shader Showdown",
     "vod": null,
     "software_used": null,
-    "demozoo_serie_id": 10,
     "phases": [
         {
             "title": "Opening round #1",
@@ -627,5 +626,6 @@
             ]
         }
     ],
-    "staffs": []
+    "staffs": [],
+    "demozoo_party_id": 3770
 }
