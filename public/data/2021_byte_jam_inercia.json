@@ -48,19 +48,6 @@
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "Dave-84",
-                        "demozoo_id": null
-                    },
-                    "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null,
-                    "tic80_cart_id": 2309
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
                         "name": "mantratronic",
                         "demozoo_id": 20215
                     },
@@ -68,6 +55,58 @@
                     "preview_image": "2021_10_inercia_byte_jam/mantratronic_inerciajam.gif",
                     "source_file": "shader_file_sources/2021_10_inercia_byte_jam/mantratronic_inerciajam.lua",
                     "tic80_cart_id": 2315
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dave84",
+                        "demozoo_id": 127921
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null,
+                    "tic80_cart_id": 2309
+                },               
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dave84",
+                        "demozoo_id": 127921
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null,
+                    "tic80_cart_id": 2319
+                },                
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dave84",
+                        "demozoo_id": 127921
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null,
+                    "tic80_cart_id": 2320
+                },                
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dave84",
+                        "demozoo_id": 127921
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null,
+                    "tic80_cart_id": 2321
                 }
             ],
             "staffs": []
