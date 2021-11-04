@@ -54,7 +54,7 @@
                 },
                 {
                     "handle": {
-                        "name": "\u308f\u305f\u3057 (phi16)",
+                        "name": "phi16",
                         "demozoo_id": null
                     },
                     "job": "Commentators"
@@ -65,7 +65,7 @@
     "staffs": [
         {
             "handle": {
-                "name": "\u308f\u305f\u3057 (phi16)",
+                "name": "phi16",
                 "demozoo_id": null
             },
             "job": "Organizers"
