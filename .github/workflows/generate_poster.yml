@@ -30,8 +30,8 @@ jobs:
 
       - name: Switch to branch 'gh-pages'
         run: |
-          git branch -f gh-pages HEAD
-          git checkout gh-pages
+          git branch -f posters HEAD
+          git checkout posters
 
       - name: Generate posters
         run: |
@@ -48,4 +48,4 @@ jobs:
       - run: |
           git add -A
           git commit -m "Publish"
-          git push -f origin `git subtree split -P public`:refs/heads/gh-pages
+          git push -f origin `git subtree split -P public`:refs/heads/posters
