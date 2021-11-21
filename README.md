@@ -23,3 +23,14 @@ pip -r requirements.txt
 python bin/livecode_ontology.py
 python generate_user_poster.py
 ```
+Poster are available here : 
+
+## "Radio" Bonzomatic Shader
+**Experimental**
+
+Using the NuSan's version of [bonzomatic](https://github.com/TheNuSan/Bonzomatic), we created a "radio" that is streaming bonzomatic shader. You can visualize this radio using this command :
+
+```
+.\Bonzomatic_W64_GLFW.exe  skipdialog networkMode=grabber serverURL=ws://drone.alkama.com:9000/livecode/radio
+```
+(Windows here, similar call parameters for Linux/MacOs)
