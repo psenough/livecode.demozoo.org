@@ -23,7 +23,7 @@ pip -r requirements.txt
 python bin/livecode_ontology.py
 python generate_user_poster.py
 ```
-Poster are available here : 
+Poster are available here :  https://github.com/psenough/livecode.demozoo.org/tree/posters/posters
 
 ## "Radio" Bonzomatic Shader
 **Experimental**
