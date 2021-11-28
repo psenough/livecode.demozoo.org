@@ -139,7 +139,7 @@
                 "job": {
                   "description": "Job",
                   "type": "string",
-                  "enum": ["Live Music", "Dj Set", "Commentators"]
+                  "enum": ["Live Music", "Dj Set", "Commentators", "Organizers"]
                 },
                 "handle": {
                   "description": "Handle / Username",
