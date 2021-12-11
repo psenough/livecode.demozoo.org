@@ -17,7 +17,7 @@ def save_json(data: Any, path: Path, **kwargs) -> None:
 
 def load_json(path: Path) -> Any:
     """Load data from JSON file."""
-    with path.open() as f:
+    with path.open(encoding='utf-8') as f:
         return json.load(f)
 
 
