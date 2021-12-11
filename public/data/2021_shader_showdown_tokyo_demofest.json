@@ -18,7 +18,7 @@
     "phases": [
         {
             "title": "Quarter #01",
-            "vod": null,
+            "vod": "https://youtu.be/2s9KfMn1J9M?t=8071",
             "entries": [
                 {
                     "id": null,
@@ -48,6 +48,27 @@
             "staffs": [
                 {
                     "handle": {
+                        "name": "amagitakayosi",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "doxas",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "避雷",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
                         "name": "ps",
                         "demozoo_id": 313
                     },
@@ -64,7 +85,7 @@
         },
         {
             "title": "Quarter #02",
-            "vod": null,
+            "vod": "https://youtu.be/2s9KfMn1J9M?t=9979",
             "entries": [
                 {
                     "id": null,
@@ -94,6 +115,27 @@
             "staffs": [
                 {
                     "handle": {
+                        "name": "amagitakayosi",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "doxas",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "避雷",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
                         "name": "ps",
                         "demozoo_id": 313
                     },
@@ -110,7 +152,7 @@
         },
         {
             "title": "Quarter #03",
-            "vod": null,
+            "vod": "https://youtu.be/2s9KfMn1J9M?t=12265",
             "entries": [
                 {
                     "id": null,
@@ -140,6 +182,20 @@
             "staffs": [
                 {
                     "handle": {
+                        "name": "murasaqi",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "避雷",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
                         "name": "ps",
                         "demozoo_id": 313
                     },
@@ -156,7 +212,7 @@
         },
         {
             "title": "Quarter #04",
-            "vod": null,
+            "vod": "https://youtu.be/2s9KfMn1J9M?t=14123",
             "entries": [
                 {
                     "id": null,
@@ -184,6 +240,20 @@
                 }
             ],
             "staffs": [
+                {
+                    "handle": {
+                        "name": "murasaqi",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "避雷",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
                 {
                     "handle": {
                         "name": "ps",
