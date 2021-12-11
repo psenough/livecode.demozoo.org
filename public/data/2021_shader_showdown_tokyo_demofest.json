@@ -206,7 +206,7 @@
             "entries": [
                 {
                     "id": null,
-                    "rank": 1,
+                    "rank": null,
                     "points": null,
                     "handle": {
                         "name": "gam0022",
@@ -218,7 +218,7 @@
                 },
                 {
                     "id": null,
-                    "rank": 2,
+                    "rank": null,
                     "points": null,
                     "handle": {
                         "name": "Kamoshika",
