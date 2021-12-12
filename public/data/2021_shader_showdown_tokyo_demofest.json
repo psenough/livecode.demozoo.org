@@ -174,7 +174,7 @@
                         "name": "phi16",
                         "demozoo_id": null
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/flcSRB",
                     "preview_image": "2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_phi16.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_phi16.glsl"
                 }
@@ -349,7 +349,7 @@
                         "name": "phi16",
                         "demozoo_id": null
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/Nl3XRB",
                     "preview_image": null,
                     "source_file": null
                 },
@@ -428,7 +428,7 @@
                         "name": "phi16",
                         "demozoo_id": null
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/Nl3XzB",
                     "preview_image": null,
                     "source_file": null
                 }
