@@ -14,7 +14,10 @@
         }
     ],
     "vod": null,
-    "alternate_vods": ["https://www.twitch.tv/videos/1230237336"],
+    "alternate_vods": [
+        "https://www.twitch.tv/videos/1230237336",
+        "https://www.twitch.tv/videos/1231153157"
+    ],
     "phases": [
         {
             "title": "Quarter #01",
@@ -272,7 +275,7 @@
         },
         {
             "title": "Semi #01",
-            "vod": null,
+            "vod": "https://youtu.be/bp37xTVNRrM?t=6101",
             "entries": [
                 {
                     "id": null,
@@ -339,7 +342,7 @@
         },
         {
             "title": "Semi #02",
-            "vod": null,
+            "vod": "https://youtu.be/bp37xTVNRrM?t=8375",
             "entries": [
                 {
                     "id": null,
@@ -406,7 +409,7 @@
         },
         {
             "title": "Final",
-            "vod": null,
+            "vod": "https://youtu.be/bp37xTVNRrM?t=16006",
             "entries": [
                 {
                     "id": null,
