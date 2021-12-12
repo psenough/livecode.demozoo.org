@@ -410,8 +410,8 @@
             "entries": [
                 {
                     "id": null,
-                    "rank": null,
-                    "points": null,
+                    "rank": 2,
+                    "points": 216,
                     "handle": {
                         "name": "Kamoshika",
                         "demozoo_id": null
@@ -422,8 +422,8 @@
                 },
                 {
                     "id": null,
-                    "rank": null,
-                    "points": null,
+                    "rank": 1,
+                    "points": 222,
                     "handle": {
                         "name": "phi16",
                         "demozoo_id": null
