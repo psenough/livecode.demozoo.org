@@ -110,7 +110,7 @@
                         "name": "Kamoshika",
                         "demozoo_id": null
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/7tcXzS",
                     "preview_image": "2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_Kamoshika.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_Kamoshika.glsl"
                 }
@@ -286,8 +286,8 @@
                         "demozoo_id": 63869
                     },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2021_12_tdf_shadershowdown/semi/grabber_tdf2021_gam0022.jpg",
+                    "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/semi/grabber_tdf2021_gam0022.glsl"
                 },
                 {
                     "id": null,
@@ -297,9 +297,9 @@
                         "name": "Kamoshika",
                         "demozoo_id": null
                     },
-                    "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "shadertoy_url": "https://www.shadertoy.com/view/7l3SRB",
+                    "preview_image": "2021_12_tdf_shadershowdown/semi/grabber_tdf2021_Kamoshika.jpg",
+                    "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/semi/grabber_tdf2021_Kamoshika.glsl"
                 }
             ],
             "staffs": [
@@ -353,8 +353,8 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/Nl3XRB",
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2021_12_tdf_shadershowdown/semi/grabber_tdf2021_phi16.jpg",
+                    "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/semi/grabber_tdf2021_phi16.glsl"
                 },
                 {
                     "id": null,
@@ -419,9 +419,9 @@
                         "name": "Kamoshika",
                         "demozoo_id": null
                     },
-                    "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "shadertoy_url": "https://www.shadertoy.com/view/stcSRB",
+                    "preview_image": "2021_12_tdf_shadershowdown/final/grabber_tdf2021_Kamoshika.jpg",
+                    "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/final/grabber_tdf2021_Kamoshika.glsl"
                 },
                 {
                     "id": null,
@@ -432,8 +432,8 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/Nl3XzB",
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2021_12_tdf_shadershowdown/final/grabber_tdf2021_phi16.jpg",
+                    "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/final/grabber_tdf2021_phi16.glsl"
                 }
             ],
             "staffs": [
