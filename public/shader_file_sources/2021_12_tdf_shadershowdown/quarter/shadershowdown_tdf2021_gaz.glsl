@@ -23,7 +23,7 @@ vec4 plas(vec2 v,float time)
   return vec4(sin(c*.2+cos(time)),c*.15,cos(c*.1+time/.4)*.25,1.);
 }
 
-#define B(1.-fract(t*2.))
+#define B(1-fract(t*2))
 #define R(p,a,t)mix(a*dot(p,a),p,cos(t))+sin(t)*cross(p,a)
 #define Y p=p.x<p.y?p.zxy:p.zyx
 #define N p=p.x>p.y?p.zxy:p.zyx
@@ -36,29 +36,28 @@ void main(void)
   uv/=vec2(v2Resolution.y/v2Resolution.x,1);
   
   vec3 p,d=normalize(vec3(uv,1)),c=vec3(0);
-  float g=0.,e,a,s,t=fGlobalTime;
-  for(float i=0.;i<99.;i++){
+  float i=0,g=0,s,a,e,t=fGlobalTime;
+  
+  for(;i++<99;){
     p=d*g;
     p.z-=-t;
-    p=R(p,vec3(.577),clamp(sin(t*.5)*4.,-1.,1.)*4.+.5);
-    p=abs(p)-1.;
-    Y;
-    N;
+    p=R(p,vec3(.577),clamp(sin(t/4)*6,-.5,.5)+.6);
+    Y;N;
     p=asin(sin(p));
-    
-    s=2.;
-    for(int i=0;i<8;i++){
+    s=2;
+    for(int i=0;i++<8;){
       p=abs(p);
       Y;
       s*=e=1.8/min(dot(p,p),1.2);
-      p=abs(p)*e-vec3(7.+B,2,4);
+      p=abs(p)*e-vec3(7+B,1,4);
     }
     
     a=.3;
-    p-=clamp(p,-1.,1.);
+    p-=clamp(p,-a,a);
     g+=e=length(p.xy)/s;
-    if(e<.001)c+=mix(vec3(1),H(log(s)*.2+.2),.5)*.5/i;
+    if(e<.001)c+=mix(vec3(1),H(log(s)*.3+.8),.5)*.5/i;
+    
   }
-  
+  c*=c*c;
   out_color=vec4(c,1);
 }
