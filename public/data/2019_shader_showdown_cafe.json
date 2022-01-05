@@ -44,7 +44,8 @@
           "preview_image": null,
           "source_file": "/shader_file_sources/2019_10_cafe/shadershow_tour1_wbcbz7.glsl"
         }
-      ]
+      ],
+	  "staffs": []
     },
     {
       "title": "Round #2",
@@ -70,7 +71,8 @@
           "preview_image": null,
           "source_file": "/shader_file_sources/2019_10_cafe/shadershow_tour2_f0x.glsl"
         }
-      ]
+      ],
+	  "staffs": []
     },
     {
       "title": "Semifinal (3rd place Round)",
@@ -96,7 +98,8 @@
           "preview_image": null,
           "source_file": "/shader_file_sources/2019_10_cafe/shadershow_semifinal_dart.glsl"
         }
-      ]
+      ],
+	  "staffs": []
     },
     {
       "title": "Final",
@@ -122,7 +125,16 @@
           "preview_image": null,
           "source_file": "/shader_file_sources/2019_10_cafe/shadershow_final_f0x.glsl"
         }
-      ]
+      ],
+	  "staffs": [
+		{
+			"handle": {
+				"name": "Kubikámi",
+				"demozoo_id": 63068
+			},
+			"job": "Dj Set"
+		}
+	  ]
     }
   ],
   "staffs": [
@@ -130,6 +142,13 @@
       "handle": {
         "name": "Adam Bazaroff",
         "demozoo_id": 33155
+      },
+      "job": "Organizers"
+    },
+	{
+      "handle": {
+        "name": "bfox",
+        "demozoo_id": 9743
       },
       "job": "Organizers"
     }
