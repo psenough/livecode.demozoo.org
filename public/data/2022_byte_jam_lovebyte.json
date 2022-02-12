@@ -2,7 +2,7 @@
     "title": "Lovebyte",
     "started": "2022-02-11",
     "date": "11-13 Feb 2022",
-    "vod": null,
+    "vod": "https://www.youtube.com/watch?v=DYGI84rPPNs",
     "type": "Byte Jam",
     "website": "https://lovebyte.party/",
     "flyer": "",
@@ -41,7 +41,7 @@
                         "demozoo_id": 126956
                     },
                     "shadertoy_url": null,
-                    "tic80_cart_id": null,
+                    "tic80_cart_id": 2602,
                     "source_file": "/shader_file_sources/2022_02_lovebyte_bytejam/borb_frogparty.lua",
                     "preview_image": "2022_02_lovebyte_bytejam/borb_frogparty.gif"
                 },
