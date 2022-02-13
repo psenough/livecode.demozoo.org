@@ -20,7 +20,7 @@
             "entries": [
                 {
                     "id": 1,
-                    "rank": null,
+                    "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "visy",
@@ -33,7 +33,7 @@
                 },
                 {
                     "id": 2,
-                    "rank": null,
+                    "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "lynn",
@@ -114,7 +114,7 @@
             "entries": [
                 {
                     "id": null,
-                    "rank": null,
+                    "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "dave84",
@@ -127,7 +127,7 @@
                 },
                 {
                     "id": null,
-                    "rank": null,
+                    "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "pancelor",
@@ -161,7 +161,7 @@
             "entries": [
                 {
                     "id": null,
-                    "rank": null,
+                    "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "totetmatt",
@@ -173,7 +173,7 @@
                 },
                 {
                     "id": null,
-                    "rank": null,
+                    "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "dresdenboy",
@@ -192,6 +192,100 @@
                     },
                     "job": "Commentators"
                 },
+                {
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final #1",
+            "vod": null,
+            "keyword": "Yurt",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null,
+                    "preview_image": null
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "pestis",
+                        "demozoo_id": 44058
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/semi_pestis.lua",
+                    "preview_image": "2022_02_lovebyte_bytebattle/semi_pestis.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final #2",
+            "vod": null,
+            "keyword": "Cloud",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "dave84",
+                        "demozoo_id": 127921
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/semi_dave84.lua",
+                    "preview_image": "2022_02_lovebyte_bytebattle/semi_dave84.gif"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/semi_totetmatt.lua",
+                    "preview_image": "2022_02_lovebyte_bytebattle/semi_totetmatt.gif"
+                }
+            ],
+            "staffs": [
                 {
                     "handle": {
                         "name": "aldroid",
