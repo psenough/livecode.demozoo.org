@@ -110,7 +110,7 @@
         },{
             "title": "Quarter Final #3",
             "vod": "https://www.youtube.com/watch?v=2JkD6JtzTW0",
-            "keyword": "Rainbow",
+            "keyword": "Rainbows",
             "entries": [
                 {
                     "id": null,
@@ -258,7 +258,7 @@
         {
             "title": "Semi Final #2",
             "vod": null,
-            "keyword": "Cloud",
+            "keyword": "Clouds",
             "entries": [
                 {
                     "id": null,
@@ -283,6 +283,53 @@
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/semi_totetmatt.lua",
                     "preview_image": "2022_02_lovebyte_bytebattle/semi_totetmatt.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": null,
+            "keyword": "Falling",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "pestis",
+                        "demozoo_id": 44058
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/final_pestis.lua",
+                    "preview_image": "2022_02_lovebyte_bytebattle/final_pestis.gif"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "dave84",
+                        "demozoo_id": 127921
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null,
+                    "preview_image":  null
                 }
             ],
             "staffs": [
