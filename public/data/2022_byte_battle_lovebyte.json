@@ -21,7 +21,7 @@
                 {
                     "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 208,
                     "handle": {
                         "name": "visy",
                         "demozoo_id": 1301
@@ -34,7 +34,7 @@
                 {
                     "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 145,
                     "handle": {
                         "name": "lynn",
                         "demozoo_id": 77648
@@ -69,7 +69,7 @@
                 {
                     "id": 1,
                     "rank": 2,
-                    "points": null,
+                    "points": 104,
                     "handle": {
                         "name": "jobe",
                         "demozoo_id": null
@@ -81,7 +81,7 @@
                 {
                     "id": 2,
                     "rank": 1,
-                    "points": null,
+                    "points": 172,
                     "handle": {
                         "name": "pestis",
                         "demozoo_id": 44058
@@ -113,9 +113,9 @@
             "keyword": "Rainbows",
             "entries": [
                 {
-                    "id": null,
+                    "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 192,
                     "handle": {
                         "name": "dave84",
                         "demozoo_id": 127921
@@ -126,9 +126,9 @@
                     "preview_image": null
                 },
                 {
-                    "id": null,
+                    "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 188,
                     "handle": {
                         "name": "pancelor",
                         "demozoo_id": null
@@ -160,9 +160,9 @@
             "keyword": "Psycho Clock",
             "entries": [
                 {
-                    "id": null,
+                    "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 193,
                     "handle": {
                         "name": "totetmatt",
                         "demozoo_id": 121811
@@ -172,9 +172,9 @@
                     "preview_image": "2022_02_lovebyte_bytebattle/quarter_totetmatt.gif"
                 },
                 {
-                    "id": null,
+                    "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 159,
                     "handle": {
                         "name": "dresdenboy",
                         "demozoo_id": 64936
@@ -214,9 +214,9 @@
             "keyword": "Yurt",
             "entries": [
                 {
-                    "id": null,
+                    "id": 1,
                     "rank": 2,
-                    "points": null,
+                    "points": 115,
                     "handle": {
                         "name": "visy",
                         "demozoo_id": 1301
@@ -226,9 +226,9 @@
                     "preview_image": null
                 },
                 {
-                    "id": null,
+                    "id": 2,
                     "rank": 1,
-                    "points": null,
+                    "points": 171,
                     "handle": {
                         "name": "pestis",
                         "demozoo_id": 44058
@@ -261,9 +261,9 @@
             "keyword": "Clouds",
             "entries": [
                 {
-                    "id": null,
+                    "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 138,
                     "handle": {
                         "name": "dave84",
                         "demozoo_id": 127921
@@ -273,9 +273,9 @@
                     "preview_image": "2022_02_lovebyte_bytebattle/semi_dave84.gif"
                 },
                 {
-                    "id": null,
+                    "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 99,
                     "handle": {
                         "name": "totetmatt",
                         "demozoo_id": 121811
@@ -308,9 +308,9 @@
             "keyword": "Falling",
             "entries": [
                 {
-                    "id": null,
+                    "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 272,
                     "handle": {
                         "name": "pestis",
                         "demozoo_id": 44058
@@ -320,9 +320,9 @@
                     "preview_image": "2022_02_lovebyte_bytebattle/final_pestis.gif"
                 },
                 {
-                    "id": null,
+                    "id": 2,
                     "rank": 2,
-                    "points": null,
+                    "points": 145,
                     "handle": {
                         "name": "dave84",
                         "demozoo_id": 127921
