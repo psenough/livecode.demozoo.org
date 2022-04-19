@@ -26,7 +26,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "revision_jam_2021/jam_with_lynn/nusan.jpg",
-                    "source_file": "shader_file_sources/revision_2021/jam_with_lynn/nusan.glsl"
+                    "source_file": "/shader_file_sources/revision_2021/jam_with_lynn/nusan.glsl"
                 },
                 {
                     "id": null,
@@ -38,7 +38,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "revision_jam_2021/jam_with_lynn/lechugafeliz.jpg",
-                    "source_file": "shader_file_sources/revision_2021/jam_with_lynn/lechugafeliz.glsl"
+                    "source_file": "/shader_file_sources/revision_2021/jam_with_lynn/lechugafeliz.glsl"
                 },
                 {
                     "id": null,
@@ -50,7 +50,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/fsjGDD",
                     "preview_image": "revision_jam_2021/jam_with_lynn/eimink.jpg",
-                    "source_file": "shader_file_sources/revision_2021/jam_with_lynn/eimink.glsl"
+                    "source_file": "/shader_file_sources/revision_2021/jam_with_lynn/eimink.glsl"
                 }
             ],
             "staffs": [
@@ -75,7 +75,7 @@
                         "demozoo_id": 10577
                     },
                     "shadertoy_url": null,
-                    "source_file": "shader_file_sources/revision_2021/jam_with_messy/superplek/superplek.glsl",
+                    "source_file": "/shader_file_sources/revision_2021/jam_with_messy/superplek/superplek.glsl",
                     "preview_image": "revision_jam_2021/jam_with_messy/superplek.jpg"
                 },
                 {
@@ -87,7 +87,7 @@
                         "demozoo_id": 71087
                     },
                     "shadertoy_url": null,
-                    "source_file": "shader_file_sources/revision_2021/jam_with_messy/evvvvil.glsl",
+                    "source_file": "/shader_file_sources/revision_2021/jam_with_messy/evvvvil.glsl",
                     "preview_image": "revision_jam_2021/jam_with_messy/evvvvil.jpg"
                 },
                 {
@@ -99,7 +99,7 @@
                         "demozoo_id": 119897
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/Ndj3Wm",
-                    "source_file": "shader_file_sources/revision_2021/jam_with_messy/sp4ghet.glsl",
+                    "source_file": "/shader_file_sources/revision_2021/jam_with_messy/sp4ghet.glsl",
                     "preview_image": "revision_jam_2021/jam_with_messy/sp4ghet.jpg"
                 }
             ],
@@ -125,7 +125,7 @@
                         "demozoo_id": 35897
                     },
                     "shadertoy_url": null,
-                    "source_file": "shader_file_sources/revision_2021/jam_with_ghost/exca.glsl",
+                    "source_file": "/shader_file_sources/revision_2021/jam_with_ghost/exca.glsl",
                     "preview_image": "revision_jam_2021/jam_with_ghost/exca.jpg"
                 },
                 {
@@ -137,7 +137,7 @@
                         "demozoo_id": 56489
                     },
                     "shadertoy_url": null,
-                    "source_file": "shader_file_sources/revision_2021/jam_with_ghost/rimina.glsl",
+                    "source_file": "/shader_file_sources/revision_2021/jam_with_ghost/rimina.glsl",
                     "preview_image": "revision_jam_2021/jam_with_ghost/rimina.jpg"
                 },
                 {
@@ -149,7 +149,7 @@
                         "demozoo_id": 1301
                     },
                     "shadertoy_url": null,
-                    "source_file": "shader_file_sources/revision_2021/jam_with_ghost/visy.glsl",
+                    "source_file": "/shader_file_sources/revision_2021/jam_with_ghost/visy.glsl",
                     "preview_image": "revision_jam_2021/jam_with_ghost/visy.jpg"
                 }
             ],

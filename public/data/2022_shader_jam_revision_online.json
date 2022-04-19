@@ -32,7 +32,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/ghost/2022_04_revision_jam_ghost_exca.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/ghost/2022_04_revision_jam_ghost_exca.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/ghost/2022_04_revision_jam_ghost_exca.glsl"
                 },
                 {
                     "id": null,
@@ -44,7 +44,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/ghost/2022_04_revision_jam_ghost_Tater.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/ghost/2022_04_revision_jam_ghost_Tater.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/ghost/2022_04_revision_jam_ghost_Tater.glsl"
                 },
                 {
                     "id": null,
@@ -56,7 +56,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/ghost/2022_04_revision_jam_ghost_eimink.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/ghost/2022_04_revision_jam_ghost_eimink.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/ghost/2022_04_revision_jam_ghost_eimink.glsl"
                 }
             ],
             "staffs": [
@@ -82,7 +82,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/lug00ber/2022_04_revision_jam_lug00ber_exca.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/lug00ber/2022_04_revision_jam_lug00ber_exca.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/lug00ber/2022_04_revision_jam_lug00ber_exca.glsl"
                 },
                 {
                     "id": null,
@@ -94,7 +94,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/lug00ber/2022_04_revision_jam_lug00ber_evvvvil.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/lug00ber/2022_04_revision_jam_lug00ber_evvvvil.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/lug00ber/2022_04_revision_jam_lug00ber_evvvvil.glsl"
                 },
                 {
                     "id": null,
@@ -106,7 +106,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/lug00ber/2022_04_revision_jam_lug00ber_kostik.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/lug00ber/2022_04_revision_jam_lug00ber_kostik.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/lug00ber/2022_04_revision_jam_lug00ber_kostik.glsl"
                 }
             ],
             "staffs": [
@@ -132,7 +132,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/mack/2022_04_revision_jam_mack_z0rg.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/mack/2022_04_revision_jam_mack_z0rg.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/mack/2022_04_revision_jam_mack_z0rg.glsl"
                 },
                 {
                     "id": null,
@@ -144,7 +144,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/mack/2022_04_revision_jam_mack_monsieursoleil.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/mack/2022_04_revision_jam_mack_monsieursoleil.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/mack/2022_04_revision_jam_mack_monsieursoleil.glsl"
                 },
                 {
                     "id": null,
@@ -156,7 +156,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/mack/2022_04_revision_jam_mack_blackle.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/mack/2022_04_revision_jam_mack_blackle.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/mack/2022_04_revision_jam_mack_blackle.glsl"
                 }
             ],
             "staffs": [
@@ -182,7 +182,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_goose.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_goose.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_goose.glsl"
                 },
                 {
                     "id": null,
@@ -194,7 +194,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_lechugafeliz.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_lechugafeliz.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_lechugafeliz.glsl"
                 },
                 {
                     "id": null,
@@ -206,7 +206,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_nusan.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_nusan.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_nusan.glsl"
                 },
                 {
                     "id": null,
@@ -218,7 +218,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_provod.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_provod.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_provod.glsl"
                 },
                 {
                     "id": null,
@@ -230,7 +230,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_totetmatt.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_totetmatt.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_totetmatt.glsl"
                 },
                 {
                     "id": null,
@@ -242,7 +242,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_wbcbz7.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_wbcbz7.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_jam/wayfinder/2022_04_revision_jam_wayfinder_wbcbz7.glsl"
                 }
             ],
             "staffs": [

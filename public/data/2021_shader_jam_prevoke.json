@@ -29,7 +29,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/Nl2XDd",
                     "preview_image": "pre_nevoke_jam_2021/grabber_inerciaroyale_alien.jpg",
-                    "source_file": "shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_alien.glsl"
+                    "source_file": "/shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_alien.glsl"
                 },
                 {
                     "id": null,
@@ -41,7 +41,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "pre_nevoke_jam_2021/grabber_inerciaroyale_alkama.jpg",
-                    "source_file": "shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_alkama.glsl"
+                    "source_file": "/shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_alkama.glsl"
                 },
                 {
                     "id": null,
@@ -53,7 +53,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "pre_nevoke_jam_2021/grabber_inerciaroyale_eimink.jpg",
-                    "source_file": "shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_eimink.glsl"
+                    "source_file": "/shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_eimink.glsl"
                 },
                 {
                     "id": null,
@@ -65,7 +65,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/Nt2XDd",
                     "preview_image": "pre_nevoke_jam_2021/grabber_inerciaroyale_Exca.jpg",
-                    "source_file": "shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_Exca.glsl"
+                    "source_file": "/shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_Exca.glsl"
                 },
                 {
                     "id": null,
@@ -77,7 +77,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/stjSWt",
                     "preview_image": "pre_nevoke_jam_2021/grabber_inerciaroyale_LechugaFeliz.jpg",
-                    "source_file": "shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_LechugaFeliz.glsl"
+                    "source_file": "/shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_LechugaFeliz.glsl"
                 },
                 {
                     "id": null,
@@ -89,7 +89,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7tjSWt",
                     "preview_image": "pre_nevoke_jam_2021/grabber_inerciaroyale_NuSan.jpg",
-                    "source_file": "shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_NuSan.glsl"
+                    "source_file": "/shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_NuSan.glsl"
                 },
                 {
                     "id": null,
@@ -101,7 +101,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "pre_nevoke_jam_2021/grabber_inerciaroyale_provod.jpg",
-                    "source_file": "shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_provod.glsl"
+                    "source_file": "/shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_provod.glsl"
                 },
                 {
                     "id": null,
@@ -113,7 +113,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "pre_nevoke_jam_2021/grabber_inerciaroyale_rimina.jpg",
-                    "source_file": "shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_rimina.glsl"
+                    "source_file": "/shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_rimina.glsl"
                 },
                 {
                     "id": null,
@@ -125,7 +125,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/fl2XDd",
                     "preview_image": "pre_nevoke_jam_2021/grabber_inerciaroyale_tater.jpg",
-                    "source_file": "shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_tater.glsl"
+                    "source_file": "/shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_tater.glsl"
                 },
                 {
                     "id": null,
@@ -137,7 +137,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "pre_nevoke_jam_2021/grabber_inerciaroyale_totetmatt.jpg",
-                    "source_file": "shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_totetmatt.glsl"
+                    "source_file": "/shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_totetmatt.glsl"
                 },
                 {
                     "id": null,
@@ -149,7 +149,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "pre_nevoke_jam_2021/grabber_inerciaroyale_visy.jpg",
-                    "source_file": "shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_visy.glsl"
+                    "source_file": "/shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_visy.glsl"
                 },
                 {
                     "id": null,
@@ -161,7 +161,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "pre_nevoke_jam_2021/grabber_inerciaroyale_wrighter.jpg",
-                    "source_file": "shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_wrighter.glsl"
+                    "source_file": "/shader_file_sources/pre_nevoke_jam_2021/grabber_inerciaroyale_wrighter.glsl"
                 }
             ],
             "staffs": [

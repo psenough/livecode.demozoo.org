@@ -33,7 +33,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/NlByzt",
                     "preview_image": "2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_exca.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_exca.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_exca.glsl"
                 },
                 {
                     "id": null,
@@ -45,7 +45,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_monsieursoleil.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_monsieursoleil.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_monsieursoleil.glsl"
                 }
             ],
             "staffs": [
@@ -100,7 +100,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7ljcWV",
                     "preview_image": "2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_evvvvil.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_evvvvil.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_evvvvil.glsl"
                 },
                 {
                     "id": null,
@@ -112,7 +112,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_provod.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_provod.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_provod.glsl"
                 }
             ],
             "staffs": [
@@ -167,7 +167,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_goose.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_goose.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_goose.glsl"
                 },
                 {
                     "id": null,
@@ -179,7 +179,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_z0rg.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_z0rg.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_z0rg.glsl"
                 }
             ],
             "staffs": [
@@ -234,7 +234,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/NlBcRd",
                     "preview_image": "2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_blackle.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_blackle.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_blackle.glsl"
                 },
                 {
                     "id": null,
@@ -246,7 +246,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/sl2yW3",
                     "preview_image": "2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_totetmatt.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_totetmatt.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_totetmatt.glsl"
                 }
             ],
             "staffs": [
@@ -301,7 +301,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/Ntjczd",
                     "preview_image": "2022_04_revision_shadershowdown/semi/2022_04_revision_semi_exca.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/semi/2022_04_revision_semi_exca.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_shadershowdown/semi/2022_04_revision_semi_exca.glsl"
                 },
                 {
                     "id": null,
@@ -313,7 +313,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_shadershowdown/semi/2022_04_revision_semi_goose.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/semi/2022_04_revision_semi_goose.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_shadershowdown/semi/2022_04_revision_semi_goose.glsl"
                 }
             ],
             "staffs": [
@@ -361,7 +361,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7l2yDV",
                     "preview_image": "2022_04_revision_shadershowdown/semi/2022_04_revision_semi_evvvvil.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/semi/2022_04_revision_semi_evvvvil.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_shadershowdown/semi/2022_04_revision_semi_evvvvil.glsl"
                 },
                 {
                     "id": null,
@@ -373,7 +373,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/Nl2yzt",
                     "preview_image": "2022_04_revision_shadershowdown/semi/2022_04_revision_semi_blackle.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/semi/2022_04_revision_semi_blackle.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_shadershowdown/semi/2022_04_revision_semi_blackle.glsl"
                 }
             ],
             "staffs": [
@@ -421,7 +421,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/ft2czd",
                     "preview_image": "2022_04_revision_shadershowdown/final/2022_04_revision_final_exca.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/final/2022_04_revision_final_exca.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_shadershowdown/final/2022_04_revision_final_exca.glsl"
                 },
                 {
                     "id": null,
@@ -433,7 +433,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_04_revision_shadershowdown/final/2022_04_revision_final_evvvvil.jpg",
-                    "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/final/2022_04_revision_final_evvvvil.glsl"
+                    "source_file": "/shader_file_sources/2022_04_revision_shadershowdown/final/2022_04_revision_final_evvvvil.glsl"
                 }
             ],
             "staffs": [
