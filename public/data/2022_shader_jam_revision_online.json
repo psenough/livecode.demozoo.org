@@ -10,6 +10,12 @@
             "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
             "version": "NuSan - v11",
             "purpose": "Graphic"
+        },
+        {
+            "name": "Bonzomatic Extra Texture",
+            "url": "https://livecode.demozoo.org/extra/revision_2022_extra_textures.zip",
+            "version": "Revision 2022",
+            "purpose": "Texture"
         }
     ],
     "phases": [

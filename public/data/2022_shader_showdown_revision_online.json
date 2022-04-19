@@ -10,6 +10,12 @@
             "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
             "version": "NuSan - v11",
             "purpose": "Graphic"
+        },
+        {
+            "name": "Bonzomatic Extra Texture",
+            "url": "https://livecode.demozoo.org/extra/revision_2022_extra_textures.zip",
+            "version": "Revision 2022",
+            "purpose": "Texture"
         }
     ],
     "phases": [
@@ -238,7 +244,7 @@
                         "name": "totetmatt",
                         "demozoo_id": 121811
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/sl2yW3",
                     "preview_image": "2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_totetmatt.jpg",
                     "source_file": "https://livecode.demozoo.org/shader_file_sources/2022_04_revision_shadershowdown/quarter/2022_04_revision_quarter_totetmatt.glsl"
                 }
