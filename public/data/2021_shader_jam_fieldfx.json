@@ -36,7 +36,7 @@
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "Monsieur Soleil",
+                        "name": "monsieursoleil",
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
@@ -108,7 +108,7 @@
         },
         {
             "handle": {
-                "name": "Aldroid",
+                "name": "aldroid",
                 "demozoo_id": 63755
             },
             "job": "Organizers"

@@ -55,7 +55,7 @@
                 {
                     "handle": {
                         "name": "aldroid",
-                        "demozoo_id": null
+                        "demozoo_id": 63755
                     },
                     "job": "Commentators"
                 }
@@ -107,7 +107,8 @@
                     "job": "Commentators"
                 }
             ]
-        },{
+        },
+        {
             "title": "Quarter Final #3",
             "vod": "https://www.youtube.com/watch?v=2JkD6JtzTW0",
             "keyword": "Rainbows",
@@ -150,12 +151,13 @@
                 {
                     "handle": {
                         "name": "aldroid",
-                        "demozoo_id": null
+                        "demozoo_id": 63755
                     },
                     "job": "Commentators"
                 }
             ]
-        },{
+        },
+        {
             "title": "Quarter Final #4",
             "vod": "https://www.youtube.com/watch?v=BRS68kgYOf0",
             "keyword": "Psycho Clock",
@@ -196,7 +198,7 @@
                 {
                     "handle": {
                         "name": "aldroid",
-                        "demozoo_id": null
+                        "demozoo_id": 63755
                     },
                     "job": "Commentators"
                 },
@@ -243,7 +245,7 @@
                 {
                     "handle": {
                         "name": "aldroid",
-                        "demozoo_id": null
+                        "demozoo_id": 63755
                     },
                     "job": "Commentators"
                 },
@@ -290,7 +292,7 @@
                 {
                     "handle": {
                         "name": "aldroid",
-                        "demozoo_id": null
+                        "demozoo_id": 63755
                     },
                     "job": "Commentators"
                 },
@@ -330,14 +332,14 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/final_dave84.lua",
-                    "preview_image":  "2022_02_lovebyte_bytebattle/final_dave84.gif"
+                    "preview_image": "2022_02_lovebyte_bytebattle/final_dave84.gif"
                 }
             ],
             "staffs": [
                 {
                     "handle": {
                         "name": "aldroid",
-                        "demozoo_id": null
+                        "demozoo_id": 63755
                     },
                     "job": "Commentators"
                 },
@@ -350,7 +352,6 @@
                 }
             ]
         }
-     
     ],
     "staffs": [
         {

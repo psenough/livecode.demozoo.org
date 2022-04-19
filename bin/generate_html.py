@@ -4,6 +4,7 @@ from __future__ import annotations
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
+import string
 import sys
 
 ROOT_PATH = (Path(__file__).parent / '..').absolute()
@@ -177,7 +178,8 @@ def generate_performers_html_pages(
 
     performers_path = html_path / 'performers'
     performers_path.mkdir(exist_ok=True)
-
+    performer_index_page = defaultdict(list)
+    index_letter_valid = string.digits+string.ascii_uppercase
     for pid in performer_data.keys():
         render_performer_html_page(
             performers_path / f'{pid}.html',
@@ -187,6 +189,16 @@ def generate_performers_html_pages(
             nav_items,
             party_series,
         )
+
+        # Regroup data for Performer index
+        performer_page = (pid,performer_data[pid])
+        index_letter = performer_data[pid]['name'][0].upper()
+        if index_letter in index_letter_valid:
+            performer_index_page[index_letter].append(performer_page)
+        else : 
+            performer_index_page['#'].append(performer_page)
+
+    render_performer_index_html_page(html_path / "index_performers.html",performer_index_page, index_letter_valid+'#',nav_items, party_series)
 
 
 def collect_party_series_data(
@@ -339,7 +351,22 @@ def render_performer_html_page(
         filename,
     )
 
-
+def render_performer_index_html_page(filename: Path, 
+    performers_per_index,
+    indices,
+    nav_items,
+    party_series):
+    render_html_file(
+        'index_performers.html',
+        {
+            'performers_per_index': performers_per_index,
+            'indices': indices,
+            'nav_items' : nav_items,
+            'current_nav_item_id': None,
+            'party_series': party_series,
+        },
+        filename,
+    )
 def main() -> None:
     public_path = ROOT_PATH / Path('public')
     data_path = public_path / 'data'
