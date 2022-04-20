@@ -3,73 +3,87 @@
 {% set SITE_ROOT = '..' %}
 
 {% block head %}
-    <meta name="description" content="Live coding performances by {{ performer_data.name }}">
+<meta name="description" content="Live coding performances by {{ performer_data.name }}">
+
+{% if img_header_path %}
+<meta property="og:image" content="https://livecode.demozoo.org/media/{{img_header_path}}" />
+<meta property="og:image:secure_url" content="https://livecode.demozoo.org/media/{{img_header_path}}" />
+<meta property="og:image:type" content="image/jpeg" />
+{% endif %}
+
 {%- endblock %}
 
 {% block body %}
-  <div class="container bg-dark">
+<div class="container bg-dark">
 
-    <h1 class="mt-5 mb-5 text-center">
+  <h1 class="mt-5 mb-5 text-center">
     {% if performer_data.get('demozoo_name') %}
-      {{ performer_data.demozoo_name }} <a target="_blank" href="https://demozoo.org/sceners/{{ performer_data.demozoo_id }}/"><img height="22" width="auto" src="../assets/img/demozoo.png"></a>
+
+
+    {{ performer_data.demozoo_name }} <a target="_blank"
+      href="https://demozoo.org/sceners/{{ performer_data.demozoo_id }}/"><img height="22" width="auto"
+        src="../assets/img/demozoo.png"></a>
     {% else %}
-      {{ performer_data.name }}
+    {{ performer_data.name }}
     {% endif %}
-    </h1>
+  </h1>
 
-    {% for _, entry_list in entries.items() %}
+  {% for _, entry_list in entries.items() %}
 
-    <h3 class="color-primary text-center mb-3">{{ entry_list[0]['event_name'] }} - {{ entry_list[0]['event_started'][:4] }}</h3>
+  <h3 class="color-primary text-center mb-3">{{ entry_list[0]['event_name'] }} - {{ entry_list[0]['event_started'][:4]
+    }}</h3>
 
-    <div class="row d-flex justify-content-center">
+  <div class="row d-flex justify-content-center">
 
-      {% for entry in entry_list %}
-      <div class="col-md-4">
-        <div class="card border-secondary entry bg-dark mb-5">
+    {% for entry in entry_list %}
+    <div class="col-md-4">
+      <div class="card border-secondary entry bg-dark mb-5">
 
-          {% if entry['phase_name'] %}<h5 class="m-3"> {{ entry['phase_name'] }}</h5>{% endif %}
+        {% if entry['phase_name'] %}<h5 class="m-3"> {{ entry['phase_name'] }}</h5>{% endif %}
 
-{% include '_entry_preview_image.html' %}
+        {% include '_entry_preview_image.html' %}
 
-          <div class="card-body bg-dark text-light">
+        <div class="card-body bg-dark text-light">
 
-            {% if entry.get('rank') %}
-            <h5 class="card-title">
-              <span class="badge bg-light text-dark">
-                {% if entry['rank'] == 1 %} <i class="fas fa-medal"></i>{% endif %}
-                {{ entry['rank'] }}
-              </span>
-            </h5>
-            {% endif %}
+          {% if entry.get('rank') %}
+          <h5 class="card-title">
+            <span class="badge bg-light text-dark">
+              {% if entry['rank'] == 1 %} <i class="fas fa-medal"></i>{% endif %}
+              {{ entry['rank'] }}
+            </span>
+          </h5>
+          {% endif %}
 
-            <div class="card-text text-secondary">
-{% include '_entry_attributes.html' %}
-            </div>
-
+          <div class="card-text text-secondary">
+            {% include '_entry_attributes.html' %}
           </div>
+
         </div>
       </div>
-      {% endfor %}
-
     </div>
     {% endfor %}
-
-  {% if staff_data %}
-    {% for _, staff_list in staff_data.items() %}
-    <div class="row mt-5">
-      <div class="col-md-6">
-        <h5 class="color-primary text-md-end">{{ staff_list[0]['event_name'] }} {{ staff_list[0]['event_started'][:4] }}</h5>
-      </div>
-      <div class="col-md-6">
-        <ul>
-          {% for staff in staff_list %}
-          <li><span class="text-muted">{% if staff['phase_name'] %}{{ staff['phase_name'] }} - {% endif %}{{ staff['job'] }}</span></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-    {% endfor %}
-  {% endif %}
 
   </div>
+  {% endfor %}
+
+  {% if staff_data %}
+  {% for _, staff_list in staff_data.items() %}
+  <div class="row mt-5">
+    <div class="col-md-6">
+      <h5 class="color-primary text-md-end">{{ staff_list[0]['event_name'] }} {{ staff_list[0]['event_started'][:4] }}
+      </h5>
+    </div>
+    <div class="col-md-6">
+      <ul>
+        {% for staff in staff_list %}
+        <li><span class="text-muted">{% if staff['phase_name'] %}{{ staff['phase_name'] }} - {% endif %}{{ staff['job']
+            }}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}
+
+</div>
 {%- endblock %}

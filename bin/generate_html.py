@@ -329,7 +329,14 @@ def render_party_series_html_page(
         filename,
     )
 
-
+def _find_first_image(entries):
+    img_header_path = None 
+    for _,e in entries.items():
+        for p in e:
+            img_header_path = p.get('preview_image')
+            if img_header_path:
+                return img_header_path
+    return img_header_path
 def render_performer_html_page(
     filename: Path,
     entries,
@@ -338,6 +345,7 @@ def render_performer_html_page(
     nav_items: list[NavItem],
     party_series,
 ) -> None:
+    img_header_path = _find_first_image(entries)
     render_html_file(
         'performer.html',
         {
@@ -347,6 +355,7 @@ def render_performer_html_page(
             'nav_items': nav_items,
             'current_nav_item_id': None,
             'party_series': party_series,
+            'img_header_path': img_header_path
         },
         filename,
     )
