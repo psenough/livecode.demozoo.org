@@ -289,7 +289,7 @@
         },
         {
             "title": "Semi Final 1",
-            "vod": null,
+            "vod": "https://www.youtube.com/watch?v=Yy30yB829c4&t=132s",
             "entries": [
                 {
                     "id": null,
@@ -317,6 +317,13 @@
                 }
             ],
             "staffs": [
+                {
+                    "handle": {
+                        "name": "ronny",
+                        "demozoo_id": 355
+                    },
+                    "job": "Dj Set"
+                },
                 {
                     "handle": {
                         "name": "ps",
@@ -349,7 +356,7 @@
         },
         {
             "title": "Semi Final 2",
-            "vod": null,
+            "vod": "https://www.youtube.com/watch?v=Yy30yB829c4&t=1914s",
             "entries": [
                 {
                     "id": null,
@@ -377,6 +384,13 @@
                 }
             ],
             "staffs": [
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": 1525
+                    },
+                    "job": "Dj Set"
+                },
                 {
                     "handle": {
                         "name": "ps",
