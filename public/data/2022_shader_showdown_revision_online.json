@@ -3,7 +3,7 @@
     "started": "2022-04-15",
     "date": "15 - 18 April 2022",
     "type": "Shader Showdown",
-    "vod": null,
+    "vod": "https://www.youtube.com/watch?v=CoOqwPWkL_E",
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -21,7 +21,7 @@
     "phases": [
         {
             "title": "Quarter Final 1",
-            "vod": null,
+            "vod": "https://www.youtube.com/watch?v=CoOqwPWkL_E&t=261s",
             "entries": [
                 {
                     "id": null,
@@ -88,7 +88,7 @@
         },
         {
             "title": "Quarter Final 2",
-            "vod": null,
+            "vod": "https://www.youtube.com/watch?v=CoOqwPWkL_E&t=2112s",
             "entries": [
                 {
                     "id": null,
@@ -155,7 +155,7 @@
         },
         {
             "title": "Quarter Final 3",
-            "vod": null,
+            "vod": "https://www.youtube.com/watch?v=CoOqwPWkL_E&t=4074s",
             "entries": [
                 {
                     "id": null,
@@ -222,7 +222,7 @@
         },
         {
             "title": "Quarter Final 4",
-            "vod": null,
+            "vod": "https://www.youtube.com/watch?v=CoOqwPWkL_E&t=5997s",
             "entries": [
                 {
                     "id": null,
