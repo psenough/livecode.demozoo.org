@@ -1,0 +1,16 @@
+{
+    "title": "Outline",
+    "started": "2022-05-26",
+    "type": "Byte Battle",
+    "website": "https://outlinedemoparty.nl/",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v07",
+            "purpose": "Graphic"
+        }
+    ],
+    "staffs": []
+}
