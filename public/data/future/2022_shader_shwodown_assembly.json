@@ -1,0 +1,22 @@
+{
+    "title": "Assembly 2022",
+    "started": "2022-08-04",
+    "type": "Shader Showdown",
+    "website": "https://assembly.org/",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v12",
+            "version": "NuSan - v12",
+            "purpose": "Graphic"
+        }
+    ],
+    "staffs": [{
+        "handle": {
+            "name": "rimina",
+            "demozoo_id": 56489
+        },
+        "job": "Coordinator"
+    }]
+}
