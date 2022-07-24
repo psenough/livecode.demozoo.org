@@ -58,8 +58,8 @@
                         "demozoo_id": 617
                     },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2022_07_byte_jam_mch/bytejam_mch_superogue.gif",
+                    "source_file": "/shader_file_sources/2022_07_byte_jam_mch/bytejam_mch_superogue.lua"
                 },
                 {
                     "id": null,
@@ -72,7 +72,7 @@
                     "shadertoy_url": null,
                     "preview_image": "2022_07_byte_jam_mch/bytejam_mch_gasman.gif",
                     "source_file": "/shader_file_sources/2022_07_byte_jam_mch/bytejam_mch_gasman.lua",
-                    "tic80_cart_id": null
+                    "tic80_cart_id": 2925
                 
                 }
             ],
@@ -88,6 +88,19 @@
         }
     ],
     "staffs": [  
-        
+        {
+            "handle": {
+                "name": "Dave borghuis",
+                "demozoo_id": null
+            },
+            "job": "Organizer"
+        },
+        {
+            "handle": {
+                "name": "Havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizer"
+        }
     ]
 }
