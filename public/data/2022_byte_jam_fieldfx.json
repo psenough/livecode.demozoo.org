@@ -1,0 +1,41 @@
+{
+    "title": "Field-Fx",
+    "started": "2022-05-02",
+    "date": "02 - 05 June 2022",
+    "type": "Byte Jam",
+    "vod": null,
+    "website": "https://wiki.mch2022.org/Projects:Demoparty",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v07",
+            "purpose": "Graphic"
+        }
+    ], 
+    "phases": [
+        {
+            "title": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_06_fieldfx_byte_jam/bytejam_fieldfx_gasman.gif",
+                    "source_file": "/shader_file_sources/2022_06_fieldfx_byte_jam/bytejam_fieldfx_gasman.lua"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [  
+        
+    ],
+    "demozoo_party_id": 4301
+}
