@@ -225,8 +225,8 @@
                         "demozoo_id": 1301
                     },
                     "shadertoy_url": null,
-                    "source_file": null,
-                    "preview_image": null
+                    "source_file":  "/shader_file_sources/2022_02_lovebyte_bytebattle/semi_visy.lua",
+                    "preview_image": "2022_02_lovebyte_bytebattle/semi_visy.gif"
                 },
                 {
                     "id": 2,
