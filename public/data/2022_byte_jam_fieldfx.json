@@ -4,7 +4,7 @@
     "date": "02 - 05 June 2022",
     "type": "Byte Jam",
     "vod": null,
-    "website": "https://wiki.mch2022.org/Projects:Demoparty",
+    "website": "https://www.emfcamp.org/schedule/2022/98-shader-showdown-and-byte-battle",
     "flyer": "",
     "software_used": [
         {
@@ -29,13 +29,38 @@
                     "shadertoy_url": null,
                     "preview_image": "2022_06_fieldfx_byte_jam/bytejam_fieldfx_gasman.gif",
                     "source_file": "/shader_file_sources/2022_06_fieldfx_byte_jam/bytejam_fieldfx_gasman.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "TôBach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_06_fieldfx_byte_jam/bytejam_fieldfx_tobach.gif",
+                    "source_file": "/shader_file_sources/2022_06_fieldfx_byte_jam/bytejam_fieldfx_tobach.lua"
                 }
             ],
             "staffs": []
         }
     ],
     "staffs": [  
-        
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "reality404",
+                "demozoo_id": 67077
+            },
+            "job": "Organizers"
+        }
     ],
     "demozoo_party_id": 4301
 }
