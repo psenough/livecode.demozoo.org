@@ -1,0 +1,16 @@
+{
+    "title": "Nova 2022",
+    "started": "2022-08-12",
+    "type": "Shader Showdown",
+    "website": "https://novaparty.org/#compos--shadershowdown",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/Gargaj/Bonzomatic/",
+            "version": "Original Bonzo",
+            "purpose": "Graphic"
+        }
+    ],
+    "staffs": []
+}
