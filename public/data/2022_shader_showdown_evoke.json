@@ -26,8 +26,8 @@
                         "demozoo_id": 88839
                     },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2022_08_evoke_shader_showdown/nusan_semi1.jpg",
+                    "source_file": "/shader_file_sources/2022_08_evoke_shader_showdown/nusan_semi1.glsl"
                 },
                 {
                     "id": null,
@@ -38,8 +38,8 @@
                         "demozoo_id": 121811
                     },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2022_08_evoke_shader_showdown/totetmatt_semi1.jpg",
+                    "source_file": "/shader_file_sources/2022_08_evoke_shader_showdown/totetmatt_semi1.glsl"
                 }
             ],
             "staffs": [
@@ -82,9 +82,9 @@
                         "name": "flopine",
                         "demozoo_id": 65988
                     },
-                    "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "shadertoy_url": "https://www.shadertoy.com/view/fl3yRS",
+                    "preview_image": "2022_08_evoke_shader_showdown/flopine_semi2.jpg",
+                    "source_file": "/shader_file_sources/2022_08_evoke_shader_showdown/flopine_semi2.glsl"
                 }
             ],
             "staffs": [
@@ -116,8 +116,8 @@
                         "demozoo_id": 65988
                     },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2022_08_evoke_shader_showdown/flopine_final.jpg",
+                    "source_file": "/shader_file_sources/2022_08_evoke_shader_showdown/flopine_final.glsl"
                 },
                 {
                     "id": null,
@@ -128,8 +128,8 @@
                         "demozoo_id": 121811
                     },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2022_08_evoke_shader_showdown/totetmatt_final.jpg",
+                    "source_file": "/shader_file_sources/2022_08_evoke_shader_showdown/totetmatt_final.glsl"
                 }
             ],
             "staffs": [
