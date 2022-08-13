@@ -1,0 +1,28 @@
+{% from 'common/macros.j2' import demozoo_link %}
+{% block title%}{{serie.name}} Livecode Serie{% endblock%}
+{% extends '_base.html' %}
+{%block opengraph %}
+<meta property="og:title" content="{{serie.name}} Livecode Serie">
+<meta property="og:description" 
+  content="Check all livecode events from {{serie.name}} serie" />
+  {% for event in serie.events  %}
+  {% for phase in event.phases %}
+      {% for entry in phase.entries %}
+          {% if entry.previewUrl %}
+              <meta property="og:image:secure_url" content="https://livecode.demozoo.org{{entry.previewUrl}}" />
+              <meta property="og:image" content="https://livecode.demozoo.org{{entry.previewUrl}}" />
+          {% endif %}
+      {% endfor %}
+  {% endfor %}
+{% endfor %}
+{% endblock%}
+{% block body %}
+<div class="pure-u-1 page-header">
+<h1>{{serie.name}}</h1>
+<div><a target="_blank" href="{{serie.website}}">{{serie.website}}</a></div>
+<div>{% if serie.demozooUrl %}{{demozoo_link(serie.demozooUrl)}}{%endif%}</div>
+</div>
+    {% for event in serie.events %}
+        {%include 'common/default_event_list.html' %}
+ {% endfor %}
+{% endblock %}

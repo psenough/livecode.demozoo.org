@@ -1,0 +1,16 @@
+{
+    "title": "Inércia 2022",
+    "started": "2022-11-04",
+    "type": "Shader Royale",
+    "website": "https://2022.inercia.pt",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/Gargaj/Bonzomatic/",
+            "version": "Original Bonzo",
+            "purpose": "Graphic"
+        }
+    ],
+    "staffs": []
+}

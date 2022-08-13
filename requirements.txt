@@ -31,3 +31,4 @@ urllib3==1.26.4
 webencodings==0.5.1
 rdflib==6.0.2
 Pillow==8.4.0
+strawberry-graphql==0.151.2

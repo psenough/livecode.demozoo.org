@@ -20,40 +20,31 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v2
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: '3.10'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip wheel
           pip install -r requirements.txt
-
-      - name: Checking Data Json
-        run: |
-          public/data/*.json | xargs -I % bin/workflows/validate.sh %
-
+          
       - name: Configure Git
         run: |
           git config user.name "Publisher"
           git config user.email "publisher@users.noreply.github.com"
 
-      - name: Update Demozoo handles database
+      - name: Update Database
         run: |
-          python bin/update_demozoo_handles_db.py
-          git add cache/handles.json
+          python livecode update
+          git add cache/*
+          git add public/data/*
+          git add public/media/*
           # Only commit and push if there are staged changes.
           git diff --staged --quiet || git commit -m "Update Demozoo handles" && git push origin main
-
-      - name: Update image cache
-        run: |
-          python bin/update_image_cache.py
-          git add public/media
-          # Only commit and push if there are staged changes.
-          git diff --staged --quiet || git commit -m "Update image cache" && git push origin main
 
       - name: Switch to branch 'gh-pages'
         run: |
@@ -61,7 +52,7 @@ jobs:
           git checkout gh-pages
 
       - name: Generate HTML
-        run: python bin/generate_html.py
+        run: python livecode generate
 
       #- name: Generate Doc
       #  run: |

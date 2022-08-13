@@ -37,7 +37,7 @@ jobs:
 
       - name: Create Byte Battle Casual instance default
         run: |
-          python bin/workflows/create_new_bbc.py ${{ github.event.inputs.NB_MATCH_BYTE_BATTLE }} ${{ github.event.inputs.NB_PARTICIPANT_BYTE_JAM }} ${{ github.event.inputs.EVENT_DATE }}
+          python livecode workflow FFMC ${{ github.event.inputs.EVENT_DATE }} ${{ github.event.inputs.NB_MATCH_BYTE_BATTLE }} ${{ github.event.inputs.NB_PARTICIPANT_BYTE_JAM }}
 
       - name: Configure Git
         run: |

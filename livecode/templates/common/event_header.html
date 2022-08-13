@@ -1,0 +1,12 @@
+{% from 'common/macros.j2' import internal_link %}
+<div class="pure-u-4-24 event-header-date"><span>{{event.date}}</span></div>
+<div class="pure-g pure-u-19-24 event-header-title">
+    
+    <div class="pure-u-1 linker" >{{event.title}} {{internal_link(url_for('by_event',event_stub=event.gqlId))}}</div>
+    <div class="pure-g pure-u-1">
+        <div class="pure-u-1 pure-u-md-1-5 event-header-type"><span class="event-type">{{event.type.label}} {{internal_link(url_for('by_type',type_stub=event.type.stub))}}</span> </div>
+        <div class="pure-u-1 pure-u-md-2-5 event-header-serie">{% if event.partySerie %} {{event.partySerie.name}} {{internal_link(url_for('by_serie',serie_stub=event.partySerie.stub))}} {% endif %}</div>
+    </div>
+    
+</div>
+<div class="pure-u-1-24 icon-summary"><i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></div>

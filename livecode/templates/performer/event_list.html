@@ -1,0 +1,16 @@
+<div class="">
+    <details open class="performer-event">
+        <summary class="">
+                <div class="pure-g event-header">
+                    {% include 'common/event_header.html' %}
+                </div>  
+        </summary>
+        <div class="pure-g event-body">
+            {% for phase in event.phases %}
+                        {% for entry in phase.entries if entry.handle.stub == nav_context.performer.selected%}
+                            {% include 'common/entry_card.html'%}
+                        {% endfor %}
+           {% endfor %}
+       </div>
+    </details>
+</div>
