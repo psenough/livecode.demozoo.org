@@ -15,7 +15,7 @@
     "phases": [
         {
             "title": "Semi Final 1",
-            "vod": null,
+            "vod": "https://youtu.be/5woz5w0L6Nk",
             "entries": [
                 {
                     "id": null,
@@ -60,7 +60,7 @@
             ]
         }, {
             "title": "Semi Final 2",
-            "vod": null,
+            "vod": "https://youtu.be/5woz5w0L6Nk",
             "entries": [
                 {
                     "id": null,
@@ -105,7 +105,7 @@
             ]
         }, {
             "title": "Final",
-            "vod": null,
+            "vod": "https://youtu.be/JZQ2dl4Lj3w",
             "entries": [
                 {
                     "id": null,
