@@ -110,7 +110,7 @@
                         "name": "Ivan Dianov",
                         "demozoo_id": null
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/DdSGRG",
                     "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_IvanDianov.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_IvanDianov.glsl"
                 },
@@ -183,7 +183,7 @@
                         "name": "Flopine",
                         "demozoo_id": 65988
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/md23Dw",
                     "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_flopine.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_flopine.glsl"
                 },
