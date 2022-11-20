@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is Online on Bonzomatic</title>
+    <style>
+
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0-modified | 20110126
+License: none (public domain)
+*/
+    
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+
+    html {
+        font-size: 100%; 
+        -webkit-text-size-adjust: 100%; 
+        -ms-text-size-adjust: 100%;  
+        font-family: fangsong; 
+    }
+
+    html,
+    button,
+    input,
+    select,
+    textarea {
+        color: #EEEEEE;
+        background-color: #222;
+    }
+    
+    #drop_zone {
+    border: 5px solid blue;
+    width: 90vw;
+    height: 10vh;
+    margin: auto;
+    text-align: center;
+    }
+   .container { 
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+   }
+   .coder { 
+    display: flex; /* or inline-flex */
+    flex-direction:row;
+   }
+   .status {
+    width: 2vw;
+    max-width: 2vw;
+   }
+   .label {
+    width: 10vw;
+    max-width: 10vw;
+   }
+    </style>
+</head>
+
+<body>
+    <div
+    id="drop_zone"
+    ondrop="dropHandler(event);"
+    ondragover="dragOverHandler(event);">
+    <p>Drag and Drop the launcher.json here</p>
+  </div>
+  <div id="container">
+
+  </div>
+  
+  <script>
+    const container = document.getElementById("container");
+    function dragOverHandler(ev) {
+  console.log('File(s) in drop zone');
+
+  // Prevent default behavior (Prevent file from being opened)
+  ev.preventDefault();
+}
+function websocketCoder(network, name) {
+    let timeout;
+    const endpoint = `${network.serverURL}${name}`;
+    const timeoutTime = 2000;
+    const socket = new WebSocket(endpoint);
+    const root = document.createElement("div");
+    root.classList.add("coder");
+    const label = document.createElement("div");
+    label.classList.add("label");
+    label.textContent = name;
+    
+    const information = document.createElement("div");
+    information.classList.add("info");
+    information.textContent = `Trying to connect to websocket server ${endpoint}`;
+
+    const status = document.createElement("div");
+    status.classList.add("status");
+    function setError(){
+        status.textContent = '🔴';
+        information.textContent = `Connected to ${endpoint} but sender looks not sending data, check sender connectivity to the websocket server`;
+    }
+    setError();
+  
+    root.appendChild(status);
+    root.appendChild(label);
+    root.appendChild(information);
+    
+    socket.addEventListener('open', (event) => {
+        status.textContent = '🟡';
+        information.textContent = `Connected to ${endpoint} waiting for data being sent from sender`;
+        timeout = setTimeout(setError, timeoutTime);
+    });
+    socket.addEventListener('message', (event) => {
+        clearTimeout(timeout);
+        status.textContent = '🟢';
+        information.textContent = `OK`;
+        timeout = setTimeout(setError, timeoutTime);
+    });
+    container.appendChild(root);
+}
+function init(jsonData){
+    const coders = jsonData['coders'];
+    const network = jsonData['network'];
+    coders.forEach( coder =>
+        websocketCoder(network,coder)
+    );
+
+}
+function dropHandler(ev) {
+  console.log('File(s) dropped');
+  ev.preventDefault();
+
+  if (ev.dataTransfer.items) {
+    const file = ev.dataTransfer.files[0];
+    document.getElementById("drop_zone").remove();
+    file.text().then( 
+        text => JSON.parse(text)
+    )
+    .then(json => init(json));
+
+    /*[...ev.dataTransfer.items].forEach((item, i) => {
+      // If dropped items aren't files, reject them
+      if (item.kind === 'file') {
+        const file = item.getAsFile();
+        console.log(`… file[${i}].name = ${file.name}`);
+      }
+    });*/
+  } else {
+    // Use DataTransfer interface to access the file(s)
+   /* console.log(ev.dataTransfer.files[0].name);
+    [...ev.dataTransfer.files].forEach((file, i) => {
+      console.log(`… file[${i}].name = ${file.name}`);
+    });*/
+  }
+}
+</script>    
+</body>
+</html>

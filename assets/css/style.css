@@ -1,0 +1,194 @@
+:root {
+  --color-primary: #0dcaf0;
+}
+
+@font-face {
+  font-family: "B612Mono";
+  src: url("../font/B612Mono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "B612";
+  src: url("../font/B612-Regular.ttf") format("truetype");
+}
+
+html,
+body {
+  font-family: "B612";
+}
+
+body {
+  overflow-y: scroll;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-primary);
+  opacity: 0.8;
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.colorcycle {
+  animation: colorMagic 6s linear infinite;
+}
+
+.logo {
+  height: auto;
+  width: 100%;
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230dcaf0'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230dcaf0'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  justify-content: center;
+  z-index: -2;
+  opacity: 0.2;
+}
+
+.card.entry {
+  overflow: hidden;
+  transition: all 0.2s linear;
+}
+
+.card.entry:hover {
+  box-shadow: 0px 0px 12px #101010;
+  border-color: #a1a1a1 !important;
+}
+
+.gradient-top {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%);
+}
+
+.accordion-header {
+  overflow: hidden;
+  transition: all 0.2s linear;
+  transform: scaleY(1.05);
+  box-shadow: 0px 0px 10px #101010;
+}
+
+.accordion-header:hover {
+  overflow: hidden;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px #101010;
+}
+
+@keyframes colorMagic {
+  0% { color: rgba(76, 99, 254, 1); }
+  1% { color: rgba(65, 112, 252, 1); }
+  2% { color: rgba(55, 124, 249, 1); }
+  3% { color: rgba(45, 136, 245, 1); }
+  4% { color: rgba(36, 148, 240, 1); }
+  5% { color: rgba(28, 160, 234, 1); }
+  6% { color: rgba(20, 172, 226, 1); }
+  7% { color: rgba(14, 183, 218, 1); }
+  8% { color: rgba(9, 194, 209, 1); }
+  9% { color: rgba(5, 204, 200, 1); }
+  10% { color: rgba(2, 213, 189, 1); }
+  11% { color: rgba(0, 222, 179, 1); }
+  12% { color: rgba(0, 230, 167, 1); }
+  13% { color: rgba(0, 236, 156, 1); }
+  14% { color: rgba(2, 242, 144, 1); }
+  15% { color: rgba(4, 247, 132, 1); }
+  16% { color: rgba(8, 250, 120, 1); }
+  17% { color: rgba(13, 253, 108, 1); }
+  18% { color: rgba(19, 254, 97, 1); }
+  19% { color: rgba(25, 254, 85, 1); }
+  20% { color: rgba(33, 254, 74, 1); }
+  21% { color: rgba(41, 252, 64, 1); }
+  22% { color: rgba(50, 249, 54, 1); }
+  23% { color: rgba(60, 245, 45, 1); }
+  24% { color: rgba(70, 240, 37, 1); }
+  25% { color: rgba(80, 235, 29, 1); }
+  26% { color: rgba(91, 228, 22, 1); }
+  27% { color: rgba(102, 221, 16, 1); }
+  28% { color: rgba(113, 213, 11, 1); }
+  29% { color: rgba(124, 205, 7, 1); }
+  30% { color: rgba(135, 196, 4, 1); }
+  31% { color: rgba(145, 186, 1, 1); }
+  32% { color: rgba(156, 176, 0, 1); }
+  33% { color: rgba(166, 166, 0, 1); }
+  34% { color: rgba(176, 156, 0, 1); }
+  35% { color: rgba(186, 146, 1, 1); }
+  36% { color: rgba(195, 135, 3, 1); }
+  37% { color: rgba(203, 125, 6, 1); }
+  38% { color: rgba(211, 115, 10, 1); }
+  39% { color: rgba(219, 105, 14, 1); }
+  40% { color: rgba(225, 95, 19, 1); }
+  41% { color: rgba(231, 86, 25, 1); }
+  42% { color: rgba(237, 76, 31, 1); }
+  43% { color: rgba(241, 68, 38, 1); }
+  44% { color: rgba(245, 59, 45, 1); }
+  45% { color: rgba(248, 52, 52, 1); }
+  46% { color: rgba(251, 44, 60, 1); }
+  47% { color: rgba(253, 38, 68, 1); }
+  48% { color: rgba(254, 31, 76, 1); }
+  49% { color: rgba(254, 26, 85, 1); }
+  50% { color: rgba(254, 21, 93, 1); }
+  51% { color: rgba(254, 16, 101, 1); }
+  52% { color: rgba(252, 12, 110, 1); }
+  53% { color: rgba(251, 9, 118, 1); }
+  54% { color: rgba(248, 6, 126, 1); }
+  55% { color: rgba(246, 4, 135, 1); }
+  56% { color: rgba(243, 2, 142, 1); }
+  57% { color: rgba(239, 1, 150, 1); }
+  58% { color: rgba(235, 0, 158, 1); }
+  59% { color: rgba(231, 0, 165, 1); }
+  60% { color: rgba(227, 0, 172, 1); }
+  61% { color: rgba(222, 0, 179, 1); }
+  62% { color: rgba(217, 1, 185, 1); }
+  63% { color: rgba(212, 2, 191, 1); }
+  64% { color: rgba(207, 4, 197, 1); }
+  65% { color: rgba(202, 6, 202, 1); }
+  66% { color: rgba(197, 8, 207, 1); }
+  67% { color: rgba(191, 10, 212, 1); }
+  68% { color: rgba(186, 13, 216, 1); }
+  69% { color: rgba(181, 16, 220, 1); }
+  70% { color: rgba(175, 19, 224, 1); }
+  71% { color: rgba(170, 22, 228, 1); }
+  72% { color: rgba(165, 25, 231, 1); }
+  73% { color: rgba(160, 28, 234, 1); }
+  74% { color: rgba(155, 31, 237, 1); }
+  75% { color: rgba(150, 35, 239, 1); }
+  76% { color: rgba(146, 38, 241, 1); }
+  77% { color: rgba(141, 41, 243, 1); }
+  78% { color: rgba(137, 44, 245, 1); }
+  79% { color: rgba(132, 48, 246, 1); }
+  80% { color: rgba(128, 51, 248, 1); }
+  81% { color: rgba(125, 54, 249, 1); }
+  82% { color: rgba(121, 57, 250, 1); }
+  83% { color: rgba(118, 60, 251, 1); }
+  84% { color: rgba(114, 63, 252, 1); }
+  85% { color: rgba(111, 65, 252, 1); }
+  86% { color: rgba(108, 68, 253, 1); }
+  87% { color: rgba(106, 70, 253, 1); }
+  88% { color: rgba(103, 73, 253, 1); }
+  89% { color: rgba(101, 75, 254, 1); }
+  90% { color: rgba(99, 77, 254, 1); }
+  91% { color: rgba(97, 79, 254, 1); }
+  92% { color: rgba(95, 80, 254, 1); }
+  93% { color: rgba(93, 82, 254, 1); }
+  94% { color: rgba(92, 83, 254, 1); }
+  95% { color: rgba(91, 84, 254, 1); }
+  96% { color: rgba(90, 85, 254, 1); }
+  97% { color: rgba(89, 86, 254, 1); }
+  98% { color: rgba(88, 87, 254, 1); }
+  99% { color: rgba(88, 87, 254, 1); }
+  100% { color: rgba(88, 88, 254, 1); }
+}
