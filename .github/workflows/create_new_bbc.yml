@@ -47,10 +47,10 @@ jobs:
       - name: Switch to branch 'gh-pages'
         run: |
           git branch -f ${{ github.event.inputs.EVENT_DATE }}_byte_battle_casuals HEAD
-          git checkout ${{ github.event.inputs.EVENT_DATE }}_byte_battle_casuals
+          git checkout -b ${{ github.event.inputs.EVENT_DATE }}_byte_battle_casuals
 
       - run: |
           git add public/
           git add -A
           git commit -m "Create base ${{ github.event.inputs.EVENT_DATE }} Byte Battle Casuals"
-          git push -f origin `git subtree split -P public`:refs/heads/${{ github.event.inputs.EVENT_DATE }}_byte_battle_casuals
+          git push origin ${{ github.event.inputs.EVENT_DATE }}_byte_battle_casuals
