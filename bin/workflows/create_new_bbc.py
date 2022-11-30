@@ -37,7 +37,8 @@ TEMPLATE = {
         ]
     }
 def generate_byte_battle(template, nb_byte_battle, date):
-    
+    if nb_byte_battle <= 0:
+        return
     phases = []
     paths = create_paths(date,'byte_battle')
 
@@ -96,6 +97,8 @@ def generate_byte_battle(template, nb_byte_battle, date):
 
 
 def generate_byte_jam(template, nb_byte_jam_participant, date):
+    if nb_byte_jam_participant <= 0:
+        return
     paths = create_paths(date,'byte_jam')
 
     phase = {
