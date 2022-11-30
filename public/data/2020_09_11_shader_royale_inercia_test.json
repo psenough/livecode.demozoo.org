@@ -1,9 +1,9 @@
 {
     "title": "In\u00e9rcia Demoparty Test",
-    "started": "2020-09-13",
-    "date": "13 October 2020",
+    "started": "2020-09-11",
+    "date": "11 September 2020",
     "type": "Shader Royale",
-    "vod": null,
+    "vod": "https://www.youtube.com/watch?v=KV0QSSx5eRI",
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -25,7 +25,7 @@
                         "demozoo_id": 79215
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/WljBWc",
-                    "preview_image": "2020_09_13_shader_royale_inercia_test/grabber_shaderroyale_blackle.jpg",
+                    "preview_image": "2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_blackle.jpg",
                     "source_file": null
                 },
                 {
@@ -37,7 +37,7 @@
                         "demozoo_id": 71087
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2020_09_13_shader_royale_inercia_test/grabber_shaderroyale_evvvvil.jpg",
+                    "preview_image": "2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_evvvvil.jpg",
                     "source_file": null
                 },
                 {
@@ -49,7 +49,7 @@
                         "demozoo_id": 65988
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2020_09_13_shader_royale_inercia_test/grabber_shaderroyale_flopine.jpg",
+                    "preview_image": "2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_flopine.jpg",
                     "source_file": null
                 },
                 {
@@ -61,7 +61,7 @@
                         "demozoo_id": 1301
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2020_09_13_shader_royale_inercia_test/grabber_shaderroyale_visy.jpg",
+                    "preview_image": "2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_visy.jpg",
                     "source_file": null
                 },
                 {
@@ -73,7 +73,7 @@
                         "demozoo_id": 113559
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2020_09_13_shader_royale_inercia_test/grabber_shaderroyale_wrighter.jpg",
+                    "preview_image": "2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_wrighter.jpg",
                     "source_file": null
                 },
                 {
@@ -85,7 +85,7 @@
                         "demozoo_id": 77056
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/tlSfDV",
-                    "preview_image": "2020_09_13_shader_royale_inercia_test/grabber_shaderroyale_yx.jpg",
+                    "preview_image": "2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_yx.jpg",
                     "source_file": null
                 }
             ],
