@@ -48,7 +48,7 @@ def generate_byte_battle(template, nb_byte_battle, date):
                 "title": f"Byte Battle #{nb}",
                 "entries": [
                     {
-                        "id": None,
+                        "id": 1,
                         "rank": None,
                         "points": None,
                         "handle": {
@@ -61,7 +61,7 @@ def generate_byte_battle(template, nb_byte_battle, date):
                  
                     },
                     {
-                        "id": None,
+                        "id": 2,
                         "rank": None,
                         "points": None,
                         "handle": {
@@ -114,10 +114,10 @@ def generate_byte_jam(template, nb_byte_jam_participant, date):
                     }
                 ]
             }
-    for _ in range(0, nb_byte_jam_participant):
+    for j in range(0, nb_byte_jam_participant):
         phase['entries'].append(
             {
-                        "id": None,
+                        "id": j+1,
                         "rank": None,
                         "points": None,
                         "handle": {
