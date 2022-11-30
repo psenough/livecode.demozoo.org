@@ -46,7 +46,6 @@ jobs:
 
       - name: Switch to branch 'gh-pages'
         run: |
-          git branch -f ${{ github.event.inputs.EVENT_DATE }}_byte_battle_casuals HEAD
           git checkout -b ${{ github.event.inputs.EVENT_DATE }}_byte_battle_casuals
 
       - run: |
