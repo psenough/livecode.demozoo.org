@@ -10,7 +10,7 @@ SHADER_SOURCE_PATH = Path("shader_file_sources")
 MEDIA_PATH = Path("media")
 
 TEMPLATE = {
-        "title": "Byte Battle Casuals",
+        "title": "Field-FX Byte Battle Casuals",
         "started": None, # "2022-05-02",
         "date": None, # "02 - 05 June 2022",
         "type": None,
