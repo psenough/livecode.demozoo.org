@@ -26,7 +26,7 @@
                         "demozoo_id": 617
                     },
                     "shadertoy_url": null,
-                    "preview_image": "/2022_08_lovebyte_turbo_byte_battle/superogue.gif",
+                    "preview_image": "2022_08_06_byte_battle_lovebyte_turbo/superogue.gif",
                     "source_file": "/shader_file_sources/2022_08_lovebyte_turbo_byte_battle/superogue.lua"
                 },
                 {
@@ -38,7 +38,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "/2022_08_lovebyte_turbo_byte_battle/blossom.gif",
+                    "preview_image": "2022_08_06_byte_battle_lovebyte_turbo/blossom.gif",
                     "source_file": "/shader_file_sources/2022_08_lovebyte_turbo_byte_battle/blossom.lua"
                 }
             ],
@@ -59,10 +59,7 @@
                 }
             ]
         }
-        
     ],
-    "staffs": [
-       
-    ],
+    "staffs": [],
     "demozoo_party_id": 4505
 }

@@ -1,5 +1,5 @@
 {
-    "title": "Inércia",
+    "title": "In\u00e9rcia",
     "started": "2022-11-04",
     "date": "04 - 06 November 2022",
     "type": "Shader Royale",
@@ -28,7 +28,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/md2GWW",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_Kamoshika.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_Kamoshika.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_Kamoshika.glsl"
                 },
                 {
@@ -40,7 +40,7 @@
                         "demozoo_id": 88839
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/md23WD",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_Nusan.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_Nusan.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_Nusan.glsl"
                 },
                 {
@@ -52,7 +52,7 @@
                         "demozoo_id": 61858
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/md2GDD",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_leon.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_leon.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_leon.glsl"
                 },
                 {
@@ -64,7 +64,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/csjGDD",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_kali.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_kali.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_kali.glsl"
                 },
                 {
@@ -76,7 +76,7 @@
                         "demozoo_id": 79215
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/DsjGWD",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_blackle.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_blackle.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_blackle.glsl"
                 },
                 {
@@ -88,7 +88,7 @@
                         "demozoo_id": 121811
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/mdS3Dw",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_totetmatt.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_totetmatt.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_totetmatt.glsl"
                 },
                 {
@@ -100,7 +100,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/cd23WD",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_Xor.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_Xor.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_Xor.glsl"
                 },
                 {
@@ -112,7 +112,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/DdSGRG",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_IvanDianov.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_IvanDianov.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_IvanDianov.glsl"
                 },
                 {
@@ -124,7 +124,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/mdj3DW",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_kostik1337.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_kostik1337.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_kostik1337.glsl"
                 },
                 {
@@ -136,7 +136,7 @@
                         "demozoo_id": 63755
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/csBGWm",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_aldroid.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_aldroid.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_aldroid.glsl"
                 },
                 {
@@ -147,9 +147,9 @@
                         "name": "Provod",
                         "demozoo_id": 24024
                     },
-                    "vod":"https://www.twitch.tv/videos/1643660750",
+                    "vod": "https://www.twitch.tv/videos/1643660750",
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_provod.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_provod.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_provod.glsl"
                 },
                 {
@@ -161,7 +161,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/cd2GWD",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_cosamentale.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_cosamentale.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_cosamentale.glsl"
                 },
                 {
@@ -173,7 +173,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/cdSGWz",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_byt3m3chanic.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_byt3m3chanic.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_byt3m3chanic.glsl"
                 },
                 {
@@ -185,7 +185,7 @@
                         "demozoo_id": 65988
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/md23Dw",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_flopine.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_flopine.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_flopine.glsl"
                 },
                 {
@@ -197,7 +197,7 @@
                         "demozoo_id": 116
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_Blueberry.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_Blueberry.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_Blueberry.glsl"
                 },
                 {
@@ -209,7 +209,7 @@
                         "demozoo_id": 56489
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_rimina.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_rimina.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_rimina.glsl"
                 },
                 {
@@ -221,7 +221,7 @@
                         "demozoo_id": 114547
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/csB3Dw",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_z0rg.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_z0rg.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_z0rg.glsl"
                 },
                 {
@@ -233,7 +233,7 @@
                         "demozoo_id": 76970
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_NR4.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_NR4.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_NR4.glsl"
                 },
                 {
@@ -245,7 +245,7 @@
                         "demozoo_id": 44254
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_branch.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_branch.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_branch.glsl"
                 },
                 {
@@ -257,7 +257,7 @@
                         "demozoo_id": 35897
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/Dd2GWD",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_Exca.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_Exca.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_Exca.glsl"
                 },
                 {
@@ -269,7 +269,7 @@
                         "demozoo_id": 130920
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_Tater.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_Tater.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_Tater.glsl"
                 },
                 {
@@ -281,7 +281,7 @@
                         "demozoo_id": 1301
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_visy.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_visy.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_visy.glsl"
                 },
                 {
@@ -293,7 +293,7 @@
                         "demozoo_id": 14411
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/msBGWw",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_musk.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_musk.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_musk.glsl"
                 },
                 {
@@ -305,7 +305,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_glowcone.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_glowcone.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_glowcone.glsl"
                 },
                 {
@@ -317,7 +317,7 @@
                         "demozoo_id": 128318
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/cs2GWD",
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_0b5vr.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_0b5vr.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_0b5vr.glsl"
                 },
                 {
@@ -329,7 +329,7 @@
                         "demozoo_id": 121827
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_EmmazingGoose.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_EmmazingGoose.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_EmmazingGoose.glsl"
                 },
                 {
@@ -341,7 +341,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_shader_royale/grabber_inerciaroyale_LechugaFeliz.jpg",
+                    "preview_image": "2022_11_04_shader_royale_inercia/grabber_inerciaroyale_LechugaFeliz.jpg",
                     "source_file": "/shader_file_sources/2022_11_inercia_shader_royale/grabber_inerciaroyale_LechugaFeliz.glsl"
                 }
             ],

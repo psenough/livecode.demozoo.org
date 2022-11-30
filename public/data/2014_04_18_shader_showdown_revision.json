@@ -26,7 +26,7 @@
                         "demozoo_id": 63756
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/01_quarterfinals/01_crypt.jpg",
+                    "preview_image": "2014_04_18_shader_showdown_revision/01_quarterfinals/01_crypt.jpg",
                     "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/01_crypt.fs"
                 },
                 {
@@ -38,7 +38,7 @@
                         "demozoo_id": 21373
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/01_quarterfinals/01_skomp.jpg",
+                    "preview_image": "2014_04_18_shader_showdown_revision/01_quarterfinals/01_skomp.jpg",
                     "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/01_skomp.fs"
                 }
             ],
@@ -86,7 +86,7 @@
                         "demozoo_id": 116
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/01_quarterfinals/02_blueberry.jpg",
+                    "preview_image": "2014_04_18_shader_showdown_revision/01_quarterfinals/02_blueberry.jpg",
                     "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/02_blueberry.fs"
                 },
                 {
@@ -98,7 +98,7 @@
                         "demozoo_id": 6492
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/01_quarterfinals/02_kabuto.jpg",
+                    "preview_image": "2014_04_18_shader_showdown_revision/01_quarterfinals/02_kabuto.jpg",
                     "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/02_kabuto.fs"
                 }
             ],
@@ -146,7 +146,7 @@
                         "demozoo_id": 67567
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/01_quarterfinals/03_miku.jpg",
+                    "preview_image": "2014_04_18_shader_showdown_revision/01_quarterfinals/03_miku.jpg",
                     "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/03_miku.fs"
                 },
                 {
@@ -158,7 +158,7 @@
                         "demozoo_id": 14411
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/01_quarterfinals/03_musk.jpg",
+                    "preview_image": "2014_04_18_shader_showdown_revision/01_quarterfinals/03_musk.jpg",
                     "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/03_musk.fs"
                 }
             ],
@@ -206,7 +206,7 @@
                         "demozoo_id": 6492
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/02_semifinals/01_kabuto.jpg",
+                    "preview_image": "2014_04_18_shader_showdown_revision/02_semifinals/01_kabuto.jpg",
                     "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/01_kabuto.fs"
                 },
                 {
@@ -218,7 +218,7 @@
                         "demozoo_id": 14411
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/02_semifinals/01_musk.jpg",
+                    "preview_image": "2014_04_18_shader_showdown_revision/02_semifinals/01_musk.jpg",
                     "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/01_musk.fs"
                 }
             ],
@@ -273,7 +273,7 @@
                         "demozoo_id": 21373
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/02_semifinals/02_skomp.jpg",
+                    "preview_image": "2014_04_18_shader_showdown_revision/02_semifinals/02_skomp.jpg",
                     "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/02_skomp.fs"
                 },
                 {
@@ -285,7 +285,7 @@
                         "demozoo_id": 3695
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/02_semifinals/02_xtrium.jpg",
+                    "preview_image": "2014_04_18_shader_showdown_revision/02_semifinals/02_xtrium.jpg",
                     "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/02_xtrium.fs"
                 }
             ],
@@ -340,7 +340,7 @@
                         "demozoo_id": 14411
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/03_final/musk.jpg",
+                    "preview_image": "2014_04_18_shader_showdown_revision/03_final/musk.jpg",
                     "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/03_final/musk.fs"
                 },
                 {
@@ -352,7 +352,7 @@
                         "demozoo_id": 21373
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_2014/03_final/skomp.jpg",
+                    "preview_image": "2014_04_18_shader_showdown_revision/03_final/skomp.jpg",
                     "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/03_final/skomp.fs"
                 }
             ],

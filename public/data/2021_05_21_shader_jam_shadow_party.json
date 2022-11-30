@@ -26,7 +26,7 @@
                         "demozoo_id": 88839
                     },
                     "shadertoy_url": null,
-                    "preview_image": "shadow_demoparty_2021/sender_shadow_nusan.jpg",
+                    "preview_image": "2021_05_21_shader_jam_shadow_party/sender_shadow_nusan.jpg",
                     "source_file": "/shader_file_sources/shadow_demoparty_2021/sender_shadow_nusan.glsl"
                 },
                 {
@@ -50,7 +50,7 @@
                         "demozoo_id": 61858
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7ll3R4",
-                    "preview_image": "shadow_demoparty_2021/sender_shadow_ponk.jpg",
+                    "preview_image": "2021_05_21_shader_jam_shadow_party/sender_shadow_ponk.jpg",
                     "source_file": "/shader_file_sources/shadow_demoparty_2021/sender_shadow_ponk.glsl"
                 }
             ],
@@ -77,7 +77,7 @@
                         "demozoo_id": 71087
                     },
                     "shadertoy_url": null,
-                    "preview_image": "shadow_demoparty_2021/shadow-evvvvil-shaderjam.jpg",
+                    "preview_image": "2021_05_21_shader_jam_shadow_party/shadow-evvvvil-shaderjam.jpg",
                     "source_file": "/shader_file_sources/shadow_demoparty_2021/shadow-evvvvil-shaderjam.glsl"
                 },
                 {
@@ -89,7 +89,7 @@
                         "demozoo_id": 114547
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/NlK3Rc",
-                    "preview_image": "shadow_demoparty_2021/z0rg.jpg",
+                    "preview_image": "2021_05_21_shader_jam_shadow_party/z0rg.jpg",
                     "source_file": "/shader_file_sources/shadow_demoparty_2021/z0rg.glsl"
                 },
                 {
@@ -101,7 +101,7 @@
                         "demozoo_id": 121811
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/stl3z4",
-                    "preview_image": "shadow_demoparty_2021/sender_shadow_totetmatt.jpg",
+                    "preview_image": "2021_05_21_shader_jam_shadow_party/sender_shadow_totetmatt.jpg",
                     "source_file": "/shader_file_sources/shadow_demoparty_2021/sender_shadow_totetmatt.glsl"
                 }
             ],

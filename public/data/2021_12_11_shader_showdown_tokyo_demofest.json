@@ -32,7 +32,7 @@
                         "demozoo_id": 17562
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/sl3XDM",
-                    "preview_image": "2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_gyabo.jpg",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_gyabo.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_gyabo.glsl"
                 },
                 {
@@ -44,7 +44,7 @@
                         "demozoo_id": 63869
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/sl3XWM",
-                    "preview_image": "2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_gam0022.jpg",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_gam0022.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_gam0022.glsl"
                 }
             ],
@@ -65,7 +65,7 @@
                 },
                 {
                     "handle": {
-                        "name": "避雷",
+                        "name": "\u907f\u96f7",
                         "demozoo_id": null
                     },
                     "job": "Commentators"
@@ -99,7 +99,7 @@
                         "demozoo_id": 63871
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_notargs.jpg",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_notargs.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_notargs.glsl"
                 },
                 {
@@ -111,7 +111,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7tcXzS",
-                    "preview_image": "2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_Kamoshika.jpg",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_Kamoshika.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_Kamoshika.glsl"
                 }
             ],
@@ -132,7 +132,7 @@
                 },
                 {
                     "handle": {
-                        "name": "避雷",
+                        "name": "\u907f\u96f7",
                         "demozoo_id": null
                     },
                     "job": "Commentators"
@@ -166,7 +166,7 @@
                         "demozoo_id": 128318
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/stcSW7",
-                    "preview_image": "2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_0b5vr.jpg",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_0b5vr.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_0b5vr.glsl"
                 },
                 {
@@ -178,7 +178,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/flcSRB",
-                    "preview_image": "2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_phi16.jpg",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_phi16.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_phi16.glsl"
                 }
             ],
@@ -192,7 +192,7 @@
                 },
                 {
                     "handle": {
-                        "name": "避雷",
+                        "name": "\u907f\u96f7",
                         "demozoo_id": null
                     },
                     "job": "Commentators"
@@ -226,7 +226,7 @@
                         "demozoo_id": 119897
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/stcSDM",
-                    "preview_image": "2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_sp4ghet.jpg",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_sp4ghet.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_sp4ghet.glsl"
                 },
                 {
@@ -238,7 +238,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_gaz.jpg",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_gaz.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/quarter/shadershowdown_tdf2021_gaz.glsl"
                 }
             ],
@@ -252,7 +252,7 @@
                 },
                 {
                     "handle": {
-                        "name": "避雷",
+                        "name": "\u907f\u96f7",
                         "demozoo_id": null
                     },
                     "job": "Commentators"
@@ -286,7 +286,7 @@
                         "demozoo_id": 63869
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2021_12_tdf_shadershowdown/semi/grabber_tdf2021_gam0022.jpg",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/semi/grabber_tdf2021_gam0022.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/semi/grabber_tdf2021_gam0022.glsl"
                 },
                 {
@@ -298,7 +298,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7l3SRB",
-                    "preview_image": "2021_12_tdf_shadershowdown/semi/grabber_tdf2021_Kamoshika.jpg",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/semi/grabber_tdf2021_Kamoshika.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/semi/grabber_tdf2021_Kamoshika.glsl"
                 }
             ],
@@ -353,7 +353,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/Nl3XRB",
-                    "preview_image": "2021_12_tdf_shadershowdown/semi/grabber_tdf2021_phi16.jpg",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/semi/grabber_tdf2021_phi16.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/semi/grabber_tdf2021_phi16.glsl"
                 },
                 {
@@ -365,7 +365,7 @@
                         "demozoo_id": 119897
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/Nl3SRB",
-                    "preview_image": "2021_12_tdf_shadershowdown/semi/sender_sp4ghet_tdf2021.jpg",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/semi/sender_sp4ghet_tdf2021.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/semi/sender_sp4ghet_tdf2021.glsl"
                 }
             ],
@@ -420,7 +420,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/stcSRB",
-                    "preview_image": "2021_12_tdf_shadershowdown/final/grabber_tdf2021_Kamoshika.jpg",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/final/grabber_tdf2021_Kamoshika.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/final/grabber_tdf2021_Kamoshika.glsl"
                 },
                 {
@@ -432,7 +432,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/Nl3XzB",
-                    "preview_image": "2021_12_tdf_shadershowdown/final/grabber_tdf2021_phi16.jpg",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/final/grabber_tdf2021_phi16.jpg",
                     "source_file": "/shader_file_sources/2021_12_tdf_shadershowdown/final/grabber_tdf2021_phi16.glsl"
                 }
             ],

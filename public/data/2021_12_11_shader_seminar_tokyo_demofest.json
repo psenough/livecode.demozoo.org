@@ -9,7 +9,7 @@
     "vod": "https://youtu.be/2s9KfMn1J9M?t=1483",
     "phases": [
         {
-            "title": "レイマーチング1から5",
+            "title": "\u30ec\u30a4\u30de\u30fc\u30c1\u30f3\u30b01\u304b\u30895",
             "vod": "https://www.youtube.com/watch?v=E0dsqlajCM4",
             "entries": [
                 {
@@ -21,7 +21,7 @@
                         "demozoo_id": 128318
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2021_12_tdf_seminar/2021_tdf_0b5vr.png",
+                    "preview_image": "2021_12_11_shader_seminar_tokyo_demofest/2021_tdf_0b5vr.png",
                     "source_file": "/shader_file_sources/2021_12_tdf_seminar/2021_TDF_0b5vr.pdf"
                 }
             ],

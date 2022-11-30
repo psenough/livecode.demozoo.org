@@ -20,7 +20,9 @@
         }
     ],
     "vod": null,
-    "alternate_vods": ["https://www.twitch.tv/videos/1230237336"],
+    "alternate_vods": [
+        "https://www.twitch.tv/videos/1230237336"
+    ],
     "phases": [
         {
             "title": "Jam",
@@ -62,7 +64,7 @@
                         "demozoo_id": 17562
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2021_12_tdf_jam/Good_luck_semifinal.png",
+                    "preview_image": "2021_12_11_shader_jam_tokyo_demofest/Good_luck_semifinal.png",
                     "source_file": "https://gist.github.com/kumaashi/1f3454dac13f0e4090d46ca3d8d71918"
                 }
             ],

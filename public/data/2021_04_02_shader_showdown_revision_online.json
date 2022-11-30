@@ -26,7 +26,7 @@
                         "demozoo_id": 117325
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/sdjGWm",
-                    "preview_image": "revision_shadershowdown_2021/qf_anticore.jpg",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_anticore.jpg",
                     "source_file": "/shader_file_sources/revision_2021/showdown_quarters/anticore.glsl"
                 },
                 {
@@ -38,7 +38,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_shadershowdown_2021/qf_lechugafeliz.jpg",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_lechugafeliz.jpg",
                     "source_file": "/shader_file_sources/revision_2021/showdown_quarters/lechugafeliz.glsl"
                 }
             ],
@@ -93,7 +93,7 @@
                         "demozoo_id": 79215
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7sS3WD",
-                    "preview_image": "revision_shadershowdown_2021/qf_blackle.jpg",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_blackle.jpg",
                     "source_file": "/shader_file_sources/revision_2021/showdown_quarters/blackle.glsl"
                 },
                 {
@@ -105,7 +105,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/ss2GDw",
-                    "preview_image": "revision_shadershowdown_2021/qf_cosamentale.jpg",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_cosamentale.jpg",
                     "source_file": "/shader_file_sources/revision_2021/showdown_quarters/cosamentale.glsl"
                 }
             ],
@@ -160,7 +160,7 @@
                         "demozoo_id": 71087
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7dBGRc",
-                    "preview_image": "revision_shadershowdown_2021/qf_evvvvil.jpg",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_evvvvil.jpg",
                     "source_file": "/shader_file_sources/revision_2021/showdown_quarters/evvvvil.glsl"
                 },
                 {
@@ -172,7 +172,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_shadershowdown_2021/qf_monsieursoleil.jpg",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_monsieursoleil.jpg",
                     "source_file": "/shader_file_sources/revision_2021/showdown_quarters/monsieursoleil.glsl"
                 }
             ],
@@ -227,7 +227,7 @@
                         "demozoo_id": 65988
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_shadershowdown_2021/qf_flopine.jpg",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_flopine.jpg",
                     "source_file": "/shader_file_sources/revision_2021/showdown_quarters/flopine.glsl"
                 },
                 {
@@ -239,7 +239,7 @@
                         "demozoo_id": 113559
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_shadershowdown_2021/qf_wrighter.jpg",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_wrighter.jpg",
                     "source_file": "/shader_file_sources/revision_2021/showdown_quarters/wrighter.glsl"
                 }
             ],
@@ -306,7 +306,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/revision_2021/showdown_semis/anticore.glsl",
-                    "preview_image": "revision_shadershowdown_2021/sf_anticore.jpg"
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/sf_anticore.jpg"
                 }
             ],
             "staffs": [
@@ -372,7 +372,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/revision_2021/showdown_semis/flopine.glsl",
-                    "preview_image": "revision_shadershowdown_2021/sf_flopine.jpg"
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/sf_flopine.jpg"
                 }
             ],
             "staffs": [
@@ -438,7 +438,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/revision_2021/showdown_final/evvvvil.glsl",
-                    "preview_image": "revision_shadershowdown_2021/f_evvvvil.jpg"
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/f_evvvvil.jpg"
                 }
             ],
             "staffs": [

@@ -28,7 +28,7 @@
                         "demozoo_id": 77648
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2021_byte_jam_demodulation/lynn.gif",
+                    "preview_image": "2021_11_27_byte_jam_demodulation/lynn.gif",
                     "source_file": "/shader_file_sources/2021_byte_jam_demodulation/lynn.lua"
                 },
                 {
@@ -40,7 +40,7 @@
                         "demozoo_id": 44058
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2021_byte_jam_demodulation/pestis.gif",
+                    "preview_image": "2021_11_27_byte_jam_demodulation/pestis.gif",
                     "source_file": "/shader_file_sources/2021_byte_jam_demodulation/pestis.lua"
                 },
                 {
@@ -52,7 +52,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2021_byte_jam_demodulation/jobe.gif",
+                    "preview_image": "2021_11_27_byte_jam_demodulation/jobe.gif",
                     "source_file": "/shader_file_sources/2021_byte_jam_demodulation/jobe.lua"
                 },
                 {
@@ -65,7 +65,7 @@
                     },
                     "tic80_cart_id": 2404,
                     "shadertoy_url": null,
-                    "preview_image": "2021_byte_jam_demodulation/mantratronic.gif",
+                    "preview_image": "2021_11_27_byte_jam_demodulation/mantratronic.gif",
                     "source_file": "/shader_file_sources/2021_byte_jam_demodulation/mantratronic.lua"
                 }
             ],

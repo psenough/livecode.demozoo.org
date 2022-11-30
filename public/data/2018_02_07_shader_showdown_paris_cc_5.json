@@ -87,7 +87,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2018-02-07/03-anton.jpg",
+                    "preview_image": "2018_02_07_shader_showdown_paris_cc_5/03-anton.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-02-07/03-anton.glsl"
                 },
                 {
@@ -121,7 +121,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2018-02-07/07-anton.jpg",
+                    "preview_image": "2018_02_07_shader_showdown_paris_cc_5/07-anton.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-02-07/07-anton.frag"
                 },
                 {
@@ -133,7 +133,7 @@
                         "demozoo_id": 3848
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2018-02-07/08-xt95.jpg",
+                    "preview_image": "2018_02_07_shader_showdown_paris_cc_5/08-xt95.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-02-07/08-xt95.frag"
                 },
                 {
@@ -145,7 +145,7 @@
                         "demozoo_id": 34845
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2018-02-07/09-wsmind.jpg",
+                    "preview_image": "2018_02_07_shader_showdown_paris_cc_5/09-wsmind.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-02-07/09-wsmind.glsl"
                 }
             ],

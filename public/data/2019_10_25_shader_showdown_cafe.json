@@ -31,7 +31,7 @@
                         "name": "Dart",
                         "demozoo_id": 9610
                     },
-                    "preview_image": "2019_10_cafe/shadershow_tour1_dart.jpg",
+                    "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_tour1_dart.jpg",
                     "source_file": "/shader_file_sources/2019_10_cafe/shadershow_tour1_dart.glsl"
                 },
                 {
@@ -41,7 +41,7 @@
                         "name": "wbcbz7",
                         "demozoo_id": 45761
                     },
-                    "preview_image": "2019_10_cafe/shadershow_tour1_wbcbz7.jpg",
+                    "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_tour1_wbcbz7.jpg",
                     "source_file": "/shader_file_sources/2019_10_cafe/shadershow_tour1_wbcbz7.glsl"
                 }
             ],
@@ -58,7 +58,7 @@
                         "name": "kotsoft",
                         "demozoo_id": 9274
                     },
-                    "preview_image": "2019_10_cafe/shadershow_tour2_kotsoft.jpg",
+                    "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_tour2_kotsoft.jpg",
                     "source_file": "/shader_file_sources/2019_10_cafe/shadershow_tour2_kotsoft.glsl"
                 },
                 {
@@ -68,7 +68,7 @@
                         "name": "f0x",
                         "demozoo_id": 6043
                     },
-                    "preview_image": "2019_10_cafe/shadershow_tour2_f0x.jpg",
+                    "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_tour2_f0x.jpg",
                     "source_file": "/shader_file_sources/2019_10_cafe/shadershow_tour2_f0x.glsl"
                 }
             ],
@@ -85,7 +85,7 @@
                         "name": "kotsoft",
                         "demozoo_id": 9274
                     },
-                    "preview_image": "2019_10_cafe/shadershow_semifinal_kotsoft.jpg",
+                    "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_semifinal_kotsoft.jpg",
                     "source_file": "/shader_file_sources/2019_10_cafe/shadershow_semifinal_kotsoft.glsl"
                 },
                 {
@@ -95,7 +95,7 @@
                         "name": "Dart",
                         "demozoo_id": 9610
                     },
-                    "preview_image": "2019_10_cafe/shadershow_semifinal_dart.jpg",
+                    "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_semifinal_dart.jpg",
                     "source_file": "/shader_file_sources/2019_10_cafe/shadershow_semifinal_dart.glsl"
                 }
             ],
@@ -112,7 +112,7 @@
                         "name": "wbcbz7",
                         "demozoo_id": 45761
                     },
-                    "preview_image": "2019_10_cafe/shadershow_final_wbcbz7.jpg",
+                    "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_final_wbcbz7.jpg",
                     "source_file": "/shader_file_sources/2019_10_cafe/shadershow_final_wbcbz7.glsl"
                 },
                 {
@@ -122,14 +122,14 @@
                         "name": "f0x",
                         "demozoo_id": 6043
                     },
-                    "preview_image": "2019_10_cafe/shadershow_final_f0x.jpg",
+                    "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_final_f0x.jpg",
                     "source_file": "/shader_file_sources/2019_10_cafe/shadershow_final_f0x.glsl"
                 }
             ],
             "staffs": [
                 {
                     "handle": {
-                        "name": "Kubikámi",
+                        "name": "Kubik\u00e1mi",
                         "demozoo_id": 63068
                     },
                     "job": "Dj Set"

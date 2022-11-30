@@ -27,7 +27,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_aldroid.lua",
-                    "preview_image": "outline_bytebattle_2021/qf_aldroid.gif"
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_aldroid.gif"
                 },
                 {
                     "id": 2,
@@ -40,7 +40,7 @@
                     "shadertoy_url": null,
                     "tic80_cart_id": 1913,
                     "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_ps.lua",
-                    "preview_image": "outline_bytebattle_2021/qf_ps.gif"
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_ps.gif"
                 }
             ],
             "staffs": [
@@ -81,7 +81,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_killedbyapixel.lua",
-                    "preview_image": "outline_bytebattle_2021/qf_killedbyapixel.gif"
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_killedbyapixel.gif"
                 },
                 {
                     "id": null,
@@ -94,7 +94,7 @@
                     "shadertoy_url": null,
                     "tic80_cart_id": 1873,
                     "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_exoticorn.lua",
-                    "preview_image": "outline_bytebattle_2021/qf_exoticorn.gif"
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_exoticorn.gif"
                 }
             ],
             "staffs": [
@@ -135,7 +135,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_gopher.lua",
-                    "preview_image": "outline_bytebattle_2021/qf_gopher.gif"
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_gopher.gif"
                 },
                 {
                     "id": null,
@@ -147,7 +147,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_tomcat.lua",
-                    "preview_image": "outline_bytebattle_2021/qf_tomcat.gif"
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_tomcat.gif"
                 }
             ],
             "staffs": [
@@ -189,7 +189,7 @@
                     "shadertoy_url": null,
                     "tic80_cart_id": 1874,
                     "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_popolon.lua",
-                    "preview_image": "outline_bytebattle_2021/qf_popolon.gif"
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_popolon.gif"
                 },
                 {
                     "id": null,
@@ -202,7 +202,7 @@
                     "shadertoy_url": null,
                     "tic80_cart_id": 1868,
                     "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_fmscat.lua",
-                    "preview_image": "outline_bytebattle_2021/qf_fmscat.gif"
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_fmscat.gif"
                 }
             ],
             "staffs": [
@@ -243,7 +243,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_aldroid.lua",
-                    "preview_image": "outline_bytebattle_2021/semifinal_aldroid.gif"
+                    "preview_image": "2021_05_13_byte_battle_outline/semifinal_aldroid.gif"
                 },
                 {
                     "id": null,
@@ -256,7 +256,7 @@
                     "shadertoy_url": null,
                     "tic80_cart_id": 1872,
                     "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_exoticorn.lua",
-                    "preview_image": "outline_bytebattle_2021/semifinal_exoticorn.gif"
+                    "preview_image": "2021_05_13_byte_battle_outline/semifinal_exoticorn.gif"
                 }
             ],
             "staffs": [
@@ -297,7 +297,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_gopher.lua",
-                    "preview_image": "outline_bytebattle_2021/semifinal_gopher.gif"
+                    "preview_image": "2021_05_13_byte_battle_outline/semifinal_gopher.gif"
                 },
                 {
                     "id": null,
@@ -310,7 +310,7 @@
                     "shadertoy_url": null,
                     "tic80_cart_id": 1869,
                     "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_fmscat.lua",
-                    "preview_image": "outline_bytebattle_2021/semifinal_fmscat.gif"
+                    "preview_image": "2021_05_13_byte_battle_outline/semifinal_fmscat.gif"
                 }
             ],
             "staffs": [
@@ -351,7 +351,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_final_gopher.lua",
-                    "preview_image": "outline_bytebattle_2021/final_gopher.gif"
+                    "preview_image": "2021_05_13_byte_battle_outline/final_gopher.gif"
                 },
                 {
                     "id": null,
@@ -364,7 +364,7 @@
                     "shadertoy_url": null,
                     "tic80_cart_id": 1871,
                     "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_final_exoticorn.lua",
-                    "preview_image": "outline_bytebattle_2021/final_exoticorn.gif"
+                    "preview_image": "2021_05_13_byte_battle_outline/final_exoticorn.gif"
                 }
             ],
             "staffs": [

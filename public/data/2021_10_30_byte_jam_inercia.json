@@ -1,5 +1,5 @@
 {
-    "title": "Inércia",
+    "title": "In\u00e9rcia",
     "started": "2021-10-30",
     "date": "30 October 2021",
     "type": "Byte Jam",
@@ -52,7 +52,7 @@
                         "demozoo_id": 20215
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2021_10_inercia_byte_jam/mantratronic_inerciajam.gif",
+                    "preview_image": "2021_10_30_byte_jam_inercia/mantratronic_inerciajam.gif",
                     "source_file": "/shader_file_sources/2021_10_inercia_byte_jam/mantratronic_inerciajam.lua",
                     "tic80_cart_id": 2315
                 },

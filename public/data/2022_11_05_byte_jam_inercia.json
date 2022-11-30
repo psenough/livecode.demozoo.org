@@ -1,5 +1,5 @@
 {
-    "title": "Inércia",
+    "title": "In\u00e9rcia",
     "started": "2022-11-05",
     "date": "5 November 2022",
     "type": "Byte Jam",
@@ -27,7 +27,7 @@
                         "demozoo_id": 131751
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_byte_jam/inerciabytejam_nico.gif",
+                    "preview_image": "2022_11_05_byte_jam_inercia/inerciabytejam_nico.gif",
                     "source_file": "/shader_file_sources/2022_11_inercia_byte_jam/inerciabytejam_nico.lua"
                 },
                 {
@@ -39,7 +39,7 @@
                         "demozoo_id": 5879
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_byte_jam/inerciabytejam_gasman.gif",
+                    "preview_image": "2022_11_05_byte_jam_inercia/inerciabytejam_gasman.gif",
                     "source_file": "/shader_file_sources/2022_11_inercia_byte_jam/inerciabytejam_gasman.lua",
                     "tic80_cart_id": 3057
                 },
@@ -48,11 +48,11 @@
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "TôBach",
+                        "name": "T\u00f4Bach",
                         "demozoo_id": 89891
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_byte_jam/inerciabytejam_tobach.gif",
+                    "preview_image": "2022_11_05_byte_jam_inercia/inerciabytejam_tobach.gif",
                     "source_file": "/shader_file_sources/2022_11_inercia_byte_jam/inerciabytejam_tobach.lua"
                 },
                 {
@@ -64,7 +64,7 @@
                         "demozoo_id": 617
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_byte_jam/inerciabytejam_superogue.gif",
+                    "preview_image": "2022_11_05_byte_jam_inercia/inerciabytejam_superogue.gif",
                     "source_file": "/shader_file_sources/2022_11_inercia_byte_jam/inerciabytejam_superogue.lua",
                     "tic80_cart_id": 3072
                 },
@@ -77,7 +77,7 @@
                         "demozoo_id": 127921
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_byte_jam/inerciabytejam_dave84_1.gif",
+                    "preview_image": "2022_11_05_byte_jam_inercia/inerciabytejam_dave84_1.gif",
                     "source_file": "/shader_file_sources/2022_11_inercia_byte_jam/inerciabytejam_dave84_1.lua"
                 },
                 {
@@ -89,7 +89,7 @@
                         "demozoo_id": 127921
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_inercia_byte_jam/inerciabytejam_dave84_2.gif",
+                    "preview_image": "2022_11_05_byte_jam_inercia/inerciabytejam_dave84_2.gif",
                     "source_file": "/shader_file_sources/2022_11_inercia_byte_jam/inerciabytejam_dave84_2.lua"
                 }
             ],

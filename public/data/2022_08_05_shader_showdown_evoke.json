@@ -26,7 +26,7 @@
                         "demozoo_id": 88839
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_08_evoke_shader_showdown/nusan_semi1.jpg",
+                    "preview_image": "2022_08_05_shader_showdown_evoke/nusan_semi1.jpg",
                     "source_file": "/shader_file_sources/2022_08_evoke_shader_showdown/nusan_semi1.glsl"
                 },
                 {
@@ -38,7 +38,7 @@
                         "demozoo_id": 121811
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_08_evoke_shader_showdown/totetmatt_semi1.jpg",
+                    "preview_image": "2022_08_05_shader_showdown_evoke/totetmatt_semi1.jpg",
                     "source_file": "/shader_file_sources/2022_08_evoke_shader_showdown/totetmatt_semi1.glsl"
                 }
             ],
@@ -58,7 +58,8 @@
                     "job": "Commentators"
                 }
             ]
-        }, {
+        },
+        {
             "title": "Semi Final 2",
             "vod": "https://youtu.be/5woz5w0L6Nk?t=1829",
             "entries": [
@@ -71,7 +72,7 @@
                         "demozoo_id": 114547
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_08_evoke_shader_showdown/z0rg_semi1.jpg",
+                    "preview_image": "2022_08_05_shader_showdown_evoke/z0rg_semi1.jpg",
                     "source_file": "/shader_file_sources/2022_08_evoke_shader_showdown/z0rg_semi1.glsl"
                 },
                 {
@@ -83,7 +84,7 @@
                         "demozoo_id": 65988
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/fl3yRS",
-                    "preview_image": "2022_08_evoke_shader_showdown/flopine_semi2.jpg",
+                    "preview_image": "2022_08_05_shader_showdown_evoke/flopine_semi2.jpg",
                     "source_file": "/shader_file_sources/2022_08_evoke_shader_showdown/flopine_semi2.glsl"
                 }
             ],
@@ -103,7 +104,8 @@
                     "job": "Commentators"
                 }
             ]
-        }, {
+        },
+        {
             "title": "Final",
             "vod": "https://youtu.be/JZQ2dl4Lj3w",
             "entries": [
@@ -116,7 +118,7 @@
                         "demozoo_id": 65988
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_08_evoke_shader_showdown/flopine_final.jpg",
+                    "preview_image": "2022_08_05_shader_showdown_evoke/flopine_final.jpg",
                     "source_file": "/shader_file_sources/2022_08_evoke_shader_showdown/flopine_final.glsl"
                 },
                 {
@@ -128,7 +130,7 @@
                         "demozoo_id": 121811
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7ldyRs",
-                    "preview_image": "2022_08_evoke_shader_showdown/totetmatt_final.jpg",
+                    "preview_image": "2022_08_05_shader_showdown_evoke/totetmatt_final.jpg",
                     "source_file": "/shader_file_sources/2022_08_evoke_shader_showdown/totetmatt_final.glsl"
                 }
             ],
@@ -149,7 +151,6 @@
                 }
             ]
         }
-        
     ],
     "staffs": [
         {

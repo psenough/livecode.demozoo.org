@@ -38,7 +38,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/sdKyzh",
-                    "preview_image": "2022_06_fieldfx_shader_jam/shader_MonsieurSoleil.jpg",
+                    "preview_image": "2022_05_02_shader_jam_fieldfx/shader_MonsieurSoleil.jpg",
                     "source_file": "/shader_file_sources/2022_06_fieldfx_shader_jam/shader_MonsieurSoleil.glsl"
                 },
                 {
@@ -50,7 +50,7 @@
                         "demozoo_id": 121811
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/fdGyz1",
-                    "preview_image": "2022_06_fieldfx_shader_jam/shader_totetmatt.jpg",
+                    "preview_image": "2022_05_02_shader_jam_fieldfx/shader_totetmatt.jpg",
                     "source_file": "/shader_file_sources/2022_06_fieldfx_shader_jam/shader_totetmatt.glsl"
                 }
             ],

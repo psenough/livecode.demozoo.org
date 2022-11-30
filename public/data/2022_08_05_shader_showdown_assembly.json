@@ -10,7 +10,8 @@
             "url": "https://github.com/Gargaj/Bonzomatic/releases/tag/2022-07-08",
             "version": "Gargaj - 2022-07-08",
             "purpose": "Graphic"
-        },{
+        },
+        {
             "name": "Bonzomatic",
             "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v12",
             "version": "NuSan - v12",
@@ -28,10 +29,10 @@
                     "points": 907,
                     "handle": {
                         "name": "Rimina",
-                        "demozoo_id":  56489
+                        "demozoo_id": 56489
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_08_assembly_shader_showdown/shader_asm_rimina_semifinal1.jpg",
+                    "preview_image": "2022_08_05_shader_showdown_assembly/shader_asm_rimina_semifinal1.jpg",
                     "source_file": "/shader_file_sources/2022_08_assembly_shader_showdown/shader_asm_rimina_semifinal1.glsl"
                 },
                 {
@@ -43,7 +44,7 @@
                         "demozoo_id": 35897
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_08_assembly_shader_showdown/shader_asm_exca_semifinal1.jpg",
+                    "preview_image": "2022_08_05_shader_showdown_assembly/shader_asm_exca_semifinal1.jpg",
                     "source_file": "/shader_file_sources/2022_08_assembly_shader_showdown/shader_asm_exca_semifinal1.glsl"
                 }
             ],
@@ -70,32 +71,33 @@
                     "job": "Dj"
                 }
             ]
-        }, {
+        },
+        {
             "title": "Semi Final 2",
             "vod": "https://www.twitch.tv/videos/1553049874?t=1h44m31s",
             "entries": [
                 {
                     "id": null,
                     "rank": 1,
-                    "points": 1250 ,
+                    "points": 1250,
                     "handle": {
                         "name": "provod",
                         "demozoo_id": 24024
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_08_assembly_shader_showdown/shader_asm_provod_semifinal2.jpg",
+                    "preview_image": "2022_08_05_shader_showdown_assembly/shader_asm_provod_semifinal2.jpg",
                     "source_file": "/shader_file_sources/2022_08_assembly_shader_showdown/shader_asm_provod_semifinal2.glsl"
-                 },
+                },
                 {
                     "id": null,
                     "rank": 2,
-                    "points": 796 ,
+                    "points": 796,
                     "handle": {
                         "name": "visy",
                         "demozoo_id": 1301
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_08_assembly_shader_showdown/shader_asm_visy_semifinal2.jpg",
+                    "preview_image": "2022_08_05_shader_showdown_assembly/shader_asm_visy_semifinal2.jpg",
                     "source_file": "/shader_file_sources/2022_08_assembly_shader_showdown/shader_asm_visy_semifinal2.glsl"
                 }
             ],
@@ -122,34 +124,34 @@
                     "job": "Dj"
                 }
             ]
-        }, {
+        },
+        {
             "title": "Final",
             "vod": "https://www.twitch.tv/videos/1554181420?t=0h19m15s",
             "entries": [
                 {
                     "id": null,
                     "rank": 1,
-                    "points": 2058 ,
+                    "points": 2058,
                     "handle": {
                         "name": "provod",
                         "demozoo_id": 24024
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_08_assembly_shader_showdown/shader_asm_provod_final.jpg",
+                    "preview_image": "2022_08_05_shader_showdown_assembly/shader_asm_provod_final.jpg",
                     "source_file": "/shader_file_sources/2022_08_assembly_shader_showdown/shader_asm_provod_final.glsl"
                 },
                 {
                     "id": null,
                     "rank": 2,
-                    "points": 1728 ,
+                    "points": 1728,
                     "handle": {
                         "name": "Rimina",
-                        "demozoo_id":  56489
+                        "demozoo_id": 56489
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_08_assembly_shader_showdown/shader_asm_rimina_final.jpg",
+                    "preview_image": "2022_08_05_shader_showdown_assembly/shader_asm_rimina_final.jpg",
                     "source_file": "/shader_file_sources/2022_08_assembly_shader_showdown/shader_asm_rimina_final.glsl"
-                
                 }
             ],
             "staffs": [
@@ -176,7 +178,6 @@
                 }
             ]
         }
-        
     ],
     "staffs": [
         {

@@ -1,5 +1,5 @@
 {
-    "title": "Névoke",
+    "title": "N\u00e9voke",
     "started": "2021-08-14",
     "date": "14 August 2021",
     "type": "Shader Jam",
@@ -28,7 +28,7 @@
                         "demozoo_id": 65988
                     },
                     "shadertoy_url": null,
-                    "preview_image": "nevoke_2021/Flopine_chibitech_visuals.jpg",
+                    "preview_image": "2021_08_14_shader_jam_nevoke/Flopine_chibitech_visuals.jpg",
                     "source_file": "/shader_file_sources/nevoke_2021/Flopine_chibitech_visuals.glsl"
                 }
             ],

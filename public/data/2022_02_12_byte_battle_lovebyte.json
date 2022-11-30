@@ -29,7 +29,7 @@
                     "shadertoy_url": null,
                     "tic80_cart_id": 2610,
                     "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/quarter_visy.lua",
-                    "preview_image": "2022_02_lovebyte_bytebattle/quarter_visy.gif"
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/quarter_visy.gif"
                 },
                 {
                     "id": 2,
@@ -41,7 +41,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/quarter_lynn.lua",
-                    "preview_image": "2022_02_lovebyte_bytebattle/quarter_lynn.gif"
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/quarter_lynn.gif"
                 }
             ],
             "staffs": [
@@ -76,7 +76,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/quarter_jobe.lua",
-                    "preview_image": "2022_02_lovebyte_bytebattle/quarter_jobe.gif"
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/quarter_jobe.gif"
                 },
                 {
                     "id": 2,
@@ -88,7 +88,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/quarter_pestis.lua",
-                    "preview_image": "2022_02_lovebyte_bytebattle/quarter_pestis.gif"
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/quarter_pestis.gif"
                 }
             ],
             "staffs": [
@@ -172,7 +172,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/quarter_totetmatt.lua",
-                    "preview_image": "2022_02_lovebyte_bytebattle/quarter_totetmatt.gif"
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/quarter_totetmatt.gif"
                 },
                 {
                     "id": 2,
@@ -184,7 +184,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/quarter_dresdenboy.lua",
-                    "preview_image": "2022_02_lovebyte_bytebattle/quarter_dresdenboy.gif"
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/quarter_dresdenboy.gif"
                 }
             ],
             "staffs": [
@@ -225,8 +225,8 @@
                         "demozoo_id": 1301
                     },
                     "shadertoy_url": null,
-                    "source_file":  "/shader_file_sources/2022_02_lovebyte_bytebattle/semi_visy.lua",
-                    "preview_image": "2022_02_lovebyte_bytebattle/semi_visy.gif"
+                    "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/semi_visy.lua",
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/semi_visy.gif"
                 },
                 {
                     "id": 2,
@@ -238,7 +238,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/semi_pestis.lua",
-                    "preview_image": "2022_02_lovebyte_bytebattle/semi_pestis.gif"
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/semi_pestis.gif"
                 }
             ],
             "staffs": [
@@ -273,7 +273,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/semi_dave84.lua",
-                    "preview_image": "2022_02_lovebyte_bytebattle/semi_dave84.gif"
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/semi_dave84.gif"
                 },
                 {
                     "id": 2,
@@ -285,7 +285,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/semi_totetmatt.lua",
-                    "preview_image": "2022_02_lovebyte_bytebattle/semi_totetmatt.gif"
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/semi_totetmatt.gif"
                 }
             ],
             "staffs": [
@@ -320,7 +320,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/final_pestis.lua",
-                    "preview_image": "2022_02_lovebyte_bytebattle/final_pestis.gif"
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/final_pestis.gif"
                 },
                 {
                     "id": 2,
@@ -332,7 +332,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2022_02_lovebyte_bytebattle/final_dave84.lua",
-                    "preview_image": "2022_02_lovebyte_bytebattle/final_dave84.gif"
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/final_dave84.gif"
                 }
             ],
             "staffs": [

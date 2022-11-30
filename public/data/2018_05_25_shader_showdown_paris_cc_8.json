@@ -61,7 +61,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2018-05-25/02-antoine.jpg",
+                    "preview_image": "2018_05_25_shader_showdown_paris_cc_8/02-antoine.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-05-25/02-antoine.glsl"
                 },
                 {
@@ -73,7 +73,7 @@
                         "demozoo_id": 71129
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2018-05-25/02-lamogui.jpg",
+                    "preview_image": "2018_05_25_shader_showdown_paris_cc_8/02-lamogui.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-05-25/02-lamogui.glsl"
                 }
             ],
@@ -92,7 +92,7 @@
                         "demozoo_id": 83579
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2018-05-25/03-lsdlive.jpg",
+                    "preview_image": "2018_05_25_shader_showdown_paris_cc_8/03-lsdlive.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-05-25/03-lsdlive.glsl"
                 }
             ],

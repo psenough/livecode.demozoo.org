@@ -13,7 +13,7 @@
             "version": "tic80showdown v07",
             "purpose": "Graphic"
         }
-    ], 
+    ],
     "phases": [
         {
             "title": null,
@@ -27,7 +27,7 @@
                         "demozoo_id": 5879
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_06_fieldfx_byte_jam/bytejam_fieldfx_gasman.gif",
+                    "preview_image": "2022_05_02_byte_jam_fieldfx/bytejam_fieldfx_gasman.gif",
                     "source_file": "/shader_file_sources/2022_06_fieldfx_byte_jam/bytejam_fieldfx_gasman.lua"
                 },
                 {
@@ -35,18 +35,18 @@
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "TôBach",
+                        "name": "T\u00f4Bach",
                         "demozoo_id": 89891
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_06_fieldfx_byte_jam/bytejam_fieldfx_tobach.gif",
+                    "preview_image": "2022_05_02_byte_jam_fieldfx/bytejam_fieldfx_tobach.gif",
                     "source_file": "/shader_file_sources/2022_06_fieldfx_byte_jam/bytejam_fieldfx_tobach.lua"
                 }
             ],
             "staffs": []
         }
     ],
-    "staffs": [  
+    "staffs": [
         {
             "handle": {
                 "name": "aldroid",

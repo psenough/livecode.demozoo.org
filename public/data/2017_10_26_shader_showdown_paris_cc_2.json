@@ -26,7 +26,7 @@
                         "demozoo_id": 27241
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-10-26/01-eybor.jpg",
+                    "preview_image": "2017_10_26_shader_showdown_paris_cc_2/01-eybor.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-10-26/01-eybor.glsl"
                 },
                 {
@@ -38,7 +38,7 @@
                         "demozoo_id": 34845
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-10-26/01-wsmind.jpg",
+                    "preview_image": "2017_10_26_shader_showdown_paris_cc_2/01-wsmind.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-10-26/01-wsmind.glsl"
                 }
             ],
@@ -57,7 +57,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-10-26/02-anton.jpg",
+                    "preview_image": "2017_10_26_shader_showdown_paris_cc_2/02-anton.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-10-26/02-anton.glsl"
                 },
                 {
@@ -69,7 +69,7 @@
                         "demozoo_id": 71129
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-10-26/02-lamogui.jpg",
+                    "preview_image": "2017_10_26_shader_showdown_paris_cc_2/02-lamogui.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-10-26/02-lamogui.glsl"
                 }
             ],
@@ -88,7 +88,7 @@
                         "demozoo_id": 65988
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-10-26/03-flopine.jpg",
+                    "preview_image": "2017_10_26_shader_showdown_paris_cc_2/03-flopine.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-10-26/03-flopine.glsl"
                 },
                 {
@@ -100,7 +100,7 @@
                         "demozoo_id": 78480
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-10-26/03-pouletvert.jpg",
+                    "preview_image": "2017_10_26_shader_showdown_paris_cc_2/03-pouletvert.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-10-26/03-pouletvert.glsl"
                 }
             ],
@@ -119,7 +119,7 @@
                         "demozoo_id": 71129
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-10-26/04-lamogui.jpg",
+                    "preview_image": "2017_10_26_shader_showdown_paris_cc_2/04-lamogui.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-10-26/04-lamogui.glsl"
                 },
                 {
@@ -131,7 +131,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-10-26/04-omar.jpg",
+                    "preview_image": "2017_10_26_shader_showdown_paris_cc_2/04-omar.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-10-26/04-omar.glsl"
                 }
             ],
@@ -150,7 +150,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-10-26/05-lock0.jpg",
+                    "preview_image": "2017_10_26_shader_showdown_paris_cc_2/05-lock0.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-10-26/05-lock0.glsl"
                 },
                 {
@@ -162,7 +162,7 @@
                         "demozoo_id": 3848
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-10-26/05-xt95.jpg",
+                    "preview_image": "2017_10_26_shader_showdown_paris_cc_2/05-xt95.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-10-26/05-xt95.glsl"
                 }
             ],
@@ -181,7 +181,7 @@
                         "demozoo_id": 52423
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-10-26/06-koltes.jpg",
+                    "preview_image": "2017_10_26_shader_showdown_paris_cc_2/06-koltes.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-10-26/06-koltes.glsl"
                 },
                 {
@@ -193,7 +193,7 @@
                         "demozoo_id": 61858
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-10-26/06-ponk.jpg",
+                    "preview_image": "2017_10_26_shader_showdown_paris_cc_2/06-ponk.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-10-26/06-ponk.glsl"
                 }
             ],
@@ -212,7 +212,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-10-26/extra-shex-1.jpg",
+                    "preview_image": "2017_10_26_shader_showdown_paris_cc_2/extra-shex-1.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-10-26/extra-shex-1.glsl"
                 },
                 {
@@ -224,7 +224,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2017-10-26/extra-shex-2.jpg",
+                    "preview_image": "2017_10_26_shader_showdown_paris_cc_2/extra-shex-2.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-10-26/extra-shex-2.glsl"
                 }
             ],

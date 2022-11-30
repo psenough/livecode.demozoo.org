@@ -25,7 +25,7 @@
                         "demozoo_id": 88839
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_jam_2021/jam_with_lynn/nusan.jpg",
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_lynn/nusan.jpg",
                     "source_file": "/shader_file_sources/revision_2021/jam_with_lynn/nusan.glsl"
                 },
                 {
@@ -37,7 +37,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "revision_jam_2021/jam_with_lynn/lechugafeliz.jpg",
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_lynn/lechugafeliz.jpg",
                     "source_file": "/shader_file_sources/revision_2021/jam_with_lynn/lechugafeliz.glsl"
                 },
                 {
@@ -49,7 +49,7 @@
                         "demozoo_id": 32692
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/fsjGDD",
-                    "preview_image": "revision_jam_2021/jam_with_lynn/eimink.jpg",
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_lynn/eimink.jpg",
                     "source_file": "/shader_file_sources/revision_2021/jam_with_lynn/eimink.glsl"
                 }
             ],
@@ -76,7 +76,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/revision_2021/jam_with_messy/superplek/superplek.glsl",
-                    "preview_image": "revision_jam_2021/jam_with_messy/superplek.jpg"
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_messy/superplek.jpg"
                 },
                 {
                     "id": null,
@@ -88,7 +88,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/revision_2021/jam_with_messy/evvvvil.glsl",
-                    "preview_image": "revision_jam_2021/jam_with_messy/evvvvil.jpg"
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_messy/evvvvil.jpg"
                 },
                 {
                     "id": null,
@@ -100,7 +100,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/Ndj3Wm",
                     "source_file": "/shader_file_sources/revision_2021/jam_with_messy/sp4ghet.glsl",
-                    "preview_image": "revision_jam_2021/jam_with_messy/sp4ghet.jpg"
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_messy/sp4ghet.jpg"
                 }
             ],
             "staffs": [
@@ -126,7 +126,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/revision_2021/jam_with_ghost/exca.glsl",
-                    "preview_image": "revision_jam_2021/jam_with_ghost/exca.jpg"
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_ghost/exca.jpg"
                 },
                 {
                     "id": null,
@@ -138,7 +138,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/revision_2021/jam_with_ghost/rimina.glsl",
-                    "preview_image": "revision_jam_2021/jam_with_ghost/rimina.jpg"
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_ghost/rimina.jpg"
                 },
                 {
                     "id": null,
@@ -150,7 +150,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/revision_2021/jam_with_ghost/visy.glsl",
-                    "preview_image": "revision_jam_2021/jam_with_ghost/visy.jpg"
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_ghost/visy.jpg"
                 }
             ],
             "staffs": [

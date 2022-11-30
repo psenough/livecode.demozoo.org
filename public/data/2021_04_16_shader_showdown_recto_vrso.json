@@ -32,7 +32,7 @@
                         "demozoo_id": 88839
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2021-04-16/01-nusan.jpg",
+                    "preview_image": "2021_04_16_shader_showdown_recto_vrso/01-nusan.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/01-nusan.glsl"
                 },
                 {
@@ -44,7 +44,7 @@
                         "demozoo_id": 114547
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2021-04-16/01-z0rg.jpg",
+                    "preview_image": "2021_04_16_shader_showdown_recto_vrso/01-z0rg.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/01-z0rg.glsl"
                 }
             ],
@@ -78,7 +78,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2021-04-16/02-lechugafeliz.jpg",
+                    "preview_image": "2021_04_16_shader_showdown_recto_vrso/02-lechugafeliz.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/02-lechugafeliz.glsl"
                 },
                 {
@@ -90,7 +90,7 @@
                         "demozoo_id": 113559
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/NsfXRf",
-                    "preview_image": "cc_live_coding_2021-04-16/02-wrighter.jpg",
+                    "preview_image": "2021_04_16_shader_showdown_recto_vrso/02-wrighter.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/02-wrighter.glsl"
                 }
             ],
@@ -124,7 +124,7 @@
                         "demozoo_id": 130920
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2021-04-16/03-tater.jpg",
+                    "preview_image": "2021_04_16_shader_showdown_recto_vrso/03-tater.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/03-tater.glsl"
                 },
                 {
@@ -136,7 +136,7 @@
                         "demozoo_id": 114547
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2021-04-16/03-z0rg.jpg",
+                    "preview_image": "2021_04_16_shader_showdown_recto_vrso/03-z0rg.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/03-z0rg.glsl"
                 }
             ],
@@ -182,7 +182,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "cc_live_coding_2021-04-16/04-lechugafeliz.jpg",
+                    "preview_image": "2021_04_16_shader_showdown_recto_vrso/04-lechugafeliz.jpg",
                     "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2021-04-16/04-lechugafeliz.glsl"
                 }
             ],
