@@ -1,0 +1,419 @@
+{
+    "title": "Outline",
+    "started": "2021-05-13",
+    "date": "13 - 16 May 2021",
+    "type": "Byte Battle",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v062b",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Quarter Final #1",
+            "vod": "https://www.youtube.com/watch?v=uYBZ8pRWwgo",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_aldroid.lua",
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_aldroid.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 1913,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_ps.lua",
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_ps.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": 53612
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Numtek",
+                        "demozoo_id": 6428
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final #2",
+            "vod": "https://youtu.be/uYBZ8pRWwgo?t=1930",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "killedbyapixel",
+                        "demozoo_id": 89333
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_killedbyapixel.lua",
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_killedbyapixel.gif"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "exoticorn",
+                        "demozoo_id": 5849
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 1873,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_exoticorn.lua",
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_exoticorn.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": 53612
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Numtek",
+                        "demozoo_id": 6428
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final #3",
+            "vod": "https://youtu.be/uYBZ8pRWwgo?t=3798",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "gopher",
+                        "demozoo_id": 929
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_gopher.lua",
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_gopher.gif"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "tomcat",
+                        "demozoo_id": 8556
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_tomcat.lua",
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_tomcat.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": 53612
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Numtek",
+                        "demozoo_id": 6428
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final #4",
+            "vod": "https://youtu.be/uYBZ8pRWwgo?t=5699",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "popolon",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 1874,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_popolon.lua",
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_popolon.gif"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "FMS_cat",
+                        "demozoo_id": 57112
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 1868,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_qf_fmscat.lua",
+                    "preview_image": "2021_05_13_byte_battle_outline/qf_fmscat.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": 53612
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Numtek",
+                        "demozoo_id": 6428
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final #1",
+            "vod": "https://www.youtube.com/watch?v=KIv5N-nV_vQ",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_aldroid.lua",
+                    "preview_image": "2021_05_13_byte_battle_outline/semifinal_aldroid.gif"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "exoticorn",
+                        "demozoo_id": 5849
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 1872,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_exoticorn.lua",
+                    "preview_image": "2021_05_13_byte_battle_outline/semifinal_exoticorn.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Subi",
+                        "demozoo_id": 21306
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final #2",
+            "vod": "https://youtu.be/KIv5N-nV_vQ?t=1915",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "gopher",
+                        "demozoo_id": 929
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_gopher.lua",
+                    "preview_image": "2021_05_13_byte_battle_outline/semifinal_gopher.gif"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "FMS_cat",
+                        "demozoo_id": 57112
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 1869,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_semifinal_fmscat.lua",
+                    "preview_image": "2021_05_13_byte_battle_outline/semifinal_fmscat.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Numtek",
+                        "demozoo_id": 6428
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "gopher",
+                        "demozoo_id": 929
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_final_gopher.lua",
+                    "preview_image": "2021_05_13_byte_battle_outline/final_gopher.gif"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "exoticorn",
+                        "demozoo_id": 5849
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 1871,
+                    "source_file": "http://revival-studios.com/bytebattles/outline2021/bytebattle_outline2021_final_exoticorn.lua",
+                    "preview_image": "2021_05_13_byte_battle_outline/final_exoticorn.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Numtek",
+                        "demozoo_id": 6428
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "jeenio",
+                "demozoo_id": 3048
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "superogue",
+                "demozoo_id": 617
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4201
+}
