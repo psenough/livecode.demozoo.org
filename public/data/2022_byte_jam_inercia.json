@@ -65,7 +65,8 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_11_inercia_byte_jam/inerciabytejam_superogue.gif",
-                    "source_file": "/shader_file_sources/2022_11_inercia_byte_jam/inerciabytejam_superogue.lua"
+                    "source_file": "/shader_file_sources/2022_11_inercia_byte_jam/inerciabytejam_superogue.lua",
+                    "tic80_cart_id": 3072
                 },
                 {
                     "id": null,
