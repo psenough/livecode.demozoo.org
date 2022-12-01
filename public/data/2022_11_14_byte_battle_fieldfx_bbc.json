@@ -26,7 +26,7 @@
                         "demozoo_id": 20215
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_14_fieldfx_bbc/bytebattle/mantratronic-bytebattle.gif",
+                    "preview_image": "2022_11_14_byte_battle_fieldfx_bbc/bytebattle/mantratronic-bytebattle.gif",
                     "source_file": "/shader_file_sources/2022_11_14_fieldfx_bbc/bytebattle/mantratronic-bytebattle.gif"
                 },
                 {
@@ -38,7 +38,7 @@
                         "demozoo_id": 127921
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2022_11_14_fieldfx_bbc/bytebattle/dave84-bytebattle.gif",
+                    "preview_image": "2022_11_14_byte_battle_fieldfx_bbc/bytebattle/dave84-bytebattle.gif",
                     "source_file": "/shader_file_sources/2022_11_14_fieldfx_bbc/bytebattle/dave84-bytebattle.lua"
                 }
             ],
@@ -52,10 +52,7 @@
                 }
             ]
         }
-        
     ],
-    "staffs": [
-       
-    ],
+    "staffs": [],
     "demozoo_party_id": 4301
 }

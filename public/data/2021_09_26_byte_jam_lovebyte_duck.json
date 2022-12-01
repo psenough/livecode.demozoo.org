@@ -1,0 +1,89 @@
+{
+    "title": "Lovebyte Battlegrounds",
+    "started": "2021-09-26",
+    "date": "25 - 26 September 2021",
+    "vod": null,
+    "type": "Duck Jam",
+    "website": "http://battle.lovebyte.party/",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v07",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Improvised Duck Jam",
+            "keyword": "Duck",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jobe",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_26_byte_jam_lovebyte_duck/jobe.lua",
+                    "preview_image": "2021_09_26_byte_jam_lovebyte_duck/jobe.gif"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_26_byte_jam_lovebyte_duck/nusan.lua",
+                    "preview_image": "2021_09_26_byte_jam_lovebyte_duck/nusan.gif"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2269,
+                    "source_file": "/shader_file_sources/2021_09_26_byte_jam_lovebyte_duck/superogue.lua",
+                    "preview_image": "2021_09_26_byte_jam_lovebyte_duck/superogue.gif"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gopher",
+                        "demozoo_id": 929
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_26_byte_jam_lovebyte_duck/gopher.lua",
+                    "preview_image": "2021_09_26_byte_jam_lovebyte_duck/gopher.gif"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "superogue",
+                "demozoo_id": 617
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4353
+}
