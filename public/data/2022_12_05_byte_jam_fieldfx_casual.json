@@ -32,48 +32,48 @@
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": null,
-                        "demozoo_id": null
+                        "name": "dave84",
+                        "demozoo_id": 127921
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_12_05_byte_jam_fieldfx_casual/replace.lua",
-                    "preview_image": "2022_12_05_byte_jam_fieldfx_casual/replace.gif"
+                    "source_file": "/shader_file_sources/2022_12_05_byte_jam_fieldfx_casual/dave84.lua",
+                    "preview_image": "2022_12_05_byte_jam_fieldfx_casual/dave84.gif"
                 },
                 {
                     "id": 2,
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": null,
-                        "demozoo_id": null
+                        "name": "Gasman",
+                        "demozoo_id": 5879
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_12_05_byte_jam_fieldfx_casual/replace.lua",
-                    "preview_image": "2022_12_05_byte_jam_fieldfx_casual/replace.gif"
+                    "source_file": "/shader_file_sources/2022_12_05_byte_jam_fieldfx_casual/gasman.lua",
+                    "preview_image": "2022_12_05_byte_jam_fieldfx_casual/gasman.gif"
                 },
                 {
                     "id": 3,
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": null,
-                        "demozoo_id": null
+                        "name": "TôBach",
+                        "demozoo_id": 89891
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_12_05_byte_jam_fieldfx_casual/replace.lua",
-                    "preview_image": "2022_12_05_byte_jam_fieldfx_casual/replace.gif"
+                    "source_file": "/shader_file_sources/2022_12_05_byte_jam_fieldfx_casual/tobach.lua",
+                    "preview_image": "2022_12_05_byte_jam_fieldfx_casual/tobach.gif"
                 },
                 {
                     "id": 4,
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": null,
-                        "demozoo_id": null
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_12_05_byte_jam_fieldfx_casual/replace.lua",
-                    "preview_image": "2022_12_05_byte_jam_fieldfx_casual/replace.gif"
+                    "source_file": "/shader_file_sources/2022_12_05_byte_jam_fieldfx_casual/aldroid.lua",
+                    "preview_image": "2022_12_05_byte_jam_fieldfx_casual/aldroid.gif"
                 }
             ],
             "staffs": [
