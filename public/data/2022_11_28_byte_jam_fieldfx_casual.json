@@ -28,52 +28,52 @@
             "title": "Byte Jam",
             "entries": [
                 {
-                    "id": null,
+                    "id": 1,
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": null,
-                        "demozoo_id": null
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/replace.lua",
-                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/replace.gif"
+                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/mantratronic.lua",
+                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/mantratronic.gif"
                 },
                 {
-                    "id": null,
+                    "id": 2,
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": null,
-                        "demozoo_id": null
+                        "name": "Visy",
+                        "demozoo_id": 1301
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/replace.lua",
-                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/replace.gif"
+                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/visy.lua",
+                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/visy.gif"
                 },
                 {
-                    "id": null,
+                    "id": 3,
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": null,
-                        "demozoo_id": null
+                        "name": "TôBach",
+                        "demozoo_id": 89891
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/replace.lua",
-                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/replace.gif"
+                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/tobach.lua",
+                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/tobach.gif"
                 },
                 {
-                    "id": null,
+                    "id": 4,
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": null,
-                        "demozoo_id": null
+                        "name": "Sir Garbagetruck",
+                        "demozoo_id": 3143
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/replace.lua",
-                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/replace.gif"
+                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/truck.fnl",
+                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/truck.gif"
                 }
             ],
             "staffs": [
