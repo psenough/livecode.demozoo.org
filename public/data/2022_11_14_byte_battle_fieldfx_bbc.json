@@ -27,7 +27,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_11_14_byte_battle_fieldfx_bbc/bytebattle/mantratronic-bytebattle.gif",
-                    "source_file": "/shader_file_sources/2022_11_14_fieldfx_bbc/bytebattle/mantratronic-bytebattle.gif"
+                    "source_file": "/shader_file_sources/2022_11_14_fieldfx_bbc/bytebattle/mantratronic.lua"
                 },
                 {
                     "id": 2,
@@ -39,7 +39,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2022_11_14_byte_battle_fieldfx_bbc/bytebattle/dave84-bytebattle.gif",
-                    "source_file": "/shader_file_sources/2022_11_14_fieldfx_bbc/bytebattle/dave84-bytebattle.lua"
+                    "source_file": "/shader_file_sources/2022_11_14_fieldfx_bbc/bytebattle/dave84.lua"
                 }
             ],
             "staffs": [
