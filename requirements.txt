@@ -33,3 +33,4 @@ rdflib==6.0.2
 Pillow==8.4.0
 strawberry-graphql==0.151.2
 Frozen-Flask==0.18
+typing_extensions==4.4.0
