@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="GLSL, Shader, Showdown, Shadertoy, TIC80, Byte">
+    <meta name="author" content="psenough, totetmatt, rascy, Y0Gi">
+    <link rel="shortcut icon" href="https://demozoo.org/static/images/favicon/favicon.ico">
+
+    <title>{%block title%}{% endblock %} ◈ livecode.demozoo.org</title>
+    <script src="/assets/fa-6.2.1/js/all.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/pure-min.css">
+    <link rel="stylesheet" href="/assets/css/grids-responsive-min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <meta property="og:site_name" content="livecode.demozoo.org">
+    <meta property="og:type" content="website">
+    {% block opengraph %}
+    <meta property="og:title" content="Demoscene Livecode Events">
+    {% endblock %}
+    <meta property="og:image" content="https://livecode.demozoo.org/assets/img/ogp_default_img_1280x720.jpg">
+    <meta property="og:image:secure_url" content="https://livecode.demozoo.org/assets/img/ogp_default_img_1280x720.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+</head>
+
+<body>
+
+    <video autoplay muted loop id="myVideo">
+       <source src="/assets/img/bg.mp4" type="video/mp4">
+    </video>
+    <a href="/"><div class="asciilogo banner">
+        {% raw %}
+<pre>                       _                                                                                                                           </pre>
+<pre>{                     _}\                                                                             ____________                                 </pre>  
+<pre>   _______         ___{__\____________ _________ ___________  _______________ _______________   ______{_     ____/__________________               </pre>  
+<pre>  /       \ _______\      \  \        \\       /    ___    /_/      ________//       ___    /_ /       __       \/       __        /__ .demozoo.org</pre>  
+<pre>  \        \\       \         \        \\     /    /%}______/_      {%________\      {%/       \        %}       \      /%}_______/_ /             </pre>  
+<pre>   \        \>       \         \        \>   /       /        \      /         \      /         \       /         \       /         \___           </pre>  
+<pre>    \________________/\________/\___________/\_________________\_______________/\_______________/\_________________/_________________\  \          </pre>  
+<pre>      \________________/\____!NE7_\____________/\_________________\_______________/\_______________/\________________/\__________________\         </pre>
+{% endraw %}
+    </div></a>
+    <div id="nav">
+        <div class="banner">
+             
+                    <a class="pure-button {%if nav_context.about %}button-performer-selected{%endif%}" href="{{url_for('about')}}">About</a>
+                    <a class="pure-button {%if nav_context.upcomings %}button-performer-selected{%endif%}" href="{{url_for('upcomings')}}">Upcoming</a>
+             
+        </div>
+        <div class="banner">
+        
+                 <a class="pure-button {%if nav_context.performer%}button-performer-selected{%endif%}"href="{{url_for('all_performer')}}">Performers</a>
+         
+        </div>
+        
+        <div class="banner">
+                <a class="pure-button button-nav-label">By Year : </a>
+                {% for year in years %}
+                
+                <a class="pure-button button-year {%if nav_context.year == year%} button-year-selected {%endif%}" href="{{url_for('by_year',year=year)}}">{{year}}</a>
+                {% endfor %}
+    
+        </div>
+        <div class="banner">
+         
+                <a class="pure-button button-nav-label">By Type : </a>
+                {% for type in allEventType %}
+                
+                <a class="pure-button button-year {%if nav_context.eventType == type.stub %} button-type-selected {%endif%}" href="{{url_for('by_type',type_stub=type.stub)}}">{{type.label}}</a>
+                {% endfor %}
+         
+        </div>
+        <div class="banner">
+          
+                <a class="pure-button button-nav-label">By Party Series: </a>
+                {% for partySerie in partySeries %}
+                    <a class="pure-button button-year {%if nav_context.serie == partySerie.stub%} button-serie-selected {%endif%}" href="{{url_for('by_serie',serie_stub=partySerie.stub)}}">{{partySerie['name']}}</a>
+                {% endfor %}
+     
+        </div>
+    </div>
+    <div class="main-container">
+        {%- block body %}{% endblock %}
+    </div>
+    <script src="/assets/js/konami.js"></script>
+    <script>new Konami(() => window.open("https://modarchive.org/index.php?request=view_player&query=149154", "_blank"));</script>
+  
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{% from 'common/macros.j2' import internal_link, external_link, download_link, tic_80_link, vod_link, shadertoy_link %}
+<div class="pure-g  pure-u-1 pure-u-lg-6-24 entry-card">
+    <div class="pure-u-1"><img loading="lazy" src="{% if entry.previewUrl %}{{entry.previewUrl}}{% else %}/assets/img/image-not-found.png{%endif%}" /> </div>
+    <div class="pure-u-1 entry-name">{% if entry.rank %}  <a class="button-rank pure-button">{% if (phase.entries|length ==2 and entry.rank==1) or ( phase.entries|length >2 and entry.rank <= 3)  %}<i class="fa-solid fa-trophy"></i>{%endif%} {{entry.rank}}</a> {%endif%}  {{entry.handle.name}} {{internal_link(url_for('performer_page',stub=entry.handle.stub))}}</div>
+    <table class="entry-info">
+        <tbody>
+            {%if entry.points %}<tr><td class="entry-info-label">Points:</td><td>{{entry.points}}</td></tr>{%endif%}
+            {%if entry.vod %}<tr><td class="entry-info-label">Video:</td><td>{{vod_link(entry.vod)}}</td>  </tr>{%endif%}
+            {%if entry.shadertoyUrl %}<tr><td class="entry-info-label">Shadertoy:</td><td>{{shadertoy_link(entry.shadertoyUrl)}}</td></tr> {%endif%}
+            {%if entry.tic80CartId %}<tr><td class="entry-info-label">TIC80.com:</td><td>{{tic_80_link(entry.tic80CartId)}}</td></tr> {%endif%}
+            {%if entry.sourceFile %}<tr><td class="entry-info-label">Source Code:</td><td>{{download_link(entry.sourceFile)}}</td></tr> {%endif%}
+        </tbody>
+    </table>
+</div>

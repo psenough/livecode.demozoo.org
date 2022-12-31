@@ -1,0 +1,20 @@
+{% extends '_base.html' %}
+{% block title%}{{event.title}} {{event.started}} {{event.type.label}}{% endblock%}
+{%block opengraph %}
+<meta property="og:title" content="{{event.title}} {{event.started}} {{event.type.label}}">
+<meta property="og:description" 
+  content="Check results and sources from {{event.title}} {{event.started}} {{event.type.label}}" />
+
+  {% for phase in event.phases %}
+      {% for entry in phase.entries %}
+          {% if entry.previewUrl %}
+              <meta property="og:image:secure_url" content="https://livecode.demozoo.org{{entry.previewUrl}}" />
+              <meta property="og:image" content="https://livecode.demozoo.org{{entry.previewUrl}}" />
+          {% endif %}
+      {% endfor %}
+
+  {% endfor %}
+{% endblock%}
+{% block body %}
+{%include 'common/default_event_list.html' %}
+{% endblock %}

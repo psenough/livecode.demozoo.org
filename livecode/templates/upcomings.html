@@ -1,0 +1,37 @@
+{% extends '_base.html' %}
+{%block opengraph %}
+<meta property="og:title" content="Upcoming events livecode.demozoo.org">
+<meta property="og:description" 
+  content="Upcoming events livecode.demozoo.org" />
+{% endblock%}
+{% block title%}Upcoming events{% endblock%}
+{% block body %}
+<div class="pure-u-1 page-header">
+    <h1>Upcoming events</h1>
+</div>
+<div class="pure-grid about-page">
+    <div class="pure-u-1">
+        Not all existing event are listed, only the advertised one we get heard on. Feel free to advertise your event by contacting @psenough or @totetmatt or droping a message in the discord : <a href="https://discord.gg/FdmmhwfB">https://discord.gg/FdmmhwfB</a> 
+    </div>
+</div>
+
+{% for event in upcomings %}
+
+<details {%if nav_context.event or (events and events|length <= 1) or (serie and serie.events|length <= 1) %}open{%endif%} id="{{event.gqlId}}">
+    <summary>
+            <div class="pure-g event-header">
+                {% include 'upcomings/event_header.html' %}
+            </div>  
+    </summary>
+    </details>
+{% else %}
+<div class="pure-grid about-page">
+    <div class="pure-u-1">
+       <h1>There is no event planned :(</h1>
+    </div>
+</div>
+
+{% endfor %}
+
+
+{% endblock %}

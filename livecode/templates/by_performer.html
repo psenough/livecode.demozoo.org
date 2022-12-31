@@ -1,0 +1,57 @@
+{% from 'common/macros.j2' import internal_link, demozoo_link, demozoo_scener_link %}
+{% extends '_base.html' %}
+{% block title%}{{events.handle['displayName']}}{% endblock%}
+{%block opengraph %}
+<meta property="og:title" content="{{events.handle['displayName']}} Livecode Performances">
+<meta property="og:description" 
+  content="Check all livecode performances from {{events.handle['displayName']}}" />
+    {% for event in events.performerEvents %}
+    {% for phase in event.phases %}
+        {% for entry in phase.entries %}
+            {% if entry.previewUrl and entry.handle.stub == nav_context.performer.selected %}
+                <meta property="og:image:secure_url" content="https://livecode.demozoo.org{{entry.previewUrl}}" />
+                <meta property="og:image" content="https://livecode.demozoo.org{{entry.previewUrl}}" />
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+    {% endfor %}
+{% endblock%}
+{% block body %}
+    <div class="pure-u-1 page-header">
+        <h1>{{events.handle['displayName']}}</h1>
+
+        {%if events.handle.demozooId %} 
+        {{demozoo_scener_link(events.handle.demozooId)}}
+       
+        {% endif %}
+    </div>
+    {% if events.performerEvents %}
+        {% for event in events.performerEvents %}
+            {%include 'performer/event_list.html' %}
+        {% endfor %}
+    {% endif %}
+    {% if events.staffEvents %}
+     
+    <details open>
+        <summary><h2>As Staff</h2></summary>
+        <div class="event-body">
+   
+            <ul class="staff-performer-list">
+                {% for event in events.staffEvents %}
+
+                        {% for staff in event.staffs if staff.handle.stub ==  nav_context.performer.selected %}
+                            <li>{{event.started}}  {{event.title}}{{internal_link(url_for('by_event',event_stub=event.gqlId))}} {{event.type.label}} {{staff.job}}</li> 
+                        {% endfor %}
+                        {% for phase in event.phases %}
+                            {% for staff in phase.staffs if staff.handle.stub ==  nav_context.performer.selected %}
+                                <li>{{event.started}} {{event.title}}{{internal_link(url_for('by_event',event_stub=event.gqlId))}} {{event.type.label}} {{phase.title}} {{staff.job}}</li> 
+                            {% endfor %}
+                        {% endfor %}
+                {% endfor %}
+            </ul>
+
+        </div>
+    </details>
+    {% endif %}
+    
+{% endblock %}

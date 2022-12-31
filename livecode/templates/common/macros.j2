@@ -1,0 +1,25 @@
+{% macro internal_link(url) %}<a href="{{url}}"><i class="fa-solid fa-link i-link"></i></a>{% endmacro %}
+
+{% macro staff_link(url, name) %}<a class="pure-button" href="{{url}}">{{name}} <i class="fa-solid fa-link i-link"></i></a>{% endmacro %}
+
+{% macro software_link(url, software_data) %}
+{% if url %}
+    <a class="pure-button" href="{{url}}">{{software_data.name}} <i class="fa-solid fa-link i-link"></i></a>
+{% else %} 
+    <a class="pure-button">{{software_data.name}}</a>
+{% endif %}
+{% endmacro %}
+
+{% macro external_link(url, label) %}<a target="_blank" href="{{url}}" class="e-link"><i class="fa-solid fa-external-link"></i> {{label}}</a>{% endmacro %}
+
+{% macro download_link(url) %}<a target="_blank" href="{{url}}"><i class="fa-solid fa-download"></i> Download</a>{% endmacro %}
+
+{% macro shadertoy_link(url) %}<a class="shadertoy-link" target="_blank" href="{{url}}"><img src="/assets/img/shadertoy.png"> View</a>{% endmacro %}
+
+{% macro tic_80_link(card_id) %}<a target="_blank" href="https://tic80.com/play?cart={{card_id}}"><i class="fa-solid fa-external-link"></i> View</a>{% endmacro %}
+
+{% macro vod_link(url) %}<a target="_blank" href="{{url}}"><i class="fa-solid fa-video"></i> Watch</a>{% endmacro %}
+
+{% macro demozoo_link(url) %}<a class="demozoo-link" target="_blank" href="{{url}}"><img src="/assets/img/demozoo.png" /><i class="fa-solid fa-external-link"></i></a>{% endmacro %}
+
+{% macro demozoo_scener_link(id) %}<a class="demozoo-link" target="_blank" href="https://demozoo.org/sceners/{{id}}"><img src="/assets/img/demozoo.png" /><i class="fa-solid fa-external-link"></i></a>{% endmacro %}
