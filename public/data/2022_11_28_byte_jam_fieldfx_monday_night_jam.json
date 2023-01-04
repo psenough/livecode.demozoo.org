@@ -1,9 +1,9 @@
 {
-    "title": "Field-FX Byte Battle Casuals",
-    "started": "2022-12-19",
-    "date": "19 December 2022",
+    "title": "Monday Night Jam #03",
+    "started": "2022-11-28",
+    "date": "28 November 2022",
     "type": "Byte Jam",
-    "vod": null,
+    "vod": "https://www.youtube.com/watch?v=eFWaYcnJS7c",
     "website": "",
     "flyer": "",
     "software_used": [
@@ -20,7 +20,7 @@
                 "name": "aldroid",
                 "demozoo_id": 63755
             },
-            "job": "Organizers"
+            "job": "Commentator"
         }
     ],
     "phases": [
@@ -32,24 +32,24 @@
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "Kii Krindar",
-                        "demozoo_id": null
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_12_19_byte_jam_fieldfx_casual/kiikrindar.lua",
-                    "preview_image": "2022_12_19_byte_jam_fieldfx_casual/kiikrindar.gif"
+                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/mantratronic.lua",
+                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/mantratronic.gif"
                 },
                 {
                     "id": 2,
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "Mr Synackster",
-                        "demozoo_id": null
+                        "name": "Visy",
+                        "demozoo_id": 1301
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_12_19_byte_jam_fieldfx_casual/mrsynackster.lua",
-                    "preview_image": "2022_12_19_byte_jam_fieldfx_casual/mrsynackster.gif"
+                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/visy.lua",
+                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/visy.gif"
                 },
                 {
                     "id": 3,
@@ -60,20 +60,20 @@
                         "demozoo_id": 89891
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_12_19_byte_jam_fieldfx_casual/tobach.lua",
-                    "preview_image": "2022_12_19_byte_jam_fieldfx_casual/tobach.gif"
+                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/tobach.lua",
+                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/tobach.gif"
                 },
                 {
                     "id": 4,
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "Superogue",
-                        "demozoo_id": 617
+                        "name": "Sir Garbagetruck",
+                        "demozoo_id": 3143
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_12_19_byte_jam_fieldfx_casual/superogue.lua",
-                    "preview_image": "2022_12_19_byte_jam_fieldfx_casual/superogue.gif"
+                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/truck.fnl",
+                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/truck.gif"
                 }
             ],
             "staffs": [
@@ -86,5 +86,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "demozoo_party_id": "LCDZFFCM"
 }

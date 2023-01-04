@@ -1,16 +1,16 @@
 {
-    "title": "Field-FX Byte Battle Casuals",
-    "started": "2022-11-28",
-    "date": "28 November 2022",
+    "title": "Monday Night Jam #05",
+    "started": "2522-12-12",
+    "date": "12 December 2022",
     "type": "Byte Jam",
-    "vod": "https://www.youtube.com/watch?v=eFWaYcnJS7c",
+    "vod": null,
     "website": "",
     "flyer": "",
     "software_used": [
         {
-            "name": "TIC-80",
-            "url": "https://tic80.com/",
-            "version": "tic80showdown v07",
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.0",
+            "version": "tic80showdown FFT Hack",
             "purpose": "Graphic"
         }
     ],
@@ -20,7 +20,7 @@
                 "name": "aldroid",
                 "demozoo_id": 63755
             },
-            "job": "Commentator"
+            "job": "Organizers"
         }
     ],
     "phases": [
@@ -36,20 +36,20 @@
                         "demozoo_id": 20215
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/mantratronic.lua",
-                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/mantratronic.gif"
+                    "source_file": "/shader_file_sources/2022_12_12_byte_jam_fieldfx_casual/mantratronic.lua",
+                    "preview_image": "2022_12_12_byte_jam_fieldfx_casual/mantratronic.gif"
                 },
                 {
                     "id": 2,
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "Visy",
-                        "demozoo_id": 1301
+                        "name": "Superogue",
+                        "demozoo_id": 617
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/visy.lua",
-                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/visy.gif"
+                    "source_file": "/shader_file_sources/2022_12_12_byte_jam_fieldfx_casual/superogue.lua",
+                    "preview_image": "2022_12_12_byte_jam_fieldfx_casual/superogue.gif"
                 },
                 {
                     "id": 3,
@@ -60,20 +60,20 @@
                         "demozoo_id": 89891
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/tobach.lua",
-                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/tobach.gif"
+                    "source_file": "/shader_file_sources/2022_12_12_byte_jam_fieldfx_casual/tobach.lua",
+                    "preview_image": "2022_12_12_byte_jam_fieldfx_casual/tobach.gif"
                 },
                 {
                     "id": 4,
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "Sir Garbagetruck",
-                        "demozoo_id": 3143
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2022_11_28_byte_jam_fieldfx_casual/truck.fnl",
-                    "preview_image": "2022_11_28_byte_jam_fieldfx_casual/truck.gif"
+                    "source_file": "/shader_file_sources/2022_12_12_byte_jam_fieldfx_casual/aldroid.lua",
+                    "preview_image": "2022_12_12_byte_jam_fieldfx_casual/aldroid.png"
                 }
             ],
             "staffs": [
