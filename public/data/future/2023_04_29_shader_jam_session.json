@@ -1,0 +1,45 @@
+{
+    "title": "Sessions 2023",
+    "started": "2023-04-29",
+    "type": "Shader Jam",
+    "website": "https://sessions.frontl1ne.net/",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v12",
+            "version": "NuSan - v12",
+            "purpose": "Graphic"
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "sp4ghet",
+                "demozoo_id": 119897
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "butadiene",
+                "demozoo_id": null
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "0b5vr",
+                "demozoo_id": 128318
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "FL1NE",
+                "demozoo_id": 24017
+            },
+            "job": "Organizers"
+        }
+    ]
+}
