@@ -417,7 +417,9 @@ details[open] summary ~ * {
     100%  {opacity: 1; margin-top: 0px}
   }
 
-  
+.pure-phase-main {
+    margin-top: 50px;
+}
 @keyframes colorMagic {
     0% { color: rgba(76, 99, 254, 1); font-size: 1.0em;}
     1% { color: rgba(65, 112, 252, 1); }
