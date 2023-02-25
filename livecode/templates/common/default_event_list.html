@@ -36,15 +36,8 @@
             {% for phase in event.phases %}
            <div class="pure-phase-main">
                 <div class="pure-u-1"> 
-                    <div>{%if phase.title %}<h2> {{phase.title}} {% endif %} {%if phase.vod %} <a class="pure-button" target="_blank" href="{{phase.vod}}">Watch <i class="e-link fa-solid fa-circle-play"></i></a> {%endif %}</h2></div>
-                    {% if phase.keyword %}
-                        <div class="pure-g data-info-container"> 
-                            <div class="pure-u-2-24 data-info-label">Keyword </div>
-                            <div class="pure-u-22-24 data-info-content">
-                                <a class="pure-button button-keyword">{{phase.keyword}}</a>
-                            </div>
-                        </div>
-                    {% endif %}
+                    <div>{%if phase.title %}<h2> {{phase.title}} {% endif %} {%if phase.vod %} <a class="pure-button" target="_blank" href="{{phase.vod}}">Watch <i class="e-link fa-solid fa-circle-play"></i></a> {%endif %} {% if phase.keyword %} <a class="pure-button button-keyword">Keyword: {{phase.keyword}}</a>{% endif %}</h2>       </div>
+              
                     <div class="pure-g entries-main">
                         {% for entry in phase.entries %}
                             {% include 'common/entry_card.html'%}

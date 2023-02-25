@@ -340,6 +340,7 @@ def by_serie(serie_stub):
                 demozooPartyId
                 phases {
                     vod
+                    keyword
                     staffs {
                         handle {
                             displayName
@@ -415,6 +416,7 @@ def by_event(event_stub):
                 }
                 phases {
                     vod
+                    keyword
                     staffs {
                         handle {
                             displayName
@@ -493,6 +495,7 @@ def by_type(type_stub):
                 }
                 phases {
                     vod
+                    keyword
                     staffs {
                         handle {
                             displayName
