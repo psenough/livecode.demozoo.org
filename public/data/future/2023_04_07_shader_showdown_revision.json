@@ -1,0 +1,31 @@
+{
+    "title": "Revision 2023",
+    "started": "2023-04-07",
+    "type": "Shader Showdown",
+    "website": "https://2023.revision-party.net/",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v12",
+            "version": "NuSan - v12",
+            "purpose": "Graphic"
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "ps",
+                "demozoo_id": 313
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Diffty",
+                "demozoo_id": 88962
+            },
+            "job": "Organizers"
+        }
+    ]
+}
