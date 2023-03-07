@@ -10,6 +10,12 @@
             "url": "https://github.com/Gargaj/Bonzomatic/releases/tag/2022-07-08",
             "version": "Gargaj - 2022-07-08",
             "purpose": "Graphic"
+        },
+        {
+            "name": "Texture Pack",
+            "url": "/shader_file_sources/2023_03_02_shader_showdown_instanssi/textures.zip",
+            "version": "Instanssi",
+            "purpose": "Graphic"
         }
     ],
     "phases": [
@@ -26,8 +32,8 @@
                         "demozoo_id": 22208
                     },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2023_03_02_shader_showdown_instanssi/r1_pumpuli.jpg",
+                    "source_file": "/shader_file_sources/2023_03_02_shader_showdown_instanssi/r1_pumpuli.glsl"
                 },
                 {
                     "id": null,
@@ -38,8 +44,8 @@
                         "demozoo_id": 30233
                     },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2023_03_02_shader_showdown_instanssi/r1_Kahvi.jpg",
+                    "source_file": "/shader_file_sources/2023_03_02_shader_showdown_instanssi/r1_Kahvi.glsl"
                 }
             ],
             "staffs": [
@@ -173,8 +179,8 @@
                         "demozoo_id": 60491
                     },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2023_03_02_shader_showdown_instanssi/r2.2_Kahvi.jpg",
+                    "source_file": "/shader_file_sources/2023_03_02_shader_showdown_instanssi/r2.2_Kahvi.glsl"
                 }
             ],
             "staffs": [
