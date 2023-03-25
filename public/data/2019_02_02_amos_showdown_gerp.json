@@ -1,0 +1,45 @@
+{
+    "title": "Amos Professional Showdown",
+    "started": "2019-02-02",
+    "date": "02 January 2019",
+    "type": "Amos Showdown",
+    "vod": null,
+    "software_used": [
+    ],
+    "phases": [
+        {
+            "title": "Semi Final",
+            "vod": "https://www.youtube.com/watch?v=hCtDPojVUvQ",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Malmix",
+                        "demozoo_id": 3186
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Highpuff",
+                        "demozoo_id": 76192
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+    ],
+    "demozoo_party_id": "3720"
+}
