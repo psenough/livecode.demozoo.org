@@ -28,7 +28,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2023_04_07_shader_showdown_revision/q1/grabber_BACK2EWERK_musk.jpg",
-                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q1/grabber_BACK2EWERK_musk.jpg"
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q1/grabber_BACK2EWERK_musk.glsl"
                 },
                 {
                     "id": 2,
@@ -52,7 +52,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2023_04_07_shader_showdown_revision/q1/grabber_BACK2EWERK_molive.jpg",
-                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q1/grabber_BACK2EWERK_molive.jpg"
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q1/grabber_BACK2EWERK_molive.glsl"
                 }
             ],
             "staffs": [
@@ -105,7 +105,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2023_04_07_shader_showdown_revision/q2/grabber_BACK2EWERK_z0rg.jpg",
-                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q2/grabber_BACK2EWERK_z0rg.jpg"
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q2/grabber_BACK2EWERK_z0rg.glsl"
                 },
                 {
                     "id": 3,
@@ -117,7 +117,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2023_04_07_shader_showdown_revision/q2/grabber_BACK2EWERK_dok.jpg",
-                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q2/grabber_BACK2EWERK_dok.jpg"
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q2/grabber_BACK2EWERK_dok.glsl"
                 }
             ],
             "staffs": [
@@ -233,7 +233,7 @@
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/cdKSDh",
                     "preview_image": "2023_04_07_shader_showdown_revision/final/grabber_BACK2EWERK_flopine.jpg",
-                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/final/grabber_BACK2EWERK_flopine.jpg"
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/final/grabber_BACK2EWERK_flopine.glsl"
                 },
                 {
                     "id": 3,
@@ -245,7 +245,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2023_04_07_shader_showdown_revision/final/grabber_BACK2EWERK_totetmatt.jpg",
-                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/final/grabber_BACK2EWERK_totetmatt.jpg"
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/final/grabber_BACK2EWERK_totetmatt.glsl"
                 }
             ],
             "staffs": [
