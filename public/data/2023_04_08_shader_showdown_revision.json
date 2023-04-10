@@ -213,7 +213,7 @@
             "entries": [
                 {
                     "id": 1,
-                    "rank": null,
+                    "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
@@ -225,7 +225,7 @@
                 },
                 {
                     "id": 2,
-                    "rank": null,
+                    "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "flopine",
@@ -237,7 +237,7 @@
                 },
                 {
                     "id": 3,
-                    "rank": null,
+                    "rank": 3,
                     "points": null,
                     "handle": {
                         "name": "totetmatt",
