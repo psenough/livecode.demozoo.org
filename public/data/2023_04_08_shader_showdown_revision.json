@@ -11,7 +11,14 @@
             "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v13",
             "version": "NuSan - v13",
             "purpose": "Graphic"
+        },
+        {
+            "name": "Bonzomatic Extra Texture",
+            "url": "https://livecode.demozoo.org/extra/revision_2023_extra_textures.zip",
+            "version": "Revision 2023",
+            "purpose": "Texture"
         }
+        
     ],
     "phases": [
         {
