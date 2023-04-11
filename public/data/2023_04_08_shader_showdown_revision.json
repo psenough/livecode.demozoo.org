@@ -20,8 +20,8 @@
             "entries": [
                 {
                     "id": 1,
-                    "rank": null,
-                    "points": null,
+                    "rank": 2,
+                    "points": 803,
                     "handle": {
                         "name": "musk",
                         "demozoo_id": 14411
@@ -33,7 +33,7 @@
                 {
                     "id": 2,
                     "rank": 1,
-                    "points": null,
+                    "points": 1113,
                     "handle": {
                         "name": "flopine",
                         "demozoo_id": 65988
@@ -44,8 +44,8 @@
                 },
                 {
                     "id": 3,
-                    "rank": null,
-                    "points": null,
+                    "rank": 3,
+                    "points": 781,
                     "handle": {
                         "name": "molive",
                         "demozoo_id": 72284
@@ -86,7 +86,7 @@
                 {
                     "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 1163,
                     "handle": {
                         "name": "evvvvil",
                         "demozoo_id": 71087
@@ -97,8 +97,8 @@
                 },
                 {
                     "id": 2,
-                    "rank": null,
-                    "points": null,
+                    "rank": 2,
+                    "points": 777,
                     "handle": {
                         "name": "z0rg",
                         "demozoo_id": 114547
@@ -109,8 +109,8 @@
                 },
                 {
                     "id": 3,
-                    "rank": null,
-                    "points": null,
+                    "rank": 3,
+                    "points": 624,
                     "handle": {
                         "name": "dok",
                         "demozoo_id": null
@@ -149,8 +149,8 @@
             "entries": [
                 {
                     "id": 1,
-                    "rank": null,
-                    "points": null,
+                    "rank": 3,
+                    "points": 677,
                     "handle": {
                         "name": "cosamentale",
                         "demozoo_id": null
@@ -162,7 +162,7 @@
                 {
                     "id": 2,
                     "rank": 1,
-                    "points": null,
+                    "points": 769,
                     "handle": {
                         "name": "totetmatt",
                         "demozoo_id": 121811
@@ -173,8 +173,8 @@
                 },
                 {
                     "id": 3,
-                    "rank": null,
-                    "points": null,
+                    "rank": 2,
+                    "points": 696,
                     "handle": {
                         "name": "NuSan",
                         "demozoo_id": 88839
