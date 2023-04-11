@@ -199,10 +199,10 @@
                     },
                     "job": "Commentators"
                 },
-                {
+               {
                     "handle": {
-                        "name": "lug00ber",
-                        "demozoo_id": 90
+                        "name": "Alkama",
+                        "demozoo_id": 1382
                     },
                     "job": "Dj Set"
                 }
@@ -265,7 +265,7 @@
                 },
                 {
                     "handle": {
-                        "name": "alkama",
+                        "name": "Alkama",
                         "demozoo_id": 1382
                     },
                     "job": "Dj Set"
@@ -294,7 +294,14 @@
                 "demozoo_id": 63755
             },
             "job": "Organizers"
-        }
+        },
+        {
+            "handle": {
+                "name": "totetmatt",
+                "demozoo_id": 121811
+            },
+            "job": "Organizers"
+        },
     ],
     "demozoo_party_id":4569
 }
