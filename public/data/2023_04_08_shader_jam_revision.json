@@ -244,7 +244,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_Xor.jpg",
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_xor.jpg",
                     "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_Xor.glsl"
                 }
             ],
@@ -264,13 +264,6 @@
             "handle": {
                 "name": "ps",
                 "demozoo_id": 313
-            },
-            "job": "Organizers"
-        },
-        {
-            "handle": {
-                "name": "Diffty",
-                "demozoo_id": 88962
             },
             "job": "Organizers"
         },
