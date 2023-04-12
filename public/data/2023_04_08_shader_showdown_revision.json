@@ -162,7 +162,7 @@
                         "name": "cosamentale",
                         "demozoo_id": null
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/DsVSRK",
                     "preview_image": "2023_04_07_shader_showdown_revision/q3/grabber_BACK2EWERK_cosamentale.jpg",
                     "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q3/grabber_BACK2EWERK_cosamentale.glsl"
                 },
@@ -307,7 +307,7 @@
                 "name": "totetmatt",
                 "demozoo_id": 121811
             },
-            "job": "Organizers"
+            "job": "Assistant"
         }
     ],
     "demozoo_party_id":4569
