@@ -1,5 +1,5 @@
 {
-    "title": "H0ffman's Epic Revision Shader Royal Jam",
+    "title": "Revision Shader Jam for h0ffman",
     "started": "2023-04-08",
     "date": "07 - 10 April 2023",
     "type": "Shader Showdown",
@@ -254,8 +254,16 @@
                         "name": "ps",
                         "demozoo_id": 313
                     },
-                    "job": "Maestro"
+                    "job": "Vj"
+                },
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": 1525
+                    },
+                    "job": "Dj Set"
                 }
+            ]
             ]
         }
     ],
@@ -264,13 +272,6 @@
             "handle": {
                 "name": "ps",
                 "demozoo_id": 313
-            },
-            "job": "Organizers"
-        },
-        {
-            "handle": {
-                "name": "aldroid",
-                "demozoo_id": 63755
             },
             "job": "Organizers"
         },
