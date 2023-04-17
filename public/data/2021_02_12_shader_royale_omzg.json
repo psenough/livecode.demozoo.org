@@ -3,8 +3,17 @@
     "started": "2021-02-12",
     "date": "12 February 2021",
     "type": "Shader Royale",
+    "website": "https://omzg.online",
+    "flyer": "",
     "vod": "https://www.youtube.com/watch?v=Dc5laRa09WY&t=4460s",
-    "software_used": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
+        }
+    ],
     "phases": [
         {
             "title": null,

@@ -3,7 +3,7 @@
     "started": "2021-10-30",
     "date": "30 October 2021",
     "type": "Shader Royale",
-    "website": "http://inercia.pt",
+    "website": "https://inercia.pt",
     "flyer": "",
     "vod": "https://www.youtube.com/watch?v=6xvZTxv6QYc",
     "software_used": [
@@ -182,6 +182,13 @@
                         "demozoo_id": 313
                     },
                     "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "dextrose",
+                        "demozoo_id": 21681
+                    },
+                    "job": "Live Set"
                 }
             ]
         }
