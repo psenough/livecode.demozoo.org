@@ -22,6 +22,7 @@
   "phases": [
     {
       "title": "Byte Jam",
+      "vod": "https://www.youtube.com/watch?v=ENNk6Jv94G4",
       "entries": [
         {
           "id": 1,
@@ -112,7 +113,15 @@
             "demozoo_id": 63755
           },
           "job": "Commentator"
-        }
+        },
+        
+        {
+          "handle": {
+              "name": "Lynn Drumm",
+              "demozoo_id": 77648
+          },
+          "job": "Dj Set"
+      }
       ]
     }
   ],
