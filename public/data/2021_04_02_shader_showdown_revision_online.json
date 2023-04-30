@@ -159,6 +159,7 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/6ceIHFLMaJHE2ogyGcbD",
                     "shadertoy_url": "https://www.shadertoy.com/view/7dBGRc",
                     "preview_image": "2021_04_02_shader_showdown_revision_online/qf_evvvvil.jpg",
                     "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_quarters/evvvvil.glsl"
@@ -359,6 +360,8 @@
                         "name": "evvvvil",
                         "demozoo_id": 71087
                     },
+
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/PwKaiF5tj9Hzh6BrSWIh",
                     "shadertoy_url": "https://www.shadertoy.com/view/fdSGWw",
                     "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_semis/evvvvil.glsl"
                 },
