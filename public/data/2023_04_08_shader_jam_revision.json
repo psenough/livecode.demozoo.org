@@ -51,6 +51,7 @@
                         "name": "alien",
                         "demozoo_id": 108887
                     },
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/TKSM7upc3kIUFHks8z3m",
                     "shadertoy_url": null,
                     "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_alien.jpg",
                     "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_alien.glsl"
