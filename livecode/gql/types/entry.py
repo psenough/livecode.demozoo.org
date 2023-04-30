@@ -13,6 +13,7 @@ class Entry:
             rank=data.get('rank'),
             points=data.get('points'),
             shadertoy_url=data.get('shadertoy_url'),
+            poshbrolly_url=data.get('poshbrolly_url'),
             preview_image=data.get('preview_image'),
             source_file=data.get('source_file'),
             handle=Handle.from_(f'{id}_handle', data.get('handle')),
@@ -25,6 +26,7 @@ class Entry:
     rank: Optional[int]
     points: Optional[int]
     shadertoy_url: Optional[str]
+    poshbrolly_url: Optional[str]
     preview_image: Optional[str]
     source_file: Optional[str]
     handle: Handle
