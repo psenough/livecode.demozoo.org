@@ -140,6 +140,7 @@ def performer_page(stub):
                         shadertoyUrl 
                         sourceFile 
                         tic80CartId
+                        poshbrollyUrl
                         vod
                     }
                 }
@@ -276,7 +277,8 @@ def by_year(year):
                         }
                         rank 
                         points 
-                        shadertoyUrl 
+                        shadertoyUrl
+                        poshbrollyUrl 
                         sourceFile 
                         tic80CartId
                         vod
@@ -359,6 +361,7 @@ def by_serie(serie_stub):
                         rank 
                         points 
                         shadertoyUrl 
+                        poshbrollyUrl
                         sourceFile 
                         tic80CartId
                         vod
@@ -435,6 +438,7 @@ def by_event(event_stub):
                         rank 
                         points 
                         shadertoyUrl 
+                        poshbrollyUrl
                         sourceFile 
                         tic80CartId
                         vod
@@ -514,6 +518,7 @@ def by_type(type_stub):
                         rank 
                         points 
                         shadertoyUrl 
+                        poshbrollyUrl
                         sourceFile 
                         tic80CartId
                         vod

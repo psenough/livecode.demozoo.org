@@ -231,7 +231,7 @@ body {
 .banner svg {
     width: 50vw;
 }
-.demozoo-link img, .shadertoy-link img {
+.demozoo-link img, .shadertoy-link img, .poshbrolly-link img  {
     max-width: 1.0em;
 }
 .demozoo-link * {

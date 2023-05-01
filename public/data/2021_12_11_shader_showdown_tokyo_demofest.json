@@ -108,7 +108,7 @@
                     "points": 226,
                     "handle": {
                         "name": "Kamoshika",
-                        "demozoo_id": null
+                        "demozoo_id": 128644
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7tcXzS",
                     "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_Kamoshika.jpg",
@@ -235,7 +235,7 @@
                     "points": 83,
                     "handle": {
                         "name": "gaz",
-                        "demozoo_id": null
+                        "demozoo_id": 63867
                     },
                     "shadertoy_url": null,
                     "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_gaz.jpg",
@@ -295,7 +295,7 @@
                     "points": 165,
                     "handle": {
                         "name": "Kamoshika",
-                        "demozoo_id": null
+                        "demozoo_id": 128644
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/7l3SRB",
                     "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/semi/grabber_tdf2021_Kamoshika.jpg",
@@ -417,7 +417,7 @@
                     "points": 214,
                     "handle": {
                         "name": "Kamoshika",
-                        "demozoo_id": null
+                        "demozoo_id": 128644
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/stcSRB",
                     "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/final/grabber_tdf2021_Kamoshika.jpg",
@@ -447,7 +447,7 @@
                 {
                     "handle": {
                         "name": "gaz",
-                        "demozoo_id": null
+                        "demozoo_id": 63867
                     },
                     "job": "Commentators"
                 },
