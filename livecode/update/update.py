@@ -6,7 +6,7 @@ from update.demozoo_handle import (
 from update.demozoo_series import update_demozoo_series_db
 from update.overviews.shadertoy import download_shadertoy_overview
 from update.overviews.tic80 import download_tic80_cart_overview
-
+from update.overviews.poshbrolly import download_poshbrolly_overview
 import json
 
 
@@ -22,6 +22,7 @@ def _update_image_cache(events, target_path: Path) -> None:
     for event in events:
         download_shadertoy_overview(event, target_path)
         download_tic80_cart_overview(event, target_path)
+        download_poshbrolly_overview(event,target_path / "poshbrolly")
 
 
 def update_all_data():

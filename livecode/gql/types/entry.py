@@ -35,6 +35,7 @@ class Entry:
 
     @strawberry.field
     def preview_url(self) -> Optional[str]:
+
         if self.preview_image:
             return f'/media/{self.preview_image}'
         elif self.shadertoy_url:
@@ -42,6 +43,9 @@ class Entry:
             return f'/media/{id}.jpg'
         elif self.tic80_cart_id:
             return f'/media/cart_{self.tic80_cart_id}.gif'
+        elif self.poshbrolly_url:
+            id = self.poshbrolly_url.split('/')[-1]
+            return f'/media/poshbrolly/{id}.jpg'
         return None
 
     def __hash__(self) -> int:
