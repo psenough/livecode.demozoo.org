@@ -44,7 +44,8 @@
                         "name": "anticore",
                         "demozoo_id": 117325
                     },
-                    "shadertoy_url": null,
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/4Eb8KCGwRlgyiGBJlzRX",
+                    "shadertoy_url": "https://www.shadertoy.com/view/dtd3zf",
                     "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_anticore.jpg",
                     "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_anticore.glsl"
                 },{
