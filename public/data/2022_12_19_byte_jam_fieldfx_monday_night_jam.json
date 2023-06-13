@@ -33,7 +33,7 @@
                     "points": null,
                     "handle": {
                         "name": "Kii Krindar",
-                        "demozoo_id": null
+                        "demozoo_id": 135296
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2022_12_19_byte_jam_fieldfx_casual/kiikrindar.lua",
@@ -45,7 +45,7 @@
                     "points": null,
                     "handle": {
                         "name": "Mr Synackster",
-                        "demozoo_id": null
+                        "demozoo_id": 130883
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2022_12_19_byte_jam_fieldfx_casual/mrsynackster.lua",
