@@ -3,7 +3,7 @@
     "started": "2021-09-26",
     "date": "25 - 26 September 2021",
     "vod": null,
-    "type": "Duck Jam",
+    "type": "Byte Jam",
     "website": "http://battle.lovebyte.party/",
     "flyer": "",
     "software_used": [
@@ -26,7 +26,7 @@
                     "points": null,
                     "handle": {
                         "name": "jobe",
-                        "demozoo_id": null
+                        "demozoo_id": 3548
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
