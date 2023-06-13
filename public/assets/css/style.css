@@ -205,6 +205,10 @@ summary div {
     animation: colorMagic 6s linear infinite;
     animation-delay: -1700ms;
 }
+.banner.asciilogo {
+    height: 12rem;
+    margin-bottom: 2rem;
+}
 body {
     background: rgb(32, 32, 32);
 }
