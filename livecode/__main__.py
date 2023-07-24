@@ -2,7 +2,8 @@ import argparse
 from generate import freezer
 from update.update import update_all_data
 from workflow.new_bbc import generate_ffmc
-
+from workflow.upcoming import create_upcoming
+import re
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog="livecode")
     subparsers = parser.add_subparsers(dest="command")
@@ -33,6 +34,32 @@ if __name__ == "__main__":
         type=int,
         help="Number of performer for byte jam",
     )
+
+    parser_workflow_upcoming = workflow_subparser.add_parser(
+        "upcoming", help="Generate upcoming event"
+    )
+    parser_workflow_upcoming.add_argument(
+            'date', type=str, help="Date for the event (YYYY-MM-DD)"
+    )
+    parser_workflow_upcoming.add_argument(
+            'title', type=str, help="Title of event"
+    )
+    parser_workflow_upcoming.add_argument(
+            'type', type=str, help="Type of event", choices=["Shader Showdown", "Shader Jam", "Shader Royale", "Byte Battle", "Byte Jam"]
+    )
+    parser_workflow_upcoming.add_argument(
+            '--website', type=str, help="Website of event", required=False
+    )
+    parser_workflow_upcoming.add_argument(
+            '--flyer', type=str, help="Flyer of event", required=False
+    )
+    parser_workflow_upcoming.add_argument(
+            '--contact', type=str, help="Contact for event ", required=False
+    )
+    parser_workflow_upcoming.add_argument(
+            '--looking_for_participant', type=bool, help="Contact for event ", required=False, default=False
+    )
+
     args = parser.parse_args()
     if not args.command:
         parser.print_help()
@@ -44,6 +71,20 @@ if __name__ == "__main__":
             exit(1)
         if args.workflow == "FFMC":
             generate_ffmc(args.date, args.nb_byte_battle, args.nb_performer_jam)
+        if args.workflow == "upcoming":
+            date_re=re.compile(r"^\d{4}-\d{2}-\d{2}$")
+            if not date_re.match(args.date):
+                print("Date format is wrong")
+                exit(1)
+            create_upcoming(
+                args.title,
+                args.date,
+                args.type,
+                args.website,
+                args.flyer,
+                args.contact,
+                args.looking_for_participant
+            )
 
     if args.command == 'update':
         """
@@ -58,3 +99,4 @@ if __name__ == "__main__":
         Command to generate the html form current database
         """
         freezer.freeze()
+
