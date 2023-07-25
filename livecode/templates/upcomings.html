@@ -15,7 +15,7 @@
     </div>
 </div>
 
-{% for event in upcomings %}
+{% for event in upcomings|sort(attribute='started') %}
 
 <details {%if nav_context.event or (events and events|length <= 1) or (serie and serie.events|length <= 1) %}open{%endif%} id="{{event.gqlId}}">
     <summary>
