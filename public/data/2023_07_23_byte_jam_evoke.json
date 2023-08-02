@@ -82,13 +82,6 @@
                 }
             ],
             "staffs": [
-                {
-                    "handle": {
-                      "name": "aldroid",
-                      "demozoo_id": 63755
-                    },
-                    "job": "Commentator"
-                  }
             ]
         }
     ],
