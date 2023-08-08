@@ -29,8 +29,8 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2023_07_23_byte_jam_evoke/LIVECODE_WALL.gif",
-                    "source_file": "/shader_file_sources/2023_07_23_byte_jam_evoke/LIVECODE_WALL.lua"
+                    "preview_image": "2023_07_28_byte_jam_evoke/LIVECODE_WALL.gif",
+                    "source_file": "/shader_file_sources/2023_07_28_byte_jam_evoke/LIVECODE_WALL.lua"
                 },
                 {
                     "id": null,
@@ -41,8 +41,8 @@
                         "demozoo_id": 88839
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2023_07_23_byte_jam_evoke/nusan.gif",
-                    "source_file": "/shader_file_sources/2023_07_23_byte_jam_evoke/nusan.lua"
+                    "preview_image": "2023_07_28_byte_jam_evoke/nusan.gif",
+                    "source_file": "/shader_file_sources/2023_07_28_byte_jam_evoke/nusan.lua"
                 },
                 {
                     "id": null,
@@ -53,8 +53,8 @@
                         "demozoo_id": 617
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2023_07_23_byte_jam_evoke/superogue_jam.gif",
-                    "source_file": "/shader_file_sources/2023_07_23_byte_jam_evoke/superogue_jam.lua"
+                    "preview_image": "2023_07_28_byte_jam_evoke/superogue_jam.gif",
+                    "source_file": "/shader_file_sources/2023_07_28_byte_jam_evoke/superogue_jam.lua"
                 },
                 {
                     "id": null,
@@ -65,8 +65,8 @@
                         "demozoo_id": 617
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2023_07_23_byte_jam_evoke/superogue_jam_2.gif",
-                    "source_file": "/shader_file_sources/2023_07_23_byte_jam_evoke/superogue_jam.lua"
+                    "preview_image": "2023_07_28_byte_jam_evoke/superogue_jam_2.gif",
+                    "source_file": "/shader_file_sources/2023_07_28_byte_jam_evoke/superogue_jam.lua"
                 },
                 {
                     "id": null,
@@ -77,8 +77,8 @@
                         "demozoo_id":  89891
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2023_07_23_byte_jam_evoke/tobach-jam.gif",
-                    "source_file": "/shader_file_sources/2023_07_23_byte_jam_evoke/tobach-jam.lua"
+                    "preview_image": "2023_07_28_byte_jam_evoke/tobach-jam.gif",
+                    "source_file": "/shader_file_sources/2023_07_28_byte_jam_evoke/tobach-jam.lua"
                 }
             ],
             "staffs": [
