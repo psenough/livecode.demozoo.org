@@ -5,7 +5,7 @@
     "type": "Shader Jam",
     "website": "https://novaparty.org/",
     "flyer": "",
-    "vod":null,
+    "vod":"https://scenesat.com/videoarchive/a169b23e-12f8-11ee-931f-00505685775e?t=1945#show-a169b23e-12f8-11ee-931f-00505685775e",
     "software_used": [
         {
             "name": "Poshbrolly",
@@ -101,13 +101,7 @@
               
             ],
             "staffs": [
-                {
-                    "handle": {
-                      "name": "aldroid",
-                      "demozoo_id": 63755
-                    },
-                    "job": "Commentator"
-                  }
+                
             ]
         },
         {
@@ -130,13 +124,7 @@
               
             ],
             "staffs": [
-                {
-                    "handle": {
-                      "name": "aldroid",
-                      "demozoo_id": 63755
-                    },
-                    "job": "Commentator"
-                  }
+                
             ]
         },
         {
@@ -159,13 +147,7 @@
               
             ],
             "staffs": [
-                {
-                    "handle": {
-                      "name": "aldroid",
-                      "demozoo_id": 63755
-                    },
-                    "job": "Commentator"
-                  }
+               
             ]
         }
     ],

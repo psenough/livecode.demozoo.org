@@ -5,7 +5,7 @@
     "type": "Shader Jam",
     "website": "https://2023.evoke.eu/",
     "flyer": "",
-    "vod":null,
+    "vod":"https://scenesat.com/videoarchive/11002d9a-3640-11ee-931f-00505685775e#show-11002d9a-3640-11ee-931f-00505685775e",
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -66,8 +66,8 @@
                         "demozoo_id": 88839
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2023_08_07_shader_jam_monday_night_bytes/mondaynightbytes_nusan.jpg",
-                    "source_file": "/shader_file_sources/2023_08_07_shader_jam_monday_night_bytes/mondaynightbytes_nusan.glsl"
+                    "preview_image": "2023_08_07_shader_jam_monday_night_bytes/mondaynightbytes_NuSan.jpg",
+                    "source_file": "/shader_file_sources/2023_08_07_shader_jam_monday_night_bytes/mondaynightbytes_NuSan.glsl"
                 },
                 {
                     "id": null,
