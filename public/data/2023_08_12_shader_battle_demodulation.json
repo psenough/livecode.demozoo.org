@@ -45,7 +45,7 @@
                         "name": "Ivan Dianov",
                         "demozoo_id": null
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/mt2yDm",
                     "preview_image": "2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_ivandianov.jpg",
                     "source_file": "/shader_file_sources/2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_ivandianov.glsl"
                 },
@@ -152,7 +152,7 @@
                         "name": "Ivan Dianov",
                         "demozoo_id": null
                     },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/dtjcDm",
                     "preview_image": "2023_08_12_shader_battle_demodulation/final/grabber_demodulation2023_ivandianov.jpg",
                     "source_file": "/shader_file_sources/2023_08_12_shader_battle_demodulation/final/grabber_demodulation2023_ivandianov.glsl"
                 },
