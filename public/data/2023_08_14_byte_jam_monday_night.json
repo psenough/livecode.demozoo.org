@@ -41,6 +41,7 @@
                         "name": "gasman",
                         "demozoo_id": 5879
                     },
+                    "tic80_cart_id": 3491,
                     "shadertoy_url": null,
                     "preview_image": "2023_08_14_byte_jam_monday_night/gasman.gif",
                     "source_file": "/shader_file_sources/2023_08_14_byte_jam_monday_night/gasman.lua"
@@ -53,6 +54,7 @@
                         "name": "jtruk",
                         "demozoo_id": 135705
                     },
+                    "tic80_cart_id": 3499,
                     "shadertoy_url": null,
                     "preview_image": "2023_08_14_byte_jam_monday_night/jtruk.png",
                     "source_file": "/shader_file_sources/2023_08_14_byte_jam_monday_night/jtruk.lua"
