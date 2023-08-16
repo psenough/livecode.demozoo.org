@@ -102,6 +102,7 @@
             "name": "superogue",
             "demozoo_id": 617
           },
+          "tic80_cart_id": 3497,
           "source_file": "/shader_file_sources/2023_04_17_byte_jam_monday_night_bytes/superogue.lua",
           "preview_image": "2023_04_17_byte_jam_monday_night_bytes/superogue.png"
         }
