@@ -84,6 +84,13 @@
                         "demozoo_id": 63755
                     },
                     "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": 18
+                    },
+                    "job": "DJ Set"
                 }
             ]
         }

@@ -71,7 +71,14 @@
                     "preview_image": "2023_02_10_byte_jam_lovebyte/byte_jam/visy.gif"
                 }
             ],
-            "staffs":  [
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": 18
+                    },
+                    "job": "DJ Set"
+                }
             ]
         }
     ],
