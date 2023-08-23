@@ -1,6 +1,7 @@
 {% extends '_base.html' %}
 {% block title%}{{event.title}} {{event.started}} {{event.type.label}}{% endblock%}
 {%block opengraph %}
+<meta name="lcdz_json" content="https://livecode.demozoo.org/data/{{event.gqlId}}.json">
 <meta property="og:title" content="{{event.title}} {{event.started}} {{event.type.label}}">
 <meta property="og:description" 
   content="Check results and sources from {{event.title}} {{event.started}} {{event.type.label}}" />
