@@ -29,7 +29,7 @@
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
                     "source_file": "/shader_file_sources/2023_07_08_byte_battle_edison/jo-rel.lua",
-                    "preview_image": "/media/2023_07_08_byte_battle_edison/jo-rel.gif"
+                    "preview_image": "2023_07_08_byte_battle_edison/jo-rel.png"
                 },
                 {
                     "id": 2,
@@ -41,7 +41,7 @@
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2023_07_08_byte_battle_edison/the_jokerz.lua",
-                    "preview_image": "/media/2023_07_08_byte_battle_edison/the_jokerz.gif"
+                    "preview_image": "2023_07_08_byte_battle_edison/the_jokerz.png"
                 }
             ],
             "staffs": [
