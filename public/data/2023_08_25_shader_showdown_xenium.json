@@ -130,7 +130,7 @@
                     },
                     "shadertoy_url": null,
                     "preview_image": "2023_08_25_shader_showdown_xenium/shaderKK_stage2.DX11.jpg",
-                    "source_file": "/shader_file_sources/2023_08_25_shader_showdown_xenium/shaderKK_stage2.DX11.glsl"
+                    "source_file": "/shader_file_sources/2023_08_25_shader_showdown_xenium/shaderKK_stage2.DX11.hlsl"
                 },
                 {
                     "id": null,
