@@ -7,7 +7,7 @@
         </summary>
         <div class="pure-g event-body">
             {% for phase in event.phases %}
-                        {% for entry in phase.entries if entry.handle.stub == nav_context.performer.selected%}
+                        {% for entry in phase.entries if (entry.handle.stub == nav_context.performer.selected or nav_context.performer.selected in entry.handle.membersStub)%}
                             {% include 'common/entry_card.html'%}
                         {% endfor %}
            {% endfor %}

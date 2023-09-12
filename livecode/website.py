@@ -134,6 +134,12 @@ def performer_page(stub):
                              name:displayName
                              demozooId
                              stub
+                             membersStub
+                            isGroup 
+                              members {
+                                name:displayName
+                                stub
+                              }
                         }
                         rank 
                         points
@@ -215,6 +221,11 @@ def all_performer():
             handles {
               displayName
               stub
+              isGroup 
+                members {
+                name:displayName
+                stub
+                }
             }
         }
     }"""
@@ -274,6 +285,11 @@ def by_year(year):
                         handle{
                              name:displayName
                              stub
+                           isGroup 
+                              members {
+                                name:displayName
+                                stub
+                              }
                         }
                         rank 
                         points 
@@ -357,6 +373,12 @@ def by_serie(serie_stub):
                         handle{
                              name:displayName
                              stub
+                             isGroup 
+                              members {
+                                name:displayName
+                                stub
+                              }
+                             
                         }
                         rank 
                         points 
@@ -434,6 +456,11 @@ def by_event(event_stub):
                         handle{
                              name:displayName
                              stub
+                             isGroup 
+                              members {
+                                name:displayName
+                                stub
+                              }
                         }
                         rank 
                         points 
@@ -514,6 +541,11 @@ def by_type(type_stub):
                         handle{
                              name:displayName
                              stub
+                             isGroup 
+                              members {
+                                name:displayName
+                                stub
+                              }
                         }
                         rank 
                         points 

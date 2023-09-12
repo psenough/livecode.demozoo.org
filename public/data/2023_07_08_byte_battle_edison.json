@@ -37,7 +37,21 @@
                     "points": 48,
                     "handle": {
                         "name": "The Jokerz",
-                        "demozoo_id": 7803
+                        "demozoo_id": 134471,
+                        "members" : [
+                            {
+                                "handle": {
+                                    "name": "Kavvan",
+                                    "demozoo_id": 22922
+                                }
+                            },
+                            {
+                                "handle": {
+                                    "name": "fsFreak",
+                                    "demozoo_id": 7803
+                                }
+                            }
+                        ]
                     },
                     "shadertoy_url": null,
                     "source_file": "/shader_file_sources/2023_07_08_byte_battle_edison/the_jokerz.lua",
