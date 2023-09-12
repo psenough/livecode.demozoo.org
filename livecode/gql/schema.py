@@ -71,6 +71,8 @@ class Query:
             for phase in event.phases:
                 for entry in phase.entries:
                     handles.add(entry.handle)
+                    for member in entry.handle.members:
+                        handles.add(member)
         for h in sorted(handles, key=lambda a: a.display_name().lower()):
             if h.display_name()[0].isalpha():
                 key = h.display_name().upper()[0]
@@ -134,6 +136,13 @@ class Query:
                         performer_events.add(event)
                         if handle is None:
                             handle = entry.handle
+
+                    for member in entry.handle.members:
+                        if member.stub() == stub:
+                            performer_events.add(event)
+                            if handle is None:
+                                handle = member
+                        performer_events.add(event)
             if stub in handles:
                 filtered_events.append(event)
         return Performer(

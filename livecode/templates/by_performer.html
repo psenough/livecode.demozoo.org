@@ -8,7 +8,7 @@
     {% for event in events.performerEvents %}
     {% for phase in event.phases %}
         {% for entry in phase.entries %}
-            {% if entry.previewUrl and entry.handle.stub == nav_context.performer.selected %}
+            {% if entry.previewUrl and (entry.handle.stub == nav_context.performer.selected or nav_context.performer.selected in entry.handle.membersStub) %}
                 <meta property="og:image:secure_url" content="https://livecode.demozoo.org{{entry.previewUrl}}" />
                 <meta property="og:image" content="https://livecode.demozoo.org{{entry.previewUrl}}" />
             {% endif %}
