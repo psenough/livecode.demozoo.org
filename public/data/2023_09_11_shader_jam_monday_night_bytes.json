@@ -8,9 +8,9 @@
     "vod":"https://scenesat.com/videoarchive/6b752580-50e8-11ee-931f-00505685775e#show-6b752580-50e8-11ee-931f-00505685775e",
     "software_used": [
         {
-            "name": "TIC-80 FFT Hack",
-            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
-            "version": "tic80showdown FFT Hack v1.0.2",
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v13",
+            "version": "NuSan - v13",
             "purpose": "Graphic"
         }
     ],
