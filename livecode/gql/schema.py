@@ -132,6 +132,7 @@ class Query:
             for phase in event.phases:
                 for entry in phase.entries:
                     handles.add(entry.handle.stub())
+
                     if entry.handle.stub() == stub:
                         performer_events.add(event)
                         if handle is None:
@@ -142,9 +143,10 @@ class Query:
                             performer_events.add(event)
                             if handle is None:
                                 handle = member
-                        performer_events.add(event)
+                            break
             if stub in handles:
                 filtered_events.append(event)
+
         return Performer(
             handle=handle,
             staff_events=sorted(
