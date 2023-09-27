@@ -1,7 +1,11 @@
 {
   "title": "Monday Night Bytes",
+  "started": "2023-01-09",
+  "date": "9 January 2023"
   "type": "Byte Jam",
   "website": "https://field-fx.party",
+  "flyer": "",
+  "vod": "",
   "software_used": [
     {
       "name": "TIC-80 FFT Hack",
@@ -10,7 +14,64 @@
       "purpose": "Graphic"
     }
   ],
-  "staffs": [
+  "phases": [
+    {
+      "title": "Byte Jam",
+        "vod": null,
+      "entries": [
+        {
+          "id": 1,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "Mantratronic",
+            "demozoo_id": 20215
+          },
+            "shadertoy_url": null,
+          "source_file": "/shader_file_sources/2023_01_09_byte_jam_monday_night_bytes/mantratronic.lua",
+          "preview_image": "2023_01_09_byte_jam_monday_night_bytes/mantratronic.png"
+        },
+        {
+          "id": 2,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "Gasman",
+            "demozoo_id": 5879
+          },
+            "shadertoy_url": null,
+          "source_file": "/shader_file_sources/2023_01_09_byte_jam_monday_night_bytes/gasman.lua",
+          "preview_image": "2023_01_09_byte_jam_monday_night_bytes/gasman.png"
+        },
+        {
+          "id": 3,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "TôBach",
+            "demozoo_id": 89891
+          },
+            "shadertoy_url": null,
+          "source_file": "/shader_file_sources/2023_01_09_byte_jam_monday_night_bytes/tobach.lua",
+          "preview_image": "2023_01_09_byte_jam_monday_night_bytes/tobach.png"
+        },
+        {
+          "id": 4,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "Alia",
+            "demozoo_id": 113525
+          },
+            "shadertoy_url": null,
+          "source_file": "/shader_file_sources/2023_01_09_byte_jam_monday_night_bytes/alia.lua",
+          "preview_image": "2023_01_09_byte_jam_monday_night_bytes/alia.png"
+        }
+      ],
+      "staffs": []
+    }
+  ],
+    "staffs": [
     {
       "handle": {
         "name": "aldroid",
@@ -19,50 +80,5 @@
       "job": "Organizers"
     }
   ],
-  "phases": [
-    {
-      "title": "Byte Jam",
-      "entries": [
-        {
-          "id": 1,
-          "handle": {
-            "name": "Mantratronic",
-            "demozoo_id": 20215
-          },
-          "source_file": "/shader_file_sources/2023_01_09_byte_jam_monday_night_bytes/mantratronic.lua",
-          "preview_image": "2023_01_09_byte_jam_monday_night_bytes/mantratronic.png"
-        },
-        {
-          "id": 2,
-          "handle": {
-            "name": "Gasman",
-            "demozoo_id": 5879
-          },
-          "source_file": "/shader_file_sources/2023_01_09_byte_jam_monday_night_bytes/gasman.lua",
-          "preview_image": "2023_01_09_byte_jam_monday_night_bytes/gasman.png"
-        },
-        {
-          "id": 3,
-          "handle": {
-            "name": "TôBach",
-            "demozoo_id": 89891
-          },
-          "source_file": "/shader_file_sources/2023_01_09_byte_jam_monday_night_bytes/tobach.lua",
-          "preview_image": "2023_01_09_byte_jam_monday_night_bytes/tobach.png"
-        },
-        {
-          "id": 4,
-          "handle": {
-            "name": "Alia",
-            "demozoo_id": 113525
-          },
-          "source_file": "/shader_file_sources/2023_01_09_byte_jam_monday_night_bytes/alia.lua",
-          "preview_image": "2023_01_09_byte_jam_monday_night_bytes/alia.png"
-        }
-      ]
-    }
-  ],
-  "demozoo_party_id": "LCDZFFCM",
-  "started": "2023-01-09",
-  "date": "09 Jan 2023"
+  "demozoo_party_id": "LCDZFFCM"
 }
