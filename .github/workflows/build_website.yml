@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip wheel
-          pip install -r requirements.txt werkzeug<=2.3.7
+          pip install -r requirements.txt werkzeug==2.3.7
           
       - name: Configure Git
         run: |
