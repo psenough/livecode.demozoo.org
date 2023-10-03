@@ -1,4 +1,4 @@
-Flask
+Flask==2.3.3
 Flask-Minify
 Frozen-Flask
 beautifulsoup4
