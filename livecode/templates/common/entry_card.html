@@ -1,7 +1,7 @@
 {% from 'common/macros.j2' import internal_link, external_link, download_link, tic_80_link, vod_link, shadertoy_link, poshbrolly_link %}
 <div class="pure-g  pure-u-1 pure-u-lg-6-24 entry-card">
     <div class="pure-u-1"><img loading="lazy" src="{% if entry.previewUrl %}{{entry.previewUrl}}{% else %}/assets/img/image-not-found.png{%endif%}" /> </div>
-    <div class="pure-u-1 entry-name">{% if entry.rank %}  <a class="button-rank pure-button">{% if (phase.entries|length ==2 and entry.rank==1) or ( phase.entries|length >2 and entry.rank <= 3)  %}<i class="fa-solid fa-trophy"></i>{%endif%} {{entry.rank}}</a> {%endif%}{{entry.handle.name}}{{internal_link(url_for('performer_page',stub=entry.handle.stub))}} {%if entry.handle.isGroup%}({% for m in entry.handle.members%} {{m.name}}{{internal_link(url_for('performer_page',stub=m.stub))}}{{ ", " if not loop.last else "" }} {%endfor%}){%endif%}  </div>
+    <div class="pure-u-1 entry-name">{% if entry.rank %}  <a class="button-rank pure-button">{% if (phase.entries|length ==2 and entry.rank==1) or ( phase.entries|length >2 and entry.rank <= 3)  %}<i class="fa-solid fa-trophy"></i>{%endif%} {{entry.rank}}</a> {%endif%}{{entry.handle.name}} {{internal_link(url_for('performer_page',stub=entry.handle.stub))}} {%if entry.handle.isGroup%}({% for m in entry.handle.members%} {{m.name}}{{internal_link(url_for('performer_page',stub=m.stub))}}{{ ", " if not loop.last else "" }} {%endfor%}){%endif%}  </div>
     <table class="entry-info">
         <tbody>
             {%if entry.points %}<tr><td class="entry-info-label">Points:</td><td>{{entry.points}}</td></tr>{%endif%}

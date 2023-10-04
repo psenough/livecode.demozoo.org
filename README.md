@@ -12,19 +12,6 @@ A more readable version of the schema is available at [https://livecode.demozoo.
 
 Check [CONTRIBUTING.md](./CONTRIBUTING.md) for more information.
 
-## Poster
-
-Poster are generated on demand only (quite long process) via the Actions > Generate Poster workflow.
-
-Nevertheless, you can also generate the poster locally via this set of commands :
-
-```python
-pip -r requirements.txt
-python bin/livecode_ontology.py
-python generate_user_poster.py
-```
-Poster are available here :  https://github.com/psenough/livecode.demozoo.org/tree/posters/posters
-
 ## "Radio" Bonzomatic Shader
 **Experimental**
 

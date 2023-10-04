@@ -1,4 +1,4 @@
-{% macro internal_link(url) %}<a href="{{url}}"><i class="fa-solid fa-link i-link"></i></a>{% endmacro %}
+{% macro internal_link(url) %}<a href="{{url}}#mc"><i class="fa-solid fa-link i-link"></i></a>{% endmacro %}
 
 {% macro staff_link(url, name) %}<a class="pure-button" href="{{url}}">{{name}} <i class="fa-solid fa-link i-link"></i></a>{% endmacro %}
 
@@ -22,6 +22,6 @@
 
 {% macro vod_link(url) %}<a target="_blank" href="{{url}}"><i class="fa-solid fa-video"></i> Watch</a>{% endmacro %}
 
-{% macro demozoo_link(url) %}<a class="demozoo-link" target="_blank" href="{{url}}"><img src="/assets/img/demozoo.png" /><i class="fa-solid fa-external-link"></i></a>{% endmacro %}
+{% macro demozoo_link(url) %}<a class="demozoo-link" target="_blank" href="{{url}}"><img src="/assets/img/demozoo.png" /> demozoo<!--<i class="fa-solid fa-external-link"></i>--></a>{% endmacro %}
 
-{% macro demozoo_scener_link(id) %}<a class="demozoo-link" target="_blank" href="https://demozoo.org/sceners/{{id}}"><img src="/assets/img/demozoo.png" /><i class="fa-solid fa-external-link"></i></a>{% endmacro %}
+{% macro demozoo_scener_link(id) %}<a class="demozoo-link" target="_blank" href="https://demozoo.org/sceners/{{id}}"><img src="/assets/img/demozoo.png" /> demozoo profile<!--<i class="fa-solid fa-external-link"></i>--></a>{% endmacro %}

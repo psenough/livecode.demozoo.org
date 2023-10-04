@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="GLSL, Shader, Showdown, Shadertoy, TIC80, Byte">
+    <meta name="keywords" content="GLSL, Shader, Showdown, Shadertoy, TIC-80, Byte, Battle, Coding, Livecode">
     <meta name="author" content="psenough, totetmatt, rascy, Y0Gi">
     <link rel="shortcut icon" href="https://demozoo.org/static/images/favicon/favicon.ico">
 
@@ -46,21 +46,17 @@
     <div id="nav">
         <div class="banner">
              
-                    <a class="pure-button {%if nav_context.about %}button-performer-selected{%endif%}" href="{{url_for('about')}}">About</a>
-                    <a class="pure-button {%if nav_context.upcomings %}button-performer-selected{%endif%}" href="{{url_for('upcomings')}}">Upcoming</a>
+            <a class="pure-button {%if nav_context.about %}button-performer-selected{%endif%}" href="{{url_for('about')}}#mc">About</a>
+            <!--<a class="pure-button {%if nav_context.upcomings %}button-performer-selected{%endif%}" href="{{url_for('upcomings')}}">Upcoming</a>-->
+			<a class="pure-button {%if nav_context.performer%}button-performer-selected{%endif%}"href="{{url_for('all_performer')}}#mc">Performers</a>
              
         </div>
-        <div class="banner">
-        
-                 <a class="pure-button {%if nav_context.performer%}button-performer-selected{%endif%}"href="{{url_for('all_performer')}}">Performers</a>
-         
-        </div>
-        
+		<br />
         <div class="banner">
                 <a class="pure-button button-nav-label">By Year : </a>
                 {% for year in years %}
                 
-                <a class="pure-button button-year {%if nav_context.year == year%} button-year-selected {%endif%}" href="{{url_for('by_year',year=year)}}">{{year}}</a>
+                <a class="pure-button button-year {%if nav_context.year == year%} button-year-selected {%endif%}" href="{{url_for('by_year',year=year)}}#mc">{{year}}</a>
                 {% endfor %}
     
         </div>
@@ -69,7 +65,7 @@
                 <a class="pure-button button-nav-label">By Type : </a>
                 {% for type in allEventType %}
                 
-                <a class="pure-button button-year {%if nav_context.eventType == type.stub %} button-type-selected {%endif%}" href="{{url_for('by_type',type_stub=type.stub)}}">{{type.label}}</a>
+                <a class="pure-button button-year {%if nav_context.eventType == type.stub %} button-type-selected {%endif%}" href="{{url_for('by_type',type_stub=type.stub)}}#mc">{{type.label}}</a>
                 {% endfor %}
          
         </div>
@@ -77,11 +73,12 @@
           
                 <a class="pure-button button-nav-label">By Party Series: </a>
                 {% for partySerie in partySeries %}
-                    <a class="pure-button button-year {%if nav_context.serie == partySerie.stub%} button-serie-selected {%endif%}" href="{{url_for('by_serie',serie_stub=partySerie.stub)}}">{{partySerie['name']}}</a>
+                    <a class="pure-button button-year {%if nav_context.serie == partySerie.stub%} button-serie-selected {%endif%}" href="{{url_for('by_serie',serie_stub=partySerie.stub)}}#mc">{{partySerie['name']}}</a>
                 {% endfor %}
      
         </div>
     </div>
+	<span id="mc"></span>
     <div class="main-container">
         {%- block body %}{% endblock %}
     </div>

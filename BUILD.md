@@ -44,7 +44,8 @@ Install the actual project dependencies:
 ## Build Website
 
 ```sh
-python .\bin\generate_html.py
+python livecode update
+python livecode generate
 ```
 
 ## Check JSON data

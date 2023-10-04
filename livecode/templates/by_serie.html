@@ -19,10 +19,13 @@
 {% block body %}
 <div class="pure-u-1 page-header">
 <h1>{{serie.name}}</h1>
-<div><a target="_blank" href="{{serie.website}}">{{serie.website}}</a></div>
-<div>{% if serie.demozooUrl %}{{demozoo_link(serie.demozooUrl)}}{%endif%}</div>
+	<div>
+		<a target="_blank" href="{{serie.website}}">🌐 website</a>&nbsp;
+		{% if serie.demozooUrl %}{{demozoo_link(serie.demozooUrl)}}{%endif%}
+	</div>
 </div>
     {% for event in serie.events %}
         {%include 'common/default_event_list.html' %}
  {% endfor %}
 {% endblock %}
+</div>
