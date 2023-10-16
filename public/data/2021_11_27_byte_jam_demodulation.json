@@ -69,15 +69,7 @@
                     "source_file": "/shader_file_sources/2021_11_27_byte_jam_demodulation/mantratronic.lua"
                 }
             ],
-            "staffs": [
-                {
-                    "handle": {
-                        "name": "aldroid",
-                        "demozoo_id": 63755
-                    },
-                    "job": "Organizers"
-                }
-            ]
+            "staffs": []
         }
     ],
     "staffs": [
@@ -85,6 +77,13 @@
             "handle": {
                 "name": "bfox",
                 "demozoo_id": 9743
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
             },
             "job": "Organizers"
         }
