@@ -27,20 +27,24 @@
                 {
                     "id": null,
                     "rank": 2,
+                    "points": null,
                     "handle": {
                         "name": "Dart",
                         "demozoo_id": 9610
                     },
+                    "shadertoy_url": null,
                     "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_tour1_dart.jpg",
                     "source_file": "/shader_file_sources/2019_10_25_shader_showdown_cafe/shadershow_tour1_dart.glsl"
                 },
                 {
                     "id": null,
                     "rank": 1,
+                    "points": null,
                     "handle": {
                         "name": "wbcbz7",
                         "demozoo_id": 45761
                     },
+                    "shadertoy_url": null,
                     "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_tour1_wbcbz7.jpg",
                     "source_file": "/shader_file_sources/2019_10_25_shader_showdown_cafe/shadershow_tour1_wbcbz7.glsl"
                 }
@@ -54,20 +58,24 @@
                 {
                     "id": null,
                     "rank": 2,
+                    "points": null,
                     "handle": {
                         "name": "kotsoft",
                         "demozoo_id": 9274
                     },
+                    "shadertoy_url": null,
                     "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_tour2_kotsoft.jpg",
                     "source_file": "/shader_file_sources/2019_10_25_shader_showdown_cafe/shadershow_tour2_kotsoft.glsl"
                 },
                 {
                     "id": null,
                     "rank": 1,
+                    "points": null,
                     "handle": {
                         "name": "f0x",
                         "demozoo_id": 6043
                     },
+                    "shadertoy_url": null,
                     "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_tour2_f0x.jpg",
                     "source_file": "/shader_file_sources/2019_10_25_shader_showdown_cafe/shadershow_tour2_f0x.glsl"
                 }
@@ -81,20 +89,24 @@
                 {
                     "id": null,
                     "rank": 2,
+                    "points": null,
                     "handle": {
                         "name": "kotsoft",
                         "demozoo_id": 9274
                     },
+                    "shadertoy_url": null,
                     "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_semifinal_kotsoft.jpg",
                     "source_file": "/shader_file_sources/2019_10_25_shader_showdown_cafe/shadershow_semifinal_kotsoft.glsl"
                 },
                 {
                     "id": null,
                     "rank": 1,
+                    "points": null,
                     "handle": {
                         "name": "Dart",
                         "demozoo_id": 9610
                     },
+                    "shadertoy_url": null,
                     "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_semifinal_dart.jpg",
                     "source_file": "/shader_file_sources/2019_10_25_shader_showdown_cafe/shadershow_semifinal_dart.glsl"
                 }
@@ -108,20 +120,24 @@
                 {
                     "id": null,
                     "rank": 2,
+                    "points": null,
                     "handle": {
                         "name": "wbcbz7",
                         "demozoo_id": 45761
                     },
+                    "shadertoy_url": null,
                     "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_final_wbcbz7.jpg",
                     "source_file": "/shader_file_sources/2019_10_25_shader_showdown_cafe/shadershow_final_wbcbz7.glsl"
                 },
                 {
                     "id": null,
                     "rank": 1,
+                    "points": null,
                     "handle": {
                         "name": "f0x",
                         "demozoo_id": 6043
                     },
+                    "shadertoy_url": null,
                     "preview_image": "2019_10_25_shader_showdown_cafe/shadershow_final_f0x.jpg",
                     "source_file": "/shader_file_sources/2019_10_25_shader_showdown_cafe/shadershow_final_f0x.glsl"
                 }
