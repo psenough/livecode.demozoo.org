@@ -1,11 +1,11 @@
 {
-    "title": "Shader Royal Jam",
+    "title": "Shader Royale Jam",
     "started": "2023-12-01",
     "date": "01 December 2023",
     "type": "Shader Jam",
     "website": "https://2023.inercia.pt/",
     "flyer": "",
-    "vod":"",
+    "vod":"https://scenesat.com/videoarchive/35354e4f-90f8-11ee-931f-00505685775e?t=28323#show-35354e4f-90f8-11ee-931f-00505685775e",
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -277,7 +277,7 @@
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "vjpyree",
+                        "name": "VjPyree",
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
