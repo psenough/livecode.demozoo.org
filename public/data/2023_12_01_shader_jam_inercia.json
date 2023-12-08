@@ -303,7 +303,14 @@
                         "demozoo_id": 313
                     },
                     "job": "Commentator"
-                  }
+                  },
+                {
+                    "handle": {
+                    "name": "dextrose",
+                    "demozoo_id": 21681
+                    },
+                    "job": "live set"
+                }
             ]
         }
     ],
