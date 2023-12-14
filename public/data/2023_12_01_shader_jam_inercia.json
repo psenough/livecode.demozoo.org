@@ -310,6 +310,13 @@
                     "demozoo_id": 21681
                     },
                     "job": "live set"
+                },
+                {
+                    "handle": {
+                    "name": "willow",
+                    "demozoo_id": 138454
+                    },
+                    "job": "DJ set"
                 }
             ]
         }
@@ -319,6 +326,20 @@
             "handle": {
                 "name": "ps",
                 "demozoo_id": 313
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "jeenio",
+                "demozoo_id": 3048
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "totetmatt",
+                "demozoo_id": 121811
             },
             "job": "Organizers"
         }
