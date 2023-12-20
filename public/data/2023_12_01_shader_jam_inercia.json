@@ -5,7 +5,7 @@
     "type": "Shader Jam",
     "website": "https://2023.inercia.pt/",
     "flyer": "",
-    "vod":"https://scenesat.com/videoarchive/35354e4f-90f8-11ee-931f-00505685775e?t=28323#show-35354e4f-90f8-11ee-931f-00505685775e",
+    "vod":"https://www.youtube.com/watch?v=5Ibqtmc6Aj8&ab_channel=In%C3%A9rciaDemoparty",
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -190,7 +190,7 @@
                     "points": null,
                     "handle": {
                         "name": "mocoo",
-                        "demozoo_id": null
+                        "demozoo_id": 133218
                     },
                     "shadertoy_url": null,
                     "preview_image": "2023_12_01_shader_jam_inercia/grabber_inerciaroyale_mocoo.jpg",
