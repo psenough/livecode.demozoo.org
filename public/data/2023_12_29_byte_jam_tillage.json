@@ -41,7 +41,7 @@
                         "demozoo_id": 135705
                       },
                     "shadertoy_url": null,
-                    "preview_image": "2023_12_29_byte_jam_tillage/jtruk.png",
+                    "preview_image": "2023_12_29_byte_jam_tillage/jtruk.gif",
                     "source_file": "/shader_file_sources/2023_12_29_byte_jam_tillage/jtruk.lua"
                 },
                 {
@@ -53,7 +53,7 @@
                         "demozoo_id": 66552
                       },
                     "shadertoy_url": null,
-                    "preview_image": "2023_12_29_byte_jam_tillage/mrsbeanbag.png",
+                    "preview_image": "2023_12_29_byte_jam_tillage/mrsbeanbag.gif",
                     "source_file": "/shader_file_sources/2023_12_29_byte_jam_tillage/mrsbeanbag.lua"
                 },
                 {
@@ -65,7 +65,7 @@
                         "demozoo_id": 136862
                       },
                     "shadertoy_url": null,
-                    "preview_image": "2023_12_29_byte_jam_tillage/suule.png",
+                    "preview_image": "2023_12_29_byte_jam_tillage/suule.gif",
                     "source_file": "/shader_file_sources/2023_12_29_byte_jam_tillage/suule.lua"
                 }
             ],
