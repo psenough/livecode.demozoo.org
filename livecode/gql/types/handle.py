@@ -40,7 +40,7 @@ class Handle:
     members: Optional[List[Annotated["Handle", strawberry.lazy("gql.types.handle")]]]
     @strawberry.field
     def stub(self) -> str:
-        return urllib.parse.quote(self.display_name())
+        return urllib.parse.quote(self.display_name().replace(" ","_"))
     @strawberry.field
     def members_stub(self) -> List[str]:
         return [m.stub() for m in self.members]

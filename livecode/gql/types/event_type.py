@@ -8,7 +8,7 @@ class EventType:
 
     @strawberry.field
     def stub(self) -> str:
-        return urllib.parse.quote(self.label)
+        return urllib.parse.quote(self.label.replace(" ","_"))
 
     @staticmethod
     def from_(data):
