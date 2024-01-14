@@ -3,6 +3,7 @@ from generate import freezer
 from update.update import update_all_data
 from workflow.new_bbc import generate_ffmc
 from workflow.upcoming import create_upcoming
+from poster import create_posters
 import re
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog="livecode")
@@ -13,6 +14,7 @@ if __name__ == "__main__":
     parser_workflow = subparsers.add_parser(
         "workflow", help="Worflow related command"
     )
+    parser_poster  = subparsers.add_parser("poster", help="Generate Posters")
 
     workflow_subparser = parser_workflow.add_subparsers(dest="workflow")
     parser_workflow_add_bbc = workflow_subparser.add_parser(
@@ -99,4 +101,6 @@ if __name__ == "__main__":
         Command to generate the html form current database
         """
         freezer.freeze()
+    if args.command == "poster":
+        create_posters()
 

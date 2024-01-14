@@ -35,9 +35,7 @@ jobs:
 
       - name: Generate posters
         run: |
-          python bin/livecode_ontology.py
-          git add public/livecode_db.turtle
-          python bin/generate_user_poster.py
+          python livecode poster
           git add public/posters/
 
       - name: Save commit hash to file
