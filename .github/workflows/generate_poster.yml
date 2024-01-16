@@ -11,12 +11,12 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v2
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: '3.10'
 
       - name: Install dependencies
         run: |
@@ -35,9 +35,7 @@ jobs:
 
       - name: Generate posters
         run: |
-          python bin/livecode_ontology.py
-          git add public/livecode_db.turtle
-          python bin/generate_user_poster.py
+          python livecode poster
           git add public/posters/
 
       - name: Save commit hash to file

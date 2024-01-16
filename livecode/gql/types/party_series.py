@@ -30,7 +30,7 @@ class PartySerie:
 
     @strawberry.field
     def stub(self) -> str:
-        return urllib.parse.quote(self.name)
+        return urllib.parse.quote(self.name.replace(" ","_"))
 
     @strawberry.field
     def events(self) -> List[Event]:

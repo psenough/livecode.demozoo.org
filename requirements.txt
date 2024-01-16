@@ -7,3 +7,4 @@ PyYAML
 uvicorn
 strawberry-graphql
 requests
+Pillow==8.4.0
