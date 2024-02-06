@@ -48,7 +48,7 @@ def nav_context(
 
 @app.route("/index.html")
 def index():
-    return by_year("2023")
+    return by_year("2024")
 
 
 @app.route("/about.html")
