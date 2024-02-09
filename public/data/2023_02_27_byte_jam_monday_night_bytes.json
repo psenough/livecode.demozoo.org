@@ -27,7 +27,7 @@
           "id": 1,
           "handle": {
             "name": "doop",
-            "demozoo_id": null
+            "demozoo_id": 141174
           },
           "source_file": "/shader_file_sources/2023_02_27_byte_jam_monday_night_bytes/doop.lua",
           "preview_image": "2023_02_27_byte_jam_monday_night_bytes/doop.png"

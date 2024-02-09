@@ -1,9 +1,9 @@
 {
     "title": "Lovebyte Byte Jam",
-    "started": "2023-02-10",
-    "date": "10 - 12 February 2023",
+    "started": "2024-02-09",
+    "date": "09 February 2024",
     "type": "Byte Jam",
-    "vod": "https://www.youtube.com/watch?v=7UOLfIKB2OQ",
+    "vod": null,
     "software_used": [
         {
             "name": "TIC-80 FFT Hack",
@@ -16,21 +16,33 @@
         {
             "title": "Byte Jam",
             "vod": null,
-            "keyword": null,
             "entries": [
-                  
+                     
                 {
                     "id": null,
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "blossom",
-                        "demozoo_id": 89867
+                        "name": "gasman",
+                        "demozoo_id": 5879
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "/shader_file_sources/2023_02_10_byte_jam_lovebyte/byte_jam/blossom.lua",
-                    "preview_image": "2023_02_10_byte_jam_lovebyte/byte_jam/blossom.png"
+                    "source_file": "/shader_file_sources/2024_02_09_byte_jam_lovebyte/byte_jam/gasman.lua",
+                    "preview_image": "2024_02_09_byte_jam_lovebyte/byte_jam/gasman.gif"
+                },   
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_02_09_byte_jam_lovebyte/byte_jam/jtruk.lua",
+                    "preview_image": "2024_02_09_byte_jam_lovebyte/byte_jam/jtruk.gif"
                 },
                 {
                     "id": null,
@@ -42,8 +54,21 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "/shader_file_sources/2023_02_10_byte_jam_lovebyte/byte_jam/mantratronic.lua",
-                    "preview_image": "2023_02_10_byte_jam_lovebyte/byte_jam/mantratronic.gif"
+                    "source_file": "/shader_file_sources/2024_02_09_byte_jam_lovebyte/byte_jam/mantratronic.lua",
+                    "preview_image": "2024_02_09_byte_jam_lovebyte/byte_jam/mantratronic.png"
+                },   
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "mrsynackster",
+                        "demozoo_id": 130883
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_02_09_byte_jam_lovebyte/byte_jam/mrsynackster.lua",
+                    "preview_image": "2024_02_09_byte_jam_lovebyte/byte_jam/mrsynackster.gif"
                 },
                 {
                     "id": null,
@@ -54,8 +79,9 @@
                         "demozoo_id": 89891
                     },
                     "shadertoy_url": null,
-                    "source_file": "/shader_file_sources/2023_02_10_byte_jam_lovebyte/byte_jam/tobach.lua",
-                    "preview_image": "2023_02_10_byte_jam_lovebyte/byte_jam/tobach.gif"
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_02_09_byte_jam_lovebyte/byte_jam/tobach.lua",
+                    "preview_image": "2024_02_09_byte_jam_lovebyte/byte_jam/tobach.gif"
                 },   
                 {
                     "id": null,
@@ -67,15 +93,35 @@
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
-                    "source_file": "/shader_file_sources/2023_02_10_byte_jam_lovebyte/byte_jam/visy.lua",
-                    "preview_image": "2023_02_10_byte_jam_lovebyte/byte_jam/visy.gif"
+                    "source_file": "/shader_file_sources/2024_02_09_byte_jam_lovebyte/byte_jam/visy.lua",
+                    "preview_image": "2024_02_09_byte_jam_lovebyte/byte_jam/visy.gif"
+                },   
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "vurpo",
+                        "demozoo_id": 138609
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_02_09_byte_jam_lovebyte/byte_jam/vurpo.lua",
+                    "preview_image": "2024_02_09_byte_jam_lovebyte/byte_jam/vurpo.gif"
                 }
             ],
             "staffs": [
                 {
                     "handle": {
-                        "name": "ferris",
-                        "demozoo_id": 18
+                        "name": "RaccoonViolet",
+                        "demozoo_id": 90373
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "mintimperial",
+                        "demozoo_id": null
                     },
                     "job": "DJ Set"
                 }
@@ -85,8 +131,8 @@
     "staffs": [
         {
             "handle": {
-                "name": "Havoc",
-                "demozoo_id": 2419
+                "name": "RaccoonViolet",
+                "demozoo_id": 90373
             },
             "job": "Organizers"
         },
