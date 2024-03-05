@@ -16,7 +16,7 @@
     ],
     "phases": [
         {
-            "title": "Round 1 - Karsinnat 1",
+            "title": "Round 1 - Aloitusottelu 1",
             "vod": "https://www.youtube.com/watch?v=YuHbekoYrzA",
             "entries": [
                 {
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "title": "Round 1 - Karsinnat 2",
+            "title": "Round 1 - Aloitusottelu 2",
             "vod": "https://youtu.be/YuHbekoYrzA?t=2446",
             "entries": [
                 {
@@ -100,7 +100,7 @@
             ]
         },
         {
-            "title": "Round 1 - Karsinnat 3",
+            "title": "Round 1 - Aloitusottelu 3",
             "vod": "https://youtu.be/YuHbekoYrzA?t=4258",
             "entries": [
                 {
@@ -145,7 +145,7 @@
             ]
         },
         {
-            "title": "Round 1 - Karsinnat 4",
+            "title": "Round 1 - Aloitusottelu 4",
             "vod": "https://youtu.be/YuHbekoYrzA?t=6080",
             "entries": [
                 {
@@ -190,7 +190,7 @@
             ]
         },
         {
-            "title": "Round 2 - Semifinals 1",
+            "title": "Round 2 - Semifinaali 1",
             "vod": "https://youtu.be/YuHbekoYrzA?t=7863",
             "entries": [
                 {
@@ -229,7 +229,7 @@
             ]
         },
         {
-            "title": "Round 2 - Semifinals 2",
+            "title": "Round 2 - Semifinaali 2",
             "vod": "https://youtu.be/YuHbekoYrzA?t=9508",
             "entries": [
                 {
