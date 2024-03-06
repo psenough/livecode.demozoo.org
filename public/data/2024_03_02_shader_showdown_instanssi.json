@@ -1,5 +1,5 @@
 {
-    "title": "Instanssi",
+    "title": "Instanssi 2024 Varjostimien Näytösottelu",
     "started": "2024-03-02",
     "date": "02 March 2024",
     "type": "Shader Showdown",
@@ -16,7 +16,7 @@
     ],
     "phases": [
         {
-            "title": "Round 1 - Karsinnat 1",
+            "title": "Round 1 - Aloitusottelu 1",
             "vod": "https://www.youtube.com/watch?v=YuHbekoYrzA",
             "entries": [
                 {
@@ -45,11 +45,17 @@
                 }
             ],
             "staffs": [
-             
+                {
+                    "handle": {
+                        "name": "zertap",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentator"
+                }
             ]
         },
         {
-            "title": "Round 1 - Karsinnat 2",
+            "title": "Round 1 - Aloitusottelu 2",
             "vod": "https://youtu.be/YuHbekoYrzA?t=2446",
             "entries": [
                 {
@@ -78,11 +84,23 @@
                 }
             ],
             "staffs": [
-             
+                {
+                    "handle": {
+                        "name": "papu",
+                        "demozoo_id": 76637
+                    },
+                    "job": "Commentator"
+                },{
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "job": "Commentator"
+                }
             ]
         },
         {
-            "title": "Round 1 - Karsinnat 3",
+            "title": "Round 1 - Aloitusottelu 3",
             "vod": "https://youtu.be/YuHbekoYrzA?t=4258",
             "entries": [
                 {
@@ -111,11 +129,23 @@
                 }
             ],
             "staffs": [
-             
+                {
+                    "handle": {
+                        "name": "papu",
+                        "demozoo_id": 76637
+                    },
+                    "job": "Commentator"
+                },{
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "job": "Commentator"
+                }
             ]
         },
         {
-            "title": "Round 1 - Karsinnat 4",
+            "title": "Round 1 - Aloitusottelu 4",
             "vod": "https://youtu.be/YuHbekoYrzA?t=6080",
             "entries": [
                 {
@@ -144,11 +174,23 @@
                 }
             ],
             "staffs": [
-             
+                {
+                    "handle": {
+                        "name": "papu",
+                        "demozoo_id": 76637
+                    },
+                    "job": "Commentator"
+                },{
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "job": "Commentator"
+                }
             ]
         },
         {
-            "title": "Round 2 - Semifinals 1",
+            "title": "Round 2 - Semifinaali 1",
             "vod": "https://youtu.be/YuHbekoYrzA?t=7863",
             "entries": [
                 {
@@ -177,11 +219,17 @@
                 }
             ],
             "staffs": [
-             
+                {
+                    "handle": {      
+                        "name": "papu",
+                        "demozoo_id": 76637
+                    },
+                    "job": "Commentator"
+                }
             ]
         },
         {
-            "title": "Round 2 - Semifinals 2",
+            "title": "Round 2 - Semifinaali 2",
             "vod": "https://youtu.be/YuHbekoYrzA?t=9508",
             "entries": [
                 {
@@ -210,7 +258,19 @@
                 }
             ],
             "staffs": [
-             
+                {   
+                    "handle": {
+                        "name": "papu",
+                        "demozoo_id": 76637
+                    },
+                    "job": "Commentator"
+                },{
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "job": "Commentator"
+                }
             ]
         },
         {
@@ -249,6 +309,12 @@
                         "demozoo_id": 76637
                     },
                     "job": "Commentator"
+                },{
+                    "handle": {      
+                        "name": "zertap",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentator"
                 }
             ]
         }
@@ -267,6 +333,20 @@
                 "demozoo_id": null
             },
             "job": "DJ"
+        },          
+        {           
+            "handle": {
+                "name": "pumpuli",
+                "demozoo_id": 22208
+            },          
+            "job": "Organizer"
+        },          
+        {           
+            "handle": {
+                "name": "papu",
+                "demozoo_id": 76637
+            },          
+            "job": "Organizer"
         }
     ],
     "demozoo_party_id": 4655
