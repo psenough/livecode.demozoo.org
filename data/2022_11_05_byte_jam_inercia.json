@@ -1,0 +1,123 @@
+{
+    "title": "In\u00e9rcia",
+    "started": "2022-11-05",
+    "date": "05 November 2022",
+    "type": "Byte Jam",
+    "website": "http://inercia.pt",
+    "flyer": "",
+    "vod": "https://www.youtube.com/watch?v=vXC3minnyxw&ab_channel=In%C3%A9rciaDemoparty",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v07",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Nico",
+                        "demozoo_id": 131751
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_11_05_byte_jam_inercia/inerciabytejam_nico.gif",
+                    "source_file": "/shader_file_sources/2022_11_05_byte_jam_inercia/inerciabytejam_nico.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_11_05_byte_jam_inercia/inerciabytejam_gasman.gif",
+                    "source_file": "/shader_file_sources/2022_11_05_byte_jam_inercia/inerciabytejam_gasman.lua",
+                    "tic80_cart_id": 3057
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "T\u00f4Bach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_11_05_byte_jam_inercia/inerciabytejam_tobach.gif",
+                    "source_file": "/shader_file_sources/2022_11_05_byte_jam_inercia/inerciabytejam_tobach.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_11_05_byte_jam_inercia/inerciabytejam_superogue.gif",
+                    "source_file": "/shader_file_sources/2022_11_05_byte_jam_inercia/inerciabytejam_superogue.lua",
+                    "tic80_cart_id": 3072
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dave84",
+                        "demozoo_id": 127921
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_11_05_byte_jam_inercia/inerciabytejam_dave84_1.gif",
+                    "source_file": "/shader_file_sources/2022_11_05_byte_jam_inercia/inerciabytejam_dave84_1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dave84",
+                        "demozoo_id": 127921
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_11_05_byte_jam_inercia/inerciabytejam_dave84_2.gif",
+                    "source_file": "/shader_file_sources/2022_11_05_byte_jam_inercia/inerciabytejam_dave84_2.lua"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "ps",
+                "demozoo_id": 313
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Alien01",
+                "demozoo_id": 108887
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "jeenio",
+                "demozoo_id": 3048
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4406
+}

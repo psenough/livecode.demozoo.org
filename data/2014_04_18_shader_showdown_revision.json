@@ -1,0 +1,415 @@
+{
+    "title": "The Incredible Live-Coder-Mayhem 5000 @ Revision",
+    "started": "2014-04-18",
+    "date": "18 - 21 April 2014",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "ScintillaGL",
+            "url": "https://files.scene.org/view/parties/2014/revision14/livecoding/livecodingtool.zip",
+            "version": "",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Quarter #1",
+            "vod": "https://youtu.be/T6JH5j1-TQg?t=206",
+            "entries": [
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "crypt",
+                        "demozoo_id": 63756
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2014_04_18_shader_showdown_revision/01_quarterfinals/01_crypt.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/01_crypt.fs"
+                },
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "skomp",
+                        "demozoo_id": 21373
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2014_04_18_shader_showdown_revision/01_quarterfinals/01_skomp.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/01_skomp.fs"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "rp",
+                        "demozoo_id": 355
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "gargaj",
+                        "demozoo_id": 306
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "moqui",
+                        "demozoo_id": 11347
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter #2",
+            "vod": "https://youtu.be/T6JH5j1-TQg?t=1821",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "blueberry",
+                        "demozoo_id": 116
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2014_04_18_shader_showdown_revision/01_quarterfinals/02_blueberry.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/02_blueberry.fs"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "kabuto",
+                        "demozoo_id": 6492
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2014_04_18_shader_showdown_revision/01_quarterfinals/02_kabuto.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/02_kabuto.fs"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "gargaj",
+                        "demozoo_id": 306
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "moqui",
+                        "demozoo_id": 11347
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter #3",
+            "vod": "https://youtu.be/T6JH5j1-TQg?t=4098",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "miku",
+                        "demozoo_id": 67567
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2014_04_18_shader_showdown_revision/01_quarterfinals/03_miku.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/03_miku.fs"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "musk",
+                        "demozoo_id": 14411
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2014_04_18_shader_showdown_revision/01_quarterfinals/03_musk.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/01_quarterfinals/03_musk.fs"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "gargaj",
+                        "demozoo_id": 306
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "moqui",
+                        "demozoo_id": 11347
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi #1",
+            "vod": "https://youtu.be/aYlMjIVm1F4?t=105",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "kabuto",
+                        "demozoo_id": 6492
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2014_04_18_shader_showdown_revision/02_semifinals/01_kabuto.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/01_kabuto.fs"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "musk",
+                        "demozoo_id": 14411
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2014_04_18_shader_showdown_revision/02_semifinals/01_musk.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/01_musk.fs"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "rp",
+                        "demozoo_id": 355
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "gargaj",
+                        "demozoo_id": 306
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "moqui",
+                        "demozoo_id": 11347
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "chaos",
+                        "demozoo_id": 348
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi #2",
+            "vod": "https://youtu.be/aYlMjIVm1F4?t=1927",
+            "entries": [
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "skomp",
+                        "demozoo_id": 21373
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2014_04_18_shader_showdown_revision/02_semifinals/02_skomp.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/02_skomp.fs"
+                },
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "xtrium",
+                        "demozoo_id": 3695
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2014_04_18_shader_showdown_revision/02_semifinals/02_xtrium.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/02_semifinals/02_xtrium.fs"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "gargaj",
+                        "demozoo_id": 306
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "moqui",
+                        "demozoo_id": 11347
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "chaos",
+                        "demozoo_id": 348
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://youtu.be/aYlMjIVm1F4?t=3813",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "musk",
+                        "demozoo_id": 14411
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2014_04_18_shader_showdown_revision/03_final/musk.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/03_final/musk.fs"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "skomp",
+                        "demozoo_id": 21373
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2014_04_18_shader_showdown_revision/03_final/skomp.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2014/revision14/livecoding/03_final/skomp.fs"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "gargaj",
+                        "demozoo_id": 306
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "moqui",
+                        "demozoo_id": 11347
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "chaos",
+                        "demozoo_id": 348
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "D.Fox",
+                        "demozoo_id": 903
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "gargaj",
+                "demozoo_id": 306
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 2029
+}

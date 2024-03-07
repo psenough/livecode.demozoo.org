@@ -1,0 +1,343 @@
+{
+    "title": "Lovebyte Byte Battle Extravaganza",
+    "started": "2023-02-10",
+    "date": "10 - 12 February 2023",
+    "type": "Byte Battle",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Extravaganza #01 - 512b - 25min",
+            "vod": "https://www.youtube.com/watch?v=WD_4j0xSJIg",
+            "keyword": "Picknick",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 155,
+                    "handle": {
+                        "name": "alia",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_battle_lovebyte/alia_vs_orby_512/alia.lua",
+                    "preview_image": "2023_02_10_byte_battle_lovebyte/alia_vs_orby_512/alia.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 117,
+                    "handle": {
+                        "name": "orby",
+                        "demozoo_id": 53612
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_battle_lovebyte/alia_vs_orby_512/orby.lua",
+                    "preview_image": "2023_02_10_byte_battle_lovebyte/alia_vs_orby_512/orby.png"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Extravaganza #02 - 128b - 15min",
+            "vod": "https://www.youtube.com/watch?v=E44fcQwgXHI",
+            "keyword": "Industrial",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 108,
+                    "handle": {
+                        "name": "alia",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_battle_lovebyte/alia_vs_pestis_128/alia.lua",
+                    "preview_image": "2023_02_10_byte_battle_lovebyte/alia_vs_pestis_128/alia.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 160,
+                    "handle": {
+                        "name": "pestis",
+                        "demozoo_id": 44058
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_battle_lovebyte/alia_vs_pestis_128/pestis.lua",
+                    "preview_image": "2023_02_10_byte_battle_lovebyte/alia_vs_pestis_128/pestis.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "orby",
+                        "demozoo_id": 53612
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Extravaganza #03 - 256b - 25min",
+            "vod": "https://www.youtube.com/watch?v=HlWqR_-X5gc",
+            "keyword": null,
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 86,
+                    "handle": {
+                        "name": "gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_battle_lovebyte/gasman_vs_pestis_256/gasman.lua",
+                    "preview_image": "2023_02_10_byte_battle_lovebyte/gasman_vs_pestis_256/gasman.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 103,
+                    "handle": {
+                        "name": "pestis",
+                        "demozoo_id": 44058
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_battle_lovebyte/gasman_vs_pestis_256/pestis.lua",
+                    "preview_image": "2023_02_10_byte_battle_lovebyte/gasman_vs_pestis_256/pestis.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "orby",
+                        "demozoo_id": 53612
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Extravaganza #04 - 512b - 25min",
+            "vod": "https://www.youtube.com/watch?v=9MYNcKQGsk8",
+            "keyword": "Clippy",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 103,
+                    "handle": {
+                        "name": "gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_battle_lovebyte/gasman_vs_tobach_512/gasman.lua",
+                    "preview_image": "2023_02_10_byte_battle_lovebyte/gasman_vs_tobach_512/gasman.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 90,
+                    "handle": {
+                        "name": "T\u00f4Bach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_battle_lovebyte/gasman_vs_tobach_512/tobach.lua",
+                    "preview_image": "2023_02_10_byte_battle_lovebyte/gasman_vs_tobach_512/tobach.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "orby",
+                        "demozoo_id": 53612
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Extravaganza #05 - Battle Jam - 25min",
+            "vod": "https://www.youtube.com/watch?v=kDuvQDmlt_4",
+            "keyword": null,
+            "entries": [
+                  
+                {
+                    "id": 3,
+                    "rank": 1,
+                    "points": 136,
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_battle_lovebyte/battle_jam/mantratronic.lua",
+                    "preview_image": "2023_02_10_byte_battle_lovebyte/battle_jam/mantratronic.gif"
+                },
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 127,
+                    "handle": {
+                        "name": "alia",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_battle_lovebyte/battle_jam/alia.lua",
+                    "preview_image": "2023_02_10_byte_battle_lovebyte/battle_jam/alia.gif"
+                },   
+                {
+                    "id": 2,
+                    "rank": 3,
+                    "points": 126,
+                    "handle": {
+                        "name": "orby",
+                        "demozoo_id": 53612
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_battle_lovebyte/battle_jam/orby.lua",
+                    "preview_image": "2023_02_10_byte_battle_lovebyte/battle_jam/orby.gif"
+                },
+                {
+                    "id": 4,
+                    "rank": 4,
+                    "points": 108,
+                    "handle": {
+                        "name": "T\u00f4Bach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_battle_lovebyte/battle_jam/tobach.lua",
+                    "preview_image": "2023_02_10_byte_battle_lovebyte/battle_jam/tobach.gif"
+                }
+            ],
+            "staffs":  [
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "blossom",
+                "demozoo_id": 89867
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "dave84",
+                "demozoo_id": 127921
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "jeenio",
+                "demozoo_id": 3048
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "ps",
+                "demozoo_id": 313
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "superogue",
+                "demozoo_id": 617
+            },
+            "job": "Main Organizers"
+        },
+        {
+            "handle": {
+                "name": "The Watcher",
+                "demozoo_id": 15853
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4492
+}

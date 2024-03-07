@@ -1,0 +1,239 @@
+{
+    "title": "Outline",
+    "started": "2021-05-13",
+    "date": "13 - 16 May 2021",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Group 1 - Match 1",
+            "vod": "https://youtu.be/WNxlDgTitZE",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "anticore",
+                        "demozoo_id": 117325
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/ssjSDV",
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "monsieursoleil",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Group 2 - Match 1",
+            "vod": "https://youtu.be/WNxlDgTitZE?t=1692",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/NlXGDH",
+                    "source_file": "/shader_file_sources/2021_05_13_shader_showdown_outline/outline_2021_totetmatt_1.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Group 1 - Match 2",
+            "vod": "https://youtu.be/WNxlDgTitZE?t=3787",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Anticore",
+                        "demozoo_id": 117325
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/ssjXWV",
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Subi",
+                        "demozoo_id": 21306
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Group 2 - Match 2",
+            "vod": "https://youtu.be/WNxlDgTitZE?t=5652",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "cosamentale",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/fs2XWc",
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/ftfGWH",
+                    "source_file": "/shader_file_sources/2021_05_13_shader_showdown_outline/outline_2021_totetmatt_2.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Group 1 - Match 3",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "monsieursoleil",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Group 2 - Match 3",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "cosamentale",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/NsSXWd",
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Final",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/WCCKltsoFfdpkZbSAylR",
+                    "shadertoy_url": "https://www.shadertoy.com/view/sdBSDt",
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "cosamentale",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/7tf3Rr",
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4201
+}

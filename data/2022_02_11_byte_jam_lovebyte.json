@@ -1,0 +1,88 @@
+{
+    "title": "Lovebyte",
+    "started": "2022-02-11",
+    "date": "11 - 13 February 2022",
+    "vod": "https://www.youtube.com/watch?v=DYGI84rPPNs",
+    "type": "Byte Jam",
+    "website": "https://lovebyte.party/",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v07",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Byte Jam",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2597,
+                    "source_file": "/shader_file_sources/2022_02_11_byte_jam_lovebyte/gasman_voyager.lua",
+                    "preview_image": "2022_02_11_byte_jam_lovebyte/gasman_voyager.gif"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "borb",
+                        "demozoo_id": 126956
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2602,
+                    "source_file": "/shader_file_sources/2022_02_11_byte_jam_lovebyte/borb_frogparty.lua",
+                    "preview_image": "2022_02_11_byte_jam_lovebyte/borb_frogparty.gif"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "tobach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2022_02_11_byte_jam_lovebyte/tobach_bytejam.lua",
+                    "preview_image": "2022_02_11_byte_jam_lovebyte/tobach_bytejam.gif"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2600,
+                    "source_file": "/shader_file_sources/2022_02_11_byte_jam_lovebyte/mantratronic_lb22jam.lua",
+                    "preview_image": "2022_02_11_byte_jam_lovebyte/mantratronic_lb22jam.gif"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "superogue",
+                "demozoo_id": 617
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4378
+}

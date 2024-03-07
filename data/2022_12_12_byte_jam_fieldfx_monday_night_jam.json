@@ -1,0 +1,99 @@
+{
+    "title": "Monday Night Jam #05",
+    "started": "2022-12-12",
+    "date": "12 December 2022",
+    "type": "Byte Jam",
+    "vod": null,
+    "website": "",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.0",
+            "version": "tic80showdown FFT Hack",
+            "purpose": "Graphic"
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Byte Jam",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_12_12_byte_jam_fieldfx_casual/mantratronic.lua",
+                    "preview_image": "2022_12_12_byte_jam_fieldfx_casual/mantratronic.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 3494,
+                    "source_file": "/shader_file_sources/2022_12_12_byte_jam_fieldfx_casual/superogue.lua",
+                    "preview_image": "2022_12_12_byte_jam_fieldfx_casual/superogue.gif"
+                },
+                {
+                    "id": 3,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "TôBach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_12_12_byte_jam_fieldfx_casual/tobach.lua",
+                    "preview_image": "2022_12_12_byte_jam_fieldfx_casual/tobach.gif"
+                },
+                {
+                    "id": 4,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_12_12_byte_jam_fieldfx_casual/aldroid.lua",
+                    "preview_image": "2022_12_12_byte_jam_fieldfx_casual/aldroid.png"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": 18
+                    },
+                    "job": "DJ Set"
+                }
+            ]
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

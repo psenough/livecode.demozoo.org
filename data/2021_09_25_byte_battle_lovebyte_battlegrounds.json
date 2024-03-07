@@ -1,0 +1,778 @@
+{
+    "title": "Lovebyte Battlegrounds",
+    "started": "2021-09-25",
+    "date": "25 - 26 September 2021",
+    "vod": null,
+    "type": "Byte Battle",
+    "website": "http://battle.lovebyte.party/",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v07",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "First Round #1",
+            "vod": "https://www.youtube.com/watch?v=QdJHXyow8B0",
+            "keyword": "Baldy Cat",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 154,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/gasman_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/gasman_first_round.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 123,
+                    "handle": {
+                        "name": "0b5vr",
+                        "demozoo_id": 128318
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/0b5vr_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/0b5vr_first_round.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "First Round #2",
+            "vod": "https://www.youtube.com/watch?v=dhgeKqY5Lzo",
+            "keyword": "Bounce",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 188,
+                    "handle": {
+                        "name": "tomcat",
+                        "demozoo_id": 8556
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/tomcat_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/tomcat_first_round.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 142,
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/psenough_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/psenough_first_round.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "First Round #3",
+            "vod": "https://www.youtube.com/watch?v=PqW1GOrVMS0",
+            "keyword": "Dragon",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 152,
+                    "handle": {
+                        "name": "jobe",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/jobe_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/jobe_first_round.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 145,
+                    "handle": {
+                        "name": "dresdenboy",
+                        "demozoo_id": 64936
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/dresdenboy_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/dresdenboy_first_round.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "First Round #4",
+            "vod": "https://www.youtube.com/watch?v=oeJd53nj7lk",
+            "keyword": "Waves",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 188,
+                    "handle": {
+                        "name": "pestis",
+                        "demozoo_id": 44058
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/pestis_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/pestis_first_round.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 140,
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/blackle_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/blackle_first_round.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "First Round #5",
+            "vod": "https://www.youtube.com/watch?v=IdkYqmWP53U",
+            "keyword": "Fluid",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 176,
+                    "handle": {
+                        "name": "mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2241,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/mantratronic_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/mantratronic_first_round.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 143,
+                    "handle": {
+                        "name": "popolon",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2221,
+                    "source_file": null,
+                    "preview_image": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "First Round #6",
+            "vod": "https://www.youtube.com/watch?v=SeKTEgI5jvo",
+            "keyword": "Square",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 200,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2267,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/superogue_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/superogue_first_round.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 164,
+                    "handle": {
+                        "name": "exoticorn",
+                        "demozoo_id": 5849
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/exoticorn_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/exoticorn_first_round.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "First Round #7",
+            "vod": "https://www.youtube.com/watch?v=rznHWTPaxkw",
+            "keyword": "Garden",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 156,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/aldroid_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/aldroid_first_round.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 111,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/visy_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/visy_first_round.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "First Round #8",
+            "vod": "https://www.youtube.com/watch?v=-Esj_g2PNAU",
+            "keyword": "Tentacles",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 202,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 3112,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/nusan_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/nusan_first_round.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 177,
+                    "handle": {
+                        "name": "gopher",
+                        "demozoo_id": 929
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/gopher_first_round.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/gopher_first_round.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter #1",
+            "vod": "",
+            "keyword": "Cubes",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 97,
+                    "handle": {
+                        "name": "mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2242,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/mantratronic_quarter.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/mantratronic_quarter.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 71,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/aldroid_quarter.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/aldroid_quarter.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter #2",
+            "vod": "",
+            "keyword": "Stars",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 114,
+                    "handle": {
+                        "name": "pestis",
+                        "demozoo_id": 44058
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/pestis_quarter.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/pestis_quarter.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 111,
+                    "handle": {
+                        "name": "tomcat",
+                        "demozoo_id": 8556
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/tomcat_quarter.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/tomcat_quarter.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter #3",
+            "vod": "",
+            "keyword": "Rainbow",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 114,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/gasman_quarter.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/gasman_quarter.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 97,
+                    "handle": {
+                        "name": "jobe",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/jobe_quarter.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/jobe_quarter.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter #4",
+            "vod": "",
+            "keyword": "Stairs",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 97,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/nusan_quarter.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/nusan_quarter.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 118,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2268,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/superogue_quarter.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/superogue_quarter.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi #1",
+            "vod": "",
+            "keyword": "Duck",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 78,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/gasman_semi.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/gasman_semi.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 126,
+                    "handle": {
+                        "name": "pestis",
+                        "demozoo_id": 44058
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/pestis_semi.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/pestis_semi.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi #2",
+            "vod": "",
+            "keyword": "Doom",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 107,
+                    "handle": {
+                        "name": "mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2243,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/mantratronic_semi.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/mantratronic_semi.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 176,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2270,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/superogue_semi.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/superogue_semi.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "",
+            "keyword": "Fairies",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 183,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2271,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/superogue_final.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/superogue_final.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 158,
+                    "handle": {
+                        "name": "pestis",
+                        "demozoo_id": 44058
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/pestis_final.lua",
+                    "preview_image": "2021_09_25_byte_battle_lovebyte_battlegrounds/pestis_final.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "superogue",
+                "demozoo_id": 617
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "jeenio",
+                "demozoo_id": 3048
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4353
+}

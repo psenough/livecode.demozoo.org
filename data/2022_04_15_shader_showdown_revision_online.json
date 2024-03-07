@@ -1,0 +1,512 @@
+{
+    "title": "Revision Satellite",
+    "started": "2022-04-15",
+    "date": "15 - 18 April 2022",
+    "type": "Shader Showdown",
+    "vod": "https://www.youtube.com/watch?v=CoOqwPWkL_E",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v12",
+            "version": "NuSan - v12",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Bonzomatic Extra Texture",
+            "url": "https://livecode.demozoo.org/extra/revision_2022_extra_textures.zip",
+            "version": "Revision 2022",
+            "purpose": "Texture"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Quarter Final 1",
+            "vod": "https://www.youtube.com/watch?v=CoOqwPWkL_E&t=261s",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Exca",
+                        "demozoo_id": 35897
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/NlByzt",
+                    "preview_image": "2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_exca.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_exca.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "monsieursoleil",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_monsieursoleil.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_monsieursoleil.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "jeenio",
+                        "demozoo_id": 3048
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "alien",
+                        "demozoo_id": 108887
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "liqube",
+                        "demozoo_id": 88913
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final 2",
+            "vod": "https://www.youtube.com/watch?v=CoOqwPWkL_E&t=2112s",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/4DJCGUFQATcQkmQWjsR8",
+                    "shadertoy_url": "https://www.shadertoy.com/view/7ljcWV",
+                    "preview_image": "2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_evvvvil.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_evvvvil.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "provod",
+                        "demozoo_id": 24024
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_provod.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_provod.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ronny",
+                        "demozoo_id": 355
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "jeenio",
+                        "demozoo_id": 3048
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "alien",
+                        "demozoo_id": 108887
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "liqube",
+                        "demozoo_id": 88913
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final 3",
+            "vod": "https://www.youtube.com/watch?v=CoOqwPWkL_E&t=4074s",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Goose Goosington",
+                        "demozoo_id": 121827
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_goose.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_goose.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "z0rg",
+                        "demozoo_id": 114547
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_z0rg.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_z0rg.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": 1525
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "jeenio",
+                        "demozoo_id": 3048
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "alien",
+                        "demozoo_id": 108887
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "liqube",
+                        "demozoo_id": 88913
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final 4",
+            "vod": "https://www.youtube.com/watch?v=CoOqwPWkL_E&t=5997s",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/NlBcRd",
+                    "preview_image": "2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_blackle.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_blackle.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/sl2yW3",
+                    "preview_image": "2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_showdown_revision_online/quarter/2022_04_revision_quarter_totetmatt.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "jeenio",
+                        "demozoo_id": 3048
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "alien",
+                        "demozoo_id": 108887
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "liqube",
+                        "demozoo_id": 88913
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final 1",
+            "vod": "https://www.youtube.com/watch?v=Yy30yB829c4&t=132s",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "exca",
+                        "demozoo_id": 35897
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/Ntjczd",
+                    "preview_image": "2022_04_15_shader_showdown_revision_online/semi/2022_04_revision_semi_exca.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_showdown_revision_online/semi/2022_04_revision_semi_exca.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Goose Goosington",
+                        "demozoo_id": 121827
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_showdown_revision_online/semi/2022_04_revision_semi_goose.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_showdown_revision_online/semi/2022_04_revision_semi_goose.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ronny",
+                        "demozoo_id": 355
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "jeenio",
+                        "demozoo_id": 3048
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "alien",
+                        "demozoo_id": 108887
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "liqube",
+                        "demozoo_id": 88913
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final 2",
+            "vod": "https://www.youtube.com/watch?v=Yy30yB829c4&t=1914s",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/DNowQUOsn9fMYU2CKvLh",
+                    "shadertoy_url": "https://www.shadertoy.com/view/7l2yDV",
+                    "preview_image": "2022_04_15_shader_showdown_revision_online/semi/2022_04_revision_semi_evvvvil.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_showdown_revision_online/semi/2022_04_revision_semi_evvvvil.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/Nl2yzt",
+                    "preview_image": "2022_04_15_shader_showdown_revision_online/semi/2022_04_revision_semi_blackle.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_showdown_revision_online/semi/2022_04_revision_semi_blackle.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": 1525
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "jeenio",
+                        "demozoo_id": 3048
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "alien",
+                        "demozoo_id": 108887
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "liqube",
+                        "demozoo_id": 88913
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=367L1lvLf7U",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "exca",
+                        "demozoo_id": 35897
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/ft2czd",
+                    "preview_image": "2022_04_15_shader_showdown_revision_online/final/2022_04_revision_final_exca.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_showdown_revision_online/final/2022_04_revision_final_exca.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/3c4qvyeWUUKk6pgwtsU2",
+                    "shadertoy_url": "https://www.shadertoy.com/view/NlSyWt",
+                    "preview_image": "2022_04_15_shader_showdown_revision_online/final/2022_04_revision_final_evvvvil.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_showdown_revision_online/final/2022_04_revision_final_evvvvil.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": 1525
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "jeenio",
+                        "demozoo_id": 3048
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "alien",
+                        "demozoo_id": 108887
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "liqube",
+                        "demozoo_id": 88913
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Diffty",
+                "demozoo_id": 88962
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4424
+}

@@ -1,0 +1,77 @@
+{
+  "title": "Monday Night Bytes",
+  "type": "Byte Jam",
+  "website": "https://field-fx.party",
+  "software_used": [
+    {
+      "name": "TIC-80 FFT Hack",
+      "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+      "version": "tic80showdown FFT Hack v1.0.2",
+      "purpose": "Graphic"
+    }
+  ],
+  "staffs": [
+    {
+      "handle": {
+        "name": "aldroid",
+        "demozoo_id": 63755
+      },
+      "job": "Organizers"
+    }
+  ],
+  "phases": [
+    {
+      "title": "Byte Jam",
+      "entries": [
+        {
+          "id": 1,
+          "handle": {
+            "name": "totetmatt",
+            "demozoo_id": 121811
+          },
+          "source_file": "/shader_file_sources/2023_05_29_byte_jam_monday_night_bytes/totetmatt.lua",
+          "preview_image": "2023_05_29_byte_jam_monday_night_bytes/totetmatt.png"
+        },
+        {
+          "id": 2,
+          "handle": {
+            "name": "aldroid",
+            "demozoo_id": 63755
+          },
+          "source_file": "/shader_file_sources/2023_05_29_byte_jam_monday_night_bytes/aldroid.lua",
+          "preview_image": "2023_05_29_byte_jam_monday_night_bytes/aldroid.png"
+        },
+        {
+          "id": 3,
+          "handle": {
+            "name": "mantratronic",
+            "demozoo_id": 20215
+          },
+          "source_file": "/shader_file_sources/2023_05_29_byte_jam_monday_night_bytes/mantratronic.lua",
+          "preview_image": "2023_05_29_byte_jam_monday_night_bytes/mantratronic.png"
+        },
+        {
+          "id": 4,
+          "handle": {
+            "name": "alia",
+            "demozoo_id": 113525
+          },
+          "source_file": "/shader_file_sources/2023_05_29_byte_jam_monday_night_bytes/alia.lua",
+          "preview_image": "2023_05_29_byte_jam_monday_night_bytes/alia.png"
+        }
+      ],
+      "staffs": [
+        {
+          "handle": {
+            "name": "aldroid",
+            "demozoo_id": 63755
+          },
+          "job": "Commentator"
+        }
+      ]
+    }
+  ],
+  "demozoo_party_id": "LCDZFFCM",
+  "started": "2023-05-29",
+  "date": "29 May 2023"
+}

@@ -1,0 +1,1 @@
+t=0TIC=load't=t+.1k=s(t/7)/5 for i=0,32639,2 do x=i%240y=i//240u=(x-120)/68v=(y-68)/68q=0u,v=u+k*v+k,v-k*u w=1-k*u for j=0,29 do p=((u*q%1-.5)^2+(v*q%1-.5)^2+((w*q+t)%1-.5)^2)^.5-.1 if p<.2 then poke4(i+p*99%2,-q/2)break end q=q+p end end's=math.sin

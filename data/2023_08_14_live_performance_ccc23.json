@@ -1,0 +1,46 @@
+{
+    "title": "OnTrack Demoparty @ Chaos Communication Camp 2023",
+    "started": "2023-08-19",
+    "date": "19 August 2023",
+    "type": "Live Performance",
+    "website": "",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "Scratch",
+            "url": "https://scratch.mit.edu/",
+            "version": "",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                
+               
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "molive",
+                        "demozoo_id": 72284
+                    },
+                    "shadertoy_url": "https://scratch.mit.edu/projects/883881876/",
+                    "preview_image": "2023_08_14_live_performance_ccc23/molive.png",
+                    "source_file": "/shader_file_sources/2023_08_14_live_performance_ccc23/molive.sb3"
+                }
+            ],
+            "staffs": [
+               
+            ]
+        }
+    ],
+    "staffs": [
+       
+    ],
+    "demozoo_party_id": 4654
+}

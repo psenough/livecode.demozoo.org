@@ -1,0 +1,129 @@
+{
+    "title": "Shadow Party",
+    "started": "2021-05-21",
+    "date": "21 - 23 May 2021",
+    "type": "Shader Jam",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Shader Jam #1",
+            "vod": "https://www.youtube.com/watch?v=U4T7HCQekUA",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_05_21_shader_jam_shadow_party/sender_shadow_nusan.jpg",
+                    "source_file": "/shader_file_sources/2021_05_21_shader_jam_shadow_party/sender_shadow_nusan.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "lamogui",
+                        "demozoo_id": 71129
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "ponk",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/7ll3R4",
+                    "preview_image": "2021_05_21_shader_jam_shadow_party/sender_shadow_ponk.jpg",
+                    "source_file": "/shader_file_sources/2021_05_21_shader_jam_shadow_party/sender_shadow_ponk.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Lime",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Shader Jam #2",
+            "vod": "https://www.youtube.com/watch?v=Rw5Q_laxWZA",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_05_21_shader_jam_shadow_party/shadow-evvvvil-shaderjam.jpg",
+                    "source_file": "/shader_file_sources/2021_05_21_shader_jam_shadow_party/shadow-evvvvil-shaderjam.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "z0rg",
+                        "demozoo_id": 114547
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/NlK3Rc",
+                    "preview_image": "2021_05_21_shader_jam_shadow_party/z0rg.jpg",
+                    "source_file": "/shader_file_sources/2021_05_21_shader_jam_shadow_party/z0rg.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/stl3z4",
+                    "preview_image": "2021_05_21_shader_jam_shadow_party/sender_shadow_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2021_05_21_shader_jam_shadow_party/sender_shadow_totetmatt.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "LDream",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Cookie Collective",
+                "demozoo_id": 78435
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4199
+}
