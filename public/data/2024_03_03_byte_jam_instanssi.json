@@ -71,13 +71,6 @@
             "staffs": [
                 {
                     "handle": {
-                        "name": "RaccoonViolet",
-                        "demozoo_id": 90373
-                    },
-                    "job": "Organizer"
-                },
-                {
-                    "handle": {
                         "name": "OGsuntio",
                         "demozoo_id": null
                         },
