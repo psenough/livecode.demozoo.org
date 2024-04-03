@@ -20,7 +20,7 @@
             "vod": null,
             "entries": [
                 {
-                    "id": null,
+                    "id": 1,
                     "rank": 1,
                     "points": 874,
                     "handle": {
@@ -32,9 +32,9 @@
                     "source_file": "/shader_file_sources/2024_03_29_shader_showdown_revision_2024/evvvvil-qualif-rev2024.glsl"
                 },
                 {
-                    "id": null,
+                    "id": 2,
                     "rank": 3,
-                    "points": 864,
+                    "points": 797,
                     "handle": {
                         "name": "wrighter",
                         "demozoo_id": 113559
@@ -44,9 +44,9 @@
                     "source_file": "/shader_file_sources/2024_03_29_shader_showdown_revision_2024/wrighter-qualif-rev2024.glsl"
                 },
                 {
-                    "id": null,
+                    "id": 3,
                     "rank": 2,
-                    "points": 797,
+                    "points": 864,
                     "handle": {
                         "name": "totetmatt",
                         "demozoo_id": 121811
@@ -55,12 +55,8 @@
                     "preview_image": "2024_03_29_shader_showdown_revision_2024/totetmatt-qualif-rev2024.jpg",
                     "source_file": "/shader_file_sources/2024_03_29_shader_showdown_revision_2024/totetmatt-qualif-rev2024.glsl"
                 }
-              
-              
-               
             ],
             "staffs": [
-                
                 {
                     "handle": {
                         "name": "lug00ber",
@@ -89,7 +85,7 @@
             "vod": null,
             "entries": [
                 {
-                    "id": null,
+                    "id": 1,
                     "rank": 3,
                     "points": 677,
                     "handle": {
@@ -101,19 +97,19 @@
                     "source_file": "/shader_file_sources/2024_03_29_shader_showdown_revision_2024/cosamentale-qualif-rev2024.glsl"
                 },
                 {
-                    "id": null,
+                    "id": 2,
                     "rank": 2,
                     "points": 769,
                     "handle": {
                         "name": "dok",
-                        "demozoo_id": null
+                        "demozoo_id": 142108
                       },
                     "shadertoy_url": null,
                     "preview_image": "2024_03_29_shader_showdown_revision_2024/dok-qualif-rev2024.jpg",
                     "source_file": "/shader_file_sources/2024_03_29_shader_showdown_revision_2024/dok-qualif-rev2024.glsl"
                 },
                 {
-                    "id": null,
+                    "id": 3,
                     "rank": 1,
                     "points": 885,
                     "handle": {
@@ -156,7 +152,7 @@
             "vod": null,
             "entries": [
                 {
-                    "id": null,
+                    "id": 1,
                     "rank": 1,
                     "points": 713,
                     "handle": {
@@ -168,7 +164,7 @@
                     "source_file": "/shader_file_sources/2024_03_29_shader_showdown_revision_2024/ponk-qualif-rev2024.glsl"
                 },
                 {
-                    "id": null,
+                    "id": 2,
                     "rank": 3,
                     "points": 471,
                     "handle": {
@@ -180,7 +176,7 @@
                     "source_file": "/shader_file_sources/2024_03_29_shader_showdown_revision_2024/z0rg-qualif-rev2024.glsl"
                 },
                 {
-                    "id": null,
+                    "id": 3,
                     "rank": 2,
                     "points": 599,
                     "handle": {
@@ -193,8 +189,7 @@
                 }
                
             ],
-            "staffs": [
-                
+            "staffs": [               
                 {
                     "handle": {
                         "name": "subi",
@@ -300,6 +295,13 @@
                 "demozoo_id": 121811
             },
             "job": "Coordinator"
+        },
+        {
+            "handle": {
+                "name": "Diffty",
+                "demozoo_id": 88962
+            },
+            "job": "Organizers"
         }
     ],
     "demozoo_party_id": 4791
