@@ -33,7 +33,7 @@
                 },
                 {
                     "id": 2,
-                    "rank": 2,
+                    "rank": 3,
                     "points": 797,
                     "handle": {
                         "name": "wrighter",
@@ -55,12 +55,8 @@
                     "preview_image": "2024_03_29_shader_showdown_revision_2024/totetmatt-qualif-rev2024.jpg",
                     "source_file": "/shader_file_sources/2024_03_29_shader_showdown_revision_2024/totetmatt-qualif-rev2024.glsl"
                 }
-              
-              
-               
             ],
             "staffs": [
-                
                 {
                     "handle": {
                         "name": "lug00ber",
