@@ -17,7 +17,7 @@
     "phases": [
         {
             "title": "Round 1",
-            "vod": null,
+            "vod": "https://youtu.be/8PoeeqtmRe0?t=78",
             "entries": [
                 {
                     "id": 1,
@@ -82,7 +82,7 @@
         },
         {
             "title": "Round 2",
-            "vod": null,
+            "vod": "https://youtu.be/8PoeeqtmRe0?t=2511",
             "entries": [
                 {
                     "id": 1,
@@ -149,7 +149,7 @@
         },
         {
             "title": "Round 3",
-            "vod": null,
+            "vod": "https://youtu.be/8PoeeqtmRe0?t=4798",
             "entries": [
                 {
                     "id": 1,
@@ -215,7 +215,7 @@
         },
         {
             "title": "Final",
-            "vod": null,
+            "vod": "https://www.youtube.com/watch?v=JEn3kpysimY",
             "entries": [
                 {
                     "id": null,
