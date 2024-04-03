@@ -224,39 +224,39 @@
             "entries": [
                 {
                     "id": null,
-                    "rank": null,
+                    "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "evvvvil",
                         "demozoo_id": 71087
                       },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2024_03_29_shader_showdown_revision_2024/evvvvil-final-rev2024.jpg",
+                    "source_file": "/shader_file_sources/2024_03_29_shader_showdown_revision_2024/evvvvil-final-rev2024.glsl"
                 },
                 {
                     "id": null,
-                    "rank":null,
+                    "rank":2,
                     "points": null,
                     "handle": {
                         "name": "NuSan",
                         "demozoo_id": 88839
                       },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2024_03_29_shader_showdown_revision_2024/nusan-final-rev2024.jpg",
+                    "source_file": "/shader_file_sources/2024_03_29_shader_showdown_revision_2024/nusan-final-rev2024.glsl"
                 },
                 {
                     "id": null,
-                    "rank": null,
+                    "rank": 3,
                     "points": null,
                     "handle": {
                         "name": "Ponk",
                         "demozoo_id": 61858
                       },
                     "shadertoy_url": null,
-                    "preview_image":null,
-                    "source_file": null
+                    "preview_image": "2024_03_29_shader_showdown_revision_2024/ponk-final-rev2024.jpg",
+                    "source_file": "/shader_file_sources/2024_03_29_shader_showdown_revision_2024/ponk-final-rev2024.glsl"
                 }
                
             ],
