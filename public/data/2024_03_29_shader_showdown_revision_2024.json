@@ -106,7 +106,7 @@
                     "points": 769,
                     "handle": {
                         "name": "dok",
-                        "demozoo_id": null
+                        "demozoo_id": 142108
                       },
                     "shadertoy_url": null,
                     "preview_image": "2024_03_29_shader_showdown_revision_2024/dok-qualif-rev2024.jpg",
@@ -300,6 +300,13 @@
                 "demozoo_id": 121811
             },
             "job": "Coordinator"
+        },
+        {
+            "handle": {
+                "name": "Diffty",
+                "demozoo_id": 88962
+            },
+            "job": "Organizers"
         }
     ],
     "demozoo_party_id": 4791
