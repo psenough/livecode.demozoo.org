@@ -204,6 +204,18 @@
                     "rank": null,
                     "points": null,
                     "handle": {
+                        "name": "klos",
+                        "demozoo_id": 88858
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_30_shader_jam_revision_2024/grabber_rdpjam2024_klos.jpg",
+                    "source_file": "/shader_file_sources/2024_03_30_shader_jam_revision_2024/grabber_rdpjam2024_klos.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
                         "name": "krafpy",
                         "demozoo_id": 142045
                       },
