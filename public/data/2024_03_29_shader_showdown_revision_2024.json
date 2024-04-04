@@ -218,9 +218,9 @@
             "vod": "https://www.youtube.com/watch?v=JEn3kpysimY",
             "entries": [
                 {
-                    "id": null,
+                    "id": 1,
                     "rank": 1,
-                    "points": null,
+                    "points": 1215,
                     "handle": {
                         "name": "evvvvil",
                         "demozoo_id": 71087
@@ -230,9 +230,9 @@
                     "source_file": "/shader_file_sources/2024_03_29_shader_showdown_revision_2024/evvvvil-final-rev2024.glsl"
                 },
                 {
-                    "id": null,
+                    "id": 2,
                     "rank":2,
-                    "points": null,
+                    "points": 914,
                     "handle": {
                         "name": "NuSan",
                         "demozoo_id": 88839
@@ -242,9 +242,9 @@
                     "source_file": "/shader_file_sources/2024_03_29_shader_showdown_revision_2024/nusan-final-rev2024.glsl"
                 },
                 {
-                    "id": null,
+                    "id": 3,
                     "rank": 3,
-                    "points": null,
+                    "points": 824,
                     "handle": {
                         "name": "Ponk",
                         "demozoo_id": 61858
@@ -253,10 +253,8 @@
                     "preview_image": "2024_03_29_shader_showdown_revision_2024/ponk-final-rev2024.jpg",
                     "source_file": "/shader_file_sources/2024_03_29_shader_showdown_revision_2024/ponk-final-rev2024.glsl"
                 }
-               
             ],
             "staffs": [
-                
                 {
                     "handle": {
                         "name": "alkama",
