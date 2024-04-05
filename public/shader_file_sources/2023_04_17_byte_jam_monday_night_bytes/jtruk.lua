@@ -72,55 +72,61 @@ function BDR(y)
 end
 
 function TIC()
-	cls(0)
-
 	vbank(1)
+	cls()
+
 	for i=1,#DOTS do
 		doDot(DOTS[i])
 	end
 
-	for s=0,10 do
-		local ox=(s^2)*.03+T*.05
-		local oy=(s^2)*.034+T*.032
-		local oz=(s^2)*.034+T*.032
---		local xc=120+S(ox)*100
---		local yc=68+C(oy)*50
-		local xc=S(ox)*8
-		local yc=C(oy)*2
-		local zc=C(oz)*500+500
-		xc,yc=drawStar(xc,yc,zc,T*.1,1+(s%15))
+	for s=0,30 do
+		local ox=s*.8+T*.023
+		local oy=s*.6+T*.012
+		local oz=s*1.1+T*.019
+		local xc=S(ox)*800
+		local yc=C(oy)*600
+		local zc=10+S(oz)*20
+		local xst,yst,ast=drawStar(xc,yc,zc,T*.1,s)
+
+		if T%15==s then
+			addDot(xst,yst,ast)
+		end
 	end
 
-	if T%3==1 then
-		local x=S(T*.02)*120+120
-		local y=C(T*4)*30+30
-		addDot(x,y)
-	end
-
+	local lastp=0
 	for y=0,136 do
 		for x=0,240 do
-			if pix(x,y)>0 then
+			p=pix(x,y)
+			if p>0 then
 				local dx,dy=x-120,y-68
 				local d=(dx^2+dy^2)^0.7
 				local a=A(dx,dy)
-				local p=
-					8+
-					S(a^2.5+T*.01+S(d*.1))*7
-				pix(x,y,p)
+				local p=p*5+
+					S(a^2)+S(d*.05+T*.1)
+				pix(x,y,2+(p%14))
+			elseif(lastp>0)then
+				pix(x,y,1)
 			end
+			lastp=p
 		end
 	end
-	
+
+	print("jtruk",209,129,1)
+	print("jtruk",208,128,15)
+
 	vbank(0)
 	for y=0,136 do
 		for x=0,240 do
 			local dx,dy=x-120,y-68
 			local d=(dx^2+dy^2)^0.7
 			local a=A(dx,dy)
---			local p=1+C(T*.1)+d^1.1*(C(T*.01+a/PI2)*.2)
 			local p=
-				8+
-				C(d*.1+T*S(T*.03))*.5+S(a^2+T*.01+d*.01+C(a^2))*3
+				8
+				+S(
+					d*.03
+					-T*.2
+					+d*.005+a
+				)*7
 			pix(x,y,p)
 		end
 	end
@@ -129,35 +135,31 @@ function TIC()
 end
 
 function drawStar(xc,yc,zc,a,c)
+	local xcp,ycp,zcp=proj(xc,yc,zc)
+	local size=100/zcp
+
 	for p=0,4 do
 		local a0=p/5*PI2+a
-		xc,yc,zc=proj(xc,yc,zc)
-		local size=zc^.5
-		local xi0=xc+S(a0)*size
-		local yi0=yc+C(a0)*size
+		local xi0=xcp+S(a0)*size
+		local yi0=ycp+C(a0)*size
 		local a1=(p+1)/5*PI2+a
-		local xi1=xc+S(a1)*size
-		local yi1=yc+C(a1)*size
+		local xi1=xcp+S(a1)*size
+		local yi1=ycp+C(a1)*size
 		
 		local a2=(p+.5)/5*PI2+a
-		local xo=xc+S(a2)*size*2
-		local yo=yc+C(a2)*size*2
-
---		xi0,yi0,z0=proj(xi0,yi0,z)
-	--	xi1,yi1,z1=proj(xi1,yi1,z)
-	--	xo,yo,zo=proj(xo,yo,z)
+		local xo=xcp+S(a2)*size*2
+		local yo=ycp+C(a2)*size*2
 		
-		tri(xc,yc,xi0,yi0,xi1,yi1,c)
-		tri(xi0,yi0,xi1,yi1,xo,yo,c)
+		tri(xcp,ycp,xi0,yi0,xi1,yi1,1+c%15)
+		tri(xi0,yi0,xi1,yi1,xo,yo,1+c%15)
 	end
 	
-	return xc,yc
+	return xcp,ycp,a
 end
 
 function proj(x,y,z)
-	pz=z/100
 	return
-		120+(x/pz),
-		68+(y/pz),
+		120+(x/z),
+		68+(y/z),
 		z
 end
