@@ -3,6 +3,7 @@
     "started": "2024-04-29",
     "date": "29 April 2024",
     "type": "ZX Spectrum Showdown",
+    "website":"https://events.retroscene.org/mf2024",
     "vod": null,
     "software_used": [
         {
@@ -88,13 +89,6 @@
                 }
             ],
             "staffs": [
-                {
-                    "handle": {
-                        "name": "bfox",
-                        "demozoo_id": 9743
-                    },
-                    "job": "MC"
-                  }
             ]
         }
     ],
