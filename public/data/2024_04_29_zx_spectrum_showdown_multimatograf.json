@@ -21,7 +21,7 @@
             "entries": [
                 {
                     "id": null,
-                    "rank": null,
+                    "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "gogin",
@@ -34,7 +34,7 @@
                 },
                 {
                     "id": null,
-                    "rank": null,
+                    "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "nyuk",
@@ -63,7 +63,7 @@
             "entries": [
                 {
                     "id": null,
-                    "rank": null,
+                    "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "bfox",
@@ -76,7 +76,7 @@
                 },
                 {
                     "id": null,
-                    "rank": null,
+                    "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "nikhotmsk",
@@ -86,6 +86,76 @@
                     "tic80_cart_id": null,
                     "source_file": "/shader_file_sources/2024_04_29_zx_spectrum_showdown_multimatograf/semis/nikhotmsk.asm",
                     "preview_image": "2024_04_29_zx_spectrum_showdown_multimatograf/semis/nikhotmsk.png"
+                }
+            ],
+            "staffs": [
+            ]
+        },
+        {
+            "title": "Grand Final",
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "nyuk",
+                        "demozoo_id": 43587
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_04_29_zx_spectrum_showdown_multimatograf/finals/nyuk.asm",
+                    "preview_image": "2024_04_29_zx_spectrum_showdown_multimatograf/finals/nyuk.png"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "nikhotmsk",
+                        "demozoo_id": 132977
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_04_29_zx_spectrum_showdown_multimatograf/finals/nikhotmsk.asm",
+                    "preview_image": "2024_04_29_zx_spectrum_showdown_multimatograf/finals/nikhotmsk.png"
+                }
+            ],
+            "staffs": [
+            ]
+        },
+        {
+            "title": "3rd place Final",
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "gogin",
+                        "demozoo_id": 12629
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_04_29_zx_spectrum_showdown_multimatograf/finals/gogin.asm",
+                    "preview_image": "2024_04_29_zx_spectrum_showdown_multimatograf/finals/gogin.png"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "bfox",
+                        "demozoo_id": 9743
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_04_29_zx_spectrum_showdown_multimatograf/finals/bfox.asm",
+                    "preview_image": "2024_04_29_zx_spectrum_showdown_multimatograf/finals/bfox.png"
                 }
             ],
             "staffs": [
