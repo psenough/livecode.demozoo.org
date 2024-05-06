@@ -1,11 +1,11 @@
 {
-    "title": "Revision 2024",
+    "title": "Revision",
     "started": "2024-03-29",
     "date": "29 March 2024",
     "type": "Shader Showdown",
     "website": "https://2024.revision-party.net/",
     "flyer": "",
-    "vod":null,
+    "vod": null,
     "software_used": [
         {
             "name": "Bonzomatic",
