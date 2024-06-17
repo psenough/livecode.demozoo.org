@@ -1,5 +1,5 @@
 Flask==2.3.3
-flask-minify[all]
+flask-minify[go]
 Frozen-Flask
 beautifulsoup4
 html5lib
