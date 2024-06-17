@@ -1,0 +1,134 @@
+{
+    "title": "Synergy",
+    "started": "2024-05-04",
+    "date": "4 May 2024",
+    "type": "ZX Spectrum Jam",
+    "vod": "https://www.youtube.com/watch?v=dIC6XuCkBnk&ab_channel=In%C3%A9rciaDemoparty",
+    "software_used": [
+        {
+            "name": "Bazematic",
+            "url": "https://github.com/gasman/bazematic",
+            "version": "2024-05-02",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "ZX Spectrum Jam",
+            "vod": "https://www.youtube.com/watch?v=dIC6XuCkBnk&ab_channel=In%C3%A9rciaDemoparty",
+            "keyword": null,
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "lordcoxis",
+                        "demozoo_id": 8935
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "https://files.scene.org/get/parties/2024/synergy24/bazematic_jam/lordcoxis.asm",
+                    "preview_image": "2024_05_04_zx_spectrum_jam_synergy/lordcoxis.png"
+                },
+                {
+                    "id": 2,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "mr_spiv",
+                        "demozoo_id": 2926
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "https://files.scene.org/get/parties/2024/synergy24/bazematic_jam/mr_spiv.asm",
+                    "preview_image": "2024_05_04_zx_spectrum_jam_synergy/mr_spiv.png"
+                },
+                {
+                    "id": 3,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rzxm",
+                        "demozoo_id": 141732
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "https://files.scene.org/get/parties/2024/synergy24/bazematic_jam/rzxm.asm",
+                    "preview_image": "2024_05_04_zx_spectrum_jam_synergy/rzxm.png"
+                },
+                {
+                    "id": 4,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "sq",
+                        "demozoo_id": 9554
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "https://files.scene.org/get/parties/2024/synergy24/bazematic_jam/sq.asm",
+                    "preview_image": "2024_05_04_zx_spectrum_jam_synergy/sq.png"
+                },
+                {
+                    "id": 5,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "https://files.scene.org/get/parties/2024/synergy24/bazematic_jam/gasman.asm",
+                    "preview_image": "2024_05_04_zx_spectrum_jam_synergy/gasman.png"
+                },
+                {
+                    "id": 6,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "tmk",
+                        "demozoo_id": 9182
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "https://files.scene.org/get/parties/2024/synergy24/bazematic_jam/tmk.asm",
+                    "preview_image": "2024_05_04_zx_spectrum_jam_synergy/tmk.png"
+                },
+                {
+                    "id": 7,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "https://files.scene.org/get/parties/2024/synergy24/bazematic_jam/superogue.asm",
+                    "preview_image": "2024_05_04_zx_spectrum_jam_synergy/superogue.png"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "jeenio",
+                        "demozoo_id": 3048
+                    },
+                    "job": "DJ Set"
+                  }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "ps",
+                "demozoo_id": 313
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4904
+}
