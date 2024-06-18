@@ -2,7 +2,7 @@
     "title": "@Party 2024",
     "started": "2024-05-14",
     "date": "14 June 2024",
-    "type": "Shader Jam",
+    "type": "Live Performance",
     "website": "http://atparty-demoscene.net/",
     "flyer": "",
     "vod":"https://scenesat.com/videoarchive/0c86061b-2bc5-11ef-9de6-00505685775e?t=30350#show-0c86061b-2bc5-11ef-9de6-00505685775e",
@@ -35,10 +35,10 @@
             "staffs": [
                  {
                     "handle": {
-                        "name": "jimbooooo",
-                        "demozoo_id": null
+                        "name": "jimbo00000",
+                        "demozoo_id": 62356
                     },
-                    "job": "DJ"
+                    "job": "Live Music"
                 }
             ]
         }
