@@ -1,0 +1,85 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2023-01-02",
+    "date": "02 January 2023",
+    "type": "Byte Jam",
+    "website": "https://field-fx.party",
+    "flyer": "",
+    "vod": "",
+    "software_used": [
+      {
+        "name": "TIC-80 FFT Hack",
+        "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+        "version": "tic80showdown FFT Hack v1.0.2",
+        "purpose": "Graphic"
+      }
+    ],
+    "phases": [
+      {
+        "title": null,
+        "vod": null,
+        "entries": [
+          {
+            "id": null,
+            "rank": null,
+            "points": null,
+            "handle": {
+              "name": "Mantratronic",
+              "demozoo_id": 20215
+            },
+              "shadertoy_url": null,
+            "source_file": "/shader_file_sources/2023_01_02_byte_jam_monday_night_bytes/mantratronic.lua",
+            "preview_image": "2023_01_02_byte_jam_monday_night_bytes/mantratronic.png"
+          },
+          {
+            "id": null,
+            "rank": null,
+            "points": null,
+            "handle": {
+                "name": "Kii",
+                "demozoo_id": 135296
+            },
+            "shadertoy_url": null,
+            "source_file": "/shader_file_sources/2023_01_02_byte_jam_monday_night_bytes/kiikrindar.lua",
+            "preview_image": "2023_01_02_byte_jam_monday_night_bytes/kiikrindar.gif"
+        },
+          {
+            "id": null,
+            "rank": null,
+            "points": null,
+            "handle": {
+              "name": "TôBach",
+              "demozoo_id": 89891
+            },
+              "shadertoy_url": null,
+            "source_file": "/shader_file_sources/2023_01_02_byte_jam_monday_night_bytes/tobach.lua",
+            "preview_image": "2023_01_02_byte_jam_monday_night_bytes/tobach.gif"
+          },
+          {
+            "id": null,
+            "rank": null,
+            "points": null,
+            "handle": {
+              "name": "Alia",
+              "demozoo_id": 113525
+            },
+              "shadertoy_url": null,
+            "source_file": "/shader_file_sources/2023_01_02_byte_jam_monday_night_bytes/alia.lua",
+            "preview_image": "2023_01_02_byte_jam_monday_night_bytes/alia.gif"
+          }
+        ],
+        "staffs": []
+      }
+    ],
+      "staffs": [
+      {
+        "handle": {
+          "name": "Aldroid",
+          "demozoo_id": 63755
+        },
+        "job": "Organizers"
+      }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+  }
+  
