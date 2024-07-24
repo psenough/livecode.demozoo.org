@@ -1,0 +1,104 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2024-07-22",
+    "date": "22 July 2024",
+    "type": "ShaderByte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Catnip",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_22_shader_byte_jam_monday_night_bytes/grabber_fieldfx_Catnip.jpg",
+                    "source_file": "/shader_file_sources/2024_07_22_shader_byte_jam_monday_night_bytes/grabber_fieldfx_Catnip.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Ciosai",
+                        "demozoo_id": 142051
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_22_shader_byte_jam_monday_night_bytes/grabber_fieldfx_Ciosai.jpg",
+                    "source_file": "/shader_file_sources/2024_07_22_shader_byte_jam_monday_night_bytes/grabber_fieldfx_Ciosai.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Peregrine",
+                        "demozoo_id": 122747
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_22_shader_byte_jam_monday_night_bytes/grabber_fieldfx_peregrine.jpg",
+                    "source_file": "/shader_file_sources/2024_07_22_shader_byte_jam_monday_night_bytes/grabber_fieldfx_peregrine.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "enfys",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_22_shader_byte_jam_monday_night_bytes/enfys-fieldfxmonday-1.gif",
+                    "source_file": "/shader_file_sources/2024_07_22_shader_byte_jam_monday_night_bytes/enfys-fieldfxmonday-1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "roeltje",
+                        "demozoo_id": 44279
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_22_shader_byte_jam_monday_night_bytes/roeltje-bytejam1.gif",
+                    "source_file": "/shader_file_sources/2024_07_22_shader_byte_jam_monday_night_bytes/roeltje-bytejam1.lua"
+                }
+               
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Alkama",
+                        "demozoo_id": 1382
+                        },
+                    "job": "DJ set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}
