@@ -19,7 +19,7 @@ layout(location = 0) out vec4 out_color; // out_color must be written in order t
 
 #define FFT(f) (10. * texture(texFFT, f).x)
 #define PI 3.1415926535897932
-#define T fGlobalTime
+#define T (.5 * fGlobalTime)
 #define TAU (2. * PI)
 
 mat3 yaw(float a) {
@@ -37,8 +37,9 @@ mat3 roll(float a) {
   return mat3(1., 0., 0., 0., c, s, 0., -s, c);
 }
 
-mat3 rotation() {
-  return yaw(T) * pitch(T) * roll(T);
+mat3 rotation(void) {
+  float s = .05;
+  return yaw(T + s * FFT(0.)) * pitch(T + s * FFT(.5)) * roll(T + s * FFT(1.));
 }
 
 vec3 palette(float x) {
@@ -52,7 +53,7 @@ vec3 palette(float x) {
 vec3 dots(vec2 uv) {
   float d = length(uv);
   uv = fract(20. * uv) - .5;
-  float r = sin(TAU * (T - d - FFT(.5))) * .25 + .25;
+  float r = sin(TAU * (T - d)) * .25 + .25;
   vec3 c = palette(d - FFT(0.));
   return c * step(0., r - length(uv));
 }
@@ -66,9 +67,11 @@ float sdf(vec3 p) {
   float d = 1000.;
   p *= rotation();
   for (float i = 0.; i < 3.; i++) {
-    for (float j = 0.; j < 3; i++) {
-      float c = sdf_box(p - vec3(i, j, 0.), vec3(.5), .1);
-      d = min(d, c);
+    for (float j = 0.; j < 3; j++) {
+      for (float k = 0.; k < 3; k++) {
+        float c = sdf_box(p + (vec3(i, j, k) - 1.)/.8, vec3(.5), .1);
+        d = min(d, c);
+      }
     }
   }
   return d;
@@ -95,15 +98,19 @@ vec3 uv_map(vec3 p, vec3 n, mat3 r, float k) {
   return (x * w.x + y * w.y + z * w.z) / (w.z + w.y + w.z);
 }
 
+#define rot(a) mat2(cos(a), sin(a), -sin(a), cos(a))
+
 void main(void) {
   vec2 uv = (gl_FragCoord.xy * 2. - v2Resolution.xy) / v2Resolution.y;
 	vec3 c = vec3(0.),
-       ro = vec3(0., 0., -3.),
+       ro = vec3(0., 0., -4.),
        rd = normalize(vec3(uv, 1.)),
        lo = ro,
        p = ro;
   float d;
    
+  uv *= rot(FFT(.0));
+  uv *= FFT(.5)/2.;
   c = .1 * dots(uv);
   
   for (int i = 0; i < 128; i++) {
