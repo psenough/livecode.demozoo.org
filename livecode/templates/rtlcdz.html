@@ -1,0 +1,45 @@
+{% extends '_base.html' %}
+{%block opengraph %}
+<meta property="og:title" content="RealTime livecode.demozoo.org">
+<meta property="og:description" 
+  content="RealTime ivecode.demozoo.org" />
+{% endblock%}
+{% block title%}About{% endblock%}
+{% block body %}
+<div class="pure-u-1 page-header">
+    <h1>About</h1>
+</div>
+<div class="pure-grid about-page">
+<div class="pure-u-1">
+    <h2>Realtime LCDZ</h2>
+    <p>
+      Thanks to modern networking technology and result of archiving process, we make it possible to directly load bonzomatic glsl from lcdz's pages.
+<ul>
+ <li>Download latest version of <a href="https://github.com/wrightwriter/Bonzomatic-Compute/releases" target="_blank">Bonzomatic</a></li>
+ <li>Run is as grabber with following parameters </li>
+  <ul>
+  <li><b>Server:</b> <pre style="display: inline-block;">ws://drone.alkama.com:9000</pre> or for ssl <pre style="display: inline-block;">wss://bonzomatic.totetmatt.fr:9000</pre> </li>
+  <li><b>Room:</b> <pre id="roomname" style="display: inline-block;">lcdz</pre> </li>
+  <script>
+    document.getElementById("roomname").innerHTML = roomname;
+  </script>
+  <li><b>Nickname:</b> <pre style="display: inline-block;">lcdz</pre></li>
+  <li>The complete url should looks like  <pre id="fullwsurl"></pre>or <pre id="fullwssurl"></pre></li>
+  <script>
+    document.getElementById("fullwssurl").innerHTML = get_rtlcdz_wss_url();
+    document.getElementById("fullwsurl").innerHTML = get_rtlcdz_ws_url();
+  </script>
+  </ul>
+ <li>Browse Lcdz, click on available '▶️' next otthe source to load it to your bonzomatic</li>
+</ul>
+
+For the moment, only Bonzomatic shaders that has been archived are available, but other app might be possible in the future.
+    </p>
+  </div>
+
+  
+
+  <br />
+
+</div>
+{% endblock %}

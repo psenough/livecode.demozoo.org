@@ -24,6 +24,46 @@
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="1280">
     <meta property="og:image:height" content="720">
+    <script>
+        let roomname = localStorage.getItem("roomname");
+        if(roomname === null || roomname === undefined ||roomname === "") {
+            // Generating unique room name to avoid collision
+            roomname = "lcdz_" + (Math.random()+"").substr(2)
+            localStorage.setItem("roomname",roomname);
+        }
+
+        function get_rtlcdz_wss_url() {
+            return `wss://bonzomatic.totetmatt.fr:9000/${localStorage.getItem("roomname")}/lcdz`
+        }
+        function get_rtlcdz_ws_url() {
+            return `ws://drone.alkama.com:9000/${localStorage.getItem("roomname")}/lcdz`
+        }
+        function add_rtlcdz(shader_source){
+          
+                fetch(shader_source).then(v => {
+                    v.text().then(content=> {
+                        let data =  {
+                            "Data": {
+                                "Anchor": 0,
+                                "Caret": 0,
+                                "Code":  content,
+                                "Compile": true,
+                                "FirstVisibleLine": 0,
+                                "NickName": "lcdz",
+                                "RoomName": "lcdz",
+                                "ShaderTime": 0
+                            }
+                        }
+                        let ws_client = new WebSocket(get_rtlcdz_wss_url());
+                        ws_client.addEventListener("open", (event) => {
+                            ws_client.send(JSON.stringify(data)+"\0");
+                            ws_client.close();
+                        });
+                    });
+                });
+          
+        }
+    </script>
 </head>
 
 <body>
@@ -47,6 +87,7 @@
         <div class="banner">
              
             <a class="pure-button {%if nav_context.about %}button-performer-selected{%endif%}" href="{{url_for('about')}}#mc">About</a>
+            <a class="pure-button {%if nav_context.about %}button-performer-selected{%endif%}" href="{{url_for('rtlcdz')}}#mc">Real Time LCDZ</a>
             <!--<a class="pure-button {%if nav_context.upcomings %}button-performer-selected{%endif%}" href="{{url_for('upcomings')}}">Upcoming</a>-->
 			<a class="pure-button {%if nav_context.performer%}button-performer-selected{%endif%}"href="{{url_for('all_performer')}}#mc">Performers</a>
              

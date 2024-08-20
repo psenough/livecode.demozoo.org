@@ -10,7 +10,7 @@
             
             {%if entry.shadertoyUrl %}<tr><td class="entry-info-label">Shadertoy:</td><td>{{shadertoy_link(entry.shadertoyUrl)}}</td></tr> {%endif%}
             {%if entry.tic80CartId %}<tr><td class="entry-info-label">TIC80.com:</td><td>{{tic_80_link(entry.tic80CartId)}}</td></tr> {%endif%}
-            {%if entry.sourceFile %}<tr><td class="entry-info-label">Source Code:</td><td>{{download_link(entry.sourceFile)}}</td></tr> {%endif%}
+            {%if entry.sourceFile %}<tr><td class="entry-info-label">Source Code:</td><td>{{download_link(entry.sourceFile)}}  {%if ".glsl" in entry.sourceFile %}<a href="#rt" onclick="javascript:add_rtlcdz('{{entry.sourceFile|safe }}');">▶️</a> {%endif%}</td></tr> {%endif%}
         </tbody>
     </table>
 </div>

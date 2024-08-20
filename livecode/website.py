@@ -34,6 +34,7 @@ def nav_context(
     event=None,
     about=None,
     upcomings=None,
+    rtlcdz=None
 ):
     return {
         'year': year,
@@ -43,6 +44,7 @@ def nav_context(
         'eventType': event_type,
         'about': about,
         'upcomings': upcomings,
+        'rtlcdz':rtlcdz
     }
 
 
@@ -58,6 +60,12 @@ def about():
         "about.html", nav_context=nav_context(about=True), **common.data
     )
 
+@app.route("/rtlcdz.html")
+def rtlcdz():
+    common = _get_common_data()
+    return render_template(
+        "rtlcdz.html",nav_context=nav_context(rtlcdz=True), **common.data
+    )
 
 @app.route("/upcomings.html")
 def upcomings():
