@@ -12,6 +12,12 @@
             "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
             "version": "tic80showdown Alice fork v0.0.5",
             "purpose": "Graphic"
+        },
+        {
+            "name": "Byte Jammer",
+            "url": "https://github.com/creativenucleus/bytejammer",
+            "version" : "",
+            "purpose": "System"
         }
     ],
     "phases": [
