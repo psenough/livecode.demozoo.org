@@ -28,20 +28,20 @@
                         "demozoo_id": 63755
                     },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2024_09_13_byte_jam_skrolli/aldroid.gif",
+                    "source_file": "/shader_file_sources/2024_09_13_byte_jam_skrolli/aldroid.lua"
                 },
                 {
                     "id": null,
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "geekou",
+                        "name": "g33kou",
                         "demozoo_id": 143232
                     },
                     "shadertoy_url": null,
                     "preview_image": "2024_09_13_byte_jam_skrolli/geekou.gif",
-                    "source_file": "/shader_file_sources/2024_09_13_byte_jam_skrolli/geekou.lua"
+                    "source_file": "/shader_file_sources/2024_09_13_byte_jam_skrolli/g33kou.lua"
                 },
                 {
                     "id": null,
