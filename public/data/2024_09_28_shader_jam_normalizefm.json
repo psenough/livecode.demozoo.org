@@ -34,8 +34,8 @@
                         "demozoo_id": 128318
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/M32cRc",
-                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_normalizefm_0b5vr.jpg",
-                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_normalizefm_0b5vr.glsl"
+                    "preview_image": "2024_09_28_shader_jam_normalizefm/grabber_normalizefm_0b5vr.jpg",
+                    "source_file": "/shader_file_sources/2024_09_28_shader_jam_normalizefm/grabber_normalizefm_0b5vr.glsl"
                 },
                 {
                     "id": null,
@@ -46,8 +46,8 @@
                         "demozoo_id": 63869
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/XX2yRt",
-                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_normalizefm_gam0022.jpg",
-                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_normalizefm_gam0022.glsl"
+                    "preview_image": "2024_09_28_shader_jam_normalizefm/grabber_normalizefm_gam0022.jpg",
+                    "source_file": "/shader_file_sources/2024_09_28_shader_jam_normalizefm/grabber_normalizefm_gam0022.glsl"
                 },
                 {
                     "id": null,
@@ -58,8 +58,8 @@
                         "demozoo_id": 128644
                     },
                     "shadertoy_url": "https://www.shadertoy.com/view/l32cz3",
-                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_normalizefm_Kamoshika.jpg",
-                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_normalizefm_Kamoshika.glsl"
+                    "preview_image": "2024_09_28_shader_jam_normalizefm/grabber_normalizefm_Kamoshika.jpg",
+                    "source_file": "/shader_file_sources/2024_09_28_shader_jam_normalizefm/grabber_normalizefm_Kamoshika.glsl"
                 },
                 {
                     "id": null,
@@ -70,19 +70,17 @@
                         "demozoo_id": 137275
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_normalizefm_renard.jpg",
-                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_normalizefm_renard.glsl"
+                    "preview_image": "2024_09_28_shader_jam_normalizefm/grabber_normalizefm_renard.jpg",
+                    "source_file": "/shader_file_sources/2024_09_28_shader_jam_normalizefm/grabber_normalizefm_renard.glsl"
                 }
             ],
             "staffs": [
                 {
                     "handle": {
-                        "handle": {
-                            "name": "niko_14",
-                            "demozoo_id": null
-                        },
-                        "job": "Livecode Music"
-                    }
+                        "name": "niko_14",
+                        "demozoo_id": null
+                    },
+                    "job": "Livecode Music"
                 }
             ]
         }
