@@ -42,6 +42,42 @@
                     "shadertoy_url": null,
                     "preview_image": null,
                     "source_file": "/shader_file_sources/2024_09_29_shader_jam_monday_night_bytes/grabber_fieldfx_catnip.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroidia",
+                        "demozoo_id": 63755
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Marex",
+                        "demozoo_id": 131937
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": 113559
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
