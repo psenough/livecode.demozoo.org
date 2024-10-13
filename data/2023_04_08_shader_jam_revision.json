@@ -1,0 +1,287 @@
+{
+    "title": "Revision",
+    "started": "2023-04-08",
+    "date": "07 - 10 April 2023",
+    "type": "Shader Jam",
+    "website": "https://2023.revision-party.net/",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v13",
+            "version": "NuSan - v13",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": "https://www.youtube.com/watch?v=4PLvWh8-z2M",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "0b5vr",
+                        "demozoo_id": 128318
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/DsGXW1",
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_0b5vr.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_0b5vr.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_aldroid.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_aldroid.glsl"
+                }
+                ,
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "alien",
+                        "demozoo_id": 108887
+                    },
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/TKSM7upc3kIUFHks8z3m",
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_alien.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_alien.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "cosamentale",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dok",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_dok.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_dok.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "eimink",
+                        "demozoo_id": 32692
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/dsySW1",
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_eimink.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_eimink.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "exca",
+                        "demozoo_id": 35897
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/DdGXW1",
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_exca.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_exca.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "flopin",
+                        "demozoo_id": 88962
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_flopin.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_flopin.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Ivan Dianov",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_ivan_dianov.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_ivan_dianov.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "kali",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/ddySWh",
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_kali.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_kali.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "kostik",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/dsyXW1",
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_kostik.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_kostik.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_nusan.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_nusan.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rimina",
+                        "demozoo_id": 56489
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_rimina.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_rimina.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "silvester747",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_silvester747.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_silvester747.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_superogue.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_superogue.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_totetmatt.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_visy.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_visy.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wbcbz7",
+                        "demozoo_id": 45761
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_wbcbz7.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_wbcbz7.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Xor",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_08_shader_jam_revision/grabber_revision2023_xor.jpg",
+                    "source_file": "/shader_file_sources/2023_04_08_shader_jam_revision/grabber_revision2023_Xor.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Vj"
+                },
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": 1525
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "ps",
+                "demozoo_id": 313
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "totetmatt",
+                "demozoo_id": 121811
+            },
+            "job": "Assistant"
+        }
+    ],
+    "demozoo_party_id":4569
+}

@@ -1,0 +1,83 @@
+{
+    "title": "Lovebyte",
+    "started": "2024-02-11",
+    "date": "11 February 2024",
+    "type": "ZX Spectrum Jam",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bazematic",
+            "url": "https://github.com/gasman/bazematic",
+            "version": "2024-02-07",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "ZX Spectrum Jam",
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_02_11_zx_spectrum_jam_lovebyte/superogue.asm",
+                    "preview_image": "2024_02_11_zx_spectrum_jam_lovebyte/superogue.png"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_02_11_zx_spectrum_jam_lovebyte/gasman.asm",
+                    "preview_image": "2024_02_11_zx_spectrum_jam_lovebyte/gasman.png"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "RaccoonViolet",
+                        "demozoo_id": 90373
+                    },
+                    "job": "DJ Set"
+                  }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "RaccoonViolet",
+                "demozoo_id": 90373
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "superogue",
+                "demozoo_id": 617
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Gasman",
+                "demozoo_id": 5879
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4760
+}

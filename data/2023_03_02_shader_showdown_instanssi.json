@@ -1,0 +1,259 @@
+{
+    "title": "Instanssi Varjostimien Näytösottelu",
+    "started": "2023-03-02",
+    "date": "02 - 05 March 2023",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/Gargaj/Bonzomatic/releases/tag/2022-07-08",
+            "version": "Gargaj - 2022-07-08",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Texture Pack",
+            "url": "/shader_file_sources/2023_03_02_shader_showdown_instanssi/textures.zip",
+            "version": "Instanssi",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Round 1.1",
+            "vod": "https://www.youtube.com/watch?v=E3V8XW_do2A",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_03_02_shader_showdown_instanssi/r1_pumpuli.jpg",
+                    "source_file": "/shader_file_sources/2023_03_02_shader_showdown_instanssi/r1_pumpuli.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Kahvi",
+                        "demozoo_id": 30233
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_03_02_shader_showdown_instanssi/r1_Kahvi.jpg",
+                    "source_file": "/shader_file_sources/2023_03_02_shader_showdown_instanssi/r1_Kahvi.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Danacat",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "Papumaja",
+                        "demozoo_id": 76637
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }, {
+            "title": "Round 1.2",
+            "vod": "https://www.youtube.com/watch?v=E3V8XW_do2A&t=1770s",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Papumaja",
+                        "demozoo_id": 76637
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Gemppu",
+                        "demozoo_id": 87308
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Danacat",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "Pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }, {
+            "title": "Round 2.1",
+            "vod": "https://www.youtube.com/watch?v=E3V8XW_do2A&t=3260s",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Nordic Goat",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Kahvikello",
+                        "demozoo_id": 60491
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Danacat",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "Pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }, {
+            "title": "Round 2.2",
+            "vod": "https://www.youtube.com/watch?v=E3V8XW_do2A&t=4855s",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Papumaja",
+                        "demozoo_id": 76637
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Kahvikello",
+                        "demozoo_id": 60491
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_03_02_shader_showdown_instanssi/r2.2_Kahvi.jpg",
+                    "source_file": "/shader_file_sources/2023_03_02_shader_showdown_instanssi/r2.2_Kahvi.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Danacat",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "Pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }, {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=yxY25wbnFxE",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Papumaja",
+                        "demozoo_id": 76637
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Nordic Goat",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_03_02_shader_showdown_instanssi/r3_NordicGoat.jpg",
+                    "source_file": "/shader_file_sources/2023_03_02_shader_showdown_instanssi/r3_NordicGoat.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Danacat",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "BFlorry",
+                        "demozoo_id": 112769
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Pumpuli",
+                "demozoo_id": 22208
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4520
+}
