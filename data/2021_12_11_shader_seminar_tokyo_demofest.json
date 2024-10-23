@@ -1,0 +1,104 @@
+{
+    "title": "Tokyo Demo Fest",
+    "started": "2021-12-11",
+    "date": "11 - 12 December 2021",
+    "type": "Shader Code Seminar",
+    "website": "https://tokyodemofest.jp",
+    "flyer": "",
+    "software_used": [],
+    "vod": "https://youtu.be/2s9KfMn1J9M?t=1483",
+    "phases": [
+        {
+            "title": "\u30ec\u30a4\u30de\u30fc\u30c1\u30f3\u30b01\u304b\u30895",
+            "vod": "https://www.youtube.com/watch?v=E0dsqlajCM4",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "0b5vr",
+                        "demozoo_id": 128318
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_12_11_shader_seminar_tokyo_demofest/2021_tdf_0b5vr.png",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_seminar_tokyo_demofest/2021_TDF_0b5vr.pdf"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "0b5vr",
+                "demozoo_id": 128318
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "aonoro",
+                "demozoo_id": 83577
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Falken",
+                "demozoo_id": 816
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "gyabo",
+                "demozoo_id": 17562
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Hole",
+                "demozoo_id": 24018
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "i-saint",
+                "demozoo_id": 24019
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Kioku",
+                "demozoo_id": 13188
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "notargs",
+                "demozoo_id": 63871
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "FL1NE",
+                "demozoo_id": 24017
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Zavie",
+                "demozoo_id": 985
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4357
+}
