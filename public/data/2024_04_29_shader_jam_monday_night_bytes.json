@@ -28,8 +28,8 @@
                         "demozoo_id": 22208
                       },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": "/shader_file_sources/2024_09_29_shader_jam_monday_night_bytes/grabber_fieldfx_pumpuli.glsl"
+                    "preview_image": "2024_04_29_shader_jam_monday_night_bytes/grabber_mondaynightbytes_pumpuli.jpg",
+                    "source_file": "/shader_file_sources/2024_04_29_shader_jam_monday_night_bytes/grabber_fieldfx_pumpuli.glsl"
                 },
                 {
                     "id": null,
@@ -40,8 +40,8 @@
                         "demozoo_id": 113525
                       },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": "/shader_file_sources/2024_09_29_shader_jam_monday_night_bytes/grabber_fieldfx_catnip.glsl"
+                    "preview_image": "2024_04_29_shader_jam_monday_night_bytes/grabber_mondaynightbytes_catnip.jpg",
+                    "source_file": "/shader_file_sources/2024_04_29_shader_jam_monday_night_bytes/grabber_fieldfx_catnip.glsl"
                 },
                 {
                     "id": null,
@@ -52,8 +52,8 @@
                         "demozoo_id": 63755
                       },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": "/shader_file_sources/2024_09_29_shader_jam_monday_night_bytes/sender_fieldfx_catnip.glsl"
+                    "preview_image": "2024_04_29_shader_jam_monday_night_bytes/grabber_mondaynightbytes_aldroidia.jpg",
+                    "source_file": "/shader_file_sources/2024_04_29_shader_jam_monday_night_bytes/grabber_fieldfx_aldroidia.glsl"
                 },
                 {
                     "id": null,
@@ -64,8 +64,8 @@
                         "demozoo_id": 131937
                       },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2024_04_29_shader_jam_monday_night_bytes/grabber_mondaynightbytes_Marex.jpg",
+                    "source_file": "/shader_file_sources/2024_04_29_shader_jam_monday_night_bytes/grabber_fieldfx_Marex.glsl"
                 },
                 {
                     "id": null,
@@ -76,8 +76,8 @@
                         "demozoo_id": 113559
                       },
                     "shadertoy_url": null,
-                    "preview_image": null,
-                    "source_file": null
+                    "preview_image": "2024_04_29_shader_jam_monday_night_bytes/grabber_mondaynightbytes_wrighter.jpg",
+                    "source_file": "/shader_file_sources/2024_04_29_shader_jam_monday_night_bytes/grabber_fieldfx_wrighter.glsl"
                 }
             ],
             "staffs": [
