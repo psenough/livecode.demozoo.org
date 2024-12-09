@@ -385,7 +385,7 @@
                     "points": null,
                     "handle": {
                         "name": "viimataeti",
-                        "demozoo_id": null
+                        "demozoo_id": 32692
                       },
                     "shadertoy_url": "https://www.shadertoy.com/view/4c3BWf",
                     "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_viimataeti.jpg",
@@ -433,7 +433,7 @@
                 {
                     "handle": {
                         "name": "var.rho",
-                        "demozoo_id": null
+                        "demozoo_id": 21681
                     },
                     "job": "DJ"
                 }
