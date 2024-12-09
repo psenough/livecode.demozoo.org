@@ -1,0 +1,63 @@
+{
+    "title": "NODE20 \u2013 Second Nature ",
+    "started": "2020-10-07",
+    "date": "07 October 2020",
+    "type": "Shader Jam",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v09",
+            "version": "NuSan - v09",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Live Coding Session Part I",
+            "vod": "https://www.youtube.com/watch?v=ebF2oK1yvO8&t=23123s",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Live Coding Session Part II",
+            "vod": "https://youtu.be/ebF2oK1yvO8?t=25387",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Cai Shashracai",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Derek Kwan",
+                        "demozoo_id": null
+                    },
+                    "job": "Live Music"
+                }
+            ]
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": null
+}

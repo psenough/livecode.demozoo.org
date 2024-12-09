@@ -1,0 +1,190 @@
+{
+    "title": "Lovebyte",
+    "started": "2024-02-09",
+    "date": "09 February 2024",
+    "type": "Byte Jam",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Byte Jam",
+            "vod": null,
+            "entries": [
+                     
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_02_09_byte_jam_lovebyte/gasman.lua",
+                    "preview_image": "2024_02_09_byte_jam_lovebyte/gasman.gif"
+                },   
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_02_09_byte_jam_lovebyte/jtruk.lua",
+                    "preview_image": "2024_02_09_byte_jam_lovebyte/jtruk.gif"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_02_09_byte_jam_lovebyte/mantratronic.lua",
+                    "preview_image": "2024_02_09_byte_jam_lovebyte/mantratronic.png"
+                },   
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "mrsynackster",
+                        "demozoo_id": 130883
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_02_09_byte_jam_lovebyte/mrsynackster.lua",
+                    "preview_image": "2024_02_09_byte_jam_lovebyte/mrsynackster.gif"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "T\u00f4Bach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_02_09_byte_jam_lovebyte/tobach.lua",
+                    "preview_image": "2024_02_09_byte_jam_lovebyte/tobach.gif"
+                },   
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_02_09_byte_jam_lovebyte/visy.lua",
+                    "preview_image": "2024_02_09_byte_jam_lovebyte/visy.gif"
+                },   
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "vurpo",
+                        "demozoo_id": 138609
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2024_02_09_byte_jam_lovebyte/vurpo.lua",
+                    "preview_image": "2024_02_09_byte_jam_lovebyte/vurpo.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "RaccoonViolet",
+                        "demozoo_id": 90373
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "mintimperial",
+                        "demozoo_id": null
+                    },
+                    "job": "DJ Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "RaccoonViolet",
+                "demozoo_id": 90373
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "blossom",
+                "demozoo_id": 89867
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "dave84",
+                "demozoo_id": 127921
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "jeenio",
+                "demozoo_id": 3048
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "ps",
+                "demozoo_id": 313
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "superogue",
+                "demozoo_id": 617
+            },
+            "job": "Main Organizers"
+        },
+        {
+            "handle": {
+                "name": "The Watcher",
+                "demozoo_id": 15853
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4760
+}
