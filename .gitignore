@@ -5,3 +5,4 @@ venv/
 doc/schema.html
 CNAME
 .gitignore
+.DS_Store
