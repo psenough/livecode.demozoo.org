@@ -1,0 +1,316 @@
+{
+    "title": "Revision",
+    "started": "2023-04-08",
+    "date": "07 - 10 April 2023",
+    "type": "Shader Showdown",
+    "website": "https://2023.revision-party.net/",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v13",
+            "version": "NuSan - v13",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Bonzomatic Extra Texture",
+            "url": "https://livecode.demozoo.org/extra/revision_2023_extra_textures.zip",
+            "version": "Revision 2023",
+            "purpose": "Texture"
+        }
+        
+    ],
+    "phases": [
+        {
+            "title": "Qualifier 1",
+            "vod": "https://www.youtube.com/watch?v=55ybKWtfKjQ",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 803,
+                    "handle": {
+                        "name": "musk",
+                        "demozoo_id": 14411
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_07_shader_showdown_revision/q1/grabber_BACK2EWERK_musk.jpg",
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q1/grabber_BACK2EWERK_musk.glsl"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 1113,
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/DdKXWh",
+                    "preview_image": "2023_04_07_shader_showdown_revision/q1/grabber_BACK2EWERK_flopine.jpg",
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q1/grabber_BACK2EWERK_flopine.glsl"
+                },
+                {
+                    "id": 3,
+                    "rank": 3,
+                    "points": 781,
+                    "handle": {
+                        "name": "molive",
+                        "demozoo_id": 72284
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_07_shader_showdown_revision/q1/grabber_BACK2EWERK_molive.jpg",
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q1/grabber_BACK2EWERK_molive.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "subi",
+                        "demozoo_id": 21306
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Qualifier 2",
+            "vod": "https://youtu.be/55ybKWtfKjQ?t=1782",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 1163,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/wdh0cfgKU4rLwP9mlqCI",
+                    "shadertoy_url": "https://www.shadertoy.com/view/cltGW8",
+                    "preview_image": "2023_04_07_shader_showdown_revision/q2/grabber_BACK2EWERK_evvvvil.jpg",
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q2/grabber_BACK2EWERK_evvvvil.glsl"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 777,
+                    "handle": {
+                        "name": "z0rg",
+                        "demozoo_id": 114547
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_07_shader_showdown_revision/q2/grabber_BACK2EWERK_z0rg.jpg",
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q2/grabber_BACK2EWERK_z0rg.glsl"
+                },
+                {
+                    "id": 3,
+                    "rank": 3,
+                    "points": 624,
+                    "handle": {
+                        "name": "dok",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_07_shader_showdown_revision/q2/grabber_BACK2EWERK_dok.jpg",
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q2/grabber_BACK2EWERK_dok.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Jeenio",
+                        "demozoo_id": 3048
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }, {
+            "title": "Qualifier 3",
+            "vod": "https://youtu.be/55ybKWtfKjQ?t=3424",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 3,
+                    "points": 677,
+                    "handle": {
+                        "name": "cosamentale",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/DsVSRK",
+                    "preview_image": "2023_04_07_shader_showdown_revision/q3/grabber_BACK2EWERK_cosamentale.jpg",
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q3/grabber_BACK2EWERK_cosamentale.glsl"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 769,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_07_shader_showdown_revision/q3/grabber_BACK2EWERK_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q3/grabber_BACK2EWERK_totetmatt.glsl"
+                },
+                {
+                    "id": 3,
+                    "rank": 2,
+                    "points": 696,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_07_shader_showdown_revision/q3/grabber_BACK2EWERK_nusan.jpg",
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/q3/grabber_BACK2EWERK_nusan.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Jeenio",
+                        "demozoo_id": 3048
+                    },
+                    "job": "Commentators"
+                },
+               {
+                    "handle": {
+                        "name": "Alkama",
+                        "demozoo_id": 1382
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }, {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=EJ7KAD0NyGw",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 1136,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/4eTDcSYGzKdjlFmbBJ6b",
+                    "shadertoy_url": "https://www.shadertoy.com/view/mlc3W7",
+                    "preview_image": "2023_04_07_shader_showdown_revision/final/grabber_BACK2EWERK_evvvvil.jpg",
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/final/grabber_BACK2EWERK_evvvvil.glsl"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 1027,
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/cdKSDh",
+                    "preview_image": "2023_04_07_shader_showdown_revision/final/grabber_BACK2EWERK_flopine.jpg",
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/final/grabber_BACK2EWERK_flopine.glsl"
+                },
+                {
+                    "id": 3,
+                    "rank": 3,
+                    "points": 615,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_07_shader_showdown_revision/final/grabber_BACK2EWERK_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2023_04_07_shader_showdown_revision/final/grabber_BACK2EWERK_totetmatt.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Alkama",
+                        "demozoo_id": 1382
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "ps",
+                "demozoo_id": 313
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Diffty",
+                "demozoo_id": 88962
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "totetmatt",
+                "demozoo_id": 121811
+            },
+            "job": "Assistant"
+        }
+    ],
+    "demozoo_party_id":4569
+}
