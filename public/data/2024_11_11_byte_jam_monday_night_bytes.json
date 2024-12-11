@@ -1,7 +1,7 @@
 {
     "title": "Monday Night Bytes",
-    "started": "2024-08-28",
-    "date": "28 October 2024",
+    "started": "2024-11-11",
+    "date": "11 November 2024",
     "type": "Byte Jam",
     "website": "",
     "flyer": "",
@@ -24,36 +24,12 @@
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "enfys",
-                        "demozoo_id": 89891
-                    },
-                    "shadertoy_url": null,
-                    "preview_image": "2024_11_11_byte_jam_monday_night_bytes/enfys.png",
-                    "source_file": "/shader_file_sources/2024_11_11_byte_jam_monday_night_bytes/enfys.lua"
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
                         "name": "Catnip",
                         "demozoo_id": 113525
                     },
                     "shadertoy_url": null,
                     "preview_image": "2024_11_11_byte_jam_monday_night_bytes/catnip.png",
                     "source_file": "/shader_file_sources/2024_11_11_byte_jam_monday_night_bytes/catnip.lua"
-                },
-                {
-                    "id": null,
-                    "rank": null,
-                    "points": null,
-                    "handle": {
-                        "name": "pumpuli",
-                        "demozoo_id": 22208
-                	},
-                    "shadertoy_url": null,
-                    "preview_image": "2024_11_11_byte_jam_monday_night_bytes/pumpuli.png",
-                    "source_file": "/shader_file_sources/2024_11_11_byte_jam_monday_night_bytes/pumpuli.lua"
                 },
                 {
                     "id": null,
