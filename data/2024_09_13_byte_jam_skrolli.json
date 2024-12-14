@@ -1,0 +1,90 @@
+{
+    "title": "Skrolli",
+    "started": "2024-09-13",
+    "date": "13 September 2024",
+    "type": "Byte Jam",
+    "website": "https://skrolliparty.fi/2024/index.en.html",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_09_13_byte_jam_skrolli/aldroid.gif",
+                    "source_file": "/shader_file_sources/2024_09_13_byte_jam_skrolli/aldroid.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "g33kou",
+                        "demozoo_id": 143232
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_09_13_byte_jam_skrolli/geekou.gif",
+                    "source_file": "/shader_file_sources/2024_09_13_byte_jam_skrolli/g33kou.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "moziz",
+                        "demozoo_id": 52149
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_09_13_byte_jam_skrolli/moziz.gif",
+                    "source_file": "/shader_file_sources/2024_09_13_byte_jam_skrolli/moziz.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "muffintrap",
+                        "demozoo_id": 80210
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_09_13_byte_jam_skrolli/muffintrap.gif",
+                    "source_file": "/shader_file_sources/2024_09_13_byte_jam_skrolli/muffintrap.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_09_13_byte_jam_skrolli/pumpuli.gif",
+                    "source_file": "/shader_file_sources/2024_09_13_byte_jam_skrolli/pumpuli.lua"
+                }
+            ],
+            "staffs": [
+            ]
+        }
+    ],
+    "staffs": [
+    ],
+    "demozoo_party_id": 5021
+}

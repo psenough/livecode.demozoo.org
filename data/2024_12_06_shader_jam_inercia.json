@@ -1,0 +1,453 @@
+{
+    "title": "Inercia",
+    "started": "2024-12-06",
+    "date": "06 December 2024",
+    "type": "Shader Jam",
+    "website": "https://2024.inercia.pt",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroidia",
+                        "demozoo_id": 63755
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_aldroidia.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_aldroidia.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "alien",
+                        "demozoo_id": 108887
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_alien.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_alien.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "anticore",
+                        "demozoo_id": 117325
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_anticore.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_anticore.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "artemka",
+                        "demozoo_id": 45761
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_artemka.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_artemka.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "ciosai_tw",
+                        "demozoo_id": 142051
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_ciosai_tw.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_ciosai_tw.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "cosamentale",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_cosamentale.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_cosamentale.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dok",
+                        "demozoo_id": 142108
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_dok.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_dok.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Exca",
+                        "demozoo_id": 35897
+                      },
+                    "shadertoy_url": "https://www.shadertoy.com/view/4ccBDX",
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_Exca.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_Exca.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gam0022",
+                        "demozoo_id": 63869
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_gam0022.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_gam0022.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gyabo",
+                        "demozoo_id": 17562
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_gyabo.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_gyabo.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "immibis",
+                        "demozoo_id": 138870
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_immibis.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_immibis.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Ivan Dianov",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": "https://www.shadertoy.com/view/Xc3fDX",
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_ivan_dianov.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_ivan_dianov.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jeenio",
+                        "demozoo_id": 3048
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_jeenio.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_jeenio.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Kamoshika",
+                        "demozoo_id": 128644
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_Kamoshika.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_Kamoshika.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "kostik",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_kostik.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_kostik.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "LechugaFeliz",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_LechugaFeliz.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_LechugaFeliz.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Marex",
+                        "demozoo_id": 131937
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_Marex.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_Marex.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "mocoo",
+                        "demozoo_id": 133218
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_mocoo.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_mocoo.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "MrSynAckSter",
+                        "demozoo_id": 130883
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_MrSynAckSter.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_MrSynAckSter.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_NuSan.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_NuSan.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "papu",
+                        "demozoo_id": 76637
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_papu.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_papu.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "peregrine",
+                        "demozoo_id": 122747
+                      },
+                    "shadertoy_url": "https://www.shadertoy.com/view/4f3fDX",
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_peregrine.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_peregrine.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "provod",
+                        "demozoo_id": 24024
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_provod.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_provod.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_pumpuli.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_pumpuli.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Renard",
+                        "demozoo_id": 137275
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_Renard.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_Renard.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rimina",
+                        "demozoo_id": 56489
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_rimina.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_rimina.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rubix",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_rubix.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_rubix.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": 617
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_Superogue.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_Superogue.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Tater",
+                        "demozoo_id": 130920
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_Tater.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_Tater.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_totetmatt.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "viimataeti",
+                        "demozoo_id": 32692
+                      },
+                    "shadertoy_url": "https://www.shadertoy.com/view/4c3BWf",
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_viimataeti.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_viimataeti.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_visy.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_visy.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Xor",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_Xor.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_Xor.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "z0rg",
+                        "demozoo_id": 114547
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_06_shader_jam_inercia/grabber_inerciajam2024_z0rginator.jpg",
+                    "source_file": "/shader_file_sources/2024_12_06_shader_jam_inercia/grabber_inerciajam2024_z0rginator.glsl"
+                }
+               
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "var.rho",
+                        "demozoo_id": 21681
+                    },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "ps",
+                "demozoo_id": 313
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4899
+}
