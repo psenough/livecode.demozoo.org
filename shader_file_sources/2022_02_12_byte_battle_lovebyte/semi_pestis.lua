@@ -1,0 +1,2 @@
+-- GO VISY! 
+TIC=load'cls()t=time()/3e3 for i=0,999 do pix(s(i)*99%240,i,6+s(i*t)*2)end for z=-50,19 do for j=0,699 do k=j%3w=j/99r=49-(z*z)^.5-z+s(w*9)*3+s(t)^99*99*s(w*99)circ(s(w+t)*r+120-k*2,s(w+8+t)*r/2+50-z,1,2+k+z//19+s(z))end end's=math.sin
