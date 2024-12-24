@@ -1,0 +1,128 @@
+{
+    "title": "Fieldfxmas",
+    "started": "2024-12-23",
+    "date": "23 December 2024",
+    "type": "Shaderbyte",
+    "website": "",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "doop",
+                        "demozoo_id": 141174
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_23_shaderbyte_jam_fieldfxmas/doop.gif",
+                    "source_file": "/shader_file_sources/2024_12_23_shaderbyte_jam_fieldfxmas/doop.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Enfys",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_23_shaderbyte_jam_fieldfxmas/Enfys.gif",
+                    "source_file": "/shader_file_sources/2024_12_23_shaderbyte_jam_fieldfxmas/Enfys.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_23_shaderbyte_jam_fieldfxmas/grabber_xmas_aldroid.jpg",
+                    "source_file": "/shader_file_sources/2024_12_23_shaderbyte_jam_fieldfxmas/grabber_xmas_aldroid.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Catnip",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_23_shaderbyte_jam_fieldfxmas/grabber_xmas_catnip.jpg",
+                    "source_file": "/shader_file_sources/2024_12_23_shaderbyte_jam_fieldfxmas/grabber_xmas_catnip.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "HeNeArXn",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_23_shaderbyte_jam_fieldfxmas/HeNeArXn.gif",
+                    "source_file": "/shader_file_sources/2024_12_23_shaderbyte_jam_fieldfxmas/HeNeArXn.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_23_shaderbyte_jam_fieldfxmas/jtruk.gif",
+                    "source_file": "/shader_file_sources/2024_12_23_shaderbyte_jam_fieldfxmas/jtruk.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "muffintrap",
+                        "demozoo_id": 80210
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_12_23_shaderbyte_jam_fieldfxmas/muffintrap.gif",
+                    "source_file": "/shader_file_sources/2024_12_23_shaderbyte_jam_fieldfxmas/muffintrap.lua"
+                }
+            ],
+            "staffs": [
+                
+            ]
+        }
+    ],
+    "staffs": [
+        {
+			"handle": {
+				"name": "RaccoonViolet",
+				"demozoo_id": 90373
+			},
+			"job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}
