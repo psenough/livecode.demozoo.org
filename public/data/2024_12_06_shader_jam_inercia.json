@@ -5,7 +5,7 @@
     "type": "Shader Jam",
     "website": "https://2024.inercia.pt",
     "flyer": "",
-    "vod":"",
+    "vod": "https://www.youtube.com/watch?v=-Iqov7pkNUQ",
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -17,7 +17,7 @@
     "phases": [
         {
             "title": null,
-            "vod": null,
+            "vod": "https://www.youtube.com/watch?v=-Iqov7pkNUQ",
             "entries": [
                 {
                     "id": null,
