@@ -1,0 +1,211 @@
+{
+    "title": "Shader Royale #2",
+    "started": "2020-12-04",
+    "date": "04 December 2020",
+    "type": "Shader Royale",
+    "vod": "https://www.youtube.com/watch?v=wwN5vRXKAl8",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v10",
+            "version": "NuSan - v10",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 333,
+                    "handle": {
+                        "name": "FMS_Cat",
+                        "demozoo_id": 57112
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/tsyBWD",
+                    "preview_image": "2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_FMS_Cat.jpg",
+                    "source_file": "/shader_file_sources/2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_FMS_Cat.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 326,
+                    "handle": {
+                        "name": "cosamentale",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_cosamentale.jpg",
+                    "source_file": "/shader_file_sources/2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_cosamentale.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 3,
+                    "points": 279,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/WdVBWD",
+                    "preview_image": "2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_nusan.jpg",
+                    "source_file": "/shader_file_sources/2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_nusan.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 4,
+                    "points": 221,
+                    "handle": {
+                        "name": "monsieursoleil",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_monsieursoleil.jpg",
+                    "source_file": "/shader_file_sources/2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_monsieursoleil.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 5,
+                    "points": 208,
+                    "handle": {
+                        "name": "anticore",
+                        "demozoo_id": 117325
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/WdKBWD",
+                    "preview_image": "2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_anticore.jpg",
+                    "source_file": "/shader_file_sources/2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_anticore.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 6,
+                    "points": 154,
+                    "handle": {
+                        "name": "LechugaFeliz",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_LechugaFeliz.jpg",
+                    "source_file": "/shader_file_sources/2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_LechugaFeliz.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 7,
+                    "points": 151,
+                    "handle": {
+                        "name": "branch",
+                        "demozoo_id": 44254
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_branch.jpg",
+                    "source_file": "/shader_file_sources/2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_branch.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 8,
+                    "points": 150,
+                    "handle": {
+                        "name": "dok",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/wsGBWw",
+                    "preview_image": "2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_dok.jpg",
+                    "source_file": "/shader_file_sources/2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_dok.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 9,
+                    "points": 150,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_visy.jpg",
+                    "source_file": "/shader_file_sources/2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_vizy.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 10,
+                    "points": 149,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": 113559
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_wrighter.jpg",
+                    "source_file": "/shader_file_sources/2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_wrighter.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 11,
+                    "points": 131,
+                    "handle": {
+                        "name": "provod",
+                        "demozoo_id": 24024
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_provod.jpg",
+                    "source_file": "/shader_file_sources/2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_provod.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 12,
+                    "points": 130,
+                    "handle": {
+                        "name": "Exca",
+                        "demozoo_id": 35897
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_Exca.jpg",
+                    "source_file": "/shader_file_sources/2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_Exca.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 13,
+                    "points": 103,
+                    "handle": {
+                        "name": "NR4",
+                        "demozoo_id": 76970
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_NR4.jpg",
+                    "source_file": "/shader_file_sources/2020_12_04_shader_royale_shader_royale2/grabber_inerciaroyale_NR4.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "ps",
+                "demozoo_id": 313
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "alien01",
+                "demozoo_id": 108887
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": null
+}

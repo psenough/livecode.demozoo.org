@@ -1,0 +1,433 @@
+{
+    "title": "Revision",
+    "started": "2016-03-25",
+    "date": "25 - 28 March 2016",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": null,
+    "phases": [
+        {
+            "title": "Qualifiers #1",
+            "vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "archee",
+                        "demozoo_id": 3718
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "moqui",
+                        "demozoo_id": 11347
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "chaos",
+                        "demozoo_id": 348
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "abductee",
+                        "demozoo_id": 10657
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Qualifiers #2",
+            "vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "mankeli",
+                        "demozoo_id": 14296
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "blueberry",
+                        "demozoo_id": 116
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ronny",
+                        "demozoo_id": 355
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "chaos",
+                        "demozoo_id": 348
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "moqui",
+                        "demozoo_id": 11347
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "abductee",
+                        "demozoo_id": 10657
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Qualifiers #3",
+            "vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "musk",
+                        "demozoo_id": 14411
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "medo",
+                        "demozoo_id": 6424
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "chaos",
+                        "demozoo_id": 348
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "moqui",
+                        "demozoo_id": 11347
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "abductee",
+                        "demozoo_id": 10657
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Qualifiers #4",
+            "vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "lj",
+                        "demozoo_id": 57948
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "kabuto",
+                        "demozoo_id": 6492
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "chaos",
+                        "demozoo_id": 348
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "moqui",
+                        "demozoo_id": 11347
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "abductee",
+                        "demozoo_id": 10657
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semifinals #1",
+            "vod": "https://www.youtube.com/watch?v=Oa0BlHkYynU",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "archee",
+                        "demozoo_id": 3718
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "blueberry",
+                        "demozoo_id": 116
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "chaos",
+                        "demozoo_id": 348
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "moqui",
+                        "demozoo_id": 11347
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "abductee",
+                        "demozoo_id": 10657
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semifinals #2",
+            "vod": "https://www.youtube.com/watch?v=Oa0BlHkYynU",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "musk",
+                        "demozoo_id": 14411
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "lj",
+                        "demozoo_id": 57948
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ronny",
+                        "demozoo_id": 355
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "chaos",
+                        "demozoo_id": 348
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "moqui",
+                        "demozoo_id": 11347
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "abductee",
+                        "demozoo_id": 10657
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=slSmOqdL-rw",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "archee",
+                        "demozoo_id": 3718
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "lj",
+                        "demozoo_id": 57948
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "chaos",
+                        "demozoo_id": 348
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "moqui",
+                        "demozoo_id": 11347
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "abductee",
+                        "demozoo_id": 10657
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "random",
+                "demozoo_id": 15652
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 2811
+}
