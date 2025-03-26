@@ -2,180 +2,227 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Is Online on Bonzomatic</title>
+    <title>Isonline :: Real Time</title>
+    <meta http-equiv="Cache-control" content="no-cache">
     <style>
-
-/* http://meyerweb.com/eric/tools/css/reset/
-v2.0-modified | 20110126
-License: none (public domain)
-*/
-    
-    html, body, div, span, applet, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-    a, abbr, acronym, address, big, cite, code,
-    del, dfn, em, img, ins, kbd, q, s, samp,
-    small, strike, strong, sub, sup, tt, var,
-    b, u, i, center,
-    dl, dt, dd, ol, ul, li,
-    fieldset, form, label, legend,
-    table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed,
-    figure, figcaption, footer, header, hgroup,
-    menu, nav, output, ruby, section, summary,
-    time, mark, audio, video {
-      margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-    }
-    article, aside, details, figcaption, figure,
-    footer, header, hgroup, menu, nav, section {
-        display: block;
-    }
-    body {
-        line-height: 1;
-    }
-
-    html {
-        font-size: 100%; 
-        -webkit-text-size-adjust: 100%; 
-        -ms-text-size-adjust: 100%;  
-        font-family: fangsong; 
-    }
-
-    html,
-    button,
-    input,
-    select,
-    textarea {
-        color: #EEEEEE;
-        background-color: #222;
-    }
-    
-    #drop_zone {
-    border: 5px solid blue;
-    width: 90vw;
-    height: 10vh;
-    margin: auto;
-    text-align: center;
-    }
-   .container { 
-    display: flex; /* or inline-flex */
-    flex-direction: column;
-   }
-   .coder { 
-    display: flex; /* or inline-flex */
-    flex-direction:row;
-   }
-   .status {
-    width: 2vw;
-    max-width: 2vw;
-   }
-   .label {
-    width: 10vw;
-    max-width: 10vw;
-   }
+        @font-face {
+            font-family: 'DepartureMono';
+            src:  url('./DepartureMono-Regular.woff2') format('woff2'),
+                    url('./DepartureMono-Regular.woff') format('woff');
+            }
+        * {
+            margin: 0px;
+            gap: 0px;
+        }
+        body {
+            font-family: 'DepartureMono', Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #111111;
+            color: #ff912a;
+        }
+        .content {
+            width: 45vw;
+            margin: auto;
+            margin-top: 0px;
+            overflow: scroll;
+            max-height: 80vh;
+        }
+        pre {
+            overflow: scroll;
+            
+        }
+        .instance {
+            width: 100%;
+            display: flex;
+            align-items: baseline;
+            gap: 5px;
+            font-size: 1em;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .instance:hover, .selected {
+            filter: brightness(1.5);
+        }
+        .instance div {
+            vertical-align: middle;
+        }
+        .activity {
+            width: 1em;
+            height: 1em;
+            vertical-align: middle;
+        }
+        .connected {
+           color: rgb(0, 147, 56);
+           background-color: rgba(0, 147, 56,0.2);
+        }
+        .timeout {
+            color: rgb(195, 5, 5);
+            background-color: rgba(95, 5, 5,0.2);
+        }
+        #app {
+            display: flex;
+            height: 80vh;
+        }
+        .btn {
+            border: solid 1px #ff912a;
+            padding: 2px;
+        }
+        input {
+            background-color: #111111;
+            border: solid 1px #ff912a;
+            color: #ff912a;
+            font-family: 'DepartureMono', Verdana, Geneva, Tahoma, sans-serif;
+            width: 50vw;
+        }
+        details {
+            margin-bottom: 10px;
+        }
     </style>
+    <script>
+
+  
+   
+
+        document.addEventListener("DOMContentLoaded", function(event) {
+            const BONZOMATIC = 0;
+            const TIC80 = 1;
+            const BAZEMATIC = 2;
+            const NYANK = 3;
+
+            const list_participant = document.getElementById("list_participant");
+            const code_viewer = document.getElementById("inspector");
+            const connect_btn = document.getElementById("ws_connect");
+            const ws_url = document.getElementById("ws_url");
+            const ws_log = document.getElementById("ws_log");
+            let worker = undefined;
+            let selected = undefined;
+            connect_btn.onclick = (e) => {
+                    if(worker !== undefined) {
+                        worker.terminate();
+                    }
+                    worker = new Worker("./isonline_worker.js"+ '?' + Math.random(),{'name':ws_url.value});
+                    worker.onmessage = async function(event){
+             
+                      
+                        if(event.data['msg']=="log") {
+                            ws_log.innerHTML = event.data['data'];
+                            return;
+                        }
+                        list_participant.innerHTML = "";
+                     
+                        event.data.data.map(msg => {
+                       
+                        if(selected !== undefined && selected === msg.id) {
+                            code_viewer.innerHTML ="";
+                            switch(msg.type) {
+                                case BONZOMATIC:
+                                    code_viewer.appendChild(document.createTextNode(msg.data.Data.Code));
+                                break;
+                                case TIC80:
+                                    code_viewer.appendChild(document.createTextNode(msg.data));
+                                break;
+                            }
+                        }
+                   
+                        create_instance_element(msg).then( (e)=>
+                            list_participant.appendChild(e)
+                        )
+                });
+               //console.log(event.data);
+            }; 
+            }
+
+            async function create_instance_element(msg) {
+                const instance = document.createElement("div");
+                instance.setAttribute("data-id",msg.id);
+                instance.onclick = (e) =>{
+                    selected = e.srcElement.dataset.id;
+                }
+                if(msg.id === selected) {
+                    instance.classList.add("selected");
+                }
+                const activity = document.createElement("div");
+                activity.classList.add("activity");
+               
+
+                instance.appendChild(activity);
+
+                const type = document.createElement("div");
+                switch(msg.type) {
+                    case BONZOMATIC:
+                 
+                       
+                        type.innerHTML = "►BNZMC";
+                        instance.appendChild(type);
+                   
+                    break;
+                    case TIC80:
+                        
+                     
+                        type.innerHTML = "►TIC80";
+                        instance.appendChild(type);
+                    
+                    break;
+
+                }
+                const label = document.createElement("div");
+                instance.classList.add("instance");
+                if(msg.dt >1000) {
+                    instance.classList.add("timeout");
+                } else {
+                    instance.classList.add("connected");
+                }
+                label.innerHTML = msg.id;
+            
+               
+                instance.appendChild(label);
+                const time = document.createElement("div");
+                time.innerHTML = "0x"+msg.ts.toString(16);
+                instance.appendChild(time);
+                switch(msg.type) {
+                    case BONZOMATIC:
+                     if(msg.data['Data']['Compile']) {
+                        const compile = document.createElement("div");
+                        compile.innerHTML = "®";
+                        instance.appendChild(compile);
+                        }
+                    break;
+
+                }
+                
+                return instance;
+            }
+       
+           
+        
+           
+
+        });
+    </script>
 </head>
-
 <body>
-    <div
-    id="drop_zone"
-    ondrop="dropHandler(event);"
-    ondragover="dragOverHandler(event);">
-    <p>Drag and Drop the launcher.json here</p>
-  </div>
-  <div id="container">
+    <h1>IsOnline</h1>
+    <details>
+        <summary>Websocket <span id="ws_log"></span></summary>
+        <label for="ws_url"></label><input id="ws_url" type="text" value="wss://bonzomatic.totetmatt.fr:9000/test/"> <span class="btn" id="ws_connect">Connect</button>
+    </details>
+    <div id="app">
+     
+       <div class="content" id="list_participant">
+             <!--<div class="instance connected">
+                <div class="activity connected" > </div>
+                <div class="">totetmatt</div>
+            </div>
+            <div class="instance timeout">
+                <div class="activity timeout" > </div>
+                <div class="">totetmatt</div>
+            </div>-->
+        </div>
+        <div class="content">
+            <pre  id="inspector">
 
-  </div>
-  
-  <script>
-    const container = document.getElementById("container");
-    function dragOverHandler(ev) {
-  console.log('File(s) in drop zone');
-
-  // Prevent default behavior (Prevent file from being opened)
-  ev.preventDefault();
-}
-function websocketCoder(network, name) {
-    let timeout;
-    const endpoint = `${network.serverURL}${name}`;
-    const timeoutTime = 2000;
-    const socket = new WebSocket(endpoint);
-    const root = document.createElement("div");
-    root.classList.add("coder");
-    const label = document.createElement("div");
-    label.classList.add("label");
-    label.textContent = name;
-    
-    const information = document.createElement("div");
-    information.classList.add("info");
-    information.textContent = `Trying to connect to websocket server ${endpoint}`;
-
-    const status = document.createElement("div");
-    status.classList.add("status");
-    function setError(){
-        status.textContent = '🔴';
-        information.textContent = `Connected to ${endpoint} but sender looks not sending data, check sender connectivity to the websocket server`;
-    }
-    setError();
-  
-    root.appendChild(status);
-    root.appendChild(label);
-    root.appendChild(information);
-    
-    socket.addEventListener('open', (event) => {
-        status.textContent = '🟡';
-        information.textContent = `Connected to ${endpoint} waiting for data being sent from sender`;
-        timeout = setTimeout(setError, timeoutTime);
-    });
-    socket.addEventListener('message', (event) => {
-        clearTimeout(timeout);
-        status.textContent = '🟢';
-        information.textContent = `OK`;
-        timeout = setTimeout(setError, timeoutTime);
-    });
-    container.appendChild(root);
-}
-function init(jsonData){
-    const coders = jsonData['coders'];
-    const network = jsonData['network'];
-    coders.forEach( coder =>
-        websocketCoder(network,coder)
-    );
-
-}
-function dropHandler(ev) {
-  console.log('File(s) dropped');
-  ev.preventDefault();
-
-  if (ev.dataTransfer.items) {
-    const file = ev.dataTransfer.files[0];
-    document.getElementById("drop_zone").remove();
-    file.text().then( 
-        text => JSON.parse(text)
-    )
-    .then(json => init(json));
-
-    /*[...ev.dataTransfer.items].forEach((item, i) => {
-      // If dropped items aren't files, reject them
-      if (item.kind === 'file') {
-        const file = item.getAsFile();
-        console.log(`… file[${i}].name = ${file.name}`);
-      }
-    });*/
-  } else {
-    // Use DataTransfer interface to access the file(s)
-   /* console.log(ev.dataTransfer.files[0].name);
-    [...ev.dataTransfer.files].forEach((file, i) => {
-      console.log(`… file[${i}].name = ${file.name}`);
-    });*/
-  }
-}
-</script>    
+            </pre>
+        </div>
+    </div>
 </body>
 </html>
