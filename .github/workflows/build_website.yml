@@ -52,7 +52,9 @@ jobs:
           git checkout gh-pages
 
       - name: Generate HTML
-        run: python livecode generate
+        run: |
+          python livecode generate
+          mkdocs build -d public/docs
 
       #- name: Generate Doc
       #  run: |

@@ -1,0 +1,13 @@
+site_name: Livecode Docs
+
+nav:
+  - Home: index.md
+  - How to:
+    # - Connect with Bonzomatic : articles/bonzomatic/README.md
+    - Use Bonzomatic Launcher: articles/bonzomatic_launcher/README.md
+theme:
+  name: simple-blog
+  components:
+    preview: true
+    title: false
+  
