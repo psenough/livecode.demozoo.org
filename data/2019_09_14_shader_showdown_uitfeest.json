@@ -1,0 +1,155 @@
+{
+    "title": "Uitfeest",
+    "started": "2019-09-14",
+    "date": "14 September 2019",
+    "type": "Shader Showdown",
+    "vod": "https://www.pouet.net/topic.php?which=11779",
+    "software_used": null,
+    "phases": [
+        {
+            "title": "Semifinal #1",
+            "vod": null,
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Sasj",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "lucidlien",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "vod": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "LynnDrum",
+                        "demozoo_id": 77648
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semifinal #2",
+            "vod": null,
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "vod": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "LynnDrum",
+                        "demozoo_id": 77648
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": null,
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Sasj",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "vod": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "LynnDrum",
+                        "demozoo_id": 77648
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": null
+}

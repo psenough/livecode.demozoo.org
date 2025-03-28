@@ -1,0 +1,176 @@
+{
+    "title": "Outline",
+    "started": "2018-05-10",
+    "date": "10 - 13 May 2018",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": null,
+    "phases": [
+        {
+            "title": "Semifinal #1",
+            "vod": "https://www.youtube.com/watch?v=q8iFI1-v5n8",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "lsdlive",
+                        "demozoo_id": 83579
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/MscBRs",
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "TropicalTrevor",
+                        "demozoo_id": 44283
+                    },
+                    "shadertoy_url": null,
+                    "vod": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dojoe",
+                        "demozoo_id": 24894
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "andro",
+                        "demozoo_id": 67079
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semifinals #2",
+            "vod": "https://youtu.be/q8iFI1-v5n8?t=1618",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "lj",
+                        "demozoo_id": 57948
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/MdcBzf",
+                    "vod": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dojoe",
+                        "demozoo_id": 24894
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "andro",
+                        "demozoo_id": 67079
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://youtu.be/q8iFI1-v5n8?t=3344",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "lsdlive",
+                        "demozoo_id": 83579
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/MscBzs",
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "vod": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dojoe",
+                        "demozoo_id": 24894
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "klandox",
+                        "demozoo_id": 77179
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "andro",
+                        "demozoo_id": 67079
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 3373
+}

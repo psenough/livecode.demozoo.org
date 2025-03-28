@@ -1,0 +1,165 @@
+{
+    "title": "Evoke",
+    "started": "2022-08-05",
+    "date": "05 - 07 August 2022",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/Gargaj/Bonzomatic/releases/tag/2022-07-08",
+            "version": "Gargaj - 2022-07-08",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Semi Final 1",
+            "vod": "https://youtu.be/5woz5w0L6Nk",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_08_05_shader_showdown_evoke/nusan_semi1.jpg",
+                    "source_file": "/shader_file_sources/2022_08_05_shader_showdown_evoke/nusan_semi1.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_08_05_shader_showdown_evoke/totetmatt_semi1.jpg",
+                    "source_file": "/shader_file_sources/2022_08_05_shader_showdown_evoke/totetmatt_semi1.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dojoe",
+                        "demozoo_id": 24894
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final 2",
+            "vod": "https://youtu.be/5woz5w0L6Nk?t=1829",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "z0rg",
+                        "demozoo_id": 114547
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_08_05_shader_showdown_evoke/z0rg_semi1.jpg",
+                    "source_file": "/shader_file_sources/2022_08_05_shader_showdown_evoke/z0rg_semi1.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/fl3yRS",
+                    "preview_image": "2022_08_05_shader_showdown_evoke/flopine_semi2.jpg",
+                    "source_file": "/shader_file_sources/2022_08_05_shader_showdown_evoke/flopine_semi2.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ronny",
+                        "demozoo_id": 355
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://youtu.be/JZQ2dl4Lj3w",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_08_05_shader_showdown_evoke/flopine_final.jpg",
+                    "source_file": "/shader_file_sources/2022_08_05_shader_showdown_evoke/flopine_final.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_08_05_shader_showdown_evoke/totetmatt_final.jpg",
+                    "source_file": "/shader_file_sources/2022_08_05_shader_showdown_evoke/totetmatt_final.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dojoe",
+                        "demozoo_id": 24894
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4422
+}
