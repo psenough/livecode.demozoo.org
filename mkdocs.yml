@@ -1,13 +1,36 @@
 site_name: Livecode Docs
-
+markdown_extensions:
+  - toc:
+      toc_depth: 3
+      permalink: true
 nav:
   - Home: index.md
   - How to:
     # - Connect with Bonzomatic : articles/bonzomatic/README.md
     - Use Bonzomatic Launcher: articles/bonzomatic_launcher/README.md
 theme:
-  name: simple-blog
-  components:
-    preview: true
-    title: false
+  name: material
+  features:
+  - navigation.tabs
+  - navigation.tabs.sticky
+
+  palette:
   
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: white
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+
+copyright: Livecode Docs is licensed under CC BY 4.0 
