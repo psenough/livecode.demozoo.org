@@ -36,5 +36,5 @@
 ```
 
 * Delete or Move your `shader.glsl` or `sender_revision_jam_2025_<your_nickname>.glsl`
-* Start bonzomatic
-* You can verify that it works by replacing the cotnent of `test_textures.glsl` inside bonzomatic: 
+* Start bonzomatic. The new textures should be available in the `uniform` declaration part.
+* You can verify that it works by replacing the content of `test_textures.glsl` inside bonzomatic.
