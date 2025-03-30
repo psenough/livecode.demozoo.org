@@ -14,7 +14,7 @@
 ```
 
 * Open your `config.json`
-* Edit the `textures` key, it should be like this (the zip contain a `config_textures.json` that contains the what need to be copied):
+* Edit the `textures` key, it should be like this (the zip contain a `config_textures.json` that contains what need to be copied):
 
 ```json
 {
