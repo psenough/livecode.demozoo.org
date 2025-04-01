@@ -1,0 +1,88 @@
+{
+    "title": "Pre Lovebyte",
+    "started": "2021-09-02",
+    "date": "02 September 2021",
+    "vod": null,
+    "type": "Byte Jam",
+    "website": "http://battle.lovebyte.party/",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v07",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Byte Jam",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2151,
+                    "source_file": null,
+                    "preview_image": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2152,
+                    "source_file": null,
+                    "preview_image": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2148,
+                    "source_file": null,
+                    "preview_image": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2154,
+                    "source_file": "/shader_file_sources/2021_09_02_byte_jam_pre_lovebyte/superogue.lua",
+                    "preview_image": "2021_09_02_byte_jam_pre_lovebyte/superogue.gif"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": null
+}
