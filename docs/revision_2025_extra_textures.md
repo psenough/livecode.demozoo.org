@@ -38,3 +38,7 @@
 * Delete or Move your `shader.glsl` or `sender_revision_jam_2025_<your_nickname>.glsl`
 * Start bonzomatic. The new textures should be available in the `uniform` declaration part.
 * You can verify that it works by replacing the content of `test_textures.glsl` inside bonzomatic.
+
+## Information
+* Texture are 512x512 RGBA.
+* If not using Alpha Channel, the background is replaced by the Color `rgb(0,0,0)`
