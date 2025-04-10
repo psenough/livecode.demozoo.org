@@ -103,24 +103,23 @@ vec3 rdr(vec2 uv)
   
   vec2 rep = vec2(.1);
   vec2 id = floor((uv+rep*.5)/rep);
-    uv += (rand()-.5)*.05*sin(length(id+fGlobalTime));
+  uv += (rand()-.5)*.05*sin(length(id+fGlobalTime));
 
   uv = mod(uv+rep*.5,rep);
   
   uv *= r2d(sin(id.x+id.y+fGlobalTime));
   uv *= r2d(fGlobalTime+uv.x);
   float shape = abs(_sqr(uv, vec2(.1)))-.01;
-  //col = vec3(sin(length(ouv.x*10.5)*fGlobalTime)*.5+.5, .5,.7)*(1.-sat(shape*400.));
+  col = vec3(sin(length(ouv.x*10.5)*fGlobalTime)*.5+.5, .5,.7)*(1.-sat(shape*400.));
   return col;
 }
 
 void main(void)
 {
-	vec2 uv = (gl_FragCoord.xy-.5*v2Resolution.xy)/v2Resolution.xx;
+  vec2 uv = (gl_FragCoord.xy-.5*v2Resolution.xy)/v2Resolution.xx;
   _seed = fGlobalTime+texture(texNoise, uv).x; 
 
   vec3 col = rdr(uv);
-  //col = vec3(1.)*sat((length(uv)-.5)*400.);
   col = pow(col, vec3(5.)*sat(length(uv)));
-	out_color = vec4(col, 1.);
+  out_color = vec4(col, 1.);
 }
