@@ -29,7 +29,8 @@
       "texAcorn1": "textures/texAcorn1.png",
       "texAcorn2": "textures/texAcorn2.png",
       "texLeafs": "textures/texLeafs.png",
-      "texRevisionBW": "textures/texRevisionBW.png"
+      "texRevisionBW": "textures/texRevisionBW.png",
+      "texLynn": "textures/texLynn.png"
   },
   ...
 }
