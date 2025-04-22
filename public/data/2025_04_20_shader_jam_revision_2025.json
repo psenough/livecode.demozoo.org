@@ -147,7 +147,7 @@
                         "name": "Exca",
                         "demozoo_id": 35897
                       },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/wXsXD7",
                     "preview_image": "2025_04_20_shader_jam_revision_2025/grabber_revision_2025_shaderjam_Exca.jpg",
                     "source_file": "/shader_file_sources/2025_04_20_shader_jam_revision_2025/grabber_revision_2025_shaderjam_Exca.glsl"
                 },
@@ -183,6 +183,7 @@
                         "name": "gam0022",
                         "demozoo_id": 63869
                       },
+                    "vod":"https://www.youtube.com/watch?v=VmKxNir6yP4",
                     "shadertoy_url": null,
                     "preview_image": "2025_04_20_shader_jam_revision_2025/grabber_revision_2025_shaderjam_gam0022.jpg",
                     "source_file": "/shader_file_sources/2025_04_20_shader_jam_revision_2025/grabber_revision_2025_shaderjam_gam0022.glsl"
@@ -231,7 +232,7 @@
                         "name": "kali",
                         "demozoo_id": 88968
                       },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/t3XSzS",
                     "preview_image": "2025_04_20_shader_jam_revision_2025/grabber_revision_2025_shaderjam_kali.jpg",
                     "source_file": "/shader_file_sources/2025_04_20_shader_jam_revision_2025/grabber_revision_2025_shaderjam_kali.glsl"
                 },
