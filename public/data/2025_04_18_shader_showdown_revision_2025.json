@@ -219,8 +219,8 @@
             "entries": [
                 {
                     "id": 1,
-                    "rank": null,
-                    "points": null,
+                    "rank": 1,
+                    "points": 941,
                     "handle": {
                         "name": "NuSan",
                         "demozoo_id": 88839
@@ -231,8 +231,8 @@
                 },
                 {
                     "id": 2,
-                    "rank":null,
-                    "points": null,
+                    "rank": 3,
+                    "points": 866,
                     "handle": {
                         "name": "Peregrine",
                         "demozoo_id": 122747
@@ -243,8 +243,8 @@
                 },
                 {
                     "id": 3,
-                    "rank": null,
-                    "points": null,
+                    "rank": 2,
+                    "points": 923,
                     "handle": {
                         "name": "Superogue",
                         "demozoo_id": 617
