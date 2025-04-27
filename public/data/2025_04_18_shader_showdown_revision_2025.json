@@ -27,7 +27,7 @@
                         "name": "Peregrine",
                         "demozoo_id": 122747
                       },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/wXlXWs",
                     "preview_image": "2025_04_18_shader_showdown_revision_2025/round1/peregrine_qualif.jpg",
                     "source_file": "/shader_file_sources/2025_04_18_shader_showdown_revision_2025/round1/peregrine_qualif.glsl"
                 },
@@ -237,7 +237,7 @@
                         "name": "Peregrine",
                         "demozoo_id": 122747
                       },
-                    "shadertoy_url": null,
+                    "shadertoy_url": "https://www.shadertoy.com/view/tXlSDs",
                     "preview_image": "2025_04_18_shader_showdown_revision_2025/final/peregrine_final.jpg",
                     "source_file": "/shader_file_sources/2025_04_18_shader_showdown_revision_2025/final/peregrine_final.glsl"
                 },
