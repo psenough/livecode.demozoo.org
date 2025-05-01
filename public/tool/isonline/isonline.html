@@ -96,23 +96,29 @@
             const ws_log = document.getElementById("ws_log");
             let worker = undefined;
             let selected = undefined;
+            let participants = {};
+
             connect_btn.onclick = (e) => {
                     if(worker !== undefined) {
                         worker.terminate();
                     }
                     worker = new Worker("./isonline_worker.js"+ '?' + Math.random(),{'name':ws_url.value});
-                    worker.onmessage = async function(event){
+                    worker.onmessage = async function(event){ // When new "refresh" from worker
              
                       
-                        if(event.data['msg']=="log") {
+                        if(event.data['msg']=="log") { // Poor man log
                             ws_log.innerHTML = event.data['data'];
                             return;
                         }
-                        list_participant.innerHTML = "";
+                      
+
+                    
                      
-                        event.data.data.map(msg => {
-                       
-                        if(selected !== undefined && selected === msg.id) {
+                    for(msg_idx in event.data.data) { // For all participant send by worker
+                        let msg = event.data.data[msg_idx];
+                        
+                            
+                        if(selected !== undefined && selected === msg.id) { // Show code if selected
                             code_viewer.innerHTML ="";
                             switch(msg.type) {
                                 case BONZOMATIC:
@@ -123,15 +129,52 @@
                                 break;
                             }
                         }
-                   
-                        create_instance_element(msg).then( (e)=>
-                            list_participant.appendChild(e)
-                        )
-                });
-               //console.log(event.data);
+
+                        if(participants[msg['id']] === undefined){ // If participant isn't registered into current one = new participants detected
+                                let list_participant_elements = list_participant.children; // Fetch all current participant element on DOM
+                                list_participant_idx = 0 // Start at 0
+                      
+                                create_instance_element(msg).then( (e)=> // Create dom and then
+                                {
+                                        participants[msg['id']] = e; // Store data to the list of participants
+                                        
+                                        if(list_participant_elements.length === 0) {   // If current dom has no element, it's first one we just need to add to div
+                                            list_participant.appendChild(e);
+                                            
+                                            list_participant_idx+=1;
+                                            return;
+                                        }
+                                        // Otherwise there is already participant and we need to insert somewhere and keep alphabetical order
+                                        // Worker should send already sorted list of participant by id.lowercase
+                                
+                                        while(list_participant_idx < list_participant_elements.length 
+                                        && list_participant_elements[list_participant_idx].getAttribute("data-id").toLowerCase() < msg.id.toLowerCase()) {
+                                            list_participant_idx+=1; 
+                                           
+                                        } // list_participant_idx is the idx of the last element where the new participant is before in the alphabetical order
+                                        if(list_participant_idx < list_participant_elements.length){ // If idx isn't last
+                                            list_participant_elements[list_participant_idx].insertAdjacentElement("beforebegin",e);
+                                        } else { // new participant should be last
+                                            list_participant.appendChild(e);
+                                        }
+
+                                });
+                        } else { // We just update what is needed
+                            update_instance_element(msg);
+                        }
+                    }
             }; 
             }
-
+            async function update_instance_element(msg) {
+                let p = participants[msg["id"]]
+                p.childNodes.item(3).innerHTML = "0x"+msg.ts.toString(16);;
+                if(msg.dt >1000 && p.classList.contains("connected")) {
+                    p.classList.replace("connected","timeout");
+                } 
+                if(msg.dt<1000 && p.classList.contains("timeout")) {
+                    p.classList.replace("timeout","connected");
+                }
+            }
             async function create_instance_element(msg) {
                 const instance = document.createElement("div");
                 instance.setAttribute("data-id",msg.id);
@@ -143,7 +186,7 @@
                 }
                 const activity = document.createElement("div");
                 activity.classList.add("activity");
-               
+                
 
                 instance.appendChild(activity);
 
@@ -209,14 +252,7 @@
     <div id="app">
      
        <div class="content" id="list_participant">
-             <!--<div class="instance connected">
-                <div class="activity connected" > </div>
-                <div class="">totetmatt</div>
-            </div>
-            <div class="instance timeout">
-                <div class="activity timeout" > </div>
-                <div class="">totetmatt</div>
-            </div>-->
+           
         </div>
         <div class="content">
             <pre  id="inspector">

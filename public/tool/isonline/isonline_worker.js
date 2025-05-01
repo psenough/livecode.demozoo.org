@@ -1,11 +1,12 @@
 const BONZOMATIC = 0;
 const TIC80 = 1;
 const BAZEMATIC = 2;
-const NYANK = 3;
+const NYUKOMATIC = 3;
 
 const participants = {}
 let i = 0;;
  // Create WebSocket connection.
+  function start() {
  const socket = new WebSocket(this.name);
             
  // Connection opened
@@ -48,10 +49,14 @@ let i = 0;;
             message.id= `${json_parsed['Data']['RoomName']}/${json_parsed['Data']['NickName']}`
    
         } 
-        if(json_parsed["s"]==="tic80") {
+        else if(json_parsed["s"]==="tic80") {
             message.type =TIC80
             message.data = json_parsed['data']
             message.id= json_parsed['id']
+        } else if(json_parsed["cursor"]!== undefined) {
+            message.type = NYUKOMATIC
+            message.data = json_parsed
+            message.id = ""
         }
         participants[message.id] = message;
     } catch (e) {
@@ -63,8 +68,8 @@ let i = 0;;
      
     }
  
-});
-
+});}
+start();
  function tick() {
     const dt_now = Date.now();
     let a = Object.values(participants);
