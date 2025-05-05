@@ -102,12 +102,12 @@
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "david",
+                        "name": "DaftShader",
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_04_28_shaderbyte_jam_monday_night_bytes/grabber_mondaynightbytes_david.jpg",
-                    "source_file": "/shader_file_sources/2025_04_28_shaderbyte_jam_monday_night_bytes/grabber_mondaynightbytes_david.glsl"
+                    "preview_image": "2025_04_28_shaderbyte_jam_monday_night_bytes/grabber_mondaynightbytes_DaftShader.jpg",
+                    "source_file": "/shader_file_sources/2025_04_28_shaderbyte_jam_monday_night_bytes/grabber_mondaynightbytes_DaftShader.glsl"
                 },
                 {
                     "id": null,
