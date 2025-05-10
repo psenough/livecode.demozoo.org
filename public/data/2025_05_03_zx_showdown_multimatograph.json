@@ -1,0 +1,97 @@
+{
+    "title": "Multimatograf",
+    "started": "2025-05-03",
+    "date": "03 May 2025",
+    "type": "ZX Spectrum Showdown",
+    "website": "https://events.retroscene.org/mf2025",
+    "flyer": "",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Nyukomatic",
+            "url": "https://github.com/alexanderk23/nyukomatic/releases/tag/v0.3.2",
+            "version": "v0.3.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Round 1",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 4,
+                    "points": null,
+                    "handle": {
+                        "name": "nyuk",
+                        "demozoo_id": 43587
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_05_03_zx_showdown_multimatograph/quarter_nyuk.jpg",
+                    "source_file": "/shader_file_sources/2025_05_03_zx_showdown_multimatograph/quarter_nyuk.txt"
+                },
+                {
+                    "id": null,
+                    "rank": 3,
+                    "points": null,
+                    "handle": {
+                        "name": "nikhotmsk",
+                        "demozoo_id": 132977
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_05_03_zx_showdown_multimatograph/quarter_nikhotmsk.jpg",
+                    "source_file": "/shader_file_sources/2025_05_03_zx_showdown_multimatograph/quarter_nikhotmsk.txt"
+                }
+            ],
+            "staffs": [
+                
+            ]
+        },
+        {
+            "title": "Round 2",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "bfox",
+                        "demozoo_id": 9743
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_05_03_zx_showdown_multimatograph/quarter_bfox.jpg",
+                    "source_file": "/shader_file_sources/2025_05_03_zx_showdown_multimatograph/quarter_bfox.txt"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "artemka",
+                        "demozoo_id": 45761
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_05_03_zx_showdown_multimatograph/quarter_artemka.jpg",
+                    "source_file": "/shader_file_sources/2025_05_03_zx_showdown_multimatograph/quarter_artemka.txt"
+                }
+               
+            ],
+            "staffs": [
+                
+                
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "wbcbz7",
+                "demozoo_id": 45761
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 5226
+}
