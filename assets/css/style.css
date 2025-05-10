@@ -1,0 +1,530 @@
+:root {
+    --primary-text-color: rgba(238,238,238, 1.0);
+    --secondary-text-color: rgba(128,128,128, 1.0);
+    --third-text-color: rgba(128,128,128, 1.0);
+    
+    --secondary-background-color: rgba(30,30,30, 1.0);
+    --primary-background-color: rgba(34,34,34, 1.0);
+
+    --primary-link-color: rgba(60, 144, 200,1.0);
+
+    --primary-type-byte-jam:rgba(61, 146, 201, 1.0);
+    --primary-type-shader-royale:rgba(61, 201, 73, 1.0);
+    --primary-type-shader-jam:rgba(228, 231, 38, 1.0);
+
+    --primary-border-color: rgba(51, 51, 51, 1.0);
+
+    --event-type-color: rgb(255, 205, 144);
+    --event-serie-color: rgb(144, 255, 144);
+}
+
+@font-face {
+    font-family: "B612";
+    src: url("../font/B612-Regular.ttf") format("truetype");
+
+}
+@font-face {
+    font-family: "AmigaTopaz";
+    src: url("../font/AmigaTopazUnicodeRus.ttf") format("truetype");
+
+}
+
+@font-face {
+    font-family: "Gidole";
+    src: url("../font/Gidole-Regular.ttf") format("truetype");
+
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Gidole";
+}
+
+.event-header, .data-info-container, .data-info-container .data-info-content {
+    align-items: center;
+}
+.event-header .event-header-serie {
+    font-size: .6em;
+    color: var(--event-serie-color);
+}
+summary:hover .event-header-serie, summary:hover .event-type {
+    color: #000000;
+}
+.pure-button{
+    font-family: "B612";
+}
+summary {
+    font-size: 2em;
+    cursor: pointer;
+    background-color: var(--secondary-background-color);
+    border-radius: 4.8px;
+    padding: 10px;
+    color: var(--primary-text-color)
+}
+summary:hover {
+    background-color: var(--primary-text-color);
+    color: var(--primary-background-color);
+    
+}
+a {
+    text-decoration: none;
+    color: var(--primary-link-color);
+}
+
+details {
+    border: 1px var(--primary-border-color) solid;
+}
+.perfomer-list-main  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+}
+details .event-body, .perfomer-list-main  {
+    background-color: var(--primary-background-color);
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: var(--primary-text-color);
+}
+.event {
+    background-color: #111111;
+    border-radius: 4.8px;
+}
+details > summary {
+    list-style-position:outside;
+    list-style-type: '';
+
+}
+details > summary:hover {
+    list-style-type: '◥';
+    transition-property: font-size;
+    transition-timing-function: ease-in-out;
+    transition-duration: .2s; 
+    font-size: 2.2em; 
+}
+details[open] > summary:hover {
+    list-style-type: '◤';
+    transition-property: font-size;
+    transition-timing-function: ease-in-out;
+    transition-duration: .2s; 
+    font-size: 2.3em; 
+}
+details[open] > summary {
+    list-style-type: '◣';
+    transition-property: font-size;
+    transition-timing-function: ease-in-out;
+    transition-duration: .2s; 
+    font-size: 2.3em; 
+}
+details .fa-chevron-up, details[open] .fa-chevron-down  {
+    display: none;
+}
+details summary:hover .fa-chevron-down, 
+details summary:hover .fa-chevron-up {
+    animation: colorMagic 1s linear infinite;
+}
+details[open] .fa-chevron-up, details .fa-chevron-down {
+    display: inline;
+}
+summary::marker {
+    position: absolute;
+    margin: auto;
+    margin-right: 50px;;
+    width: 5px;
+    display:inline-block;
+    font-size: .8em;
+    background-color: #111111;
+    animation: colorMagic 1s ease-in-out infinite;
+}
+
+summary .event-header * {
+    vertical-align: middle;
+}
+summary .event-header-type{
+    color: cornflowerblue;
+    font-size: 0.6em;
+}
+summary .event-header-title,summary  .event-header-title::first-line {
+    font-size: 1.1em;
+}
+
+summary .event-header-date{
+    color: var(--third-text-color);
+    font-size: 0.6em;
+}
+summary div {
+    font-size: .8em;
+    display: inline;
+    width: 20px;;
+    margin: 0;
+}
+.asciilogo {
+    height: 20vh;
+    margin-bottom: 2vh;
+}
+.asciilogo pre {
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    animation: colorMagic 6s linear infinite;
+    font-family: 'AmigaTopaz';
+
+}
+.fa-solid * {
+    color: var(--primary-link-color);
+}
+.asciilogo pre:nth-child(0n+2) {
+    animation: colorMagic 6s linear infinite;
+    animation-delay: -1100ms;
+}
+.asciilogo pre:nth-child(0n+3) {
+    animation: colorMagic 6s linear infinite;
+    animation-delay: -200ms;
+}
+.asciilogo pre:nth-child(0n+4) {
+    animation: colorMagic 6s linear infinite;
+    animation-delay: -1300ms;
+}
+.asciilogo pre:nth-child(0n+5) {
+    animation: colorMagic 6s linear infinite;
+    animation-delay: -400ms;
+}
+.asciilogo pre:nth-child(0n+6) {
+    animation: colorMagic 6s linear infinite;
+    animation-delay: -1500ms;
+}
+.asciilogo pre:nth-child(0n+7) {
+    animation: colorMagic 6s linear infinite;
+    animation-delay: -600ms;
+}
+.asciilogo pre:nth-child(0n+8) {
+    animation: colorMagic 6s linear infinite;
+    animation-delay: -1700ms;
+}
+.banner.asciilogo {
+    height: 12rem;
+    margin-bottom: 2rem;
+}
+body {
+    background: rgb(32, 32, 32);
+}
+.banner {
+    width: 80vw;
+    max-width: 80vw;
+    top: 0px;
+    margin: auto;
+    margin-bottom: 5px;
+    font-size: 1.0em;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    align-content:space-between;
+    gap:5px 5px;
+    flex-wrap: wrap;
+}
+.banner h1 {
+    font-size: 4.5em;
+}
+.banner h2{
+    font-size: 1.5em;;
+}
+.banner svg {
+    width: 50vw;
+}
+.demozoo-link img, .shadertoy-link img, .poshbrolly-link img  {
+    max-width: 1.0em;
+}
+.demozoo-link * {
+    vertical-align:middle;
+}
+
+.main-container {
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  justify-content: center;
+  z-index: -10;
+  opacity: .1;
+}
+
+.pure-button {
+    font-size: 85%;
+    padding: 8px;
+    background-color: transparent;
+    border: 1px solid rgba(125,125,125,1.0);
+    border-radius: 4.8px;
+    color: #EEEEEE;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+.pure-button:hover {
+    background-color: rgb(200,200,200);
+    border: 1px solid rgba(125,125,125,1.0);
+    color: #111111;
+}
+
+.colorcycle {
+    animation: colorMagic 6s linear infinite;
+}
+.entry-card img {
+width: 100%;
+margin: 0px;
+padding: 0px;
+margin: auto;
+}
+
+.entry-card {
+padding: 5px;
+margin: 0px;
+border: 1px solid #444444;
+}
+
+.event-header {
+display: flex;
+width: 100%;
+}
+
+
+.entry-name {
+font-weight: bolder;
+font-size: 1.5em;
+padding-left: 2%;
+}
+table, tbody, tr, td {
+border: 0px;
+margin: 5px;
+padding: 5px;
+border-collapse:collapse;
+text-align: left;
+}
+.entry-info {
+width: 100%;;
+}
+.entry-info-label {
+    font-weight: 600;
+    color: #999999;
+    width: 33%;
+    text-align: right;
+}
+.event-type {
+    color: var(--event-type-color);
+}
+.button-keyword {
+    background-color:rgba(0,0,0,1);
+    color: rgba(255, 255, 255, 1.0);
+    border: 0px;
+}
+.button-year-selected {
+    background-color:rgb(144, 233, 255);
+    color: rgba(32,32,32, 1.0);
+}
+.button-type-selected {
+    background-color:var(--event-type-color);
+    color: rgba(32,32,32, 1.0);
+}
+.button-serie-selected {
+    background-color:var(--event-serie-color);
+    color: rgba(32,32,32, 1.0);
+}
+.button-performer-selected {
+    background-color:rgb(177, 144, 255);
+    color: rgba(32,32,32, 1.0);
+}
+
+.button-rank {
+    background-color:rgb(0, 0, 0);
+    color: rgb(248, 219, 59);
+    font-size: 60%;
+    padding: 3px;
+}
+.button-nav-label {
+    background-color: var(--primary-text-color);
+    color: var(--primary-background-color);
+}
+.performer-event summary {
+  pointer-events: none; /* prevents click events */ 
+}
+.performer-event details[open] summary{
+    pointer-events: none; /* prevents click events */
+}
+.performer-event summary a {
+    pointer-events: initial; /* prevents click events */
+}
+.page-header h1 {
+    color: var(--primary-text-color);
+    font-size: 4em;
+    margin: 0px;
+    margin-bottom: 2px;
+}
+.page-header {
+    text-align: center;
+    background-color: var(--primary-background-color);
+    padding: 25px 0px 25px 0px 
+}
+.about-page {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+}
+.about-page div {
+    font-size: 1.1em;
+    text-align:justify;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 1vh;
+}
+.event-body {
+    justify-content: center;
+}
+
+:target summary {background-color:#19557D;}
+
+.i-link, .e-link {
+    margin: 0px;
+    font-size: .7em;
+    color: var(--primary-link-color);
+}
+h2 .pure-button {
+    font-size: .5em;
+}
+.upcoming .i-link, .upcoming .e-link {
+    font-size: 1.0em;
+}
+.staff-performer-list li{
+    list-style-type: '├ ';
+}
+.staff-performer-list li:nth-child(2n){
+    color: #BBBBBB;
+}
+.staff-performer-list li:first-child {
+    list-style-type: '┌ ';
+}
+.staff-performer-list li:last-child {
+    list-style-type: '└ ';
+}
+details[open] summary ~ * {
+    animation: sweep .25s ease-in-out;
+  }
+  
+  @keyframes sweep {
+    0%    {opacity: 0; margin-top: -10px}
+    100%  {opacity: 1; margin-top: 0px}
+  }
+
+.pure-phase-main {
+    margin-top: 50px;
+}
+@keyframes colorMagic {
+    0% { color: rgba(76, 99, 254, 1);}
+    1% { color: rgba(65, 112, 252, 1); }
+    2% { color: rgba(55, 124, 249, 1); }
+    3% { color: rgba(45, 136, 245, 1); }
+    4% { color: rgba(36, 148, 240, 1); }
+    5% { color: rgba(28, 160, 234, 1); }
+    6% { color: rgba(20, 172, 226, 1);}
+    7% { color: rgba(14, 183, 218, 1); }
+    8% { color: rgba(9, 194, 209, 1); }
+    9% { color: rgba(5, 204, 200, 1); }
+    10% { color: rgba(2, 213, 189, 1); }
+    11% { color: rgba(0, 222, 179, 1); }
+    12% { color: rgba(0, 230, 167, 1); }
+    13% { color: rgba(0, 236, 156, 1); }
+    14% { color: rgba(2, 242, 144, 1); }
+    15% { color: rgba(4, 247, 132, 1); }
+    16% { color: rgba(8, 250, 120, 1); }
+    17% { color: rgba(13, 253, 108, 1); }
+    18% { color: rgba(19, 254, 97, 1); }
+    19% { color: rgba(25, 254, 85, 1); }
+    20% { color: rgba(33, 254, 74, 1); }
+    21% { color: rgba(41, 252, 64, 1); }
+    22% { color: rgba(50, 249, 54, 1); }
+    23% { color: rgba(60, 245, 45, 1); }
+    24% { color: rgba(70, 240, 37, 1); }
+    25% { color: rgba(80, 235, 29, 1); }
+    26% { color: rgba(91, 228, 22, 1); }
+    27% { color: rgba(102, 221, 16, 1); }
+    28% { color: rgba(113, 213, 11, 1); }
+    29% { color: rgba(124, 205, 7, 1); }
+    30% { color: rgba(135, 196, 4, 1); }
+    31% { color: rgba(145, 186, 1, 1); }
+    32% { color: rgba(156, 176, 0, 1); }
+    33% { color: rgba(166, 166, 0, 1); }
+    34% { color: rgba(176, 156, 0, 1); }
+    35% { color: rgba(186, 146, 1, 1); }
+    36% { color: rgba(195, 135, 3, 1); }
+    37% { color: rgba(203, 125, 6, 1); }
+    38% { color: rgba(211, 115, 10, 1); }
+    39% { color: rgba(219, 105, 14, 1); }
+    40% { color: rgba(225, 95, 19, 1); }
+    41% { color: rgba(231, 86, 25, 1); }
+    42% { color: rgba(237, 76, 31, 1); }
+    43% { color: rgba(241, 68, 38, 1); }
+    44% { color: rgba(245, 59, 45, 1); }
+    45% { color: rgba(248, 52, 52, 1); }
+    46% { color: rgba(251, 44, 60, 1); }
+    47% { color: rgba(253, 38, 68, 1); }
+    48% { color: rgba(254, 31, 76, 1); }
+    49% { color: rgba(254, 26, 85, 1); }
+    50% { color: rgba(254, 21, 93, 1); }
+    51% { color: rgba(254, 16, 101, 1);}
+    52% { color: rgba(252, 12, 110, 1); }
+    53% { color: rgba(251, 9, 118, 1); }
+    54% { color: rgba(248, 6, 126, 1); }
+    55% { color: rgba(246, 4, 135, 1); }
+    56% { color: rgba(243, 2, 142, 1); }
+    57% { color: rgba(239, 1, 150, 1); }
+    58% { color: rgba(235, 0, 158, 1); }
+    59% { color: rgba(231, 0, 165, 1); }
+    60% { color: rgba(227, 0, 172, 1); }
+    61% { color: rgba(222, 0, 179, 1); }
+    62% { color: rgba(217, 1, 185, 1); }
+    63% { color: rgba(212, 2, 191, 1); }
+    64% { color: rgba(207, 4, 197, 1); }
+    65% { color: rgba(202, 6, 202, 1); }
+    66% { color: rgba(197, 8, 207, 1); }
+    67% { color: rgba(191, 10, 212, 1); }
+    68% { color: rgba(186, 13, 216, 1); }
+    69% { color: rgba(181, 16, 220, 1); }
+    70% { color: rgba(175, 19, 224, 1); }
+    71% { color: rgba(170, 22, 228, 1); }
+    72% { color: rgba(165, 25, 231, 1); }
+    73% { color: rgba(160, 28, 234, 1); }
+    74% { color: rgba(155, 31, 237, 1); }
+    75% { color: rgba(150, 35, 239, 1); }
+    76% { color: rgba(146, 38, 241, 1); }
+    77% { color: rgba(141, 41, 243, 1); }
+    78% { color: rgba(137, 44, 245, 1); }
+    79% { color: rgba(132, 48, 246, 1); }
+    80% { color: rgba(128, 51, 248, 1); }
+    81% { color: rgba(125, 54, 249, 1); }
+    82% { color: rgba(121, 57, 250, 1); }
+    83% { color: rgba(118, 60, 251, 1); }
+    84% { color: rgba(114, 63, 252, 1); }
+    85% { color: rgba(111, 65, 252, 1); }
+    86% { color: rgba(108, 68, 253, 1); }
+    87% { color: rgba(106, 70, 253, 1); }
+    88% { color: rgba(103, 73, 253, 1); }
+    89% { color: rgba(101, 75, 254, 1); }
+    90% { color: rgba(99, 77, 254, 1); }
+    91% { color: rgba(97, 79, 254, 1); }
+    92% { color: rgba(95, 80, 254, 1); }
+    93% { color: rgba(93, 82, 254, 1); }
+    94% { color: rgba(92, 83, 254, 1); }
+    95% { color: rgba(91, 84, 254, 1); }
+    96% { color: rgba(90, 85, 254, 1); }
+    97% { color: rgba(89, 86, 254, 1); }
+    98% { color: rgba(88, 87, 254, 1); }
+    99% { color: rgba(88, 87, 254, 1); }
+    100% { color: rgba(88, 88, 254, 1); }
+  }
