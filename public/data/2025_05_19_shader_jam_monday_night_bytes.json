@@ -5,7 +5,7 @@
     "type": "Shader Jam",
     "website": "https://mnb.field-fx.party/",
     "flyer": "",
-    "vod":"",
+    "vod":"https://scenesat.com/videoarchive/4212664a-3a76-11f0-8d25-00505685775e?bs5#show-4212664a-3a76-11f0-8d25-00505685775e",
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -60,7 +60,7 @@
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "echoparallax",
+                        "name": "echo~parallax",
                         "demozoo_id": 148985
                     },
                     "shadertoy_url": null,
@@ -119,7 +119,13 @@
                 
             ],
             "staffs": [
-                
+                {
+                    "handle": {
+                        "name": "RaccoonViolet",
+                        "demozoo_id": 90373
+                    },
+                    "job": "DJ"
+                }
             ]
         }
     ],

@@ -71,7 +71,13 @@
                 
             ],
             "staffs": [
-                
+                {
+                    "handle": {
+                        "name": "echo~parallax",
+                        "demozoo_id": 148985
+                    },
+                    "job": "DJ"
+                }
             ]
         }
     ],
