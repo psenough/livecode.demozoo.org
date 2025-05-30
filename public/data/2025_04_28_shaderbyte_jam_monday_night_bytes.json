@@ -114,8 +114,8 @@
                     "rank": null,
                     "points": null,
                     "handle": {
-                        "name": "echo-parallax",
-                        "demozoo_id": null
+                        "name": "echo~parallax",
+                        "demozoo_id": 148985
                     },
                     "shadertoy_url": null,
                     "preview_image": "2025_04_28_shaderbyte_jam_monday_night_bytes/grabber_mondaynightbytes_echoparallax.jpg",
