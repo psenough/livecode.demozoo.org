@@ -1,0 +1,315 @@
+
+; nikhotmsk: help me this thing is not broken
+
+/*                |                     |    o
+   ,---.,   ..   .|__/ ,---.,--.--.,---.|--- .,---.
+   |   ||   ||   ||  \ |   ||  |  |,---||    ||
+   `   '`---|`---'`   ``---'`  '  '`---^`---'``---'
+        `---'              :.by..stardust..2025.:   */
+
+; default org = $6000 (any address within $6000..$ff00 is fine)
+; esc: toggle editor | f1: options | f5: recompile | f12: reset
+
+	org $6000
+
+big_loop
+	ld hl, $5800
+	ld de, $5801
+	ld bc, 767
+	ld a, (border_color)
+	and 7
+	out ($fe), a
+	ld a, (foreground_color)
+	ld (hl), a
+	ldir
+	
+loop
+	ld hl, (counter)
+	inc hl
+	ld a, h
+	and 0b00111111
+	ld h, a
+	ld (counter), hl
+	
+	ld hl, (counter)
+	
+	ld a, l
+	cp 0
+	jr nz, main_skip
+	
+	ld a, h
+	cp 0
+	jr z, part_1
+	
+	ld a, h
+	cp 16
+	jr z, part_2
+	
+	ld a, h
+	cp 32
+	jr z, part_3
+	
+	ld a, h
+	cp 32+16
+	jr z, part_4
+	
+	jr main_skip
+
+part_1
+	; part 1
+	
+	ld a, 0b00000000
+	ld  (border_color), a
+	ld a, 0b01000100
+	ld (foreground_color), a
+	ld a, 200
+	ld (density), a
+	ld a, 1
+	ld (randomize), a
+	jr big_loop
+part_2
+	; part 2
+	ld a, 0b01000111
+	ld (foreground_color), a
+	ld a, 0b00000111
+	ld (border_color), a
+	ld a, 60
+	ld (density), a
+	ld a, 0
+	ld (randomize), a
+	jr big_loop
+	
+part_3
+	; part 3
+	ld a, 0b01000101
+	ld (foreground_color), a
+	ld a, 8
+	ld (density), a
+	ld a, 0
+	ld (border_color), a
+	jr big_loop
+part_4
+	; part 4
+	ld a, 0b11000010
+	ld (foreground_color), a
+	ld a, 0b00000010
+	ld (border_color), a
+	jp big_loop
+	
+main_skip
+	call draw_one_line
+	
+	jr loop
+
+foreground_color
+	.db 0b01000101
+border_color
+	.db 0b00000000
+line_byte
+	.db 0
+randomize
+	.db 0
+counter
+	.dw 0
+density
+	.db 20
+
+draw_one_line
+	
+	call rnd16
+	ld a, h
+	cp 192
+	jr nc, draw_one_line
+	
+	ld a, 255
+	ld (line_byte), a
+	
+	ld a, (randomize)
+	cp 0
+	jr z, line_no_randomize
+	ld a, l
+	ld (line_byte), a
+line_no_randomize
+	
+	
+	ld a, (density)
+	ld d, a
+	ld a, l
+	cp d
+	jr c, line_skip_1
+	ld a, 0
+	ld (line_byte), a	
+line_skip_1
+	
+	ld l, 0
+	call hl_to_scr
+	
+	ld b, 32
+	ld a, (line_byte)
+draw_one_line_loop
+	ld (hl), a
+	inc l
+	dec b
+	jr nz, draw_one_line_loop
+	
+	ret
+
+
+;----------------------------------------
+; Snippets:
+;  down_hl
+;  up_hl
+;  hl_to_scr
+;  scr_to_attrs
+;  set_point
+;  rnd16
+;  gen_sin
+;----------------------------------------
+
+;----------------------------------------
+; Next screen line address in HL
+;----------------------------------------
+down_hl
+	inc  h
+	ld   a, h
+	and  #07
+	ret  nz
+	ld   a, l
+	sub  #e0
+	ld   l, a
+	sbc  a
+	and  #f8
+	add  h
+	ld   h, a
+	ret
+
+;----------------------------------------
+; Previous screen line address in HL
+;----------------------------------------
+up_hl
+	dec  h
+	ld   a, h
+	cpl
+	and  #07
+	ret  nz
+	ld   a, l
+	sub  #20
+	ld   l, a
+	ret  c
+	ld   a, h
+	add  #08
+	ld   h, a
+	ret
+
+;----------------------------------------
+; in:  L = x [0..255]
+;      H = y [0..191]
+; out: HL = addr in screen [4000..57FF]
+;      C = pixel number [0..7]
+;----------------------------------------
+hl_to_scr
+	ld   c, l
+	ld   a, l
+	.3   rlca
+	xor  h
+	and  #c7
+	xor  h
+	.2   rlca
+	ld   l, a
+	ld   a, h
+	and  #c0
+	inc  a
+	.3   rra
+	xor  h
+	and  #f8
+	xor  h
+	ld   h, a
+	ld   a, c
+	and  7
+	ret
+
+;----------------------------------------
+; in:  HL = addr in screen [4000..57FF]
+; out: HL = addr in attrs [5800..5AFF]
+;----------------------------------------
+scr_to_attrs
+	ld   a, h
+	.3   rrca
+	and  #03
+	or   #58
+	ld   h, a
+	ret
+
+;----------------------------------------
+; in:  L = x [0..255]
+;      H = y [0..191]
+;----------------------------------------
+set_point
+	call hl_to_scr
+	ld   de, pixel_tbl
+	add  e
+	ld   e, a
+	ld   a, (de)
+	ld   (hl), a
+	ret
+
+	align 8
+pixel_tbl
+	db #80,#40,#20,#10,#08,#04,#02,#01
+
+;----------------------------------------
+; in:  none
+; out: HL = random 16bit value
+;----------------------------------------
+rnd16
+.sd	equ  $+1
+	ld   de, 0
+	ld   a, d
+	ld   h, e
+	ld   l, 253
+	or   a
+	sbc  hl, de
+	sbc  a, 0
+	sbc  hl, de
+	ld   d, 0
+	sbc  a, d
+	ld   e, a
+	sbc  hl, de
+	jr   nc, .st
+	inc  hl
+.st	ld  (.sd), hl
+	ret
+
+;----------------------------------------
+; in:  IX = addr of 256b buffer
+; out: generated sin table
+;----------------------------------------
+gen_sin
+	ld   de, #7fbc
+	ld   hl, #ff7f
+.g0	ld   a, d
+	xor  #80 ; uncomment for unsigned
+	ld   (ix), a
+	xor  #80 ; uncomment for unsigned
+	rla
+	sbc  a
+	ld   b, a
+	ld   c, d
+	adc  hl, bc
+	rr   c
+	rrca
+	rr   c
+	add  hl, bc
+	ld   b, h
+	ld   a, l
+	ex   de, hl
+	sra  b: rra
+	sra  b: rra
+	sra  b: rra
+	ld   c, a
+	; or   a
+	sbc  hl, bc
+	ex   de, hl
+	inc  ixl
+	jr   nz, .g0
+	ret
