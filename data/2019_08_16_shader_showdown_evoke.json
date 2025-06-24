@@ -1,0 +1,180 @@
+{
+    "title": "Evoke",
+    "started": "2019-08-16",
+    "date": "16 - 18 August 2019",
+    "type": "Shader Showdown",
+    "vod": "https://www.twitch.tv/videos/468044887",
+    "software_used": null,
+    "phases": [
+        {
+            "title": "Semi Final 1",
+            "vod": "https://www.twitch.tv/videos/468044887?t=1h5m38s",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/wtSXDw",
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dojoe",
+                        "demozoo_id": 24894
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "andro",
+                        "demozoo_id": 67079
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final 2",
+            "vod": "https://www.twitch.tv/videos/468044887?t=01h57m03s",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Nusan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dojoe",
+                        "demozoo_id": 24894
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "andro",
+                        "demozoo_id": 67079
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.twitch.tv/videos/468044887?t=01h57m03s",
+            "entries": [
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/wsV3DG",
+                    "source_file": null
+                },
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dojoe",
+                        "demozoo_id": 24894
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "andro",
+                        "demozoo_id": 67079
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 3680
+}
