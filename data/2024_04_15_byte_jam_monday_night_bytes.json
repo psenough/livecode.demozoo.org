@@ -1,0 +1,80 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2024-04-15",
+    "date": "15 April 2024",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.1",
+            "version": "tic80showdown Alice fork v0.0.1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_04_15_byte_jam_monday_night_bytes/pumpuli.png",
+                    "source_file": "/shader_file_sources/2024_04_15_byte_jam_monday_night_bytes/pumpuli.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Muffintrap",
+                        "demozoo_id": 80210
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_04_15_byte_jam_monday_night_bytes/muffintrap.png",
+                    "source_file": "/shader_file_sources/2024_04_15_byte_jam_monday_night_bytes/muffintrap.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Vurpo",
+                        "demozoo_id": 138609
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_04_15_byte_jam_monday_night_bytes/vurpo.png",
+                    "source_file": "/shader_file_sources/2024_04_15_byte_jam_monday_night_bytes/vurpo.lua"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "mintimperial",
+                        "demozoo_id": null
+                        },
+                    "job": "DJ set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

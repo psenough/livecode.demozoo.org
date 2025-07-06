@@ -1,0 +1,79 @@
+{
+    "title": "Pre-Evoke",
+    "started": "2023-07-24",
+    "date": "24 July 2023",
+    "type": "Byte Jam",
+    "website": "https://2023.evoke.eu/",
+    "flyer": "",
+    "vod":"https://scenesat.com/videoarchive/d10b0f1b-2a6d-11ee-931f-00505685775e?t=1374#show-d10b0f1b-2a6d-11ee-931f-00505685775e",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "alia",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_07_24_byte_jam_prevoke/alia.gif",
+                    "source_file": "/shader_file_sources/2023_07_24_byte_jam_prevoke/alia.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_07_24_byte_jam_prevoke/superogue.gif",
+                    "source_file": "/shader_file_sources/2023_07_24_byte_jam_prevoke/superogue.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "ToBach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_07_24_byte_jam_prevoke/tobach.gif",
+                    "source_file": "/shader_file_sources/2023_07_24_byte_jam_prevoke/tobach.lua"
+                }
+            ],
+            "staffs": [
+            ]
+        }
+    ],
+    "staffs": [
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}
