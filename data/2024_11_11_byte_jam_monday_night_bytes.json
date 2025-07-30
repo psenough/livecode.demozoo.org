@@ -1,0 +1,68 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2024-11-11",
+    "date": "11 November 2024",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Catnip",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_11_byte_jam_monday_night_bytes/catnip.png",
+                    "source_file": "/shader_file_sources/2024_11_11_byte_jam_monday_night_bytes/catnip.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_11_byte_jam_monday_night_bytes/jtruk.png",
+                    "source_file": "/shader_file_sources/2024_11_11_byte_jam_monday_night_bytes/jtruk.lua"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "guy with dog",
+                        "demozoo_id": null
+                        },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+			"handle": {
+				"name": "reality404",
+				"demozoo_id": 67077
+			},
+			"job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

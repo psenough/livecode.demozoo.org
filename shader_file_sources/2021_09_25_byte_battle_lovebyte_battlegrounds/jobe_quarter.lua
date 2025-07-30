@@ -1,0 +1,1 @@
+TIC=load't=time()/555m=math cls()r={2,3,4,6,9,1} for i=0,32639 do x=i%120S=m.sin y=i/66 n=m.atan(x,y)*6+S(t)d=(x*x+y)/5e3*(9+6*S(t)*S(n+t))if d>1 and d<7then poke4(i,r[d//1])end end s={"trans","rights"}x={35,25}i=t%8//4+1print(s[i],x[i],50+30*S(t),12,Z,6)'
