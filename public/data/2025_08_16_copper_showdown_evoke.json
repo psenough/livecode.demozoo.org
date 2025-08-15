@@ -1,0 +1,105 @@
+{
+    "title": "Evoke",
+    "started": "2025-08-16",
+    "date": "16 August 2025",
+    "type": "Copper Showdown",
+    "website": "https://2025.evoke.eu/",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "Copper",
+            "url": "https://gitlab.com/akronyme-analogiker/copper-showdown/copper-showdown-editor",
+            "version": "",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Round 1",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "canmom",
+                        "demozoo_id": 148063
+                      },
+                    "preview_image": "2025_08_16_copper_showdown_evoke/canmom-round1.jpg",
+                     "source_file": "/shader_file_sources/2025_08_16_copper_showdown_evoke/canmom-round1.csd"
+                },
+                 {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                      },
+                    "preview_image": "2025_08_16_copper_showdown_evoke/flopine-round1.jpg",
+                     "source_file": "/shader_file_sources/2025_08_16_copper_showdown_evoke/flopine-round1.csd"
+                },
+                 {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                      },
+                    "preview_image": "2025_08_16_copper_showdown_evoke/nusan-round1.jpg",
+                     "source_file": "/shader_file_sources/2025_08_16_copper_showdown_evoke/nusan-round1.csd"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "greippi",
+                        "demozoo_id": 2028
+                      },
+                    "preview_image": "2025_08_16_copper_showdown_evoke/greippi-round1.jpg",
+                     "source_file": "/shader_file_sources/2025_08_16_copper_showdown_evoke/greippi-round1.csd"
+                }
+            ],
+            "staffs": [
+            ]
+        },
+        {
+            "title": "Round 2",
+            "vod": null,
+            "entries": [
+                
+                 {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                      },
+                    "preview_image": "2025_08_16_copper_showdown_evoke/flopine-round2.jpg",
+                     "source_file": "/shader_file_sources/2025_08_16_copper_showdown_evoke/flopine-round2.csd"
+                },
+                 {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                      },
+                    "preview_image": "2025_08_16_copper_showdown_evoke/nusan-round1.jpg",
+                     "source_file": "/shader_file_sources/2025_08_16_copper_showdown_evoke/nusan-round1.csd"
+                }
+            ],
+            "staffs": [
+            ]
+        }
+    ],
+    "staffs": [
+    ],
+    "demozoo_party_id": 5108
+}
