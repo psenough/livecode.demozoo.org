@@ -1,0 +1,42 @@
+{
+    "title": "SIGGRAPH",
+    "started": "2025-08-14",
+    "date": "14 August 2025",
+    "type": "Shader Code Seminar",
+    "website": "",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": "https://www.youtube.com/watch?v=wOc7wJqlJZY",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Provod",
+                        "demozoo_id": 24024
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_14_shader_seminar_siggraph/shader-2025-08-14-siggraph-demobof-pt20m.jpg",
+                    "source_file": "/shader_file_sources/2025_08_14_shader_seminar_siggraph/shader-2025-08-14-siggraph-demobof-pt20m.glsl"
+                }
+            ],
+            "staffs": [
+            ]
+        }
+    ],
+    "staffs": [
+    ],
+    "demozoo_party_id": null
+}
