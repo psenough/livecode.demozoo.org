@@ -67,7 +67,7 @@
                     "points": null,
                     "handle": {
                         "name": "zombocom",
-                        "demozoo_id": 44279
+                        "demozoo_id": null
                     },
                     "shadertoy_url": null,
                     "preview_image": "2025_08_17_byte_wall_evoke/zombocom.png",
@@ -245,5 +245,5 @@
             "job": "Organizers"
         }
     ],
-    "demozoo_party_id": 4710
+    "demozoo_party_id": 5108
 }
