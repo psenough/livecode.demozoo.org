@@ -1,0 +1,111 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2025-01-06",
+    "date": "06 January 2025",
+    "type": "Shaderbyte",
+    "website": "",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_01_06_shaderbyte_jam_monday_night_bytes/grabber_fieldfx_aldroid.jpg",
+                    "source_file": "/shader_file_sources/2025_01_06_shaderbyte_jam_monday_night_bytes/grabber_fieldfx_aldroid.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_01_06_shaderbyte_jam_monday_night_bytes/grabber_fieldfx_pumpuli.jpg",
+                    "source_file": "/shader_file_sources/2025_01_06_shaderbyte_jam_monday_night_bytes/grabber_fieldfx_pumpuli.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_01_06_shaderbyte_jam_monday_night_bytes/grabber_fieldfx_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2025_01_06_shaderbyte_jam_monday_night_bytes/grabber_fieldfx_totetmatt.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_01_06_shaderbyte_jam_monday_night_bytes/jtruk.gif",
+                    "source_file": "/shader_file_sources/2025_01_06_shaderbyte_jam_monday_night_bytes/jtruk.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "weatherman115",
+                        "demozoo_id": 141550
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_01_06_shaderbyte_jam_monday_night_bytes/weatherman115.gif",
+                    "source_file": "/shader_file_sources/2025_01_06_shaderbyte_jam_monday_night_bytes/weatherman115.lua"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "wolffythereal",
+                        "demozoo_id": null
+                    },
+                    "job": "DJ"
+                }
+                
+            ]
+        }
+    ],
+    "staffs": [
+        {
+			"handle": {
+				"name": "RaccoonViolet",
+				"demozoo_id": 90373
+			},
+			"job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

@@ -1,0 +1,41 @@
+{
+    "title": "Nordlicht",
+    "started": "2025-07-25",
+    "date": "25 July 2025",
+    "type": "Copper Code Seminar",
+    "website": "https://nordlicht.demoparty.info/",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "Copper",
+            "url": "https://gitlab.com/akronyme-analogiker/copper-showdown/copper-showdown-editor",
+            "version": "",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "????",
+                        "demozoo_id": null
+                      },
+                    "preview_image": "2025_07_05_copper_seminar_shadowparty/seminar.jpg",
+                    "shadertoy_url": null
+                }
+            ],
+            "staffs": [
+            ]
+        }
+    ],
+    "staffs": [
+    ],
+    "demozoo_party_id": 5094
+}

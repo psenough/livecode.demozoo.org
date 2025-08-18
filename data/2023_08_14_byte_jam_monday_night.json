@@ -1,0 +1,103 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2023-08-14",
+    "date": "14 August 2023",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"https://scenesat.com/videoarchive/5da8e3bf-3c06-11ee-931f-00505685775e#show-5da8e3bf-3c06-11ee-931f-00505685775e",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                
+               
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "alia",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_14_byte_jam_monday_night/alia.gif",
+                    "source_file": "/shader_file_sources/2023_08_14_byte_jam_monday_night/alia.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gasman",
+                        "demozoo_id": 5879
+                    },
+                    "tic80_cart_id": 3491,
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_14_byte_jam_monday_night/gasman.gif",
+                    "source_file": "/shader_file_sources/2023_08_14_byte_jam_monday_night/gasman.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "tic80_cart_id": 3499,
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_14_byte_jam_monday_night/jtruk.png",
+                    "source_file": "/shader_file_sources/2023_08_14_byte_jam_monday_night/jtruk.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_14_byte_jam_monday_night/mantratronic.gif",
+                    "source_file": "/shader_file_sources/2023_08_14_byte_jam_monday_night/mantratronic.lua"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                      "name": "aldroid",
+                      "demozoo_id": 63755
+                    },
+                    "job": "Commentator"
+                  },
+                  {
+                    "handle": {
+                      "name": "ferris",
+                      "demozoo_id": 18
+                    },
+                    "job": "DJ Set"
+                  }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+              "name": "aldroid",
+              "demozoo_id": 63755
+            },
+            "job": "Organizers"
+          }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}
