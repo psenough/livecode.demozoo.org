@@ -1,6 +1,6 @@
 {
     "title": "Bytewall @ Evoke ",
-    "started": "2024-08-15",
+    "started": "2025-08-15",
     "date": "15-17 August 2025",
     "type": "Byte Jam",
     "website": "https://2025.evoke.eu/",
@@ -34,7 +34,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/sgz.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/sgz.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/sgz.lua"
                 },
                 {
@@ -46,7 +46,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/hallo.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/hallo.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/hallo.lua"
                 },
                 {
@@ -58,7 +58,7 @@
                         "demozoo_id": 44279
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/roeltje1.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/roeltje1.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/roeltje1.lua"
                 },
                 {
@@ -70,7 +70,7 @@
                         "demozoo_id": 44279
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/zombocom.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/zombocom.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/zombocom.lua"
                 },
                 {
@@ -82,7 +82,7 @@
                         "demozoo_id": 73877
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/scrapper1.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/scrapper1.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/scrapper1.lua"
                 },
                 {
@@ -94,7 +94,7 @@
                         "demozoo_id": 142108
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/dok.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/dok.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/dok.lua"
                 },
                 {
@@ -106,7 +106,7 @@
                         "demozoo_id": null
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/rubix.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/rubix.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/rubix.lua"
                 },
                 {
@@ -118,7 +118,7 @@
                         "demozoo_id": 1981
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/jco.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/jco.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/jco.lua"
                 },
                 {
@@ -130,7 +130,7 @@
                         "demozoo_id": 80946
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/potcfdk.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/potcfdk.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/potcfdk.lua"
                 },
                 {
@@ -142,7 +142,7 @@
                         "demozoo_id": 143232
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/g33kou.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/g33kou.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/g33kou.lua"
                 },
                 {
@@ -154,7 +154,7 @@
                         "demozoo_id": 9972
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/jamque.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/jamque.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/jamque.lua"
                 },
                 {
@@ -166,7 +166,7 @@
                         "demozoo_id": 73877
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/scrapper2.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/scrapper2.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/scrapper2.lua"
                 },
                 {
@@ -178,7 +178,7 @@
                         "demozoo_id": 44279
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/roeltje2.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/roeltje2.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/roeltje2.lua"
                 },
                 {
@@ -190,7 +190,7 @@
                         "demozoo_id": 5879
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/gasman.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/gasman.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/gasman.lua"
                 },
                 {
@@ -202,7 +202,7 @@
                         "demozoo_id": 89891
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/enfys.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/enfys.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/enfys.lua"
                 },
                 {
@@ -214,7 +214,7 @@
                         "demozoo_id": 88839
                     },
                     "shadertoy_url": null,
-                    "preview_image": "2025_08_17_byte_wall_evoke/nusan.gif",
+                    "preview_image": "2025_08_17_byte_wall_evoke/nusan.png",
                     "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/nusan.lua"
                 },
             ],
