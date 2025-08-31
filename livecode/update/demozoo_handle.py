@@ -69,7 +69,9 @@ def _get_demozoo_id(item: dict) -> Optional[str]:
 
 def _get_demozoo_data(demozoo_id):
     url = f'https://demozoo.org/api/v1/releasers/{demozoo_id}/'
-    data = requests.get(url).json()
+    data = requests.get(url)
+    print(data.content)
+    data= data.json()
     return data
 
 def _get_demozoo_name(data) -> str:
