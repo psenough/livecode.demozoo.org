@@ -235,11 +235,11 @@
                     "points": 143,
                     "handle": {
                         "name": "popolon",
-                        "demozoo_id": null
+                        "demozoo_id": 126957
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": 2221,
-                    "source_file": null,
+                    "source_file": "/shader_file_sources/2021_09_25_byte_battle_lovebyte_battlegrounds/popolon_first_round.lua",
                     "preview_image": null
                 }
             ],
@@ -529,7 +529,7 @@
                     "points": 97,
                     "handle": {
                         "name": "jobe",
-                        "demozoo_id": null
+                        "demozoo_id": 3548
                     },
                     "shadertoy_url": null,
                     "tic80_cart_id": null,
