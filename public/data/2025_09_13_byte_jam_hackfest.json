@@ -1,0 +1,99 @@
+{
+    "title": "Hackfest",
+    "started": "2025-09-13",
+    "date": "13 September 2025",
+    "type": "Byte Jam",
+    "website": "https://hackfest.nl/",
+    "flyer": "",
+    "vod":"https://youtu.be/6iptZ69bweI",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.1.0-beta-vqt",
+            "version": "tic80showdown Alice fork v0.1.0-beta-vqt",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "F#Ready",
+                        "demozoo_id": 35273
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_09_13_byte_jam_hackfest/fready.jpg",
+                    "source_file": "/shader_file_sources/2025_09_13_byte_jam_hackfest/fready.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Suule",
+                        "demozoo_id": 136862
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_09_13_byte_jam_hackfest/suule.jpg",
+                    "source_file": "/shader_file_sources/2025_09_13_byte_jam_hackfest/suule.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Jtruk",
+                        "demozoo_id": 136862
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_09_13_byte_jam_hackfest/jtruk.jpg",
+                    "source_file": "/shader_file_sources/2025_09_13_byte_jam_hackfest/jtruk.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "borisvanslooten",
+                        "demozoo_id": 0
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_09_13_byte_jam_hackfest/boris.jpg",
+                    "source_file": "/shader_file_sources/2025_09_13_byte_jam_hackfest/boris.lua"
+                }
+            ],
+            "staffs": [
+                 {
+                    "handle": {
+                        "name": "DaTucker",
+                        "demozoo_id": 27099
+                    },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        },
+                {
+            "handle": {
+                "name": "Zeno4ever",
+                "demozoo_id": 131752
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 5395
+}
