@@ -1,0 +1,119 @@
+{
+    "title": "Free DJ-Shader Coding Party",
+    "started": "2021-07-23",
+    "date": "27 July 2021",
+    "type": "Shader Jam",
+    "vod": null,
+    "website": "https://www.facebook.com/events/1407624289621640/",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v12",
+            "version": "NuSan - v12",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "cosamentale",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_07_23_shader_coding_party/grabber_monsieursoleilHouse_cosamentale.jpg",
+                    "source_file": "/shader_file_sources/2021_07_23_shader_coding_party/grabber_monsieursoleilHouse_cosamentale.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "EmmazingGoose",
+                        "demozoo_id": 121827
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_07_23_shader_coding_party/grabber_monsieursoleilHouse_EmmazingGoose.jpg",
+                    "source_file": "/shader_file_sources/2021_07_23_shader_coding_party/grabber_monsieursoleilHouse_EmmazingGoose.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Exca",
+                        "demozoo_id": 35897
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/NljXzh",
+                    "preview_image": "2021_07_23_shader_coding_party/grabber_monsieursoleilHouse_Exca.jpg",
+                    "source_file": "/shader_file_sources/2021_07_23_shader_coding_party/grabber_monsieursoleilHouse_Exca.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rimina",
+                        "demozoo_id": 56489
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_07_23_shader_coding_party/grabber_monsieursoleilHouse_rimina.jpg",
+                    "source_file": "/shader_file_sources/2021_07_23_shader_coding_party/grabber_monsieursoleilHouse_rimina.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "sp4ghet",
+                        "demozoo_id": 119897
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_07_23_shader_coding_party/grabber_monsieursoleilHouse_sp4ghet.jpg",
+                    "source_file": "/shader_file_sources/2021_07_23_shader_coding_party/grabber_monsieursoleilHouse_sp4ghet.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Tater",
+                        "demozoo_id": 130920
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/NtjXzh",
+                    "preview_image": "2021_07_23_shader_coding_party/grabber_monsieursoleilHouse_Tater.jpg",
+                    "source_file": "/shader_file_sources/2021_07_23_shader_coding_party/grabber_monsieursoleilHouse_Tater.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_07_23_shader_coding_party/grabber_monsieursoleilHouse_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2021_07_23_shader_coding_party/grabber_monsieursoleilHouse_totetmatt.glsl"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "monsieursoleil",
+                "demozoo_id": null
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": null
+}
