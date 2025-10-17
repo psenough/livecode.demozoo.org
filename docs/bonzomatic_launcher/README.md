@@ -16,6 +16,7 @@ Bonzomatic launcher is a utility tool for Bonzomatic Network to help to manage m
 The configuration is in `launcher.json` , open it and edit it to change behaviour of the launcher. Important settings are :
 
 - `bonzo > exename `  : Ensure the name of the executable is the same for bonzomatic in your directory 
+
 - `network > serverUrl` : Needs to be configurded to point to a bonzomatic network room like: `ws:\/\/drone.alkama.com:9000\/your_room_name\/`
 
 # Interface
