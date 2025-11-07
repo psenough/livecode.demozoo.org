@@ -1,6 +1,6 @@
-# Inercià 2025 Shader Jam
+# Inércia 2025 Shader Jam
 
-Here are the step to participate to the Inercià 2025 Shader Jam
+Here are the step to participate to the Inércia 2025 Shader Jam
 
 ## Download binary
 
