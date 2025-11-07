@@ -18,6 +18,7 @@ Bonzomatic is usually distributed as a zip. Just unzip the file somewhere.
 * A window should appear. Register theses information: 
     * Network >> **Sender**
     * Server : `ws://drone.alkama.com:9000`
+    * Room : `inercia_2025`
     * Nickname  : `your_nickname`
 * Then click on **Run**, you should see bonzomatic running with the default shader. You are ready to go 
 
