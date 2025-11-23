@@ -1,0 +1,111 @@
+{
+    "title": "Laval Virtual / Cookie Showdown #7",
+    "started": "2018-04-07",
+    "date": "07 April 2018",
+    "type": "Shader Showdown",
+    "vod": "https://www.youtube.com/watch?v=6ul-jeLTQbM",
+    "software_used": [
+        {
+            "name": "Veda",
+            "url": "https://veda.gl/",
+            "version": "",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Exquisite Shader",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Elie",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-04-07/01-elie.frag"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Koltes",
+                        "demozoo_id": 52423
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-04-07/02-koltes.frag"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Elie",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-04-07/03-elie.frag"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Elie",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-04-07/04-elie.frag"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Adrian",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-04-07/05-adrian.frag"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Jean Michel",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-04-07/06-jeanmichel.frag"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "point": null,
+                    "handle": {
+                        "name": "Koltes",
+                        "demozoo_id": 52423
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-04-07/07-koltes.frag"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Cookie Collective",
+                "demozoo_id": 78435
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZCOOKIE"
+}

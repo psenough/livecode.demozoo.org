@@ -1,0 +1,117 @@
+;; title:  THE LET US SEE IF I AM
+;; author: CONNECTED GAME
+;; desc:   I AM! YAY!
+;; script: fennel
+
+;; let's get rid of this cruft
+;; does BOOT have to be first?
+;; no. wtaf.
+
+(global T 0)
+
+(fn _G.BOOT []
+  (global tt 0)
+)
+
+
+;; right so I'm gonna try to do
+;; this thing my mom is doing
+;; in a quilt right now in her
+;; quilt group
+
+;; C: triangle, same width as D,
+;; and um. gosh I have no idea
+;; how to measure that.
+;; hmmmm
+;; well let's not measure, it's
+;; like, a 45 degree angle.
+
+;; B is ... let's see
+;; I notice Evilpaul is not trying
+;; to translate a quilt pattern (:
+;; B is an odd quad thing.
+;; hmm how to do this...
+;; right in 15 minutes? that ain't
+;; happening (:
+
+;; ok that is not filled.
+;; let's do a tri (:
+;; I the confuzed are
+;; what's great is that ... yeah
+;; these need to rotate. so. yeah.
+;; that's gonna be fun to do later.
+(fn theC [x y w]
+ (local x1 x)
+ (local y1 y)
+ (local x2 (+ x w))
+ (local y2 y)
+ (local x3 (+ x (/ w 2)))
+ (local y3 (+ y (* w .5)))
+ (tri x1 y1 x2 y2 x3 y3 8)
+ (line x y (+ x w) y 11)
+ (line x y (+ x (/ w 2))
+  (+ y (* w .5)) 11)
+ (line (+ x (/ w 2)) 
+       (+ y (* w .5))
+       (+ x w) y 11)
+ )
+
+;; D: big ol' square
+(fn _G.theD [x y w h]
+ (rect x y w h 3)
+ (line x y (+ x w) y 2)
+ (line (+ x w) y (+ x w) (+ y w) 2)
+ (line (+ x w) (+ y w) x (+ y w) 2)
+ (line x y x (+ y w) 2)
+)
+;; 
+
+; ok let's put something interesting
+; in so you have more than orange
+;; yes I forgot how to plot, cheat
+;; sheet lookup gets
+;; ok seriously. why is this not setting
+;; also this editor's keys are whacked
+(fn _G.TIC []
+  (global T (+ T 1))
+  ;; seriously this has no block copy?
+   ;; ok time for... yeah
+   (for [x 10 200 6]
+    (for [y 10 100 6]
+     (theD x y 30 30)
+     )
+     )
+   ;; you know, let's leave that (:
+   ;; let's draw more of these.
+   (for [x 50 150 15]
+    (for [y 30 100 15]
+      (theC x y 30)
+      )
+    )
+   ;; feedback time!
+  (for [x 0 240 2]
+    (for [y 0 136 3]
+    ;; why is this not working?
+    ;; local not let
+     (local p (pix x y ))
+     (pix (+ x 1) (+ y 2) p)
+     (local p (- (pix x (+ y 1) ) 3))
+     (pix x y p)
+     )
+    )    
+  )
+  (for [x 0 240]
+(for [y 0 136]
+(local p (pix x y))
+(pix (+ x 1) (+ y 1) p )
+(pix (+ x ) (+ y ) p )
+
+;; well this isn't at all correct
+;; Imma just leave this here and
+;; go do some fennel tic80 tommorrow
+;; cuz it's been like... 6 weeks
+;; and I forgot a ton (:
+
+)
+)
+;;(+ (* .5 x T) (* .3 y)))
