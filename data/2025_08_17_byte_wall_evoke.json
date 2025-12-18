@@ -1,0 +1,249 @@
+{
+    "title": "Bytewall @ Evoke ",
+    "started": "2025-08-15",
+    "date": "15-17 August 2025",
+    "type": "Byte Jam",
+    "website": "https://2025.evoke.eu/",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Byte Jammer",
+            "url": "https://github.com/creativenucleus/bytejammer",
+            "version" : "",
+            "purpose": "System"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "SGZ",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/sgz.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/sgz.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Hallo",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/hallo.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/hallo.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "roeltje",
+                        "demozoo_id": 44279
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/roeltje1.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/roeltje1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "zombocom",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/zombocom.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/zombocom.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Scrapper",
+                        "demozoo_id": 73877
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/scrapper1.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/scrapper1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dok",
+                        "demozoo_id": 142108
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/dok.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/dok.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rubix",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/rubix.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/rubix.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jco",
+                        "demozoo_id": 1981
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/jco.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/jco.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "PotcFdk",
+                        "demozoo_id": 80946
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/potcfdk.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/potcfdk.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "g33kou",
+                        "demozoo_id": 143232
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/g33kou.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/g33kou.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jamque",
+                        "demozoo_id": 9972
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/jamque.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/jamque.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Scrapper",
+                        "demozoo_id": 73877
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/scrapper2.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/scrapper2.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "roeltje",
+                        "demozoo_id": 44279
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/roeltje2.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/roeltje2.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/gasman.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/gasman.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "enfys",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/enfys.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/enfys.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Nusan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_17_byte_wall_evoke/nusan.png",
+                    "source_file": "/shader_file_sources/2025_08_17_byte_wall_evoke/nusan.lua"
+                }
+            ],
+            "staffs": [
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "RaccoonViolet",
+                "demozoo_id": 90373
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "reality404",
+                "demozoo_id": 67077
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "jtruk",
+                "demozoo_id": 135705
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 5108
+}

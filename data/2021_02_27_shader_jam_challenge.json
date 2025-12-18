@@ -1,0 +1,75 @@
+{
+    "title": "Shader Cha\u03bb\u03bbenge",
+    "started": "2021-02-27",
+    "date": "27 February 2021",
+    "type": "Shader Jam",
+    "vod": "https://www.youtube.com/watch?v=2NJrpOFxSSo",
+    "software_used": null,
+    "phases": [
+        {
+            "title": "Shader Cha\u03bb\u03bbenge",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "FMS_Cat",
+                        "demozoo_id": 57112
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/tlyBWw",
+                    "source_file": "/shader_file_sources/2021_02_27_shader_jam_challenge/shaderchallenge_fms_cat.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "butadiene",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/wtGfWw",
+                    "source_file": "/shader_file_sources/2021_02_27_shader_jam_challenge/shaderchallenge_butadiene.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "sp4ghet",
+                        "demozoo_id": 119897
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_02_27_shader_jam_challenge/shaderchallenge_sp4ghet.jpg",
+                    "source_file": "/shader_file_sources/2021_02_27_shader_jam_challenge/shaderchallenge_sp4ghet.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "\u3089\u304f\u3068\u3042\u3044\u3059 (lactoice)",
+                        "demozoo_id": null
+                    },
+                    "job": "Live Music"
+                },
+                {
+                    "handle": {
+                        "name": "phi16",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "phi16",
+                "demozoo_id": null
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": null
+}

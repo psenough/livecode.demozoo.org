@@ -1,0 +1,264 @@
+{
+    "title": "Deadline",
+    "started": "2024-10-04",
+    "date": "04 October 2024",
+    "type": "Bytewall",
+    "website": "https://deadline.untergrund.net/2024/",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Bytejammer",
+            "url": "https://github.com/creativenucleus/bytejammer",
+            "version": "",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "attractmode",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/attractmode.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/attractmode.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Ave Eris",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/Ave_Eris-1.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/Ave_Eris-1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "HeNeArXn",
+                        "demozoo_id": 135712
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/deadlinelightning.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/deadlinelightning.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "HeNeArXn",
+                        "demozoo_id": 135712
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/deadlinetext.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/deadlinetext.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Enfys",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/Enfys-1.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/Enfys-1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Enfys",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/Enfys-2.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/Enfys-2.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Enfys",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/Enfys-3.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/Enfys-3.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Enfys",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/Enfys-4.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/Enfys-4.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/jtruk-default.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/jtruk-default.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "KK",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/KK-1.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/KK-1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "KK",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/KK-2.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/KK-2.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "PlexBionFX",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/PlexBionFX-1.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/PlexBionFX-1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "PlexBionFX",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/PlexBionFX-2.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/PlexBionFX-2.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "PlexBionFX",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/PlexBionFX-3.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/PlexBionFX-3.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "PlexBionFX",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/PlexBionFX-4.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/PlexBionFX-4.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "PlexBionFX",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/PlexBionFX-5.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/PlexBionFX-5.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "PotcFdk",
+                        "demozoo_id": 80946
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/PotcFdk-1.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/PotcFdk-1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Vurpo",
+                        "demozoo_id": 138609
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/Vurpo-1.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/Vurpo-1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Vurpo",
+                        "demozoo_id": 138609
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_04_wallbyte_deadline/Vurpo-2.gif",
+                    "source_file": "/shader_file_sources/2024_10_04_wallbyte_deadline/Vurpo-2.lua"
+                }
+            ],
+            "staffs": [
+            ]
+        }
+    ],
+    "staffs": [
+    ],
+    "demozoo_party_id": 4775
+}

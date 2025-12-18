@@ -1,0 +1,105 @@
+{
+    "title": "WebGL Souhonzan + normalize.fm 10th + 3rd Annivrersary festival",
+    "started": "2024-09-28",
+    "date": "28 September 2024",
+    "type": "Shader Jam",
+    "website": "https://sn13.peatix.com/",
+    "flyer": "",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v13",
+            "version": "NuSan - v13",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "SonicPi",
+            "url": "https://sonic-pi.net/",
+            "version": "",
+            "purpose": "Audio"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "0b5vr",
+                        "demozoo_id": 128318
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/M32cRc",
+                    "preview_image": "2024_09_28_shader_jam_normalizefm/grabber_normalizefm_0b5vr.jpg",
+                    "source_file": "/shader_file_sources/2024_09_28_shader_jam_normalizefm/grabber_normalizefm_0b5vr.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gam0022",
+                        "demozoo_id": 63869
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/XX2yRt",
+                    "preview_image": "2024_09_28_shader_jam_normalizefm/grabber_normalizefm_gam0022.jpg",
+                    "source_file": "/shader_file_sources/2024_09_28_shader_jam_normalizefm/grabber_normalizefm_gam0022.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Kamoshika",
+                        "demozoo_id": 128644
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/l32cz3",
+                    "preview_image": "2024_09_28_shader_jam_normalizefm/grabber_normalizefm_Kamoshika.jpg",
+                    "source_file": "/shader_file_sources/2024_09_28_shader_jam_normalizefm/grabber_normalizefm_Kamoshika.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Renard",
+                        "demozoo_id": 137275
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/4X2yzd",
+                    "preview_image": "2024_09_28_shader_jam_normalizefm/grabber_normalizefm_renard.jpg",
+                    "source_file": "/shader_file_sources/2024_09_28_shader_jam_normalizefm/grabber_normalizefm_renard.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "niko_14",
+                        "demozoo_id": null
+                    },
+                    "job": "Livecode Music"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "0b5vr",
+                "demozoo_id": 128318
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "doxas",
+                "demozoo_id": 57111
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": null
+}

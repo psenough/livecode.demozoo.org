@@ -1,0 +1,92 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2024-08-28",
+    "date": "28 October 2024",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "enfys",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_28_byte_jam_monday_night_bytes/enfys.png",
+                    "source_file": "/shader_file_sources/2024_10_28_byte_jam_monday_night_bytes/enfys.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "g33kou",
+                        "demozoo_id": 143232
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_28_byte_jam_monday_night_bytes/g33kou.png",
+                    "source_file": "/shader_file_sources/2024_10_28_byte_jam_monday_night_bytes/g33kou.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                	},
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_28_byte_jam_monday_night_bytes/pumpuli.png",
+                    "source_file": "/shader_file_sources/2024_10_28_byte_jam_monday_night_bytes/pumpuli.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_10_28_byte_jam_monday_night_bytes/jtruk.png",
+                    "source_file": "/shader_file_sources/2024_10_28_byte_jam_monday_night_bytes/jtruk.lua"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                        },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

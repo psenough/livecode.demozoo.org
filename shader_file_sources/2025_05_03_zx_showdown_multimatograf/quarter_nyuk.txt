@@ -1,0 +1,117 @@
+; Sliv #01 by nyuk^Outsiders
+; Idea:     nyuk
+; Code:     nyuk
+; Graphics: nyuk
+; Music:    -
+; -- 
+; Special for Multimatograf 2025
+;
+	org $6000
+
+	ei
+	
+loop
+	call e1
+	call l1	
+	call bminusodin
+	call l1	
+
+	call e2	
+	call l1
+	call bminusodin
+	call l1	
+
+	call e3
+	call l1
+	call bminusodin
+	call l1	
+	 	
+	jr loop
+
+l1	ld a, 0 : inc a : and 1 : ld (l1+1), a
+	out (#fe), a
+	ret
+
+bminusodin
+	ld a, (bm1+1)
+	add %00001011
+	and %00111111
+	or %01000000
+	ld (bm1+1), a
+		
+b0	ld a, (b11+1)
+	add 8 : ld (b11+1), a	
+		
+b1	ld a, #0
+	add 256 - 32
+	ld (b1+1), a
+	ld h, 5
+	ld l, a
+	ld de, #5800
+	ld bc, #300
+	
+1	ld a, (hl)
+	
+b11	cp 252
+	jr c, 3f
+bm1	ld a, %01110000
+	jr 5f
+3	cp 20
+	jr c, 4f
+	ld a, %01001000
+	jr 5f
+4	xor a
+5	ld (de), a
+	inc de
+	inc hl
+	dec bc
+	ld a, b : or c : jr nz, 1b
+	ret
+
+	define E1LE #300
+	
+e1	ld a, 0 : inc a : ld (e1 + 1), a
+	ld l, a : ld h, 0
+	ld de, #4200
+	ld bc, E1LE
+1	ld a, (hl)
+	and %00111100
+	ld (de), a
+	inc hl
+	inc de
+	dec bc
+	ld a, c
+	or b 
+	jr nz, 1b
+	ret
+
+e2	ld a, 0 : dec a : ld (e2 + 1), a
+	ld l, a : ld h, #10
+	ld de, #4a00
+	ld bc, E1LE
+1	ld a, (hl)
+	and %00111100
+	ld (de), a
+	inc hl
+	inc de
+	dec bc
+	ld a, c
+	or b 
+	jr nz, 1b
+	ret
+
+e3	ld a, 0 : inc a : ld (e3 + 1), a
+	ld l, a : ld h, #20
+	ld de, #5200
+	ld bc, E1LE
+1	ld a, (hl)
+	and %00111100
+	ld (de), a
+	inc hl
+	inc de
+	dec bc
+	ld a, c
+	or b 
+	jr nz, 1b
+	ret
+	

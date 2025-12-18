@@ -1,0 +1,227 @@
+{
+    "title": "Sessions",
+    "started": "2024-11-16",
+    "date": "16 November 2024",
+    "type": "Shader Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"https://www.youtube.com/watch?v=A1-ZTppLfIA&t=21522s",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "0b5vr",
+                        "demozoo_id": 128318
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_16_shader_jam_sessions/grabber_sessions_0b5vr.jpg",
+                    "source_file": "/shader_file_sources/2024_11_16_shader_jam_sessions/grabber_sessions_0b5vr.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_16_shader_jam_sessions/grabber_sessions_aldroid.jpg",
+                    "source_file": "/shader_file_sources/2024_11_16_shader_jam_sessions/grabber_sessions_aldroid.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "ciosai_tw",
+                        "demozoo_id": 142051
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_16_shader_jam_sessions/grabber_sessions_ciosai_tw.jpg",
+                    "source_file": "/shader_file_sources/2024_11_16_shader_jam_sessions/grabber_sessions_ciosai_tw.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Kamoshika",
+                        "demozoo_id": 128644
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_16_shader_jam_sessions/grabber_sessions_Kamoshika.jpg",
+                    "source_file": "/shader_file_sources/2024_11_16_shader_jam_sessions/grabber_sessions_Kamoshika.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "kinankomoti",
+                        "demozoo_id": 137274
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_16_shader_jam_sessions/grabber_sessions_kinankomti.jpg",
+                    "source_file": "/shader_file_sources/2024_11_16_shader_jam_sessions/grabber_sessions_kinankomti.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "kostik",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_16_shader_jam_sessions/grabber_sessions_kostik.jpg",
+                    "source_file": "/shader_file_sources/2024_11_16_shader_jam_sessions/grabber_sessions_kostik.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "musk",
+                        "demozoo_id": 14411
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_16_shader_jam_sessions/grabber_sessions_musk.jpg",
+                    "source_file": "/shader_file_sources/2024_11_16_shader_jam_sessions/grabber_sessions_musk.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "renard",
+                        "demozoo_id": 137275
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_16_shader_jam_sessions/grabber_sessions_renard.jpg",
+                    "source_file": "/shader_file_sources/2024_11_16_shader_jam_sessions/grabber_sessions_renard.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_16_shader_jam_sessions/grabber_sessions_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2024_11_16_shader_jam_sessions/grabber_sessions_totetmatt.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_16_shader_jam_sessions/grabber_sessions_visy.jpg",
+                    "source_file": "/shader_file_sources/2024_11_16_shader_jam_sessions/grabber_sessions_visy.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wbcbz7",
+                        "demozoo_id": 45761
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_16_shader_jam_sessions/grabber_sessions_wbcbz7.jpg",
+                    "source_file": "/shader_file_sources/2024_11_16_shader_jam_sessions/grabber_sessions_wbcbz7.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": 113559
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_16_shader_jam_sessions/grabber_sessions_wrighter.jpg",
+                    "source_file": "/shader_file_sources/2024_11_16_shader_jam_sessions/grabber_sessions_wrighter.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Zavie",
+                        "demozoo_id": 985
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_16_shader_jam_sessions/grabber_sessions_Zavie.jpg",
+                    "source_file": "/shader_file_sources/2024_11_16_shader_jam_sessions/grabber_sessions_Zavie.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Peregrine",
+                        "demozoo_id": 122747
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_11_16_shader_jam_sessions/grabber_sessions_Peregrine.jpg",
+                    "source_file": "/shader_file_sources/2024_11_16_shader_jam_sessions/grabber_sessions_Peregrine.glsl"
+                }
+               
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Fl1ne",
+                        "demozoo_id": 24017
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "gam0022",
+                        "demozoo_id": 63869
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Fl1ne",
+                "demozoo_id": 24017
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Renard",
+                "demozoo_id": 137275
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 5034
+}

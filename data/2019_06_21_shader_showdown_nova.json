@@ -1,0 +1,179 @@
+{
+    "title": "NOVA",
+    "started": "2019-06-21",
+    "date": "21 - 23 June 2019",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/Gargaj/Bonzomatic",
+            "version": "2019-03-26",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Round 1",
+            "vod": "https://www.youtube.com/watch?v=xegAFqulK8I",
+            "entries": [
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 173,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/WscGzf",
+                    "source_file": null
+                },
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 150,
+                    "handle": {
+                        "name": "lovely hannibal",
+                        "demozoo_id": 26514
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/3l2GDK",
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "subi",
+                        "demozoo_id": 21306
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": 1525
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "psonice",
+                        "demozoo_id": 9807
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "kris sum",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Round 2",
+            "vod": "https://www.youtube.com/watch?v=xmbZY8dpbLo",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 154,
+                    "handle": {
+                        "name": "lovely hannibal",
+                        "demozoo_id": 26514
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 141,
+                    "handle": {
+                        "name": "psonice",
+                        "demozoo_id": 9807
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "subi",
+                        "demozoo_id": 21306
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": 1525
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "crypt",
+                        "demozoo_id": 63756
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Round 3",
+            "vod": "https://www.youtube.com/watch?v=leD1bIsBMRg",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 188,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/3d33zs",
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 134,
+                    "handle": {
+                        "name": "psonice",
+                        "demozoo_id": 9807
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "subi",
+                        "demozoo_id": 21306
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": 1525
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "crypt",
+                        "demozoo_id": 63756
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 3657
+}

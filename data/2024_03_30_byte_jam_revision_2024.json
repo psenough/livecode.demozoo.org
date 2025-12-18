@@ -1,0 +1,99 @@
+{
+    "title": "Revision",
+    "started": "2024-03-30",
+    "date": "30 March 2024",
+    "type": "Byte Jam",
+    "website": "https://2024.revision-party.net/",
+    "flyer": "",
+    "vod":"https://www.youtube.com/watch?v=9Qhg4zJLy4o",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "TôBach",
+                        "demozoo_id": 89891
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_30_byte_jam_revision_2024/tobach.gif",
+                    "source_file": "/shader_file_sources/2024_03_30_byte_jam_revision_2024/tobach.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_30_byte_jam_revision_2024/gasman.gif",
+                    "source_file": "/shader_file_sources/2024_03_30_byte_jam_revision_2024/gasman.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_30_byte_jam_revision_2024/jtruk.gif",
+                    "source_file": "/shader_file_sources/2024_03_30_byte_jam_revision_2024/jtruk.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_30_byte_jam_revision_2024/nusan.gif",
+                    "source_file": "/shader_file_sources/2024_03_30_byte_jam_revision_2024/nusan.lua"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Numtek",
+                        "demozoo_id": 6428
+                        },
+                    "job": "DJ set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers (Stage)"
+        },
+        {
+            "handle": {
+                "name": "RaccoonViolet",
+                "demozoo_id": 90373
+            },
+            "job": "Organizers (BeamTeam)"
+        }
+    ],
+    "demozoo_party_id": 4791
+}

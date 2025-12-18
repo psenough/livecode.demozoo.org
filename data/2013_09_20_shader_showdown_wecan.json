@@ -1,0 +1,70 @@
+{
+    "title": "WeCan",
+    "started": "2013-09-20",
+    "date": "20 - 22 September 2013",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": null,
+    "phases": [
+        {
+            "title": "Quarter Final ?",
+            "vod": "https://www.youtube.com/watch?v=njec22FHkpA",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Maq",
+                        "demozoo_id": 3833
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "w23",
+                        "demozoo_id": 24024
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Final",
+            "vod": null,
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 127,
+                    "handle": {
+                        "name": "KK",
+                        "demozoo_id": 1027
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 131,
+                    "handle": {
+                        "name": "w23",
+                        "demozoo_id": 24024
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/ldl3W2",
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 1834
+}
