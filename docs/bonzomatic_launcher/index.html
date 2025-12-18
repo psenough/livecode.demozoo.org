@@ -1,0 +1,603 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Bonzomatic Launcher - Livecode Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#bonzomatic-launcher" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Livecode Docs" class="md-header__button md-logo" aria-label="Livecode Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Livecode Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Bonzomatic Launcher
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="white" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../articles/bonzomatic_launcher/" class="md-tabs__link">
+          
+  
+  
+  How to
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Livecode Docs" class="md-nav__button md-logo" aria-label="Livecode Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Livecode Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    How to
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../articles/bonzomatic_launcher/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Use Bonzomatic Launcher
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="bonzomatic-launcher">Bonzomatic Launcher<a class="headerlink" href="#bonzomatic-launcher" title="Permanent link">&para;</a></h1>
+<p>Bonzomatic launcher is a utility tool for Bonzomatic Network to help to manage multiple Bonzomatic instance using the network feature.</p>
+<h1 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h1>
+<ul>
+<li>
+<p>We need first a network compatible version of Bonzomatic. Download one of theses version and unzip it in a directory that will be your "host" directory.</p>
+<ul>
+<li><a href="https://github.com/TheNuSan/Bonzomatic/releases/download/v13/Bonzo_Network_13_x64.zip">https://github.com/TheNuSan/Bonzomatic/releases/download/v13/Bonzo_Network_13_x64.zip</a></li>
+<li><a href="https://github.com/wrightwriter/Bonzomatic-Compute">https://github.com/wrightwriter/Bonzomatic-Compute</a></li>
+</ul>
+</li>
+<li>
+<p>Download <a href="https://github.com/TheNuSan/Bonzomatic/releases/download/v13/Extra_Launcher_08.zip">Extra_Launcher_08.zip</a> here https://github.com/TheNuSan/Bonzomatic/releases/tag/v13 and unzip the content into your host directory previously created with the bonzomatic binaries inside.</p>
+</li>
+<li>
+<p>The directory should looks like this</p>
+</li>
+</ul>
+<p><img alt="e03e3f1ecaf61a6f4b0d2bc8c05beab5.png" src="e03e3f1ecaf61a6f4b0d2bc8c05beab5.png" /></p>
+<h1 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h1>
+<p>The configuration is in <code>launcher.json</code> , open it and edit it to change behaviour of the launcher. Important settings are :</p>
+<ul>
+<li>
+<p><code>bonzo &gt; exename</code>  : Ensure the name of the executable is the same for bonzomatic in your directory </p>
+</li>
+<li>
+<p><code>network &gt; serverUrl</code> : Needs to be configurded to point to a bonzomatic network room like: <code>ws:\/\/drone.alkama.com:9000\/your_room_name\/</code></p>
+</li>
+</ul>
+<h1 id="interface">Interface<a class="headerlink" href="#interface" title="Permanent link">&para;</a></h1>
+<ul>
+<li>Run <code>Launcher.exe</code>, you should see this interface</li>
+</ul>
+<p><img alt="03b22193372b6e1bf63ec61c6c2d625c.png" src="03b22193372b6e1bf63ec61c6c2d625c.png" /></p>
+<p>1 - Add Coder Manually</p>
+<p>2 - Save change to <code>launcher.json</code> (listof coder  and other change done)</p>
+<p>3 - Connect to Server</p>
+<p>4 - Display Advanced participant option</p>
+<p>5 - Diaporama mode and configuration</p>
+<p>6 - Mosaic Mode</p>
+<p>7 - Random Mode</p>
+<p>When you start the Launcher without special change on the config, the interface is empty and without any coder list.</p>
+<h1 id="add-coder">Add Coder<a class="headerlink" href="#add-coder" title="Permanent link">&para;</a></h1>
+<h2 id="automatic-detection">Automatic Detection<a class="headerlink" href="#automatic-detection" title="Permanent link">&para;</a></h2>
+<p>The easiest way to add coder is to use the automatic coder detection feature. 
+First of all, you need to agree between all participant to a common network room. eg. ws://drone.alkama.com:9000/jam/:<br />
+- Participants will configure bonzomatic as <code>sender</code> to <code>ws://drone.alkama.com:9000/jam/coder_name</code></p>
+<p><img alt="57ce180a47759507c8e903e898e0cbb7.png" src="57ce180a47759507c8e903e898e0cbb7.png" />
+- On your side the <code>launcher.json</code> should have the parameter <code>serverURL</code> set to<code>ws:\/\/drone.alkama.com:9000\/jam\/</code>.</p>
+<ul>
+<li>On launcher interface, click on the icon <img alt="e569707efdb744d5d49180b536c0d960.png" src="e569707efdb744d5d49180b536c0d960.png" /> to connect to server.</li>
+<li>If it's properly connected, you should see the icon turning green <img alt="51c5daf523f99a8f0337d13aa99e2a40.png" src="51c5daf523f99a8f0337d13aa99e2a40.png" /></li>
+<li>When participant will connect , you should see them appears on the list of participants</li>
+</ul>
+<p><img alt="b7c7f44e148db24ec4beacdf0941bf6d.png" src="b7c7f44e148db24ec4beacdf0941bf6d.png" /></p>
+<ul>
+<li>Click on icon <img alt="a69854c1ff374db6084db472e9b19198.png" src="a69854c1ff374db6084db472e9b19198.png" /> next to the participant handle to confirm it and start displaying it.</li>
+</ul>
+<h2 id="add-coder-manually">Add Coder Manually<a class="headerlink" href="#add-coder-manually" title="Permanent link">&para;</a></h2>
+<h3 id="from-ui">From UI<a class="headerlink" href="#from-ui" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Click on the button "Add Coder" <img alt="d390d8cfb84885b3e3a6444048c65cba.png" src="d390d8cfb84885b3e3a6444048c65cba.png" /></li>
+<li>Enter the coder handle in the prompt and click on to confirm it.</li>
+</ul>
+<p><img alt="5049a4b2b16df53a0f54aae602a29eda.png" src="5049a4b2b16df53a0f54aae602a29eda.png" /></p>
+<h3 id="from-configuration">From Configuration<a class="headerlink" href="#from-configuration" title="Permanent link">&para;</a></h3>
+<p>If you know in advance the list of participant and their handle, you can pre configure it on the <code>Launcher.json</code> by editing the list <code>coders</code> </p>
+<pre><code>&quot;coders&quot;: [
+    &quot;coder1&quot;,
+    &quot;coder2&quot;,
+    &quot;coder3&quot;
+  ],
+</code></pre>
+<p>The launcher will read this list only at startup.</p>
+<h1 id="monitoring">Monitoring<a class="headerlink" href="#monitoring" title="Permanent link">&para;</a></h1>
+<p><img alt="118689453fbf132a73166ee1eaf28d90.png" src="118689453fbf132a73166ee1eaf28d90.png" /></p>
+<p>When the participant is with a green mark, it means the launcher receive properly the shader from the remote participant.
+When the participant is with a red mark, it means the launcher doesn't receive properly the shader from the remote participant.</p>
+<h1 id="basic-display">Basic Display<a class="headerlink" href="#basic-display" title="Permanent link">&para;</a></h1>
+<h2 id="mosaic">Mosaic<a class="headerlink" href="#mosaic" title="Permanent link">&para;</a></h2>
+<p>Mosaic mode will display all participants in a grid. 
+Click on the button <img alt="c494f4a9cbfbc5abb3933b1bce3020a9.png" src="c494f4a9cbfbc5abb3933b1bce3020a9.png" /> to activate it.</p>
+<h2 id="focus">Focus<a class="headerlink" href="#focus" title="Permanent link">&para;</a></h2>
+<p>You can select one particular participant to display full screen by clicking on its handle.</p>
+<p><img alt="d56be6c7c105385c46825d9ebaa3d33a.png" src="d56be6c7c105385c46825d9ebaa3d33a.png" /></p>
+<h2 id="random">Random<a class="headerlink" href="#random" title="Permanent link">&para;</a></h2>
+<p>Random will just pick a random participant to focus.
+Click on the button to display a new random participant.</p>
+<h2 id="diaporama">Diaporama<a class="headerlink" href="#diaporama" title="Permanent link">&para;</a></h2>
+<p><img alt="5555d51b145bb77633da8828fea84ed0.png" src="5555d51b145bb77633da8828fea84ed0.png" /></p>
+<p>1 - Activate Diaporama Mode</p>
+<p>2 - Tap to measure bpm</p>
+<p>3 - Reduce 1 BPM</p>
+<p>4 - Increase 1 BPM</p>
+<p>5 - Loop when finish</p>
+<p>6 - Randomize</p>
+<p>Diaporama Mode will generate a "playlist" of participant to play. The change between all participant will be done automatically and the timing can be tweak using the <code>Tap to measure bpm</code> button <img alt="5caf977c5e87a54eaef8c93e400c8b4c.png" src="5caf977c5e87a54eaef8c93e400c8b4c.png" /> or via Decrease / Increase button for BPM <img alt="5798b8006919f45cf5a4b0b0ca390291.png" src="5798b8006919f45cf5a4b0b0ca390291.png" />.</p>
+<p>By default, the Diaporama mode will stop and come back to Mosaic mode after focusing all participants. If you want to loop indefinitvely you need to activate the loop via the button  <img alt="d49a3b6ac6c549a0e5d247cca5c2d8f3.png" src="d49a3b6ac6c549a0e5d247cca5c2d8f3.png" />.</p>
+<p>By default, the Diaporama mode will follow the order of participant in the list. You can randomize the selection by clicking <img alt="86a31faf97fbf2c31cd874bb0f8c82f4.png" src="86a31faf97fbf2c31cd874bb0f8c82f4.png" /></p>
+<h2 id="mute-participant">Mute Participant<a class="headerlink" href="#mute-participant" title="Permanent link">&para;</a></h2>
+<p>You can decide to hide participant using the icon <img alt="518ad22eda2c01eaed4a0b8e8c565550.png" src="518ad22eda2c01eaed4a0b8e8c565550.png" /> next to the participant handle you want to mute.
+When muted, the icon is in red <img alt="9a1d7132c4ee69bc86b17a5d7214f6bc.png" src="9a1d7132c4ee69bc86b17a5d7214f6bc.png" /> and won't appears in the Mosaic or in Random mode. It can still be clicked and shown for focus.</p>
+<h1 id="advanced-participant-options">Advanced Participant Options<a class="headerlink" href="#advanced-participant-options" title="Permanent link">&para;</a></h1>
+<p>When cliking to the button <img alt="-.png" src="-.png" /> you will display the Advanced Participant Options that will appears for each participants</p>
+<p><img alt="3f88a0bd2882241d5d4722c7e8c17c33.png" src="3f88a0bd2882241d5d4722c7e8c17c33.png" /></p>
+<p>1 - Mute participant</p>
+<p>2 - Move participant to top of the list</p>
+<p>3 - Move participant to bottom of the list</p>
+<p>4 - Recycle participant instance. This will restart a fresh instance of bonzomatic for this participant. Use this in case of crash of if the participant bonzomatic windows is behaving not as expected.</p>
+<p>5 - Remove participant from list. This will also close the bonzomatic instance for this participant</p>
+<h1 id="key-bind">Key bind<a class="headerlink" href="#key-bind" title="Permanent link">&para;</a></h1>
+<p>M: Show mosaic mode</p>
+<p>D: Launch a diaporama</p>
+<p>O: Toggle displaying options</p>
+<p>R: Put a random coder in full screen</p>
+<p>A: Add a new coder</p>
+<p>[0-9]: coders 1-10 in full screen</p>
+<p>ctrl+[0-9]: coders 11-20 in full screen</p>
+<p>shift+[0-9]: coders 21-30 in full screen</p>
+<p>alt+[0-9]: coders 31-40 in full screen</p>
+<p>Left/right: show previous/next coder in full screen</p>
+<p>F11: toggle shader overlay on all bonzo windows</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Livecode Docs is licensed under CC BY 4.0
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
