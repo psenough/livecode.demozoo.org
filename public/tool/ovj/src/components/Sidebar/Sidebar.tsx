@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, memo } from 'react';
 import type { ShaderFile } from '../../types';
 import './Sidebar.css';
 
@@ -9,7 +9,7 @@ interface SidebarProps {
   selected?: ShaderFile | null;
 }
 
-export function Sidebar({ shaders, onSelect, onAdd, selected }: SidebarProps) {
+export const Sidebar = memo(function Sidebar({ shaders, onSelect, onAdd, selected }: SidebarProps) {
   const [search, setSearch] = useState('');
 
   const filtered = useMemo(() => {
@@ -64,4 +64,4 @@ export function Sidebar({ shaders, onSelect, onAdd, selected }: SidebarProps) {
       </ul>
     </aside>
   );
-}
+});

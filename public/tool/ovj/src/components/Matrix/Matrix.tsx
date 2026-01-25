@@ -1,4 +1,4 @@
-import { Fragment } from 'react';
+import { Fragment, memo, useMemo } from 'react';
 import type { ShaderFile, WebSocketConnection } from '../../types';
 import './Matrix.css';
 
@@ -30,7 +30,16 @@ interface MatrixProps {
   onToggleBpmModifier: (connectionId: string, modifier: BpmModifier) => void;
 }
 
-export function Matrix({ shaders, connections, activeShaders, playingConnections, playModes, bpmModifiers, onRemoveShader, onRemoveConnection, onReconnect, onSend, onTogglePlay, onTogglePlayMode, onToggleBpmModifier }: MatrixProps) {
+export const Matrix = memo(function Matrix({ shaders, connections, activeShaders, playingConnections, playModes, bpmModifiers, onRemoveShader, onRemoveConnection, onReconnect, onSend, onTogglePlay, onTogglePlayMode, onToggleBpmModifier }: MatrixProps) {
+  // Memoize shortened URLs to avoid URL parsing on every render
+  const shortUrls = useMemo(() => {
+    const urls = new Map<string, string>();
+    for (const conn of connections) {
+      urls.set(conn.id, getShortUrl(conn.url));
+    }
+    return urls;
+  }, [connections]);
+
   return (
     <div className="matrix">
       <div
@@ -110,7 +119,7 @@ export function Matrix({ shaders, connections, activeShaders, playingConnections
                 </button>
               </div>
               <span className={`matrix__status matrix__status--${conn.status}`} />
-              <span className="matrix__col-url" title={conn.url}>{getShortUrl(conn.url)}</span>
+              <span className="matrix__col-url" title={conn.url}>{shortUrls.get(conn.id)}</span>
             </div>
           );
         })}
@@ -163,4 +172,4 @@ export function Matrix({ shaders, connections, activeShaders, playingConnections
       )}
     </div>
   );
-}
+});
