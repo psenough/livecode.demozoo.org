@@ -45,6 +45,7 @@ export default defineConfig({
       '@types': resolve(__dirname, './src/types'),
     },
   },
+  base: './',
   build: {
     outDir: 'dist',
     sourcemap: true,
