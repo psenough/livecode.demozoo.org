@@ -32,16 +32,43 @@ function saveConfig(config: StoredConfig) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(config));
 }
 
+/**
+ * Builds the WebSocket message payload for sending a shader.
+ */
+function buildShaderMessage(code: string): string {
+  return JSON.stringify({
+    Data: {
+      Anchor: 0,
+      Caret: 0,
+      Code: code,
+      Compile: true,
+      FirstVisibleLine: 0,
+      NickName: 'ovj',
+      RoomName: 'ovj',
+      ShaderTime: 0,
+    },
+  }) + '\0';
+}
+
 function App() {
   const { shaders, loading, error } = useShaders();
   const [selected, setSelected] = useState<ShaderFile | null>(null);
+
+  // Cache config loading to avoid parsing localStorage multiple times during initialization
+  let _cachedInitialConfig: StoredConfig | null | undefined;
+  const getInitialConfig = () => {
+    if (_cachedInitialConfig === undefined) {
+      _cachedInitialConfig = loadConfig();
+    }
+    return _cachedInitialConfig;
+  };
+
   const [addedShaders, setAddedShaders] = useState<ShaderFile[]>(() => {
-    const config = loadConfig();
-    return config?.addedShaders || [];
+    return getInitialConfig()?.addedShaders || [];
   });
   const [connections, setConnections] = useState<WebSocketConnection[]>([]);
   const [activeShaders, setActiveShaders] = useState<Map<string, string>>(() => {
-    const config = loadConfig();
+    const config = getInitialConfig();
     return config?.activeShaders ? new Map(config.activeShaders) : new Map();
   });
   const [bpm, setBpm] = useState<number>(() => {
@@ -54,6 +81,7 @@ function App() {
   const initializedRef = useRef(false);
   const intervalsRef = useRef<Map<string, number>>(new Map());
   const shuffleBagsRef = useRef<Map<string, string[]>>(new Map()); // connectionId -> remaining shader IDs
+  const shaderCacheRef = useRef<Map<string, string>>(new Map()); // shader path -> code
 
   const handleStatusChange = useCallback((id: string, status: WebSocketConnection['status']) => {
     setConnections((prev) =>
@@ -63,12 +91,25 @@ function App() {
 
   const { connect, disconnect, disconnectAll, send } = useWebSocket(handleStatusChange);
 
+  // Fetch shader code with caching
+  const fetchShaderCode = useCallback(async (shader: ShaderFile): Promise<string> => {
+    const cached = shaderCacheRef.current.get(shader.path);
+    if (cached !== undefined) {
+      return cached;
+    }
+    const response = await fetch(shader.path);
+    if (!response.ok) throw new Error('Failed to fetch shader');
+    const code = await response.text();
+    shaderCacheRef.current.set(shader.path, code);
+    return code;
+  }, []);
+
   // Restore connections on mount
   useEffect(() => {
     if (initializedRef.current) return;
     initializedRef.current = true;
     
-    const config = loadConfig();
+    const config = getInitialConfig();
     if (config?.connections && config.connections.length > 0) {
       const restoredConnections: WebSocketConnection[] = config.connections.map((conn) => ({
         id: conn.id,
@@ -101,29 +142,14 @@ function App() {
   // Send shader helper for sequencing (doesn't rely on connection object lookup)
   const sendShaderToConnection = useCallback(async (shader: ShaderFile, connectionId: string) => {
     try {
-      const response = await fetch(shader.path);
-      if (!response.ok) throw new Error('Failed to fetch shader');
-      const code = await response.text();
-
-      const message = JSON.stringify({
-        Data: {
-          Anchor: 0,
-          Caret: 0,
-          Code: code,
-          Compile: true,
-          FirstVisibleLine: 0,
-          NickName: 'ovj',
-          RoomName: 'ovj',
-          ShaderTime: 0,
-        },
-      }) + '\0';
-
+      const code = await fetchShaderCode(shader);
+      const message = buildShaderMessage(code);
       send(connectionId, message);
       setActiveShaders((prev) => new Map(prev).set(connectionId, shader.id));
     } catch (err) {
       console.error('Failed to send shader:', err);
     }
-  }, [send]);
+  }, [send, fetchShaderCode]);
 
   // Manage play intervals
   useEffect(() => {
@@ -248,7 +274,7 @@ function App() {
     });
   }, []);
 
-  const handleClearStorage = () => {
+  const handleClearStorage = useCallback(() => {
     localStorage.removeItem(STORAGE_KEY);
     // Disconnect all connections
     disconnectAll();
@@ -259,16 +285,19 @@ function App() {
     setPlayModes(new Map());
     setBpmModifiers(new Map());
     shuffleBagsRef.current.clear();
-  };
+  }, [disconnectAll]);
 
-  const handleAddShader = (shader: ShaderFile) => {
-    if (!addedShaders.find((s) => s.id === shader.id)) {
-      setAddedShaders([...addedShaders, shader]);
-    }
-  };
+  const handleAddShader = useCallback((shader: ShaderFile) => {
+    setAddedShaders((prev) => {
+      if (prev.find((s) => s.id === shader.id)) {
+        return prev;
+      }
+      return [...prev, shader];
+    });
+  }, []);
 
-  const handleRemoveShader = (shader: ShaderFile) => {
-    setAddedShaders(addedShaders.filter((s) => s.id !== shader.id));
+  const handleRemoveShader = useCallback((shader: ShaderFile) => {
+    setAddedShaders((prev) => prev.filter((s) => s.id !== shader.id));
     setActiveShaders((prev) => {
       const next = new Map(prev);
       for (const [connId, shaderId] of next) {
@@ -280,22 +309,22 @@ function App() {
     });
     // Clear all shuffle bags so they refresh with updated shader list
     shuffleBagsRef.current.clear();
-  };
+  }, []);
 
-  const handleAddConnection = (url: string) => {
+  const handleAddConnection = useCallback((url: string) => {
     const id = crypto.randomUUID();
     const newConnection: WebSocketConnection = {
       id,
       url,
       status: 'connecting',
     };
-    setConnections([...connections, newConnection]);
+    setConnections((prev) => [...prev, newConnection]);
     connect(id, url);
-  };
+  }, [connect]);
 
-  const handleRemoveConnection = (connection: WebSocketConnection) => {
+  const handleRemoveConnection = useCallback((connection: WebSocketConnection) => {
     disconnect(connection.id);
-    setConnections(connections.filter((c) => c.id !== connection.id));
+    setConnections((prev) => prev.filter((c) => c.id !== connection.id));
     setActiveShaders((prev) => {
       const next = new Map(prev);
       next.delete(connection.id);
@@ -317,41 +346,26 @@ function App() {
       return next;
     });
     shuffleBagsRef.current.delete(connection.id);
-  };
+  }, [disconnect]);
 
-  const handleReconnect = (connection: WebSocketConnection) => {
+  const handleReconnect = useCallback((connection: WebSocketConnection) => {
     disconnect(connection.id);
     setConnections((prev) =>
       prev.map((c) => (c.id === connection.id ? { ...c, status: 'connecting' } : c))
     );
     connect(connection.id, connection.url);
-  };
+  }, [disconnect, connect]);
 
-  const handleSend = async (shader: ShaderFile, connection: WebSocketConnection) => {
+  const handleSend = useCallback(async (shader: ShaderFile, connection: WebSocketConnection) => {
     try {
-      const response = await fetch(shader.path);
-      if (!response.ok) throw new Error('Failed to fetch shader');
-      const code = await response.text();
-
-      const message = JSON.stringify({
-        Data: {
-          Anchor: 0,
-          Caret: 0,
-          Code: code,
-          Compile: true,
-          FirstVisibleLine: 0,
-          NickName: 'ovj',
-          RoomName: 'ovj',
-          ShaderTime: 0,
-        },
-      }) + '\0';
-
+      const code = await fetchShaderCode(shader);
+      const message = buildShaderMessage(code);
       send(connection.id, message);
       setActiveShaders((prev) => new Map(prev).set(connection.id, shader.id));
     } catch (err) {
       console.error('Failed to send shader:', err);
     }
-  };
+  }, [send, fetchShaderCode]);
 
   return (
     <div className="app">
