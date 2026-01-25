@@ -9,7 +9,7 @@ export function useShaders() {
   useEffect(() => {
     async function loadShaders() {
       try {
-        const res = await fetch('/shaders.json');
+        const res = await fetch('./shaders.json');
         if (!res.ok) throw new Error('Failed to load shader index');
         const data: ShaderFile[] = await res.json();
         setShaders(data);
