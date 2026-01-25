@@ -1,0 +1,77 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app__main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.app__toolbar {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  background: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+.app__clear-btn {
+  padding: 8px 16px;
+  background: #dc2626;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.app__clear-btn:hover {
+  background: #b91c1c;
+}
+
+.app__bpm {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+  color: #fff;
+  font-size: 14px;
+}
+
+.app__bpm label {
+  font-weight: 500;
+}
+
+.app__bpm-input {
+  width: 70px;
+  padding: 8px;
+  background: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.app__bpm-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.app__bpm-input::-webkit-inner-spin-button,
+.app__bpm-input::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+.app__status {
+  padding: 16px;
+  color: #666;
+}
+
+.app__status--error {
+  color: #ef4444;
+}
