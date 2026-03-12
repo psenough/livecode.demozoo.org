@@ -1,0 +1,300 @@
+// left
+// sorry guys, i'm totally unprepared:)'
+
+; default org = $6000 (any address within $6000..$ff00 is fine)
+; esc: toggle editor | f1: options | f5: recompile | f12: reset
+
+sin1	equ	#6000
+sin2	equ	#6100
+
+	org $8000
+
+	ld	hl,#5b00
+1	dec	hl
+	ld	(hl),0
+	bit	3,h
+	jr	nz,1b
+	ld	hl,#5800
+1	xor	a
+	dec	hl
+	bit	2,h
+	jr	nz,2f
+	ld	a,#ff
+2	ld	(hl),a
+	xor	a
+	cp	h
+	jr	nz,1b
+	out	(254),a
+
+	ld	ix,sin1
+	ld   de, #6fbc
+	call	gen_sin
+
+	ld	ix,sin2
+	ld   de, #7fbc
+	call	gen_sin
+
+	ei
+
+	ld	hl,sin1+24
+	ld	de,sin2
+lpp
+	exx
+	ld	hl,#5820
+	ld	de,#5800
+	ld	bc,768-32
+	ldir
+	exx
+
+	ld	a,(hl)
+	rrca  :	rrca
+	and	%00111111
+	ld	b,a
+	ld	a,(de)
+	rrca  :	rrca : rrca
+	and	%00011111
+	ld	c,a	
+	push	bc
+
+	exx
+	pop	bc
+	ld	h,high pat1
+	ld	l,b
+	ld	d,high pat2
+	ld	e,c
+
+	ld	bc,#5b00-32
+	ld	lx,32
+1	ld	a,(de)
+	or	(hl)
+	ld	(bc),a
+	inc	hl,de,bc
+	dec	lx
+	jr	nz,1b
+	exx
+
+	call	switch
+	halt
+	call	switch
+	inc	l,e
+	jr	lpp
+
+
+switch
+	push	hl,de,bc
+
+	ld	hl,scr
+	ld	de,#590b-32
+
+	dup	10
+
+	push	hl,de
+	dup	10
+	ld	a,(de)
+	ld	c,(hl)
+	exd
+	ld	(de),a
+	ld	(hl),c
+	exd
+	inc	l,e
+	edup
+	pop	de,hl
+
+	ld	bc,10
+	add	hl,bc
+	ld	bc,32
+	exd
+	add	hl,bc
+	exd
+	
+	edup
+	pop	bc,de,hl
+	ret
+
+loop
+	inc	a
+	and	5
+	out	(254),a
+	jr loop
+
+
+
+	align	256
+pat1	dup	16
+	db	00q,01q,1q,05q,05q,07q,07q,07q,07q,05q,05q,01q,01q,00q,00q
+	edup
+
+	align	256
+pat2	dup	16
+	db	00q,00q,20q,20q,60q,60q,70q,70q,70q,70q,60q,60q,20q,20q,00q,0
+	edup
+
+	align	256
+scr	db	00q,100q,100q,100q,100q,100q,100q,100q,100q,00q
+	db	00q,122q,100q,100q,100q,100q,100q,100q,122q,00q
+	db	00q,122q,122q,100q,100q,100q,100q,122q,122q,00q
+	db	00q,122q,122q,122q,100q,100q,122q,122q,122q,00q
+	db	00q,122q,122q,122q,122q,122q,122q,122q,122q,00q
+	db	00q,122q,122q,122q,122q,122q,122q,122q,122q,00q
+	db	00q,122q,122q,122q,122q,122q,122q,122q,122q,00q
+	db	00q,122q,122q,122q,122q,122q,122q,122q,122q,00q
+	db	00q,100q,122q,122q,122q,122q,122q,122q,100q,00q
+	db	00q,100q,100q,100q,100q,100q,100q,100q,100q,00q
+	
+;----------------------------------------
+; Snippets:
+;  down_hl
+;  up_hl
+;  hl_to_scr
+;  scr_to_attrs
+;  set_point
+;  rnd16
+;  gen_sin
+;----------------------------------------
+
+;----------------------------------------
+; Next screen line address in HL
+;----------------------------------------
+down_hl
+	inc  h
+	ld   a, h
+	and  #07
+	ret  nz
+	ld   a, l
+	sub  #e0
+	ld   l, a
+	sbc  a
+	and  #f8
+	add  h
+	ld   h, a
+	ret
+
+;----------------------------------------
+; Previous screen line address in HL
+;----------------------------------------
+up_hl
+	dec  h
+	ld   a, h
+	cpl
+	and  #07
+	ret  nz
+	ld   a, l
+	sub  #20
+	ld   l, a
+	ret  c
+	ld   a, h
+	add  #08
+	ld   h, a
+	ret
+
+;----------------------------------------
+; in:  L = x [0..255]
+;      H = y [0..191]
+; out: HL = addr in screen [4000..57FF]
+;      C = pixel number [0..7]
+;----------------------------------------
+hl_to_scr
+	ld   c, l
+	ld   a, l
+	.3   rlca
+	xor  h
+	and  #c7
+	xor  h
+	.2   rlca
+	ld   l, a
+	ld   a, h
+	and  #c0
+	inc  a
+	.3   rra
+	xor  h
+	and  #f8
+	xor  h
+	ld   h, a
+	ld   a, c
+	and  7
+	ret
+
+;----------------------------------------
+; in:  HL = addr in screen [4000..57FF]
+; out: HL = addr in attrs [5800..5AFF]
+;----------------------------------------
+scr_to_attrs
+	ld   a, h
+	.3   rrca
+	and  #03
+	or   #58
+	ld   h, a
+	ret
+
+;----------------------------------------
+; in:  L = x [0..255]
+;      H = y [0..191]
+;----------------------------------------
+set_point
+	call hl_to_scr
+	ld   de, pixel_tbl
+	add  e
+	ld   e, a
+	ld   a, (de)
+	ld   (hl), a
+	ret
+
+	align 8
+pixel_tbl
+	db #80,#40,#20,#10,#08,#04,#02,#01
+
+;----------------------------------------
+; in:  none
+; out: HL = random 16bit value
+;----------------------------------------
+rnd16
+.sd	equ  $+1
+	ld   de, 0
+	ld   a, d
+	ld   h, e
+	ld   l, 253
+	or   a
+	sbc  hl, de
+	sbc  a, 0
+	sbc  hl, de
+	ld   d, 0
+	sbc  a, d
+	ld   e, a
+	sbc  hl, de
+	jr   nc, .st
+	inc  hl
+.st	ld  (.sd), hl
+	ret
+
+;----------------------------------------
+; in:  IX = addr of 256b buffer
+; out: generated sin table
+;----------------------------------------
+gen_sin
+	ld	hl, #ff1f
+.g0	ld   a, d
+	xor  #80 ; uncomment for unsigned
+	ld   (ix), a
+	xor  #80 ; uncomment for unsigned
+	rla
+	sbc  a
+	ld   b, a
+	ld   c, d
+	adc  hl, bc
+	rr   c
+	rrca
+	rr   c
+	add  hl, bc
+	ld   b, h
+	ld   a, l
+	ex   de, hl
+	sra  b: rra
+	sra  b: rra
+	sra  b: rra
+	ld   c, a
+	; or   a
+	sbc  hl, bc
+	ex   de, hl
+	inc  ixl
+	jr   nz, .g0
+	ret
