@@ -11,3 +11,4 @@ Pillow==8.4.0
 mkdocs-simple-blog
 mkdocs-material
 mkdocs
+nicegui

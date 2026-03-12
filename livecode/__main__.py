@@ -4,6 +4,7 @@ from update.update import update_all_data
 from workflow.new_bbc import generate_ffmc
 from workflow.upcoming import create_upcoming
 from poster import create_posters
+from ui import start_ui
 import re
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog="livecode")
@@ -15,6 +16,10 @@ if __name__ == "__main__":
         "workflow", help="Worflow related command"
     )
     parser_poster  = subparsers.add_parser("poster", help="Generate Posters")
+
+    parser_ui = subparsers.add_parser("ui", help="Start NiceGUI dashboard")
+    parser_ui.add_argument("--host", type=str, default="127.0.0.1", help="Host to bind to")
+    parser_ui.add_argument("--port", type=int, default=8080, help="Port to listen on")
 
     workflow_subparser = parser_workflow.add_subparsers(dest="workflow")
     parser_workflow_add_bbc = workflow_subparser.add_parser(
@@ -103,4 +108,6 @@ if __name__ == "__main__":
         freezer.freeze()
     if args.command == "poster":
         create_posters()
+    if args.command == "ui":
+        start_ui(host=args.host, port=args.port)
 
