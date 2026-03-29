@@ -1,6 +1,33 @@
 .app {
   display: flex;
   min-height: 100vh;
+  position: relative;
+}
+
+.app--dragging {
+  outline: 3px dashed #3b82f6;
+  outline-offset: -3px;
+}
+
+.app__drop-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(59, 130, 246, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.app__drop-overlay p {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 24px 48px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px dashed #3b82f6;
 }
 
 .app__main {

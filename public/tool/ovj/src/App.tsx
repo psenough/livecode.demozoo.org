@@ -53,6 +53,7 @@ function buildShaderMessage(code: string): string {
 function App() {
   const { shaders, loading, error } = useShaders();
   const [selected, setSelected] = useState<ShaderFile | null>(null);
+  const [isDragging, setIsDragging] = useState(false);
 
   // Cache config loading to avoid parsing localStorage multiple times during initialization
   let _cachedInitialConfig: StoredConfig | null | undefined;
@@ -296,6 +297,44 @@ function App() {
     });
   }, []);
 
+  const handleDragOver = useCallback((e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDragging(true);
+  }, []);
+
+  const handleDragLeave = useCallback((e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDragging(false);
+  }, []);
+
+  const handleDrop = useCallback(async (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDragging(false);
+
+    const files = Array.from(e.dataTransfer.files);
+    const glslFiles = files.filter((file) => file.name.endsWith('.glsl'));
+
+    for (const file of glslFiles) {
+      const code = await file.text();
+      const id = `dropped-${crypto.randomUUID()}`;
+      const blobUrl = URL.createObjectURL(new Blob([code], { type: 'text/plain' }));
+      
+      const shader: ShaderFile = {
+        id,
+        name: file.name.replace('.glsl', ''),
+        path: blobUrl,
+        event: 'Local File',
+        image: null,
+      };
+
+      shaderCacheRef.current.set(blobUrl, code);
+      handleAddShader(shader);
+    }
+  }, [handleAddShader]);
+
   const handleRemoveShader = useCallback((shader: ShaderFile) => {
     setAddedShaders((prev) => prev.filter((s) => s.id !== shader.id));
     setActiveShaders((prev) => {
@@ -368,7 +407,12 @@ function App() {
   }, [send, fetchShaderCode]);
 
   return (
-    <div className="app">
+    <div
+      className={`app ${isDragging ? 'app--dragging' : ''}`}
+      onDragOver={handleDragOver}
+      onDragLeave={handleDragLeave}
+      onDrop={handleDrop}
+    >
       <Sidebar
         shaders={shaders}
         onSelect={setSelected}
@@ -412,6 +456,11 @@ function App() {
         {loading && <p className="app__status">Loading shaders...</p>}
         {error && <p className="app__status app__status--error">Error: {error}</p>}
       </div>
+      {isDragging && (
+        <div className="app__drop-overlay">
+          <p>Drop .glsl files here</p>
+        </div>
+      )}
     </div>
   );
 }
