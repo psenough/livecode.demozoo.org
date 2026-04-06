@@ -218,8 +218,8 @@
             "entries": [
                 {
                     "id": 1,
-                    "rank": null,
-                    "points": null,
+                    "rank": 1,
+                    "points": 1047,
                     "handle": {
                         "name": "marex",
                         "demozoo_id": 131937
@@ -230,8 +230,8 @@
              },
                 {
                     "id": 2,
-                    "rank": null,
-                    "points": null,
+                    "rank": 2,
+                    "points": 1004,
                     "handle": {
                         "name": "DrFlopine",
                         "demozoo_id": 65988
@@ -242,8 +242,8 @@
               },
                 {
                     "id": 3,
-                    "rank": null,
-                    "points": null,
+                    "rank": 3,
+                    "points": 992,
                     "handle": {
                         "name": "NuSan",
                         "demozoo_id": 88839
