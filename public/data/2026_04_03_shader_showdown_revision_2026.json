@@ -209,7 +209,6 @@
                         },
                     "job": "Commentator"
                 }
-
             ]
         },
         {
@@ -265,6 +264,13 @@
                     "handle": {
                         "name": "psenough",
                         "demozoo_id": 313
+                        },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
                         },
                     "job": "Commentator"
                 }
