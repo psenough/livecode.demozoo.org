@@ -1,0 +1,1 @@
+cr=circ r=rect m=math s=m.sin function TIC()t=time()//32 r(0,80,240,99,14)f=fft(7)*32 for i=0,3 do cr(68+i*32,109,8,2)end r(0,0,240,80,15)for i=0,60 do line(55,10+i,180,10+i,i*f+t/9)end for i=0,1 do r(60+i*98,99,15,60,9)cr(70+i*88,99-s(t+i)*6,15,4)end end

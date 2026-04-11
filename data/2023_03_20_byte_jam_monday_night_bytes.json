@@ -1,0 +1,93 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2023-03-20",
+    "date": "20 March 2023",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Alia",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_03_20_byte_jam_monday_night_bytes/alia.gif",
+                    "source_file": "/shader_file_sources/2023_03_20_byte_jam_monday_night_bytes/alia.lua"
+                },  
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_03_20_byte_jam_monday_night_bytes/mantratronic.gif",
+                    "source_file": "/shader_file_sources/2023_03_20_byte_jam_monday_night_bytes/mantratronic.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "MrSynAckSter",
+                        "demozoo_id": 130883
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_03_20_byte_jam_monday_night_bytes/mrsynackster.gif",
+                    "source_file": "/shader_file_sources/2023_03_20_byte_jam_monday_night_bytes/mrsynackster.lua"
+                }
+                
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}
