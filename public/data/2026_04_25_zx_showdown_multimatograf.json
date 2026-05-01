@@ -1,0 +1,97 @@
+{
+    "title": "Multimatograf",
+    "started": "2026-04-25",
+    "date": "25 April 2026",
+    "type": "ZX Spectrum Showdown",
+    "website": "https://events.retroscene.org/mf2026",
+    "flyer": "",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Nyukomatic",
+            "url": "https://github.com/alexanderk23/nyukomatic/releases/tag/v0.3.5",
+            "version": "v0.3.5",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Round 1",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 3,
+                    "points": null,
+                    "handle": {
+                        "name": "nikhotmsk",
+                        "demozoo_id": 132977
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_25_zx_showdown_multimatograf/mf26_nikhotmsk.png",
+                    "source_file": "/shader_file_sources/2026_04_25_zx_showdown_multimatograf/mf26_nikhotmsk.asm"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "gogin",
+                        "demozoo_id": 12629
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_25_zx_showdown_multimatograf/mf26_gogin.png",
+                    "source_file": "/shader_file_sources/2026_04_25_zx_showdown_multimatograf/mf26_gogin.asm"
+                }
+            ],
+            "staffs": [
+                
+            ]
+        },
+        {
+            "title": "Round 2",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 4,
+                    "points": null,
+                    "handle": {
+                        "name": "bfox",
+                        "demozoo_id": 9743
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_25_zx_showdown_multimatograf/mf26_bfox.png",
+                    "source_file": "/shader_file_sources/2026_04_25_zx_showdown_multimatograf/mf26_bfox.asm"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "shuran33",
+                        "demozoo_id": 33070
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_25_zx_showdown_multimatograf/mf26_shuran33.jpg",
+                    "source_file": "/shader_file_sources/2026_04_25_zx_showdown_multimatograf/mf26_shuran33.asm"
+                }
+               
+            ],
+            "staffs": [
+                
+                
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "wbcbz7",
+                "demozoo_id": 45761
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 5396
+}
