@@ -4,14 +4,5 @@ venv/
 **/__pycache__/**
 doc/schema.html
 CNAME
+.gitignore
 .DS_Store
-/public/about.html
-/public/event/
-/public/index.html
-/public/performer/
-/public/performers.html
-/public/rtlcdz.html
-/public/serie/
-/public/type/
-/public/upcomings.html
-/public/year/
