@@ -1,0 +1,135 @@
+{
+    "title": "Evoke",
+    "started": "2026-08-21",
+    "date": "21 August 2026",
+    "type": "Copper Showdown",
+    "website": "https://2026.evoke.eu/",
+    "flyer": "",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Copper Showdown Editor",
+            "url": "https://gitlab.com/akronyme-analogiker/copper-showdown/copper-showdown-editor",
+            "version": "",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Semi-final",
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "h05h1",
+                        "demozoo_id": 152096
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_08_21_copper_showdown_evoke_2026/h05h1-semi_final.png",
+                    "source_file": "/shader_file_sources/2026_08_21_copper_showdown_evoke_2026/h05h1-semi_final.csd",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "enfys",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_08_21_copper_showdown_evoke_2026/enfys-semi_final.png",
+                    "source_file": "/shader_file_sources/2026_08_21_copper_showdown_evoke_2026/enfys-semi_final.csd",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_08_21_copper_showdown_evoke_2026/flopine-semi_final.png",
+                    "source_file": "/shader_file_sources/2026_08_21_copper_showdown_evoke_2026/flopine-semi_final.csd",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "mop2",
+                        "demozoo_id": 77148
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_08_21_copper_showdown_evoke_2026/mop2-semi_final.png",
+                    "source_file": "/shader_file_sources/2026_08_21_copper_showdown_evoke_2026/mop2-semi_final.csd",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Final",
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_08_21_copper_showdown_evoke_2026/flopine-final.png",
+                    "source_file": "/shader_file_sources/2026_08_21_copper_showdown_evoke_2026/flopine-final.csd",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "mop2",
+                        "demozoo_id": 77148
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_08_21_copper_showdown_evoke_2026/mop2-final.png",
+                    "source_file": "/shader_file_sources/2026_08_21_copper_showdown_evoke_2026/mop2-final.csd",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "mop2",
+                "demozoo_id": 77148
+            },
+            "job": "Organizer"
+        }
+    ],
+    "demozoo_party_id": 5429
+}
