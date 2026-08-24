@@ -1,5 +1,5 @@
 {
-    "title": "Fieldfxmas",
+    "title": "Monday Night Bytes",
     "started": "2024-12-23",
     "date": "23 December 2024",
     "type": "Shaderbyte",
@@ -111,7 +111,13 @@
                 }
             ],
             "staffs": [
-                
+                {
+                    "handle": {
+                        "name": "guy with dog",
+                        "demozoo_id": null
+                    },
+                    "job": "DJ"
+                }
             ]
         }
     ],
