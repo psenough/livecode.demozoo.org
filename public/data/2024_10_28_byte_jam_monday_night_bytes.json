@@ -1,6 +1,6 @@
 {
     "title": "Monday Night Bytes",
-    "started": "2024-08-28",
+    "started": "2024-10-28",
     "date": "28 October 2024",
     "type": "Byte Jam",
     "website": "",
@@ -66,6 +66,18 @@
                     "shadertoy_url": null,
                     "preview_image": "2024_10_28_byte_jam_monday_night_bytes/jtruk.png",
                     "source_file": "/shader_file_sources/2024_10_28_byte_jam_monday_night_bytes/jtruk.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "suule",
+                        "demozoo_id": 136862
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
                 }
             ],
             "staffs": [
