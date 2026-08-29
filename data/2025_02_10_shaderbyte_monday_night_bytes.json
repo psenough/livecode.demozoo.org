@@ -1,0 +1,132 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2025-02-10",
+    "date": "10 February 2025",
+    "type": "Shaderbyte",
+    "website": "",
+    "flyer": "",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Dreamvision",
+            "url": "",
+            "version": "alpha 1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_02_10_shaderbyte_monday_night_bytes/pumpuli.png",
+                    "source_file": "/shader_file_sources/2025_02_10_shaderbyte_monday_night_bytes/pumpuli.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "catnip",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_02_10_shaderbyte_monday_night_bytes/catnip.jpg",
+                    "source_file": "/shader_file_sources/2025_02_10_shaderbyte_monday_night_bytes/catnip.dv98",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "immibis",
+                        "demozoo_id": 138870
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_02_10_shaderbyte_monday_night_bytes/immibis.png",
+                    "source_file": "/shader_file_sources/2025_02_10_shaderbyte_monday_night_bytes/immibis.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "weatherman115",
+                        "demozoo_id": 141550
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_02_10_shaderbyte_monday_night_bytes/weatherman115.gif",
+                    "source_file": "/shader_file_sources/2025_02_10_shaderbyte_monday_night_bytes/weatherman115.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "g33kou",
+                        "demozoo_id": 143232
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_02_10_shaderbyte_monday_night_bytes/g33kou.gif",
+                    "source_file": "/shader_file_sources/2025_02_10_shaderbyte_monday_night_bytes/g33kou.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "wolffythereal",
+                        "demozoo_id": null
+                    },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizer"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

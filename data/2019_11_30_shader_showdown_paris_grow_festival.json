@@ -1,0 +1,304 @@
+{
+    "title": "GROW Festival / Cookie Shader Showdown @ Le Tank",
+    "started": "2019-11-30",
+    "date": "30 November 2019",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Friendly Showdown Round #1",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Anton",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/01-anton.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/01-anton.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Lamogui",
+                        "demozoo_id": 71129
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/01-lamogui.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/01-lamogui.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Friendly Showdown Round #2",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Kidou & Greckow",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/02-kidou_greckow.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/02-kidou_greckow.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Ponk",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/02-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/02-ponk.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Friendly Showdown Round #3",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Nicoptere",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/03-nicoptere.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/03-nicoptere.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Franzybily",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/03-franzybily.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/03-franzybily.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Friendly Showdown Round #4",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "SixClone",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/04-sixclone.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/04-sixclone.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "col1",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/04-col1.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/04-col1.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Friendly Showdown Round #5",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/05-flopine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/05-flopine.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gaxil",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/05-gaxil.dx11.hlsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Friendly Showdown Round #6",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/06-nusan.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/06-nusan.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "lsdlive",
+                        "demozoo_id": 83579
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/06-lsdlive.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/06-lsdlive.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Friendly Showdown Round #7",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "novac",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/07-novac.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/07-novac.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "monollonom & bg",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/07-monollonom-bg.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/07-monollonom-bg.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Friendly Showdown Round #8",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Anton",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/08-anton.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/08-anton.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "hotdogstudio",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/08-hotdogstudio.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/08-hotdogstudio.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Friendly Showdown Round #9",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "ponk",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_30_shader_showdown_paris_grow_festival/09-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/09-ponk.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "balec",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-11-30/09-balec-aldwin.dx11.hlsl"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Cookie Collective",
+                "demozoo_id": 78435
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZCOOKIE"
+}

@@ -1,0 +1,114 @@
+{
+    "title": "Amos Professional Showdown",
+    "started": "2019-02-02",
+    "date": "02 January 2019",
+    "type": "Amos Showdown",
+    "vod": null,
+    "software_used": [
+    ],
+    "phases": [
+        {
+            "title": "Semi Final 1",
+            "vod": "https://www.youtube.com/watch?v=rHh--TfZOFk",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Malmix",
+                        "demozoo_id": 3186
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Todi",
+                        "demozoo_id": 3193
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Semi Final 2",
+            "vod": "https://www.youtube.com/watch?v=WQL9qVQs9Qk",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Bonkers",
+                        "demozoo_id": 3863
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Highpuff",
+                        "demozoo_id": 76192
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=hCtDPojVUvQ",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Malmix",
+                        "demozoo_id": 3186
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Highpuff",
+                        "demozoo_id": 76192
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Pumbaa",
+                "demozoo_id": 14992
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "3720"
+}

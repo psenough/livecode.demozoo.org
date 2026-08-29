@@ -1,0 +1,93 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2023-08-22",
+    "date": "22 August 2023",
+    "type": "Shader Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"https://scenesat.com/videoarchive/1b91c223-4108-11ee-931f-00505685775e?t=137#show-1b91c223-4108-11ee-931f-00505685775e",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v13",
+            "version": "NuSan - v13",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Alia",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_21_shader_jam_monday_night_bytes/grabber_mondaynightbytes_alia.jpg",
+                    "source_file": "/shader_file_sources/2023_08_21_shader_jam_monday_night_bytes/grabber_mondaynightbytes_alia.glsl"
+                }, 
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_21_shader_jam_monday_night_bytes/grabber_mondaynightbytes_NuSan.jpg",
+                    "source_file": "/shader_file_sources/2023_08_21_shader_jam_monday_night_bytes/grabber_mondaynightbytes_NuSan.glsl"
+                }, 
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_21_shader_jam_monday_night_bytes/grabber_mondaynightbytes_superogue.jpg",
+                    "source_file": "/shader_file_sources/2023_08_21_shader_jam_monday_night_bytes/grabber_mondaynightbytes_superogue.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_21_shader_jam_monday_night_bytes/grabber_mondaynightbytes_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2023_08_21_shader_jam_monday_night_bytes/grabber_mondaynightbytes_totetmatt.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                      "name": "aldroid",
+                      "demozoo_id": 63755
+                    },
+                    "job": "Commentator"
+                  }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

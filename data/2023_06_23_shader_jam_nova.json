@@ -1,0 +1,165 @@
+{
+    "title": "Nova",
+    "started": "2023-06-24",
+    "date": "23 - 25 June 2023",
+    "type": "Shader Jam",
+    "website": "https://novaparty.org/",
+    "flyer": "",
+    "vod":"https://scenesat.com/videoarchive/a169b23e-12f8-11ee-931f-00505685775e?t=1945#show-a169b23e-12f8-11ee-931f-00505685775e",
+    "software_used": [
+        {
+            "name": "Poshbrolly",
+            "url": "https://www.poshbrolly.net/",
+            "version": "",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Team TIC-80",
+            "vod": null,
+            "entries": [
+                
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "alia",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_06_23_shader_jam_nova/alianova.gif",
+                    "source_file": "/shader_file_sources/2023_06_23_shader_jam_nova/alianova.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dave84",
+                        "demozoo_id": 127921
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_06_23_shader_jam_nova/dave84nova.gif",
+                    "source_file": "/shader_file_sources/2023_06_23_shader_jam_nova/dave84nova.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 3421,
+                    "preview_image": "2023_06_23_shader_jam_nova/jtruknova.gif",
+                    "source_file": "/shader_file_sources/2023_06_23_shader_jam_nova/jtruknova.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_06_23_shader_jam_nova/mantratronicnova.gif",
+                    "source_file": "/shader_file_sources/2023_06_23_shader_jam_nova/mantratronicnova.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Nico",
+                        "demozoo_id": 131751
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_06_23_shader_jam_nova/niconova.gif",
+                    "source_file": "/shader_file_sources/2023_06_23_shader_jam_nova/niconova.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "TôBach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+              
+            ],
+            "staffs": [
+                
+            ]
+        },
+        {
+            "title": "Team ZX Spectrum",
+            "vod": null,
+            "entries": [
+                
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_06_23_shader_jam_nova/gasmannova.png",
+                    "source_file": "/shader_file_sources/2023_06_23_shader_jam_nova/gasmannova.asm"
+                }
+              
+            ],
+            "staffs": [
+                
+            ]
+        },
+        {
+            "title": "Team GLSL",
+            "vod": null,
+            "entries": [
+                
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+              
+            ],
+            "staffs": [
+               
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4516
+}

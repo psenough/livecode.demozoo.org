@@ -1,0 +1,1 @@
+TIC=load'cls()t=t+3e-3 for i=0,480 do l=i/99+t/5x=(s(s(l/5)+l/5)*1e4+l)%300-20y=s(s(l*9)+l*7)*59+68print(s(l*99)<0 and"v"or"^",x,y,0)x=s(i)*t*99%300-20y=i/3r=20+5*s(i*4+t*3)circ(x,y,r,8+i/55)x=t*99%300-9rect(x,50,20,2,0)rect(x,48,2,2,0)end't=1e6s=math.sin

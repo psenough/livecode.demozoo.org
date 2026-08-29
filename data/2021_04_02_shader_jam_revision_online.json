@@ -1,0 +1,169 @@
+{
+    "title": "Revision Online",
+    "started": "2021-04-02",
+    "date": "02 - 05 April 2021",
+    "type": "Shader Jam",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Shader Jam #1",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_lynn/nusan.jpg",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_jam_revision_online/jam_with_lynn/nusan.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "LechugaFeliz",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_lynn/lechugafeliz.jpg",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_jam_revision_online/jam_with_lynn/lechugafeliz.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "eimink",
+                        "demozoo_id": 32692
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/fsjGDD",
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_lynn/eimink.jpg",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_jam_revision_online/jam_with_lynn/eimink.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "LynnDrum",
+                        "demozoo_id": 77648
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Shader Jam #2",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "plek",
+                        "demozoo_id": 10577
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2021_04_02_shader_jam_revision_online/jam_with_messy/superplek/superplek.glsl",
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_messy/superplek.jpg"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2021_04_02_shader_jam_revision_online/jam_with_messy/evvvvil.glsl",
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_messy/evvvvil.jpg"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "sp4ghet",
+                        "demozoo_id": 119897
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/Ndj3Wm",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_jam_revision_online/jam_with_messy/sp4ghet.glsl",
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_messy/sp4ghet.jpg"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "messy",
+                        "demozoo_id": 11924
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Shader Jam #3",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "exca",
+                        "demozoo_id": 35897
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2021_04_02_shader_jam_revision_online/jam_with_ghost/exca.glsl",
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_ghost/exca.jpg"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rimina",
+                        "demozoo_id": 56489
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2021_04_02_shader_jam_revision_online/jam_with_ghost/rimina.glsl",
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_ghost/rimina.jpg"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2021_04_02_shader_jam_revision_online/jam_with_ghost/visy.glsl",
+                    "preview_image": "2021_04_02_shader_jam_revision_online/jam_with_ghost/visy.jpg"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ghost",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 4191
+}

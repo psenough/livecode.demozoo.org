@@ -1,0 +1,1 @@
+t=0TIC=load't=t+.2s=math.sin for i=0,47 do poke(16320+i,i*(4+s(i%3*2+t/9)))n=i+t/3x=i*5+s(n)*9y=(s(i)*1e6+t)%150q=s(t+i)for k=-1,1,2 do m=k*q+s(n+2)u=x-s(m)*9v=y-s(m+8)*9tri(x,y,u,v+5,u,v-5,15)end end for i=t%2,32639,1.9 do poke4(i,peek4(i)+s(i*t))end'

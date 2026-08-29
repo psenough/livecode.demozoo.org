@@ -1,0 +1,172 @@
+{
+    "title": "Solskogen",
+    "started": "2019-07-12",
+    "date": "12 - 14 July 2019",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/Gargaj/Bonzomatic/releases/tag/2019-03-26",
+            "version": "2019-03-26",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Semi #1",
+            "vod": "https://www.youtube.com/watch?v=XF1na_7YSo8",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 17,
+                    "handle": {
+                        "name": "Ferris",
+                        "demozoo_id": 18
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 20,
+                    "handle": {
+                        "name": "tapped",
+                        "demozoo_id": 21271
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "gloom",
+                        "demozoo_id": 227
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Semi #2",
+            "vod": "https://www.youtube.com/watch?v=C9aQmfTqkdE",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 44,
+                    "handle": {
+                        "name": "Julien",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 6,
+                    "handle": {
+                        "name": "Sebbert",
+                        "demozoo_id": 58198
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "gloom",
+                        "demozoo_id": 227
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=u517aj_JzVg",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 16,
+                    "handle": {
+                        "name": "Julien",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 33,
+                    "handle": {
+                        "name": "tapped",
+                        "demozoo_id": 21271
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "gloom",
+                        "demozoo_id": 227
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 3679
+}

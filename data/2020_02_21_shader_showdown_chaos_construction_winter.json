@@ -1,0 +1,82 @@
+{
+    "title": "Chaos Construction Winter",
+    "started": "2020-02-21",
+    "date": "21 - 23 February 2020",
+    "type": "Shader Showdown",
+    "vod":null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/Gargaj/Bonzomatic",
+            "version": "2018-03-06",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Round #1",
+            "vod": "https://www.youtube.com/watch?v=uqRehUDNiUM",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "leavittx",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dart",
+                        "demozoo_id": 9610
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Round #2",
+            "vod": "https://www.youtube.com/watch?v=pzmLnfN5lq8",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "leavittx",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dart",
+                        "demozoo_id": 9610
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+    ],
+    "demozoo_party_id": 3970
+}

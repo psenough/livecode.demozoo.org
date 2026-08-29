@@ -1,0 +1,93 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2023-10-30",
+    "date": "30 October 2023",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"https://scenesat.com/videoarchive/8f54daeb-783c-11ee-931f-00505685775e#show-8f54daeb-783c-11ee-931f-00505685775e",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "alia",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_10_30_byte_jam_monday_night_bytes/alia.gif",
+                    "source_file": "/shader_file_sources/2023_10_30_byte_jam_monday_night_bytes/alia.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Lynn",
+                        "demozoo_id": 77648
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_10_30_byte_jam_monday_night_bytes/lynn.gif",
+                    "source_file": "/shader_file_sources/2023_10_30_byte_jam_monday_night_bytes/lynn.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Suule",
+                        "demozoo_id": 136862
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_10_30_byte_jam_monday_night_bytes/suule.gif",
+                    "source_file": "/shader_file_sources/2023_10_30_byte_jam_monday_night_bytes/suule.lua"
+                },  
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Sir Garbagetruk",
+                        "demozoo_id": 3143
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_10_30_byte_jam_monday_night_bytes/truck.gif",
+                    "source_file": "/shader_file_sources/2023_10_30_byte_jam_monday_night_bytes/truck.fennel"
+                }
+                
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                      "name": "Aldroid",
+                      "demozoo_id": 63755
+                    },
+                    "job": "Commentator"
+                  }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

@@ -1,0 +1,144 @@
+{
+    "title": "Lovebyte",
+    "started": "2023-02-10",
+    "date": "10 - 12 February 2023",
+    "type": "Byte Jam",
+    "vod": "https://www.youtube.com/watch?v=7UOLfIKB2OQ",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Byte Jam",
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                  
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "blossom",
+                        "demozoo_id": 89867
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_jam_lovebyte/byte_jam/blossom.lua",
+                    "preview_image": "2023_02_10_byte_jam_lovebyte/byte_jam/blossom.png"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_jam_lovebyte/byte_jam/mantratronic.lua",
+                    "preview_image": "2023_02_10_byte_jam_lovebyte/byte_jam/mantratronic.gif"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "T\u00f4Bach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_jam_lovebyte/byte_jam/tobach.lua",
+                    "preview_image": "2023_02_10_byte_jam_lovebyte/byte_jam/tobach.gif"
+                },   
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2023_02_10_byte_jam_lovebyte/byte_jam/visy.lua",
+                    "preview_image": "2023_02_10_byte_jam_lovebyte/byte_jam/visy.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": 18
+                    },
+                    "job": "DJ Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "blossom",
+                "demozoo_id": 89867
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "dave84",
+                "demozoo_id": 127921
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "jeenio",
+                "demozoo_id": 3048
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "ps",
+                "demozoo_id": 313
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "superogue",
+                "demozoo_id": 617
+            },
+            "job": "Main Organizers"
+        },
+        {
+            "handle": {
+                "name": "The Watcher",
+                "demozoo_id": 15853
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4492
+}

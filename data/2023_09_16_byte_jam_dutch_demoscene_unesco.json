@@ -1,0 +1,94 @@
+{
+    "title": "Dutch Demoscene Unesco Celebration Party @ Home Computer Museum",
+    "started": "2023-09-16",
+    "date": "16 September 2023",
+    "type": "Byte Jam",
+    "website": "https://computermuseum.social/@homecomputermuseum",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_09_16_byte_jam_dutch_demoscene_unesco/aldroid.gif",
+                    "source_file": "/shader_file_sources/2023_09_16_byte_jam_dutch_demoscene_unesco/aldroid.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_09_16_byte_jam_dutch_demoscene_unesco/jtruk.png",
+                    "source_file": "/shader_file_sources/2023_09_16_byte_jam_dutch_demoscene_unesco/jtruk.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_09_16_byte_jam_dutch_demoscene_unesco/mantratronic.png",
+                    "source_file": "/shader_file_sources/2023_09_16_byte_jam_dutch_demoscene_unesco/mantratronic.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Suule",
+                        "demozoo_id": 136862
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_09_16_byte_jam_dutch_demoscene_unesco/suule.gif",
+                    "source_file": "/shader_file_sources/2023_09_16_byte_jam_dutch_demoscene_unesco/suule.lua"
+                }
+                
+                
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Demovibes 14",
+                        "demozoo_id": null
+                    },
+                    "job": "Audio Mix"
+                  }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZUNESCO"
+}

@@ -1,0 +1,2 @@
+s=math.sin
+TIC=load"cls()t=time()/512 for i=0,239 do y=60+s(t+i/29+s(5*t-i/59))*20*s(t+i/87)for j=0,136 do pix(i,y+j,8+j/9-t)end if i%28==0 then u,v=i-20-9*s(t+i/9),y+5*s(t*5+i)circ(u,v,5,12)circ(u+5,v-5,3,13)pix(u+6,v-7,0)rect(u+8,v-5,5,1,3)end end"

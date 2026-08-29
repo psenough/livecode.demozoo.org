@@ -1,0 +1,1 @@
+TIC=load't=t+fft(1)cls(8)for i=9,499 do z=i/99x=(i^2.5-t)%499*z-50y=z*(9+i%39)rect(x,y,9*z,i,0)circ(x,y-t*9/y%99,5*z,z-5)end't=0

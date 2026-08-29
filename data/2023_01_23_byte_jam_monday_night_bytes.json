@@ -1,0 +1,89 @@
+{
+  "title": "Monday Night Bytes",
+  "started": "2023-01-23",
+  "date": "23 January 2023",
+  "type": "Byte Jam",
+  "website": "https://field-fx.party",
+  "flyer": "",
+  "vod": "",
+  "software_used": [
+    {
+      "name": "TIC-80 FFT Hack",
+      "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+      "version": "tic80showdown FFT Hack v1.0.2",
+      "purpose": "Graphic"
+    }
+  ],
+  "phases": [
+    {
+      "title": null,
+      "vod": null,
+      "entries": [
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "Aldroid",
+            "demozoo_id": 63755
+          },
+          "shadertoy_url": null,
+          "source_file": "/shader_file_sources/2023_01_23_byte_jam_monday_night_bytes/aldroid.lua",
+          "preview_image": "2023_01_23_byte_jam_monday_night_bytes/aldroid.gif"
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "Gasman",
+            "demozoo_id": 5879
+          },
+          "source_file": "/shader_file_sources/2023_01_23_byte_jam_monday_night_bytes/gasman.lua",
+          "preview_image": "2023_01_23_byte_jam_monday_night_bytes/gasman.gif"
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "Kii",
+            "demozoo_id": 135296
+          },
+          "source_file": "/shader_file_sources/2023_01_23_byte_jam_monday_night_bytes/kiikrinder.lua",
+          "preview_image": "2023_01_23_byte_jam_monday_night_bytes/kiikrinder.gif"
+        },
+        {
+          "id": null,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "Nico",
+            "demozoo_id": 131751
+          },
+          "source_file": "/shader_file_sources/2023_01_23_byte_jam_monday_night_bytes/nico.lua",
+          "preview_image": "2023_01_23_byte_jam_monday_night_bytes/nico.gif"
+        }
+      ],
+      "staffs": [
+        {
+          "handle": {
+            "name": "Aldroid",
+            "demozoo_id": 63755
+          },
+          "job": "Commentator"
+        }
+      ]
+    }
+  ],
+  "staffs": [
+    {
+      "handle": {
+        "name": "Aldroid",
+        "demozoo_id": 63755
+      },
+      "job": "Organizers"
+    }
+  ],
+  "demozoo_party_id": "LCDZFFCM"
+}

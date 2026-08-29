@@ -1,0 +1,165 @@
+{
+    "title": "Xenium",
+    "started": "2024-08-29",
+    "date": "29 August 2024",
+    "type": "Shader Showdown",
+    "website": "https://2024.xenium.rocks/en/",
+    "flyer": "",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/Gargaj/Bonzomatic",
+            "version": "Gargaj",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Stage 1.1",
+            "vod": "https://scenesat.com/videoarchive/8675efa8-6784-11ef-a6a4-00505685775e?t=7814#show-8675efa8-6784-11ef-a6a4-00505685775e",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Musk",
+                        "demozoo_id": 14411
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_29_shader_showdown_xenium/stage_1_musk.jpg",
+                    "source_file": "/shader_file_sources/2024_08_29_shader_showdown_xenium/stage_1_musk.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Citrus",
+                        "demozoo_id": 21647
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_29_shader_showdown_xenium/stage_1_citrus.jpg",
+                    "source_file": "/shader_file_sources/2024_08_29_shader_showdown_xenium/stage_1_citrus.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "kiero",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentator"
+                }, {
+                    "handle": {
+                        "name": "kk",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        },
+        {
+            "title": "Stage 1.2",
+            "vod": "https://scenesat.com/videoarchive/8675efa8-6784-11ef-a6a4-00505685775e?t=9882#show-8675efa8-6784-11ef-a6a4-00505685775e",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Czajnik",
+                        "demozoo_id": 35281
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_29_shader_showdown_xenium/stage_1_czajnik.jpg",
+                    "source_file": "/shader_file_sources/2024_08_29_shader_showdown_xenium/stage_1_czajnik.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "KK",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_29_shader_showdown_xenium/stage_1_kk.jpg",
+                    "source_file": "/shader_file_sources/2024_08_29_shader_showdown_xenium/stage_1_kk.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Musk",
+                        "demozoo_id": 14411
+                    },
+                    "job": "Commentator"
+                }, {
+                    "handle": {
+                        "name": "Citrus",
+                        "demozoo_id": 21647
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://scenesat.com/videoarchive/8675efa8-6784-11ef-a6a4-00505685775e?t=16979#show-8675efa8-6784-11ef-a6a4-00505685775e",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Musk",
+                        "demozoo_id": 14411
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_29_shader_showdown_xenium/stage_2_musk.jpg",
+                    "source_file": "/shader_file_sources/2024_08_29_shader_showdown_xenium/stage_2_musk.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "KK",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_29_shader_showdown_xenium/stage_2_kk.jpg",
+                    "source_file": "/shader_file_sources/2024_08_29_shader_showdown_xenium/stage_2_kk.glsl"
+                }
+            ],
+            "staffs": [
+               {
+                    "handle": {
+                        "name": "hollowone",
+                        "demozoo_id": 25308
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "arabek",
+                "demozoo_id": 34891
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "borys",
+                "demozoo_id": 11903
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": null
+}

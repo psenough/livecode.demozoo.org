@@ -1,0 +1,207 @@
+{
+    "title": "Very Important Party",
+    "started": "2018-06-01",
+    "date": "01 - 03 June 2018",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Qualification #1",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "ponk",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_06_01_shader_showdown_vip/01-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/01-ponk.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "xtrium",
+                        "demozoo_id": 3695
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_06_01_shader_showdown_vip/01-xtrium.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/01-xtrium.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Qualification #2",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "CoyHot",
+                        "demozoo_id": 43553
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_06_01_shader_showdown_vip/02-coyhot.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/02-coyhot.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "lamogui",
+                        "demozoo_id": 71129
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_06_01_shader_showdown_vip/02-lamogui.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/02-lamogui.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Semi #1",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "ponk",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_06_01_shader_showdown_vip/03-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/03-ponk.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_06_01_shader_showdown_vip/03-flopine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/03-flopine.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Semi #2",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "lsdlive",
+                        "demozoo_id": 83579
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_06_01_shader_showdown_vip/04-lsdlive.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/04-lsdlive.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "CoyHot",
+                        "demozoo_id": 43553
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_06_01_shader_showdown_vip/04-coyhot.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/04-coyhot.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Little Final",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "CoyHot",
+                        "demozoo_id": 43553
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_06_01_shader_showdown_vip/05-coyhot.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/05-coyhot.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "ponk",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_06_01_shader_showdown_vip/05-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/05-ponk.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Great Final",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_06_01_shader_showdown_vip/06_flopine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/06_flopine.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "lsdlive",
+                        "demozoo_id": 83579
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_06_01_shader_showdown_vip/06-lsdlive.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-06-02/06-lsdlive.glsl"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Cookie Collective",
+                "demozoo_id": 78435
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 3583
+}
