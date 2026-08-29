@@ -1,0 +1,97 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2025-05-12",
+    "date": "12 May 2025",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://github.com/nesbox/TIC-80",
+            "version": "nightly",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "canmom",
+                        "demozoo_id": 148063
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_05_12_byte_jam_monday_night_bytes/canmom.png",
+                    "source_file": "/shader_file_sources/2025_05_12_byte_jam_monday_night_bytes/canmom.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "enfys",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_05_12_byte_jam_monday_night_bytes/enfys.png",
+                    "source_file": "/shader_file_sources/2025_05_12_byte_jam_monday_night_bytes/enfys.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "frankk",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_05_12_byte_jam_monday_night_bytes/frankk.png",
+                    "source_file": "/shader_file_sources/2025_05_12_byte_jam_monday_night_bytes/frankk.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "weatherman115",
+                        "demozoo_id": 141550
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_05_12_byte_jam_monday_night_bytes/weatherman115.gif",
+                    "source_file": "/shader_file_sources/2025_05_12_byte_jam_monday_night_bytes/weatherman115.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "reality404",
+                "demozoo_id": 67077
+            },
+            "job": "Organizer"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}
