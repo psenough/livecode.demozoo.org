@@ -1,0 +1,111 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2025-05-05",
+    "date": "5 May 2025",
+    "type": "Shaderbyte",
+    "website": "",
+    "flyer": "",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v13",
+            "version": "Nusan v13",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_05_05_shaderbyte_monday_night_bytes/aldroid.png",
+                    "source_file": "/shader_file_sources/2025_05_05_shaderbyte_monday_night_bytes/aldroid.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "frankk",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_05_05_shaderbyte_monday_night_bytes/frankk.png",
+                    "source_file": "/shader_file_sources/2025_05_05_shaderbyte_monday_night_bytes/frankk.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "peregrine",
+                        "demozoo_id": 122747
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": null,
+                    "source_file": "/shader_file_sources/2025_05_05_shaderbyte_monday_night_bytes/peregrine.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "weatherman115",
+                        "demozoo_id": 141550
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_05_05_shaderbyte_monday_night_bytes/weatherman115.gif",
+                    "source_file": "/shader_file_sources/2025_05_05_shaderbyte_monday_night_bytes/weatherman115.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Lotek Style",
+                        "demozoo_id": 2034
+                    },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizer"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}
