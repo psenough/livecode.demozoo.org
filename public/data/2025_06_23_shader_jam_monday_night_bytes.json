@@ -95,6 +95,13 @@
                 
             ],
             "staffs": [
+                {
+                    "handle": {
+                        "name": "Polynomial",
+                        "demozoo_id": 60607
+                    },
+                    "job": "DJ"
+                }
             ]
         }
     ],
