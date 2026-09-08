@@ -57,6 +57,13 @@
                 
             ],
             "staffs": [
+                {
+                    "handle": {
+                        "name": "P3RC",
+                        "demozoo_id": null
+                    },
+                    "job": "DJ"
+                }
             ]
         }
     ],
