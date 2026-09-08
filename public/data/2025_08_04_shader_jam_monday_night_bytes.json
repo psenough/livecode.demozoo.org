@@ -1,7 +1,7 @@
 {
     "title": "Monday Night Bytes",
     "started": "2025-08-04",
-    "date": "08 August 2025",
+    "date": "04 August 2025",
     "type": "Shader Jam",
     "website": "https://mnb.field-fx.party/",
     "flyer": "",
@@ -37,7 +37,7 @@
                     "points": null,
                     "handle": {
                         "name": "FuleSnabel",
-                        "demozoo_id": null
+                        "demozoo_id": 32586
                     },
                     "shadertoy_url": null,
                     "preview_image": "2025_08_04_shader_jam_monday_night_bytes/grabber_mondaynightbytes_FuleSnabel.jpg",
@@ -72,6 +72,13 @@
                 
             ],
             "staffs": [
+                {
+                    "handle": {
+                        "name": "mintimperial",
+                        "demozoo_id": null
+                        },
+                    "job": "DJ"
+                }
             ]
         }
     ],
