@@ -1,11 +1,11 @@
 {
     "title": "Monday Night Bytes",
     "started": "2025-09-01",
-    "date": "09 September 2025",
+    "date": "01 September 2025",
     "type": "Shader Jam",
     "website": "https://mnb.field-fx.party/",
     "flyer": "",
-    "vod":"",
+    "vod":"https://scenesat.com/video-recordings/4Maf1R",
     "software_used": [
         {
             "name": "Bonzomatic",
@@ -55,12 +55,15 @@
                     "preview_image": "2025_09_01_shader_jam_monday_night_bytes/grabber_mondaynightbytes_mysterious.jpg",
                     "source_file": "/shader_file_sources/2025_09_01_shader_jam_monday_night_bytes/grabber_mondaynightbytes_mysterious.glsl"
                 }
-                
-                
-               
-                
             ],
             "staffs": [
+                {
+                    "handle": {
+                        "name": "echo~parallax",
+                        "demozoo_id": 148985
+                    },
+                    "job": "DJ"
+                }
             ]
         }
     ],
