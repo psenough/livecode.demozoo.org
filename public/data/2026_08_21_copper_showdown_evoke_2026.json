@@ -90,7 +90,7 @@
             "entries": [
                 {
                     "id": null,
-                    "rank": null,
+                    "rank": 2,
                     "points": null,
                     "handle": {
                         "name": "Flopine",
@@ -105,7 +105,7 @@
                 },
                 {
                     "id": null,
-                    "rank": null,
+                    "rank": 1,
                     "points": null,
                     "handle": {
                         "name": "mop2",
