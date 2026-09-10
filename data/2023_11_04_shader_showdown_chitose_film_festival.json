@@ -1,0 +1,76 @@
+{
+    "title": "第10回 新千歳空港国際アニメーション映画祭",
+    "started": "2023-11-04",
+    "date": "04 November 2023",
+    "type": "Shader Showdown",
+    "website": "https://airport-anifes.jp/programs/live_demoscene/",
+    "flyer": "",
+    "vod": "https://youtu.be/B_Yst6SSVn0?t=3054",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v13",
+            "version": "NuSan - v13",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Exhibition Match",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Renard",
+                        "demozoo_id": 137275
+                    
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/cltcWM",
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gam0022",
+                        "demozoo_id": 63869
+                    
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/dldyz2",
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "fl1ne",
+                        "demozoo_id": 24017
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "niko_14",
+                        "demozoo_id": null
+                    },
+                    "job": "Livecode Music"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "fl1ne",
+                "demozoo_id": 24017
+            },
+            "job": "Organizers"
+        }
+    ]
+}

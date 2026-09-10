@@ -1,0 +1,101 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2023-08-28",
+    "date": "28 August 2023",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"https://scenesat.com/videoarchive/623cca83-4637-11ee-931f-00505685775e?t=477#show-623cca83-4637-11ee-931f-00505685775e",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "tobach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_28_byte_jam_monday_night_bytes/2023_08_28_tobach.gif",
+                    "source_file": "/shader_file_sources/2023_08_28_byte_jam_monday_night_bytes/2023_08_28_tobach.lua"
+                }, 
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Alia",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_28_byte_jam_monday_night_bytes/2023_08_28_alia.gif",
+                    "source_file": "/shader_file_sources/2023_08_28_byte_jam_monday_night_bytes/2023_08_28_alia.lua"  
+                }, 
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_28_byte_jam_monday_night_bytes/2023_08_28_jtruk.gif",
+                    "source_file": "/shader_file_sources/2023_08_28_byte_jam_monday_night_bytes/2023_08_28_jtruk.lua"
+                }, 
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_28_byte_jam_monday_night_bytes/2023_08_28_totetmatt.gif",
+                    "source_file": "/shader_file_sources/2023_08_28_byte_jam_monday_night_bytes/2023_08_28_totetmatt.lua"
+                }
+                
+                
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                      "name": "aldroid",
+                      "demozoo_id": 63755
+                    },
+                    "job": "Commentator"
+                  },
+                  {
+                    "handle": {
+                      "name": "Synesthesia",
+                      "demozoo_id": null
+                    },
+                    "job": "DJ Set"
+                  }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

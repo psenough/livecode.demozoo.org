@@ -1,0 +1,135 @@
+{
+    "title": "FieldFXmas",
+    "started": "2024-12-30",
+    "date": "30 December 2024",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2024_12_30_byte_jam_fieldfxmas/jtruk.gif",
+                    "source_file": "/shader_file_sources/2024_12_30_byte_jam_fieldfxmas/jtruk.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2024_12_30_byte_jam_fieldfxmas/gasman.gif",
+                    "source_file": "/shader_file_sources/2024_12_30_byte_jam_fieldfxmas/gasman.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "doop",
+                        "demozoo_id": 141174
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2024_12_30_byte_jam_fieldfxmas/doop.gif",
+                    "source_file": "/shader_file_sources/2024_12_30_byte_jam_fieldfxmas/doop.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2024_12_30_byte_jam_fieldfxmas/pumpuli.png",
+                    "source_file": "/shader_file_sources/2024_12_30_byte_jam_fieldfxmas/pumpuli.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "suule",
+                        "demozoo_id": 136862
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2024_12_30_byte_jam_fieldfxmas/suule.gif",
+                    "source_file": "/shader_file_sources/2024_12_30_byte_jam_fieldfxmas/suule.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2024_12_30_byte_jam_fieldfxmas/superogue.gif",
+                    "source_file": "/shader_file_sources/2024_12_30_byte_jam_fieldfxmas/superogue.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Polynomial",
+                        "demozoo_id": 60607
+                    },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "reality404",
+                "demozoo_id": 67077
+            },
+            "job": "Organizer"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

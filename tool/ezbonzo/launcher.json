@@ -1,0 +1,55 @@
+{
+    "font": {
+      "file": "ProFontWindows.ttf",
+      "size": 16
+    },
+    "coders": [
+      "Coder_01",
+      "Coder_02",
+      "Coder_03",
+      "Coder_04"
+    ],
+    "bonzo": {
+      "delay_between_spawn": 2000,
+      "commandline": "skipdialog networkMode=grabber",
+      "exename": "Bonzomatic_W64_GLFW.exe"
+    },
+    "mosaic": {
+      "startpercent_x": 0.05,
+      "startpercent_y": 0.05,
+      "sizepercent_x": 0.9,
+      "sizepercent_y": 0.9,
+      "border_x": 10,
+      "border_y": 10,
+      "forceratio": true,
+      "wantedratio": 1.7777,
+      "MosaicFixed": true
+    },
+    "fullscreen": {
+      "startpercent_x": 0.0,
+      "startpercent_y": 0.0,
+      "sizepercent_x": 1.0,
+      "sizepercent_y": 1.0,
+      "forceratio": true,
+      "wantedratio": 1.7777
+    },
+    "diaporama": {
+      "delay": 3,
+      "loops": 1,
+      "infiniteloop": false
+    },
+    "network": {
+      "receiveuserlist": false,
+      "serverURL": "ws:\/\/drone.alkama.com:9000\/roomtest\/" 
+    },
+    "theme": {
+      "background": "202020",
+      "text": "FFFFFF",
+      "button": "333333",
+      "buttonUncheck": "CC3333",
+      "buttonBorder": "808080",
+      "buttonBorderHover": "FF8080",
+      "buttonBorderPress": "FFFFFF"
+    }
+  }
+  

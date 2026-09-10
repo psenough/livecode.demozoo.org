@@ -1,0 +1,86 @@
+{
+    "title": "Chaos Constructions Winter",
+    "started": "2021-02-21",
+    "date": "21 February 2021",
+    "type": "Shader Jam",
+    "vod": "https://www.youtube.com/watch?v=vWWlE5sc-WY",
+    "software_used": null,
+    "phases": [
+        {
+            "title": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "cosamentale",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/wlGczK",
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": 113559
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "monsieursoleil",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "provod",
+                        "demozoo_id": 24024
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/WlyfzV",
+                    "source_file": null,
+                    "vod": "https://www.youtube.com/watch?v=qJHWzyXCUtw"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dipswitch",
+                        "demozoo_id": 5806
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "random",
+                "demozoo_id": 15652
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4114
+}

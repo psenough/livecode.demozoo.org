@@ -1,0 +1,46 @@
+t=0
+w=240
+h=135
+bpx = 30
+bpy = h/2
+bvx = 5
+bvy = 2
+px = 10
+py = ball_y
+pw = 10
+ph = 30
+right_border_x = w*2 - 10
+left_border_x = 10 + pw
+
+function update() 
+bpx = bpx + bvx
+bpy = bpy + bvy
+
+if bpx > right_border_x 
+                or 
+            bpx < left_border_x then
+
+    bvx = -bvx
+end
+
+
+if bpy > h or bpy < 0 then
+    bvy = -bvy
+end
+
+py = bpy
+end
+
+function draw()    
+    rectb(0,0, w+5, h, 5)
+    circ(bpx, bpy, 5, 5)
+
+    
+    rect(px, py, pw, ph, 5)
+end
+
+function TIC()
+    cls()
+    update()
+    draw()
+end

@@ -1,0 +1,116 @@
+{
+    "title": "Monday Night Bytes ",
+    "started": "2024-04-08",
+    "date": "08 April 2024",
+    "type": "Shader Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroidia",
+                        "demozoo_id": 63755
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_04_08_shader_jam_monday_night_bytes/grabber_fieldfx_aldroidia.jpg",
+                    "source_file": "/shader_file_sources/2024_04_08_shader_jam_monday_night_bytes/grabber_fieldfx_aldroidia.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Catnip",
+                        "demozoo_id": 113525
+                      },
+                    "shadertoy_url": "https://www.shadertoy.com/view/XfVGRh",
+                    "preview_image": "2024_04_08_shader_jam_monday_night_bytes/grabber_fieldfx_catnip.jpg",
+                    "source_file": "/shader_file_sources/2024_04_08_shader_jam_monday_night_bytes/grabber_fieldfx_catnip.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dok",
+                        "demozoo_id": 142108
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_04_08_shader_jam_monday_night_bytes/grabber_fieldfx_dok.jpg",
+                    "source_file": "/shader_file_sources/2024_04_08_shader_jam_monday_night_bytes/grabber_fieldfx_dok.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Marex",
+                        "demozoo_id": 131937
+                      },
+                    "shadertoy_url": "https://www.shadertoy.com/view/4ftSWH",
+                    "preview_image": "2024_04_08_shader_jam_monday_night_bytes/grabber_fieldfx_Marex.jpg",
+                    "source_file": "/shader_file_sources/2024_04_08_shader_jam_monday_night_bytes/grabber_fieldfx_Marex.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_04_08_shader_jam_monday_night_bytes/grabber_fieldfx_pumpuli.jpg",
+                    "source_file": "/shader_file_sources/2024_04_08_shader_jam_monday_night_bytes/grabber_fieldfx_pumpuli.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_04_08_shader_jam_monday_night_bytes/grabber_fieldfx_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2024_04_08_shader_jam_monday_night_bytes/grabber_fieldfx_totetmatt.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "RaccoonViolet",
+                        "demozoo_id": 90373
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "RaccoonViolet",
+                "demozoo_id": 90373
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

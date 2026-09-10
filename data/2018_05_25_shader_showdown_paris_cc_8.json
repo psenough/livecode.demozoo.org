@@ -1,0 +1,130 @@
+{
+    "title": "Cookie Showdown #8",
+    "started": "2018-05-25",
+    "date": "25 May 2018",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Veda",
+            "url": "https://veda.gl/",
+            "version": "",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Round #1",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Anton",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-05-25/01-anton.frag"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Leon",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-05-25/01-leon.frag"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Round #2",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Antoine",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_05_25_shader_showdown_paris_cc_8/02-antoine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-05-25/02-antoine.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Lamogui",
+                        "demozoo_id": 71129
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_05_25_shader_showdown_paris_cc_8/02-lamogui.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-05-25/02-lamogui.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Round #3",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "lsdlive",
+                        "demozoo_id": 83579
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_05_25_shader_showdown_paris_cc_8/03-lsdlive.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-05-25/03-lsdlive.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Round #4",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gwi",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-05-25/04-gwi.frag"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Cookie Collective",
+                "demozoo_id": 78435
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZCOOKIE"
+}

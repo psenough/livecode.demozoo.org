@@ -1,0 +1,127 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2024-08-05",
+    "date": "5 August 2024",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "roeltje",
+                        "demozoo_id": 44279
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2024_08_05_byte_jam_monday_night_bytes/roeltje.png",
+                    "source_file": "/shader_file_sources/2024_08_05_byte_jam_monday_night_bytes/roeltje.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "muffintrap",
+                        "demozoo_id": 80210
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2024_08_05_byte_jam_monday_night_bytes/muffintrap.png",
+                    "source_file": "/shader_file_sources/2024_08_05_byte_jam_monday_night_bytes/muffintrap.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "g33kou",
+                        "demozoo_id": 143232
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2024_08_05_byte_jam_monday_night_bytes/g33kou.gif",
+                    "source_file": "/shader_file_sources/2024_08_05_byte_jam_monday_night_bytes/g33kou.txt",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2024_08_05_byte_jam_monday_night_bytes/jtruk.gif",
+                    "source_file": "/shader_file_sources/2024_08_05_byte_jam_monday_night_bytes/jtruk.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Reaby",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2024_08_05_byte_jam_monday_night_bytes/reaby.png",
+                    "source_file": "/shader_file_sources/2024_08_05_byte_jam_monday_night_bytes/reaby.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2024_08_05_byte_jam_monday_night_bytes/aldroid.png",
+                    "source_file": "/shader_file_sources/2024_08_05_byte_jam_monday_night_bytes/aldroid.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "organizer"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

@@ -1,0 +1,147 @@
+{
+    "title": "Tokyo Demo Fest",
+    "started": "2021-12-11",
+    "date": "11 - 12 December 2021",
+    "type": "Shader Jam",
+    "website": "https://tokyodemofest.jp",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "https://glslsandbox.com/",
+            "url": "https://glslsandbox.com/",
+            "version": "",
+            "purpose": "Graphic"
+        }
+    ],
+    "vod": null,
+    "alternate_vods": [
+        "https://www.twitch.tv/videos/1230237336"
+    ],
+    "phases": [
+        {
+            "title": "Jam",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "TDF2021 Good luck semifinal",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gyabo",
+                        "demozoo_id": 17562
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_12_11_shader_jam_tokyo_demofest/Good_luck_semifinal.png",
+                    "source_file": "https://gist.github.com/kumaashi/1f3454dac13f0e4090d46ca3d8d71918"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "0b5vr",
+                "demozoo_id": 128318
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "aonoro",
+                "demozoo_id": 83577
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Falken",
+                "demozoo_id": 816
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "gyabo",
+                "demozoo_id": 17562
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Hole",
+                "demozoo_id": 24018
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "i-saint",
+                "demozoo_id": 24019
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Kioku",
+                "demozoo_id": 13188
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "notargs",
+                "demozoo_id": 63871
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "FL1NE",
+                "demozoo_id": 24017
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Zavie",
+                "demozoo_id": 985
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4357
+}

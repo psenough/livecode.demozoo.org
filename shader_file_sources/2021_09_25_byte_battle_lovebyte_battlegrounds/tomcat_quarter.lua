@@ -1,0 +1,1 @@
+TIC=load"for o=0,p do l=0i=14u=o%120/68-1repeat x=A(l*(s+u*k)-2*s)y=l*A(o/p-.5)z=A(l*(k-u*s)-2*k)a=M(x,y)b=M(z,y)a=b>z and M(x,z)or a i=i-1g=(a*a+b*b-a-b+.5)^.5-.05l=l+g until i<0or g<.05or l>16poke(o,i)end s=s+k/9k=k-s/9"k=1s=0p=16319M=math.max A=math.abs

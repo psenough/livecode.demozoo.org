@@ -1,0 +1,128 @@
+{
+    "title": "Hackfest",
+    "started": "2024-09-28",
+    "date": "28 September 2024",
+    "type": "Byte Jam",
+    "website": "https://hackfest.nl/",
+    "flyer": "",
+    "vod":"https://www.youtube.com/watch?v=sQHELZmCTj8",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "F#Ready",
+                        "demozoo_id": 35273
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_09_28_byte_jam_hackfest/bytejam_FREADY_1.gif",
+                    "source_file": "/shader_file_sources/2024_09_28_byte_jam_hackfest/bytejam_FREADY_1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "F#Ready",
+                        "demozoo_id": 35273
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_09_28_byte_jam_hackfest/bytejam_FREADY_2.gif",
+                    "source_file": "/shader_file_sources/2024_09_28_byte_jam_hackfest/bytejam_FREADY_1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "F#Ready",
+                        "demozoo_id": 35273
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_09_28_byte_jam_hackfest/bytejam_FREADY_3.gif",
+                    "source_file": "/shader_file_sources/2024_09_28_byte_jam_hackfest/bytejam_FREADY_1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "F#Ready",
+                        "demozoo_id": 35273
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_09_28_byte_jam_hackfest/bytejam_FREADY_4.gif",
+                    "source_file": "/shader_file_sources/2024_09_28_byte_jam_hackfest/bytejam_FREADY_1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "F#Ready",
+                        "demozoo_id": 35273
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_09_28_byte_jam_hackfest/bytejam_FREADY_5.gif",
+                    "source_file": "/shader_file_sources/2024_09_28_byte_jam_hackfest/bytejam_FREADY_1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rho",
+                        "demozoo_id": 45
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_09_28_byte_jam_hackfest/rho.gif",
+                    "source_file": "/shader_file_sources/2024_09_28_byte_jam_hackfest/rho.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_09_28_byte_jam_hackfest/superogue.gif",
+                    "source_file": "/shader_file_sources/2024_09_28_byte_jam_hackfest/superogue.lua"
+                }
+            ],
+            "staffs": [
+                 {
+                    "handle": {
+                        "name": "Klandox",
+                        "demozoo_id": 77179
+                    },
+                    "job": "DJ Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4972
+}

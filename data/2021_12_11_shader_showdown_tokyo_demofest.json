@@ -1,0 +1,586 @@
+{
+    "title": "Tokyo Demo Fest",
+    "started": "2021-12-11",
+    "date": "11 - 12 December 2021",
+    "type": "Shader Showdown",
+    "website": "https://tokyodemofest.jp",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
+        }
+    ],
+    "vod": null,
+    "alternate_vods": [
+        "https://www.twitch.tv/videos/1230237336",
+        "https://www.twitch.tv/videos/1231153157"
+    ],
+    "phases": [
+        {
+            "title": "Quarter #01",
+            "vod": "https://youtu.be/2s9KfMn1J9M?t=8071",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 151,
+                    "handle": {
+                        "name": "gyabo",
+                        "demozoo_id": 17562
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/sl3XDM",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_gyabo.jpg",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_gyabo.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 183,
+                    "handle": {
+                        "name": "gam0022",
+                        "demozoo_id": 63869
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/sl3XWM",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_gam0022.jpg",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_gam0022.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "amagitakayosi",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "doxas",
+                        "demozoo_id": 57111
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "\u907f\u96f7",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Zavie",
+                        "demozoo_id": 985
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter #02",
+            "vod": "https://youtu.be/2s9KfMn1J9M?t=9979",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 150,
+                    "handle": {
+                        "name": "notargs",
+                        "demozoo_id": 63871
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_notargs.jpg",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_notargs.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 226,
+                    "handle": {
+                        "name": "Kamoshika",
+                        "demozoo_id": 128644
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/7tcXzS",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_Kamoshika.jpg",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_Kamoshika.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "amagitakayosi",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "doxas",
+                        "demozoo_id": 57111
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "\u907f\u96f7",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Zavie",
+                        "demozoo_id": 985
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter #03",
+            "vod": "https://youtu.be/2s9KfMn1J9M?t=12265",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 170,
+                    "handle": {
+                        "name": "0b5vr",
+                        "demozoo_id": 128318
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/stcSW7",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_0b5vr.jpg",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_0b5vr.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 192,
+                    "handle": {
+                        "name": "phi16",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/flcSRB",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_phi16.jpg",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_phi16.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "murasaqi",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "\u907f\u96f7",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Zavie",
+                        "demozoo_id": 985
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter #04",
+            "vod": "https://youtu.be/2s9KfMn1J9M?t=14123",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 173,
+                    "handle": {
+                        "name": "sp4ghet",
+                        "demozoo_id": 119897
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/stcSDM",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_sp4ghet.jpg",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_sp4ghet.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 83,
+                    "handle": {
+                        "name": "gaz",
+                        "demozoo_id": 63867
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_gaz.jpg",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_showdown_tokyo_demofest/quarter/shadershowdown_tdf2021_gaz.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "murasaqi",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "\u907f\u96f7",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Zavie",
+                        "demozoo_id": 985
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi #01",
+            "vod": "https://youtu.be/bp37xTVNRrM?t=6101",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 141,
+                    "handle": {
+                        "name": "gam0022",
+                        "demozoo_id": 63869
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/semi/grabber_tdf2021_gam0022.jpg",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_showdown_tokyo_demofest/semi/grabber_tdf2021_gam0022.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 165,
+                    "handle": {
+                        "name": "Kamoshika",
+                        "demozoo_id": 128644
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/7l3SRB",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/semi/grabber_tdf2021_Kamoshika.jpg",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_showdown_tokyo_demofest/semi/grabber_tdf2021_Kamoshika.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "murasaqi",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "doxas",
+                        "demozoo_id": 57111
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Zavie",
+                        "demozoo_id": 985
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Niko_14",
+                        "demozoo_id": null
+                    },
+                    "job": "Live Set"
+                }
+            ]
+        },
+        {
+            "title": "Semi #02",
+            "vod": "https://youtu.be/bp37xTVNRrM?t=8375",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 141,
+                    "handle": {
+                        "name": "phi16",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/Nl3XRB",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/semi/grabber_tdf2021_phi16.jpg",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_showdown_tokyo_demofest/semi/grabber_tdf2021_phi16.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 76,
+                    "handle": {
+                        "name": "sp4ghet",
+                        "demozoo_id": 119897
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/Nl3SRB",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/semi/sender_sp4ghet_tdf2021.jpg",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_showdown_tokyo_demofest/semi/sender_sp4ghet_tdf2021.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "gam0022",
+                        "demozoo_id": 63869
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "murasaqi",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "doxas",
+                        "demozoo_id": 57111
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Zavie",
+                        "demozoo_id": 985
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://youtu.be/bp37xTVNRrM?t=16006",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 214,
+                    "handle": {
+                        "name": "Kamoshika",
+                        "demozoo_id": 128644
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/stcSRB",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/final/grabber_tdf2021_Kamoshika.jpg",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_showdown_tokyo_demofest/final/grabber_tdf2021_Kamoshika.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 222,
+                    "handle": {
+                        "name": "phi16",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/Nl3XzB",
+                    "preview_image": "2021_12_11_shader_showdown_tokyo_demofest/final/grabber_tdf2021_phi16.jpg",
+                    "source_file": "/shader_file_sources/2021_12_11_shader_showdown_tokyo_demofest/final/grabber_tdf2021_phi16.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "sp4ghet",
+                        "demozoo_id": 119897
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "gaz",
+                        "demozoo_id": 63867
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "gam0022",
+                        "demozoo_id": 63869
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "murasaqi",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "doxas",
+                        "demozoo_id": 57111
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "amagitakayosi",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Zavie",
+                        "demozoo_id": 985
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": 113559
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": 1525
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "0b5vr",
+                "demozoo_id": 128318
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "aonoro",
+                "demozoo_id": 83577
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Falken",
+                "demozoo_id": 816
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "gyabo",
+                "demozoo_id": 17562
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Hole",
+                "demozoo_id": 24018
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "i-saint",
+                "demozoo_id": 24019
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Kioku",
+                "demozoo_id": 13188
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "notargs",
+                "demozoo_id": 63871
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "FL1NE",
+                "demozoo_id": 24017
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Zavie",
+                "demozoo_id": 985
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4357
+}

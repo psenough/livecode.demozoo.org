@@ -1,0 +1,74 @@
+{
+    "title": "Tokyo Demo Fest",
+    "started": "2018-12-01",
+    "date": "01 - 02 December 2018",
+    "type": "Shader Jam",
+    "vod": "https://www.youtube.com/watch?v=6rKaNi5yUOQ",
+    "software_used": [
+        {
+            "name": "GLSLFan",
+            "url": "https://glslfan.com/",
+            "version": "",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Shader Jam",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "notargs",
+                        "demozoo_id": 63871
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_12_01_shader_jam_tokyo_demo_fest/notargs.jpg",
+                    "source_file": "http://glslsandbox.com/e#50670.0"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gyabo",
+                        "demozoo_id": 17562
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_12_01_shader_jam_tokyo_demo_fest/gyabo.jpg",
+                    "source_file": "https://scrapbox.io/sayachang/TDF2018_Shader_Coding_Battle"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "FMS_Cat",
+                        "demozoo_id": 57112
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_12_01_shader_jam_tokyo_demo_fest/FMS_Cat.jpg",
+                    "source_file": "https://scrapbox.io/sayachang/TDF2018_Shader_Coding_Battle"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gam0022",
+                        "demozoo_id": 63869
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_12_01_shader_jam_tokyo_demo_fest/gam0022.jpg",
+                    "source_file": "https://glslfan.com/?channel=-LScZ1gHbc02G7PgZnus&viewer=true"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 3596
+}
