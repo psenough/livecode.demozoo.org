@@ -1,0 +1,105 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2025-09-29",
+    "date": "29 September 2025",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod": "https://scenesat.com/video-recordings/Hof8Ah",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.2.0-vqt-b2",
+            "version": "tic80showdown Alice fork v0.2.0-vqt-b2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "borisvanschooten",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_09_29_byte_jam_monday_night_bytes/borisvanschooten.gif",
+                    "source_file": "/shader_file_sources/2025_09_29_byte_jam_monday_night_bytes/borisvanschooten.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "enfys",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_09_29_byte_jam_monday_night_bytes/enfys.gif",
+                    "source_file": "/shader_file_sources/2025_09_29_byte_jam_monday_night_bytes/enfys.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "g33kou",
+                        "demozoo_id": 143232
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_09_29_byte_jam_monday_night_bytes/g33kou.gif",
+                    "source_file": "/shader_file_sources/2025_09_29_byte_jam_monday_night_bytes/g33kou.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "weatherman115",
+                        "demozoo_id": 141550
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2025_09_29_byte_jam_monday_night_bytes/weatherman115.gif",
+                    "source_file": "/shader_file_sources/2025_09_29_byte_jam_monday_night_bytes/weatherman115.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Chaos",
+                        "demozoo_id": null
+                    },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "reality404",
+                "demozoo_id": 67077
+            },
+            "job": "Organizer"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

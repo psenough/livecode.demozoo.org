@@ -1,0 +1,58 @@
+{
+    "title": "Monday Night Battle #01",
+    "started": "2022-11-14",
+    "date": "14 November 2022",
+    "type": "Byte Battle",
+    "vod": "https://www.youtube.com/watch?v=hv0qnu_94dc",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v07",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Byte Battle",
+            "keyword": "County Colours (Dublin vs. Limerick)",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 11,
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_11_14_byte_battle_fieldfx_bbc/bytebattle/mantratronic-bytebattle.gif",
+                    "source_file": "/shader_file_sources/2022_11_14_fieldfx_bbc/bytebattle/mantratronic.lua"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 12,
+                    "handle": {
+                        "name": "dave84",
+                        "demozoo_id": 127921
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_11_14_byte_battle_fieldfx_bbc/bytebattle/dave84-bytebattle.gif",
+                    "source_file": "/shader_file_sources/2022_11_14_fieldfx_bbc/bytebattle/dave84.lua"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Host"
+                }
+            ]
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": "LCDZFFCM"
+}

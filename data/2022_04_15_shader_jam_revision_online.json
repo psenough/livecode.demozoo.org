@@ -1,0 +1,265 @@
+{
+    "title": "Revision Satellite",
+    "started": "2022-04-15",
+    "date": "15 - 18 April 2022",
+    "type": "Shader Jam",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v12",
+            "version": "NuSan - v12",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Bonzomatic Extra Texture",
+            "url": "https://livecode.demozoo.org/extra/revision_2022_extra_textures.zip",
+            "version": "Revision 2022",
+            "purpose": "Texture"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Shader Jam #1",
+            "vod": "https://www.youtube.com/watch?v=0KRaUtYpwMY",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "exca",
+                        "demozoo_id": 35897
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_jam_revision_online/ghost/2022_04_revision_jam_ghost_exca.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/ghost/2022_04_revision_jam_ghost_exca.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Tater",
+                        "demozoo_id": 130920
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_jam_revision_online/ghost/2022_04_revision_jam_ghost_Tater.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/ghost/2022_04_revision_jam_ghost_Tater.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "eimink",
+                        "demozoo_id": 32692
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_jam_revision_online/ghost/2022_04_revision_jam_ghost_eimink.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/ghost/2022_04_revision_jam_ghost_eimink.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ghost",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Shader Jam #2",
+            "vod": "https://www.youtube.com/watch?v=V0UMPCgIYDk",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "exca",
+                        "demozoo_id": 35897
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_jam_revision_online/lug00ber/2022_04_revision_jam_lug00ber_exca.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/lug00ber/2022_04_revision_jam_lug00ber_exca.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_jam_revision_online/lug00ber/2022_04_revision_jam_lug00ber_evvvvil.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/lug00ber/2022_04_revision_jam_lug00ber_evvvvil.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "kostik",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_jam_revision_online/lug00ber/2022_04_revision_jam_lug00ber_kostik.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/lug00ber/2022_04_revision_jam_lug00ber_kostik.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Shader Jam #3",
+            "vod": "https://www.youtube.com/watch?v=rOt789_TEiM",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "z0rg",
+                        "demozoo_id": 114547
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/stBcWy",
+                    "preview_image": "2022_04_15_shader_jam_revision_online/mack/2022_04_revision_jam_mack_z0rg.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/mack/2022_04_revision_jam_mack_z0rg.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "monsieursoleil",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_jam_revision_online/mack/2022_04_revision_jam_mack_monsieursoleil.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/mack/2022_04_revision_jam_mack_monsieursoleil.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_jam_revision_online/mack/2022_04_revision_jam_mack_blackle.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/mack/2022_04_revision_jam_mack_blackle.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "mack",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Shader Jam #4",
+            "vod": "https://www.youtube.com/watch?v=fAEfWfQ5d5E",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "EmmazingGoose",
+                        "demozoo_id": 121827
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_jam_revision_online/wayfinder/2022_04_revision_jam_wayfinder_goose.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/wayfinder/2022_04_revision_jam_wayfinder_goose.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "LechugaFeliz",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_jam_revision_online/wayfinder/2022_04_revision_jam_wayfinder_lechugafeliz.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/wayfinder/2022_04_revision_jam_wayfinder_lechugafeliz.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_jam_revision_online/wayfinder/2022_04_revision_jam_wayfinder_nusan.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/wayfinder/2022_04_revision_jam_wayfinder_nusan.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "provod",
+                        "demozoo_id": 24024
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_jam_revision_online/wayfinder/2022_04_revision_jam_wayfinder_provod.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/wayfinder/2022_04_revision_jam_wayfinder_provod.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_jam_revision_online/wayfinder/2022_04_revision_jam_wayfinder_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/wayfinder/2022_04_revision_jam_wayfinder_totetmatt.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wbcbz7",
+                        "demozoo_id": 45761
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_04_15_shader_jam_revision_online/wayfinder/2022_04_revision_jam_wayfinder_wbcbz7.jpg",
+                    "source_file": "/shader_file_sources/2022_04_15_shader_jam_revision_online/wayfinder/2022_04_revision_jam_wayfinder_wbcbz7.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "wayfinder",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 4424
+}

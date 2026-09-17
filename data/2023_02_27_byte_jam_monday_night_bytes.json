@@ -1,0 +1,77 @@
+{
+  "title": "Monday Night Bytes",
+  "type": "Byte Jam",
+  "website": "https://field-fx.party",
+  "software_used": [
+    {
+      "name": "TIC-80 FFT Hack",
+      "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+      "version": "tic80showdown FFT Hack v1.0.2",
+      "purpose": "Graphic"
+    }
+  ],
+  "staffs": [
+    {
+      "handle": {
+        "name": "aldroid",
+        "demozoo_id": 63755
+      },
+      "job": "Organizers"
+    }
+  ],
+  "phases": [
+    {
+      "title": "Byte Jam",
+      "entries": [
+        {
+          "id": 1,
+          "handle": {
+            "name": "doop",
+            "demozoo_id": 141174
+          },
+          "source_file": "/shader_file_sources/2023_02_27_byte_jam_monday_night_bytes/doop.lua",
+          "preview_image": "2023_02_27_byte_jam_monday_night_bytes/doop.png"
+        },
+        {
+          "id": 2,
+          "handle": {
+            "name": "tobach",
+            "demozoo_id": 89891
+          },
+          "source_file": "/shader_file_sources/2023_02_27_byte_jam_monday_night_bytes/tobach.lua",
+          "preview_image": "2023_02_27_byte_jam_monday_night_bytes/tobach.png"
+        },
+        {
+          "id": 3,
+          "handle": {
+            "name": "alia",
+            "demozoo_id": 113525
+          },
+          "source_file": "/shader_file_sources/2023_02_27_byte_jam_monday_night_bytes/alia.lua",
+          "preview_image": "2023_02_27_byte_jam_monday_night_bytes/alia.png"
+        },
+        {
+          "id": 4,
+          "handle": {
+            "name": "mrsynackster",
+            "demozoo_id": 130883
+          },
+          "source_file": "/shader_file_sources/2023_02_27_byte_jam_monday_night_bytes/mrsynackster.lua",
+          "preview_image": "2023_02_27_byte_jam_monday_night_bytes/mrsynackster.png"
+        }
+      ],
+      "staffs": [
+        {
+          "handle": {
+            "name": "aldroid",
+            "demozoo_id": 63755
+          },
+          "job": "Commentator"
+        }
+      ]
+    }
+  ],
+  "demozoo_party_id": "LCDZFFCM",
+  "started": "2023-02-27",
+  "date": "27 February 2023"
+}

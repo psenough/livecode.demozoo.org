@@ -1,0 +1,92 @@
+{
+    "title": "Demodulation",
+    "started": "2021-11-27",
+    "date": "27 November 2021",
+    "type": "Byte Jam",
+    "website": "https://yandex.ru/museum/yaretrocomp_en",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v07",
+            "purpose": "Graphic"
+        }
+    ],
+    "vod": "https://youtu.be/pPZeKQNWXPs?t=18464",
+    "phases": [
+        {
+            "vod": null,
+            "title": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Lynn",
+                        "demozoo_id": 77648
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_11_27_byte_jam_demodulation/lynn.gif",
+                    "source_file": "/shader_file_sources/2021_11_27_byte_jam_demodulation/lynn.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "pestis",
+                        "demozoo_id": 44058
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_11_27_byte_jam_demodulation/pestis.gif",
+                    "source_file": "/shader_file_sources/2021_11_27_byte_jam_demodulation/pestis.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jobe",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_11_27_byte_jam_demodulation/jobe.gif",
+                    "source_file": "/shader_file_sources/2021_11_27_byte_jam_demodulation/jobe.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "tic80_cart_id": 2404,
+                    "shadertoy_url": null,
+                    "preview_image": "2021_11_27_byte_jam_demodulation/mantratronic.gif",
+                    "source_file": "/shader_file_sources/2021_11_27_byte_jam_demodulation/mantratronic.lua"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "bfox",
+                "demozoo_id": 9743
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4358
+}

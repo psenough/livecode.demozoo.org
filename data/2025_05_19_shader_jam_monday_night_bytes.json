@@ -1,0 +1,142 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2025-05-19",
+    "date": "19 May 2025",
+    "type": "Shader Jam",
+    "website": "https://mnb.field-fx.party/",
+    "flyer": "",
+    "vod":"https://scenesat.com/videoarchive/4212664a-3a76-11f0-8d25-00505685775e?bs5#show-4212664a-3a76-11f0-8d25-00505685775e",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_aldroid.jpg",
+                    "source_file": "/shader_file_sources/2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_aldroid.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Altiga",
+                        "demozoo_id": 142044
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_Altiga.jpg",
+                    "source_file": "/shader_file_sources/2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_Altiga.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "canmom",
+                        "demozoo_id": 148063
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_canmom.jpg",
+                    "source_file": "/shader_file_sources/2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_canmom.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "echo~parallax",
+                        "demozoo_id": 148985
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_echoparallax.jpg",
+                    "source_file": "/shader_file_sources/2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_echoparallax.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "FRANKK",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_FRANKK.jpg",
+                    "source_file": "/shader_file_sources/2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_FRANKK.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "peregrine",
+                        "demozoo_id": 122747
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_peregrine.jpg",
+                    "source_file": "/shader_file_sources/2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_peregrine.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_pumpuli.jpg",
+                    "source_file": "/shader_file_sources/2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_pumpuli.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2025_05_19_shader_jam_monday_night_bytes/grabber_mondaynightbytes_totetmatt.glsl"
+                }
+               
+                
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "RaccoonViolet",
+                        "demozoo_id": 90373
+                    },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+			"handle": {
+				"name": "Aldroid",
+				"demozoo_id": 63755
+			},
+			"job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}
