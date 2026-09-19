@@ -1,0 +1,127 @@
+{
+    "title": "NordicFuzzCon",
+    "started": "2026-02-19",
+    "date": "19 February 2026",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod": "https://scenesat.com/video-recordings/Ge2ti0",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.2.0-vqt-b2",
+            "version": "tic80showdown Alice fork v0.2.0-vqt-b2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_02_19_byte_jam_nordicfuzzcon/aldroid.png",
+                    "source_file": "/shader_file_sources/2026_02_19_byte_jam_nordicfuzzcon/aldroid.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "echo~parallax",
+                        "demozoo_id": 148985
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_02_19_byte_jam_nordicfuzzcon/echo_parallax.png",
+                    "source_file": "/shader_file_sources/2026_02_19_byte_jam_nordicfuzzcon/echo_parallax.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "ompuco",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_02_19_byte_jam_nordicfuzzcon/ompuco.gif",
+                    "source_file": "/shader_file_sources/2026_02_19_byte_jam_nordicfuzzcon/ompuco.txt",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Suule",
+                        "demozoo_id": 136862
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": null,
+                    "source_file": null,
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Finkel",
+                        "demozoo_id": 157852
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": null,
+                    "source_file": null,
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "RaccoonViolet",
+                        "demozoo_id": 90373
+                    },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Freja",
+                "demozoo_id": 138609
+            },
+            "job": "Organizer"
+        },
+        {
+            "handle": {
+                "name": "RaccoonViolet",
+                "demozoo_id": 90373
+            },
+            "job": "Organizer"
+        }
+    ],
+    "demozoo_party_id": null
+}
