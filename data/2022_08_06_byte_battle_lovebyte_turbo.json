@@ -1,0 +1,65 @@
+{
+    "title": "Lovebyte Turbo",
+    "started": "2022-08-06",
+    "date": "06 August 2022 22h30 - 22h40",
+    "type": "Byte Battle",
+    "vod": "https://www.youtube.com/watch?v=RvQwjfax3Gw",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v062b",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Minute Tiny Final",
+            "vod": "https://files.scene.org/view/parties/2022/evoke22/misc/lovebyte_turbo_final.mp4",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_08_06_byte_battle_lovebyte_turbo/superogue.gif",
+                    "source_file": "/shader_file_sources/2022_08_06_byte_battle_lovebyte_turbo/superogue.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "blossom",
+                        "demozoo_id": 89867
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_08_06_byte_battle_lovebyte_turbo/blossom.gif",
+                    "source_file": "/shader_file_sources/2022_08_06_byte_battle_lovebyte_turbo/blossom.lua"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "Jeenio",
+                        "demozoo_id": 3048
+                    },
+                    "job": "Commenta..."
+                }
+            ]
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 4505
+}

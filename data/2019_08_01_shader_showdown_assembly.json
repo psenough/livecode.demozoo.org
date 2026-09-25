@@ -1,0 +1,165 @@
+{
+    "title": "Assembly",
+    "started": "2019-08-01",
+    "date": "01 - 04 August 2019",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": null,
+    "phases": [
+        {
+            "title": "Semifinal 1",
+            "vod": "https://www.youtube.com/watch?v=3q7abaqoc9I",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Exca",
+                        "demozoo_id": 35897
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "cce",
+                        "demozoo_id": 6293
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "eimink",
+                        "demozoo_id": 32692
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "waffle",
+                        "demozoo_id": 70
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semifinal 2",
+            "vod": "https://www.youtube.com/watch?v=JAh4HYtHh9M",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "noby",
+                        "demozoo_id": 6849
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "mayor",
+                        "demozoo_id": 12895
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "waffle",
+                        "demozoo_id": 70
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=vv71jDAwTbM",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "noby",
+                        "demozoo_id": 6849
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Exca",
+                        "demozoo_id": 35897
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/WsGyDW",
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "eimink",
+                        "demozoo_id": 32692
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "waffle",
+                        "demozoo_id": 70
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 3791
+}

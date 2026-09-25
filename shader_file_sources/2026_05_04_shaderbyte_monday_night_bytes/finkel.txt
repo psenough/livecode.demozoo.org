@@ -1,0 +1,124 @@
+// script:  js
+W=240;H=136;SZ=W*H;MW=W/2;MH=H/2;
+PALETTE=0x3fc0;SCREEN=0x0000;HOFFSET=0x3ff9;abs=Math.abs;floor=Math.floor;max=Math.max;min=Math.min;sin=Math.sin;cos=Math.cos;rnd=Math.random;pow=Math.pow;sqrt=Math.sqrt;pi=Math.PI;tau=pi*2;function lerp(a,b,t){return a+(b-a)*t};function lin(sx,ex,sy,ey,t,cl=false){if (cl) {t=clamp(sx,ex,t);};return lerp(sy,ey,(t-sx)/(ex-sx))};function uf(a,b){return lerp(a,b,rnd())};function ri(mn,mx){return mn+floor(rnd()*(mx-mn+1))};function clamp(mn,mx,t){return max(min(mx,t),mn)};function ss(x){x=clamp(0,1,x);return x*x*(3.0-2.0*x)};function range(n){return Array.from(Array(n)).map((_,i)=>i)};function hsv2rgb(h,s,v){var h=(h%360); if (h<0){h=(h+360)%360;} let c=v*s; let x=c*(1-abs(((h/60)%2)-1)); let m=v-c; let [r,g,b]=[0,0,0]; if (h<60){[r,g]=[c,x];} else if (h<120){[r,g]=[x,c];} else if (h<180){[g,b]=[c,x];} else if (h<240){[g,b]=[x,c];} else if (h<300){[r,b]=[x,c];} else {[r,b]=[c,x];} return [r,g,b].map((x)=>(x+m)*255|0);};function pick(...vs){return vs[ri(0,vs.length-1)];};function hash(i){var s=floor(i);/*var s=i*747796405+2891336453;*/var w=((s>>((s>>28)+4))^s)*277803737;return (w>>22)^w;};
+M4=[[0,8,2,10],[12,4,14,6],[3,11,1,9],[15,7,13,5]]
+function viz_track(s=20,cl=false){vbank(1);if(cl){cls();};pix(0,0,11);pix(s,0,11);line(0,1,s*2,1,0);line(0,2,s*2,2,0);pix(le*s,1,12);pix(he*s,2,13);vbank(0);}
+he=0
+le=0
+/* Finkel's Prelude:
+
+min,max,abs,floor,pow,sin,cos,rnd
+pi,tau,sqrt,hash
+
+lerp,lin,uf,ri,clamp,ss,range,hsv2rgb
+pick
+*/
+
+function track(){
+ damp=clamp(0,1,time()/1000)
+ le=max(le,fft(2,4)*0.5*damp)
+ le*=0.97
+ he=max(he,fft(200,250)*0.8*damp)
+ he*=0.97
+}
+
+function nhash(t){
+ return (hash(t)%1000)/1000
+}
+
+function noise1(x){
+ let x0=floor(x)
+ let x1=x0+1
+ let xf=x-x0
+ let z0=nhash(x0)
+ let z1=nhash(x1)
+ return lerp(z0,z1,xf)
+}
+
+function noise2(x,y){
+ let y0=floor(y)
+ let y1=y0+1
+ let yf=y-y0
+ let z0=noise1(x+y0*1234)
+ let z1=noise1(x+y1*1234)
+ return lerp(z0,z1,yf)
+}
+
+function fnoise(x,y,itr=7){
+ var acc=0
+ var amp=1
+ for(var i=0;i<itr;i++){
+  acc+=noise2(x,y)*amp
+  amp*=lin(0,1,0.3,0.6,he,true)
+  x*=2
+  y*=2
+ }
+ return acc
+}
+
+function BOOT(){
+cls(0)
+make_pal()
+vbank(1)
+c=hsv2rgb(180,0.1,0.9)
+poke(PALETTE+3,c[0])
+poke(PALETTE+4,c[1])
+poke(PALETTE+5,c[2])
+vbank(0)
+}
+fr=0
+function TIC(){
+	track()
+	make_pal()
+	if(fr%2==0){
+		memcpy(0,W/2,(SZ-W)/2)
+	}
+	line(0,H-1,W,H-1,0)
+ for(var x=0;x<W;x++){
+  tro=25-abs(x-MW+MW*sin(time()/3000)/1.5+le*30)/2*lin(0,1,1,2,le,true)
+  tro=max(0,tro)
+  n=fnoise(x/100,time()/1000)*30-tro
+  y=H-n+30-le*10
+  col=(H-y)/2+rnd()/3
+  col=clamp(0,15,col)
+  line(x,y,x,H+1,col)
+ }
+ vbank(1)
+	line(0,H-1,W,H-1,0)
+ for(var x=0;x<W;x++){
+  n=fnoise(x/30,time()/1000,2)*3-2.7
+  if(n+M4[fr%4][x%4]/16>1){
+   pix(x,H-1,1)
+  }
+ }
+	memcpy(0,W/2,(SZ-W)/2)
+ vbank(0)
+ fr++
+ viz_track()
+}
+
+function make_pal(){
+ t=le*70
+ Array.from([]).concat(
+  [[200+t,1-le/3,0.3+le/4]],
+  [[200+t,0.5,0.9]],
+  [[180,0.1,0.9]],
+  [[50,1,1-le/3]],
+  [[30,1,0.4]],
+  vint(6,[180+t,1,0.5],[140+t,1,0.9]),
+  vint(5,[200+t,0.5+le/4,0.5+le/5],[200-t,0.1,1]),
+ ).flatMap(hsv=>hsv2rgb(...hsv))
+ .forEach((c,i)=>{
+  poke(PALETTE+i,c)
+ })
+}
+
+function vint(num,f,t){
+ if (num==1){
+  return [f]
+ }
+ return range(num).map(i=>{
+  let x=i/(num-1)
+  return f.map((e,j)=>lerp(e,t[j],x))
+ })
+}

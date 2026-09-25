@@ -1,0 +1,148 @@
+{
+    "title": "Cookie Collective Twitch Stream #1",
+    "started": "2020-03-19",
+    "date": "19 March 2020",
+    "type": "Live Performance",
+    "vod": "https://www.twitch.tv/videos/570598632",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v09",
+            "version": "NuSan - v09",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "TidalCycles",
+            "url": "https://tidalcycles.org/",
+            "version": "",
+            "purpose": "Music"
+        }
+    ],
+    "phases": [
+        {
+            "title": "",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_03_19_shader_showdown_paris_cc_streaming_1/alkama.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/alkama.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Anton",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_03_19_shader_showdown_paris_cc_streaming_1/anton.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/anton.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "bruce",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_03_19_shader_showdown_paris_cc_streaming_1/bruce.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/bruce.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "cookie",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_03_19_shader_showdown_paris_cc_streaming_1/cookie.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/cookie.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_03_19_shader_showdown_paris_cc_streaming_1/evvvvil.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/evvvvil.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_03_19_shader_showdown_paris_cc_streaming_1/Flopine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/Flopine.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "lamogui",
+                        "demozoo_id": 71129
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_03_19_shader_showdown_paris_cc_streaming_1/lamogui.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/lamogui.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_03_19_shader_showdown_paris_cc_streaming_1/nusan.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/nusan.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "ponk",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_03_19_shader_showdown_paris_cc_streaming_1/ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2020-03-19/ponk.glsl"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Cookie Collective",
+                "demozoo_id": 78435
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZCOOKIE"
+}

@@ -1,0 +1,712 @@
+{
+    "title": "Revision",
+    "started": "2026-04-05",
+    "date": "05 April 2026",
+    "type": "Shader Jam",
+    "website": "https://2026.revision-party.net/",
+    "flyer": "",
+    "vod":"https://www.youtube.com/watch?v=r6Mvj83lWsw",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Extra Textures",
+            "url": "https://livecode.demozoo.org/extra/revision_2026_texture_pack_dritterlogo.zip",
+            "version": "",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "0b5vr",
+                        "demozoo_id": 128318
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_0b5vr.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_0b5vr.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroidia",
+                        "demozoo_id": 63755
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_aldroidia.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_aldroidia.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_alkama.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_alkama.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "artemka",
+                        "demozoo_id": 45761
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_artemka.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_artemka.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Avgilles",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_Avgilles.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_Avgilles.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "btr",
+                        "demozoo_id": 132629
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_btr.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_btr.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Byproduct",
+                        "demozoo_id": 13699
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_Byproduct.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_Byproduct.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "canmom",
+                        "demozoo_id": 148063
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_canmom.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_canmom.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Cheri",
+                        "demozoo_id": 89965
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_Cheri.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_Cheri.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "ciosai_tw",
+                        "demozoo_id": 142051
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_CIOSAI_tw.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_CIOSAI_tw.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "DemoSpeedRunner",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_DemoSpeedRunner.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_DemoSpeedRunner.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "diffty",
+                        "demozoo_id": 88962
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_diffty.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_diffty.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "DJ_Level_3",
+                        "demozoo_id": 146369
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_DJ_Level_3.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_DJ_Level_3.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dok",
+                        "demozoo_id": 142108
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_dok.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_dok.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dsi",
+                        "demozoo_id": 72610
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_dsi.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_dsi.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "eimink",
+                        "demozoo_id": 32692
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_eimink.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_eimink.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Exca",
+                        "demozoo_id": 35897
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_Exca.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_Exca.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "g33kou",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_g33kou.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_g33kou.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gam0022",
+                        "demozoo_id": 63869
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_gam0022.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_gam0022.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "GuB",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_GuB.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_GuB.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "guezz1t",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_guezz1t.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_guezz1t.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "hpxl",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_hpxl.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_hpxl.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "immibis",
+                        "demozoo_id": 138870
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_immibis.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_immibis.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "JamQue",
+                        "demozoo_id": 9972
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_JamQue.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_JamQue.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "kali",
+                        "demozoo_id": 88968
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_kali.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_kali.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Kamoshika",
+                        "demozoo_id": 128644
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_Kamoshika.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_Kamoshika.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "kostik",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_kostik.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_kostik.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "LLB",
+                        "demozoo_id": 984
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_LLB.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_LLB.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "luki",
+                        "demozoo_id": 155831
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_luki.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_luki.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "m4vv",
+                        "demozoo_id": 139690
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_m4vv.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_m4vv.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "marex",
+                        "demozoo_id": 131937
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_marex.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_marex.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "miro",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_miro.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_miro.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "mu6k",
+                        "demozoo_id": 14411
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_mu6k.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_mu6k.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NakedFish",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_NakedFish.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_NakedFish.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "nByte",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_nByte.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_nByte.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "nel",
+                        "demozoo_id": 151407
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_nel.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_nel.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_NuSan.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_NuSan.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Oemfoe",
+                        "demozoo_id": 6323
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_Oemfoe.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_Oemfoe.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "ompuco",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_ompuco.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_ompuco.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "P_Malin",
+                        "demozoo_id": 127891
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_P_Malin.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_P_Malin.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "papu",
+                        "demozoo_id": 76637
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_papu.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_papu.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "peregrine",
+                        "demozoo_id": 122747
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_peregrine.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_peregrine.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_pumpuli.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_pumpuli.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "red",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_red.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_red.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rimina",
+                        "demozoo_id": 56489
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_rimina.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_rimina.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rubix",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_rubix.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_rubix.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rudi",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_rudi.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_rudi.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "snipsel",
+                        "demozoo_id": 152019
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_snipsel.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_snipsel.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmtatt",
+                        "demozoo_id": 121811
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_totetmatt.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "unc",
+                        "demozoo_id": 3842
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_unc.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_unc.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "winden",
+                        "demozoo_id": 15606
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_winden.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_winden.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": 113559
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_wrighter.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_wrighter.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wryhode",
+                        "demozoo_id": 155849
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_wryhode.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_wryhode.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Zavie",
+                        "demozoo_id": 985
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_Zavie.jpg",
+                    "source_file": "/shader_file_sources/2026_04_05_shader_jam_revision_2026/grabber_revision2026jam_Zavie.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dritter",
+                        "demozoo_id": 127322
+                        },
+                    "job": "DJ set"
+                },
+                {
+                    "handle": {
+                        "name": "psenough",
+                        "demozoo_id": 313
+                        },
+                    "job": "VJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "psenough",
+                "demozoo_id": 313
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "totetmatt",
+                "demozoo_id": 121811
+            },
+            "job": "Coordinator"
+        }
+    ],
+    "demozoo_party_id": 5512
+}

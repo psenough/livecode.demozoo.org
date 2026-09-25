@@ -1,0 +1,101 @@
+// script:  js
+
+
+
+
+
+
+
+    function lerp(a, b, s) {
+        return a + (b - a) * s;
+    }
+    
+    
+
+var t=0
+var x=96
+var y=24
+
+
+
+var fftClocks = [];
+
+
+var fftSmooth = [];
+
+
+for(var i = 0; i < 1024; i++)
+{
+		fftClocks[i] = 0;
+		
+		fftSmooth[i] = 0;
+}
+
+
+
+
+
+	var prevState = 0;
+	var prevRota = 0;
+	
+
+function TIC()
+{
+
+
+
+
+for(var i = 0; i < 1024; i++)
+{
+		fftSmooth[i] = lerp(fftSmooth[i], fft(i),.5);
+
+		fftClocks[i] += fftSmooth[i];
+}
+
+
+
+
+	cls(0)
+	
+	
+	if(btn(0))y--
+	if(btn(1))y++
+	if(btn(2))x--
+	if(btn(3))x++
+	
+	
+	
+	
+			var prevState = 136 - (.5+.5*Math.sin(fftClocks[i]))*136;
+		var prevRota = (Math.sin(i+fftClocks[5]*.1)*.5+.5)*256;
+	
+	
+	for(var i = 1; i < 32; i++)
+	{
+	
+	var colInd = 1+i%15;
+		var state =
+		 130 - (.5+.5*
+			Math.sin(fftClocks[i]+t*.001*0)
+			)*130;
+		var rota = 
+		(Math.sin(i+fftClocks[5]*.5+t*.0025*0)*.5+.5)
+		*230;
+	var lC = 4 + fftSmooth[i]*20;	
+	
+		line(prevRota ,	prevState + lC,
+							rota 				,	state 				+ lC,
+							colInd)
+							
+
+		tri(rota - lC,	state,
+						rota + lC, state,
+						rota, state + lC,colInd)
+		//spr(1,rota,state,0)
+		prevState = state;
+		prevRota = rota;
+		
+}
+
+	t++
+}

@@ -1,0 +1,119 @@
+{
+    "title": "Recondu Stream",
+    "started": "2019-12-19",
+    "date": "19 December 2019",
+    "type": "Live Performance",
+    "vod": "https://www.youtube.com/watch?v=PLqdbWWyxzk",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Veda",
+            "url": "https://veda.gl/",
+            "version": "",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "TidalCycles",
+            "url": "https://tidalcycles.org/",
+            "version": "",
+            "purpose": "Music"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Slot #1",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_12_19_shader_showdown_recondu_stream/Flopine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-12-19/Flopine.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Psych Out",
+                        "demozoo_id": null
+                    },
+                    "job": "Live Music"
+                }
+            ]
+        },
+        {
+            "title": "Slot #2",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_12_19_shader_showdown_recondu_stream/Nusan.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-12-19/Nusan.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Koltes",
+                        "demozoo_id": 52423
+                    },
+                    "job": "Live Music"
+                }
+            ]
+        },
+        {
+            "title": "Slot #3",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Koltes",
+                        "demozoo_id": 52423
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2019-12-19/Koltes.frag"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Cyanide Dansen",
+                        "demozoo_id": null
+                    },
+                    "job": "Live Music"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Cookie Collective",
+                "demozoo_id": 78435
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZCOOKIE"
+}
