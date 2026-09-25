@@ -107,10 +107,10 @@
             "staffs": [
                 {
                     "handle": {
-                        "name": "cmdr homer",
-                        "demozoo_id": null
+                        "name": "Cmdr.Homer",
+                        "demozoo_id": 77040
                     },
-                    "job": "Dj Set"
+                    "job": "DJ Set"
                 }
             ]
         }
