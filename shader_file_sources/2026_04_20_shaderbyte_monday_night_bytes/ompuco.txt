@@ -1,0 +1,262 @@
+-- pos: 9,193
+// title:   game title
+// author:  game developer, email, etc.
+// desc:    short description
+// site:    website link
+// license: MIT License (change this to your license of choice)
+// version: 0.1
+// script:  js
+
+var t=0
+var x=96
+var y=24
+
+
+    function lerp(a, b, s) {
+        return a + (b - a) * s;
+    }
+    
+    
+    
+    
+    function sinc(x)
+{
+	return (x == 0.0) ? 1.0 : Math.sin(x*Math.PI)/(x*Math.PI);   
+}
+
+//https://en.wikipedia.org/wiki/Window_function
+function WindowBlackman(a, N, i)
+{
+    var a0 = (1.0 - a) / 2.0;
+    var a1 = 0.5;
+    var a2 = a / 2.0;
+    
+    var wnd = a0;
+    wnd -= a1 * Math.cos(2.0 * Math.PI * ((i) / (N - 1.0)));
+    wnd += a2 * Math.cos(4.0 * Math.PI * ((i) / (N - 1.0)));
+    
+    return wnd;
+}
+//FIR lowpass filter 
+//Fc = Cutoff freq., Fs = Sample freq., N = # of taps, i = Tap index
+function Lowpass( Fc,  Fs,  N,  i)
+{    
+    var wc = (Fc/Fs);
+    
+    var wnd = WindowBlackman(0.16, N, i);
+    
+    return 2*wc * wnd * sinc(2.0*wc * (i - N/2.0));
+}
+
+
+
+var noiseTable = [];
+for(var i = 0; i < 128; i++)
+	noiseTable[i] = Math.random();
+    
+    
+
+var t=0
+var x=96
+var y=24
+
+
+var resX = 240;
+var resY = 136;
+
+
+
+var fftClocks = [];
+
+
+var fftClocksTwist = [];
+
+
+var fftSmooth = [];
+
+
+var fftSmoother = [];
+
+var rawAudio = [];
+
+
+for(var i = 0; i < 1024; i++)
+{
+		fftClocks[i] = 0;
+				fftClocksTwist[i] = 0;
+				
+		fftSmooth[i] = 0;
+		fftSmoother[i] = 0;
+		
+		rawAudio[i] = 0;
+}
+
+
+
+
+
+	var prevState = 0;
+	var prevRota = 0;
+	
+	
+	var penPosX = 0;
+	var penPosY = 0;
+	
+	var clocksTwist = 0.0;
+
+function TIC()
+{
+
+
+
+
+for(var i = 0; i < 1024; i++)
+{
+	
+		var index = Math.floor(i + clocksTwist)%32;
+		fftSmooth[i] = lerp(fftSmooth[i], fft(i),.5);
+		
+		
+		fftClocksTwist[i] += fftSmooth[index];
+	
+	
+		fftClocks[i] += fftSmooth[i];
+		
+		
+		
+		fftSmoother[i] = lerp(fftSmoother[i], fft(i),.1);
+
+  rawAudio[i] = vqtrs(i);
+}
+
+
+clocksTwist = fftClocks[4];
+	
+	
+//	cls(16)
+	
+	
+	for(var i = 0; i < 64; i++)
+	{
+		line(
+				i,fftSmooth[i]*128,
+				i+1, fftSmooth[i+1]*128,
+				2);		
+				
+				var cIndex = ((i-8*fftClocks[8])/4.)%15;
+				
+				
+				var phase = Math.sin(fftClocksTwist[Math.floor(i*2)]*1)*8;
+				var gain = 1.0 + phase*.1 + fftSmooth[16];
+				if(fftSmoother[1020]>.05)
+				{cIndex=9 - cIndex;
+				gain*=1.5;	
+				}
+				var t2 = (t + fftClocks[8]*-16.)*.1;
+				x = gain * Math.cos(t2 + (i*2.0*Math.PI) / 64.0)*resX/8.0+resX/2.0;
+				y = gain * Math.sin(t2 + (i*2.0*Math.PI) / 64.0)*resX/8.0+resY/2.0;
+				
+				line(
+				penPosX,penPosY,
+				x,y,
+				cIndex);	
+				
+				//print(Math.PI.toString()[i], x, y, 3);
+					
+				print(";3", x, y, cIndex);
+			
+				penPosX = x;
+				penPosY = y;
+//				rect(x,y,2,2,2);
+//			tri(i*2,	
+	}
+	
+	
+	
+	
+	cls(0)
+	
+	var o = 0;
+	
+	for(var i=0; i < 256; i++){
+	noiseTable[i] = Math.sin(fftClocks[i]*8);
+	noiseTable[i+256] = Math.cos(fftClocks[i]*8);
+	
+	xPos = noiseTable[i]*64+120;
+	
+	yPos = noiseTable[i+256]*64+68;
+	
+	if(i>0 && i < 256)
+	
+
+		line(penPosX, 			penPosY,
+						xPos,		yPos,
+						15);	
+						
+						penPosX = xPos;
+						penPosY = yPos;
+	}
+	
+	
+		
+//	print(WindowBlackman(.5,8,4),32,32);
+	for(var i=0; i<256; i++)
+	{
+	
+		var xPos = 0;// noiseTable[i]*128+32;
+		var yPos = 0;//noiseTable[i+64]*128+32;
+	
+	
+	for(var tap=0; tap < 32; tap++)
+	{
+	var lp = Lowpass(.5
+	//Math.sin(fftSmoother[1000]*512)
+	,
+	 6.0+Math.sin(fftClocks[32]+(tap/32.0+i)/256.0)*2, 32, tap);
+		var tOffset = tap - 4;
+		 xPos += 
+			lerp(
+				noiseTable[i+tOffset],
+				noiseTable[i+tOffset+1.],
+				tap/32.0
+			)*lp;
+			
+		 yPos += 
+			lerp(
+			noiseTable[i+256+tOffset],
+			noiseTable[i+256+tOffset+1],
+			tap/32.0
+			)*lp;
+	}
+	
+	xPos = xPos *128+120
+		yPos = yPos *128+68;
+;
+;
+	
+	var newPos =32+132.0
+	*Lowpass(.5, 4.0, 64, i);//WindowBlackman(.15,64,i);
+o++;
+if(i>0)
+	line(penPosX, 			penPosY,
+						xPos,		yPos,
+						o+t*.1);	
+						
+						
+	penPosX = xPos;
+	
+	penPosY = yPos;
+	
+	
+	
+		line(penPosX, 			penPosY,
+						xPos,		yPos,
+						o+t*.1);	
+	
+	
+		
+	}
+	
+
+	t++
+}

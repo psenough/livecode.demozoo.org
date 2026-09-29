@@ -1,0 +1,38 @@
+{
+    "title": "Nordlicht",
+    "started": "2017-07-21",
+    "date": "21 - 23 July 2017",
+    "type": "Shader Showdown",
+    "vod": "https://scenesat.com/videoarchive/250b389f-b90e-11ea-b68e-00505685775e?t=20172",
+    "software_used": null,
+    "phases": [
+        {
+            "title": "??",
+            "vod": "https://scenesat.com/videoarchive/250b389f-b90e-11ea-b68e-00505685775e?t=20172",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "??",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "??",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 3096
+}

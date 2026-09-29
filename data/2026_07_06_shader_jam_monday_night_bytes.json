@@ -1,0 +1,105 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2026-07-06",
+    "date": "6 July 2026",
+    "type": "Shader Jam",
+    "website": "",
+    "flyer": "",
+    "vod": "https://scenesat.com/video-recordings/Z7vxI9",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "canmom",
+                        "demozoo_id": 148063
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_06_shader_jam_monday_night_bytes/canmom.png",
+                    "source_file": "/shader_file_sources/2026_07_06_shader_jam_monday_night_bytes/canmom.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "immibis",
+                        "demozoo_id": 138870
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_06_shader_jam_monday_night_bytes/immibis.png",
+                    "source_file": "/shader_file_sources/2026_07_06_shader_jam_monday_night_bytes/immibis.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "M3RL0CKSH0LM3S",
+                        "demozoo_id": 154186
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_06_shader_jam_monday_night_bytes/m3rl0cksh0lm3s.png",
+                    "source_file": "/shader_file_sources/2026_07_06_shader_jam_monday_night_bytes/m3rl0cksh0lm3s.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": null,
+                    "source_file": "/shader_file_sources/2026_07_06_shader_jam_monday_night_bytes/totetmatt.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Archydragon",
+                        "demozoo_id": 148983
+                    },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "RaccoonViolet",
+                "demozoo_id": 90373
+            },
+            "job": "Organizer"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

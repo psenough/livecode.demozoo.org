@@ -1,0 +1,81 @@
+{
+    "title": "Monday Night Jam #01",
+    "started": "2022-11-14",
+    "date": "14 November 2022",
+    "type": "Byte Jam",
+    "vod": "https://youtu.be/hv0qnu_94dc?t=1828",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v07",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Byte Jam",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_11_14_byte_jam_fieldfx_bbc/bytejam/mantratronic-jam.gif",
+                    "source_file": "/shader_file_sources/2022_11_14_fieldfx_bbc/bytejam/mantratronic.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dave84",
+                        "demozoo_id": 127921
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_11_14_byte_jam_fieldfx_bbc/bytejam/dave84-jam.gif",
+                    "source_file": "/shader_file_sources/2022_11_14_fieldfx_bbc/bytejam/dave84.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "T\u00f4Bach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_11_14_byte_jam_fieldfx_bbc/bytejam/tobach-jam.gif",
+                    "source_file": "/shader_file_sources/2022_11_14_fieldfx_bbc/bytejam/tobach.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_11_14_byte_jam_fieldfx_bbc/bytejam/aldroid-jam.gif",
+                    "source_file": "/shader_file_sources/2022_11_14_fieldfx_bbc/bytejam/aldroid.lua"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Host"
+                }
+            ]
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": "LCDZFFCM"
+}

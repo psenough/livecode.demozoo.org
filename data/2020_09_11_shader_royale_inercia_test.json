@@ -1,0 +1,105 @@
+{
+    "title": "Shader Royale Test",
+    "started": "2020-09-11",
+    "date": "11 September 2020",
+    "type": "Shader Royale",
+    "vod": "https://www.youtube.com/watch?v=KV0QSSx5eRI",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v10",
+            "version": "NuSan - v10",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/WljBWc",
+                    "preview_image": "2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_blackle.jpg",
+                    "source_file": "/shader_file_sources/2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_blackle.glsl"
+                },
+                {
+                    "id": 2,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_evvvvil.jpg",
+                    "source_file": "/shader_file_sources/2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_evvvvil.glsl"
+                },
+                {
+                    "id": 3,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_flopine.jpg",
+                    "source_file": "/shader_file_sources/2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_flopine.glsl"
+                },
+                {
+                    "id": 4,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_visy.jpg",
+                    "source_file": "/shader_file_sources/2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_visy.glsl"
+                },
+                {
+                    "id": 5,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": 113559
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_wrighter.jpg",
+                    "source_file": "/shader_file_sources/2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_wrighter.glsl"
+                },
+                {
+                    "id": 6,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "yx",
+                        "demozoo_id": 77056
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/tlSfDV",
+                    "preview_image": "2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_yx.jpg",
+                    "source_file": "/shader_file_sources/2020_09_11_shader_royale_inercia_test/grabber_shaderroyale_yx.glsl"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "ps",
+                "demozoo_id": 313
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": null
+}

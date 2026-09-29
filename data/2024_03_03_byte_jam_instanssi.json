@@ -1,0 +1,99 @@
+{
+    "title": "Instanssi 2024 Byte Jam",
+    "started": "2024-03-03",
+    "date": "03 March 2024",
+    "type": "Byte Jam",
+    "website": "https://instanssi.org/2024/ohjelma/#266",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_03_byte_jam_instanssi/aldroid.gif",
+                    "source_file": "/shader_file_sources/2024_03_03_byte_jam_instanssi/aldroid.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "muffintrap",
+                        "demozoo_id": 80210
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_03_byte_jam_instanssi/muffintrap.gif",
+                    "source_file": "/shader_file_sources/2024_03_03_byte_jam_instanssi/muffintrap.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Suule",
+                        "demozoo_id": 136862
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_03_byte_jam_instanssi/suule.gif",
+                    "source_file": "/shader_file_sources/2024_03_03_byte_jam_instanssi/suule.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_03_byte_jam_instanssi/pumpuli.gif",
+                    "source_file": "/shader_file_sources/2024_03_03_byte_jam_instanssi/pumpuli.lua"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "OGsuntio",
+                        "demozoo_id": null
+                        },
+                    "job": "DJ set"
+                },
+		{
+		    "handle": {
+			"name": "pumpuli",
+			"demozoo_id": 22208
+			},
+		    "job": "DJ set"
+		}
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "RaccoonViolet",
+                "demozoo_id": 90373
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4655
+}

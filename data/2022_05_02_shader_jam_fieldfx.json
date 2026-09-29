@@ -1,0 +1,77 @@
+{
+    "title": "Field-FX",
+    "started": "2022-05-02",
+    "date": "02 - 05 June 2022",
+    "type": "Shader Jam",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v12",
+            "version": "NuSan - v12",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "monsieursoleil",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/sdKyzh",
+                    "preview_image": "2022_05_02_shader_jam_fieldfx/shader_MonsieurSoleil.jpg",
+                    "source_file": "/shader_file_sources/2022_05_02_shader_jam_fieldfx/shader_MonsieurSoleil.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/fdGyz1",
+                    "preview_image": "2022_05_02_shader_jam_fieldfx/shader_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2022_05_02_shader_jam_fieldfx/shader_totetmatt.glsl"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "reality404",
+                "demozoo_id": 67077
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4301
+}

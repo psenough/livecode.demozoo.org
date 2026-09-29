@@ -1,0 +1,7 @@
+Hello and thank you participating to the event.
+
+Here is your launcher to use to get bonzomatic connected directly to the correct server.
+
+Copy the launcher (.bat for windows, .sh for Unix) on the same directory as bonzomatic and then run it.
+
+Good luck and have fun !
