@@ -25,4 +25,7 @@ def find_shadertoy_urls(event) -> Iterator[str]:
 def download_shadertoy_overview(event, target_path: Path) -> None:
     for url in find_shadertoy_urls(event):
         shadertoy_id = url.split('/')[-1]
-        download(shadertoy_id, target_path)
+        try:
+            download(shadertoy_id, target_path)
+        except:
+            print(f"Error downloading {url}")
