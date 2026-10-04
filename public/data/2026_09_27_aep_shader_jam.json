@@ -58,7 +58,7 @@
                         "name": "Kamoshika",
                         "demozoo_id": 128644
                     },
-                    "shadertoy_url": "https://compute.toys/view/3353",
+                    "computetoy_url": "https://compute.toys/view/3353",
                     "poshbrolly_url": null,
                     "preview_image": "2026_09_27_aep_shader_jam/grabber_aep_Kamoshika.jpg",
                     "source_file": "/shader_file_sources/2026_09_27_aep_shader_jam/grabber_aep_Kamoshika.glsl",
@@ -170,6 +170,27 @@
                         "demozoo_id": 159192
                     },
                     "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "Saina",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "ukonpower",
+                        "demozoo_id": 137277
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "早川あおせ",
+                        "demozoo_id": null
+                    },
+                    "job": "Live Music"
                 }
             ]
         }
