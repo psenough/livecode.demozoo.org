@@ -1,5 +1,6 @@
 from pathlib import Path
 import json
+import os
 import requests
 
 PARTY_SERIE_DB_FILE = Path('./cache/party_series.json')
@@ -28,11 +29,10 @@ def _collect_demozoo_ids(events: list[dict]) -> set[str]:
 def _get_demozoo_party_data(demozoo_party):
     """Retrieve name for id from Demozoo."""
     url = f'https://demozoo.org/api/v1/parties/{demozoo_party}/'
-    data = requests.get(url).json()
+    response = requests.get(url, headers={
+        'Authorization': f'Api-Key {os.getenv("DEMOZOO_API_KEY")}',
+    })
+    response.raise_for_status()
+    data = response.json()
 
-    party_series = data.get('party_series')
-
-    if not party_series:
-        raise Exception(f"Can't find series for Demozoo id '{demozoo_party}'")
-
-    return party_series
+    return data['party_series']
