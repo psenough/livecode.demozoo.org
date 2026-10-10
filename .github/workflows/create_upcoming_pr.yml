@@ -55,6 +55,8 @@ jobs:
           git config user.email "publisher@users.noreply.github.com"
 
       - name: Update Database
+        env:
+          DEMOZOO_API_KEY: ${{ secrets.DEMOZOOAPIKEY }}
         run: |
           python livecode update
           git add cache/*
