@@ -1,0 +1,250 @@
+{
+    "title": "Sessions",
+    "started": "2023-04-29",
+    "date": "28 - 30 April 2023",
+    "type": "Shader Jam",
+    "website": "https://sessions.frontl1ne.net/",
+    "flyer": "",
+    "vod":"https://www.youtube.com/watch?v=BCwIaDP8UFs",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v13",
+            "version": "NuSan - v13",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "SonicPi",
+            "url": "https://sonic-pi.net/",
+            "version": "",
+            "purpose": "Audio"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_aldroid.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_aldroid.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "anticore",
+                        "demozoo_id": 117325
+                    },
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/4Eb8KCGwRlgyiGBJlzRX",
+                    "shadertoy_url": "https://www.shadertoy.com/view/dtd3zf",
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_anticore.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_anticore.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "exca",
+                        "demozoo_id": 35897
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/Dlt3z2",
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_exca.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_exca.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gam0022",
+                        "demozoo_id": 63869
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/dlcGRs",
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_gam0022.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_gam0022.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gaz",
+                        "demozoo_id": 63867
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/cld3z2",
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_gaz.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_gaz.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Ivan Dianov",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/Dtd3z2",
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_ivan_dianov.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_ivan_dianov.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Kamoshika",
+                        "demozoo_id": 128644
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/dt3GRf",
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_Kamoshika.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_Kamoshika.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "kostik",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/ctt3z2",
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_kostik.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_kostik.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Musk",
+                        "demozoo_id": 14411
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_Musk.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_Musk.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_NuSan.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_NuSan.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rimina",
+                        "demozoo_id": 56489
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_rimina.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_rimina.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "sp4ghet",
+                        "demozoo_id": 119897
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/ml3GzX",
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_sp4ghet.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_sp4ghet.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_superogue.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_superogue.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": "https://www.poshbrolly.net/shader/W1D0W7QzxmVIyoa2T28x",
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_totetmatt.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_visy.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_visy.glsl"
+                },{
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wbcbz7",
+                        "demozoo_id": 45761
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_29_shader_jam_sessions/grabber_sessions_wbcbz7.jpg",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_jam_sessions/grabber_sessions_wbcbz7.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "\u3089\u304f\u3068\u3042\u3044\u3059 (lactoice)",
+                        "demozoo_id": null
+                    },
+                    "job": "Live Music"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "sp4ghet",
+                "demozoo_id": 119897
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "butadiene",
+                "demozoo_id": null
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "0b5vr",
+                "demozoo_id": 128318
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "FL1NE",
+                "demozoo_id": 24017
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id":4606
+}

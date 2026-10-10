@@ -1,0 +1,283 @@
+{
+    "title": "Bytewall @ Evoke ",
+    "started": "2024-08-16",
+    "date": "16 August 2024",
+    "type": "Byte Jam",
+    "website": "https://2024.evoke.eu/",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Byte Jammer",
+            "url": "https://github.com/creativenucleus/bytejammer",
+            "version" : "",
+            "purpose": "System"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/aldroid.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/aldroid.lua"
+                }, 
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "chordbug",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/chordbug1.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/chordbug1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "chordbug",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/chordbug2.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/chordbug2.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "chordbug",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/chordbug3.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/chordbug3.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "chordbug",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/chordbug4.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/chordbug4.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "enfys",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/enfys1.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/enfys1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "enfys",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/enfys2.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/enfys2.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/jtruk - bouncing bytewall.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/jtruk - bouncing bytewall.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/jtruk - bytewall ad.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/jtruk - bytewall ad.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/jtruk - embossed-neon.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/jtruk - embossed-neon.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/jtruk - grunge-spiral.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/jtruk - grunge-spiral.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/jtruk - mosaic-mirage.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/jtruk - mosaic-mirage.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "PotcFdk",
+                        "demozoo_id": 80946
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/PotcFdk.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/PotcFdk.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/pumpuli.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/pumpuli.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Roeltje",
+                        "demozoo_id": 44279
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/Roeltje.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/Roeltje.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rubix",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/rubix.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/rubix.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "trifox",
+                        "demozoo_id": 6134
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/trifox1.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/trifox1.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "trifox",
+                        "demozoo_id": 6134
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/trifox2.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/trifox2.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "trifox",
+                        "demozoo_id": 6134
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/trifox3.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/trifox3.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "trifox",
+                        "demozoo_id": 6134
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_16_byte_jam_byte_wall_evoke/trifox4.gif",
+                    "source_file": "/shader_file_sources/2024_08_16_byte_jam_byte_wall_evoke/trifox4.lua"
+                }
+            ],
+            "staffs": [
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "RaccoonViolet",
+                "demozoo_id": 90373
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4710
+}

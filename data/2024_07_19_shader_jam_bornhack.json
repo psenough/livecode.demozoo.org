@@ -1,0 +1,156 @@
+{
+    "title": "Immibis Shader Jam @ Bornhack",
+    "started": "2024-07-19",
+    "date": "19 - 24 July 2024",
+    "type": "Shader Jam",
+    "website": "",
+    "flyer": "",
+    "vod":null,
+    "software_used": [
+        {
+            "name": "unpublished tool by immibis",
+            "url": "",
+            "version": "unpublished",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "ciosai_tw",
+                        "demozoo_id": 142051
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_19_shader_jam_bornhack/CIOSAI_tw.jpg",
+                    "source_file": "/shader_file_sources/2024_07_19_shader_jam_bornhack/CIOSAI_tw_booboobaba.html"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mushbie",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_19_shader_jam_bornhack/Mushbie.jpg",
+                    "source_file": "/shader_file_sources/2024_07_19_shader_jam_bornhack/Mushbie_trans_wave.html"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Okarin",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_19_shader_jam_bornhack/Okarin.jpg",
+                    "source_file": "/shader_file_sources/2024_07_19_shader_jam_bornhack/Okarin_neon_flow.html"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "immibis",
+                        "demozoo_id": 138870
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_19_shader_jam_bornhack/immibis 1.jpg",
+                    "source_file": "/shader_file_sources/2024_07_19_shader_jam_bornhack/immibis_advert_seed_shader.html"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "immibis & anuril",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_19_shader_jam_bornhack/immibis&anuril.jpg",
+                    "source_file": "/shader_file_sources/2024_07_19_shader_jam_bornhack/immibis_and_anuril_another_neon_feedback_shader.html"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "immibis",
+                        "demozoo_id": 138870
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_19_shader_jam_bornhack/immibis 2.jpg",
+                    "source_file": "/shader_file_sources/2024_07_19_shader_jam_bornhack/immibis_spiral_tunnel.html"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "iron",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_19_shader_jam_bornhack/iron.jpg",
+                    "source_file": "/shader_file_sources/2024_07_19_shader_jam_bornhack/iron_spinning_circles.html"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jn",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_19_shader_jam_bornhack/jn.jpg",
+                    "source_file": "/shader_file_sources/2024_07_19_shader_jam_bornhack/jn_Game_of_Life.html"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "unknown",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_19_shader_jam_bornhack/null.jpg",
+                    "source_file": "/shader_file_sources/2024_07_19_shader_jam_bornhack/unknown_fash2.html"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "unknown",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_07_19_shader_jam_bornhack/null(1).jpg",
+                    "source_file": "/shader_file_sources/2024_07_19_shader_jam_bornhack/unknown_testbars.html"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "immibis",
+                "demozoo_id": 138870
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": null
+}

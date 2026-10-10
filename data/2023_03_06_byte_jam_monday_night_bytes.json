@@ -1,0 +1,77 @@
+{
+  "title": "Monday Night Bytes",
+  "type": "Byte Jam",
+  "website": "https://field-fx.party",
+  "software_used": [
+    {
+      "name": "TIC-80 FFT Hack",
+      "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+      "version": "tic80showdown FFT Hack v1.0.2",
+      "purpose": "Graphic"
+    }
+  ],
+  "staffs": [
+    {
+      "handle": {
+        "name": "aldroid",
+        "demozoo_id": 63755
+      },
+      "job": "Organizers"
+    }
+  ],
+  "phases": [
+    {
+      "title": "Byte Jam",
+      "entries": [
+        {
+          "id": 1,
+          "handle": {
+            "name": "visy",
+            "demozoo_id": 1301
+          },
+          "source_file": "/shader_file_sources/2023_03_06_byte_jam_monday_night_bytes/visy.lua",
+          "preview_image": "2023_03_06_byte_jam_monday_night_bytes/visy.png"
+        },
+        {
+          "id": 2,
+          "handle": {
+            "name": "kii",
+            "demozoo_id": 135296
+          },
+          "source_file": "/shader_file_sources/2023_03_06_byte_jam_monday_night_bytes/kii.lua",
+          "preview_image": "2023_03_06_byte_jam_monday_night_bytes/kii.png"
+        },
+        {
+          "id": 3,
+          "handle": {
+            "name": "alia",
+            "demozoo_id": 113525
+          },
+          "source_file": "/shader_file_sources/2023_03_06_byte_jam_monday_night_bytes/alia.lua",
+          "preview_image": "2023_03_06_byte_jam_monday_night_bytes/alia.png"
+        },
+        {
+          "id": 4,
+          "handle": {
+            "name": "gasman",
+            "demozoo_id": 5879
+          },
+          "source_file": "/shader_file_sources/2023_03_06_byte_jam_monday_night_bytes/gasman.lua",
+          "preview_image": "2023_03_06_byte_jam_monday_night_bytes/gasman.png"
+        }
+      ],
+      "staffs": [
+        {
+          "handle": {
+            "name": "aldroid",
+            "demozoo_id": 63755
+          },
+          "job": "Commentator"
+        }
+      ]
+    }
+  ],
+  "demozoo_party_id": "LCDZFFCM",
+  "started": "2023-03-06",
+  "date": "06 March 2023"
+}

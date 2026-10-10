@@ -1,0 +1,42 @@
+{
+    "title": "Demosplash",
+    "started": "2019-11-08",
+    "date": "08 November 2019",
+    "type": "Shader Showdown",
+    "vod": "https://www.youtube.com/watch?v=ik3T37fCydo",
+    "software_used": null,
+    "phases": [
+        {
+            "title": "Live Shader",
+            "vod": "https://www.youtube.com/watch?v=ik3T37fCydo",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 144,
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/3dGXRW",
+                    "source_file": "https://files.scene.org/view/parties/2019/demosplash19/live_shader/blackle.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 123,
+                    "handle": {
+                        "name": "CharStiles",
+                        "demozoo_id": 82875
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2019_11_08_shader_showdown_demosplash/charstiles.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2019/demosplash19/live_shader/charstiles.glsl"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 3865
+}

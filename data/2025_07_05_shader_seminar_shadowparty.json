@@ -1,0 +1,40 @@
+{
+    "title": "Shadow party",
+    "started": "2025-07-05",
+    "date": "05 July 2025",
+    "type": "Shader Code Seminar",
+    "website": "https://shadow-party.org",
+    "flyer": "",
+    "vod":"https://www.youtube.com/watch?v=wOc7wJqlJZY",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": "https://www.youtube.com/watch?v=wOc7wJqlJZY",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Peregrine",
+                        "demozoo_id": 122747
+                      },
+                    "shadertoy_url": null
+                }
+            ],
+            "staffs": [
+            ]
+        }
+    ],
+    "staffs": [
+    ],
+    "demozoo_party_id": 5094
+}

@@ -1,0 +1,208 @@
+{
+    "title": "Akiba Executable Party",
+    "started": "2026-09-27",
+    "date": "09 September 2026",
+    "type": "Shader Jam",
+    "website": "https://aep.synapserack.com/",
+    "flyer": "",
+    "vod": "https://youtu.be/Xzkzg0ffF0k?t=5324",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "butadiene",
+                        "demozoo_id": 135820
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/f3y3Ry",
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_09_27_aep_shader_jam/grabber_aep_butadiene.jpg",
+                    "source_file": "/shader_file_sources/2026_09_27_aep_shader_jam/grabber_aep_butadiene.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gam0022",
+                        "demozoo_id": 63869
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_09_27_aep_shader_jam/grabber_aep_gam0022.jpg",
+                    "source_file": "/shader_file_sources/2026_09_27_aep_shader_jam/grabber_aep_gam0022.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Kamoshika",
+                        "demozoo_id": 128644
+                    },
+                    "computetoy_url": "https://compute.toys/view/3353",
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_09_27_aep_shader_jam/grabber_aep_Kamoshika.jpg",
+                    "source_file": "/shader_file_sources/2026_09_27_aep_shader_jam/grabber_aep_Kamoshika.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }, {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "kinako",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_09_27_aep_shader_jam/grabber_aep_kinako.jpg",
+                    "source_file": "/shader_file_sources/2026_09_27_aep_shader_jam/grabber_aep_kinako.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "margon",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_09_27_aep_shader_jam/grabber_aep_margon.jpg",
+                    "source_file": "/shader_file_sources/2026_09_27_aep_shader_jam/grabber_aep_margon.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Sigreni",
+                        "demozoo_id": 153784
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/NX33WS",
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_09_27_aep_shader_jam/grabber_aep_Sigreni.jpg",
+                    "source_file": "/shader_file_sources/2026_09_27_aep_shader_jam/grabber_aep_Sigreni.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "soma_arc",
+                        "demozoo_id": 63868
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_09_27_aep_shader_jam/grabber_aep_soma_arc.jpg",
+                    "source_file": "/shader_file_sources/2026_09_27_aep_shader_jam/grabber_aep_soma_arc.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_09_27_aep_shader_jam/grabber_aep_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2026_09_27_aep_shader_jam/grabber_aep_totetmatt.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Zavie",
+                        "demozoo_id": 985
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_09_27_aep_shader_jam/grabber_aep_Zavie.jpg",
+                    "source_file": "/shader_file_sources/2026_09_27_aep_shader_jam/grabber_aep_Zavie.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+                
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "sp4ghet",
+                        "demozoo_id": 119897
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "shivaduke",
+                        "demozoo_id": 159192
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "Saina",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "ukonpower",
+                        "demozoo_id": 137277
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "早川あおせ",
+                        "demozoo_id": null
+                    },
+                    "job": "Live Music"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Saina",
+                "demozoo_id": null
+            },
+            "job": "Organizer"
+        }
+    ],
+    "demozoo_party_id": 5719
+}

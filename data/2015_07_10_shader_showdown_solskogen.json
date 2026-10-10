@@ -1,0 +1,112 @@
+{
+    "title": "Solskogen",
+    "started": "2015-07-10",
+    "date": "10 - 12 July 2015",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/Gargaj/Bonzomatic/releases/tag/2015-07-07",
+            "version": "2015-07-07",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Semi #1",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 13,
+                    "handle": {
+                        "name": "musk",
+                        "demozoo_id": 14411
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_07_10_shader_showdown_solskogen/01a-musk.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/01a-musk.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 20,
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": 18
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_07_10_shader_showdown_solskogen/01a-ferris.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/01a-ferris.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Semi #2",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 7,
+                    "handle": {
+                        "name": "Emil",
+                        "demozoo_id": 21271
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_07_10_shader_showdown_solskogen/01b-emil.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/01b-emil.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 22,
+                    "handle": {
+                        "name": "urs",
+                        "demozoo_id": 3960
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_07_10_shader_showdown_solskogen/01b-urs.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/01b-urs.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Final",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 24,
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": 18
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_07_10_shader_showdown_solskogen/02-ferris.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/02-ferris.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 3,
+                    "handle": {
+                        "name": "urs",
+                        "demozoo_id": 3960
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_07_10_shader_showdown_solskogen/02-urs.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/solskogen15/livecoding/02-urs.glsl"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 2086
+}

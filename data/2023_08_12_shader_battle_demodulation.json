@@ -1,0 +1,219 @@
+{
+    "title": "Demodulation",
+    "started": "2023-08-12",
+    "date": "12 August 2023",
+    "type": "Shader Showdown",
+    "website": "https://yandex.ru/museum/yaretrocomp",
+    "flyer": "",
+    "vod":null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v13",
+            "version": "NuSan - v13",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Bonzomatic Extra Texture",
+            "url": "https://livecode.demozoo.org/extra/demodulation2023_textures.zip",
+            "version": "Demodulation 2023",
+            "purpose": "Texture"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Qualification",
+            "vod": "https://youtu.be/cTQSy76EPSM?t=11473",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 8,
+                    "points": 57647,
+                    "handle": {
+                        "name": "cosamentale",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_cosamentale.jpg",
+                    "source_file": "/shader_file_sources/2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_cosamentale.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 86316,
+                    "handle": {
+                        "name": "Ivan Dianov",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/mt2yDm",
+                    "preview_image": "2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_ivandianov.jpg",
+                    "source_file": "/shader_file_sources/2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_ivandianov.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 6,
+                    "points": 65714,
+                    "handle": {
+                        "name": "Jin X",
+                        "demozoo_id": 81083
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_jin_x.jpg",
+                    "source_file": "/shader_file_sources/2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_jin_x.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 79474,
+                    "handle": {
+                        "name": "kostik",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_kostik.jpg",
+                    "source_file": "/shader_file_sources/2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_kostik.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 7,
+                    "points": 60000,
+                    "handle": {
+                        "name": "musk",
+                        "demozoo_id": 14411
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_musk.jpg",
+                    "source_file": "/shader_file_sources/2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_musk.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 4,
+                    "points": 71053,
+                    "handle": {
+                        "name": "provod",
+                        "demozoo_id": 24024
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_provod.jpg",
+                    "source_file": "/shader_file_sources/2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_provod.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 5,
+                    "points": 65789,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/mlByzG",
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/Cv3f6I8URvIBu9pPQ0H6",
+                    "preview_image": "2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_totetmatt.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 3,
+                    "points": 76316,
+                    "handle": {
+                        "name": "z0rg",
+                        "demozoo_id": 114547
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/ctjyzd",
+                    "preview_image": "2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_z0rg.jpg",
+                    "source_file": "/shader_file_sources/2023_08_12_shader_battle_demodulation/qualif/grabber_demodulation2023_z0rg.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                      "name": "bfox",
+                      "demozoo_id": 9743
+                    },
+                    "job": "Commentator"
+                },
+                {
+                "handle": {
+                    "name": "Porno-UZI",
+                    "demozoo_id": 32870
+                    },
+                    "job": "DJ Set"
+                }
+                  
+            ]
+        }, 
+        {
+            "title": " Final",
+            "vod": "https://youtu.be/cTQSy76EPSM?t=20288",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Ivan Dianov",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/dtjcDm",
+                    "preview_image": "2023_08_12_shader_battle_demodulation/final/grabber_demodulation2023_ivandianov.jpg",
+                    "source_file": "/shader_file_sources/2023_08_12_shader_battle_demodulation/final/grabber_demodulation2023_ivandianov.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 3,
+                    "points": null,
+                    "handle": {
+                        "name": "kostik",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_12_shader_battle_demodulation/final/grabber_demodulation2023_kostik.jpg",
+                    "source_file": "/shader_file_sources/2023_08_12_shader_battle_demodulation/final/grabber_demodulation2023_kostik.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "z0rg",
+                        "demozoo_id": 114547
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/DtjcRd",
+                    "preview_image": "2023_08_12_shader_battle_demodulation/final/grabber_demodulation2023_z0rg.jpg",
+                    "source_file": "/shader_file_sources/2023_08_12_shader_battle_demodulation/final/grabber_demodulation2023_z0rg.glsl"
+                }
+            ],
+            "staffs": [  {
+                "handle": {
+                  "name": "bfox",
+                  "demozoo_id": 9743
+                },
+                "job": "Commentator"
+            },
+            {
+            "handle": {
+                "name": "Porno-UZI",
+                "demozoo_id": 32870
+                },
+                "job": "DJ Set"
+            }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Jin X",
+                "demozoo_id": 81083
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "wbcbz7",
+                "demozoo_id": 45761
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "4652"
+}

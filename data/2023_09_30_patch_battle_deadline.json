@@ -1,0 +1,236 @@
+{
+    "title": "Deadline",
+    "started": "2023-09-30",
+    "date": "30 September 2023",
+    "type": "Patch Battle",
+    "website": "",
+    "flyer": "",
+    "vod":"https://www.youtube.com/watch?v=H6wmVYp5S8s&ab_channel=DeadlineDemopartyBerlin",
+    "software_used": [
+        {
+            "name": "Tooll",
+            "url": "https://tooll.io/",
+            "version": "v3",
+            "purpose": "Graphic"
+        },
+		{
+            "name": "Cables",
+            "url": "https://cables.gl/",
+            "version": "September 2023",
+            "purpose": "Graphic"
+        },
+		{
+            "name": "Blender",
+            "url": "https://www.blender.org/",
+            "version": "September 2023",
+            "purpose": "Graphic"
+        },
+		{
+            "name": "TouchDesigner",
+            "url": "https://derivative.ca/",
+            "version": "September 2023",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Round 1 (plattenbau and glyphs)",
+            "vod": "https://youtu.be/H6wmVYp5S8s?si=4L5ZGRiR8qC3vOaG&t=314",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": null,
+                    "points": 6,
+                    "handle": {
+                        "name": "Oni",
+                        "demozoo_id": 3669
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": null,
+                    "points": 3,
+                    "handle": {
+                        "name": "Pandur",
+                        "demozoo_id": 1983
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 3,
+                    "rank": null,
+                    "points": 8,
+                    "handle": {
+                        "name": "Pixtur",
+                        "demozoo_id": 866
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 4,
+                    "rank": null,
+                    "points": 1,
+                    "handle": {
+                        "name": "Matthi",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "kb",
+                        "demozoo_id": 557
+                    },
+                    "job": "Commentator"
+                  }
+            ]
+        },
+		{
+            "title": "Round 2 (black vs white and noise)",
+            "vod": "https://youtu.be/H6wmVYp5S8s?si=klnpRCsljQFFR8Bg&t=1426",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": null,
+                    "points": 6,
+                    "handle": {
+                        "name": "Oni",
+                        "demozoo_id": 3669
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": null,
+                    "points": 3,
+                    "handle": {
+                        "name": "Pandur",
+                        "demozoo_id": 1983
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 3,
+                    "rank": null,
+                    "points": 8,
+                    "handle": {
+                        "name": "Pixtur",
+                        "demozoo_id": 866
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 4,
+                    "rank": null,
+                    "points": 4,
+                    "handle": {
+                        "name": "Matthi",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "kb",
+                        "demozoo_id": 557
+                    },
+                    "job": "Commentator"
+                  }
+            ]
+        },
+		{
+            "title": "Round 3 (acid and mountain)",
+            "vod": "https://youtu.be/H6wmVYp5S8s?si=Z_PSt8U56_Que9PC&t=2418",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": null,
+                    "points": 3,
+                    "handle": {
+                        "name": "Oni",
+                        "demozoo_id": 3669
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": null,
+                    "points": 4,
+                    "handle": {
+                        "name": "Pandur",
+                        "demozoo_id": 1983
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 3,
+                    "rank": null,
+                    "points": 6,
+                    "handle": {
+                        "name": "Pixtur",
+                        "demozoo_id": 866
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 4,
+                    "rank": null,
+                    "points": 5,
+                    "handle": {
+                        "name": "Matthi",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "kb",
+                        "demozoo_id": 557
+                    },
+                    "job": "Commentator"
+                  }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "kb",
+                "demozoo_id": 557
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4536
+}

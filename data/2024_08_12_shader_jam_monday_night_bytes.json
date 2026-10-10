@@ -1,0 +1,99 @@
+{
+    "title": "Monday Night Bytes ",
+    "started": "2024-08-12",
+    "date": "12 August 2024",
+    "type": "Shader Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"https://scenesat.com/videoarchive/3e3604e5-58f0-11ef-a6a4-00505685775e#show-3e3604e5-58f0-11ef-a6a4-00505685775e",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_12_shader_jam_monday_night_bytes/grabber_mondaynightbytes_aldro1d1a.jpg",
+                    "source_file": "/shader_file_sources/2024_08_12_shader_jam_monday_night_bytes/grabber_mondaynightbytes_aldro1d1a.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "catnip",
+                        "demozoo_id": 113525
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_12_shader_jam_monday_night_bytes/grabber_mondaynightbytes_catnip.jpg",
+                    "source_file": "/shader_file_sources/2024_08_12_shader_jam_monday_night_bytes/grabber_mondaynightbytes_catnip.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "LittleTheremin",
+                        "demozoo_id": 22208
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_12_shader_jam_monday_night_bytes/grabber_mondaynightbytes_LittleTheremin.jpg",
+                    "source_file": "/shader_file_sources/2024_08_12_shader_jam_monday_night_bytes/grabber_mondaynightbytes_LittleTheremin.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_08_12_shader_jam_monday_night_bytes/grabber_mondaynightbytes_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2024_08_12_shader_jam_monday_night_bytes/grabber_mondaynightbytes_totetmatt.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Commentator"
+                },
+                 {
+                    "handle": {
+                        "name": "P3RC",
+                        "demozoo_id": null
+                    },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}
