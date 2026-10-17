@@ -1,0 +1,211 @@
+{
+    "title": "NOVA Online",
+    "started": "2020-06-19",
+    "date": "19 - 21 June 2020",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": null,
+    "phases": [
+        {
+            "title": "Round 1",
+            "vod": "https://www.youtube.com/watch?v=k_SSkZjlUgE",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": 113559
+                    },
+                    "shadertoy_url": null,
+                    "vod": null,
+                    "preview_image": "2020_06_19_shader_showdown_nova/sender_nova_wrighter.jpg",
+                    "source_file": "/shader_file_sources/2020_06_19_shader_showdown_nova/sender_nova_wrighter.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "rc55",
+                        "demozoo_id": 6412
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": 1525
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "d0pefish",
+                        "demozoo_id": 29929
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "polynomial",
+                        "demozoo_id": 60607
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "rc55",
+                        "demozoo_id": 6412
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Round 2",
+            "vod": "https://www.youtube.com/watch?v=PF8yuOTqX4k",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Insomniac",
+                        "demozoo_id": 74206
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "LovelyHanibal",
+                        "demozoo_id": 26514
+                    },
+                    "shadertoy_url": null,
+                    "vod": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "d0pefish",
+                        "demozoo_id": 29929
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": 1525
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "d0pefish",
+                        "demozoo_id": 29929
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "polynomial",
+                        "demozoo_id": 60607
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "rc55",
+                        "demozoo_id": 6412
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=-n_TnBn01Ew",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Insomniac",
+                        "demozoo_id": 74206
+                    },
+                    "shadertoy_url": null,
+                    "vod": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": 1525
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "d0pefish",
+                        "demozoo_id": 29929
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "polynomial",
+                        "demozoo_id": 60607
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "rc55",
+                        "demozoo_id": 6412
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 3895
+}

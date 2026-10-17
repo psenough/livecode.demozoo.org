@@ -1,0 +1,8 @@
+  "textures": {
+    "texBorder": "textures/studio_border.png",
+    "texGlare": "textures/studio_glare.png",
+    "texAnim1": "textures/tiled1.jpg",
+    "texAnim2": "textures/tiled2.jpg",
+    "texAnim3": "textures/tiled3.jpg",
+    "texNytrik": "textures/nytrik.jpg"
+  },

@@ -1,0 +1,111 @@
+{
+    "title": "Monday Night Jam #02",
+    "started": "2022-11-21",
+    "date": "21 November 2022",
+    "type": "Byte Jam",
+    "vod": "https://www.youtube.com/watch?v=iSdosPfvmiM",
+    "website": "",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v07",
+            "purpose": "Graphic"
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "djH0ffman",
+                "demozoo_id": 1525
+            },
+            "job": "Dj Set"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Byte Jam",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_11_21_byte_jam_fieldfx_casual/mantratronic.lua",
+                    "preview_image": "2022_11_21_byte_jam_fieldfx_casual/mantratronic.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_11_21_byte_jam_fieldfx_casual/totetmatt.lua",
+                    "preview_image": "2022_11_21_byte_jam_fieldfx_casual/totetmatt.gif"
+                },
+                {
+                    "id": 3,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "T\u00f4Bach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_11_21_byte_jam_fieldfx_casual/tobach.lua",
+                    "preview_image": "2022_11_21_byte_jam_fieldfx_casual/tobach.gif"
+                },
+                {
+                    "id": 4,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_11_21_byte_jam_fieldfx_casual/gasman.lua",
+                    "preview_image": "2022_11_21_byte_jam_fieldfx_casual/gasman.gif"
+                },
+                {
+                    "id": 5,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 3073,
+                    "source_file": "/shader_file_sources/2022_11_21_byte_jam_fieldfx_casual/superogue.lua",
+                    "preview_image": "2022_11_21_byte_jam_fieldfx_casual/superogue.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

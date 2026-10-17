@@ -1,0 +1,84 @@
+{
+  "title": "Monday Night Bytes",
+  "started": "2023-01-09",
+  "date": "09 January 2023",
+  "type": "Byte Jam",
+  "website": "https://field-fx.party",
+  "flyer": "",
+  "vod": "",
+  "software_used": [
+    {
+      "name": "TIC-80 FFT Hack",
+      "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+      "version": "tic80showdown FFT Hack v1.0.2",
+      "purpose": "Graphic"
+    }
+  ],
+  "phases": [
+    {
+      "title": "Byte Jam",
+        "vod": null,
+      "entries": [
+        {
+          "id": 1,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "Mantratronic",
+            "demozoo_id": 20215
+          },
+            "shadertoy_url": null,
+          "source_file": "/shader_file_sources/2023_01_09_byte_jam_monday_night_bytes/mantratronic.lua",
+          "preview_image": "2023_01_09_byte_jam_monday_night_bytes/mantratronic.gif"
+        },
+        {
+          "id": 2,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "Gasman",
+            "demozoo_id": 5879
+          },
+            "shadertoy_url": null,
+          "source_file": "/shader_file_sources/2023_01_09_byte_jam_monday_night_bytes/gasman.lua",
+          "preview_image": "2023_01_09_byte_jam_monday_night_bytes/gasman.gif"
+        },
+        {
+          "id": 3,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "TôBach",
+            "demozoo_id": 89891
+          },
+            "shadertoy_url": null,
+          "source_file": "/shader_file_sources/2023_01_09_byte_jam_monday_night_bytes/tobach.lua",
+          "preview_image": "2023_01_09_byte_jam_monday_night_bytes/tobach.gif"
+        },
+        {
+          "id": 4,
+          "rank": null,
+          "points": null,
+          "handle": {
+            "name": "Alia",
+            "demozoo_id": 113525
+          },
+            "shadertoy_url": null,
+          "source_file": "/shader_file_sources/2023_01_09_byte_jam_monday_night_bytes/alia.lua",
+          "preview_image": "2023_01_09_byte_jam_monday_night_bytes/alia.gif"
+        }
+      ],
+      "staffs": []
+    }
+  ],
+    "staffs": [
+    {
+      "handle": {
+        "name": "aldroid",
+        "demozoo_id": 63755
+      },
+      "job": "Organizers"
+    }
+  ],
+  "demozoo_party_id": "LCDZFFCM"
+}

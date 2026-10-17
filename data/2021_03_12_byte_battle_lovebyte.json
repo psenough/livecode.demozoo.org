@@ -1,0 +1,365 @@
+{
+    "title": "Lovebyte",
+    "started": "2021-03-12",
+    "date": "12 - 14 March 2021",
+    "type": "Byte Battle",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v062b",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Quarter Final #1",
+            "vod": "https://www.youtube.com/watch?v=diy4CJpFItY",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2020,
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_superogue.lua",
+                    "preview_image": "2021_03_12_byte_battle_lovebyte/qf_superogue.gif"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Blueberry",
+                        "demozoo_id": 116
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_blueberry.lua",
+                    "preview_image": "2021_03_12_byte_battle_lovebyte/qf_blueberry.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": 53612
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final #2",
+            "vod": "https://www.youtube.com/watch?v=_JQm46HuDEE",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_flopine.lua",
+                    "preview_image": "2021_03_12_byte_battle_lovebyte/qf_flopine.gif"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_gasman.lua",
+                    "preview_image": "2021_03_12_byte_battle_lovebyte/qf_gasman.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": 53612
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final #3",
+            "vod": "https://www.youtube.com/watch?v=BEepOI7EWMo",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_mantratronic.lua",
+                    "preview_image": "2021_03_12_byte_battle_lovebyte/qf_mantratronic.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Nusan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_nusan.lua",
+                    "preview_image": "2021_03_12_byte_battle_lovebyte/qf_nusan.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": 53612
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final #4",
+            "vod": "https://www.youtube.com/watch?v=VP0wOxSAH38",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": 113559
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_wrighter.lua",
+                    "preview_image": "2021_03_12_byte_battle_lovebyte/qf_wrighter.gif"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": 53612
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_qf_orbitaldecay.lua",
+                    "preview_image": "2021_03_12_byte_battle_lovebyte/qf_orbitaldecay.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final #1",
+            "vod": "https://www.youtube.com/watch?v=zAy6VR8gPc4&t=5s",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2021,
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_semifinal_superogue.lua",
+                    "preview_image": "2021_03_12_byte_battle_lovebyte/semifinal_superogue.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": 53612
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_semifinal_orbitaldecay.lua",
+                    "preview_image": "2021_03_12_byte_battle_lovebyte/semifinal_orbitaldecay.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final #2",
+            "vod": "https://www.youtube.com/watch?v=sjQ5vr05-yQ&t=3s",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_semifinal_flopine.lua",
+                    "preview_image": "2021_03_12_byte_battle_lovebyte/semifinal_flopine.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Nusan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_semifinal_nusan.lua",
+                    "preview_image": "2021_03_12_byte_battle_lovebyte/semifinal_nusan.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": 53612
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=kZaOC2T6kXs",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Nusan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_final_nusan.lua",
+                    "preview_image": "2021_03_12_byte_battle_lovebyte/final_nusan.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Orbitaldecay",
+                        "demozoo_id": 53612
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "http://revival-studios.com/bytebattles/lovebyte2021/bytebattle_lovebyte2021_final_orbitaldecay.lua",
+                    "preview_image": "2021_03_12_byte_battle_lovebyte/final_orbitaldecay.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "rho",
+                "demozoo_id": 45
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Superogue",
+                "demozoo_id": 617
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4197
+}

@@ -1,0 +1,92 @@
+{
+    "title": "Monday Night Jam #06",
+    "started": "2022-12-19",
+    "date": "19 December 2022",
+    "type": "Byte Jam",
+    "vod": null,
+    "website": "",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.0",
+            "version": "tic80showdown FFT Hack",
+            "purpose": "Graphic"
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Byte Jam",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Kii Krindar",
+                        "demozoo_id": 135296
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_12_19_byte_jam_fieldfx_casual/kiikrindar.lua",
+                    "preview_image": "2022_12_19_byte_jam_fieldfx_casual/kiikrindar.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mr Synackster",
+                        "demozoo_id": 130883
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_12_19_byte_jam_fieldfx_casual/mrsynackster.lua",
+                    "preview_image": "2022_12_19_byte_jam_fieldfx_casual/mrsynackster.gif"
+                },
+                {
+                    "id": 3,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "TôBach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_12_19_byte_jam_fieldfx_casual/tobach.lua",
+                    "preview_image": "2022_12_19_byte_jam_fieldfx_casual/tobach.gif"
+                },
+                {
+                    "id": 4,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 3495,
+                    "source_file": "/shader_file_sources/2022_12_19_byte_jam_fieldfx_casual/superogue.lua",
+                    "preview_image": "2022_12_19_byte_jam_fieldfx_casual/superogue.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

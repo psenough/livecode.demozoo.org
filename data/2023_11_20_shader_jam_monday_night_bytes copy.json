@@ -1,0 +1,92 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2023-11-20",
+    "date": "20 November 2023",
+    "type": "Shader Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"https://scenesat.com/videoarchive/dc649cb0-894a-11ee-931f-00505685775e#show-dc649cb0-894a-11ee-931f-00505685775e",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_11_20_shader_jam_monday_night_bytes/aldroid.png",
+                    "source_file": "/shader_file_sources/2023_11_20_shader_jam_monday_night_bytes/aldroid.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "alia",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_11_20_shader_jam_monday_night_bytes/alia.png",
+                    "source_file": "/shader_file_sources/2023_11_20_shader_jam_monday_night_bytes/alia.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_11_20_shader_jam_monday_night_bytes/nusan.png",
+                    "source_file": "/shader_file_sources/2023_11_20_shader_jam_monday_night_bytes/nusan.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Wrighter",
+                        "demozoo_id": 113559
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_11_20_shader_jam_monday_night_bytes/wrighter.png",
+                    "source_file": "/shader_file_sources/2023_11_20_shader_jam_monday_night_bytes/wrighter.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Commentator"
+                  }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}
