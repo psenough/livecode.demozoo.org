@@ -99,6 +99,13 @@
                         "demozoo_id": 90373
                     },
                     "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "Px",
+                        "demozoo_id": null
+                    },
+                    "job": "DJ"
                 }
             ]
         }
