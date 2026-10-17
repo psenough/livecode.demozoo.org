@@ -1,0 +1,112 @@
+{
+    "title": "Field-FX",
+    "started": "2024-05-31",
+    "date": "31 May 2024",
+    "type": "Byte Jam",
+    "website": "https://field-fx.party/",
+    "flyer": "",
+    "vod": "https://scenesat.com/video-recordings/ST8xSr",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.5",
+            "version": "tic80showdown Alice fork v0.0.5",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2024_05_31_byte_jam_field_fx/jtruk.gif",
+                    "source_file": "/shader_file_sources/2024_05_31_byte_jam_field_fx/jtruk.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "LSquared",
+                        "demozoo_id": 142902
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": null,
+                    "source_file": null,
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wbcbz7",
+                        "demozoo_id": 45761
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": null,
+                    "source_file": null,
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "ToBach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2024_05_31_byte_jam_field_fx/tobach.png",
+                    "source_file": "/shader_file_sources/2024_05_31_byte_jam_field_fx/tobach.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Stormcaller",
+                        "demozoo_id": 118528
+                    },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizer"
+        },
+        {
+            "handle": {
+                "name": "RaccoonViolet",
+                "demozoo_id": 90373
+            },
+            "job": "Organizer"
+        }
+    ],
+    "demozoo_party_id": 4842
+}
