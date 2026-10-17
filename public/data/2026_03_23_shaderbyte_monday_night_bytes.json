@@ -47,7 +47,7 @@
                     "points": null,
                     "handle": {
                         "name": "finkel",
-                        "demozoo_id": null
+                        "demozoo_id": 157852
                     },
                     "shadertoy_url": null,
                     "poshbrolly_url": null,
@@ -82,7 +82,7 @@
                     "shadertoy_url": null,
                     "poshbrolly_url": null,
                     "preview_image": null,
-                    "source_file": null,
+                    "source_file": "/shader_file_sources/2026_03_23_shaderbyte_monday_night_bytes/canmom.glsl",
                     "tic80_cart_id": null,
                     "vod": null
                 }

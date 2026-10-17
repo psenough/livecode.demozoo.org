@@ -1,4 +1,7 @@
+import os
+import warnings
 from pathlib import Path
+from dotenv import load_dotenv
 from update.demozoo_handle import (
     update_demozoo_handles_db,
     replace_with_demozoo_handle,
@@ -31,6 +34,12 @@ def update_all_data():
     """
     public_path = Path('public')
     data_path = public_path / 'data'
+
+    load_dotenv()
+    if not os.getenv("DEMOZOO_API_KEY"):
+        warnings.warn(
+            "DEMOZOO_API_KEY environment variable is not found - updates from Demozoo may fail. "
+            "Please set DEMOZOO_API_KEY in your .env file.")
 
     past_events = _load_events(data_path)
     # Future event are mainly use right now for handles caching

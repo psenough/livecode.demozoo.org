@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 from typing import Iterator, Optional
 import requests
@@ -69,16 +70,15 @@ def _get_demozoo_id(item: dict) -> Optional[str]:
 
 def _get_demozoo_data(demozoo_id):
     url = f'https://demozoo.org/api/v1/releasers/{demozoo_id}/'
-    data = requests.get(url)
-    print(data.content)
-    data= data.json()
-    return data
+    response = requests.get(url, headers={
+        'Authorization': f'Api-Key {os.getenv("DEMOZOO_API_KEY")}',
+    })
+    print(response.content)
+    response.raise_for_status()
+    return response.json()
 
 def _get_demozoo_name(data) -> str:
-    name = data.get('name')
-    if not name:
-        raise Exception(f"Can't find name for Demozoo id '{demozoo_id}'")
-    return name
+    return data['name']
 
 def _get_demozoo_is_group(data) :
     return data.get('is_group')

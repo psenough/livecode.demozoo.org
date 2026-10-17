@@ -10,6 +10,7 @@ Note: Based on Windows. Adapt for Linux/Mac, should be easy.
   ```sh
   pip install -r requirements.txt
   ```
+- Copy `.env.example` to `.env` and replace the dummy Demozoo API key with one that you created at https://demozoo.org/account/api_keys/ (requires a Demozoo user account).
 
 ### Linux (and probably Mac OS, too)
 
@@ -40,6 +41,8 @@ Install the actual project dependencies:
 ```sh
 (venv)$ pip install -r requirements.txt
 ```
+
+Copy `.env.example` to `.env` and replace the dummy Demozoo API key with one that you created at https://demozoo.org/account/api_keys/ (requires a Demozoo user account).
 
 ## Build Website
 
