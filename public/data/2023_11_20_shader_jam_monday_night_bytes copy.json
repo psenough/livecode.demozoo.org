@@ -75,6 +75,13 @@
                         "demozoo_id": 63755
                     },
                     "job": "Commentator"
+                  },
+                {
+                    "handle": {
+                        "name": "mintimperial",
+                        "demozoo_id": null
+                    },
+                    "job": "DJ"
                   }
             ]
         }

@@ -76,7 +76,14 @@
                       "demozoo_id": 121811
                     },
                     "job": "Commentator"
-                }
+                },
+                {
+                    "handle": {
+                      "name": "Willbe",
+                      "demozoo_id": 257
+                    },
+                    "job": "DJ mix (Demovibes 12)"
+                  }
             ]
         }
     ],
