@@ -2,6 +2,7 @@
   "title": "Monday Night Bytes",
   "type": "Byte Jam",
   "website": "https://field-fx.party",
+  "vod": "https://www.youtube.com/watch?v=vlwCr7h4uvU",
   "software_used": [
     {
       "name": "TIC-80 FFT Hack",
@@ -67,6 +68,13 @@
             "demozoo_id": 63755
           },
           "job": "Commentator"
+        },
+        {
+            "handle": {
+              "name": "Synesthesia",
+              "demozoo_id": 43672
+            },
+            "job": "DJ"
         }
       ]
     }

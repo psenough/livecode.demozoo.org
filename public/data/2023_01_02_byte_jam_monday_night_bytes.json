@@ -68,7 +68,15 @@
             "preview_image": "2023_01_02_byte_jam_monday_night_bytes/alia.gif"
           }
         ],
-        "staffs": []
+        "staffs": [
+          {
+            "handle": {
+              "name": "Bossman",
+              "demozoo_id": 32053
+            },
+            "job": "DJ"
+          }
+        ]
       }
     ],
       "staffs": [

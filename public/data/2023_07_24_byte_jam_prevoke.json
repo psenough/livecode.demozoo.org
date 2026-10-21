@@ -74,6 +74,13 @@
         }
     ],
     "staffs": [
+      {
+        "handle": {
+          "name": "RaccoonViolet",
+          "demozoo_id": 90373
+        },
+        "job": "Organizer"
+      }
     ],
     "demozoo_party_id": "LCDZFFCM"
 }

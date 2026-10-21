@@ -89,6 +89,13 @@
                         "demozoo_id": 63755
                     },
                     "job": "Commentator"
+                  },
+                {
+                    "handle": {
+                        "name": "Jeenio",
+                        "demozoo_id": 3048
+                    },
+                    "job": "Live set"
                   }
             ]
         }
