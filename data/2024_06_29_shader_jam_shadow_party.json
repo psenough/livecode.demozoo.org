@@ -1,0 +1,219 @@
+{
+    "title": "Shadow Party",
+    "started": "2024-06-29",
+    "date": "29 June 2024",
+    "type": "Shader Jam",
+    "website": "https://shadow-party.org/",
+    "flyer": "",
+    "vod":"https://www.twitch.tv/videos/2184004547?t=20h19m45s",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_06_29_shader_jam_shadow_party/grabber_shadow2024_a1dr0idia.jpg",
+                    "source_file": "/shader_file_sources/2024_06_29_shader_jam_shadow_party/grabber_shadow2024_a1dr0idia.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_06_29_shader_jam_shadow_party/grabber_shadow2024_aldroid.jpg",
+                    "source_file": "/shader_file_sources/2024_06_29_shader_jam_shadow_party/grabber_shadow2024_aldroid.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_06_29_shader_jam_shadow_party/grabber_shadow2024_aldroidia.jpg",
+                    "source_file": "/shader_file_sources/2024_06_29_shader_jam_shadow_party/grabber_shadow2024_aldroidia.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_06_29_shader_jam_shadow_party/grabber_shadow2024_evvvvil.jpg",
+                    "source_file": "/shader_file_sources/2024_06_29_shader_jam_shadow_party/grabber_shadow2024_evvvvil.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "g012",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_06_29_shader_jam_shadow_party/grabber_shadow2024_g012.jpg",
+                    "source_file": "/shader_file_sources/2024_06_29_shader_jam_shadow_party/grabber_shadow2024_g012.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "g33kou",
+                        "demozoo_id": 143232
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_06_29_shader_jam_shadow_party/grabber_shadow2024_g33kou.jpg",
+                    "source_file": "/shader_file_sources/2024_06_29_shader_jam_shadow_party/grabber_shadow2024_g33kou.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Koltes",
+                        "demozoo_id": 52423
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_06_29_shader_jam_shadow_party/grabber_shadow2024_Koltes.jpg",
+                    "source_file": "/shader_file_sources/2024_06_29_shader_jam_shadow_party/grabber_shadow2024_Koltes.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "lamogui",
+                        "demozoo_id": 71129
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_06_29_shader_jam_shadow_party/grabber_shadow2024_lamogui.jpg",
+                    "source_file": "/shader_file_sources/2024_06_29_shader_jam_shadow_party/grabber_shadow2024_lamogui.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Marex",
+                        "demozoo_id": 131937
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_06_29_shader_jam_shadow_party/grabber_shadow2024_Marex.jpg",
+                    "source_file": "/shader_file_sources/2024_06_29_shader_jam_shadow_party/grabber_shadow2024_Marex.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_06_29_shader_jam_shadow_party/grabber_shadow2024_nusan.jpg",
+                    "source_file": "/shader_file_sources/2024_06_29_shader_jam_shadow_party/grabber_shadow2024_nusan.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "peregrine",
+                        "demozoo_id": 122747
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_06_29_shader_jam_shadow_party/grabber_shadow2024_peregrine.jpg",
+                    "source_file": "/shader_file_sources/2024_06_29_shader_jam_shadow_party/grabber_shadow2024_peregrine.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_06_29_shader_jam_shadow_party/grabber_shadow2024_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2024_06_29_shader_jam_shadow_party/grabber_shadow2024_totetmatt.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_06_29_shader_jam_shadow_party/grabber_shadow2024_totetmatt_alkama.jpg",
+                    "source_file": "/shader_file_sources/2024_06_29_shader_jam_shadow_party/grabber_shadow2024_totetmatt_alkama.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_06_29_shader_jam_shadow_party/grabber_shadow2024_totetmatt_nfp.jpg",
+                    "source_file": "/shader_file_sources/2024_06_29_shader_jam_shadow_party/grabber_shadow2024_totetmatt_nfp.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "pouale",
+                        "demozoo_id": 143226
+                    },
+                    "job": "Live Set"
+                },
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "job": "DJ Set"
+                },
+                {
+                   "handle": {
+                       "name": "DMA-SC",
+                       "demozoo_id": 2568
+                   },
+                   "job": "Live Set"
+               }
+            ]
+        }
+    ],
+    "staffs": [
+    ],
+    "demozoo_party_id": 4946
+}

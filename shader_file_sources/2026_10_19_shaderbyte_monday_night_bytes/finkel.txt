@@ -1,0 +1,192 @@
+// script:  js
+
+W=240
+H=136
+SZ=W*H
+m=Math
+min=m.min
+max=m.max
+abs=m.abs
+cos=m.cos
+sin=m.sin
+rnd=m.random
+pow=m.pow
+tau=m.PI*2
+
+function lin(x,x0,x1,y0,y1){
+ let t =(x-x0)/(x1-x0)
+ return y0+t*(y1-y0)
+}
+
+function uf(a,b){
+ return lin(rnd(),0,1,a,b)
+}
+
+class AP{
+ constructor(x,y,vx,vy){
+  this.x=x
+  this.y=y
+  this.vx=vx
+  this.vy=vy
+  this.h=40
+ }
+
+ step(){
+  let dt=0.1
+  this.x+=this.vx*dt
+  this.y+=this.vy*dt
+  this.vx*=0.8
+  this.vy*=0.8
+  this.h--
+ }
+}
+
+class P{
+ constructor(x,y){
+  this.x=x
+  this.y=y
+  this.th=0
+  this.dth=2
+  this.r=10
+  this.dir=1
+  this.h=uf(0,40)
+ }
+
+ pos(){
+  return [
+   this.x+this.r*sin(this.th),
+   this.y+this.r*cos(this.th)
+  ]
+ }
+
+ step(){
+  let dt=0.1
+  this.th+=this.dth*dt
+  this.dth*=0.95
+  this.h-=le
+  if(this.h<0){
+   this.h=uf(5,10)
+   let or=this.r
+   this.dir*=-1
+   this.r=uf(10,30)
+   this.dth=5*this.dir
+   this.x=this.x+(or+this.r)*sin(this.th)
+   this.y=this.y+(or+this.r)*cos(this.th)
+   this.th+=tau/2
+   this.x=((this.x%W)+W)%W
+   this.y=((this.y%H)+H)%H
+  }
+  if(abs(this.dth)>0.5){
+   let [x,y]=this.pos()
+   aps.push(new AP(x,y,
+    cos(this.th)*this.r*this.dth,
+    -sin(this.th)*this.r*this.dth))
+  }
+ }
+}
+
+function BOOT(){
+ cls(0)
+}
+
+aps=[]
+ps=[]
+N=2
+for(i=0;i<N;i++){
+ ps.push(new P(uf(0,W),uf(0,H)))
+}
+
+le=0
+function TIC() {
+ dm=time()<500?0:1
+ le=max(le,(fft(2,4)-0.3)*1*dm)
+ le*=0.9
+ vbank(0)
+ make_pal()
+ vbank(1)
+ make_pal(lin(sin(time()/5032),-1,1,tau/4,tau/4*3))
+ vbank(0)
+
+ for(var i=0;i<SZ;i++){
+  c=peek4(i)
+  if(c>0 && rnd()>0.5){
+   poke4(i,c-1)
+  }
+ }
+
+ vbank(1)
+ for(var i=0;i<SZ;i++){
+  c=peek4(i)
+  if(c>0 && rnd()>0.1){
+   poke4(i,c-1)
+  }
+ }
+
+ vbank(0)
+ ps.forEach(p=>{
+  let [ox,oy]=p.pos()
+  //circ(x,y,3,15)
+  p.step()
+  let [nx,ny]=p.pos()
+  if(abs(ox-nx)<50 && abs(oy-ny)<50){
+   s=3
+   dx=nx-ox
+   dy=ny-oy
+   s=1/(m.sqrt(dx*dx+dy*dy)+0.1)
+   for(var i=0;i<8;i++){
+    let l=lin(i,0,8,-3,3)
+    orx=dy*s*l
+    ory=-dx*s*l
+    line(ox+orx,oy+ory,nx+orx,ny+ory,15)
+   }
+  }
+ })
+
+ vbank(1)
+ aps.forEach(p=>{
+  ox=p.x
+  oy=p.y
+  p.step()
+  nx=p.x
+  ny=p.y
+  line(ox,oy,nx,ny,15)
+  if(p.h<=0){
+   circ(nx,ny,4,12)
+   circ(nx,ny,2,15)
+  }
+ })
+
+ aps = aps.filter(p=>p.h>0)
+
+ vbank(1)
+ pix(10,0,15)
+ pix(le*10,1,14)
+ vbank(0)
+ s=8
+ poke(0x3ff9,le*(rnd()-0.5)*s)
+ poke(0x3ff9+1,le*(rnd()-0.5)*s)
+ vbank(1)
+ poke(0x3ff9,le*(rnd()-0.5)*s)
+ poke(0x3ff9+1,le*(rnd()-0.5)*s)
+ vbank(0)
+}
+
+function make_pal(o=0){
+ let t=time()/3000+o
+ let mx=2
+ let mi=0.5
+ let r=lin(sin(t),-1,1,mi,mx)
+ let g=lin(sin(t+tau/3),-1,1,mi,mx)
+ let b=lin(sin(t+tau/3*2),-1,1,mi,mx)
+ for(var i=0;i<16;i++){
+  let x=i/15
+  let cs =[
+   pow(x,r)*255,
+   pow(x,g)*255,
+   pow(x,b)*255,
+  ]
+  for(var j=0;j<3;j++){
+   poke(0x3fc0+i*3+j,cs[j])
+  }
+ }
+}

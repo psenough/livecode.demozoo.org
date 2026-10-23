@@ -1,0 +1,160 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2023-11-13",
+    "date": "13 November 2023",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"https://scenesat.com/videoarchive/e3e67215-833b-11ee-931f-00505685775e#show-e3e67215-833b-11ee-931f-00505685775e",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "doctor soft",
+                        "demozoo_id": 54181
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_11_13_byte_jam_monday_night_bytes/doctorsoft.gif",
+                    "source_file": "/shader_file_sources/2023_11_13_byte_jam_monday_night_bytes/doctorsoft.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evilpaul",
+                        "demozoo_id": 548
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_11_13_byte_jam_monday_night_bytes/evilpaul.gif",
+                    "source_file": "/shader_file_sources/2023_11_13_byte_jam_monday_night_bytes/evilpaul.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_11_13_byte_jam_monday_night_bytes/gasman.gif",
+                    "source_file": "/shader_file_sources/2023_11_13_byte_jam_monday_night_bytes/gasman.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_11_13_byte_jam_monday_night_bytes/jtruk.PNG",
+                    "source_file": "/shader_file_sources/2023_11_13_byte_jam_monday_night_bytes/jtruk.lua"
+                },  
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Lex Bailey",
+                        "demozoo_id": 136849
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_11_13_byte_jam_monday_night_bytes/lex.gif",
+                    "source_file": "/shader_file_sources/2023_11_13_byte_jam_monday_night_bytes/lex.lua"
+                },  
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Lynn",
+                        "demozoo_id": 77648
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_11_13_byte_jam_monday_night_bytes/lynn.gif",
+                    "source_file": "/shader_file_sources/2023_11_13_byte_jam_monday_night_bytes/lynn.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_11_13_byte_jam_monday_night_bytes/mantratronic.gif",
+                    "source_file": "/shader_file_sources/2023_11_13_byte_jam_monday_night_bytes/mantratronic.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "T\u00f4Bach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_11_13_byte_jam_monday_night_bytes/tobach.gif",
+                    "source_file": "/shader_file_sources/2023_11_13_byte_jam_monday_night_bytes/tobach.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_11_13_byte_jam_monday_night_bytes/visy.gif",
+                    "source_file": "/shader_file_sources/2023_11_13_byte_jam_monday_night_bytes/visy.lua"
+                }
+                
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                      "name": "Aldroid",
+                      "demozoo_id": 63755
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                    "name": "RaccoonViolet",
+                    "demozoo_id": 90373
+                    },
+                    "job": "DJ Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

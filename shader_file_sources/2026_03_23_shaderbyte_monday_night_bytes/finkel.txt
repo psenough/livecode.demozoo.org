@@ -1,0 +1,173 @@
+// script:  js
+W=240;H=136;SZ=W*H;MW=W/2;MH=H/2;
+PALETTE=0x3fc0;SCREEN=0x0000;VOFFSET=0x3ff9;abs=Math.abs;floor=Math.floor;max=Math.max;min=Math.min;sin=Math.sin;cos=Math.cos;rnd=Math.random;pow=Math.pow;sqrt=Math.sqrt;pi=Math.PI;tau=pi*2;function lerp(a,b,t){return a+(b-a)*t};function lin(sx,ex,sy,ey,t,cl=false){if (cl) {t=clamp(sx,ex,t);};return lerp(sy,ey,(t-sx)/(ex-sx))};function uf(a,b){return lerp(a,b,rnd())};function ri(mn,mx){return mn+floor(rnd()*(mx-mn+1))};function clamp(mn,mx,t){return max(min(mx,t),mn)};function ss(x){x=clamp(0,1,x);return x*x*(3.0-2.0*x)};function range(n){return Array.from(Array(n)).map((_,i)=>i)};function hsv2rgb(h,s,v){var h=(h%360); if (h<0){h=(h+360)%360;} let c=v*s; let x=c*(1-abs(((h/60)%2)-1)); let m=v-c; let [r,g,b]=[0,0,0]; if (h<60){[r,g]=[c,x];} else if (h<120){[r,g]=[x,c];} else if (h<180){[g,b]=[c,x];} else if (h<240){[g,b]=[x,c];} else if (h<300){[r,b]=[x,c];} else {[r,b]=[c,x];} return [r,g,b].map((x)=>(x+m)*255|0);};function pick(...vs){return vs[ri(0,vs.length-1)];};
+/* Finkel's Prelude:
+
+min,max,abs,floor,pow,sin,cos,rnd
+pi,tau,sqrt
+
+lerp,lin,uf,ri,clamp,ss,range,hsv2rgb
+pick
+*/
+
+h=0
+function make_pal(){
+ f=fft(5)*5
+ f=lin(0,1,1,0.5,f,true)
+ r=lin(-1,1,.8,3,sin(h))*f
+ g=lin(-1,1,.8,3,sin(h+tau/3))*f
+ b=lin(-1,1,.8,3,sin(h+tau/3*2))*f
+ range(16).flatMap(i=>{
+  x=i/15
+  return[
+   255*pow(x,r),
+   255*pow(x,g),
+   255*pow(x,b),
+  ]
+ }).forEach((p,i)=>{
+  poke(PALETTE+i,p)
+ })
+ h+=0.01
+}
+
+class DP{
+ constructor(){
+  this.th1=0.1
+  this.th2=-0.1
+  this.dth1=0
+  this.dth2=0
+  this.m1=uf(8,13)
+  this.m2=uf(5,10)
+  this.l1=uf(0.8,1.2)
+  this.l2=2-this.l1
+ }
+ step(dt){
+	 let th1=this.th1
+  let th2=this.th2
+  let dth1s=this.dth1*this.dth1
+  let dth2s=this.dth2*this.dth2
+  let m1=this.m1
+  let m2=this.m2
+  let l1=this.l1
+  let l2=this.l2
+  let g=-10
+
+  //sorry about this :)
+  let den=2*m1+m2-m2*cos(2*th1-2*th2)
+
+  var ddth1=-g*(2*m1+m2)*sin(th1)-m2*g*sin(th1-2*th2)-2*sin(th1-th2)*m2*(dth2s*l2+dth1s*l1*cos(th1-th2))
+  ddth1/=l1*den
+
+  var ddth2=2*sin(th1-th2)*(dth1s*l1*(m1+m2)+g*(m1+m2)*cos(th1)+dth2s*l2*m2*cos(th1-th2))
+  ddth2/=l2*den
+
+  this.th1+=this.dth1*dt
+  this.th2+=this.dth2*dt
+  this.dth1+=ddth1*dt-this.dth1*0.01*dt
+  this.dth2+=ddth2*dt-this.dth2*0.1*dt
+ }
+}
+
+class P{
+ constructor(x,y,vx,vy,h){
+  this.x=x
+  this.y=y
+  this.vx=vx
+  this.vy=vy
+  this.h=h
+  this.ax=x
+  this.ay=y
+ }
+ step(dt){
+  var distort=lin(300,0,0,1,this.h)
+  //distort=pow(distort,2)
+  //distort/=3
+  distort*=fft(5)*20
+
+  this.x+=this.vx*dt
+  this.y+=this.vy*dt
+  this.vx*=0.99//+uf(-1,1)*distort
+  this.vy*=0.99//+uf(-1,1)*distort
+  this.h--
+  this.ax=this.x+uf(-1,1)*distort
+  this.ay=this.y+uf(-1,1)*distort
+ }
+}
+
+function BOOT(){
+cls(0)
+make_pal()
+}
+
+dp=new DP()
+ps=[]
+px=0
+py=0
+grace=0
+function TIC(){
+grace++
+ if (grace > 3000){
+  grace=0
+  ps=[]
+  dp=new DP()
+ }
+	vbank(1)
+	cls(0)
+ dp.step(0.01)
+	s=30
+ x0=MW
+ y0=MH-15
+ x1=x0+sin(dp.th1)*s*dp.l1
+ y1=y0-cos(dp.th1)*s*dp.l1
+ line(x0,y0,x1,y1,12)
+ x2=x1+sin(dp.th2)*s*dp.l2
+ y2=y1-cos(dp.th2)*s*dp.l2
+ line(x2,y2,x1,y1,12)
+ if (grace >5){
+	 ps.push(new P(x2,y2,x2-px,y2-py,300))
+ }
+ px=x2
+ py=y2
+ vbank(0)
+ ps=ps.filter(p=>p.h>0)
+ if(!ps.length){
+  return
+ }
+
+ ppx=ps[0].x
+ ppy=ps[0].y
+ ps.forEach(p=>{
+  p.step(0.3)
+  line(ppx,ppy,p.ax,p.ay,15)
+  ppx=p.x
+  ppy=p.y
+ })
+
+ f=fft(5)*3
+ pr=lin(0,1,1,0.99,f,true)
+ for(i=0;i<SZ;i++){
+  v=peek4(i)
+  if(v>10 && rnd() >0.5){
+   poke4(i,v-1)
+  }
+  else if(v>0 && rnd() > 0.9){
+   poke4(i,v-1)
+  }
+  else if (v>4 && v<8 && rnd()>pr){
+   spoke(i,15)
+   spoke(i+1,15)
+   spoke(i-1,15)
+   spoke(i+W,15)
+   spoke(i-W,15)
+
+  }
+ }
+ make_pal()
+
+}
+
+function spoke(i,v){
+ if (i>=0 && i<SZ){
+  poke4(i,v)
+ }
+}

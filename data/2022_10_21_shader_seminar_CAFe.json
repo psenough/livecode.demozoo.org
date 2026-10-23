@@ -1,0 +1,47 @@
+{
+    "title": "CAFe",
+    "started": "2022-10-21",
+    "date": "21 - 23 October 2022",
+    "type": "Shader Code Seminar",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v12",
+            "version": "NuSan - v12",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Воркшоп: Первый шейдер в bonzomatic",
+            "vod": "https://www.youtube.com/watch?v=8OoG-l3Wl8c",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Ivan Dianov",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "wbcbz7",
+                "demozoo_id": 45761
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4352
+}

@@ -1,0 +1,132 @@
+// script:  js
+W=240;H=136;PALETTE=0x3fc0;SCREEN=0x0000;abs=Math.abs;floor=Math.floor;max=Math.max;min=Math.min;sin=Math.sin;cos=Math.cos;rnd=Math.random;pow=Math.pow;sqrt=Math.sqrt;pi=Math.PI;tau=pi*2;function lerp(a,b,t){return a+(b-a)*t};function lin(sx,ex,sy,ey,t){return lerp(sy,ey,(t-sx)/(ex-sx))};function uf(a,b){return lerp(a,b,rnd())};function ri(mn,mx){return mn+floor(rnd()*(mx-mn+1))};function clamp(mn,mx,t){return max(min(mx,t),mn)};function ss(x){x=clamp(0,1,x);return x*x*(3.0-2.0*x)};function range(n){return Array.from(Array(n)).map((_,i)=>i)};Array.prototype.choose=function(){return this[ri(0,this.length-1)]};function hsv2rgb(h,s,v){var h=(h%360); if (h<0){h=(h+360)%360;} let c=v*s; let x=c*(1-abs(((h/60)%2)-1)); let m=v-c; let [r,g,b]=[0,0,0]; if (h<60){[r,g]=[c,x];} else if (h<120){[r,g]=[x,c];} else if (h<180){[g,b]=[c,x];} else if (h<240){[g,b]=[x,c];} else if (h<300){[r,b]=[x,c];} else {[r,b]=[c,x];} return [r,g,b].map((x)=>(x+m)*255|0);};
+/* Finkel's Prelude:
+
+min,max,abs,floor,pow,sin,cos,rnd
+pi,tau,sqrt
+
+lerp,lin,uf,ri,clamp,ss,range,hsv2rgb
+*/
+
+class P{
+ constructor(x,y,vx,vy,health,gen){
+  this.x=x
+  this.y=y
+  this.vx=vx
+  this.vy=vy
+  this.health=health
+  this.gen=gen
+ }
+ step(dt){
+  this.x+=this.vx*dt
+  this.y+=this.vy*dt
+  this.vy+=-10*dt
+  if (this.x<0){
+   this.x*=-1
+   this.vx*=-1
+  }
+  if(this.x >W){
+   this.x=2*W-this.x
+   this.vx*=-1
+  }
+  if (this.y<0){
+   this.y*=-1
+   this.vy*=-1
+  }
+  if(this.y >H){
+   this.y=2*H-this.y
+   this.vy*=-1
+  }
+  this.health-=fft(5)*10
+ }
+}
+
+function make_palette(){
+ r=uf(0.1,2)
+ g=uf(0.1,2)
+ b=uf(0.1,2)
+ range(16).flatMap((i) => {
+  x=i/16.0
+  return [
+   255*pow(x,r),
+   255*pow(x,g),
+   255*pow(x,b),
+  ]
+ }).forEach((v,i)=>{
+  poke(PALETTE+i,v)
+ })
+}
+
+function BOOT(){
+ make_palette()
+ cls(0)
+}
+
+ps=[]
+stick=0.5
+lively=0.5
+
+exps=0
+//idk what I'm doing rn bear with me :)
+function TIC(){
+ if (ps.length == 0){
+  ps.push(new P(
+   W/2,
+   0,
+   uf(-30,30),
+   uf(20,60),
+   100,
+   5,
+  ))
+  make_palette()
+  stick=uf(0.3,0.9)
+  lively=uf(0.3,1)
+ }
+ explosions=0
+ ps.forEach((p)=>{
+  p.step(0.08)
+  x=p.x
+  y=H-p.y
+  g=p.gen+1
+  f=fft(5)*2+1
+  circ(x,y,2*g*f,10)
+  circ(x,y,1.5*g*f,12)
+  circ(x,y,1*g,15)
+  if(p.health<0){
+	  circ(x,y,7*g,10)
+	  circ(x,y,5*g,15)
+			explosions++
+			if(p.gen>0){
+			 count=3
+			 for(i=0;i<count;i++){
+				 th=uf(0,tau)
+					vel=uf(10,60)
+				 ps.push(new P(
+					 p.x,
+						p.y,
+						p.vx+vel*sin(th),
+						p.vy+vel*cos(th),
+						uf(5,20)*lively*g,
+						p.gen-1
+					))
+				}
+			}
+  }
+ })
+ ps=ps.filter((p)=>p.health>=0)
+
+ for(i=0;i<W*H;i++){
+  v=peek4(i)
+  if(v>0 && rnd() > stick){
+   v--
+   poke4(i,v)
+  }
+ }
+ exps=max(explosions,exps)
+ exps*=0.95
+ poke(0x3ff9+1,uf(-1,1)*exps*1.5)
+}
+
+function SCN(){
+ poke(0x3ff9,uf(-1,1)*exps*0.5)
+}

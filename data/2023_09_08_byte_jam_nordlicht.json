@@ -1,0 +1,66 @@
+{
+    "title": "Nordlicht",
+    "started": "2023-09-08",
+    "date": "08 September 2023",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_09_08_byte_jam_nordlicht/gasman.gif",
+                    "source_file": "/shader_file_sources/2023_09_08_byte_jam_nordlicht/gasman.lua"
+                }
+                
+                
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                      "name": "Messy",
+                      "demozoo_id": 11924
+                    },
+                    "job": "DJ Set"
+                  },
+                  {
+                    "handle": {
+                      "name": "Ektr0",
+                      "demozoo_id": 87921
+                    },
+                    "job": "DJ Set"
+                  },
+                  {
+                    "handle": {
+                      "name": "Triace",
+                      "demozoo_id": 41536
+                    },
+                    "job": "DJ Set"
+                  }
+            ]
+        }
+    ],
+    "staffs": [
+      
+    ],
+    "demozoo_party_id": 4656
+}

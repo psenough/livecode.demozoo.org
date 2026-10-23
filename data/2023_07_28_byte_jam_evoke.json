@@ -1,0 +1,91 @@
+{
+    "title": "Evoke",
+    "started": "2023-07-28",
+    "date": "28 - 30 July 2023",
+    "type": "Byte Jam",
+    "website": "https://2023.evoke.eu/",
+    "flyer": "",
+    "vod":null,
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Live Code Wall",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_07_28_byte_jam_evoke/LIVECODE_WALL.gif",
+                    "source_file": "/shader_file_sources/2023_07_28_byte_jam_evoke/LIVECODE_WALL.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_07_28_byte_jam_evoke/nusan.gif",
+                    "source_file": "/shader_file_sources/2023_07_28_byte_jam_evoke/nusan.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_07_28_byte_jam_evoke/superogue_jam.gif",
+                    "source_file": "/shader_file_sources/2023_07_28_byte_jam_evoke/superogue_jam.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_07_28_byte_jam_evoke/superogue_jam_2.gif",
+                    "source_file": "/shader_file_sources/2023_07_28_byte_jam_evoke/superogue_jam.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "T\u00f4Bach",
+                        "demozoo_id":  89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_07_28_byte_jam_evoke/tobach-jam.gif",
+                    "source_file": "/shader_file_sources/2023_07_28_byte_jam_evoke/tobach-jam.lua"
+                }
+            ],
+            "staffs": [
+            ]
+        }
+    ],
+    "staffs": [
+    ],
+    "demozoo_party_id": 4512
+}

@@ -1,0 +1,69 @@
+{
+    "title": "Eulerroom",
+    "started": "2025-11-22",
+    "date": "22 November 2025",
+    "type": "Shader Jam",
+    "website": "https://eulerroom.com/",
+    "flyer": "",
+    "vod":null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Bonz",
+            "url": "https://sr.ht/~jmaselbas/bonz/",
+            "version": "",
+            "purpose": "Graphic & Audio"
+        }
+      
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "dok",
+                        "demozoo_id": 142108
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_11_22_shader_jam_eulerroom/grabber_eulerroom_dok.jpg",
+                    "source_file": "/shader_file_sources/2025_11_22_shader_jam_eulerroom/grabber_eulerroom_dok.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_11_22_shader_jam_eulerroom/sender_eulerroom_tot.jpg",
+                    "source_file": "/shader_file_sources/2025_11_22_shader_jam_eulerroom/sender_eulerroom_tot.glsl"
+                }
+            ],
+            "staffs": [
+                 {
+                    "handle": {
+                        "name": "jon",
+                        "demozoo_id": 142107
+                    },
+                    "job": "Live"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+       
+    ],
+    "demozoo_party_id": null
+}

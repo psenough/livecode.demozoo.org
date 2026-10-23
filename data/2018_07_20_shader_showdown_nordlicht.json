@@ -1,0 +1,57 @@
+{
+    "title": "Nordlicht",
+    "started": "2018-07-20",
+    "date": "20 - 22 July 2018",
+    "type": "Shader Showdown",
+    "vod": "https://scenesat.com/videoarchive/250b8522-b90e-11ea-b68e-00505685775e?t=17655",
+    "software_used": null,
+    "phases": [
+        {
+            "title": "Single Round",
+            "vod": "https://scenesat.com/videoarchive/250b8522-b90e-11ea-b68e-00505685775e?t=17655",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "fizzer",
+                        "demozoo_id": 27471
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "hardy",
+                        "demozoo_id": 913
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dojoe",
+                        "demozoo_id": 24894
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 3551
+}
