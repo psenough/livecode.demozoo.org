@@ -3,7 +3,7 @@
     "started": "2022-12-19",
     "date": "19 December 2022",
     "type": "Byte Jam",
-    "vod": null,
+    "vod": "https://www.youtube.com/watch?v=cw6It00v0Wg",
     "website": "",
     "flyer": "",
     "software_used": [
@@ -84,6 +84,13 @@
                         "demozoo_id": 63755
                     },
                     "job": "Commentator"
+                },
+                {
+                    "handle": {
+                      "name": "Willbe",
+                      "demozoo_id": 257
+                    },
+                    "job": "DJ mix (Demovibes 11)"
                 }
             ]
         }
