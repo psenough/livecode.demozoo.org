@@ -85,6 +85,21 @@
                     "source_file": "/shader_file_sources/2026_10_19_shaderbyte_monday_night_bytes/gasman.lua",
                     "tic80_cart_id": null,
                     "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "nibble",
+                        "demozoo_id": 158124
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_10_19_shaderbyte_monday_night_bytes/nibble.jpg",
+                    "source_file": "/shader_file_sources/2026_10_19_shaderbyte_monday_night_bytes/nibble.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
                 }
             ],
             "staffs": [
