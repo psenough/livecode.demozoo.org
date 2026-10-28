@@ -1,0 +1,62 @@
+{
+    "title": "Sessions",
+    "started": "2023-04-29",
+    "date": "28 - 30 April 2023",
+    "type": "Shader Code Seminar",
+    "website": "https://sessions.frontl1ne.net/",
+    "flyer": "",
+    "vod": "https://www.youtube.com/watch?v=NP8bjmesy2Q&t=17628s",
+    "software_used": [],
+    "phases": [
+        {
+            "title": "\u30ec\u30a4\u30de\u30fc\u30c1\u30f3\u30b00\u304b\u30891",
+            "vod": "https://www.youtube.com/watch?v=gtSgPV10jDk",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "0b5vr",
+                        "demozoo_id": 128318
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_04_29_shader_seminar_sessions/2023_sessions_0b5vr.png",
+                    "source_file": "/shader_file_sources/2023_04_29_shader_seminar_sessions/2023_sessions_0b5vr.pdf"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "sp4ghet",
+                "demozoo_id": 119897
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "butadiene",
+                "demozoo_id": null
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "0b5vr",
+                "demozoo_id": 128318
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "FL1NE",
+                "demozoo_id": 24017
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4606
+}

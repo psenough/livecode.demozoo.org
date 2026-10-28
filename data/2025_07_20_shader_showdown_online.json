@@ -1,0 +1,61 @@
+{
+    "title": "Shader Showdown Online 000",
+    "started": "2025-07-20",
+    "date": "20 July 2025",
+    "type": "Shader Showdown",
+    "website": "",
+    "flyer": "",
+    "vod":"https://www.twitch.tv/videos/2517640394",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_07_20_shader_showdown_online/grabber_showdown_grand_horizon_aldroid.jpg",
+                    "source_file": "/shader_file_sources/2025_07_20_shader_showdown_online/grabber_showdown_grand_horizon_aldroid.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Alien",
+                        "demozoo_id": 108887
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_07_20_shader_showdown_online/grabber_showdown_grand_horizon_alien.jpg",
+                    "source_file": "/shader_file_sources/2025_07_20_shader_showdown_online/grabber_showdown_grand_horizon_alien.glsl"
+                }
+            ],
+            "staffs": [
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "totetmatt",
+                "demozoo_id": 121811
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "SHASHONLINE"
+}

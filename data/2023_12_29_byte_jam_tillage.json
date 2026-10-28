@@ -1,0 +1,93 @@
+{
+    "title": "Tillage",
+    "started": "2023-12-29",
+    "date": "29 December 2023",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"https://scenesat.com/videoarchive/2603c35d-a6b3-11ee-b94e-00505685775e?t=12446#show-2603c35d-a6b3-11ee-b94e-00505685775e",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gasman",
+                        "demozoo_id": 5879
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_12_29_byte_jam_tillage/gasman.gif",
+                    "source_file": "/shader_file_sources/2023_12_29_byte_jam_tillage/gasman.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_12_29_byte_jam_tillage/jtruk.gif",
+                    "source_file": "/shader_file_sources/2023_12_29_byte_jam_tillage/jtruk.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mrs Beanbag",
+                        "demozoo_id": 66552
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_12_29_byte_jam_tillage/mrsbeanbag.gif",
+                    "source_file": "/shader_file_sources/2023_12_29_byte_jam_tillage/mrsbeanbag.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "suule",
+                        "demozoo_id": 136862
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_12_29_byte_jam_tillage/suule.gif",
+                    "source_file": "/shader_file_sources/2023_12_29_byte_jam_tillage/suule.lua"
+                }
+            ],
+            "staffs": [
+               {
+                    "handle": {
+                        "name": "Polynomial",
+                        "demozoo_id": 60607
+                        },
+                    "job": "DJ set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Reality404",
+                "demozoo_id": 67077
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4730
+}

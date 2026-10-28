@@ -1,0 +1,106 @@
+{
+    "title": "MCH",
+    "started": "2022-07-22",
+    "date": "23 July 2022",
+    "type": "Byte Jam",
+    "vod": "https://archive.org/details/mch_2022_byte_battles",
+    "website": "https://wiki.mch2022.org/Projects:Demoparty",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v07",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Jam #1",
+            "vod": "https://www.youtube.com/watch?v=NRkNAIYmxqM&t=6s",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Lynn",
+                        "demozoo_id": 77648
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_07_22_byte_jam_mch/bytejam_mch_lynn.gif",
+                    "source_file": "/shader_file_sources/2022_07_22_byte_jam_mch/bytejam_mch_lynn.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "blinry",
+                        "demozoo_id": 73839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_07_22_byte_jam_mch/bytejam_mch_blinry.gif",
+                    "source_file": "/shader_file_sources/2022_07_22_byte_jam_mch/bytejam_mch_blinry.lua",
+                    "tic80_cart_id": 2953
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Jam #2",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_07_22_byte_jam_mch/bytejam_mch_superogue.gif",
+                    "source_file": "/shader_file_sources/2022_07_22_byte_jam_mch/bytejam_mch_superogue.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_07_22_byte_jam_mch/bytejam_mch_gasman.gif",
+                    "source_file": "/shader_file_sources/2022_07_22_byte_jam_mch/bytejam_mch_gasman.lua",
+                    "tic80_cart_id": 2925
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "IO",
+                        "demozoo_id": null
+                    },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Dave borghuis",
+                "demozoo_id": null
+            },
+            "job": "Organizer"
+        },
+        {
+            "handle": {
+                "name": "Havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizer"
+        }
+    ]
+}

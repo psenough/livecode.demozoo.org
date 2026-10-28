@@ -1,0 +1,67 @@
+{
+    "title": "Pancake Conference",
+    "started": "2020-06-24",
+    "date": "24 June 2020",
+    "type": "Shader Jam",
+    "vod": "https://youtu.be/g0Jymrc1XqM?t=2819",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v09",
+            "version": "NuSan - v09",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Alkama",
+                        "demozoo_id": 1382
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/wtXcW2",
+                    "preview_image": "2020_06_24_shader_jam_pancake_conference/grabber_pancakeftw_alkama.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2020/pancake_conference20/livecoding/grabber_pancakeftw_alkama.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "jeenio",
+                        "demozoo_id": 3048
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "ps",
+                "demozoo_id": 313
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4079
+}

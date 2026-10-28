@@ -1,0 +1,228 @@
+{
+    "title": "Revision",
+    "started": "2015-04-03",
+    "date": "03 - 06 April 2015",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": null,
+    "phases": [
+        {
+            "title": "Quarter #1",
+            "vod": "https://youtu.be/j4baExLqNoI?t=290",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "hardy",
+                        "demozoo_id": 913
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01a-hardy.hlsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "mu6k",
+                        "demozoo_id": 14411
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_04_03_shader_showdown_revision/01a-musk.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01a-musk.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Quarter #2",
+            "vod": "https://youtu.be/j4baExLqNoI?t=2417",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Eybor",
+                        "demozoo_id": 27241
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_04_03_shader_showdown_revision/01b-eybor.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01b-eybor.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Ren Hoek",
+                        "demozoo_id": 25277
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_04_03_shader_showdown_revision/01b-renhoek.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01b-renhoek.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Quarter #3",
+            "vod": "https://youtu.be/j4baExLqNoI?t=4431",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "lj",
+                        "demozoo_id": 57948
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_04_03_shader_showdown_revision/01c-lj.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01c-lj.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "XT95",
+                        "demozoo_id": 3848
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_04_03_shader_showdown_revision/01c-xt95.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01c-xt95.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Quarter #4",
+            "vod": "https://youtu.be/j4baExLqNoI?t=6330",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Kabuto",
+                        "demozoo_id": 6492
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_04_03_shader_showdown_revision/01d-kabuto.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01d-kabuto.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "wsmind",
+                        "demozoo_id": 34845
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_04_03_shader_showdown_revision/01d-wsmind.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/01d-wsmind.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Semi #1",
+            "vod": "https://youtu.be/0Xi_exoOXjw?t=203",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "mu6k",
+                        "demozoo_id": 14411
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_04_03_shader_showdown_revision/02a-musk.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/02a-musk.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Eybor",
+                        "demozoo_id": 27241
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_04_03_shader_showdown_revision/02a-eybor.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/02a-eybor.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Semi #2",
+            "vod": "https://youtu.be/0Xi_exoOXjw?t=2180",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "XT95",
+                        "demozoo_id": 3848
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_04_03_shader_showdown_revision/02b-xt95.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/02b-xt95.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Kabuto",
+                        "demozoo_id": 6492
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_04_03_shader_showdown_revision/02b-kabuto.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/02b-kabuto.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Final",
+            "vod": "https://youtu.be/0Xi_exoOXjw?t=6119",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "mu6k",
+                        "demozoo_id": 14411
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_04_03_shader_showdown_revision/03-musk.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/03-musk.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Kabuto",
+                        "demozoo_id": 6492
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2015_04_03_shader_showdown_revision/03-kabuto.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2015/revision15/shadershowdown/03-kabuto.glsl"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 2444
+}

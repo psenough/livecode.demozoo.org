@@ -1,0 +1,353 @@
+{
+    "title": "Instanssi 2024 Varjostimien Näytösottelu",
+    "started": "2024-03-02",
+    "date": "02 March 2024",
+    "type": "Shader Showdown",
+    "website": "",
+    "flyer": "",
+    "vod":null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Round 1 - Aloitusottelu 1",
+            "vod": "https://www.youtube.com/watch?v=YuHbekoYrzA",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle":{
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_pumpuli.jpg",
+                    "source_file": "/shader_file_sources/2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_pumpuli.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle":{
+                        "name": "papu",
+                        "demozoo_id": 76637
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_papu.jpg",
+                    "source_file": "/shader_file_sources/2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_papu.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "zertap",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        },
+        {
+            "title": "Round 1 - Aloitusottelu 2",
+            "vod": "https://youtu.be/YuHbekoYrzA?t=2446",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle":{
+                        "name": "Alef",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_Alef.jpg",
+                    "source_file": "/shader_file_sources/2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_Alef.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle":{
+                        "name": "gemppu",
+                        "demozoo_id": 87308
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_gemppu.jpg",
+                    "source_file": "/shader_file_sources/2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_gemppu.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "papu",
+                        "demozoo_id": 76637
+                    },
+                    "job": "Commentator"
+                },{
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        },
+        {
+            "title": "Round 1 - Aloitusottelu 3",
+            "vod": "https://youtu.be/YuHbekoYrzA?t=4258",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle":{
+                        "name": "Stuk",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_Stuk.jpg",
+                    "source_file": "/shader_file_sources/2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_Stuk.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle":{
+                        "name": "BFlorry",
+                        "demozoo_id": 112769
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_BFlorry.jpg",
+                    "source_file": "/shader_file_sources/2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_BFlorry.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "papu",
+                        "demozoo_id": 76637
+                    },
+                    "job": "Commentator"
+                },{
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        },
+        {
+            "title": "Round 1 - Aloitusottelu 4",
+            "vod": "https://youtu.be/YuHbekoYrzA?t=6080",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle":{
+                        "name": "BadFelix",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_BadFelix.jpg",
+                    "source_file": "/shader_file_sources/2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_BadFelix.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle":{
+                        "name": "Eslo",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_Eslo.jpg",
+                    "source_file": "/shader_file_sources/2024_03_02_shader_showdown_instanssi/r1_karsinnat/r1_Eslo.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "papu",
+                        "demozoo_id": 76637
+                    },
+                    "job": "Commentator"
+                },{
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        },
+        {
+            "title": "Round 2 - Semifinaali 1",
+            "vod": "https://youtu.be/YuHbekoYrzA?t=7863",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle":{
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_02_shader_showdown_instanssi/r2_semifinals/r2_pumpuli.jpg",
+                    "source_file": "/shader_file_sources/2024_03_02_shader_showdown_instanssi/r2_semifinals/r2_pumpuli.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle":{
+                        "name": "Alef",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_02_shader_showdown_instanssi/r2_semifinals/r2_Alef.jpg",
+                    "source_file": "/shader_file_sources/2024_03_02_shader_showdown_instanssi/r2_semifinals/r2_Alef.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {      
+                        "name": "papu",
+                        "demozoo_id": 76637
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        },
+        {
+            "title": "Round 2 - Semifinaali 2",
+            "vod": "https://youtu.be/YuHbekoYrzA?t=9508",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle":{
+                        "name": "BFlorry",
+                        "demozoo_id": 112769
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_02_shader_showdown_instanssi/r2_semifinals/r2_BFlorry.jpg",
+                    "source_file": "/shader_file_sources/2024_03_02_shader_showdown_instanssi/r2_semifinals/r2_BFlorry.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle":{
+                        "name": "Eslo",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_02_shader_showdown_instanssi/r2_semifinals/r2_Eslo.jpg",
+                    "source_file": "/shader_file_sources/2024_03_02_shader_showdown_instanssi/r2_semifinals/r2_Eslo.glsl"
+                }
+            ],
+            "staffs": [
+                {   
+                    "handle": {
+                        "name": "papu",
+                        "demozoo_id": 76637
+                    },
+                    "job": "Commentator"
+                },{
+                    "handle": {
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        },
+        {
+            "title": "Round 3 - Final",
+            "vod": "https://www.youtube.com/watch?v=TmPo2LY6ivg",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle":{
+                        "name": "pumpuli",
+                        "demozoo_id": 22208
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_02_shader_showdown_instanssi/r3_final/r3_pumpuli.jpg",
+                    "source_file": "/shader_file_sources/2024_03_02_shader_showdown_instanssi/r3_final/r3_pumpuli.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle":{
+                        "name": "Eslo",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_02_shader_showdown_instanssi/r3_final/r3_Eslo.jpg",
+                    "source_file": "/shader_file_sources/2024_03_02_shader_showdown_instanssi/r3_final/r3_Eslo.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "papu",
+                        "demozoo_id": 76637
+                    },
+                    "job": "Commentator"
+                },{
+                    "handle": {      
+                        "name": "zertap",
+                        "demozoo_id": null
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Danacat",
+                "demozoo_id": null
+            },
+            "job": "DJ"
+        },
+        {
+            "handle": {
+                "name": "Kaaosradio",
+                "demozoo_id": null
+            },
+            "job": "DJ"
+        },          
+        {           
+            "handle": {
+                "name": "pumpuli",
+                "demozoo_id": 22208
+            },          
+            "job": "Organizer"
+        },          
+        {           
+            "handle": {
+                "name": "papu",
+                "demozoo_id": 76637
+            },          
+            "job": "Organizer"
+        }
+    ],
+    "demozoo_party_id": 4655
+}

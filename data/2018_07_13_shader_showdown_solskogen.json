@@ -1,0 +1,106 @@
+{
+    "title": "Solskogen",
+    "started": "2018-07-13",
+    "date": "13 - 15 July 2018",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/Gargaj/Bonzomatic/releases/tag/2018-04-22",
+            "version": "2018-04-22",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Semi #1",
+            "vod": "https://www.youtube.com/watch?v=DceKqJJ2l94",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 51,
+                    "handle": {
+                        "name": "Rohtie",
+                        "demozoo_id": 4456
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 28,
+                    "handle": {
+                        "name": "Sebbert",
+                        "demozoo_id": 58198
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Semi #2",
+            "vod": "https://www.youtube.com/watch?v=WHw13C4-b-M",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 38,
+                    "handle": {
+                        "name": "Blueberry",
+                        "demozoo_id": 116
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 47,
+                    "handle": {
+                        "name": "Ferris",
+                        "demozoo_id": 18
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=u517aj_JzVg",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 41,
+                    "handle": {
+                        "name": "Rohtie",
+                        "demozoo_id": 4456
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 32,
+                    "handle": {
+                        "name": "Ferris",
+                        "demozoo_id": 18
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 3453
+}
