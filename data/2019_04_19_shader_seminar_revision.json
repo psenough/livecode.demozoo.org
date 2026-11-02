@@ -1,0 +1,41 @@
+{
+    "title": "Revision",
+    "started": "2019-04-19",
+    "date": "19 - 22 April 2019",
+    "type": "Shader Code Seminar",
+    "vod": "https://www.youtube.com/watch?v=uFFR31t1WMM",
+    "software_used": null,
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 3770
+}

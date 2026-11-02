@@ -1,0 +1,148 @@
+{
+    "title": "Inércia",
+    "started": "2023-12-03",
+    "date": "03 December 2023",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"https://scenesat.com/videoarchive/d5130a83-91db-11ee-931f-00505685775e?t=92190#show-d5130a83-91db-11ee-931f-00505685775e",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "doctor soft",
+                        "demozoo_id": 54181
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_12_03_byte_jam_inercia/drsoft.gif",
+                    "source_file": "/shader_file_sources/2023_12_03_byte_jam_inercia/drsoft.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_12_03_byte_jam_inercia/gasman.gif",
+                    "source_file": "/shader_file_sources/2023_12_03_byte_jam_inercia/gasman.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_12_03_byte_jam_inercia/jtruk.png",
+                    "source_file": "/shader_file_sources/2023_12_03_byte_jam_inercia/jtruk.lua"
+                },  
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_12_03_byte_jam_inercia/mantratronic.gif",
+                    "source_file": "/shader_file_sources/2023_12_03_byte_jam_inercia/mantratronic.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_12_03_byte_jam_inercia/nusan.png",
+                    "source_file": "/shader_file_sources/2023_12_03_byte_jam_inercia/nusan.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Superogue",
+                        "demozoo_id": 617
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_12_03_byte_jam_inercia/superogue.gif",
+                    "source_file": "/shader_file_sources/2023_12_03_byte_jam_inercia/superogue.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Suule",
+                        "demozoo_id": 136862
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_12_03_byte_jam_inercia/suule.gif",
+                    "source_file": "/shader_file_sources/2023_12_03_byte_jam_inercia/suule.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "T\u00f4Bach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_12_03_byte_jam_inercia/tobach.gif",
+                    "source_file": "/shader_file_sources/2023_12_03_byte_jam_inercia/tobach.lua"
+                }
+                
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                      "name": "Aldroid",
+                      "demozoo_id": 63755
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                    "name": "Jeenio",
+                    "demozoo_id": 3048
+                    },
+                    "job": "Piano"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4664
+}

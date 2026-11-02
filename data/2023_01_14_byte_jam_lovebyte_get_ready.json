@@ -1,0 +1,98 @@
+{
+    "title": "Get Ready for Lovebyte",
+    "started": "2023-01-14",
+    "date": "14 January 2023",
+    "type": "Byte Jam",
+    "vod": null,
+    "website": "https://lovebyte.party",
+    "flyer": "",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Byte Jam",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "evilpaul",
+                        "demozoo_id": 548
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2023_01_14_byte_jam_lovebyte_get_ready/evilpaul.lua",
+                    "preview_image": "2023_01_14_byte_jam_lovebyte_get_ready/evilpaul.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Mantratronic",
+                        "demozoo_id": 20215
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2023_01_14_byte_jam_lovebyte_get_ready/mantratronic.lua",
+                    "preview_image": "2023_01_14_byte_jam_lovebyte_get_ready/mantratronic.png"
+                },
+                {
+                    "id": 3,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "TôBach",
+                        "demozoo_id": 89891
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2023_01_14_byte_jam_lovebyte_get_ready/tobach.lua",
+                    "preview_image": "2023_01_14_byte_jam_lovebyte_get_ready/tobach.gif"
+                },
+                {
+                    "id": 4,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Alia",
+                        "demozoo_id": 113525
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2023_01_14_byte_jam_lovebyte_get_ready/alia.lua",
+                    "preview_image": "2023_01_14_byte_jam_lovebyte_get_ready/alia.png"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Commentator"
+                },
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": 18
+                    },
+                    "job": "DJ Set"
+                }
+            ]
+        }
+    ],
+    "demozoo_party_id": 4596
+}

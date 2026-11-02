@@ -1,0 +1,36 @@
+# script:python
+from math import sin
+W=240
+H=136
+T=1
+#tm=[15,7,6,3,2]
+tm=[6,3,2]
+m=0
+txt='Goodnight Nordlicht ^^'
+def TIC():
+  global T,m
+  cls()
+#  if not T%300:
+#    m+=1
+#    if m==len(tm): m=0
+  f=ffts(10,40)
+  if f<1.5: m=0
+  elif 1.5<f<2.5: m=1
+  elif f>2.5: m=2
+  for i in range(0,241):
+    x=i*2
+    line(x,H,x,H-fft(x)*100,6)
+    line(x,0,x,fft(W-x)*100,9)
+    if not i%tm[m]:
+      y=round(70+sin(i+T/10)*20)
+#      y=round(70+sin(i+T/10)*10-(fft(i-1,i+1)-fft(W-i-1,W-i+1))*20)
+#      y=round(H/2-(fft(i-1,i+1)-fft(W-i-1,W-i+1))*20)
+#      c=round(1+i/20+sin(T/10))
+#      r=round(10+(fft(i-1,i+1)+fft(W-i-1,W-i+1)*10))
+      r=6
+      c=round(i/20-T/20)
+      circ(i,y,r,c)
+      circb(i,y,r,c+1)
+    for j in range(0,len(txt)):
+      print(txt[j],int((W-len(txt)*6)/2)+j*6,int(H/6+sin(j+T/10)*3),3)
+  T+=1

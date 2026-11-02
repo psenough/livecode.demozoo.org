@@ -1,0 +1,1 @@
+t=0TIC=load'cls(8)for w=0,99,.01 do r=w+(s(w*9.7)+s(t*2.6)*3)*w*s(w*3)x=s(w+t*6)*r*2+99y=s(w+8+t*4.7)*r-w+140+s(w^2.5+t)*9k=s(w+t*7)*5*w/99 for n=0,2 do circ(x+n*5,y,k,r/19%4+4+n)end end print("fluffy toxic cloud",9,9,12)t=t+fft(1)/99's=math.sin

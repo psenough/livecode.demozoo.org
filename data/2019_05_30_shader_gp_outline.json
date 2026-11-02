@@ -1,0 +1,63 @@
+{
+    "title": "Shader Grand Prix @ Outline",
+    "started": "2019-05-30",
+    "date": "30 May - 02 June 2019",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/Gargaj/Bonzomatic",
+            "version": "2019-03-26",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Match 1",
+            "vod": null,
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "superplek",
+                        "demozoo_id": 10577
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "superplek",
+                "demozoo_id": 10577
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 3824
+}

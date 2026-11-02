@@ -1,0 +1,1 @@
+t=0s="t=t+1 for j=0,#s*9 do i=j//9k=j%9l=fft(1)*4print(s:sub(i,i),30*i-t,58+math.sin(t/9+i)*50-k,t+i+k*l*3,0,7+l)end"TIC=load(s)

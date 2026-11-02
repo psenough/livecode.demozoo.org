@@ -1,0 +1,230 @@
+// script:  js
+W=240;H=136;SZ=W*H;MW=W/2;MH=H/2;
+BUFFER=0x4000;PALETTE=0x3fc0;SCREEN=0x0000;HOFFSET=0x3ff9;abs=Math.abs;floor=Math.floor;max=Math.max;min=Math.min;sin=Math.sin;cos=Math.cos;rnd=Math.random;pow=Math.pow;sqrt=Math.sqrt;pi=Math.PI;tau=pi*2;function lerp(a,b,t){return a+(b-a)*t};function lin(sx,ex,sy,ey,t,cl=false){if (cl) {t=clamp(sx,ex,t);};return lerp(sy,ey,(t-sx)/(ex-sx))};function uf(a,b){return lerp(a,b,rnd())};function ri(mn,mx){return mn+floor(rnd()*(mx-mn+1))};function clamp(mn,mx,t){return max(min(mx,t),mn)};function ss(x){x=clamp(0,1,x);return x*x*(3.0-2.0*x)};function range(n){return Array.from(Array(n)).map((_,i)=>i)};function hsv2rgb(h,s,v){var h=(h%360); if (h<0){h=(h+360)%360;} let c=v*s; let x=c*(1-abs(((h/60)%2)-1)); let m=v-c; let [r,g,b]=[0,0,0]; if (h<60){[r,g]=[c,x];} else if (h<120){[r,g]=[x,c];} else if (h<180){[g,b]=[c,x];} else if (h<240){[g,b]=[x,c];} else if (h<300){[r,b]=[x,c];} else {[r,b]=[c,x];} return [r,g,b].map((x)=>(x+m)*255|0);};function pick(...vs){return vs[ri(0,vs.length-1)];};function hash(i){var s=floor(i);/*var s=i*747796405+2891336453;*/var w=((s>>((s>>28)+4))^s)*277803737;return (w>>22)^w;};
+function viz_track(s=20,cl=false){vbank(1);if(cl){cls();};pix(0,0,11);pix(s,0,11);line(0,1,s*2,1,0);line(0,2,s*2,2,0);pix(le*s,1,12);pix(he*s,2,13);vbank(0);}
+he=0
+le=0
+/* Finkel's Prelude:
+
+min,max,abs,floor,pow,sin,cos,rnd
+pi,tau,sqrt,hash
+
+lerp,lin,uf,ri,clamp,ss,range,hsv2rgb
+
+pick
+*/
+
+function track(){
+ damp=clamp(0,1,time()/1000)
+ le=max(le,fft(2,4)*0.5*damp)
+ le*=0.9
+ he=max(he,fft(200,250)*1.5*damp)
+ he*=0.85
+}
+
+function BOOT(){
+ cls(0)
+ i=3
+ poke(PALETTE+3*i+0,255)
+ poke(PALETTE+3*i+1,140)
+ poke(PALETTE+3*i+2,160)
+}
+
+class P{
+ constructor(x,y){
+  this.x=x
+  this.y=y
+  this.vx=4
+  this.vy=8
+ }
+
+ step(){
+  let dt=0.03
+
+  let dx=lpx-this.x
+  let dy=lpy-this.y
+  this.vx+=dx*dt
+  this.vy+=dy*dt
+  let damp=0.99
+  this.vx*=damp
+  this.vy*=damp
+  this.x+=this.vx*dt
+  this.y+=this.vy*dt
+
+  let bounce=-0.5
+  if(this.x<0){
+   this.x*=-1
+   this.vx*=bounce
+  }
+  if(this.x>W){
+   this.x=2*W-this.x
+   this.vx*=bounce
+  }
+  if(this.y<0){
+   this.y*=-1
+   this.vy*=bounce
+  }
+  if(this.y>H){
+   this.y=2*H-this.y
+   this.vy*=bounce
+  }
+ }
+ collide(o){
+  let dx=o.x-this.x
+  let dy=o.y-this.y
+  let distsq=dx*dx+dy*dy
+  if(distsq>30){
+   return
+  }
+  let dist=sqrt(distsq)
+
+  let sc=10
+
+  this.vx=-dx*sc
+  o.vx=dx*sc
+  this.vy=-dy*sc
+  o.vy=dy*sc
+
+ }
+}
+
+N=20
+ps=range(N).map(n=>{
+ return new P(uf(0,W),uf(0,H))
+})
+
+lpx=0
+lpy=0
+clpx=0
+clpy=0
+frc=0
+function TIC(){
+ rr=30
+ r=sin(time()/1000)*rr
+ if(frc%150==0){
+  clpx=uf(rr,W-rr)
+  clpy=uf(rr,H-rr)
+ }
+ t=time()/300
+ lpx=clpx+cos(t)*r
+ lpy=clpy+sin(t*1.2)*r
+ cls(0)
+ vbank(1)
+ cls(0)
+ circ(lpx,lpy,3,2)
+ circ(lpx,lpy,1,12)
+ vbank(0)
+
+ ps.forEach((p,i)=>{
+ dx=lpx-p.x
+ dy=lpy-p.y
+ dist=sqrt(dx*dx+dy*dy)
+ th=Math.atan2(dy,dx)+tau/4
+ body=[
+ [2,5],
+ [2,-5],
+ [-2,-5],
+ [-2,5],
+ ]
+ .map(add(0,5))
+
+ common=pts=>pts
+  .map(scale(1.3))
+  .map(rot(th))
+  .map(add(p.x,p.y))
+
+ head=[
+  [1,1],
+  [1,-1],
+  [-1,-1],
+  [-1,1],
+ ]
+ .map(add(0,-1))
+ .map(scale(1.5))
+
+ leg=[
+  [-1,1],
+  [7,1],
+  [7,-1],
+  [-1,-1],
+ ]
+ .map(mul(1,0.5))
+
+ jit=lin(0,100,0.2,2.2,dist)
+ blth=uf(-1,1)*jit
+ len=lin(0,jit,0.5,0.8,abs(blth))
+ blen=len
+
+ bl=leg
+  .map(mul(blen,1))
+  .map(rot(blth))
+  .map(add(1,9))
+ br=leg
+  .map(mul(blen,1))
+  .map(rot(tau/2))
+  .map(rot(blth))
+  .map(add(-1,9))
+
+ reach=dist<30?tau/4:0
+ jit=lin(0,100,0.2,2.2,dist)
+ flth=uf(-1,1)*jit
+ len=lin(0,jit,0.5,0.8,abs(flth))
+ flen=dist<30?1.1:len
+
+ fl=leg
+  .map(mul(flen,1))
+  .map(rot(-reach))
+  .map(rot(flth))
+  .map(add(1,1))
+ fr=leg
+  .map(mul(flen,1))
+  .map(rot(reach))
+  .map(rot(flth))
+  .map(rot(tau/2))
+  .map(add(-1,1))
+
+ tail=leg
+ .map(rot(tau/4))
+ .map(add(0,10))
+
+ offset=1
+ box(common(bl),2+i*offset)
+ box(common(br),2+i*offset)
+ box(common(fl),2+i*offset)
+ box(common(fr),2+i*offset)
+ box(common(body),3+i*offset)
+ box(common(head),3+i*offset)
+ box(common(tail),3+i*offset)
+
+ p.step()
+ })
+ for(i=0;i<N-1;i++){
+  for(j=i+1;j<N;j++){
+   ps[i].collide(ps[j])
+  }
+ }
+ frc++
+}
+
+function box(pts,col=12){
+ tri(...pts[0],...pts[1],...pts[2],col)
+ tri(...pts[0],...pts[2],...pts[3],col)
+}
+
+function rot(a){
+ return v=>{
+ return [cos(a)*v[0]-sin(a)*v[1],sin(a)*v[0]+cos(a)*v[1]]
+ }
+}
+
+function scale(s){
+ return v=>[v[0]*s,v[1]*s]
+}
+
+function add(a,b){
+ return v=>[v[0]+a,v[1]+b]
+}
+
+function mul(a,b){
+ return v=>[v[0]*a,v[1]*b]
+}

@@ -1,0 +1,63 @@
+#version 420 core
+
+uniform float fGlobalTime; // in seconds
+uniform vec2 v2Resolution; // viewport resolution (in pixels)
+uniform float fFrameTime; // duration of the last frame, in seconds
+
+uniform sampler1D texFFT; // towards 0.0 is bass / lower freq, towards 1.0 is higher / treble freq
+uniform sampler1D texFFTSmoothed; // this one has longer falloff and less harsh transients
+uniform sampler1D texFFTIntegrated; // this is continually increasing
+uniform sampler2D texPreviousFrame; // screenshot of the previous frame
+uniform sampler2D texChecker;
+uniform sampler2D texNoise;
+uniform sampler2D texTex1;
+uniform sampler2D texTex2;
+uniform sampler2D texTex3;
+uniform sampler2D texTex4;
+
+layout(r32ui) uniform coherent uimage2D[3] computeTex;
+layout(r32ui) uniform coherent uimage2D[3] computeTexBack;
+
+layout(location = 0) out vec4 out_color; // out_color must be written in order to see anything
+
+vec4 plas( vec2 v, float time )
+{
+  float taikavakio = 0.1;
+	float c = 0.5 + sin( v.x * 10.0 ) + cos( sin( time + v.y ) * 20.0 );
+	return taikavakio * vec4( sin(c * 0.2 + cos(time)), c * 0.15, cos( c * 0.1 + time / .4 ) * .25, 1.0 );
+}
+void main(void)
+{
+	vec2 uv = vec2(gl_FragCoord.x / v2Resolution.x, gl_FragCoord.y / v2Resolution.y);
+	uv -= 0.5;
+	uv /= vec2(v2Resolution.y / v2Resolution.x, 1);
+//moi :3
+
+  
+  
+	vec2 m;
+	m.x = sin(uv.x / uv.y) / 3.14;
+	m.y = cos(fGlobalTime * texture(texFFTSmoothed, 0).r * 0.05) / length(uv) * .2;
+	vec2 oldm = m;
+  float schmoltime = fGlobalTime * 0.2;
+  float fft = pow(texture(texFFT, 0).r,2) + 0.3;
+  m.x = (oldm.x * sin(schmoltime) + oldm.y * cos(schmoltime)) * fft;
+  m.y = (oldm.x * cos(schmoltime) + oldm.y * -sin(schmoltime)) * fft;  
+  float d = m.y * m.x;
+
+  uv -= texture(texNoise, vec2(0,0)).xy * fft;
+  
+  //if(uv.x > 0){uv.x = uv.x * fft;}
+  //else{uv.x -= fft * schmoltime;}
+  
+	float f = texture( texFFTSmoothed, d ).r * 100;
+	m.x += sin( fGlobalTime ) * 0.1;
+	m.y += fGlobalTime * 0.25;
+
+  float taikuus = 64;
+  m = round(m*taikuus) / taikuus;
+  
+	vec4 t = plas( m * 3.14, fGlobalTime ) / d;
+	t = clamp( t, 0.0, 1.0 );
+	out_color = f + t*20;
+}

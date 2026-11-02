@@ -1,0 +1,112 @@
+{
+    "title": "Solskogen",
+    "started": "2016-07-15",
+    "date": "15 - 16 July 2016",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/livecoding-bonzomatic-setup.zip",
+            "version": "",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Semi #1",
+            "vod": "https://youtu.be/1KxkiKK4EBc?t=3",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 4,
+                    "handle": {
+                        "name": "urs",
+                        "demozoo_id": 3960
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2016_07_15_shader_showdown_solskogen/semifinal1-urs.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/semifinal1-urs.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 36,
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": 18
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2016_07_15_shader_showdown_solskogen/semifinal1-ferris.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/semifinal1-ferris.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Semi #2",
+            "vod": "https://www.youtube.com/watch?v=FwhfnaiUNhA",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 25,
+                    "handle": {
+                        "name": "Tapped",
+                        "demozoo_id": 21271
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2016_07_15_shader_showdown_solskogen/semifinal2-tapped.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/semifinal2-tapped.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 23,
+                    "handle": {
+                        "name": "Blueberry",
+                        "demozoo_id": 116
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2016_07_15_shader_showdown_solskogen/semifinal2-blueberry.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/semifinal2-blueberry.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=C81wsETr3Pc",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": 16,
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": 18
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2016_07_15_shader_showdown_solskogen/final-ferris.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/final-ferris.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": 31,
+                    "handle": {
+                        "name": "Tapped",
+                        "demozoo_id": 21271
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2016_07_15_shader_showdown_solskogen/final-tapped.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2016/solskogen16/livecoding/final-tapped.glsl"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 2822
+}

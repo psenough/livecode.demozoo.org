@@ -1,0 +1,126 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2026-05-11",
+    "date": "11 May 2026",
+    "type": "Shaderbyte",
+    "website": "",
+    "flyer": "",
+    "vod": "https://scenesat.com/video-recordings/5KGYXt",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.2.0-vqt-b2",
+            "version": "tic80showdown Alice fork v0.2.0-vqt-b2",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "borisvanschooten",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_05_11_shaderbyte_monday_night_bytes/borisvanschooten.png",
+                    "source_file": "/shader_file_sources/2026_05_11_shaderbyte_monday_night_bytes/borisvanschooten.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "canmom",
+                        "demozoo_id": 148063
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_05_11_shaderbyte_monday_night_bytes/canmom.jpg",
+                    "source_file": "/shader_file_sources/2026_05_11_shaderbyte_monday_night_bytes/canmom.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_05_11_shaderbyte_monday_night_bytes/jtruk.gif",
+                    "source_file": "/shader_file_sources/2026_05_11_shaderbyte_monday_night_bytes/jtruk.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Lex",
+                        "demozoo_id": 136849
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_05_11_shaderbyte_monday_night_bytes/lex.png",
+                    "source_file": "/shader_file_sources/2026_05_11_shaderbyte_monday_night_bytes/lex.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "MutzBunny",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_05_11_shaderbyte_monday_night_bytes/mutzbunny.gif",
+                    "source_file": "/shader_file_sources/2026_05_11_shaderbyte_monday_night_bytes/mutzbunny.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "CaelBun",
+                        "demozoo_id": null
+                    },
+                    "job": "DJ"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "RaccoonViolet",
+                "demozoo_id": 90373
+            },
+            "job": "Organizer"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

@@ -1,0 +1,170 @@
+// script:  js
+W=240;H=136;SZ=W*H;MW=W/2;MH=H/2;
+PALETTE=0x3fc0;SCREEN=0x0000;HOFFSET=0x3ff9;abs=Math.abs;floor=Math.floor;max=Math.max;min=Math.min;sin=Math.sin;cos=Math.cos;rnd=Math.random;pow=Math.pow;sqrt=Math.sqrt;pi=Math.PI;tau=pi*2;function lerp(a,b,t){return a+(b-a)*t};function lin(sx,ex,sy,ey,t,cl=false){if (cl) {t=clamp(sx,ex,t);};return lerp(sy,ey,(t-sx)/(ex-sx))};function uf(a,b){return lerp(a,b,rnd())};function ri(mn,mx){return mn+floor(rnd()*(mx-mn+1))};function clamp(mn,mx,t){return max(min(mx,t),mn)};function ss(x){x=clamp(0,1,x);return x*x*(3.0-2.0*x)};function range(n){return Array.from(Array(n)).map((_,i)=>i)};function hsv2rgb(h,s,v){var h=(h%360); if (h<0){h=(h+360)%360;} let c=v*s; let x=c*(1-abs(((h/60)%2)-1)); let m=v-c; let [r,g,b]=[0,0,0]; if (h<60){[r,g]=[c,x];} else if (h<120){[r,g]=[x,c];} else if (h<180){[g,b]=[c,x];} else if (h<240){[g,b]=[x,c];} else if (h<300){[r,b]=[x,c];} else {[r,b]=[c,x];} return [r,g,b].map((x)=>(x+m)*255|0);};function pick(...vs){return vs[ri(0,vs.length-1)];};function hash(i){var s=floor(i);/*var s=i*747796405+2891336453;*/var w=((s>>((s>>28)+4))^s)*277803737;return (w>>22)^w;};
+function viz_track(s=20,cl=false){vbank(1);if(cl){cls();};pix(0,0,11);pix(s,0,11);line(0,1,s*2,1,0);line(0,2,s*2,2,0);pix(le*s,1,12);pix(he*s,2,13);vbank(0);}
+he=0
+le=0
+/* Finkel's Prelude:
+
+min,max,abs,floor,pow,sin,cos,rnd
+pi,tau,sqrt,hash
+
+lerp,lin,uf,ri,clamp,ss,range,hsv2rgb
+pick
+*/
+
+
+function track(){
+ damp=clamp(0,1,time()/1000)
+ le=max(le,fft(2,4)*0.5*damp)
+ le*=0.9
+ he=max(he,fft(200,250)*1.5*damp)
+ he*=0.85
+}
+
+fr=0
+class P{
+ constructor(x,y){
+  this.x=x
+  this.y=y
+  this.vx=uf(-5,5)
+  this.vy=uf(-5,5)
+  this.th=0
+  this.vth=0
+  this.interval=ri(10,50)
+  this.interval2=ri(60,100)
+ }
+ 
+ step(){
+  let dt=0.1
+  let x=this.x
+  let y=this.y
+  let t=time()/1000
+  
+  var ax=sin(x/30+t)+cos(y/60+t*2)
+  var ay=sin(x/60+y/20+t*2)
+  
+  this.vx+=ax*dt
+  this.vx-=this.vx*0.01
+  this.x+=this.vx*dt
+  this.vy+=ay*dt
+  this.vy-=this.vy*0.01
+  this.y+=this.vy*dt
+  
+  if(fr%this.interval2==0){
+   this.vx+=uf(-1,1)*30
+   this.vy+=uf(-1,1)*30
+  }
+  
+  if(fr%this.interval==0){
+   this.vth+=uf(-1,1)*10
+  }
+  this.th+=this.vth*dt
+  this.vth*=0.95
+  
+  
+  if (x<0){
+   this.x*=-1
+   this.vx*=-1
+  }
+  if (x>W){
+   this.x=2*W-x
+   this.vx*=-1
+  }
+  if (y<0){
+   this.y*=-1
+   this.vy*=-1
+  }
+  if (y>H){
+   this.y=2*H-y
+   this.vy*=-1
+  }
+ }
+}
+N=10
+ps=range(N).flatMap(i=>{
+ return range(N).map(j=>new P(
+  lin(0,N-1,0,W,i),
+  lin(0,N-1,0,H,j),
+ ))
+})
+
+
+function BOOT(){
+ cls(0)
+}
+function TIC(){
+ hue=time()/1000/3
+ sat=lin(-1,1,0,1,sin(time()/1000))
+ vbank(1)
+ make_pal(hue,sat)
+ vbank(0)
+ make_pal(hue,sat)
+	track()
+	viz_track(10,true)
+	
+	ps.forEach(p=>{
+	 //circ(p.x,p.y,5,12)
+		vsq=p.vx*p.vx+p.vy*p.vy
+		v=sqrt(vsq)
+		//v=vsq
+		wobble=uf(0.5,1.5)
+		r=3+v*wobble/2
+		th=p.th
+		x1=p.x+r*cos(0+th)
+		y1=p.y+r*sin(0+th)
+		x2=p.x+r*cos(tau/3+th)
+		y2=p.y+r*sin(tau/3+th)
+		x3=p.x+r*cos(tau/3*2+th)
+		y3=p.y+r*sin(tau/3*2+th)
+		vbank(1)
+		c=lin(0,p.interval2,14,1,fr%p.interval2)
+		tri(x1,y1,x2,y2,x3,y3,c)
+		trib(x1,y1,x2,y2,x3,y3,15)
+		vbank(0)
+		tri(x1,y1,x2,y2,x3,y3,15)
+		p.step()
+	})
+	for(i=0;i<SZ;i++){
+	 c=peek4(i)
+		if(c>5 && rnd()>0.5){
+		 poke4(i,c-2)
+		}
+		if(c>0 && c<=5 && rnd()>0.7){
+		 poke4(i,c-1)
+		}
+		if(c>3 && c<10 && rnd()>0.99){
+		 poke4(i,15)
+			spoke4(i+1,10)
+			spoke4(i-1,10)
+			spoke4(i+W,10)
+			spoke4(i-W,10)
+		}
+	}
+	fr++
+}
+
+function spoke4(c,i){
+ if (c>=0 && c<SZ){
+  poke4(c,i)
+ }
+}
+
+function make_pal(hue,sat){
+ let t=hue
+ let rmin=lin(0,1,1,0.5,sat)
+ let rmax=lin(0,1,1,2,sat)
+ let r=lin(-1,1,rmin,rmax,sin(t))
+ let g=lin(-1,1,rmin,rmax,sin(t+tau/3))
+ let b=lin(-1,1,rmin,rmax,sin(t+tau/3*2))
+ range(16).flatMap(i=>{
+  let x=i/15.0
+  return [
+   pow(x,r)*255,
+   pow(x,g)*255,
+   pow(x,b)*255,
+  ]
+ }).forEach((c,i)=>{
+  poke(PALETTE+i,c)
+ })
+}

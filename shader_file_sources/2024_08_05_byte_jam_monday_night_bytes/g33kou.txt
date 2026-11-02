@@ -1,0 +1,17 @@
+# script:python
+from math import sin,cos
+t_c=[]
+for i in range(0,10):
+  for j in range(0,10):
+    t_c.append((-120+i*25,-120+j*25,i))
+a=0
+def TIC():
+  global t_c,a
+  cls()
+  for i in t_c:
+    x=round(i[0]*cos(a)-i[1]*sin(a)+120)
+    y=round(i[0]*sin(a)+i[1]*cos(a)+68)
+    r=round(min(30,fft(0,20)*2.5))
+    circ(x,y,r,i[2])
+    circb(x,y,r,i[2]+1)
+  a+=fft(300,400)/100

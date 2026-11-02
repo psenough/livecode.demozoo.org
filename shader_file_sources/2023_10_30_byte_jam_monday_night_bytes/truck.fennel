@@ -1,0 +1,109 @@
+;; script: fennel
+;; So... basically: I can't edit, so...
+;; hi!
+;; we'll TRY this but it likely isn't working
+;; yes I just spent 3 hours fixing the build as it
+;; was missing fft functionality, kiitos megabates
+;; for fixing that
+;; oh it doesn't knowhat fennel is  now?
+;; ok now it knows fennel
+
+(global ms math.sin)
+(global mc math.cos)
+(global mt math.tan)
+(global mf math.floor)
+(global pi math.pi)
+(global rnd math.random)
+
+;; ok well at least we've got that going
+;; so yes um let's um... orange something
+;; no I haven't touched tic80 in 8 months
+
+(fn _G.TIC []
+;; ok let's just do basic black background
+ (cls 0)
+ ;; we'll try to put the crap here
+ ;; no we're not able to type again.
+ 
+ ;; well before the next thing I wille sure
+ ;; we have a functional thing WITH the ability
+ ;; to actually move around the source code
+ (global t (/ (time) 12800))
+ (global c 0)
+ (global p1 1)
+ (global p2 2)
+ (global p3 3)
+ (global p4 4)
+ (circ 120 68 (* (rnd) 100) (+ 14 (* (rnd) 2)))
+
+ (for [x 0 240 2]
+  (for [y 0 136 2]
+;   (pix x y (* (- 120 (* (mc t) x)) (* (ms t) y) t) >> 3)
+     
+   (pix (+ x 3) y p1)
+   (pix (- x 1) (+ y 1) p2)
+   (pix x (+ y 1) p3)
+; this isn't a very good feedback thing but oh well
+   (global p1 (pix x y))
+   (global p2 (+ p1 (pix x+1 y)))
+   (global p3 (+ p2 (pix x+1 y+1)))
+   (global p4 (+ (- p2 p3) (pix x y+1)))
+   )
+  )
+;; we'll kill off the glitches at the top
+ (rect 0 0 240 2 0) 
+ 
+ 
+;; and some green ground or something
+ (rect 0 100 240 136 6)
+;; yes I forgot how rectangles work
+ (for [i 0 240 5 ]
+ ;; this non-DRY stuff is killing me
+  (line (+ 0 i ) 110 (+ 3 i ) 100 4)
+  (line (+ 6 i ) 120 (+ 3 i ) 126 4)
+  (line (+ 1 i ) 115 (+ 2 i ) 118 4)
+  (line (+ 1 i ) 115 (+ 2 i ) 118 4)
+  (line (+ 4 i ) 125 (+ 0 i ) 130 4)
+  ;; heh I forgot rpn for a second
+  ;; and not having proper key movement is really annoying
+  ;; and my network dropped apparently
+  
+  ;; ok that's enough let's just do the damned pumkin
+  
+  ;; right we want to do this around a circle thing, ish
+  (for [i 0 (* 2 pi) (/ (* 2 pi) 12) ] 
+  ;; why is this not centered
+  ;; got a bit distracted with being told that we are
+  ;; "spamming" in the tic80 channel, and ... "nope.gif"
+  ;; close enough
+   (elli (+ 125 (* (ms i) 30 ))
+    (+ 80 (* (mc i) 10 ))
+    10 20 (+ c 4))
+;    (global c (+ c 1))
+    ; this is not working
+;    (when (c > 2)
+;      (print :hi)
+;      (global c (- c 1))
+;      ) 
+   ;; this isin radians isn't it
+   ;; ok now just put eyes etc on it
+   ;; this sucks anyway and I'm frustrated and not
+   ;; having fun due to the lack of keyboard controls
+			;; ok so now the mouth part I guess
+			(elli 125 90 28 10 0)   
+			(elli 125 85 28 8 4)   
+   
+   ;; wt... well that was embarrasingly long to figure
+   (tri 110 65 105 70 115 70 0)
+   ;; ok seriously ... yay math skills
+   (tri 137 65 142 70 132 70 0)
+   (tri 125 72 120 86 130 86 3)
+   
+   ;; isn't that great? a static thing. right. let's...
+   ;; make some background thing and fight with the
+   ;; cursor keys
+  )
+  )
+ )
+ 
+ 
