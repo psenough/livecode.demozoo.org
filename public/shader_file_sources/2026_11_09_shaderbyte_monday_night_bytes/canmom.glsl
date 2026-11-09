@@ -1,13 +1,7 @@
 #version 430 core
 
-//good evening Sessions!
-//and hello from Scotland!
-//unfortunately Bonzomatic does not have a Japanese font
-//so I will have to write to you in English!
-//excited to be in the jam ^_^
-//yoroshiku onegaishimasu!
-
-//arigatou gozaimasu minnasan!!
+//created at edinburgh hacklab 2026-11-09
+//thanks for having us :3
 
 uniform float fGlobalTime; // in seconds
 uniform vec2 v2Resolution; // viewport resolution (in pixels)
