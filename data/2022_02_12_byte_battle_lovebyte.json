@@ -1,0 +1,373 @@
+{
+    "title": "Lovebyte",
+    "started": "2022-02-12",
+    "date": "11 - 13 February 2022",
+    "type": "Byte Battle",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://tic80.com/",
+            "version": "tic80showdown v062b",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Quarter Final #1",
+            "vod": "https://www.youtube.com/watch?v=lBhDFEGCaEw",
+            "keyword": "Dumplings",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 208,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": 2610,
+                    "source_file": "/shader_file_sources/2022_02_12_byte_battle_lovebyte/quarter_visy.lua",
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/quarter_visy.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 145,
+                    "handle": {
+                        "name": "lynn",
+                        "demozoo_id": 77648
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_12_byte_battle_lovebyte/quarter_lynn.lua",
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/quarter_lynn.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final #2",
+            "vod": "https://www.youtube.com/watch?v=gU9eyMuoVLQ",
+            "keyword": "Birds",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 104,
+                    "handle": {
+                        "name": "jobe",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_12_byte_battle_lovebyte/quarter_jobe.lua",
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/quarter_jobe.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 172,
+                    "handle": {
+                        "name": "pestis",
+                        "demozoo_id": 44058
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_12_byte_battle_lovebyte/quarter_pestis.lua",
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/quarter_pestis.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final #3",
+            "vod": "https://www.youtube.com/watch?v=2JkD6JtzTW0",
+            "keyword": "Rainbows",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 192,
+                    "handle": {
+                        "name": "dave84",
+                        "demozoo_id": 127921
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_12_byte_battle_lovebyte/quarter_dave84.lua",
+                    "tic80_cart_id": 2604,
+                    "preview_image": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 188,
+                    "handle": {
+                        "name": "pancelor",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null,
+                    "tic80_cart_id": 2654,
+                    "preview_image": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final #4",
+            "vod": "https://www.youtube.com/watch?v=BRS68kgYOf0",
+            "keyword": "Psycho Clock",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 193,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_12_byte_battle_lovebyte/quarter_totetmatt.lua",
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/quarter_totetmatt.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 159,
+                    "handle": {
+                        "name": "dresdenboy",
+                        "demozoo_id": 64936
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_12_byte_battle_lovebyte/quarter_dresdenboy.lua",
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/quarter_dresdenboy.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final #1",
+            "vod": null,
+            "keyword": "Yurt",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 115,
+                    "handle": {
+                        "name": "visy",
+                        "demozoo_id": 1301
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_12_byte_battle_lovebyte/semi_visy.lua",
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/semi_visy.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 171,
+                    "handle": {
+                        "name": "pestis",
+                        "demozoo_id": 44058
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_12_byte_battle_lovebyte/semi_pestis.lua",
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/semi_pestis.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final #2",
+            "vod": null,
+            "keyword": "Clouds",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 138,
+                    "handle": {
+                        "name": "dave84",
+                        "demozoo_id": 127921
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_12_byte_battle_lovebyte/semi_dave84.lua",
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/semi_dave84.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 99,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_12_byte_battle_lovebyte/semi_totetmatt.lua",
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/semi_totetmatt.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": null,
+            "keyword": "Falling",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 272,
+                    "handle": {
+                        "name": "pestis",
+                        "demozoo_id": 44058
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_12_byte_battle_lovebyte/final_pestis.lua",
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/final_pestis.gif"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 145,
+                    "handle": {
+                        "name": "dave84",
+                        "demozoo_id": 127921
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2022_02_12_byte_battle_lovebyte/final_dave84.lua",
+                    "preview_image": "2022_02_12_byte_battle_lovebyte/final_dave84.gif"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "superogue",
+                        "demozoo_id": 617
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4378
+}

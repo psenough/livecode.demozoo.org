@@ -1,0 +1,510 @@
+{
+    "title": "Revision Online",
+    "started": "2021-04-02",
+    "date": "02 - 05 April 2021",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Quarter Final 1",
+            "vod": "https://www.youtube.com/watch?v=gKmHg5Y9arM",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "anticore",
+                        "demozoo_id": 117325
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/sdjGWm",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_anticore.jpg",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_quarters/anticore.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "LechugaFeliz",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_lechugafeliz.jpg",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_quarters/lechugafeliz.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ronny",
+                        "demozoo_id": 355
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "Diffty",
+                        "demozoo_id": 88962
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final 2",
+            "vod": "https://www.youtube.com/watch?v=gKmHg5Y9arM",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/7sS3WD",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_blackle.jpg",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_quarters/blackle.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "cosamentale",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/ss2GDw",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_cosamentale.jpg",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_quarters/cosamentale.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "h0ffman",
+                        "demozoo_id": 1525
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "Diffty",
+                        "demozoo_id": 88962
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final 3",
+            "vod": "https://www.youtube.com/watch?v=gKmHg5Y9arM",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/6ceIHFLMaJHE2ogyGcbD",
+                    "shadertoy_url": "https://www.shadertoy.com/view/7dBGRc",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_evvvvil.jpg",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_quarters/evvvvil.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "monsieursoleil",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_monsieursoleil.jpg",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_quarters/monsieursoleil.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ronny",
+                        "demozoo_id": 355
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "Diffty",
+                        "demozoo_id": 88962
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final 4",
+            "vod": "https://www.youtube.com/watch?v=gKmHg5Y9arM",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_flopine.jpg",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_quarters/flopine.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": 113559
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/qf_wrighter.jpg",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_quarters/wrighter.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ronny",
+                        "demozoo_id": 355
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "Diffty",
+                        "demozoo_id": 88962
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final 1",
+            "vod": "https://www.youtube.com/watch?v=NBdRfFwuP40",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/NdjGDm",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_semis/blackle.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "anticore",
+                        "demozoo_id": 117325
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_semis/anticore.glsl",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/sf_anticore.jpg"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ronny",
+                        "demozoo_id": 355
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "Diffty",
+                        "demozoo_id": 88962
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final 2",
+            "vod": "https://www.youtube.com/watch?v=NBdRfFwuP40",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+
+                    "poshbrolly_url":"https://www.poshbrolly.net/shader/PwKaiF5tj9Hzh6BrSWIh",
+                    "shadertoy_url": "https://www.shadertoy.com/view/fdSGWw",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_semis/evvvvil.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_semis/flopine.glsl",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/sf_flopine.jpg"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "ronny",
+                        "demozoo_id": 355
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "Diffty",
+                        "demozoo_id": 88962
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=6dZDmlciEas",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "blackle",
+                        "demozoo_id": 79215
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/7s23DD",
+                    "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_final/blackle.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2021_04_02_shader_showdown_revision_online/showdown_final/evvvvil.glsl",
+                    "preview_image": "2021_04_02_shader_showdown_revision_online/f_evvvvil.jpg"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "Diffty",
+                        "demozoo_id": 88962
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "okkie",
+                        "demozoo_id": 3049
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": 113559
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Diffty",
+                "demozoo_id": 88962
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4191
+}

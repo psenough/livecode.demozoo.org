@@ -1,0 +1,2 @@
+t=0o=math.cos
+TIC=load"t=t+.01 for p=0,32640 do poke4(p,p/(29+t/3.14%2))end for i=0,14 do z=15p=120q=68r=p s=q u=o(t+1.4)/4w=6.28*(o(t)+i/15)for j=0,9 do r=r+z*o(w-j*u-11)s=s+z*o(w-j*u)line(p,q,r,s,i+1)circ(p,q,3+2*o(4*t+j),j+9*t)p,q,z=r,s,z*.9 end end"

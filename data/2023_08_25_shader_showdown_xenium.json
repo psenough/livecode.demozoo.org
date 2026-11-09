@@ -1,0 +1,223 @@
+{
+    "title": "Xenium",
+    "started": "2023-08-25",
+    "date": "25 - 27 August 2023",
+    "type": "Shader Showdown",
+    "website": "https://xenium.rocks/en/results",
+    "flyer": "",
+    "vod":"https://scenesat.com/videoarchive/11002d9a-3640-11ee-931f-00505685775e#show-11002d9a-3640-11ee-931f-00505685775e",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/Gargaj/Bonzomatic/releases/tag/2023-06-15",
+            "version": "Gargaj - 2023-06-15",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Shadertoy",
+            "url": "https://www.shadertoy.com/",
+            "version": "",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Stage 1.1",
+            "vod": "https://scenesat.com/videoarchive/0eafeeb9-44e3-11ee-931f-00505685775e?t=57047#show-0eafeeb9-44e3-11ee-931f-00505685775e",
+            "entries": [
+               
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "klos",
+                        "demozoo_id": 88858
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_25_shader_showdown_xenium/shaderKlos.jpg",
+                    "source_file": "/shader_file_sources/2023_08_25_shader_showdown_xenium/shaderKlos.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "citrus",
+                        "demozoo_id": 21647
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_25_shader_showdown_xenium/shaderCitrus.jpg",
+                    "source_file": "/shader_file_sources/2023_08_25_shader_showdown_xenium/shaderCitrus.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "xcopy",
+                        "demozoo_id": 126127
+                    },
+                    "job": "DJ Set"
+                },
+                {
+                    "handle": {
+                        "name": "bonzaj",
+                        "demozoo_id": 5955
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        },
+        {
+            "title": "Stage 1.2",
+            "vod": "https://scenesat.com/videoarchive/0eafeeb9-44e3-11ee-931f-00505685775e?t=58483#show-0eafeeb9-44e3-11ee-931f-00505685775e",
+            "entries": [
+               
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "kk",
+                        "demozoo_id": 1027
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_25_shader_showdown_xenium/shaderKK_stage1.DX11.jpg",
+                    "source_file": "/shader_file_sources/2023_08_25_shader_showdown_xenium/shaderKK_stage1.DX11.hlsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "maq",
+                        "demozoo_id": 3833
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_25_shader_showdown_xenium/shaderMaq.jpg",
+                    "source_file": "/shader_file_sources/2023_08_25_shader_showdown_xenium/shaderMaq.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "xcopy",
+                        "demozoo_id": 126127
+                    },
+                    "job": "DJ Set"
+                },
+                {
+                    "handle": {
+                        "name": "bonzaj",
+                        "demozoo_id": 5955
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        },
+        {
+            "title": "Final Stage",
+            "vod": "https://scenesat.com/videoarchive/0eafeeb9-44e3-11ee-931f-00505685775e?t=60181#show-0eafeeb9-44e3-11ee-931f-00505685775e",
+            "entries": [
+               
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "kk",
+                        "demozoo_id": 1027
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_25_shader_showdown_xenium/shaderKK_stage2.DX11.jpg",
+                    "source_file": "/shader_file_sources/2023_08_25_shader_showdown_xenium/shaderKK_stage2.DX11.hlsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "citrus",
+                        "demozoo_id": 21647
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_25_shader_showdown_xenium/shaderCitrus.jpg",
+                    "source_file": "/shader_file_sources/2023_08_25_shader_showdown_xenium/shaderCitrus.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "xcopy",
+                        "demozoo_id": 126127
+                    },
+                    "job": "DJ Set"
+                },
+                {
+                    "handle": {
+                        "name": "bonzaj",
+                        "demozoo_id": 5955
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        },
+        {
+            "title": "Hidden Bonus Stage",
+            "vod": "https://scenesat.com/videoarchive/0eafeeb9-44e3-11ee-931f-00505685775e?t=61625#show-0eafeeb9-44e3-11ee-931f-00505685775e",
+            "entries": [
+               
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "bonzaj+chatgptv4",
+                        "demozoo_id": 5955
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "kk",
+                        "demozoo_id": 1027
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2023_08_25_shader_showdown_xenium/shaderKK_stage3.DX11.jpg",
+                    "source_file": "/shader_file_sources/2023_08_25_shader_showdown_xenium/shaderBonzajGPT.dx11.hlsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "xcopy",
+                        "demozoo_id": 126127
+                    },
+                    "job": "DJ Set"
+                },
+                {
+                    "handle": {
+                        "name": "bonzaj",
+                        "demozoo_id": 5955
+                    },
+                    "job": "Commentator"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "arabek",
+                "demozoo_id": 34891
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4525
+}

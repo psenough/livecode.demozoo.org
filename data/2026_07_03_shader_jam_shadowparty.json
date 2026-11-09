@@ -1,0 +1,270 @@
+{
+    "title": "Shadowparty",
+    "started": "2026-07-03",
+    "date": "2026-07-03",
+    "type": "Shader Jam",
+    "website": "https://shadow-party.org/",
+    "flyer": "",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aart1256",
+                        "demozoo_id": 144487
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_aart1256.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_aart1256.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Alikae",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_Alikae.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_Alikae.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Damien",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_Damien.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_Damien.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "demisel",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_demisel.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_demisel.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "DmaSc",
+                        "demozoo_id": 2568
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_DmaSc.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_DmaSc.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "efemmerae",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_efemmerae.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_efemmerae.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "javelfraise",
+                        "demozoo_id": 155845
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_javelfraise.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_javelfraise.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "lamogui",
+                        "demozoo_id": 71129
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_lamogui.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_lamogui.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "m4v",
+                        "demozoo_id": 139690
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_m4v.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_m4v.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Marex",
+                        "demozoo_id": 131937
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_Marex.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_Marex.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "nibble",
+                        "demozoo_id": 158124
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_nibble.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_nibble.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "pouale",
+                        "demozoo_id": 143226
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_pouale.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_pouale.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "PulkoMandy",
+                        "demozoo_id": 12163
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_PulkoMandy.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_PulkoMandy.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rubix",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_rubix.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_rubix.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_totetmatt.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "velimir",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_velimir.jpg",
+                    "source_file": "/shader_file_sources/2026_07_03_shader_jam_shadowparty/grabber_shadowparty5_velimir.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+                
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 5507
+}

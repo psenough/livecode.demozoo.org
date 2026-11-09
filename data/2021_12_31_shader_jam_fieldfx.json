@@ -1,0 +1,118 @@
+{
+    "title": "Field-FX Silvester",
+    "started": "2021-12-31",
+    "date": "31 December 2021",
+    "type": "Shader Jam",
+    "website": "https://field-fx.party/",
+    "flyer": "",
+    "vod": "https://youtu.be/Lz3z6gQCokY?t=10801",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v12",
+            "version": "NuSan - v12",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "0b5vr",
+                        "demozoo_id": 128318
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_12_31_shader_jam_fieldfx/grabber_silvester_0b5vr.jpg",
+                    "source_file": "/shader_file_sources/2021_12_31_shader_jam_fieldfx/grabber_silvester_0b5vr.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "monsieursoleil",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_12_31_shader_jam_fieldfx/grabber_silvester_monsieursoleil.jpg",
+                    "source_file": "/shader_file_sources/2021_12_31_shader_jam_fieldfx/grabber_silvester_monsieursoleil.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "rimina",
+                        "demozoo_id": 56489
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_12_31_shader_jam_fieldfx/grabber_silvester_rimina.jpg",
+                    "source_file": "/shader_file_sources/2021_12_31_shader_jam_fieldfx/grabber_silvester_rimina.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Tater",
+                        "demozoo_id": 130920
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_12_31_shader_jam_fieldfx/grabber_silvester_Tater.jpg",
+                    "source_file": "/shader_file_sources/2021_12_31_shader_jam_fieldfx/grabber_silvester_Tater.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_12_31_shader_jam_fieldfx/grabber_silvester_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2021_12_31_shader_jam_fieldfx/grabber_silvester_totetmatt.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "LynnDrum",
+                        "demozoo_id": 77648
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "reality404",
+                "demozoo_id": 67077
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Crypt",
+                "demozoo_id": 63756
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "aldroid",
+                "demozoo_id": 63755
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4405
+}

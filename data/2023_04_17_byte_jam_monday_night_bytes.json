@@ -1,0 +1,132 @@
+{
+  "title": "Monday Night Bytes",
+  "type": "Byte Jam",
+  "website": "https://field-fx.party",
+  "software_used": [
+    {
+      "name": "TIC-80 FFT Hack",
+      "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+      "version": "tic80showdown FFT Hack v1.0.2",
+      "purpose": "Graphic"
+    }
+  ],
+  "staffs": [
+    {
+      "handle": {
+        "name": "aldroid",
+        "demozoo_id": 63755
+      },
+      "job": "Organizers"
+    }
+  ],
+  "phases": [
+    {
+      "title": "Byte Jam",
+      "vod": "https://www.youtube.com/watch?v=ENNk6Jv94G4",
+      "entries": [
+        {
+          "id": 1,
+          "handle": {
+            "name": "MrSynAckster",
+            "demozoo_id": 130883
+          },
+          "source_file": "/shader_file_sources/2023_04_17_byte_jam_monday_night_bytes/MrSynAckster.lua",
+          "preview_image": "2023_04_17_byte_jam_monday_night_bytes/MrSynAckster.png"
+        },
+        {
+          "id": 2,
+          "handle": {
+            "name": "Kii",
+            "demozoo_id": 135296
+          },
+          "source_file": "/shader_file_sources/2023_04_17_byte_jam_monday_night_bytes/Kii.lua",
+          "preview_image": "2023_04_17_byte_jam_monday_night_bytes/Kii.png"
+        },
+        {
+          "id": 3,
+          "handle": {
+            "name": "Alia",
+            "demozoo_id": 113525
+          },
+          "source_file": "/shader_file_sources/2023_04_17_byte_jam_monday_night_bytes/Alia.lua",
+          "preview_image": "2023_04_17_byte_jam_monday_night_bytes/Alia.png"
+        },
+        {
+          "id": 4,
+          "handle": {
+            "name": "dave84",
+            "demozoo_id": 127921
+          },
+          "source_file": "/shader_file_sources/2023_04_17_byte_jam_monday_night_bytes/dave84.lua",
+          "preview_image": "2023_04_17_byte_jam_monday_night_bytes/dave84.png"
+        },
+        {
+          "id": 5,
+          "handle": {
+            "name": "jtruk",
+            "demozoo_id": 135705
+          },
+          "source_file": "/shader_file_sources/2023_04_17_byte_jam_monday_night_bytes/jtruk.lua",
+          "preview_image": "2023_04_17_byte_jam_monday_night_bytes/jtruk.png"
+        },
+        {
+          "id": 6,
+          "handle": {
+            "name": "NuSan",
+            "demozoo_id": 88839
+          },
+          "source_file": "/shader_file_sources/2023_04_17_byte_jam_monday_night_bytes/NuSan.lua",
+          "preview_image": "2023_04_17_byte_jam_monday_night_bytes/NuSan.png"
+        },
+        {
+          "id": 7,
+          "handle": {
+            "name": "mantratronic",
+            "demozoo_id": 20215
+          },
+          "source_file": "/shader_file_sources/2023_04_17_byte_jam_monday_night_bytes/mantratronic.lua",
+          "preview_image": "2023_04_17_byte_jam_monday_night_bytes/mantratronic.png"
+        },
+        {
+          "id": 8,
+          "handle": {
+            "name": "ToBach",
+            "demozoo_id": 89891
+          },
+          "source_file": "/shader_file_sources/2023_04_17_byte_jam_monday_night_bytes/ToBach.lua",
+          "preview_image": "2023_04_17_byte_jam_monday_night_bytes/ToBach.png"
+        },
+        {
+          "id": 9,
+          "handle": {
+            "name": "superogue",
+            "demozoo_id": 617
+          },
+          "tic80_cart_id": 3497,
+          "source_file": "/shader_file_sources/2023_04_17_byte_jam_monday_night_bytes/superogue.lua",
+          "preview_image": "2023_04_17_byte_jam_monday_night_bytes/superogue.png"
+        }
+      ],
+      "staffs": [
+        {
+          "handle": {
+            "name": "aldroid",
+            "demozoo_id": 63755
+          },
+          "job": "Commentator"
+        },
+        
+        {
+          "handle": {
+              "name": "Lynn Drumm",
+              "demozoo_id": 77648
+          },
+          "job": "Dj Set"
+      }
+      ]
+    }
+  ],
+  "demozoo_party_id": "LCDZFFCM",
+  "started": "2023-04-17",
+  "date": "17 April 2023"
+}

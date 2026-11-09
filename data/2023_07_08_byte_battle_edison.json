@@ -1,0 +1,82 @@
+{
+    "title": "Edison",
+    "started": "2023-07-07",
+    "date": "07 - 09 July 2023",
+    "type": "Byte Battle",
+    "vod": "https://scenesat.com/videoarchive/2f3d093a-1df4-11ee-931f-00505685775e?t=918#show-2f3d093a-1df4-11ee-931f-00505685775e",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "TIC80 Byte Battle",
+            "vod": "https://scenesat.com/videoarchive/2f3d093a-1df4-11ee-931f-00505685775e?t=918#show-2f3d093a-1df4-11ee-931f-00505685775e",
+            "keyword": null,
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": 69,
+                    "handle": {
+                        "name": "jor-el",
+                        "demozoo_id": 115423
+                    },
+                    "shadertoy_url": null,
+                    "tic80_cart_id": null,
+                    "source_file": "/shader_file_sources/2023_07_08_byte_battle_edison/jo-rel.lua",
+                    "preview_image": "2023_07_08_byte_battle_edison/jo-rel.png"
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": 48,
+                    "handle": {
+                        "name": "The Jokerz",
+                        "demozoo_id": 134471,
+                        "members" : [
+                            {
+                                "handle": {
+                                    "name": "Kavvan",
+                                    "demozoo_id": 22922
+                                }
+                            },
+                            {
+                                "handle": {
+                                    "name": "fsFreak",
+                                    "demozoo_id": 7803
+                                }
+                            }
+                        ]
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "/shader_file_sources/2023_07_08_byte_battle_edison/the_jokerz.lua",
+                    "preview_image": "2023_07_08_byte_battle_edison/the_jokerz.png"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Weyland",
+                        "demozoo_id": 33819
+                    },
+                    "job": "DJ Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+         {
+            "handle": {
+                "name": "Weyland",
+                "demozoo_id": 33819
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4524
+}

@@ -1,0 +1,118 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2024-03-18",
+    "date": "18 March 2024",
+    "type": "Shader Jam",
+    "website": "",
+    "flyer": "",
+    "vod":null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Aldroid",
+                        "demozoo_id": 63755
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_18_shader_jam_monday_night_bytes/grabber_iliketea_aldroid.jpg",
+                    "source_file": "/shader_file_sources/2024_03_18_shader_jam_monday_night_bytes/grabber_iliketea_aldroid.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Catnip",
+                        "demozoo_id": 113525
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_18_shader_jam_monday_night_bytes/grabber_iliketea_Catnip.jpg",
+                    "source_file": "/shader_file_sources/2024_03_18_shader_jam_monday_night_bytes/grabber_iliketea_Catnip.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_18_shader_jam_monday_night_bytes/grabber_iliketea_nusan.jpg",
+                    "source_file": "/shader_file_sources/2024_03_18_shader_jam_monday_night_bytes/grabber_iliketea_nusan.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "ompuco",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_18_shader_jam_monday_night_bytes/grabber_iliketea_ompuco.jpg",
+                    "source_file": "/shader_file_sources/2024_03_18_shader_jam_monday_night_bytes/grabber_iliketea_ompuco.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Peregrine",
+                        "demozoo_id": 122747
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_18_shader_jam_monday_night_bytes/grabber_iliketea_peregrine.jpg",
+                    "source_file": "/shader_file_sources/2024_03_18_shader_jam_monday_night_bytes/grabber_iliketea_peregrine.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_03_18_shader_jam_monday_night_bytes/grabber_iliketea_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2024_03_18_shader_jam_monday_night_bytes/grabber_iliketea_totetmatt.glsl"
+                }
+               
+            ],
+            "staffs": [
+                
+                {
+                    "handle": {
+                        "name": "Dj Mallard",
+                        "demozoo_id": null
+                        },
+                    "job": "DJ set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Reality",
+                "demozoo_id": 67077
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

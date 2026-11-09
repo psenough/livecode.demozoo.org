@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Shader jam</title>
+
+<script defer="defer">
+	
+	const HEADER = "#version 300 es\nprecision highp float;precision highp int;precision mediump sampler3D;\n" // from shadertoy. don't know why sampler3D needs an override.
+	+"uniform vec2 iResolution;uniform float iTime;uniform float iTimeDelta;uniform float iFrameRate;";
+	// not done (yet?): iFrameRate, iFrame, iChannelTime[4], iChannelResolution[4], iMouse, iChannel0..3, iDate
+	
+	const FSHBRIDGE = "in vec2 pos_MagicSecretInputName; out vec4 color_MagicSecretOutputName; void mainImage(out vec4 colour, in vec2 position); void main() {mainImage(color_MagicSecretOutputName, pos_MagicSecretInputName);}\n";
+	
+	const SECTION_NAMES = ["fba", "fbb", "fbc", "fbd", "image"];
+	
+	let STOP=false;
+	let gl=null;
+	let cur_programs = {}; // [section name] -> program object
+	let cur_errors = {}; // [section name] -> error text or null
+	let vsh = null;
+	let dummytex = null;
+	let starttime = 0;
+	
+	// Since a buffer script may read from its own output in the last frame, we need one more actual buffer than the number we allow the user to enter,
+	// and we automatically ping-pong.
+	let framebuffers = [null,null,null,null,null];
+
+	let CHANNELMATRIX = {
+		fba: ["null", "null", "null", "null"],
+		fbb: ["null", "null", "null", "null"],
+		fbc: ["null", "null", "null", "null"],
+		fbd: ["null", "null", "null", "null"],
+		image: ["null", "null", "null", "null"],
+	};
+	
+	let CHANNELSETTINGS = {
+		fba: {coords:"pixel"},
+		fbb: {coords:"pixel"},
+		fbc: {coords:"pixel"},
+		fbd: {coords:"pixel"},
+		image: {coords:"pixel"},
+	};
+	
+	function createCubeMap(name, extn) {
+		return function() {
+			const tex = gl.createTexture();
+			gl.bindTexture(gl.TEXTURE_CUBE_MAP, tex);
+			gl.texParameteri(gl.TEXTURE_CUBE_MAP, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+			gl.texParameteri(gl.TEXTURE_CUBE_MAP, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+			gl.texParameteri(gl.TEXTURE_CUBE_MAP, gl.TEXTURE_MAX_LEVEL, 0);
+			
+			for(const [suffix,target] of [
+				["", gl.TEXTURE_CUBE_MAP_POSITIVE_X],
+				["_1", gl.TEXTURE_CUBE_MAP_NEGATIVE_X],
+				["_2", gl.TEXTURE_CUBE_MAP_POSITIVE_Y],
+				["_3", gl.TEXTURE_CUBE_MAP_NEGATIVE_Y],
+				["_4", gl.TEXTURE_CUBE_MAP_POSITIVE_Z],
+				["_5", gl.TEXTURE_CUBE_MAP_NEGATIVE_Z],
+			]) {
+				let img = document.createElement("img");
+				img.src="assets/"+name+suffix+extn;
+				img.onload=function() {
+					//console.log("img.onload",suffix,target);
+					gl.bindTexture(gl.TEXTURE_CUBE_MAP, tex);
+					gl.texImage2D(target, 0, gl.RGBA8, gl.RGBA, gl.UNSIGNED_BYTE, img);
+				};
+				img.onerror=function() {
+					console.log("failed to load assets/"+name+suffix+extn);
+				};
+			}
+			
+			return tex;
+		};
+	}
+	
+	let CHANNEL_STATIC_TEXTURES = {
+		"2dnoise32": {
+			glObject: null,
+			type: "sampler2D",
+			bindingPoint: "TEXTURE_2D",
+			create: function() {
+				const tex = gl.createTexture();
+				gl.bindTexture(gl.TEXTURE_2D, tex);
+				const data = new Uint8Array(4*32*32);
+				for(let i = 0; i < data.byteLength; i++)
+					data[i] = Math.floor(Math.random()*256);
+				gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+				gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+				gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAX_LEVEL, 0);
+				gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA8, 32, 32, 0, gl.RGBA, gl.UNSIGNED_BYTE, data);
+				return tex;
+			},
+		},
+		"2dnoise256": {
+			glObject: null,
+			type: "sampler2D",
+			bindingPoint: "TEXTURE_2D",
+			create: function() {
+				const tex = gl.createTexture();
+				gl.bindTexture(gl.TEXTURE_2D, tex);
+				const data = new Uint8Array(4*256*256);
+				for(let i = 0; i < data.byteLength; i++)
+					data[i] = Math.floor(Math.random()*256);
+				gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+				gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+				gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAX_LEVEL, 0);
+				gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA8, 256, 256, 0, gl.RGBA, gl.UNSIGNED_BYTE, data);
+				return tex;
+			},
+		},
+		"3dnoise32": {
+			glObject: null,
+			type: "sampler3D",
+			bindingPoint: "TEXTURE_3D",
+			create: function() {
+				const tex = gl.createTexture();
+				gl.bindTexture(gl.TEXTURE_3D, tex);
+				const data = new Uint8Array(4*32*32*32);
+				for(let i = 0; i < data.byteLength; i++)
+					data[i] = Math.floor(Math.random()*256);
+				gl.texParameteri(gl.TEXTURE_3D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+				gl.texParameteri(gl.TEXTURE_3D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+				gl.texParameteri(gl.TEXTURE_3D, gl.TEXTURE_MAX_LEVEL, 0);
+				gl.texImage3D(gl.TEXTURE_3D, 0, gl.RGBA8, 32, 32, 32, 0, gl.RGBA, gl.UNSIGNED_BYTE, data);
+				return tex;
+			},
+		},
+		"cubemap_basilica": {
+			glObject: null,
+			type: "samplerCube",
+			bindingPoint: "TEXTURE_CUBE_MAP",
+			create: createCubeMap("488bd40303a2e2b9a71987e48c66ef41f5e937174bf316d3ed0e86410784b919", ".jpg"),
+		},
+		"cubemap_forest": {
+			glObject: null,
+			type: "samplerCube",
+			bindingPoint: "TEXTURE_CUBE_MAP",
+			create: createCubeMap("94284d43be78f00eb6b298e6d78656a1b34e2b91b34940d02f1ca8b22310e8a0", ".png"),
+		},
+		"cubemap_street": {
+			glObject: null,
+			type: "samplerCube",
+			bindingPoint: "TEXTURE_CUBE_MAP",
+			create: createCubeMap("585f9546c092f53ded45332b343144396c0b2d70d9965f585ebc172080d8aa58", ".jpg"),
+		},
+	};
+	
+	const CHANNEL_SOURCES=[
+		["null","None"],
+		["fba","Buffer A"],
+		["fbb","Buffer B"],
+		["fbc","Buffer C"],
+		["fbd","Buffer D"],
+		["2dnoise32","2D Noise (32x32)"],
+		["2dnoise256","2D Noise (256x256)"],
+		["3dnoise32","3D Noise (32x32x32)"],
+		["cubemap_basilica","Cubemap: St Peter's Basilica"],
+		["cubemap_forest","Cubemap: Forest"],
+		["cubemap_street","Cubemap: Uffizi Gallery"],
+	];
+	
+	function make_program_now(sectionName) { // returns new program if successful, or null
+		let fsh = gl.createShader(gl.FRAGMENT_SHADER);
+		let inputSource = document.getElementById("c_shadercode_"+sectionName).value;
+		document.getElementById("c_tab_"+sectionName).classList.remove("error");
+		cur_errors[sectionName] = null;
+		if(inputSource === "") {
+			updateErrorPane(sectionName);
+			return null;
+		}
+		
+		let fullcode = HEADER+FSHBRIDGE;
+		for(let i = 0; i < 4; i++) {
+			let channelInName = CHANNELMATRIX[sectionName][i];
+			if(channelInName == "null")
+				continue;
+			let staticTextureInfo = CHANNEL_STATIC_TEXTURES[channelInName];
+			if(staticTextureInfo) {
+				fullcode += "uniform "+staticTextureInfo.type+" iChannel"+i+";";
+			} else { // framebuffer input
+				fullcode += "uniform sampler2D iChannel"+i+";";
+			}
+		}
+		fullcode += c_shadercode_common.value+"\n"+inputSource;
+			
+		gl.shaderSource(fsh, fullcode);
+		gl.compileShader(fsh);
+		if (!gl.getShaderParameter(fsh, gl.COMPILE_STATUS)) {
+			let info = gl.getShaderInfoLog(fsh);
+			gl.deleteShader(fsh);
+			// TODO: give feedback to the user
+			//console.log("Fragment shader compile failed:", info);
+			
+			document.getElementById("c_tab_"+sectionName).classList.add("error");
+			cur_errors[sectionName] = info;
+			updateErrorPane(sectionName);
+			return null;
+		}
+		
+		let program = gl.createProgram();
+		gl.attachShader(program, fsh);
+		gl.attachShader(program, vsh);
+		gl.deleteShader(fsh); // remains alive while attached to a program
+		gl.linkProgram(program);
+		
+		if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+			let info = gl.getProgramInfoLog(program);
+			gl.deleteProgram(program);
+			program = null;
+			//console.log("Link failed:", info);
+			document.getElementById("c_tab_"+sectionName).classList.add("error");
+			cur_errors[sectionName] = info;
+			updateErrorPane(sectionName);
+			return null;
+		}
+		
+		updateErrorPane(sectionName);
+		return program;
+	}
+	
+	function deleteFB(fb) {
+		gl.deleteFramebuffer(fb.fb);
+		gl.deleteTexture(fb.tex);
+	}
+	
+	function createFB() {
+		let fb = gl.createFramebuffer();
+		let tex = gl.createTexture();
+		
+		gl.bindTexture(gl.TEXTURE_2D, tex);
+		gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAX_LEVEL, 0);
+		// could use gl.RGBA16F or gl.RGBA32F param3 (both required in webgl 2) (then compatible upload format is probably also required)
+		gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA8, c_canvas.width, c_canvas.height, 0, gl.RGBA, gl.UNSIGNED_BYTE, new Uint8Array(c_canvas.width*c_canvas.height*4));
+		
+		gl.bindFramebuffer(gl.FRAMEBUFFER, fb);
+		gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, tex, 0);
+		gl.bindFramebuffer(gl.FRAMEBUFFER, null);
+		
+		return {"fb":fb, "tex":tex, "allocated":null};
+	}
+	
+	function findFramebufferIndex(tag) {
+		for(let i = 0; i < framebuffers.length; i++) {
+			if(framebuffers[i].allocated === tag)
+				return i;
+		}
+		return -1;
+	}
+	function allocateFramebufferTo(tag) {
+		for(let i = 0; i < framebuffers.length; i++) {
+			if(framebuffers[i].allocated === null) {
+				framebuffers[i].allocated = tag;
+				return i;
+			}
+		}
+		throw "all framebuffers allocated (shouldn't happen)"; // can't happen if there is one more framebuffer than renderpass and no bugs in allocation
+	}
+	
+	let LAST_TIME = -1;
+	
+	function render() {
+		if(STOP) return;
+		requestAnimationFrame(render);
+		try {
+			let rect = c_canvas.getBoundingClientRect();
+			let sizeChanged = false;
+			if(c_canvas.width != Math.floor(rect.width) || c_canvas.height != Math.floor(rect.height)) {
+				c_canvas.width = Math.floor(rect.width);
+				c_canvas.height = Math.floor(rect.height);
+				sizeChanged = true;
+			}
+			if(!gl || gl.isContextLost()) {
+				gl = c_canvas.getContext("webgl2", {"alpha":false, "depth":false, "stencil":false, "powerPreference":"high-performance", "preserveDrawingBuffer":false});
+				if(!gl)
+					throw "webgl2 is not supported by this browser";
+					
+				gl.bindVertexArray(gl.createVertexArray()); // only one VAO is ever needed
+				gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer()); // only one buffer is ever needed
+				gl.bufferData(gl.ARRAY_BUFFER, Float32Array.from([-1,-1, 1,-1, 1,1, -1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
+				
+				gl.enableVertexAttribArray(0);
+				gl.vertexAttribPointer(0, 2, gl.FLOAT, false, 8, 0);
+				
+				vsh = gl.createShader(gl.VERTEX_SHADER);
+				gl.shaderSource(vsh, HEADER+"layout(location=0) in vec2 pos1; out vec2 pos_MagicSecretInputName; void main() {pos_MagicSecretInputName = (pos1+1.0)/2.0*iResolution.xy; gl_Position=vec4(pos1, 0.0, 1.0);}");
+				gl.compileShader(vsh);
+				if (!gl.getShaderParameter(vsh, gl.COMPILE_STATUS)) {
+					let info = gl.getShaderInfoLog(vsh);
+					gl.deleteShader(vsh);
+					console.log("Vertex shader compile failed:", info);
+					throw "Vertex shader compile failed";
+				}
+				
+				// all previously created OpenGL resources are invalid
+				for(let i = 0; i < framebuffers.length; i++) {
+					framebuffers[i] = createFB();
+				}
+				SECTION_NAMES.forEach(function(sn) {
+					cur_programs[sn] = null;
+				});
+				
+				dummytex = gl.createTexture();
+				gl.bindTexture(gl.TEXTURE_2D, dummytex);
+				gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA8, 1, 1, 0, gl.RGBA, gl.UNSIGNED_BYTE, new Uint8Array(4));
+				
+				for(const [key, value] of Object.entries(CHANNEL_STATIC_TEXTURES)) {
+					value.glObject = value.create();
+				}
+				
+				sizeChanged = false; // don't recreate framebuffers a second time
+			}
+				
+			if(sizeChanged) {
+				for(let i = 0; i < framebuffers.length; i++) {
+					deleteFB(framebuffers[i]);
+					framebuffers[i] = createFB();
+				}
+			}
+			
+			if(!starttime)
+				starttime = performance.now();
+			let reltime = (performance.now() - starttime) / 1000; // in seconds
+			
+			let deltatime = reltime - LAST_TIME;
+			if(deltatime < 0) deltatime = 0.0001;
+			if(deltatime > 1) deltatime = 1;
+			LAST_TIME = deltatime;
+			
+			SECTION_NAMES.forEach(function(sectionName) {
+				if(cur_programs[sectionName] === "fail")
+					return;
+				if(!cur_programs[sectionName]) {
+					cur_programs[sectionName] = make_program_now(sectionName);
+					if(!cur_programs[sectionName]) {
+						cur_programs[sectionName] = "fail";
+						return;
+					}
+				}
+			});
+			
+			gl.viewport(0, 0, c_canvas.width, c_canvas.height);
+			//gl.clearColor((Math.sin(reltime)+1)/2,0,0,0);
+			//gl.clear(gl.COLOR_BUFFER_BIT);
+			["fba","fbb","fbc","fbd","image"].forEach(function(pass) {
+				let prog = cur_programs[pass];
+				
+				if(prog === "fail") {
+					return;
+				}
+				
+				let fbindex = -1;
+				let oldfbindex = -1;
+				if(pass != "image") {
+					oldfbindex = findFramebufferIndex(pass);
+					fbindex = allocateFramebufferTo(pass); // not equal to oldfbindex - ping-pong
+				}
+				
+				gl.bindFramebuffer(gl.FRAMEBUFFER, fbindex < 0 ? null : framebuffers[fbindex].fb);
+				gl.useProgram(prog);
+				gl.uniform2f(gl.getUniformLocation(prog, "iResolution"), c_canvas.width, c_canvas.height);
+				gl.uniform1f(gl.getUniformLocation(prog, "iTime"), reltime);
+				gl.uniform1f(gl.getUniformLocation(prog, "iTimeDelta"), deltatime);
+				gl.uniform1f(gl.getUniformLocation(prog, "iFrameRate"), 1.0/deltatime); // TODO: a moving average?
+				let channels = CHANNELMATRIX[pass];
+				for(let i = 0; i < channels.length; i++) {
+					gl.activeTexture(gl.TEXTURE0 + i);
+					gl.uniform1i(gl.getUniformLocation(prog, "iChannel"+i), i);
+					let channelInputName = channels[i];
+					let staticTexInfo = CHANNEL_STATIC_TEXTURES[channelInputName];
+					if(staticTexInfo) {
+						gl.bindTexture(gl[staticTexInfo.bindingPoint], staticTexInfo.glObject);
+					} else {
+						let channelfb = findFramebufferIndex(channelInputName);
+						if(channelfb == fbindex)
+							channelfb = oldfbindex;
+						gl.bindTexture(gl.TEXTURE_2D, channelfb < 0 ? dummytex : framebuffers[channelfb].tex);
+					}
+				}
+				gl.drawArrays(gl.TRIANGLES, 0, 6);
+				gl.activeTexture(gl.TEXTURE0);
+				
+				if(oldfbindex !== -1)
+					framebuffers[oldfbindex].allocated = null;
+			});
+			gl.bindFramebuffer(gl.FRAMEBUFFER, null);
+			//console.log(framebuffers);
+			
+			
+		} catch(e) {
+			console.log("Error:",e);
+			STOP = true;
+			alert("Error: "+e);
+			return;
+		}
+	}
+	
+	function trigger_recompile(tabname) {
+		if(!gl) return;
+		
+		if(tabname == "common") {
+			SECTION_NAMES.forEach(trigger_recompile);
+		} else {
+			let p = make_program_now(tabname);
+			if(p) {
+				if(cur_programs[tabname] && cur_programs[tabname] !== "fail") {
+					gl.deleteProgram(cur_programs[tabname]);
+				}
+				cur_programs[tabname] = p;
+				//console.log("recompile ok",tabname);
+			} else {
+				//console.log("recompile failed",tabname);
+			}
+		}
+	}
+	
+	function update_forceres() {
+		let x=JSON.parse(c_forceres.value);
+		if(!x) {
+			c_canvas.style.width="";
+			c_canvas.style.height="";
+			c_canvas.style.flexGrow="1";
+			c_leftcol.style.flexShrink="1";
+		} else {
+			c_canvas.style.width=x[0]+"px";
+			c_canvas.style.height=x[1]+"px";
+			c_canvas.style.flexGrow="0";
+			c_leftcol.style.flexShrink="0";
+		}
+	}
+	
+	const COORDINATE_SYSTEMS = [["pixel", "Pixel coordinate (0 to resolution-1)"], ["01", "0 to 1"], ["-11", "-1 to 1"]];
+	
+	function selectTab(tabname) {
+		let tabs = document.getElementsByClassName("tab");
+		for(let i = 0; i < tabs.length; i++) {
+			tabs.item(i).classList.remove("selected");
+		}
+		document.getElementById("c_tab_"+tabname).classList.add("selected");
+		
+		let editors = document.getElementsByTagName("textarea");
+		for(let i = 0; i < editors.length; i++) {
+			if(editors.item(i).id == "c_save_json" || editors.item(i).id == "c_load_json")
+				continue;
+			editors.item(i).style.display="none";
+		}
+		c_shadercode_saveload.style.display="none";
+		document.getElementById("c_shadercode_"+tabname).style.display = "block";
+		
+		c_channels_container.innerHTML="";
+		if(tabname == "fba" || tabname == "fbb" || tabname == "fbc" || tabname == "fbd" || tabname == "image") {
+			for(let i = 0; i < 4; i++) {
+				let select = document.createElement("select");
+				CHANNEL_SOURCES.forEach(function(item) {
+					let [id, label] = item;
+					let option = document.createElement("option");
+					option.value = id;
+					option.appendChild(document.createTextNode(label));
+					select.appendChild(option);
+				});
+				
+				select.value = CHANNELMATRIX[tabname][i];
+				select.onchange = function() {
+					CHANNELMATRIX[tabname][i] = select.value;
+					trigger_recompile(tabname);
+				};
+				
+				let div = document.createElement("div");
+				div.appendChild(document.createTextNode("iChannel"+i+":"));
+				div.appendChild(document.createElement("br"));
+				div.appendChild(select);
+				c_channels_container.appendChild(div);
+			}
+			
+			// not implemented yet
+			/*{
+				let select = document.createElement("select");
+				COORDINATE_SYSTEMS.forEach(function(item) {
+					let [id, label] = item;
+					let option = document.createElement("option");
+					option.value = id;
+					option.appendChild(document.createTextNode(label));
+					select.appendChild(option);
+				});
+				
+				select.value = CHANNELSETTINGS[tabname].coords;
+				select.onchange = function() {
+					CHANNELSETTINGS[tabname].coords = select.value;
+					trigger_recompile(tabname);
+				};
+				let div = document.createElement("div");
+				div.appendChild(document.createTextNode("Coordinate system:"));
+				div.appendChild(document.createElement("br"));
+				div.appendChild(select);
+				c_channels_container.appendChild(div);
+			}*/
+		}
+		updateErrorPane(tabname);
+		
+		if(tabname == "saveload")
+			c_save_json.value = JSON.stringify(serializeCurrentShader());
+	}
+	
+	function updateErrorPane(tabname) {
+		if(!document.getElementById("c_tab_"+tabname).classList.contains("selected"))
+			return;
+		if(cur_errors[tabname]) {
+			c_errors.style.display="block";
+			c_errors.innerHTML="";
+			c_errors.appendChild(document.createTextNode(cur_errors[tabname]));
+		} else {
+			c_errors.style.display="none";
+		}
+	}
+	
+	function body_onload() {
+		/*var insertBefore = c_shadercode_common;
+		var newNode = document.createElement("div");
+		newNode.innerHTML="test";
+		insertBefore.parentNode.insertBefore(newNode, insertBefore);*/
+		
+		loadJson({"inputs": {"fba": ["null", "null", "null", "null"], "fbb": ["null", "null", "null", "null"], "fbc": ["null", "null", "null", "null"], "fbd": ["null", "null", "null", "null"], "image": ["fba", "null", "null", "null"]}, "settings": {"fba": {"coords": "pixel"}, "fbb": {"coords": "pixel"}, "fbc": {"coords": "pixel"}, "fbd": {"coords": "pixel"}, "image": {"coords": "pixel"}}, "code": {"fba": "float squareLength(vec2 v) {\nreturn max(abs(v.x), abs(v.y));\n}\n\nvoid mainImage(out vec4 color, in vec2 position) {\n\tfloat iMusicProgress = iTime/2.0; // uncomment for webui test\n\tvec2 uv = (position.xy / iResolution.xy);\nuv*=2.0;uv-=1.0;\nuv.x *= iResolution.x/iResolution.y;\n\ncolor.g = 0.0;\n\nfor(int i = 0; i < 5; i++) {\nvec2 circle = vec2(sin(iMusicProgress*10.0+float(i)), cos(iMusicProgress*6.4+float(i)))*0.5;\nif(length(uv - circle) < 0.7) {\nvec2 d = uv - circle;\nuv += d*pow(length(d),0.5);\n//color.g = 1.0;\n}\n}\n\n\n//\tcolor.b = sin((position.x + position.y) / 30.0 + iMusicProgress*2.0*3.14);\n//color = texture(iChannel0, uv);\n\ncolor.r = sin((1.0/squareLength(uv)+iMusicProgress*2.0)*3.0);\ncolor.b = 0.0;\n\n}\n", "fbb": "", "fbc": "", "fbd": "", "image": "\t\tconst float BEATSPEED = 0.5;\n\nmat2 rotmat(float angle) {\n    return mat2(vec2(cos(angle),sin(angle)),vec2(-sin(angle),cos(angle)));\n}\n\nvec4 texelFetch0(ivec2 v) {\n    ivec2 ires = ivec2(iResolution.xy);\n    v = (v+ires*2)%ires;\n    \n    int symmetry = int(iTime*BEATSPEED);\n    symmetry ^= (symmetry * 65539);\n    symmetry ^= symmetry >> 5;\n//symmetry=7;\n    \n    if((symmetry & 1) != 0) {\n        if(v.x < ires.x/2) v.x = ires.x - v.x;\n    }\n    if((symmetry & 2) != 0) {\n        if ((symmetry % 3) != 0) {\n            if(v.y < ires.y/2) v.y = ires.y - v.y;\n        } else {\n            if(v.y >= ires.y/2) v.y = ires.y - v.y;\n        }\n    }\n    if((symmetry & 4) != 0) {\n        vec2 uv = vec2(v)/iResolution.xy;\n        if(uv.x > uv.y) {\n            uv.xy = uv.yx;\n            v = ivec2(uv*iResolution.xy);\n        }\n    }\n    \n    return texelFetch(iChannel0, v, 0);\n}\n\nvoid mainImage( out vec4 fragColor, in vec2 fragCoord )\n{\n    fragCoord.x = mod(fragCoord.x, iResolution.x);\n\n    fragCoord /= iResolution.xy;\n    fragCoord -= 0.5;\n    fragCoord *= 2.0;\n    \n    float waviness = fract(length(fragCoord)+iTime);\n    \n    fragCoord /= 2.0;\n    fragCoord += 0.5;\n    fragCoord *= iResolution.xy;\n\n    vec4 a = texelFetch0(ivec2(fragCoord)+ivec2(0,-2));\n    vec4 b = texelFetch0(ivec2(fragCoord)+ivec2(0,2));\n    vec4 c = texelFetch0(ivec2(fragCoord)+ivec2(-2,0));\n    vec4 d = texelFetch0(ivec2(fragCoord)+ivec2(2,0));\n    fragColor = (abs(a-b) + abs(c-d))*3.0 + (a+b+c+d)*0.1; // try *0.01, *0.0, *-0.2\n    \n    /*switch(((int(iTime*BEATSPEED) * 5) >> 2) % 3) {\n       case 0: break;\n       case 1:\n        fragColor.rgb = fragColor.rrr;\n        break;\n        case 2:\n        fragColor.rgb = fragColor.rbr;\n        break;\n    }*/\n fragColor.rgb = mix(vec3(0.0), hsv2rgb(vec3(iTime*0.2,1.0,1.0)), fragColor.r);\n    \n    //fragColor = a;\n    //fragColor.b=0.1;\n}\n", "common": "vec3 hsv2rgb(vec3 c) {\n  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);\n}"}});c_save_name.value="another neon feedback shader - immibis & anuril";c_save_public.checked=true;c_save_releaseconsent.checked=true;
+		
+		selectTab("image");
+		
+		requestAnimationFrame(render);
+		
+		fixTabsInTextboxes();
+	}
+	
+	function fixTabsInTextboxes() {
+		let editors = document.getElementsByTagName("textarea");
+		for(let i = 0; i < editors.length; i++) {
+			// https://stackoverflow.com/questions/6637341/use-tab-to-indent-in-textarea
+			editors.item(i).onkeydown = function(e) {
+				if(e.key == 'Tab') {
+					e.preventDefault();
+					var start = this.selectionStart;
+					var end = this.selectionEnd;
+
+					// set textarea value to: text before caret + tab + text after caret
+					this.value = this.value.substring(0, start) +
+					  "\t" + this.value.substring(end);
+
+					// put caret at right position again
+					this.selectionStart = this.selectionEnd = start + 1;
+				}
+			};
+		}
+	}
+	
+	function serializeCurrentShader() {
+		let code = {};
+		["fba","fbb","fbc","fbd","image","common"].forEach(function(x) {
+			code[x] = document.getElementById("c_shadercode_"+x).value;
+		});
+		return {"inputs": CHANNELMATRIX, "settings": CHANNELSETTINGS, "code": code};
+	}
+	function isValidEntry(idNameList, id) {
+		for(let i = 0; i < idNameList.length; i++) {
+			if(idNameList[i][0] == id)
+				return true;
+		}
+		return false;
+	}
+	function loadJson(js) {
+		try {
+			let newsettings={};
+			let newmatrix={};
+			
+			["fba","fbb","fbc","fbd","image"].forEach(function(x) {
+				const c = js.settings[x].coords;
+				if(!isValidEntry(COORDINATE_SYSTEMS, c)) throw "bad coordinate system ID: "+c;
+				newsettings[x] = {coords: c};
+				
+				newmatrix[x] = [null,null,null,null];
+				for(let i = 0; i < 4; i++) {
+					const id = js.inputs[x][i];
+					if(id === null) id = "null";
+					if(id != "null" && !isValidEntry(CHANNEL_SOURCES, id)) throw "bad channel input ID: "+id;
+					newmatrix[x][i] = id;
+				}
+				
+				if(cur_programs[x]) {
+					if(cur_programs[x] !== "fail" && gl)
+						gl.deleteProgram(cur_programs[x]);
+					cur_programs[x] = null; // needs to be compiled. idempotent.
+				}
+			});
+			["fba","fbb","fbc","fbd","image","common"].forEach(function(x) {
+				document.getElementById("c_shadercode_"+x).value = js.code[x];
+			});
+			starttime = null;
+			CHANNELMATRIX=newmatrix;
+			CHANNELSETTINGS=newsettings;
+		} catch(ex) {
+			alert(ex);
+		}
+	}
+	function loadCurrentJson() {
+		try {
+			loadJson(JSON.parse(c_load_json.value));
+		} catch(ex) {
+			alert(ex);
+		}
+	}
+	
+</script>
+
+<style>
+html, body {width: 100%; height: 100%; padding: 0; margin: 0;}
+.tab {border: solid black 1px; color: blue; padding: 0.2em; margin: 0 0.5em 0 0.5em; background-color: #ddd;}
+.tab.selected {border-bottom: 0; background-color: white;}
+.tab.error {color: red;}
+</style>
+
+</head>
+<body style="display:flex; flex-direction: row;" onload="body_onload();">
+
+	<div style="display: flex; flex-direction: column; flex-shrink: 1; min-width: 40vw;" id="c_leftcol">
+		<div>
+			Force resolution:
+			<select id="c_forceres" onchange="update_forceres();">
+				<option value="null" selected="selected">Variable</option>
+				<option value="[800,450]">800x450 (16:9)</option>
+				<option value="[1600,900]">1600x900 (16:9 for big screens)</option>
+				<option value="[1920,1080]">1920x1080 (for fullscreen testing?)</option>
+			</select>
+		</div>
+		<canvas style="flex-grow: 1;" id="c_canvas" width="710" height="794">
+		</canvas>
+		<div>
+			Other global variables:
+			<pre>uniform vec2 iResolution; // screen size in pixels. note: in Shader Toy this is vec3
+uniform float iTime; // time since beginning, in seconds
+uniform float iTimeDelta; // time since last frame, in seconds<!--uniform float iFrameRate; // exactly 1.0/iTimeDelta. In future it could be a moving average.-->
+uniform sampler2D iChannel0; // 2D, 3D or cubemap depending on selected input
+// likewise iChannel1, 2, 3
+</pre>
+Tabs which don't compile are highlighted red, and the viewport keeps running the last version which compiled.<br>
+Sorry for no syntax highlighting!
+		</div>
+	</div>
+
+<div style="flex-grow: 1; min-width: 800px; display: flex; flex-direction: column;">
+	<div style="display: flex; flex-direction: row; background-color: white; "> <!-- tab bar -->
+		<div class="tab" id="c_tab_common" onclick="selectTab('common');">Common</div>
+		<div class="tab" id="c_tab_fba" onclick="selectTab('fba');">Buffer A</div>
+		<div class="tab" id="c_tab_fbb" onclick="selectTab('fbb');">Buffer B</div>
+		<div class="tab" id="c_tab_fbc" onclick="selectTab('fbc');">Buffer C</div>
+		<div class="tab" id="c_tab_fbd" onclick="selectTab('fbd');">Buffer D</div>
+		<div class="tab selected" id="c_tab_image" onclick="selectTab('image');">Output image</div>
+		<div class="tab" id="c_tab_saveload" onclick="selectTab('saveload');">Save/load</div>
+	</div>
+	
+	<div id="c_channels_container" style="display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap;"><div>iChannel0:<br><select><option value="null">None</option><option value="fba" selected="selected">Buffer A</option><option value="fbb">Buffer B</option><option value="fbc">Buffer C</option><option value="fbd">Buffer D</option><option value="2dnoise32">2D Noise (32x32)</option><option value="2dnoise256">2D Noise (256x256)</option><option value="3dnoise32">3D Noise (32x32x32)</option><option value="cubemap_basilica">Cubemap: St Peter's Basilica</option><option value="cubemap_forest">Cubemap: Forest</option><option value="cubemap_street">Cubemap: Uffizi Gallery</option></select></div><div>iChannel1:<br><select><option value="null" selected="selected">None</option><option value="fba">Buffer A</option><option value="fbb">Buffer B</option><option value="fbc">Buffer C</option><option value="fbd">Buffer D</option><option value="2dnoise32">2D Noise (32x32)</option><option value="2dnoise256">2D Noise (256x256)</option><option value="3dnoise32">3D Noise (32x32x32)</option><option value="cubemap_basilica">Cubemap: St Peter's Basilica</option><option value="cubemap_forest">Cubemap: Forest</option><option value="cubemap_street">Cubemap: Uffizi Gallery</option></select></div><div>iChannel2:<br><select><option value="null" selected="selected">None</option><option value="fba">Buffer A</option><option value="fbb">Buffer B</option><option value="fbc">Buffer C</option><option value="fbd">Buffer D</option><option value="2dnoise32">2D Noise (32x32)</option><option value="2dnoise256">2D Noise (256x256)</option><option value="3dnoise32">3D Noise (32x32x32)</option><option value="cubemap_basilica">Cubemap: St Peter's Basilica</option><option value="cubemap_forest">Cubemap: Forest</option><option value="cubemap_street">Cubemap: Uffizi Gallery</option></select></div><div>iChannel3:<br><select><option value="null" selected="selected">None</option><option value="fba">Buffer A</option><option value="fbb">Buffer B</option><option value="fbc">Buffer C</option><option value="fbd">Buffer D</option><option value="2dnoise32">2D Noise (32x32)</option><option value="2dnoise256">2D Noise (256x256)</option><option value="3dnoise32">3D Noise (32x32x32)</option><option value="cubemap_basilica">Cubemap: St Peter's Basilica</option><option value="cubemap_forest">Cubemap: Forest</option><option value="cubemap_street">Cubemap: Uffizi Gallery</option></select></div></div>
+	
+	<textarea id="c_shadercode_common" style="display: none; flex-grow: 1; min-width: 800px;" oninput="trigger_recompile('common');">vec3 hsv2rgb(vec3 c) {
+  vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);
+  vec3 p = abs(fract(c.xxx + K.xyz) * 6.0 - K.www);
+  return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);
+}</textarea>
+	
+	<textarea id="c_shadercode_fba" style="display: none; flex-grow: 1; min-width: 800px;" oninput="trigger_recompile('fba');">float squareLength(vec2 v) {
+return max(abs(v.x), abs(v.y));
+}
+
+void mainImage(out vec4 color, in vec2 position) {
+	float iMusicProgress = iTime/2.0; // uncomment for webui test
+	vec2 uv = (position.xy / iResolution.xy);
+uv*=2.0;uv-=1.0;
+uv.x *= iResolution.x/iResolution.y;
+
+color.g = 0.0;
+
+for(int i = 0; i &lt; 5; i++) {
+vec2 circle = vec2(sin(iMusicProgress*10.0+float(i)), cos(iMusicProgress*6.4+float(i)))*0.5;
+if(length(uv - circle) &lt; 0.7) {
+vec2 d = uv - circle;
+uv += d*pow(length(d),0.5);
+//color.g = 1.0;
+}
+}
+
+
+//	color.b = sin((position.x + position.y) / 30.0 + iMusicProgress*2.0*3.14);
+//color = texture(iChannel0, uv);
+
+color.r = sin((1.0/squareLength(uv)+iMusicProgress*2.0)*3.0);
+color.b = 0.0;
+
+}
+</textarea>
+	<textarea id="c_shadercode_fbb" style="display: none; flex-grow: 1; min-width: 800px;" oninput="trigger_recompile('fbb');"></textarea>
+	<textarea id="c_shadercode_fbc" style="display: none; flex-grow: 1; min-width: 800px;" oninput="trigger_recompile('fbc');"></textarea>
+	<textarea id="c_shadercode_fbd" style="display: none; flex-grow: 1; min-width: 800px;" oninput="trigger_recompile('fbd');"></textarea>
+	<textarea id="c_shadercode_image" style="display: block; flex-grow: 1; min-width: 800px;" oninput="trigger_recompile('image');">		const float BEATSPEED = 0.5;
+
+mat2 rotmat(float angle) {
+    return mat2(vec2(cos(angle),sin(angle)),vec2(-sin(angle),cos(angle)));
+}
+
+vec4 texelFetch0(ivec2 v) {
+    ivec2 ires = ivec2(iResolution.xy);
+    v = (v+ires*2)%ires;
+    
+    int symmetry = int(iTime*BEATSPEED);
+    symmetry ^= (symmetry * 65539);
+    symmetry ^= symmetry &gt;&gt; 5;
+//symmetry=7;
+    
+    if((symmetry &amp; 1) != 0) {
+        if(v.x &lt; ires.x/2) v.x = ires.x - v.x;
+    }
+    if((symmetry &amp; 2) != 0) {
+        if ((symmetry % 3) != 0) {
+            if(v.y &lt; ires.y/2) v.y = ires.y - v.y;
+        } else {
+            if(v.y &gt;= ires.y/2) v.y = ires.y - v.y;
+        }
+    }
+    if((symmetry &amp; 4) != 0) {
+        vec2 uv = vec2(v)/iResolution.xy;
+        if(uv.x &gt; uv.y) {
+            uv.xy = uv.yx;
+            v = ivec2(uv*iResolution.xy);
+        }
+    }
+    
+    return texelFetch(iChannel0, v, 0);
+}
+
+void mainImage( out vec4 fragColor, in vec2 fragCoord )
+{
+    fragCoord.x = mod(fragCoord.x, iResolution.x);
+
+    fragCoord /= iResolution.xy;
+    fragCoord -= 0.5;
+    fragCoord *= 2.0;
+    
+    float waviness = fract(length(fragCoord)+iTime);
+    
+    fragCoord /= 2.0;
+    fragCoord += 0.5;
+    fragCoord *= iResolution.xy;
+
+    vec4 a = texelFetch0(ivec2(fragCoord)+ivec2(0,-2));
+    vec4 b = texelFetch0(ivec2(fragCoord)+ivec2(0,2));
+    vec4 c = texelFetch0(ivec2(fragCoord)+ivec2(-2,0));
+    vec4 d = texelFetch0(ivec2(fragCoord)+ivec2(2,0));
+    fragColor = (abs(a-b) + abs(c-d))*3.0 + (a+b+c+d)*0.1; // try *0.01, *0.0, *-0.2
+    
+    /*switch(((int(iTime*BEATSPEED) * 5) &gt;&gt; 2) % 3) {
+       case 0: break;
+       case 1:
+        fragColor.rgb = fragColor.rrr;
+        break;
+        case 2:
+        fragColor.rgb = fragColor.rbr;
+        break;
+    }*/
+ fragColor.rgb = mix(vec3(0.0), hsv2rgb(vec3(iTime*0.2,1.0,1.0)), fragColor.r);
+    
+    //fragColor = a;
+    //fragColor.b=0.1;
+}
+</textarea>
+<pre id="c_errors" style="display:none;color:red;"></pre>
+
+<!-- id is a hack -->
+<div id="c_shadercode_saveload" style="padding: 0.5em; display: none;">
+	
+	<script defer="defer">
+		let shaderID = "672bddb0091a07d7e316c035" // server side marker - do not edit or change whitespace
+		async function save() {
+			const js = {"shader": serializeCurrentShader(), "title": c_save_name.value, "public": c_save_public.checked, "releaseconsent":c_save_releaseconsent.checked, "id":shaderID, "userid":window.localStorage.getItem("userid")};
+			try {
+				const response = await fetch(window.location.origin+"/save", {"body":JSON.stringify(js), "method":"POST"});
+				if(!response.ok)
+					alert("Save failed: "+await response.text());
+				else
+					alert("Saved");
+			} catch(e) {
+				alert("Save failed: "+e);
+			}
+		}
+	</script>
+	
+	<hr>
+	
+	<form action="#" method="POST" onsubmit="save(); return false;">
+		<label for="c_save_name">Title: </label><input type="text" value="another neon feedback shader - immibis &amp; anuril" id="c_save_name"><br>
+		<input type="checkbox" id="c_save_public" checked="checked"><label for="c_save_public">Ready to publish - uncheck this if your unfinished shader shouldn't be seen by anyone else yet</label><br>
+		<input type="checkbox" id="c_save_releaseconsent" checked="checked"><label for="c_save_releaseconsent">Consent to release this in a zip file at the end of bornhack (only if public)</label><br>
+		Title will be displayed alongside this shader. Include your name if you want to.<br>
+		<button id="c_save_button">Save (on server)</button>
+	</form>
+	
+	<hr>
+	
+	Your shader as JSON for copy-pasting:<br>
+	<textarea id="c_save_json" rows="10" cols="30">{"inputs":{"fba":
+["null","null","null","null"],"fbb":["null","null","null","null"],"fbc":
+["null","null","null","null"],"fbd":
+["null","null","null","null"],"image":
+["fba","null","null","null"]},"settings":{"fba":
+{"coords":"pixel"},"fbb":{"coords":"pixel"},"fbc":
+{"coords":"pixel"},"fbd":{"coords":"pixel"},"image":
+{"coords":"pixel"}},"code":{"fba":"float squareLength(vec2 v) {\nreturn 
+max(abs(v.x), abs(v.y));\n}\n\nvoid mainImage(out vec4 color, in vec2 
+position) {\n\tfloat iMusicProgress = iTime/2.0; // uncomment for webui 
+test\n\tvec2 uv = (position.xy / 
+iResolution.xy);\nuv*=2.0;uv-=1.0;\nuv.x *= 
+iResolution.x/iResolution.y;\n\ncolor.g = 0.0;\n\nfor(int i = 0; i &lt; 
+5; i++) {\nvec2 circle = vec2(sin(iMusicProgress*10.0+float(i)), 
+cos(iMusicProgress*6.4+float(i)))*0.5;\nif(length(uv - circle) &lt; 0.7)
+ {\nvec2 d = uv - circle;\nuv += d*pow(length(d),0.5);\n//color.g = 
+1.0;\n}\n}\n\n\n//\tcolor.b = sin((position.x + position.y) / 30.0 + 
+iMusicProgress*2.0*3.14);\n//color = texture(iChannel0, uv);\n\ncolor.r =
+ sin((1.0/squareLength(uv)+iMusicProgress*2.0)*3.0);\ncolor.b = 
+0.0;\n\n}\n","fbb":"","fbc":"","fbd":"","image":"\t\tconst float 
+BEATSPEED = 0.5;\n\nmat2 rotmat(float angle) {\n    return 
+mat2(vec2(cos(angle),sin(angle)),vec2(-sin(angle),cos(angle)));
+\n}\n\nvec4 texelFetch0(ivec2 v) {\n    ivec2 ires = 
+ivec2(iResolution.xy);\n    v = (v+ires*2)%ires;\n    \n    int symmetry
+ = int(iTime*BEATSPEED);\n    symmetry ^= (symmetry * 65539);\n    
+symmetry ^= symmetry &gt;&gt; 5;\n//symmetry=7;\n    \n    if((symmetry 
+&amp; 1) != 0) {\n        if(v.x &lt; ires.x/2) v.x = ires.x - v.x;\n   
+ }\n    if((symmetry &amp; 2) != 0) {\n        if ((symmetry % 3) != 0) 
+{\n            if(v.y &lt; ires.y/2) v.y = ires.y - v.y;\n        } else
+ {\n            if(v.y &gt;= ires.y/2) v.y = ires.y - v.y;\n        }\n 
+   }\n    if((symmetry &amp; 4) != 0) {\n        vec2 uv = 
+vec2(v)/iResolution.xy;\n        if(uv.x &gt; uv.y) {\n            uv.xy
+ = uv.yx;\n            v = ivec2(uv*iResolution.xy);\n        }\n    }\n
+    \n    return texelFetch(iChannel0, v, 0);\n}\n\nvoid mainImage( out 
+vec4 fragColor, in vec2 fragCoord )\n{\n    fragCoord.x = 
+mod(fragCoord.x, iResolution.x);\n\n    fragCoord /= iResolution.xy;\n  
+  fragCoord -= 0.5;\n    fragCoord *= 2.0;\n    \n    float waviness = 
+fract(length(fragCoord)+iTime);\n    \n    fragCoord /= 2.0;\n    
+fragCoord += 0.5;\n    fragCoord *= iResolution.xy;\n\n    vec4 a = 
+texelFetch0(ivec2(fragCoord)+ivec2(0,-2));\n    vec4 b = 
+texelFetch0(ivec2(fragCoord)+ivec2(0,2));\n    vec4 c = 
+texelFetch0(ivec2(fragCoord)+ivec2(-2,0));\n    vec4 d = 
+texelFetch0(ivec2(fragCoord)+ivec2(2,0));\n    fragColor = (abs(a-b) + 
+abs(c-d))*3.0 + (a+b+c+d)*0.1; // try *0.01, *0.0, *-0.2\n    \n    
+/*switch(((int(iTime*BEATSPEED) * 5) &gt;&gt; 2) % 3) {\n       case 0: 
+break;\n       case 1:\n        fragColor.rgb = fragColor.rrr;\n        
+break;\n        case 2:\n        fragColor.rgb = fragColor.rbr;\n       
+ break;\n    }*/\n fragColor.rgb = mix(vec3(0.0), 
+hsv2rgb(vec3(iTime*0.2,1.0,1.0)), fragColor.r);\n    \n    //fragColor =
+ a;\n    //fragColor.b=0.1;\n}\n","common":"vec3 hsv2rgb(vec3 c) {\n  
+vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);\n  vec3 p = 
+abs(fract(c.xxx + K.xyz) * 6.0 - K.www);\n  return c.z * mix(K.xxx, 
+clamp(p - K.xxx, 0.0, 1.0), c.y);\n}"}}</textarea>
+	
+	<hr>
+	Paste JSON here to load:<br>
+	<textarea id="c_load_json" rows="10" cols="30">	</textarea>
+	<button onclick="loadCurrentJson();">Load (replaces current shader!)</button>
+	
+</div>
+
+</div>
+
+
+
+</body></html>

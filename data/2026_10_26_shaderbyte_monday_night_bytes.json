@@ -1,0 +1,111 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2026-10-26",
+    "date": "26 October 2026",
+    "type": "Shaderbyte",
+    "website": "",
+    "flyer": "",
+    "vod": "https://scenesat.com/video-recordings/dIkBsL",
+    "software_used": [
+        {
+            "name": "TIC-80",
+            "url": "https://github.com/nesbox/TIC-80/releases/tag/v1.3.1",
+            "version": "v1.3.1",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "canmom",
+                        "demozoo_id": 148063
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_10_26_shaderbyte_monday_night_bytes/canmom.jpg",
+                    "source_file": "/shader_file_sources/2026_10_26_shaderbyte_monday_night_bytes/canmom.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_10_26_shaderbyte_monday_night_bytes/gasman.gif",
+                    "source_file": "/shader_file_sources/2026_10_26_shaderbyte_monday_night_bytes/gasman.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_10_26_shaderbyte_monday_night_bytes/jtruk.gif",
+                    "source_file": "/shader_file_sources/2026_10_26_shaderbyte_monday_night_bytes/jtruk.lua",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aart1256",
+                        "demozoo_id": 144487
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": null,
+                    "source_file": null,
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "i.v.",
+                        "demozoo_id": null
+                    },
+                    "job": "Live set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizer"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

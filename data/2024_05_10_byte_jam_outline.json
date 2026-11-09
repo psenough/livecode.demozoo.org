@@ -1,0 +1,92 @@
+{
+    "title": "Outline",
+    "started": "2024-05-09",
+    "date": "9 - 12 May 2024",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"https://www.youtube.com/watch?v=5nWoPYPJAf8",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.0.4",
+            "version": "tic80showdown Alice fork v0.0.4",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_05_10_byte_jam_outline/jtruk.gif",
+                    "source_file": "/shader_file_sources/2024_05_10_byte_jam_outline/jtruk.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_05_10_byte_jam_outline/gasman.gif",
+                    "source_file": "/shader_file_sources/2024_05_10_byte_jam_outline/gasman.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "alice",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_05_10_byte_jam_outline/alice.gif",
+                    "source_file": "/shader_file_sources/2024_05_10_byte_jam_outline/alice.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "aldroid",
+                        "demozoo_id": 63755
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_05_10_byte_jam_outline/aldroid.gif",
+                    "source_file": "/shader_file_sources/2024_05_10_byte_jam_outline/aldroid.lua"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                      "name": "dojoe",
+                      "demozoo_id": 24894
+                    },
+                    "job": "DJ Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4889
+}
