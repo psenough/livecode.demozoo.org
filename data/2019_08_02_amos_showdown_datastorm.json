@@ -1,0 +1,114 @@
+{
+    "title": "Amos Professional Showdown",
+    "started": "2019-08-02",
+    "date": "02 - 04 August 2019",
+    "type": "Amos Showdown",
+    "vod": "https://www.youtube.com/watch?v=pzcDoxWfJ1k",
+    "software_used": [
+    ],
+    "phases": [
+        {
+            "title": "Semi Final 1",
+            "vod": "",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Magnar",
+                        "demozoo_id": 47
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Blueberry",
+                        "demozoo_id": 116
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Semi Final 2",
+            "vod": "",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Dalton",
+                        "demozoo_id": 3181
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Highpuff",
+                        "demozoo_id": 76192
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Final",
+            "vod": "",
+            "entries": [
+                {
+                    "id": 1,
+                    "rank": 1,
+                    "points": null,
+                   "handle": {
+                        "name": "Dalton",
+                        "demozoo_id": 3181
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                },
+                {
+                    "id": 2,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Blueberry",
+                        "demozoo_id": 116
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Pumbaa",
+                "demozoo_id": 14992
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "3790"
+}

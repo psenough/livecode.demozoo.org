@@ -1,0 +1,67 @@
+{
+    "title": "Blue /x80 @ Bar Galia",
+    "started": "2018-10-20",
+    "date": "20 October 2018",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Veda",
+            "url": "https://veda.gl/",
+            "version": "",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Anatol",
+                        "demozoo_id": 3848
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-10-20/anatol.frag"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Leon",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-10-20/leon.frag"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Theo",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-10-20/theo.frag"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Cookie Collective",
+                "demozoo_id": 78435
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZCOOKIE"
+}

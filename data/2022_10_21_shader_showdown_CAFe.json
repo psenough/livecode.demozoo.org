@@ -1,0 +1,183 @@
+{
+    "title": "CAFe",
+    "started": "2022-10-21",
+    "date": "21 - 23 October 2022",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v12",
+            "version": "NuSan - v12",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Semi Final 1",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Jin X",
+                        "demozoo_id": 81083
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_10_21_shader_showdown_CAFe/SEMIFINALS/semifinals_grabber_cafe2022_jin_x.jpg",
+                    "source_file": "/shader_file_sources/2022_10_21_shader_showdown_CAFe/SEMIFINALS/semifinals_grabber_cafe2022_jin_x.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Ivan Dianov",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_10_21_shader_showdown_CAFe/SEMIFINALS/semifinals_grabber_cafe2022_ivan_dianov.jpg",
+                    "source_file": "/shader_file_sources/2022_10_21_shader_showdown_CAFe/SEMIFINALS/semifinals_grabber_cafe2022_ivan_dianov.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "fatalsnipe",
+                        "demozoo_id": 48649
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final 2",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Dart",
+                        "demozoo_id": 9610
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_10_21_shader_showdown_CAFe/SEMIFINALS/semifinals_grabber_cafe2022_dart.jpg",
+                    "source_file": "/shader_file_sources/2022_10_21_shader_showdown_CAFe/SEMIFINALS/semifinals_grabber_cafe2022_dart.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "f0x",
+                        "demozoo_id": 6043
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_10_21_shader_showdown_CAFe/SEMIFINALS/semifinals_grabber_cafe2022_f0x.jpg",
+                    "source_file": "/shader_file_sources/2022_10_21_shader_showdown_CAFe/SEMIFINALS/semifinals_grabber_cafe2022_f0x.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "fatalsnipe",
+                        "demozoo_id": 48649
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Small Final (3rd place)",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Jin X",
+                        "demozoo_id": 81083
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_10_21_shader_showdown_CAFe/FINALS/finals_grabber_cafe2022_jin_x.jpg",
+                    "source_file": "/shader_file_sources/2022_10_21_shader_showdown_CAFe/FINALS/finals_grabber_cafe2022_jin_x.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "f0x",
+                        "demozoo_id": 6043
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_10_21_shader_showdown_CAFe/FINALS/finals_grabber_cafe2022_f0x.dx11.jpg",
+                    "source_file": "/shader_file_sources/2022_10_21_shader_showdown_CAFe/FINALS/finals_grabber_cafe2022_f0x.dx11.hlsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Porno-UZI",
+                        "demozoo_id": 32870
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Ivan Dianov",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_10_21_shader_showdown_CAFe/FINALS/finals_grabber_cafe2022_ivan_dianov.jpg",
+                    "source_file": "/shader_file_sources/2022_10_21_shader_showdown_CAFe/FINALS/finals_grabber_cafe2022_ivan_dianov.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Dart",
+                        "demozoo_id": 9610
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2022_10_21_shader_showdown_CAFe/FINALS/finals_grabber_cafe2022_dart.jpg",
+                    "source_file": "/shader_file_sources/2022_10_21_shader_showdown_CAFe/FINALS/finals_grabber_cafe2022_dart.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Porno-UZI",
+                        "demozoo_id": 32870
+                    },
+                    "job": "Dj Set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "wbcbz7",
+                "demozoo_id": 45761
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4352
+}

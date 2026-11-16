@@ -1,0 +1,108 @@
+{
+    "title": "FieldFX @ WHY2025",
+    "started": "2025-08-11",
+    "date": "11 August 2025",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"https://media.ccc.de/v/why2025-23-tic-80-byte-jam",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/aliceisjustplaying/TIC-80/releases/tag/v0.1.0-beta-vqt",
+            "version": "tic80showdown Alice fork v0.1.0-beta-vqt",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Gasman",
+                        "demozoo_id": 5879
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_11_byte_jam_fieldfx_why/gasman.gif",
+                    "source_file": "/shader_file_sources/2025_08_11_byte_jam_fieldfx_why/gasman.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Zool",
+                        "demozoo_id": 146981
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_11_byte_jam_fieldfx_why/zool.gif",
+                    "source_file": "/shader_file_sources/2025_08_11_byte_jam_fieldfx_why/zool.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "FrankkieNL",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_11_byte_jam_fieldfx_why/frankkienl.gif",
+                    "source_file": "/shader_file_sources/2025_08_11_byte_jam_fieldfx_why/frankkienl.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Tropical Trevor",
+                        "demozoo_id": 44283
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_08_11_byte_jam_fieldfx_why/tropicaltrevor.gif",
+                    "source_file": "/shader_file_sources/2025_08_11_byte_jam_fieldfx_why/tropicaltrevor.py"
+                }
+                
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Cmdr.Homer",
+                        "demozoo_id": 77040
+                    },
+                    "job": "DJ"
+                }
+                
+            ]
+        }
+    ],
+    "staffs": [
+        {
+			"handle": {
+				"name": "zeno4ever",
+				"demozoo_id": 131752
+			},
+			"job": "Organizers"
+        },
+        {
+			"handle": {
+				"name": "RaccoonViolet",
+				"demozoo_id": 90373
+			},
+			"job": "Organizers"
+        },
+        {
+			"handle": {
+				"name": "reality404",
+				"demozoo_id": 67077
+			},
+			"job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 5376
+}

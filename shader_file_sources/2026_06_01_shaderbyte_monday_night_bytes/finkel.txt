@@ -1,0 +1,264 @@
+// script:  js
+W=240;H=136;SZ=W*H;MW=W/2;MH=H/2;
+PALETTE=0x3fc0;SCREEN=0x0000;HOFFSET=0x3ff9;abs=Math.abs;floor=Math.floor;max=Math.max;min=Math.min;sin=Math.sin;cos=Math.cos;rnd=Math.random;pow=Math.pow;sqrt=Math.sqrt;pi=Math.PI;tau=pi*2;function lerp(a,b,t){return a+(b-a)*t};function lin(sx,ex,sy,ey,t,cl=false){if (cl) {t=clamp(sx,ex,t);};return lerp(sy,ey,(t-sx)/(ex-sx))};function uf(a,b){return lerp(a,b,rnd())};function ri(mn,mx){return mn+floor(rnd()*(mx-mn+1))};function clamp(mn,mx,t){if(mx>mn){return max(min(mx,t),mn);}return max(min(mn,t),mx);};function ss(x){x=clamp(0,1,x);return x*x*(3.0-2.0*x)};function range(n){return Array.from(Array(n)).map((_,i)=>i)};function hsv2rgb(h,s,v){var h=(h%360); if (h<0){h=(h+360)%360;} let c=v*s; let x=c*(1-abs(((h/60)%2)-1)); let m=v-c; let [r,g,b]=[0,0,0]; if (h<60){[r,g]=[c,x];} else if (h<120){[r,g]=[x,c];} else if (h<180){[g,b]=[c,x];} else if (h<240){[g,b]=[x,c];} else if (h<300){[r,b]=[x,c];} else {[r,b]=[c,x];} return [r,g,b].map((x)=>(x+m)*255|0);};function pick(...vs){return vs[ri(0,vs.length-1)];};function hash(i){var s=floor(i);/*var s=i*747796405+2891336453;*/var w=((s>>((s>>28)+4))^s)*277803737;return (w>>22)^w;};
+M4=[[0,8,2,10],[12,4,14,6],[3,11,1,9],[15,7,13,5]]
+function viz_track(s=20,cl=false){vbank(1);if(cl){cls();};pix(0,0,11);pix(s,0,11);line(0,1,s*2,1,0);line(0,2,s*2,2,0);pix(le*s,1,12);pix(he*s,2,13);vbank(0);}
+he=0
+_le=0
+le=0
+/* Finkel's Prelude:
+
+min,max,abs,floor,pow,sin,cos,rnd
+pi,tau,sqrt,hash
+
+lerp,lin,uf,ri,clamp,ss,range,hsv2rgb
+pick
+*/
+
+function track(){
+ let damp=clamp(0,1,time()/1000)
+ let l_amp=3.0
+ let l_decay=0.4
+ let l_floor=0.5
+ let h_amp=1.5
+ let h_decay=0.85
+ _le=max(_le,fft(2,4)*l_amp*damp)
+ _le*=l_decay
+ le=max(0,_le-l_floor)
+ he=max(he,fft(200,250)*h_amp*damp)
+ he*=h_decay
+}
+
+shake=0
+
+class P{
+ constructor(x,y){
+  this.x=x
+  this.y=y
+  this.px=x
+  this.py=y
+  this.vx=0
+  this.vy=0
+  this.health=uf(20,100)
+ }
+
+ reset(){
+  this.health=uf(20,100)
+  let a=uf(40,120)
+  let th=uf(0,tau)
+  this.vx=a*sin(th)
+  this.vy=a*cos(th)
+  shake+=1
+ }
+
+ step(){
+  let dt=0.1
+  this.px=this.x
+  this.py=this.y
+  this.x+=this.vx*dt
+  this.y+=this.vy*dt
+
+  let t=time()/1000
+  let x=this.x
+  let y=this.y
+  let sc=lin(0,100,10,40,this.health)
+  this.vx+=sin((x+y*sin(t)*2)/sc)
+  this.vy+=sin((x/2*cos(t*2)+y*sin(t))/sc)
+
+  this.vx-=(x-MW+sin(t/4+this.health/30)*MW/3)/30
+
+  let damp=0.9
+
+  this.vx*=damp
+  this.vy*=damp
+
+  if(x<0){
+   this.x*=-1
+   this.vx*=-1
+  }
+  if(x>W){
+   this.x=2*W-this.x
+   this.vx*=-1
+  }
+  if(y<0){
+   this.y*=-1
+   this.vy*=-1
+  }
+  if(y>H){
+   this.y=2*H-this.y
+   this.vy*=-1
+  }
+
+  this.health-=le
+  if(this.health<0){
+   this.reset()
+  }
+ }
+}
+
+function BOOT(){
+ cls(0)
+}
+
+N=15
+
+ps=range(N).flatMap(i=>{
+ return range(N).map(j=>new P(lin(0,N-1,0,W,i),lin(0,N-1,0,H,j)))
+})
+
+function TIC(){
+	track()
+	viz_track(10,true)
+
+	ps.forEach(p=>{
+		dx=p.x-p.px
+		dy=p.y-p.py
+		let s=0.4
+
+		ax=p.x-dy*s
+		ay=p.y+dx*s
+		bx=p.x+dy*s
+		by=p.y-dx*s
+
+		aax=p.px-dy*s
+		aay=p.py+dx*s
+		bbx=p.px+dy*s
+		bby=p.py-dx*s
+
+		tri(ax,ay,bx,by,aax,aay,15)
+		tri(bbx,bby,bx,by,aax,aay,15)
+		p.step()
+	})
+
+	for(i=0;i<SZ;i++){
+	 c=peek4(i)
+		if(c>0 && rnd()>0.7){
+		 poke4(i,c-1)
+		}
+		if(c>10 && rnd()>0.4){
+		 poke4(i,c-1)
+		}
+		if(c>4 && c<8 && rnd()>0.997){
+		 spoke4(i,15)
+		 spoke4(i+1,13)
+		 spoke4(i-1,13)
+		 spoke4(i+W,13)
+		 spoke4(i-W,13)
+		}
+	}
+ shake*=0.9
+ ss=shake/10
+ poke(HOFFSET,uf(-1,1)*ss)
+ poke(HOFFSET+1,uf(-1,1)*ss)
+}
+
+
+function spoke4(i,c){
+ if(i>=0 && i < SZ){
+  poke4(i,c)
+ }
+}
+
+function make_pal(t,s){
+ t*=tau
+ mn=lin(0,1,1,0.5,s)
+ mx=lin(0,1,1,2,s)
+ let r=lin(-1,1,mn,mx,sin(t))
+ let g=lin(-1,1,mn,mx,sin(t+tau/3))
+ let b=lin(-1,1,mn,mx,sin(t+tau/3*2))
+ range(16).flatMap(i=>{
+  let x=i/15
+  return [
+   pow(x,r)*255,
+   pow(x,g)*255,
+   pow(x,b)*255,
+  ]
+ }).forEach((c,i)=>{
+  if(he>0.8 && rnd()>0.8 && i>3){
+   i+=floor(uf(-10,10))
+   i=clamp(4,16*3-1,i)
+   c+=floor(uf(-100,100))
+  }
+  poke(PALETTE+i,c)
+ })
+}
+
+function BDR(i){
+ i-=4
+ let h=floor(H/5)
+ let flags = [
+  [
+	  [0.1,1],
+	  [0.9,1],
+	  [0,0],
+	  [0.9,1],
+	  [0.1,1],
+  ],
+  [
+	  [0.85,1],
+	  [0.85,1],
+	  [0.0,1],
+	  [0.1,1],
+	  [0.1,1],
+  ],
+  [
+	  [0.8,1],
+	  [0.7,1],
+	  [0.6,1],
+	  [0.5,1],
+	  [0.1,1],
+	  [0.0,1],
+  ],
+  [
+	  [0.4,1],
+	  [0.35,1],
+	  [0.3,1],
+	  [0.2,0],
+			[0.1,0.5],
+			[0.1,0.7],
+			[0.1,1],
+  ],
+  [
+	  [0.7,1],
+	  [0.65,1],
+	  [0.6,1],
+	  [0.6,0],
+	  [0.9,0.5],
+	  [0.9,0.7],
+	  [0.85,1],
+  ],
+ ]
+
+ //let flag =[
+  //[0.1,1],
+  //[0.9,1],
+  //[0,0],
+  //[0.9,1],
+  //[0.1,1],
+ //]
+ let idx=floor(time()/(3*1000))%flags.length
+ let flag=flags[idx]
+ //let flag=flags[4]
+ let hh=floor(H/flag.length)
+ flag.forEach((b,ii)=>{
+  let [h,s]=b
+  if(i==hh*ii){
+   make_pal(h,s)
+  }
+ })
+ //if(i==h*0){
+  //make_pal(0.1,1)
+ //}
+ //if(i==h*1){
+  //make_pal(0.9,1)
+ //}
+ //if(i==h*2){
+  //make_pal(0.9,0)
+ //}
+ //if(i==h*3){
+  //make_pal(0.9,1)
+ //}
+ //if(i==h*4){
+  //make_pal(0.1,1)
+ //}
+}

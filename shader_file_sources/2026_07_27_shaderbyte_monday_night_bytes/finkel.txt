@@ -1,0 +1,109 @@
+// script:  js
+W=240;H=136;SZ=W*H;MW=W/2;MH=H/2;
+BUFFER=0x4000;PALETTE=0x3fc0;SCREEN=0x0000;HOFFSET=0x3ff9;abs=Math.abs;floor=Math.floor;max=Math.max;min=Math.min;sin=Math.sin;cos=Math.cos;rnd=Math.random;pow=Math.pow;sqrt=Math.sqrt;pi=Math.PI;tau=pi*2;function lerp(a,b,t){return a+(b-a)*t};function lin(sx,ex,sy,ey,t,cl=false){if (cl) {t=clamp(sx,ex,t);};return lerp(sy,ey,(t-sx)/(ex-sx))};function uf(a,b){return lerp(a,b,rnd())};function ri(mn,mx){return mn+floor(rnd()*(mx-mn+1))};function clamp(mn,mx,t){return max(min(mx,t),mn)};function ss(x){x=clamp(0,1,x);return x*x*(3.0-2.0*x)};function range(n){return Array.from(Array(n)).map((_,i)=>i)};function hsv2rgb(h,s,v){var h=(h%360); if (h<0){h=(h+360)%360;} let c=v*s; let x=c*(1-abs(((h/60)%2)-1)); let m=v-c; let [r,g,b]=[0,0,0]; if (h<60){[r,g]=[c,x];} else if (h<120){[r,g]=[x,c];} else if (h<180){[g,b]=[c,x];} else if (h<240){[g,b]=[x,c];} else if (h<300){[r,b]=[x,c];} else {[r,b]=[c,x];} return [r,g,b].map((x)=>(x+m)*255|0);};function pick(...vs){return vs[ri(0,vs.length-1)];};function hash(i){var s=floor(i);/*var s=i*747796405+2891336453;*/var w=((s>>((s>>28)+4))^s)*277803737;return (w>>22)^w;};
+function viz_track(s=20,cl=false){vbank(1);if(cl){cls();};pix(0,0,11);pix(s,0,11);line(0,1,s*2,1,0);line(0,2,s*2,2,0);pix(le*s,1,12);pix(he*s,2,13);vbank(0);}
+he=0
+le=0
+/* Finkel's Prelude:
+
+min,max,abs,floor,pow,sin,cos,rnd
+pi,tau,sqrt,hash
+
+lerp,lin,uf,ri,clamp,ss,range,hsv2rgb
+pick
+*/
+
+function track(){
+ damp=clamp(0,1,time()/1000)
+ le=max(le,fft(2,4)*0.5*damp)
+ le*=0.7
+ he=max(he,fft(200,250)*5.5*damp)
+ he*=0.9
+}
+
+function BOOT(){
+ cls(0)
+}
+
+function TIC(){
+	track()
+	vbank(0)
+	memcpy(BUFFER,0,SZ/2)
+	vbank(1)
+	memcpy(0,BUFFER,SZ/2)
+	vbank(0)
+	make_pal(0,1)
+	
+	con=sin(time()/1000)*10-5
+	con/=3
+	th=time()/500
+	r=20
+	ra=sin(th)*r
+	rb=sin(th*2)*r
+	rc=sin(th*1.5)*r
+	rd=sin(th*1.3)*r
+	
+	a=[con+ra*sin(th*1.3),con+ra*sin(th*1.5)]
+	b=[W-con+rb*sin(th),con+rb*sin(th*2)]
+	c=[W-con+rc*sin(th/1.5),H-con+rc*sin(th*1.78)]
+	d=[con+rd*sin(th*1.5),H-con+rd*sin(th*1.6)]
+	ua=[0,0]
+	ub=[W,0]
+	uc=[W,H]
+	ud=[0,H]
+	
+	let shifts=[
+	 [a,b,c,d],
+	 [b,c,d,a],
+		[b,a,d,c],
+		[d,c,b,a]
+	]
+	let [aa,bb,cc,dd]=shifts[floor(time()/200)%shifts.length]
+	
+	ttri(...aa,...bb,...cc,...ua,...ub,...uc,2)
+	ttri(...aa,...cc,...dd,...ua,...uc,...ud,2)
+	
+	for (i=0;i<SZ;i++){
+	 c=peek4(i)
+		if(c>0 && rnd()>0.8){
+		 poke4(i,c-1)
+		}
+		if(c>8 && rnd()>0.1){
+		 poke4(i,c-ri(1,3))
+		}
+		if(c>3 && c<7 && rnd()>0.99){
+		 poke4(i,15)
+		}
+	}
+	
+	circb(MW,MH,lin(0,1,40,80,le,true)+uf(-1,1)*5,15)
+	circb(MW,MH,lin(0,1,5,20,le,true)+uf(-1,1)*10,15)
+	vbank(1)
+	cls(0)
+	vbank(0)
+}
+
+function make_pal(hue,sat){
+ let mi=lin(1,0,0.5,1,sat)
+ let mx=lin(1,0,2,1,sat)
+ let r=lin(-1,1,mi,mx,sin(hue))
+ let g=lin(-1,1,mi,mx,sin(hue+tau/3))
+ let b=lin(-1,1,mi,mx,sin(hue+tau/3*2))
+ range(16).flatMap(i=>{
+  let x=i/15
+  return [
+   pow(x,r)*255,
+   pow(x,g)*255,
+   pow(x,b)*255,
+  ]
+ }).forEach((c,i)=>{
+  poke(PALETTE+i,c)
+ })
+}
+
+function BDR(i){
+ if(i%10 == 0){
+  make_pal(time()/1000+i/100,1)
+ }
+ 
+}

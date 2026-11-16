@@ -1,0 +1,158 @@
+// script:  js
+W=240;H=136;SZ=W*H;MW=W/2;MH=H/2;
+BUFFER=0x4000;PALETTE=0x3fc0;SCREEN=0x0000;HOFFSET=0x3ff9;abs=Math.abs;floor=Math.floor;max=Math.max;min=Math.min;sin=Math.sin;cos=Math.cos;rnd=Math.random;pow=Math.pow;sqrt=Math.sqrt;pi=Math.PI;tau=pi*2;function lerp(a,b,t){return a+(b-a)*t};function lin(sx,ex,sy,ey,t,cl=false){if (cl) {t=clamp(sx,ex,t);};return lerp(sy,ey,(t-sx)/(ex-sx))};function uf(a,b){return lerp(a,b,rnd())};function ri(mn,mx){return mn+floor(rnd()*(mx-mn+1))};function clamp(mn,mx,t){return max(min(mx,t),mn)};function ss(x){x=clamp(0,1,x);return x*x*(3.0-2.0*x)};function range(n){return Array.from(Array(n)).map((_,i)=>i)};function hsv2rgb(h,s,v){var h=(h%360); if (h<0){h=(h+360)%360;} let c=v*s; let x=c*(1-abs(((h/60)%2)-1)); let m=v-c; let [r,g,b]=[0,0,0]; if (h<60){[r,g]=[c,x];} else if (h<120){[r,g]=[x,c];} else if (h<180){[g,b]=[c,x];} else if (h<240){[g,b]=[x,c];} else if (h<300){[r,b]=[x,c];} else {[r,b]=[c,x];} return [r,g,b].map((x)=>(x+m)*255|0);};function pick(...vs){return vs[ri(0,vs.length-1)];};function hash(i){var s=floor(i);/*var s=i*747796405+2891336453;*/var w=((s>>((s>>28)+4))^s)*277803737;return (w>>22)^w;};
+function viz_track(s=20,cl=false){vbank(1);if(cl){cls();};pix(0,0,11);pix(s,0,11);line(0,1,s*2,1,0);line(0,2,s*2,2,0);pix(le*s,1,12);pix(he*s,2,13);vbank(0);}
+he=0
+le=0
+leacc=0
+_le=0
+/* Finkel's Prelude:
+
+min,max,abs,floor,pow,sin,cos,rnd
+pi,tau,sqrt,hash
+
+lerp,lin,uf,ri,clamp,ss,range,hsv2rgb
+pick
+*/
+
+function track(){
+ damp=clamp(0,1,time()/1000)
+ _le=max(le,fft(2,4)*1.0*damp)
+ _le*=0.9
+ le=max(0,_le-0.2)
+ he=max(he,fft(200,250)*2.0*damp)
+ he*=0.85
+}
+
+function BOOT(){
+ cls(0)
+}
+
+class P{
+ constructor(x,y){
+  this.x=x
+  this.y=y
+  this.vx=0
+  this.vy=0
+  this.h=-1
+ }
+
+ step(){
+  let dt=0.1
+  this.x+=this.vx*dt
+  this.y+=this.vy*dt
+  if(this.h<0){
+   this.h=uf(30,50)
+   let dir = ri(0,3)
+   let th=tau*dir/4
+   let sc=200
+   this.vx=cos(th)*sc
+   this.vy=sin(th)*sc
+  }
+  this.h--
+  this.x=(this.x+W)%W
+  this.y=(this.y+H)%H
+  let damp=0.8
+  this.vx*=damp
+  this.vy*=damp
+ }
+}
+
+N=20
+ps=range(N).map(i=>{
+ return new P(uf(0,W),uf(0,H))
+})
+
+fr=0
+
+function TIC(){
+	track()
+	leacc+=le
+
+	vbank(0)
+	pal()
+	memcpy(BUFFER,0,SZ/2)
+	vbank(1)
+	memcpy(0,BUFFER,SZ/2)
+	vbank(0)
+
+
+	ua=[0,0]
+ ub=[W,0]
+	uc=[W,H]
+	ud=[0,H]
+
+	t=time()/1000
+	f=sin(t)*1.5-1
+	ox=sin(t*2.03)*2.5
+	oy=sin(t*1.35)*1.5
+	a=[-f+ox,-f+oy]
+ b=[W+f+ox,-f+oy]
+	c=[W+f+ox,H+f+oy]
+	d=[-f+ox,H+f+oy]
+
+	ttri(...a,...b,...c,...ua,...ub,...uc,2)
+	ttri(...a,...c,...d,...ua,...uc,...ud,2)
+
+	if(fr%150<30){
+	 for(i=0;i<SZ;i++){
+		 c=peek4(i)
+			if(c>0 && rnd()>0.1){
+			 poke4(i,c-1)
+			}
+		}
+	}
+
+	ps.forEach(p=>{
+	 //circ(p.x,p.y,3,fr)
+		print(pick(...'FINKEL'),p.x,p.y,fr,false,5)
+		p.step()
+	})
+
+	vbank(1)
+	cls(0)
+	vbank(0)
+
+	viz_track(10,true)
+	fr++
+}
+
+function make_pal(h,s){
+ let mx=lin(0,1,1,2,s)
+ let mi=lin(0,1,1,0.5,s)
+ let r=lin(-1,1,mi,mx,sin(h))
+ let g=lin(-1,1,mi,mx,sin(h+tau/3))
+ let b=lin(-1,1,mi,mx,sin(h+tau/3*2))
+ let en=lin(0,1,1,1.2,le)
+ let flash=he>0.8&&rnd()>0.8
+ range(16).flatMap(i=>{
+  let x=i/15
+  return [
+   pow(x*en,r)*255,
+   pow(x*en,g)*255,
+   pow(x*en,b)*255,
+  ]
+ }).forEach((c,i)=>{
+  let off=i+floor(fr/30+leacc/8)*3
+  off=off%(16*3)
+  off=off<3?i:off
+  c=flash&&off>=3?uf(180,300)-c:c
+  poke(PALETTE+off,c)
+ })
+}
+
+function pal(){
+	make_pal(time()/1000,
+	lin(-1,1,0.5,1.2,sin(time()/1500)))
+}
+
+function BDR(i){
+ if(rnd()>0.95){
+  pal()
+ }
+ if(lin(0,1,1,0.9,he,true)<rnd()){
+  let off=pow(rnd(),8)*10
+  let sgn=pick(1,-1)
+  poke(HOFFSET,off*sgn)
+ }
+}

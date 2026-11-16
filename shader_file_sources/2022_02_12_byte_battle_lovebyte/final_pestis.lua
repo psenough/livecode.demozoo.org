@@ -1,0 +1,1 @@
+TIC=load't=time()/199 for i=t%1,M,1.9 do u=i%240/99-1v=i/M-.5k=s(t/8)u,w=u+k,1-k*u x=s(t/3)y=t z=0j=0repeat Y=y%4-2m=5-(Y*Y+x*x+z*z/50)^.5x=x+u*m y=y+v*m z=z+w*m j=j+1until j>m*9poke4(i,z/5+9+s(y+z/2))print("\\\\o/\\n/\\\\",t%240,62,0)end'M=32639s=math.sin

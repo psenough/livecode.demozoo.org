@@ -1,0 +1,112 @@
+{
+    "title": "Shadow party",
+    "started": "2025-07-05",
+    "date": "05 July 2025",
+    "type": "Shader Jam",
+    "website": "https://shadow-party.org",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Marex",
+                        "demozoo_id": 131937
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_07_05_shader_jam_shadowparty/grabber_shadowparty2025_Marex.jpg",
+                    "source_file": "/shader_file_sources/2025_07_05_shader_jam_shadowparty/grabber_shadowparty2025_Marex.glsl"
+                },
+                 {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_07_05_shader_jam_shadowparty/grabber_shadowparty2025_nusan.jpg",
+                    "source_file": "/shader_file_sources/2025_07_05_shader_jam_shadowparty/grabber_shadowparty2025_nusan.glsl"
+                }, {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Peregrine",
+                        "demozoo_id": 122747
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_07_05_shader_jam_shadowparty/grabber_shadowparty2025_peregrine.jpg",
+                    "source_file": "/shader_file_sources/2025_07_05_shader_jam_shadowparty/grabber_shadowparty2025_peregrine.glsl"
+                }, {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Saucisseman",
+                        "demozoo_id": null
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_07_05_shader_jam_shadowparty/grabber_shadowparty2025_saucisseman.jpg",
+                    "source_file": "/shader_file_sources/2025_07_05_shader_jam_shadowparty/grabber_shadowparty2025_saucisseman.glsl"
+                }, {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "totetmatt",
+                        "demozoo_id": 121811
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_07_05_shader_jam_shadowparty/grabber_shadowparty2025_totetmatt.jpg",
+                    "source_file": "/shader_file_sources/2025_07_05_shader_jam_shadowparty/grabber_shadowparty2025_totetmatt.glsl"
+                }, {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "xtrium",
+                        "demozoo_id": 3695
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2025_07_05_shader_jam_shadowparty/grabber_shadowparty2025_xtrium.jpg",
+                    "source_file": "/shader_file_sources/2025_07_05_shader_jam_shadowparty/grabber_shadowparty2025_xtrium.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Alkama",
+                        "demozoo_id": 1382
+                        },
+                    "job": "DJ set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Marex",
+                "demozoo_id": 131937
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 5094
+}

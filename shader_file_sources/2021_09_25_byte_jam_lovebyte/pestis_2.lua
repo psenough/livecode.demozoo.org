@@ -1,0 +1,1 @@
+h=load'i,l=...w=i*1.256+s(s(t/5+l)+t/4+l*2)return s(w)*l*20+120+s(l*t/5)*9,s(w+8)*l*20+68+s(l*t/8)*9'TIC=load'cls()t=time()/1e3s=math.sin for l=7,1,-1 do for i=0,4 do x,y=h(i,l)for j=0,5 do u,v=h(j,l+1)for k=0,2 do line(x+k,y,u+k,v,11+l+k)end end end end'

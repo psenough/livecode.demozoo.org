@@ -1,0 +1,631 @@
+{
+    "title": "Revision",
+    "started": "2019-04-19",
+    "date": "19 - 22 April 2019",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": null,
+    "phases": [
+        {
+            "title": "Opening round #1",
+            "vod": "https://www.youtube.com/watch?v=YKtvYAn-v2Y",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/WtsSWN",
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "lj",
+                        "demozoo_id": 57948
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "maq?",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "chaos",
+                        "demozoo_id": 348
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": 18
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Opening round #2",
+            "vod": "https://www.youtube.com/watch?v=YKtvYAn-v2Y",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "noby",
+                        "demozoo_id": 6849
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "ponk",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "bod",
+                        "demozoo_id": null
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "chaos",
+                        "demozoo_id": 348
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": 18
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final 1",
+            "vod": "https://www.youtube.com/watch?v=uifMBMt9ASU",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "noby",
+                        "demozoo_id": 6849
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final 2",
+            "vod": "https://www.youtube.com/watch?v=uifMBMt9ASU",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "lsdlive",
+                        "demozoo_id": 83579
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/wtsGzl",
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "yx",
+                        "demozoo_id": 77056
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final 3",
+            "vod": "https://www.youtube.com/watch?v=uifMBMt9ASU",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/3stGRH",
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "hardy",
+                        "demozoo_id": 913
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Quarter Final 4",
+            "vod": "https://www.youtube.com/watch?v=uifMBMt9ASU",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "provod",
+                        "demozoo_id": 24024
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final 1",
+            "vod": "https://www.youtube.com/watch?v=jNhQUksZYkY",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/WlX3Rj",
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "lsdlive",
+                        "demozoo_id": 83579
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "alkama",
+                        "demozoo_id": 1382
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Semi Final 2",
+            "vod": "https://www.youtube.com/watch?v=jNhQUksZYkY",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "dojoe",
+                        "demozoo_id": 24894
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Final",
+            "vod": "https://www.youtube.com/watch?v=gmMPvUwyMxA",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "NuSan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": 18
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Qualification for 2020 semifinals #1",
+            "vod": "https://www.youtube.com/watch?v=tYU2DrI1sGM",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": 18
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "branch",
+                        "demozoo_id": 44254
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "chaos",
+                        "demozoo_id": 348
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "lj",
+                        "demozoo_id": 57948
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Qualification for 2020 semifinals #2",
+            "vod": "https://www.youtube.com/watch?v=tYU2DrI1sGM",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "fizzer",
+                        "demozoo_id": 27471
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "rohtie",
+                        "demozoo_id": 4456
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "chaos",
+                        "demozoo_id": 348
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ferris",
+                        "demozoo_id": 18
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        },
+        {
+            "title": "Shader Showdown Showmatch",
+            "vod": "https://www.youtube.com/watch?v=6D6nayoqYjs",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "provod",
+                        "demozoo_id": 24024
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "xernobyl",
+                        "demozoo_id": 6394
+                    },
+                    "shadertoy_url": null,
+                    "source_file": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "lug00ber",
+                        "demozoo_id": 90
+                    },
+                    "job": "Dj Set"
+                },
+                {
+                    "handle": {
+                        "name": "kusma",
+                        "demozoo_id": 1998
+                    },
+                    "job": "Commentators"
+                },
+                {
+                    "handle": {
+                        "name": "ps",
+                        "demozoo_id": 313
+                    },
+                    "job": "Commentators"
+                }
+            ]
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 3770
+}
