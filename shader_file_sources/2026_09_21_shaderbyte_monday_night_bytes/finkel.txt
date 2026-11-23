@@ -1,0 +1,135 @@
+// script:  js
+W=240
+H=136
+MW=W/2
+MH=H/2
+SZ=W*H
+rnd=Math.random
+min=Math.min
+max=Math.max
+tau=Math.PI*2
+sin=Math.sin
+cos=Math.cos
+pow=Math.pow
+sqrt=Math.sqrt
+
+function lin(x,x0,x1,y0,y1){
+ let t=(x-x0)/(x1-x0)
+ return y0 + t*(y1-y0)
+}
+
+class P{
+ constructor(x,y){
+  this.x=x
+  this.y=y
+  this.vx=0
+  this.vy=0
+  this.h=lin(rnd(),0,1,50,100)
+ }
+
+ step(){
+  let dt=0.1
+  this.x+=this.vx*dt
+  this.y+=this.vy*dt
+
+  this.h-=le
+  if(this.h<0){
+   shake+=1
+	  this.h=lin(rnd(),0,1,50,100)
+			let th=rnd()*tau
+			let s=100
+			this.vx=cos(th)*s*2
+			this.vy=sin(th)*s
+  }
+
+  let rot=sin(time()/2000)*1.0
+  let ax=MW-this.x+(this.y-MH)*rot
+  let ay=MH-this.y-(this.x-MW)*rot
+
+  let damp=0.9
+  this.vx+=ax*dt
+  this.vy+=ay*dt
+  this.vx*=damp
+  this.vy*=damp
+ }
+}
+
+ps=[]
+N=100
+for (i=0;i<N;i++){
+ ps.push(new P(W*rnd(),H*rnd()))
+}
+
+shake=0
+le=0
+_le=0
+he=0
+cls(0)
+fr=0
+function TIC(){
+ make_pal(0)
+	fr++
+ d=fr<50?0:1
+ _le=max(_le,fft(2,4)*1.5*d)
+ _le*=0.9
+ le=max(_le-0.3,0)
+ he=max(he,fft(200,250)*d)
+ he*=0.85
+ for(i=0;i<SZ;i++){
+  c=peek4(i)
+  if(c>0 && rnd()>0.1){
+   poke4(i,c-1)
+  }
+  if(c>5&&c<10&&rnd()>0.97){
+   poke4(i,15)
+   spoke4(i+1,12)
+   spoke4(i-1,12)
+   spoke4(i+W,12)
+   spoke4(i-W,12)
+  }
+ }
+ ps.forEach(p=>{
+  vel=sqrt(p.vx*p.vx+p.vy*p.vy)
+  //vel=p.vx*p.vx+p.vy*p.vy
+  r=lin(vel,0,150,0,5)
+  circ(p.x,p.y,r,15)
+  ox=p.x
+  oy=p.y
+  p.step()
+  nx=p.x
+  ny=p.y
+  line(ox,oy,nx,ny,15)
+ })
+
+ let ss=0.7
+ poke(0x3ff9,shake*(rnd()-0.5)*ss)
+ poke(0x3ff9+1,shake*(rnd()-0.5)*ss)
+ shake*=0.9
+}
+
+function spoke4(i,c){
+ if(i>=0 && i<SZ){
+  poke4(i,c)
+ }
+}
+
+function make_pal(tt){
+ let t=sin(time()/1000)+tt
+ let r=lin(sin(t),-1,1,0.5,2)
+ let g=lin(sin(t+tau/3),-1,1,0.5,2)
+ let b=lin(sin(t+tau/3*2),-1,1,0.5,2)
+ let flash=he>0.6?1:0
+ for(i=0;i<16;i++){
+  var x=i/15
+  let off=i==0?0:0
+  poke(0x3fc0+i*3+0,pow(x,r)*255+off*flash)
+  poke(0x3fc0+i*3+1,pow(x,g)*255+off*flash)
+  poke(0x3fc0+i*3+2,pow(x,b)*255+off*flash)
+ }
+}
+
+function BDR(t){
+ if(he>0.7 && rnd()>0.95){
+	 make_pal(t/50)
+ }
+}

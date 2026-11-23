@@ -1,0 +1,92 @@
+{
+    "title": "Monday Night Bytes (on Tuesday)",
+    "started": "2024-04-02",
+    "date": "2 April 2024",
+    "type": "Byte Jam",
+    "website": "",
+    "flyer": "",
+    "vod":"",
+    "software_used": [
+        {
+            "name": "TIC-80 FFT Hack",
+            "url": "https://github.com/glastonbridge/TIC-80/releases/tag/hack.fft.1_0_2",
+            "version": "tic80showdown FFT Hack v1.0.2",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Pumpuli",
+                        "demozoo_id": 22208
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_04_02_byte_jam_monday_night_bytes/pumpuli.gif",
+                    "source_file": "/shader_file_sources/2024_04_02_byte_jam_monday_night_bytes/pumpuli.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "JokerX",
+                        "demozoo_id": 142119
+                      },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_04_02_byte_jam_monday_night_bytes/jokerx.gif",
+                    "source_file": "/shader_file_sources/2024_04_02_byte_jam_monday_night_bytes/jokerx.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "jtruk",
+                        "demozoo_id": 135705
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_04_02_byte_jam_monday_night_bytes/jtruk.gif",
+                    "source_file": "/shader_file_sources/2024_04_02_byte_jam_monday_night_bytes/jtruk.lua"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Suule",
+                        "demozoo_id": 136862
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2024_04_02_byte_jam_monday_night_bytes/suule.png",
+                    "source_file": "/shader_file_sources/2024_04_02_byte_jam_monday_night_bytes/suule.lua"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "Cmdr.Homer",
+                        "demozoo_id": 77040
+                        },
+                    "job": "DJ set (replay)"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Vurpo",
+                "demozoo_id": 138609
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

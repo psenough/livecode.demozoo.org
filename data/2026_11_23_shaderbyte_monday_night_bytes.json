@@ -1,0 +1,126 @@
+{
+    "title": "Monday Night Bytes",
+    "started": "2026-11-23",
+    "date": "23 November 2026",
+    "type": "Shaderbyte",
+    "website": "",
+    "flyer": "",
+    "vod": "https://scenesat.com/video-recordings/JMc0Ob",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/wrightwriter/Bonzomatic-Compute/releases/tag/v1.0.1",
+            "version": "Wrighter Compute - v1",
+            "purpose": "Graphic"
+        },
+        {
+            "name": "TIC-80",
+            "url": "https://github.com/nesbox/TIC-80/releases/tag/v1.4.1",
+            "version": "v1.4.1",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": null,
+            "vod": null,
+            "keyword": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Altiga",
+                        "demozoo_id": 142044
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_11_23_shaderbyte_monday_night_bytes/altiga.png",
+                    "source_file": "/shader_file_sources/2026_11_23_shaderbyte_monday_night_bytes/altiga.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "canmom",
+                        "demozoo_id": 148063
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_11_23_shaderbyte_monday_night_bytes/canmom.jpg",
+                    "source_file": "/shader_file_sources/2026_11_23_shaderbyte_monday_night_bytes/canmom.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "M3RL0CKSH0LM3S",
+                        "demozoo_id": 154186
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_11_23_shaderbyte_monday_night_bytes/m3rl0cksh0lm3s.png",
+                    "source_file": "/shader_file_sources/2026_11_23_shaderbyte_monday_night_bytes/m3rl0cksh0lm3s.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Ren",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_11_23_shaderbyte_monday_night_bytes/ren.gif",
+                    "source_file": "/shader_file_sources/2026_11_23_shaderbyte_monday_night_bytes/ren.txt",
+                    "tic80_cart_id": null,
+                    "vod": null
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "wrighter",
+                        "demozoo_id": 113559
+                    },
+                    "shadertoy_url": null,
+                    "poshbrolly_url": null,
+                    "preview_image": "2026_11_23_shaderbyte_monday_night_bytes/wrighter.png",
+                    "source_file": "/shader_file_sources/2026_11_23_shaderbyte_monday_night_bytes/wrighter.glsl",
+                    "tic80_cart_id": null,
+                    "vod": null
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "i.v.",
+                        "demozoo_id": null
+                    },
+                    "job": "Live set"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "RaccoonViolet",
+                "demozoo_id": 90373
+            },
+            "job": "Organizer"
+        }
+    ],
+    "demozoo_party_id": "LCDZFFCM"
+}

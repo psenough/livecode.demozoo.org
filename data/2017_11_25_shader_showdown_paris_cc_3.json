@@ -1,0 +1,194 @@
+{
+    "title": "Cookie Showdown #3 @ Nogozon",
+    "started": "2017-11-25",
+    "date": "25 November 2017",
+    "type": "Shader Showdown",
+    "vod": "https://youtu.be/55ayUl_07-E",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Round #1",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Lamogui",
+                        "demozoo_id": 71129
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2017_11_25_shader_showdown_paris_cc_3/01-lamogui.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/01-lamogui.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Ponk",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2017_11_25_shader_showdown_paris_cc_3/01-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/01-ponk.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Round #2",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Anton",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2017_11_25_shader_showdown_paris_cc_3/02-anton.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/02-anton.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Koltes",
+                        "demozoo_id": 52423
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2017_11_25_shader_showdown_paris_cc_3/02-koltes.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/02-koltes.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Round #3",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Ponk",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2017_11_25_shader_showdown_paris_cc_3/03-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/03-ponk.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Remi",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2017_11_25_shader_showdown_paris_cc_3/03-remi.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/03-remi.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Round #4",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Anton",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2017_11_25_shader_showdown_paris_cc_3/04-anton.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/04-anton.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Lamogui",
+                        "demozoo_id": 71129
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2017_11_25_shader_showdown_paris_cc_3/04-lamogui.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/04-lamogui.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Extra",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2017_11_25_shader_showdown_paris_cc_3/extra-flopine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/extra-flopine.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Shader exquis",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2017_11_25_shader_showdown_paris_cc_3/extra-shex-1.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/extra-shex-1.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "Shader exquis",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2017_11_25_shader_showdown_paris_cc_3/extra-shex-2.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2017-11-25/extra-shex-2.glsl"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Cookie Collective",
+                "demozoo_id": 78435
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZCOOKIE"
+}

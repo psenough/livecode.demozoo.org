@@ -1,0 +1,251 @@
+{
+    "title": "Cookie Demoparty @ La Folie Num\u00e9rique",
+    "started": "2018-11-30",
+    "date": "30 November - 01 December 2018",
+    "type": "Shader Showdown",
+    "vod": null,
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v11",
+            "version": "NuSan - v11",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "Quarter #1",
+            "vod": "https://www.youtube.com/watch?v=p4MakgvYtGg",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Wsmind",
+                        "demozoo_id": 34845
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_11_30_shader_showdown_paris_cc_10/01-wsmind.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-12-01/01-wsmind.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Elie",
+                        "demozoo_id": null
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_11_30_shader_showdown_paris_cc_10/01-elie.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-12-01/01-elie.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Quarter #2",
+            "vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Ponk",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_11_30_shader_showdown_paris_cc_10/02-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-12-01/02-ponk.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Evvvvil",
+                        "demozoo_id": 71087
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_11_30_shader_showdown_paris_cc_10/02-evvvvil.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-12-01/02-evvvvil.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Quarter #3",
+            "vod": "https://www.youtube.com/watch?v=m4dznEOk6pw",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_11_30_shader_showdown_paris_cc_10/03-flopine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-12-01/03-flopine.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "lsdlive",
+                        "demozoo_id": 83579
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_11_30_shader_showdown_paris_cc_10/03-lsdlive.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-12-01/03-lsdlive.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Quarter #4",
+            "vod": "https://www.youtube.com/watch?v=n7eoUklvA6k",
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Nusan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/ltVfWG",
+                    "preview_image": "2018_11_30_shader_showdown_paris_cc_10/04-nusan.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-12-01/04-nusan.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Eybor",
+                        "demozoo_id": 27241
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_11_30_shader_showdown_paris_cc_10/04-eybor.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-12-01/04-eybor.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Semi #1",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Ponk",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_11_30_shader_showdown_paris_cc_10/05-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-12-01/05-ponk.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Wsmind",
+                        "demozoo_id": 34845
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_11_30_shader_showdown_paris_cc_10/05-wsmind.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-12-01/05-wsmind.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Semi #2",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Nusan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/llVfWG",
+                    "preview_image": "2018_11_30_shader_showdown_paris_cc_10/06-nusan.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-12-01/06-nusan.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_11_30_shader_showdown_paris_cc_10/06-flopine.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-12-01/06-flopine.glsl"
+                }
+            ],
+            "staffs": []
+        },
+        {
+            "title": "Final",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": 1,
+                    "points": null,
+                    "handle": {
+                        "name": "Nusan",
+                        "demozoo_id": 88839
+                    },
+                    "shadertoy_url": "https://www.shadertoy.com/view/MlVfWG",
+                    "preview_image": "2018_11_30_shader_showdown_paris_cc_10/07-nusan.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-12-01/07-nusan.glsl"
+                },
+                {
+                    "id": null,
+                    "rank": 2,
+                    "points": null,
+                    "handle": {
+                        "name": "Ponk",
+                        "demozoo_id": 61858
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_11_30_shader_showdown_paris_cc_10/07-ponk.jpg",
+                    "source_file": "https://github.com/CookieCollective/Live-Coding-Sources/blob/master/2018-12-01/07-ponk.glsl"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Cookie Collective",
+                "demozoo_id": 78435
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "havoc",
+                "demozoo_id": 2419
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": "LCDZCOOKIE"
+}

@@ -1,0 +1,271 @@
+.matrix {
+  flex: 1;
+  overflow: auto;
+  padding: 16px;
+}
+
+.matrix__grid {
+  display: grid;
+  grid-template-columns: 80px repeat(var(--cols, 0), 64px);
+  gap: 1px;
+  background: #333;
+}
+
+.matrix__corner {
+  background: #1a1a1a;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.matrix__col-header {
+  background: #1a1a1a;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.matrix__col-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2px;
+  width: 100%;
+}
+
+.matrix__play {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #999;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.matrix__play:hover:not(:disabled) {
+  background: rgba(0, 0, 0, 0.8);
+  color: #3b82f6;
+}
+
+.matrix__play--active {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.matrix__play--active:hover:not(:disabled) {
+  background: #2563eb;
+  color: #fff;
+}
+
+.matrix__play:disabled {
+  color: #444;
+  cursor: not-allowed;
+}
+
+.matrix__mode {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #999;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.matrix__mode:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #f59e0b;
+}
+
+.matrix__mode--random {
+  background: #f59e0b;
+  color: #fff;
+}
+
+.matrix__mode--random:hover {
+  background: #d97706;
+  color: #fff;
+}
+
+.matrix__bpm-mod {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #999;
+  font-size: 10px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.matrix__bpm-mod:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #a855f7;
+}
+
+.matrix__bpm-mod--active {
+  background: #a855f7;
+  color: #fff;
+}
+
+.matrix__bpm-mod--active:hover {
+  background: #9333ea;
+  color: #fff;
+}
+
+.matrix__reconnect {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #999;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.matrix__reconnect:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #22c55e;
+}
+
+.matrix__status {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.matrix__status--connecting {
+  background: #f59e0b;
+}
+
+.matrix__status--connected {
+  background: #22c55e;
+}
+
+.matrix__status--disconnected {
+  background: #666;
+}
+
+.matrix__status--error {
+  background: #ef4444;
+}
+
+.matrix__col-url {
+  font-size: 11px;
+  color: #999;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.matrix__row-header {
+  background: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  position: relative;
+}
+
+.matrix__thumb {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.matrix__row-header .matrix__remove {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.matrix__remove {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #999;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.matrix__remove:hover {
+  background: rgba(0, 0, 0, 0.8);
+  color: #ef4444;
+}
+
+.matrix__col-actions .matrix__remove {
+  font-size: 12px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.matrix__cell {
+  background: #222;
+  display: flex;
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  margin: 0;
+}
+
+.matrix__cell-btn {
+  flex: 1;
+  background: #333;
+  border: none;
+  color: #888;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.matrix__cell-btn:hover:not(:disabled) {
+  background: #444;
+  color: #fff;
+}
+
+.matrix__cell-btn:disabled {
+  background: #222;
+  color: #444;
+  cursor: not-allowed;
+}
+
+.matrix__cell-btn--active {
+  background: #22c55e;
+  color: #fff;
+}
+
+.matrix__cell-btn--active:hover:not(:disabled) {
+  background: #16a34a;
+}
+
+.matrix__empty {
+  color: #666;
+  text-align: center;
+  padding: 48px;
+}

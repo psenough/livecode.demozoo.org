@@ -1,0 +1,133 @@
+{
+    "title": "N\u00e9voke",
+    "started": "2021-08-14",
+    "date": "14 August 2021",
+    "type": "Shader Jam",
+    "website": "https://www.xn--nvoke-bsa.eu/",
+    "flyer": "",
+    "vod": "https://streaming.media.ccc.de/nevoke2021/relive/110",
+    "software_used": [
+        {
+            "name": "Bonzomatic",
+            "url": "https://github.com/TheNuSan/Bonzomatic/releases/tag/v12",
+            "version": "NuSan - v12",
+            "purpose": "Graphic"
+        }
+    ],
+    "phases": [
+        {
+            "title": "",
+            "vod": null,
+            "entries": [
+                {
+                    "id": null,
+                    "rank": null,
+                    "points": null,
+                    "handle": {
+                        "name": "flopine",
+                        "demozoo_id": 65988
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2021_08_14_shader_jam_nevoke/Flopine_chibitech_visuals.jpg",
+                    "source_file": "/shader_file_sources/2021_08_14_shader_jam_nevoke/Flopine_chibitech_visuals.glsl"
+                }
+            ],
+            "staffs": [
+                {
+                    "handle": {
+                        "name": "chibi-tech",
+                        "demozoo_id": 30690
+                    },
+                    "job": "Live Music"
+                }
+            ]
+        }
+    ],
+    "staffs": [
+        {
+            "handle": {
+                "name": "Chunna",
+                "demozoo_id": 11583
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Darya",
+                "demozoo_id": 107504
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Dipswitch",
+                "demozoo_id": 5806
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Faxe",
+                "demozoo_id": 3811
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "KB",
+                "demozoo_id": 557
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Melkor",
+                "demozoo_id": 1020
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Nodepond",
+                "demozoo_id": 45364
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "P\u00c3\u00bcnzli",
+                "demozoo_id": 11753
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "reality404",
+                "demozoo_id": 67077
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "Slider",
+                "demozoo_id": 118680
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "steam",
+                "demozoo_id": 11587
+            },
+            "job": "Organizers"
+        },
+        {
+            "handle": {
+                "name": "XXX",
+                "demozoo_id": 6
+            },
+            "job": "Organizers"
+        }
+    ],
+    "demozoo_party_id": 4324
+}

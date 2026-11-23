@@ -1,0 +1,43 @@
+{
+    "title": "Demosplash",
+    "started": "2018-11-02",
+    "date": "02 November 2018",
+    "type": "Shader Showdown",
+    "vod": "https://scenesat.com/videoarchive/250b96a5-b90e-11ea-b68e-00505685775e?t=10770",
+    "software_used": null,
+    "phases": [
+        {
+            "title": "Live Shader",
+            "vod": "https://scenesat.com/videoarchive/250b96a5-b90e-11ea-b68e-00505685775e?t=10770",
+            "entries": [
+                {
+                    "id": 2,
+                    "rank": 1,
+                    "points": 185,
+                    "handle": {
+                        "name": "CharStiles",
+                        "demozoo_id": 82875
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_11_02_shader_showdown_demosplash/charstiles.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2018/demosplash18/live_shader/charstiles.glsl"
+                },
+                {
+                    "id": 1,
+                    "rank": 2,
+                    "points": 159,
+                    "handle": {
+                        "name": "lsh",
+                        "demozoo_id": 82874
+                    },
+                    "shadertoy_url": null,
+                    "preview_image": "2018_11_02_shader_showdown_demosplash/lsh.jpg",
+                    "source_file": "https://files.scene.org/view/parties/2018/demosplash18/live_shader/lsh.glsl"
+                }
+            ],
+            "staffs": []
+        }
+    ],
+    "staffs": [],
+    "demozoo_party_id": 3716
+}

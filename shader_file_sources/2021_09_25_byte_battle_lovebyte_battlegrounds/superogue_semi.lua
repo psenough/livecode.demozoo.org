@@ -1,0 +1,1 @@
+t=0n=32639TIC=load't=t+.3 for o=t%2,n,1.9 do h=o%240/40-3v=o/n-.5y=0i=16z=t;x=O(z/3)*4repeat X=x%10-5Y=-y%20Z=z%10-5i=i-1r=O((X*X+Y*Y+Z*Z)/32)y=y+r*v*2x=x+r*h;z=z+r*2until(r*9+i<9)poke4(o,i/4+y/4+y%1)end for i=0,9 do circ(120,112+i*5,i+8,-i)end'O=math.cos
